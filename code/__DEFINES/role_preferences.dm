@@ -32,6 +32,7 @@
 #define ROLE_BRAINWASHED		"Brainwashed Victim"
 #define ROLE_HIVE				"Hivemind Host"
 #define ROLE_OBSESSED			"Obsessed"
+#define ROLE_GREYTIDER			"Greytider"
 #define ROLE_SENTIENCE			"Sentient Creature"
 #define ROLE_MOUSE				"Mouse"
 #define ROLE_MIND_TRANSFER		"Mind Transfer Potion"
@@ -89,6 +90,7 @@ GLOBAL_LIST_INIT(special_roles, list(
 	ROLE_BROTHER = /datum/antagonist/brother,
 	ROLE_BRAINWASHED = /datum/antagonist/brainwashed,
 	ROLE_OBSESSED = /datum/antagonist/obsessed,
+	ROLE_GREYTIDER = /datum/antagonist/greytider,
 	ROLE_INTERNAL_AFFAIRS = /datum/antagonist/traitor/internal_affairs,
 	ROLE_FUGITIVE = /datum/antagonist/fugitive,
 	ROLE_SHADOWLING = /datum/antagonist/shadowling, // Yogs
