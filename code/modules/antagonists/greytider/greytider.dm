@@ -2,29 +2,29 @@
 	name = "Greytider"
 	show_in_antagpanel = TRUE
 	antagpanel_category = "Other"
-	preview_outfit = /datum/outfit/obsessed //!what is this used for? change this later
+	preview_outfit = /datum/outfit/obsessed		//! What is this used for? Change this later
 	job_rank = ROLE_GREYTIDER
 	antag_hud_name = "greytider"
 	show_name_in_check_antagonists = TRUE
 	roundend_category = "greytider"
 	silent = TRUE //not actually silent, because greet will be called by the trauma anyway.
-	var/datum/brain_trauma/special/obsessed/trauma
+	var/datum/brain_trauma/special/greytider/trauma
 
-/datum/antagonist/obsessed/admin_add(datum/mind/new_owner,mob/admin)
+/datum/antagonist/greytider/admin_add(datum/mind/new_owner,mob/admin)
 	var/mob/living/carbon/C = new_owner.current
 	if(!istype(C))
 		to_chat(admin, "[roundend_category] come from a brain trauma, so they need to at least be a carbon!")
 		return
-	if(!C.getorgan(/obj/item/organ/brain)) // If only I had a brain
+	if(!C.getorgan(/obj/item/organ/brain))
 		to_chat(admin, "[roundend_category] come from a brain trauma, so they need to HAVE A BRAIN.")
 		return
 	message_admins("[key_name_admin(admin)] made [key_name_admin(new_owner)] into [name].")
 	log_admin("[key_name(admin)] made [key_name(new_owner)] into [name].")
-	//PRESTO FUCKIN MAJESTO
-	C.gain_trauma(/datum/brain_trauma/special/obsessed)//ZAP
+
+	C.gain_trauma(/datum/brain_trauma/special/greytider)//ZAP
 
 /datum/antagonist/obsessed/get_preview_icon()
-	var/mob/living/carbon/human/dummy/consistent/victim_dummy = new
+	var/mob/living/carbon/human/dummy/consistent/victim_dummy = new		//! Where is this seen?
 	victim_dummy.hair_color = "#bb9966" // Brown
 	victim_dummy.hair_style = "Messy"
 	victim_dummy.update_hair()
@@ -43,7 +43,7 @@
 
 	return final_icon
 
-/datum/outfit/obsessed
+/datum/outfit/obsessed		//! Outfit start - Where is this used?
 	name = "Obsessed (Preview only)"
 
 	uniform = /obj/item/clothing/under/yogs/redoveralls
@@ -54,100 +54,100 @@
 
 /datum/outfit/obsessed/post_equip(mob/living/carbon/human/H)
 	for(var/obj/item/carried_item in H.get_equipped_items(TRUE))
-		carried_item.add_mob_blood(H)//Oh yes, there will be blood...
-	H.regenerate_icons()
+		carried_item.add_mob_blood(H)
+	H.regenerate_icons()		//! Outfit end
 
-/datum/antagonist/obsessed/greet()
+/datum/antagonist/greytider/greet()
 	owner.current.playsound_local(get_turf(owner.current), 'sound/ambience/antag/creepalert.ogg', 100, FALSE, pressure_affected = FALSE)
-	to_chat(owner, span_boldannounce("You are the Obsessed!"))
-	to_chat(owner, "<B>The Voices have reached out to you, and are using you to complete their evil deeds.</B>")
-	to_chat(owner, "<B>You don't know their connection, but The Voices compel you to stalk [trauma.obsession], forcing them into a state of constant paranoia.</B>")
-	to_chat(owner, "<B>The Voices will retaliate if you fail to complete your tasks or spend too long away from your target.</B>")
+	to_chat(owner, span_boldannounce("You are the Greytider!"))
+	to_chat(owner, "<B>You've developed the compulsive urge to steal shit!</B>")
+	to_chat(owner, "<B>Greytide stationwide, baby!</B>")
+	to_chat(owner, "<B>Fuck shit up and steal whatever isn't bolted down!</B>")
 	to_chat(owner, span_boldannounce("This role does NOT enable you to otherwise surpass what's deemed creepy behavior per the rules."))//ironic if you know the history of the antag
 	owner.announce_objectives()
 
-/datum/antagonist/obsessed/Destroy()
+/datum/antagonist/greytider/Destroy()
 	if(trauma)
 		qdel(trauma)
 	. = ..()
 
-/datum/antagonist/obsessed/apply_innate_effects(mob/living/mob_override)
-	var/mob/living/M = mob_override || owner.current
-	if(M && ishuman(M) && !M.GetComponent(/datum/component/mood))
-		to_chat(owner, span_danger("You feel more aware of your condition, mood has been enabled!"))
-		M.AddComponent(/datum/component/mood) //you fool you absolute buffoon to think you could escape
+///datum/antagonist/obsessed/apply_innate_effects(mob/living/mob_override)
+//	var/mob/living/M = mob_override || owner.current
+//	if(M && ishuman(M) && !M.GetComponent(/datum/component/mood))
+//		to_chat(owner, span_danger("You feel more aware of your condition, mood has been enabled!"))
+//		M.AddComponent(/datum/component/mood) //you fool you absolute buffoon to think you could escape
 
-/datum/antagonist/obsessed/remove_innate_effects(mob/living/mob_override)
-	. = ..()
-	var/mob/living/M = mob_override || owner.current
-	var/mob/living/carbon/human/H = M
-	if(H && !H.mood_enabled)
-		var/datum/component/C = M.GetComponent(/datum/component/mood)
-		if(C) //we cannot be too sure they may have somehow removed it
-			to_chat(owner, span_danger("Your need for mental fitness vanishes alongside the voices, mood has been disabled."))
-			C.RemoveComponent()
+///datum/antagonist/obsessed/remove_innate_effects(mob/living/mob_override)
+//	. = ..()
+//	var/mob/living/M = mob_override || owner.current
+//	var/mob/living/carbon/human/H = M
+//	if(H && !H.mood_enabled)
+//		var/datum/component/C = M.GetComponent(/datum/component/mood)
+//		if(C) //we cannot be too sure they may have somehow removed it
+//			to_chat(owner, span_danger("Your need for mental fitness vanishes alongside the voices, mood has been disabled."))
+//			C.RemoveComponent()
 
-/datum/antagonist/obsessed/proc/forge_objectives(datum/mind/obsessionmind)
-	var/list/objectives_left = list("spendtime", "polaroid", "hug")
-	var/datum/quirk/family_heirloom/family_heirloom
+// /datum/antagonist/obsessed/proc/forge_objectives(datum/mind/obsessionmind)
+//	var/list/objectives_left = list("spendtime", "polaroid", "hug")
+//	var/datum/quirk/family_heirloom/family_heirloom
 
-	for(var/datum/quirk/quirky in obsessionmind.current.roundstart_quirks)
-		if(istype(quirky, /datum/quirk/family_heirloom))
-			family_heirloom = quirky
-			break
-	if(family_heirloom)//oh, they have an heirloom? Well you know we have to steal that.
-		objectives_left += "heirloom"
+//	for(var/datum/quirk/quirky in obsessionmind.current.roundstart_quirks)
+//		if(istype(quirky, /datum/quirk/family_heirloom))
+//			family_heirloom = quirky
+//			break
+//	if(family_heirloom)//oh, they have an heirloom? Well you know we have to steal that.
+//		objectives_left += "heirloom"
 
-	if(obsessionmind.assigned_role && obsessionmind.assigned_role != "Captain")
-		objectives_left += "jealous"//if they have no coworkers, jealousy will pick someone else on the station. this will never be a free objective, nice.
+//	if(obsessionmind.assigned_role && obsessionmind.assigned_role != "Captain")
+//		objectives_left += "jealous"//if they have no coworkers, jealousy will pick someone else on the station. this will never be a free objective, nice.
 
-	for(var/i in 1 to 3)
-		var/chosen_objective = pick(objectives_left)
-		objectives_left.Remove(chosen_objective)
-		switch(chosen_objective)
-			if("spendtime")
-				var/datum/objective/spendtime/spendtime = new
-				spendtime.owner = owner
-				spendtime.target = obsessionmind
-				objectives += spendtime
-			if("polaroid")
-				var/datum/objective/polaroid/polaroid = new
-				polaroid.owner = owner
-				polaroid.target = obsessionmind
-				objectives += polaroid
-			if("hug")
-				var/datum/objective/hug/hug = new
-				hug.owner = owner
-				hug.target = obsessionmind
-				objectives += hug
-			if("heirloom")
-				var/datum/objective/steal/heirloom_thief/heirloom_thief = new
-				heirloom_thief.owner = owner
-				heirloom_thief.target = obsessionmind//while you usually wouldn't need this for stealing, we need the name of the obsession
-				heirloom_thief.steal_target = family_heirloom.heirloom
-				objectives += heirloom_thief
-			if("jealous")
-				var/datum/objective/assassinate/jealous/jealous = new
-				jealous.owner = owner
-				jealous.target = obsessionmind//will reroll into a coworker on the objective itself
-				objectives += jealous
-	var/datum/objective/protect/yandere_one = new
-	yandere_one.owner = owner
-	yandere_one.target = obsessionmind
-	yandere_one.update_explanation_text()
-	objectives += yandere_one
-	var/datum/objective/maroon/yandere_two = new
-	yandere_two.owner = owner
-	yandere_two.target = obsessionmind
-	yandere_two.update_explanation_text() //usually called in find_target()
-	objectives += yandere_two
-	for(var/datum/objective/O in objectives)
-		O.update_explanation_text()
+//	for(var/i in 1 to 3)
+//		var/chosen_objective = pick(objectives_left)
+//		objectives_left.Remove(chosen_objective)
+//		switch(chosen_objective)
+//			if("spendtime")
+//				var/datum/objective/spendtime/spendtime = new
+//				spendtime.owner = owner
+//				spendtime.target = obsessionmind
+//				objectives += spendtime
+//			if("polaroid")
+//				var/datum/objective/polaroid/polaroid = new
+//				polaroid.owner = owner
+//				polaroid.target = obsessionmind
+//				objectives += polaroid
+//			if("hug")
+//				var/datum/objective/hug/hug = new
+//				hug.owner = owner
+//				hug.target = obsessionmind
+//				objectives += hug
+//			if("heirloom")
+//				var/datum/objective/steal/heirloom_thief/heirloom_thief = new
+//				heirloom_thief.owner = owner
+//				heirloom_thief.target = obsessionmind//while you usually wouldn't need this for stealing, we need the name of the obsession
+//				heirloom_thief.steal_target = family_heirloom.heirloom
+//				objectives += heirloom_thief
+//			if("jealous")
+//				var/datum/objective/assassinate/jealous/jealous = new
+//				jealous.owner = owner
+//				jealous.target = obsessionmind//will reroll into a coworker on the objective itself
+//				objectives += jealous
+//	var/datum/objective/protect/yandere_one = new
+//	yandere_one.owner = owner
+//	yandere_one.target = obsessionmind
+//	yandere_one.update_explanation_text()
+//	objectives += yandere_one
+//	var/datum/objective/maroon/yandere_two = new
+//	yandere_two.owner = owner
+//	yandere_two.target = obsessionmind
+//	yandere_two.update_explanation_text() //usually called in find_target()
+//	objectives += yandere_two
+//	for(var/datum/objective/O in objectives)
+//		O.update_explanation_text()
 
-/datum/antagonist/obsessed/roundend_report_header()
-	return 	"[span_header("Someone became obsessed!")]<br>"
+/datum/antagonist/greytider/roundend_report_header()
+	return 	"[span_header("Some heralded the tide!")]<br>"
 
-/datum/antagonist/obsessed/roundend_report()
+/datum/antagonist/greytider/roundend_report()
 	var/list/report = list()
 
 	if(!owner)
