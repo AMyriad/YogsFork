@@ -145,7 +145,7 @@
 //		O.update_explanation_text()
 
 /datum/antagonist/greytider/roundend_report_header()
-	return 	"[span_header("Some heralded the tide!")]<br>"
+	return 	"[span_header("Someone heeded the tide!")]<br>"
 
 /datum/antagonist/greytider/roundend_report()
 	var/list/report = list()
@@ -162,14 +162,14 @@
 			if(!objective.check_completion())
 				objectives_complete = FALSE
 				break
-	if(trauma)
-		if(trauma.total_time_creeping > 0)
-			report += span_greentext("The [name] spent a total of [DisplayTimeText(trauma.total_time_creeping)] being near [trauma.obsession]!")
-		else
-			report += span_redtext("The [name] did not go near their obsession the entire round! That's extremely impressive!")
-	else
-		report += span_redtext("The [name] had no trauma attached to their antagonist ways! Either it bugged out or an admin incorrectly gave this good samaritan antag and it broke! You might as well show yourself!!")
-
+//	if(trauma)
+//		if(trauma.total_time_creeping > 0)
+//			report += span_greentext("The [name] spent a total of [DisplayTimeText(trauma.total_time_creeping)] being near [trauma.obsession]!")
+//		else
+//			report += span_redtext("The [name] did not go near their obsession the entire round! That's extremely impressive!")
+//	else
+//		report += span_redtext("The [name] had no trauma attached to their antagonist ways! Either it bugged out or an admin incorrectly gave this good samaritan antag and it broke! You might as well show yourself!!")
+//
 	if(objectives.len == 0 || objectives_complete)
 		report += "<span class='greentext big'>The [name] was successful!</span>"
 	else
@@ -181,7 +181,7 @@
 ///CREEPY objectives (few chosen per obsession)///
 //////////////////////////////////////////////////
 
-/datum/objective/assassinate/obsessed //just a creepy version of assassinate
+// /datum/objective/assassinate/obsessed //just a creepy version of assassinate
 
 /datum/objective/assassinate/obsessed/update_explanation_text()
 	..()
