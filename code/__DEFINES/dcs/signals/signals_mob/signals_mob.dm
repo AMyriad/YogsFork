@@ -71,6 +71,9 @@
 #define COMSIG_MOB_RECEIVE_MAGIC "mob_receive_magic"
 	#define COMPONENT_MAGIC_BLOCKED (1<<0)
 
+#define COMSIG_MOB_RECEIVE_ARTIFACT "mob_receive_artifact"		// this may not be compatible with yogs, shout at me if I'm right
+	#define COMPONENT_BLOCK_ARTIFACT 1
+
 ///from base of mob/create_mob_hud(): ()
 #define COMSIG_MOB_HUD_CREATED "mob_hud_created"
 ///from base of hud/show_to(): (datum/hud/hud_source)
