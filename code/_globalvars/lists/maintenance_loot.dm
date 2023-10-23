@@ -960,6 +960,7 @@ GLOBAL_LIST_INIT(maintenance_loot_major,list(
 	/obj/item/storage/box/syringes/variety = W_MYTHICAL,
 	/obj/item/survivalcapsule/luxury = W_MYTHICAL,
 	/obj/item/throwing_star = W_RARE,
+	/obj/item/xenoartifact/maint = W_RARE,
 	/obj/item/wormhole_jaunter = W_RARE,
 	/obj/item/gun/ballistic/automatic/pistol/makeshift = W_MYTHICAL,
 	/obj/item/clothing/gloves/chameleon = W_RARE,
