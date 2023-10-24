@@ -71,7 +71,7 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	mutantrace_variation = MUTANTRACE_VARIATION
 
-/obj/item/clothing/suit/radiation/ComponentInitialize()		//Wizards too high on blue-eye to give a single shit about artifacts
+/obj/item/clothing/suit/wizrobe/ComponentInitialize()		// Wizards too high on blue-eye to give a single shit about artifacts
 	. = ..()
 	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100)
 
