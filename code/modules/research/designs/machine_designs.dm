@@ -778,3 +778,19 @@
 	build_path = /obj/item/circuitboard/computer/reactor
 	category = list ("Engineering Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
+
+/datum/design/board/xenoa_listing_console
+	name = "Computer Design (Xenoartifact Listing Console)"
+	desc = "The circuit board for a research listing console."
+	id = "xenoa_list_console"
+	build_path = /obj/item/circuitboard/computer/xenoartifact_console
+	category = list ("Research Machinery")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/board/xenoa_listing_inbox
+	name = "Machine Design (Bluespace Straythread Pad)"
+	desc = "The circuit board for a bluespace straythread pad."
+	id = "xenoa_list_pad"
+	build_path = /obj/item/circuitboard/machine/xenoartifact_inbox
+	category = list ("Research Machinery")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
