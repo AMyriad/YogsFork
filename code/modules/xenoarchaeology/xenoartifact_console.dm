@@ -310,7 +310,7 @@
 		dialogue = "[name] is requesting: Anomaly : Class : Artifact"
 	addtimer(CALLBACK(src, PROC_REF(change_item)), (rand(1,3)*60) SECONDS)
 
-//Used to hold information about artifact transactions. Might get standrardized sooner or later.
+//Used to hold information about artifact transactions. Might get standardized sooner or later.
 /datum/xenoartifact_info_entry
 	var/main =""
 	var/gain = ""
