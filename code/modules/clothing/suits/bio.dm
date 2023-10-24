@@ -28,7 +28,7 @@
 	resistance_flags = ACID_PROOF
 	mutantrace_variation = MUTANTRACE_VARIATION
 
-/obj/item/clothing/suit/bio_suit/ComponentInitialize()
+/obj/item/clothing/suit/bio_suit/ComponentInitialize()		//Protects against artifacts
 	. = ..()
 	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 75)
 
