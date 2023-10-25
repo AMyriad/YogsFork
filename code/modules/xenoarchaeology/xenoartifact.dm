@@ -5,7 +5,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	item_flags = ISWEAPON
 	light_color = LIGHT_COLOR_FIRE
-	desc = "A strange alien device. What could it possibly do?"
+	desc = "A strange alien device. What could it possibly shoe?"
 	throw_range = 3
 
 	///How much input the artifact is getting from activator traits
