@@ -171,6 +171,43 @@
 	icon_state = "void_blade"
 	item_state = "void_blade"
 
+/obj/item/melee/sickly_blade/dark
+	name = "sundered blade"
+	desc = "A silver blade made to cut any and all who get in it's path."
+	icon_state = "dark_blade"
+	item_state = "dark_blade"
+
+/obj/item/melee/sickly_blade/bone
+	name = "bone blade"
+	desc = "A broken bloody bone, it'll get the job done."
+	icon_state = "bone_blade"
+	item_state = "bone_blade"
+	force = 5
+	armour_penetration = 10
+	throwforce = 5
+	block_chance = 10
+
+/obj/item/melee/sickly_blade/cosmic
+	name = "cosmic blade"
+	desc = "A piece of the cosmos, shaped like a weapon for you to wield."
+	icon_state = "cosmic_blade"
+	item_state = "cosmic_blade"
+
+/obj/item/melee/sickly_blade/dark/attack(mob/living/M, mob/living/user, secondattack = FALSE)
+	. = ..()
+	var/obj/item/mantis/blade/secondsword = user.get_inactive_held_item()
+	if(istype(secondsword, /obj/item/melee/sickly_blade/bone) && !secondattack)
+		sleep(0.2 SECONDS)
+		secondsword.attack(M, user, TRUE)
+		user.changeNext_move(CLICK_CD_MELEE)
+	return
+
+/obj/item/melee/sickly_blade/knock
+	name = "key blade"
+	desc = "A blade in the shape of a key, what door will you unlock with it?"
+	icon_state = "knock_blade"
+	item_state = "knock_blade"
+
 /obj/item/clothing/neck/eldritch_amulet
 	name = "warm eldritch medallion"
 	desc = "A strange medallion. Peering through the crystalline surface, the world around you melts away. You see your own beating heart, and the pulse of a thousand others."
@@ -302,7 +339,7 @@
 	flags_inv = HIDESHOES|HIDEJUMPSUIT
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
 	allowed = list(/obj/item/melee/sickly_blade, /obj/item/forbidden_book)
-	armor = list(MELEE = 15, BULLET = 15, LASER = 15, ENERGY = 15, BOMB = 35, BIO = 20, RAD = 0, FIRE = 20, ACID = 20) //interesting? Maybe?
+	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 20, ACID = 20) //interesting? Maybe?
 	resistance_flags = FIRE_PROOF
 	
 	/// The mob currently wearing this
@@ -466,3 +503,14 @@
 
 		if(DT_PROB(25, seconds_per_tick))
 			human_in_range.set_dizzy_if_lower(10 SECONDS)
+
+/obj/item/sharpener/eldritch
+	name = "Master's Whetstone"
+	icon = 'yogstation/icons/obj/kitchen.dmi'
+	icon_state = "cult_sharpener"
+	desc = "An ancient block of metal from the abyss."
+	force = 5
+	increment = 4
+	max = 30
+	prefix = "abyss-sharpened"
+	requires_sharpness = 1
