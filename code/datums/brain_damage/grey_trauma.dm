@@ -103,17 +103,3 @@
 //		return
 //	addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(to_chat), obsession, span_warning("You catch [examining_mob] staring at you...")), 3)
 //	return COMSIG_BLOCK_EYECONTACT
-
-/datum/brain_trauma/special/greytider/proc/find_obsession()
-	var/chosen_victim
-	var/list/possible_targets = list()
-	var/list/viable_minds = list()
-	for(var/mob/Player in GLOB.player_list)//prevents crewmembers falling in love with nuke ops they never met, and other annoying hijinks
-		if(Player.mind && Player.stat != DEAD && !isnewplayer(Player) && !isbrain(Player) && Player.client && Player != owner && SSjob.GetJob(Player.mind.assigned_role))
-			viable_minds += Player.mind
-	for(var/datum/mind/possible_target in viable_minds)
-		if(possible_target != owner && ishuman(possible_target.current))
-			possible_targets += possible_target.current
-	if(possible_targets.len > 0)
-		chosen_victim = pick(possible_targets)
-	return chosen_victim
