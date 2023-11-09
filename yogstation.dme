@@ -2291,6 +2291,7 @@
 #include "code\modules\events\flutes.dm"
 #include "code\modules\events\fugitive_spawning.dm"
 #include "code\modules\events\ghost_role.dm"
+#include "code\modules\events\greytider_awakening.dm"
 #include "code\modules\events\grid_check.dm"
 #include "code\modules\events\heart_attack.dm"
 #include "code\modules\events\high_priority_bounty.dm"
