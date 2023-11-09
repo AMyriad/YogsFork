@@ -24,7 +24,7 @@
 	C.gain_trauma(/datum/brain_trauma/special/greytider)//ZAP
 
 /datum/antagonist/obsessed/get_preview_icon()
-	var/mob/living/carbon/human/dummy/consistent/victim_dummy = new		//! Where is this seen?
+	var/mob/living/carbon/human/dummy/consistent/victim_dummy = new		//! Where is this seen? The menu?
 	victim_dummy.hair_color = "#bb9966" // Brown
 	victim_dummy.hair_style = "Messy"
 	victim_dummy.update_hair()
@@ -62,8 +62,8 @@
 	to_chat(owner, span_boldannounce("You are the Greytider!"))
 	to_chat(owner, "<B>You've developed the compulsive urge to steal shit!</B>")
 	to_chat(owner, "<B>Greytide stationwide, baby!</B>")
-	to_chat(owner, "<B>Fuck shit up and steal whatever isn't bolted down!</B>")
-	to_chat(owner, span_boldannounce("This role does NOT enable you to otherwise surpass what's deemed creepy behavior per the rules."))//ironic if you know the history of the antag
+	to_chat(owner, "<B>Fuck shit up and take whatever isn't nailed down!</B>")
+	to_chat(owner, span_boldannounce("This role does NOT enable you to other"))//ironic if you know the history of the antag
 	owner.announce_objectives()
 
 /datum/antagonist/greytider/Destroy()
@@ -183,148 +183,148 @@
 
 // /datum/objective/assassinate/obsessed //just a creepy version of assassinate
 
-/datum/objective/assassinate/obsessed/update_explanation_text()
-	..()
-	if(target && target.current)
-		explanation_text = "Murder [target.name], the [!target_role_type ? target.assigned_role : target.special_role]."
-	else
-		message_admins("WARNING! [ADMIN_LOOKUPFLW(owner)] obsessed objectives forged without an obsession!")
-		explanation_text = "Free Objective"
+///datum/objective/assassinate/obsessed/update_explanation_text()
+//	..()
+//	if(target && target.current)
+//		explanation_text = "Murder [target.name], the [!target_role_type ? target.assigned_role : target.special_role]."
+//	else
+//		message_admins("WARNING! [ADMIN_LOOKUPFLW(owner)] obsessed objectives forged without an obsession!")
+//		explanation_text = "Free Objective"
+//
+///datum/objective/assassinate/jealous //assassinate, but it changes the target to someone else in the previous target's department. cool, right?
+//	var/datum/mind/old //the target the coworker was picked from.
 
-/datum/objective/assassinate/jealous //assassinate, but it changes the target to someone else in the previous target's department. cool, right?
-	var/datum/mind/old //the target the coworker was picked from.
+///datum/objective/assassinate/jealous/update_explanation_text()
+//	..()
+//	old = find_coworker(target)
+//	if(target && target.current && old)
+//		explanation_text = "Murder [target.name], [old]'s coworker."
+//	else
+//		explanation_text = "Free Objective"
 
-/datum/objective/assassinate/jealous/update_explanation_text()
-	..()
-	old = find_coworker(target)
-	if(target && target.current && old)
-		explanation_text = "Murder [target.name], [old]'s coworker."
-	else
-		explanation_text = "Free Objective"
-
-/datum/objective/assassinate/jealous/proc/find_coworker(datum/mind/oldmind)//returning null = free objective
-	if(!oldmind.assigned_role)
-		return
-	var/list/viable_coworkers = list()
-	var/list/all_coworkers = list()
-	var/chosen_department
-	var/their_chosen_department
+///datum/objective/assassinate/jealous/proc/find_coworker(datum/mind/oldmind)//returning null = free objective
+//	if(!oldmind.assigned_role)
+//		return
+//	var/list/viable_coworkers = list()
+//	var/list/all_coworkers = list()
+//	var/chosen_department
+//	var/their_chosen_department
 	//note that command and sillycone are gone because borgs can't be obsessions and the heads have their respective department. Sorry cap, your place is more with centcom or something
-	if(oldmind.assigned_role in GLOB.security_positions)
-		chosen_department = "security"
-	if(oldmind.assigned_role in GLOB.engineering_positions)
-		chosen_department = "engineering"
-	if(oldmind.assigned_role in GLOB.medical_positions)
-		chosen_department = "medical"
-	if(oldmind.assigned_role in GLOB.science_positions)
-		chosen_department = "science"
-	if(oldmind.assigned_role in GLOB.supply_positions)
-		chosen_department = "supply"
-	if(oldmind.assigned_role in GLOB.civilian_positions)
-		chosen_department = "civilian"
-	for(var/mob/living/carbon/human/H in GLOB.alive_mob_list)
-		if(!H.mind)
-			continue
-		if(!SSjob.GetJob(H.mind.assigned_role) || H == oldmind.current || H.mind.has_antag_datum(/datum/antagonist/obsessed))
-			continue //the jealousy target has to have a job, and not be the obsession or obsessed.
-		all_coworkers += H.mind
+//	if(oldmind.assigned_role in GLOB.security_positions)
+//		chosen_department = "security"
+//	if(oldmind.assigned_role in GLOB.engineering_positions)
+//		chosen_department = "engineering"
+//	if(oldmind.assigned_role in GLOB.medical_positions)
+//		chosen_department = "medical"
+//	if(oldmind.assigned_role in GLOB.science_positions)
+//		chosen_department = "science"
+//	if(oldmind.assigned_role in GLOB.supply_positions)
+//		chosen_department = "supply"
+//	if(oldmind.assigned_role in GLOB.civilian_positions)
+//		chosen_department = "civilian"
+//	for(var/mob/living/carbon/human/H in GLOB.alive_mob_list)
+//		if(!H.mind)
+//			continue
+//		if(!SSjob.GetJob(H.mind.assigned_role) || H == oldmind.current || H.mind.has_antag_datum(/datum/antagonist/obsessed))
+//			continue //the jealousy target has to have a job, and not be the obsession or obsessed.
+//		all_coworkers += H.mind
 		//this won't be called often thankfully.
-		if(H.mind.assigned_role in GLOB.security_positions)
-			their_chosen_department = "security"
-		if(H.mind.assigned_role in GLOB.engineering_positions)
-			their_chosen_department = "engineering"
-		if(H.mind.assigned_role in GLOB.medical_positions)
-			their_chosen_department = "medical"
-		if(H.mind.assigned_role in GLOB.science_positions)
-			their_chosen_department = "science"
-		if(H.mind.assigned_role in GLOB.supply_positions)
-			their_chosen_department = "supply"
-		if(H.mind.assigned_role in GLOB.civilian_positions)
-			their_chosen_department = "civilian"
-		if(their_chosen_department != chosen_department)
-			continue
-		viable_coworkers += H.mind
+//		if(H.mind.assigned_role in GLOB.security_positions)
+//			their_chosen_department = "security"
+//		if(H.mind.assigned_role in GLOB.engineering_positions)
+//			their_chosen_department = "engineering"
+//		if(H.mind.assigned_role in GLOB.medical_positions)
+//			their_chosen_department = "medical"
+//		if(H.mind.assigned_role in GLOB.science_positions)
+//			their_chosen_department = "science"
+//		if(H.mind.assigned_role in GLOB.supply_positions)
+//			their_chosen_department = "supply"
+//		if(H.mind.assigned_role in GLOB.civilian_positions)
+//			their_chosen_department = "civilian"
+//		if(their_chosen_department != chosen_department)
+//			continue
+//		viable_coworkers += H.mind
 
-	if(viable_coworkers.len > 0)//find someone in the same department
-		target = pick(viable_coworkers)
-	else if(all_coworkers.len > 0)//find someone who works on the station
-		target = pick(all_coworkers)
-	return oldmind
+//	if(viable_coworkers.len > 0)//find someone in the same department
+//		target = pick(viable_coworkers)
+//	else if(all_coworkers.len > 0)//find someone who works on the station
+//		target = pick(all_coworkers)
+//	return oldmind
 
-/datum/objective/spendtime //spend some time around someone, handled by the obsessed trauma since that ticks
-	name = "spendtime"
-	var/timer = 1800 //5 minutes
+///datum/objective/spendtime //spend some time around someone, handled by the obsessed trauma since that ticks
+//	name = "spendtime"
+//	var/timer = 1800 //5 minutes
 
-/datum/objective/spendtime/update_explanation_text()
-	if(timer == initial(timer))//just so admins can mess with it
-		timer += pick(-600, 0)
-	var/datum/antagonist/obsessed/creeper = owner.has_antag_datum(/datum/antagonist/obsessed)
-	if(target && target.current && creeper)
-		creeper.trauma.attachedobsessedobj = src
-		explanation_text = "Spend [DisplayTimeText(timer)] around [target.name] while they're alive."
-	else
-		explanation_text = "Free Objective"
+///datum/objective/spendtime/update_explanation_text()
+//	if(timer == initial(timer))//just so admins can mess with it
+//		timer += pick(-600, 0)
+//	var/datum/antagonist/obsessed/creeper = owner.has_antag_datum(/datum/antagonist/obsessed)
+//	if(target && target.current && creeper)
+//		creeper.trauma.attachedobsessedobj = src
+//		explanation_text = "Spend [DisplayTimeText(timer)] around [target.name] while they're alive."
+//	else
+//		explanation_text = "Free Objective"
 
-/datum/objective/spendtime/check_completion()
-	if(..())
-		return TRUE
-	return timer <= 0 || explanation_text == "Free Objective"
-
-
-/datum/objective/hug//this objective isn't perfect. hugging the correct amount of times, then switching bodies, might fail the objective anyway. maybe i'll come back and fix this sometime.
-	name = "hugs"
-	var/hugs_needed
-
-/datum/objective/hug/update_explanation_text()
-	..()
-	if(!hugs_needed)//just so admins can mess with it
-		hugs_needed = rand(4,6)
-	var/datum/antagonist/obsessed/creeper = owner.has_antag_datum(/datum/antagonist/obsessed)
-	if(target && target.current && creeper)
-		explanation_text = "Hug [target.name] [hugs_needed] times while they're alive."
-	else
-		explanation_text = "Free Objective"
-
-/datum/objective/hug/check_completion()
-	if(..())
-		return TRUE
-	var/datum/antagonist/obsessed/creeper = owner.has_antag_datum(/datum/antagonist/obsessed)
-	if(!creeper || !creeper.trauma || !hugs_needed)
-		return TRUE//free objective
-	return creeper.trauma.obsession_hug_count >= hugs_needed
-
-/datum/objective/polaroid //take a picture of the target with you in it.
-	name = "polaroid"
-
-/datum/objective/polaroid/update_explanation_text()
-	..()
-	if(target && target.current)
-		explanation_text = "Take a photo with [target.name] while they're alive."
-	else
-		explanation_text = "Free Objective"
-
-/datum/objective/polaroid/check_completion()
-	if(..())
-		return TRUE
-	var/list/datum/mind/owners = get_owners()
-	for(var/datum/mind/M in owners)
-		if(!isliving(M.current))
-			continue
-		var/list/all_items = M.current.get_all_contents()	//this should get things in cheesewheels, books, etc.
-		for(var/obj/I in all_items) //Check for wanted items
-			if(istype(I, /obj/item/photo))
-				var/obj/item/photo/P = I
-				if(P.picture.minds_seen.Find(owner) && P.picture.minds_seen.Find(target) && !P.picture.dead_seen.Find(target))//you are in the picture, they are but they are not dead.
-					return TRUE
-	return FALSE
+///datum/objective/spendtime/check_completion()
+//	if(..())
+//		return TRUE
+//	return timer <= 0 || explanation_text == "Free Objective"
 
 
-/datum/objective/steal/heirloom_thief //exactly what it sounds like, steal someone's heirloom.
-	name = "heirloomthief"
+///datum/objective/hug//this objective isn't perfect. hugging the correct amount of times, then switching bodies, might fail the objective anyway. maybe i'll come back and fix this sometime.
+//	name = "hugs"
+//	var/hugs_needed
 
-/datum/objective/steal/heirloom_thief/update_explanation_text()
-	..()
-	if(steal_target)
-		explanation_text = "Steal [target.name]'s family heirloom, [steal_target] they cherish."
-	else
-		explanation_text = "Free Objective"
+///datum/objective/hug/update_explanation_text()
+//	..()
+//	if(!hugs_needed)//just so admins can mess with it
+//		hugs_needed = rand(4,6)
+//	var/datum/antagonist/obsessed/creeper = owner.has_antag_datum(/datum/antagonist/obsessed)
+//	if(target && target.current && creeper)
+//		explanation_text = "Hug [target.name] [hugs_needed] times while they're alive."
+//	else
+//		explanation_text = "Free Objective"
+	
+///datum/objective/hug/check_completion()
+//	if(..())
+//		return TRUE
+//	var/datum/antagonist/obsessed/creeper = owner.has_antag_datum(/datum/antagonist/obsessed)
+//	if(!creeper || !creeper.trauma || !hugs_needed)
+//		return TRUE//free objective
+//	return creeper.trauma.obsession_hug_count >= hugs_needed
+	
+///datum/objective/polaroid //take a picture of the target with you in it.
+//	name = "polaroid"
+
+///datum/objective/polaroid/update_explanation_text()
+//	..()
+//	if(target && target.current)
+//		explanation_text = "Take a photo with [target.name] while they're alive."
+//	else
+//		explanation_text = "Free Objective"
+
+///datum/objective/polaroid/check_completion()
+//	if(..())
+//		return TRUE
+//	var/list/datum/mind/owners = get_owners()
+//	for(var/datum/mind/M in owners)
+//		if(!isliving(M.current))
+//			continue
+//		var/list/all_items = M.current.get_all_contents()	//this should get things in cheesewheels, books, etc.
+//		for(var/obj/I in all_items) //Check for wanted items
+//			if(istype(I, /obj/item/photo))
+//				var/obj/item/photo/P = I
+//				if(P.picture.minds_seen.Find(owner) && P.picture.minds_seen.Find(target) && !P.picture.dead_seen.Find(target))//you are in the picture, they are but they are not dead.
+//					return TRUE
+//	return FALSE
+
+
+///datum/objective/steal/heirloom_thief //exactly what it sounds like, steal someone's heirloom.
+//	name = "heirloomthief"
+
+///datum/objective/steal/heirloom_thief/update_explanation_text()
+//	..()
+//	if(steal_target)
+//		explanation_text = "Steal [target.name]'s family heirloom, [steal_target] they cherish."
+//	else
+//		explanation_text = "Free Objective"
