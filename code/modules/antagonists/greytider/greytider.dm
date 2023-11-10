@@ -2,7 +2,7 @@
 	name = "Greytider"
 	show_in_antagpanel = TRUE
 	antagpanel_category = "Other"
-	preview_outfit = /datum/outfit/obsessed		//! What is this used for? Change this later
+	preview_outfit = /datum/outfit/greytider		//! What is this used for? Change this later
 	job_rank = ROLE_GREYTIDER
 	antag_hud_name = "greytider"
 	show_name_in_check_antagonists = TRUE
@@ -43,16 +43,16 @@
 
 	return final_icon
 
-/datum/outfit/obsessed		//! Outfit start - Where is this used?
-	name = "Obsessed (Preview only)"
+/datum/outfit/greytider		//! Outfit start - Where is this used? Menu?
+	name = "Greytider (Preview only)"
 
-	uniform = /obj/item/clothing/under/yogs/redoveralls
-	gloves = /obj/item/clothing/gloves/color/latex
-	mask = /obj/item/clothing/mask/surgical
-	neck = /obj/item/camera
-	suit = /obj/item/clothing/suit/apron
+	uniform = /obj/item/clothing/under/color/grey
+	gloves = /obj/item/clothing/gloves/color/yellow
+	mask = /obj/item/clothing/mask/gas
+	r_hand = /obj/item/storage/backpack/duffelbag
+	belt = /obj/item/storage/belt/utility/makeshift
 
-/datum/outfit/obsessed/post_equip(mob/living/carbon/human/H)
+/datum/outfit/greytider/post_equip(mob/living/carbon/human/H)
 	for(var/obj/item/carried_item in H.get_equipped_items(TRUE))
 		carried_item.add_mob_blood(H)
 	H.regenerate_icons()		//! Outfit end
@@ -63,7 +63,7 @@
 	to_chat(owner, "<B>You've developed the compulsive urge to steal shit!</B>")
 	to_chat(owner, "<B>Greytide stationwide, baby!</B>")
 	to_chat(owner, "<B>Fuck shit up and take whatever isn't nailed down!</B>")
-	to_chat(owner, span_boldannounce("This role does NOT enable you to other"))//ironic if you know the history of the antag
+	to_chat(owner, span_boldannounce("While the greytiding rule does not apply to antagonists, especially you, this role does NOT enable you to grief or behave like a dick excessively per the rules."))
 	owner.announce_objectives()
 
 /datum/antagonist/greytider/Destroy()
