@@ -1,6 +1,6 @@
 /datum/brain_trauma/special/greytider
 	name = "Kleptomaniacal ODD"
-  desc = "Patient suffers from a manic compulsion to steal and vandalize."
+	desc = "Patient suffers from a manic compulsion to steal and vandalize."
 	scan_desc = "kleptomaniac oppositional defiant disorder"
 	gain_text = "If you see this message, make a github issue report. The trauma initialized wrong."
 	lose_text = span_warning("The voices in your head fall silent.")
