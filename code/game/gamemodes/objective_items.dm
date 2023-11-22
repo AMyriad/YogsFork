@@ -264,6 +264,68 @@
 	targetitem = /obj/item/reagent_containers/food/snacks/meat/slab/corgi
 	difficulty = 5
 
+/datum/objective_item/misc/New()
+	..()
+	if(TargetExists())
+		GLOB.possible_items_misc += src
+	else
+		qdel(src)
+
+/datum/objective_item/misc/Destroy()
+	GLOB.possible_items_misc -= src
+	return ..()
+
+//Expanded list of stuff to steal. Not all grand theft, but more to be a nuisance
+/datum/objective_item/misc/spareid
+	name = "the Captain's spare ID card."
+	targetitem = /obj/item/card/id/captains_spare/spareid
+	difficulty = 10
+
+/datum/objective_item/misc/rcd
+	name = "a Rapid Construction Device."
+	targetitem = /obj/item/construction/rcd
+	difficulty = 5
+
+/datum/objective_item/misc/pinpointer/nuke	//
+	name = "a Nuclear Authentication Disk pinpointer."
+	targetitem = /obj/item/pinpointer
+	difficulty = 10
+
+/datum/objective_item/misc/fireaxe
+	name = "a fire axe."
+	targetitem = /obj/item/fireaxe
+	difficulty = 5
+
+/datum/objective_item/misc/cmdremote //Ye who controls the doors controls the station
+	name = "the command door remote."
+	targetitem = /obj/item/door_remote/captain
+	difficulty = 10
+
+/datum/objective_item/misc/engremote
+	name = "the engineering door remote."
+	targetitem = /obj/item/door_remote/chief_engineer
+	difficulty = 7
+
+/datum/objective_item/misc/sciremote
+	name = "the research door remote."
+	targetitem = /obj/item/door_remote/research_director
+	difficulty = 7
+
+/datum/objective_item/misc/medremote
+	name = "the medical door remote."
+	targetitem = /obj/item/door_remote/chief_medical_officer
+	difficulty = 7
+
+/datum/objective_item/misc/supremote
+	name = "the supply door remote."
+	targetitem = /obj/item/door_remote/quartermaster
+	difficulty = 7
+
+/datum/objective_item/misc/civremote
+	name = "the civilian door remote."
+	targetitem = /obj/item/door_remote/civilian
+	difficulty = 7
+
 /datum/objective_item/stack/New()
 	..()
 	if(TargetExists())
