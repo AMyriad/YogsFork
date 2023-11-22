@@ -275,56 +275,65 @@
 	GLOB.possible_items_misc -= src
 	return ..()
 
-//Expanded list of stuff to steal. Not all grand theft, but more to be a nuisance
+//Greytider extra objectives. Not all meant to be grand theft, but stuff people wouldn't want stolen.
 /datum/objective_item/misc/spareid
 	name = "the Captain's spare ID card."
 	targetitem = /obj/item/card/id/captains_spare/spareid
-	difficulty = 10
+	difficulty = 10 //The holy grail
 
 /datum/objective_item/misc/rcd
 	name = "a Rapid Construction Device."
 	targetitem = /obj/item/construction/rcd
-	difficulty = 5
-
-/datum/objective_item/misc/pinpointer/nuke	//
-	name = "a Nuclear Authentication Disk pinpointer."
+	difficulty = 3
+	excludefromjob = list("Station Engineer", "Atmospheric Technician", "Network Admin")
+	
+/datum/objective_item/misc/pinpointer/nuke
+	name = "a Nuclear Authentication Disk pinpointer." //Two onboard the station, both highly guarded
 	targetitem = /obj/item/pinpointer
-	difficulty = 10
+	difficulty = 5
 
 /datum/objective_item/misc/fireaxe
 	name = "a fire axe."
 	targetitem = /obj/item/fireaxe
-	difficulty = 5
+	difficulty = 4
+	excludefromjob = list("Station Engineer", "Atmospheric Technician")
 
-/datum/objective_item/misc/cmdremote //Ye who controls the doors controls the station
+/datum/objective_item/misc/comremote //Ye who controls the doors controls the station
 	name = "the command door remote."
 	targetitem = /obj/item/door_remote/captain
-	difficulty = 10
+	difficulty = 7
 
 /datum/objective_item/misc/engremote
 	name = "the engineering door remote."
 	targetitem = /obj/item/door_remote/chief_engineer
-	difficulty = 7
+	difficulty = 5
 
 /datum/objective_item/misc/sciremote
 	name = "the research door remote."
 	targetitem = /obj/item/door_remote/research_director
-	difficulty = 7
+	difficulty = 5
 
 /datum/objective_item/misc/medremote
 	name = "the medical door remote."
 	targetitem = /obj/item/door_remote/chief_medical_officer
-	difficulty = 7
+	difficulty = 5
 
 /datum/objective_item/misc/supremote
 	name = "the supply door remote."
 	targetitem = /obj/item/door_remote/quartermaster
-	difficulty = 7
+	difficulty = 5
+	excludefromjob = list("Quartermaster")
 
 /datum/objective_item/misc/civremote
 	name = "the civilian door remote."
 	targetitem = /obj/item/door_remote/civilian
-	difficulty = 7
+	difficulty = 5
+
+/datum/objective_item/misc/insuls
+	name = "a pair of insulated gloves."
+	targetitem = /obj/item/clothing/gloves/color/yellow
+	difficulty = 3
+	excludefromjob = list("Station Engineer", "Atmospheric Technician", "Network Admin")
 
 /datum/objective_item/stack/New()
 	..()
