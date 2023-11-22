@@ -301,7 +301,7 @@
 /datum/objective_item/misc/comremote //Ye who controls the doors controls the station
 	name = "the command door remote."
 	targetitem = /obj/item/door_remote/captain
-	difficulty = 7
+	difficulty = 6
 
 /datum/objective_item/misc/engremote
 	name = "the engineering door remote."
@@ -334,6 +334,19 @@
 	targetitem = /obj/item/clothing/gloves/color/yellow
 	difficulty = 3
 	excludefromjob = list("Station Engineer", "Atmospheric Technician", "Network Admin")
+
+/datum/objective_item/misc/medkit	//This medkit has to be fully stocked and unused, fresh off the shelf
+	name = "an unused medkit."
+	targetitem = /obj/item/storage/firstaid
+	//var/empty = FALSE		Need to figure this out, I'll get back to this some time
+	difficulty = 3
+	excludefromjob = list("Medical Doctor", "Chemist", "Geneticist", "Virologist", "Paramedic", "Psychiatrist", "Mining Medic", "Brig Physician") //No medical allowed
+
+/datum/objective_item/misc/sci_protoboard
+	name = "a science protolathe machine board."
+	targetitem = /obj/item/circuitboard/machine/protolathe/department/science
+	difficulty = 3
+	excludefromjob = list("Scientist", "Roboticist") //No science here
 
 /datum/objective_item/stack/New()
 	..()
