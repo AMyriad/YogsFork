@@ -288,9 +288,9 @@
 	excludefromjob = list("Station Engineer", "Atmospheric Technician", "Network Admin")
 	
 /datum/objective_item/misc/pinpointer/nuke
-	name = "a Nuclear Authentication Disk pinpointer." //Two onboard the station, both highly guarded
+	name = "a Nuclear Authentication Disk pinpointer." //Two onboard station, both highly guarded
 	targetitem = /obj/item/pinpointer
-	difficulty = 5
+	difficulty = 5 //Same difficulty as the disk. Why is it only 5? No fucking clue
 
 /datum/objective_item/misc/fireaxe
 	name = "a fire axe."
