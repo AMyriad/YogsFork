@@ -7,7 +7,7 @@
 /datum/round_event/greytider
 	fakeable = FALSE
 
-/datum/round_event/obsessed/start()
+/datum/round_event/greytider/start()
 	for(var/mob/living/carbon/human/H in shuffle(GLOB.player_list))
 		if(!H.client || !(ROLE_GREYTIDER in H.client.prefs.be_special))
 			continue
