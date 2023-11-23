@@ -93,8 +93,20 @@
 				else if(GLOB.security_level < SEC_LEVEL_RED)
 					set_security_level(SEC_LEVEL_RED)
 
-
-
-
-				
-
+//THE TIDE CALLS
+prob(25)
+	/datum/round_event/greytider/start()
+	for(var/mob/living/carbon/human/H in shuffle(GLOB.player_list))
+		if(!H.client || !(ROLE_GREYTIDER in H.client.prefs.be_special))
+			continue
+		if(H.stat == DEAD)
+			continue
+		if(!SSjob.GetJob(H.mind.assigned_role) || (H.mind.assigned_role in GLOB.nonhuman_positions))
+			continue
+		if(H.mind.has_antag_datum(/datum/antagonist))
+			continue
+		if(!H.getorgan(/obj/item/organ/brain))
+			continue
+		H.gain_trauma(/datum/brain_trauma/special/greytider)
+		announce_to_ghosts(H)
+		break
