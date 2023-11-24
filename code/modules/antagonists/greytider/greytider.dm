@@ -162,12 +162,8 @@
 			if(!objective.check_completion())
 				objectives_complete = FALSE
 				break
-/*
+
 	if(trauma)
-		if(trauma.total_time_creeping > 0)
-			report += span_greentext("The [name] spent a total of [DisplayTimeText(trauma.total_time_creeping)] being near [trauma.obsession]!")
-		else
-			report += span_redtext("The [name] did not go near their obsession the entire round! That's extremely impressive!")
 	else
 		report += span_redtext("The [name] had no trauma attached to their antagonist ways! Either it bugged out or an admin incorrectly gave this good samaritan antag and it broke! You might as well show yourself!!")
 
@@ -178,11 +174,11 @@
 
 	return report.Join("<br>")
 
-
+/*
 /CREEPY objectives (few chosen per obsession)/
 
 
- /datum/objective/assassinate/obsessed just a creepy version of assassinate
+ /datum/objective/assassinate/obsessed //just a creepy version of assassinate
 
 /datum/objective/assassinate/obsessed/update_explanation_text()
 	..()
