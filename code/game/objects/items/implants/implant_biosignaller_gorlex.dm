@@ -27,7 +27,7 @@ var/list/gorlex_biosignal = world.file2list(BIOSIGNAL_STRING_NUKIE) //A message 
 	// What is to be said.
 	var/message = "OPERATIVE NOTICE: AGENT [mobname] TERMI//N&#@$¤#§>..." // Default message for unexpected causes.
 	if(cause == "death")
-			message = "OPERATIVE NOTICE: AGENT [mobname] MICROEXPLOSIVE DETONATED IN [turf.name]. [gorlex_biosignal]" 
+		message = "OPERATIVE NOTICE: AGENT [mobname] MICROEXPLOSIVE DETONATED IN [turf.name]. [gorlex_biosignal]" 
 
   
 	name = "[mobname]'s Biosignaller"
