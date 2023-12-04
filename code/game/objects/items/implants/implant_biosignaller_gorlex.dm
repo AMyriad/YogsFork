@@ -1,4 +1,4 @@
-#define BIOSIGNAL_STRING_NUKIE "strings/biosignal/nukie.txt"
+#define BIOSIGNAL_STRING_NUKIE "strings/biosignal_nukie.txt"
 
 /obj/item/implant/biosignaller/gorlex
 	name = "gorlex marauder biosignaller implant"
