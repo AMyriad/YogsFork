@@ -1,23 +1,23 @@
 #define BIOSIGNAL_STRING_NUKIE "strings/biosignal_nukie.txt"
 
-/obj/item/implant/biosignaller/gorlex
+/obj/item/implant/biosignaller/nukie
 	name = "gorlex marauder biosignaller implant"
 	desc = "Monitors host vital signs and transmits an encrypted radio message upon death."
 	actions_types = null
 	verb_say = "broadcasts"
 	var/obj/item/radio/radio
 
-/obj/item/implant/biosignaller/gorlex/Initialize(mapload)
+/obj/item/implant/biosignaller/nukie/Initialize(mapload)
 	. = ..()
 	radio = new(src)
-	radio.keyslot = new /obj/item/encryptionkey/syndicate //Should broadcast exclusively on the syndicate channel.
+	radio.keyslot = new/obj/item/encryptionkey/syndicate // Should broadcast exclusively on the syndicate channel.
 	radio.listening = FALSE
 	radio.recalculateChannels()
 
-var/list/gorlex_biosig_list = world.file2list(BIOSIGNAL_STRING_NUKIE) //A message from command to encourage the surviving team members.
-var/gorlex_biosignal = pick(gorlex_biosig_list)
+var/list/gorlex_biosignal_list = world.file2list(BIOSIGNAL_STRING_NUKIE) // A message from command to encourage the surviving team members.
+var/gorlex_biosig = pick(gorlex_biosignal_list)
 
-/obj/item/implant/biosignaller/gorlex/activate(cause)
+/obj/item/implant/biosignaller/nukie/activate(cause)
 	if(!imp_in)
 		return FALSE
 
@@ -28,20 +28,20 @@ var/gorlex_biosignal = pick(gorlex_biosig_list)
 	// What is to be said.
 	var/message = "OPERATIVE NOTICE: AGENT [mobname] TERMI//N&#@$¤#§>..." // Default message for unexpected causes.
 	if(cause == "death")
-		message = "OPERATIVE NOTICE: AGENT [mobname] MICROEXPLOSIVE DETONATED IN [turf.name]. [gorlex_biosignal]" 
+		message = "OPERATIVE NOTICE: AGENT [mobname] MICROEXPLOSIVE DETONATED IN [turf.name]. [gorlex_biosig]" 
 
   
 	name = "[mobname]'s Biosignaller"
 	radio.talk_into(src, message, RADIO_CHANNEL_SYNDICATE)
-	qdel(src) //Deleted after use, wouldn't want to leave anything behind
+	qdel(src) // No reuses.
 
-/obj/item/implant/biosignaller/gorlex/on_mob_death(mob/living/L, gibbed)
+/obj/item/implant/biosignaller/nukie/on_mob_death(mob/living/L, gibbed)
 	if(gibbed)
 		activate("gibbed") // Will use default message.
 	else
 		activate("death")
 
-/obj/item/implant/biosignaller/gorlex/get_data()
+/obj/item/implant/biosignaller/nukie/get_data()
 	. = {"<b>Implant Specifications:</b><BR>
 		<b>Name:</b>Gorlex Marauder Biosignaller Implant<BR>
 		<b>Life:</b>Until death<BR>
@@ -50,5 +50,5 @@ var/gorlex_biosignal = pick(gorlex_biosig_list)
 		<b>Implant Details:</b><BR>
     <b>Function:</b>Contains a miniature radio connected to a bioscanner encased in an EMP-resistant shell. Broadcasts the death and last known position of the user over an encrypted radio channel.<BR>"}
 
-/obj/item/implanter/biosignaller/gorlex
-	imp_type = /obj/item/implant/biosignaller/gorlex
+/obj/item/implanter/biosignaller/nukie // Testing/admin purposes.
+	imp_type = /obj/item/implant/biosignaller/nukie
