@@ -14,7 +14,8 @@
 	radio.listening = FALSE
 	radio.recalculateChannels()
 
-var/list/gorlex_biosignal = world.file2list(BIOSIGNAL_STRING_NUKIE) //A message from command to encourage the surviving team members.
+var/list/gorlex_biosig_list = world.file2list(BIOSIGNAL_STRING_NUKIE) //A message from command to encourage the surviving team members.
+var/gorlex_biosignal = pick(gorlex_biosig_list)
 
 /obj/item/implant/biosignaller/gorlex/activate(cause)
 	if(!imp_in)
