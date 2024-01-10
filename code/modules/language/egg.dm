@@ -4,7 +4,7 @@
 	speech_verb = "blurbles"
 	ask_verb = "cracks"
 	exclaim_verb = "sizzles"
-	key = "e"
+	key = "5"
 	flags = TONGUELESS_SPEECH
 	space_chance = 40
 	syllables = list(
