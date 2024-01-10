@@ -32,7 +32,8 @@
 		/datum/language/encrypted,
 		/datum/language/felinid,
 		/datum/language/english,
-		/datum/language/french
+		/datum/language/french,
+		/datum/language/deep
 	))
 
 /obj/item/organ/tongue/Initialize(mapload)
