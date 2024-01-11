@@ -382,7 +382,8 @@ Key procs
 								/datum/language/bonespeak = list(LANGUAGE_ATOM),
 								/datum/language/sylvan = list(LANGUAGE_ATOM),
 								/datum/language/draconic = list(LANGUAGE_ATOM),
-								/datum/language/machine = list(LANGUAGE_ATOM))
+								/datum/language/machine = list(LANGUAGE_ATOM),
+								/datum/language/deep = list(LANGUAGE_ATOM))
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
 							/datum/language/felinid = list(LANGUAGE_ATOM),
 							/datum/language/english = list(LANGUAGE_ATOM),
@@ -392,7 +393,8 @@ Key procs
 							/datum/language/bonespeak = list(LANGUAGE_ATOM),
 							/datum/language/sylvan = list(LANGUAGE_ATOM),
 							/datum/language/draconic = list(LANGUAGE_ATOM),
-							/datum/language/machine = list(LANGUAGE_ATOM))
+							/datum/language/machine = list(LANGUAGE_ATOM),
+							/datum/language/deep = list(LANGUAGE_ATOM))
 
 /datum/language_holder/empty
 	understood_languages = list()
@@ -408,18 +410,18 @@ Key procs
 
 /datum/language_holder/egg
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-								/datum/language/egg = list(LANGUAGE_ATOM),)
+								/datum/language/egg = list(LANGUAGE_ATOM))
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-							/datum/language/egg = list(LANGUAGE_ATOM),)
+							/datum/language/egg = list(LANGUAGE_ATOM))
 
 /datum/language_holder/english
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-								/datum/language/english = list(LANGUAGE_ATOM),)
+								/datum/language/english = list(LANGUAGE_ATOM))
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-							/datum/language/english = list(LANGUAGE_ATOM),)
+							/datum/language/english = list(LANGUAGE_ATOM))
 
-/datum/language_holder/aquatic
+/datum/language_holder/carpfolk
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-								/datum/language/deep = list(LANGUAGE_ATOM),)
+								/datum/language/deep = list(LANGUAGE_ATOM))
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-							/datum/language/deep = list(LANGUAGE_ATOM),)
+							/datum/language/deep = list(LANGUAGE_ATOM))
