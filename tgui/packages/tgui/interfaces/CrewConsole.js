@@ -92,6 +92,10 @@ const speciesmap = {
     "icon": "question-circle",
     "color": "#d40db9",
   },
+  "Carpfolk": {
+    "icon": "fish",
+    "color": "#00ffff",
+  },
 };
 
 export const jobIsHead = jobId => jobId % 10 === 0;
