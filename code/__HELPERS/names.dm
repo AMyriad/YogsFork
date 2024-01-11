@@ -55,6 +55,9 @@
 /proc/ipc_name()
 	return "[pick(GLOB.posibrain_names)]-[rand(100, 999)]"
 
+/proc/carpfolk_name()
+	return "[pick(GLOB.carpfolk_names) the (pick(First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eighth, Ninth, Tenth, Eleventh, Twelfth)]"
+
 GLOBAL_VAR(command_name)
 /proc/command_name()
 	if (GLOB.command_name)
