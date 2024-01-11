@@ -269,7 +269,8 @@
 		/datum/language/felinid,
 		/datum/language/mothian,
 		/datum/language/polysmorph,
-		/datum/language/sylvan
+		/datum/language/sylvan,
+		/datum/language/deep
 	)
 
 /// Contains both common and rarer languages.
@@ -286,6 +287,7 @@
 		/datum/language/mothian,
 		/datum/language/polysmorph,
 		/datum/language/sylvan,
+		/datum/language/deep,
 		/datum/language/aphasia,
 		/datum/language/beachbum,
 		/datum/language/egg,
