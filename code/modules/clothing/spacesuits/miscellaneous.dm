@@ -11,6 +11,7 @@ Contains:
  - Cosmonaut spacesuit
  - Freedom's spacesuit (freedom from vacuum's oppression)
  - Emergency spacesuit
+ - Carpfolk fishbowls
 */
 
 	//NEW SWAT suit
@@ -236,6 +237,7 @@ Contains:
 		playsound(loc, 'sound/weapons/slashmiss.ogg', 50, 1)
 		playsound(loc, 'sound/effects/refill.ogg', 50, 1)
 
+	//Carpfolk fishbowls
 // Armor based on envirohelms, as they both serve the same purpose
 /obj/item/clothing/head/helmet/space/fishbowl
 	name = "integrated fishbowl"
