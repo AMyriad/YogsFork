@@ -39,7 +39,7 @@
 
 	smells_like = "fish oil and polish"
 
-/datum/species/carpfolk/random_name(unique)
+/datum/species/carpfolk/random_name
 	var/carpfolk = "[pick(GLOB.carpfolk_names)] the [pick('First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth', 'Ninth', 'Tenth', 'Eleventh', 'Twelfth')]"
 	return carpfolk_name
 

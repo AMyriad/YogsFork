@@ -265,7 +265,7 @@ Contains:
 
 /obj/item/clothing/head/helmet/space/fishbowl/Initialize(mapload)
 	. = ..()
-	ADD_TRAIT(src, TRAIT_NODROP)
+	ADD_TRAIT(src, TRAIT_NODROP, FISHBOWL_TRAIT)
 	
 /obj/item/clothing/head/helmet/space/fishbowl/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", final_block_chance = 0, damage = 0, attack_type = MELEE_ATTACK)
 	playsound(loc, 'sound/effects/Glasshit.ogg', 50, 1)
