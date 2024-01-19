@@ -10,6 +10,6 @@
 	syllables = list(
 		"umm", "ooh", "mmmh", "blub", "glub", "blomm", "oolm", "bloop", "hoom"
 	)
-	icon_state = "fish"
+	icon_state = "deepspeech"
 	default_priority = 90
 	sing_verb = "trills"
