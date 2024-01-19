@@ -1,5 +1,5 @@
 /datum/language/deep
-	name = "Deep"
+	name = "Deep Speech"
 	desc = "The language of the deep, spoken by those hailing from it."
 	speech_verb = "thrums"
 	ask_verb = "warbles"
