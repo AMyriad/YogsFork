@@ -9,10 +9,9 @@
 	mutantbrain = /obj/item/organ/brain/fish
 	/*mutantheart = /obj/item/organ/heart/cybernetic/ipc //water pump of some kind?
 	mutantliver = /obj/item/organ/liver/cybernetic/upgraded/ipc //water filter
-	mutantstomach = /obj/item/organ/stomach/cell //water turbine?
+	mutantstomach = /obj/item/organ/stomach/cell //power cell
 	mutantlungs = /obj/item/organ/lungs/ipc //water pump/filter?
 	mutant_organs = list(/obj/item/organ/cyberimp/arm/power_cord, /obj/item/organ/cyberimp/chest/cooling_intake)*/
-	mutant_bodyparts = list("carpfolk_fishbowl")
 	default_features = list("mcolor" = "#7D7D7D","ipc_chassis" = "Morpheus Cyberkinetics(Greyscale)")
 	meat = /obj/item/reagent_containers/food/snacks/carpmeat
 	skinned_type = /obj/item/stack/sheet/plasteel{amount = 5}
@@ -21,8 +20,9 @@
 	limbs_id = "synth"
 	pressuremod = 0.9 // chassis is pretty durable, and mostly sealed
 	tempmod = 0.7 // water has high specific heat, makes a great coolant
-	coldmod = 1.35 // wouldn't go well if all that water freezed up though
-	heatmod = 1.15 // ditto for heat, but a tropically hot fishbowl is preferable
+	coldmod = 1.3 // wouldn't go well if all that water freezed up though
+	heatmod = 1.15 // ditto for heat, but a tropically hot fishbowl is better than a cold one
+	toxmod = 1.2 // I poisoned the water supply, now everyone dead whoops
 	siemens_coeff = 1.75 // but it makes one hell of a conductor
 	species_gibs = "robotic"
 	attack_sound = 'sound/effects/Glasshit.ogg'
