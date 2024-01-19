@@ -79,6 +79,7 @@
 #define MOB_REPTILE		(1<<8)
 #define MOB_SPIRIT		(1<<9)
 #define MOB_SPECIAL		(1<<10) //eldritch biggums
+#define MOB_AQUATIC		(1<<11)
 
 
 /// All the biotypes that matter
