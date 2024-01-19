@@ -1363,6 +1363,9 @@
 /mob/living/carbon/human/species/polysmorph
 	race = /datum/species/polysmorph
 
+/mob/living/carbon/human/species/carpfolk
+	race = /datum/species/carpfolk
+
 /mob/living/carbon/human/species/shadow
 	race = /datum/species/shadow
 
