@@ -6,7 +6,7 @@
 	species_traits = list(NOTRANSSTING,NOEYESPRITES,MUTCOLORS,AGENDER,NOHUSK,NO_UNDERWEAR)
 	inherent_traits = list(TRAIT_NOBREATH,TRAIT_NOCRITDAMAGE,TRAIT_MEDICALIGNORE,TRAIT_NOCLONE,TRAIT_TOXIMMUNE,TRAIT_NODEFIB,TRAIT_POWERHUNGRY)
 	inherent_biotypes = MOB_ROBOTIC|MOB_HUMANOID
-	mutantbrain = /obj/item/organ/brain/fish
+	//mutantbrain = /obj/item/organ/brain/fish
 	/*mutantheart = /obj/item/organ/heart/cybernetic/ipc //water pump of some kind?
 	mutantliver = /obj/item/organ/liver/cybernetic/upgraded/ipc //water filter
 	mutantstomach = /obj/item/organ/stomach/cell //power cell
@@ -18,11 +18,11 @@
 	exotic_blood = /datum/reagent/water
 	damage_overlay_type = "synth"
 	limbs_id = "synth"
-	pressuremod = 0.9 // chassis is pretty durable, and mostly sealed
-	tempmod = 0.7 // water has high specific heat, makes a great coolant
-	coldmod = 1.3 // wouldn't go well if all that water freezed up though
-	heatmod = 1.15 // ditto for heat, but a tropically hot fishbowl is better than a cold one
-	toxmod = 1.2 // I poisoned the water supply, now everyone dead whoops
+	pressuremod = 0.9 // Exosuit is pretty durable, and mostly sealed
+	tempmod = 0.7 // Water has high specific heat, makes a great coolant
+	coldmod = 1.3 // Wouldn't go well if all that water freezed up though
+	heatmod = 1.15 // Ditto for heat, but a tropically hot fishbowl is better than a cold one
+	toxmod = 1.2 // I poisoned the water supply, now everyone dead. Whoops
 	siemens_coeff = 1.75 // but it makes one hell of a conductor
 	species_gibs = "robotic"
 	attack_sound = 'sound/effects/Glasshit.ogg'
@@ -39,8 +39,8 @@
 
 	smells_like = "fish oil and polish"
 
-/datum/species/carpfolk/random_name
-	var/carpfolk = "[pick(GLOB.carpfolk_names)] the [pick('First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth', 'Ninth', 'Tenth', 'Eleventh', 'Twelfth')]"
+/datum/species/carpfolk/random_name(unique)
+	var/carpfolk_name = "[pick(GLOB.carpfolk_names)] the [thtotext(12)]"
 	return carpfolk_name
 
 /datum/species/carpfolk/on_species_gain(mob/living/carbon/C)

@@ -7,11 +7,10 @@
 	icon_dead = "base_dead"
 	icon_gib = "carp_gib"
 	health_doll_icon = "megacarp"
-  pass_flags = PASSTABLE | PASSMOB // Slippery bastards
+	pass_flags = PASSTABLE | PASSMOB // Slippery bastards
 	mob_biotypes = MOB_ORGANIC | MOB_AQUATIC | MOB_BEAST
 	butcher_results = list(/obj/item/reagent_containers/food/snacks/carpmeat = 2)
 	response_help = "pets"  // Caress the fish
-  response_grab = "grips" // OBTAIN the fish
 	speed = 0
 	maxHealth = 100 // If a brain has 100 health why shouldn't the fish?
 	health = 100
