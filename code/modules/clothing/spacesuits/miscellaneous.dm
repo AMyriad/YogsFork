@@ -235,3 +235,35 @@ Contains:
 		torn = TRUE
 		playsound(loc, 'sound/weapons/slashmiss.ogg', 50, 1)
 		playsound(loc, 'sound/effects/refill.ogg', 50, 1)
+
+// Armor based on envirohelms, as they both serve the same purpose
+/obj/item/clothing/head/helmet/space/fishbowl
+	name = "integrated fishbowl"
+	icon_state = "blue_envirohelm"
+	item_state = "blue_envirohelm"
+	desc = "A clear, glass helmet integrated into your aquatic exosuit. The closest thing to home among the stars."
+	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 100, RAD = 0, FIRE = 100, ACID = 75)
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+
+/obj/item/clothing/head/helmet/space/fishbowl/security
+	name = "armored fishbowl"
+	icon_state = "purple_envirohelm"
+	item_state = "purple_envirohelm"
+	desc = "A tinted, glass helmet integrated into your aquatic exosuit. It's reinforced, designed for security work."
+	armor = list(MELEE = 35, BULLET = 30, LASER = 30, ENERGY = 10, BOMB = 25, BIO = 100, RAD = 0, FIRE = 100, ACID = 75, WOUND = 10)
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+
+/obj/item/clothing/head/helmet/space/fishbowl/command
+	name = "integrated command fishbowl"
+	icon_state = "command_envirohelm"
+	item_state = "command_envirohelm"
+	desc = "A sleek, comfortable glass helmet with gold trims integrated into your aquatic exosuit. It's slightly reinforced, designed for carpfolk in positions of authority."
+	armor = list(MELEE = 25, BULLET = 15, LASER = 25, ENERGY = 10, BOMB = 25, BIO = 100, RAD = 0, FIRE = 100, ACID = 75, WOUND = 5)
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+
+/obj/item/clothing/head/helmet/space/fishbowl/Initialize(mapload)
+	. = ..()
+	ADD_TRAIT(src, TRAIT_NODROP)
+	
+/obj/item/clothing/head/helmet/space/fishbowl/hit_reaction(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", final_block_chance = 0, damage = 0, attack_type = MELEE_ATTACK)
+	playsound(loc, 'sound/effects/Glasshit.ogg', 50, 1)
