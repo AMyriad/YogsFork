@@ -79,6 +79,11 @@
 	color = "#cbee63" //slightly more yellowy than regular liquid electricity because of the grey scale image used
 	compatible_types = list(/datum/blood_type/electricity)
 
+/datum/blood_type/water
+	name = "H2O"
+	color = "#72D5FA64" //just a tad opaque
+	compatible_types = list(/datum/blood_type/water)
+
 ////////////////////////////////////////////////////////////////
 //-----------------Wonky simplemob(?) bloodtypes--------------//
 ////////////////////////////////////////////////////////////////
