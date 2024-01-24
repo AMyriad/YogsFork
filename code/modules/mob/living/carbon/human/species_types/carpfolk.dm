@@ -16,6 +16,7 @@
 	meat = /obj/item/reagent_containers/food/snacks/carpmeat
 	skinned_type = /obj/item/stack/sheet/plasteel{amount = 5}
 	exotic_blood = /datum/reagent/water
+	exotic_bloodtype = "H2O"
 	damage_overlay_type = "synth"
 	limbs_id = "synth"
 	pressuremod = 0.9 // Exosuit is pretty durable, and mostly sealed
