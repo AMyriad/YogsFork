@@ -276,9 +276,21 @@
 	to_add += list(
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "lightbulb",
-			SPECIES_PERK_NAME = "Disco Ball",
-			SPECIES_PERK_DESC = "Ethereals passively generate their own light.",
+			SPECIES_PERK_ICON = "sun",
+			SPECIES_PERK_NAME = "Living Star",
+			SPECIES_PERK_DESC = "Ethereals passively emit light. Its intensity increases depending on charge.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "heart-circle-bolt",
+			SPECIES_PERK_NAME = "Crystal Heart",
+			SPECIES_PERK_DESC = "Ethereal hearts never decompose, and form a reviving chrysalis around them 5 minutes after death. Those who revive through this intense process are left with an irreversible brain trauma.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "arrows-to-eye",
+			SPECIES_PERK_NAME = "Telescopic Orbits",
+			SPECIES_PERK_DESC = "Ethereals see one tile further in all directions.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
@@ -289,7 +301,7 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "biohazard",
-			SPECIES_PERK_NAME = "Starving Artist",
+			SPECIES_PERK_NAME = "Burning Core",
 			SPECIES_PERK_DESC = "Ethereals take toxin damage while starving.",
 		),
 	)

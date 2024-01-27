@@ -2544,7 +2544,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "band-aid",
 			SPECIES_PERK_NAME = "Brutal Weakness",
-			SPECIES_PERK_DESC = "[plural_form] are weak to brute damage.",
+			SPECIES_PERK_DESC = "[plural_form] are weak to bruising and brute damage.",
 		))
 
 	if(brutemod < 1)
@@ -2569,7 +2569,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "shield-alt",
 			SPECIES_PERK_NAME = "Fire Resilience",
-			SPECIES_PERK_DESC = "[plural_form] are resilient to flames, and burn damage.",
+			SPECIES_PERK_DESC = "[plural_form] are resilient to fire and burn damage.",
 		))
 
 	// Shock damage
@@ -2627,7 +2627,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(heatmod < 1/* || bodytemp_heat_damage_limit > BODYTEMP_HEAT_DAMAGE_LIMIT*/)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "thermometer-empty",
+			SPECIES_PERK_ICON = "thermometer-full",
 			SPECIES_PERK_NAME = "Heat Resilience",
 			SPECIES_PERK_DESC = "[plural_form] are resilient to hotter environments.",
 		))
@@ -2664,7 +2664,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "tint-slash",
-			SPECIES_PERK_NAME = "Bloodletted",
+			SPECIES_PERK_NAME = "Bloodless",
 			SPECIES_PERK_DESC = "[plural_form] do not have blood.",
 		))
 
@@ -2721,7 +2721,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(TRAIT_EASYDISMEMBER in inherent_traits)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "user-times",
+			SPECIES_PERK_ICON = "crutch",
 			SPECIES_PERK_NAME = "Limbs Easily Dismembered",
 			SPECIES_PERK_DESC = "[plural_form] limbs are not secured well, and as such they are easily dismembered.",
 		))
@@ -2729,7 +2729,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(TRAIT_EASILY_WOUNDED in inherent_traits)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "user-times",
+			SPECIES_PERK_ICON = "user-injured",
 			SPECIES_PERK_NAME = "Easily Wounded",
 			SPECIES_PERK_DESC = "[plural_form] skin is very weak and fragile. They are much easier to apply serious wounds to.",
 		))
@@ -2753,7 +2753,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 /datum/species/proc/create_pref_biotypes_perks()
 	var/list/to_add = list()
 
-	if(inherent_biotypes & MOB_UNDEAD)
+	if(inherent_biotypes & MOB_UNDEAD & ![id = "plasmaman"])
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "skull",
@@ -2769,6 +2769,14 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			SPECIES_PERK_NAME = "Robotic",
 			SPECIES_PERK_DESC = "[plural_form] have limbs comprised entirely of metal and circuitry, this will make standard surgery ineffective. \
 				However, this gives [plural_form] the ability to do self-maintenance with just simple tools.",
+		))
+
+	if(DIGITIGRADE in species_traits)
+		to_add += list(list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "shoe-prints",
+			SPECIES_PERK_NAME = "Digitigrade",
+			SPECIES_PERK_DESC = "[plural_form] possess digitigrade legs, preventing them from fitting into most standard footwear. Footwraps can be worn as a substitute instead.",
 		))
 
 	return to_add
@@ -2797,9 +2805,9 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(length(bonus_languages))
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "comment",
-			SPECIES_PERK_NAME = "Native Speaker",
-			SPECIES_PERK_DESC = "Alongside [initial(common_language.name)], [plural_form] gain the ability to speak [english_list(bonus_languages)].",
+			SPECIES_PERK_ICON = "book",
+			SPECIES_PERK_NAME = "[english_list(bonus_languages)] Fluency",
+			SPECIES_PERK_DESC = "Alongside [initial(common_language.name)], [plural_form] gain the ability to speak and understand [english_list(bonus_languages)].",
 		))
 
 	qdel(temp_holder)

@@ -79,7 +79,7 @@
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "robot",
-			SPECIES_PERK_NAME = "Asimov Superiority",
+			SPECIES_PERK_NAME = "Asimov Priority",
 			SPECIES_PERK_DESC = "The AI and their cyborgs are, by default, subservient only \
 				to humans. As a human, silicons are required to both protect and obey you.",
 		))
@@ -87,9 +87,14 @@
 	if(CONFIG_GET(flag/enforce_human_authority))
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "bullhorn",
-			SPECIES_PERK_NAME = "Chain of Command",
-			SPECIES_PERK_DESC = "Nanotrasen only recognizes humans for Captain and Head of Personel. In addition to this, humans get more than other species.",
+			SPECIES_PERK_ICON = "medal",
+			SPECIES_PERK_NAME = "Nanotrasen's Trusted",
+			SPECIES_PERK_DESC = "Per company policy, only humans may bear the rank of Captain. In addition to this, humans may serve as any and all Heads of Staff.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
+			SPECIES_PERK_ICON = "balance-scale",
+			SPECIES_PERK_NAME = "Master of None",
+			SPECIES_PERK_DESC = "Humans notably lack any actual racial benefits or drawbacks. The standard experience.",
 		))
-
 	return to_add
