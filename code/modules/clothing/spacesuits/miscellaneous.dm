@@ -257,8 +257,8 @@ Contains:
 
 /obj/item/clothing/head/helmet/space/fishbowl/command
 	name = "integrated command fishbowl"
-	icon_state = "command_envirohelm"
-	item_state = "command_envirohelm"
+	icon_state = "ce_envirohelm"
+	item_state = "ce_envirohelm"
 	desc = "A sleek, comfortable glass helmet with gold trims integrated into your aquatic exosuit. It's slightly reinforced, designed for carpfolk in positions of authority."
 	armor = list(MELEE = 25, BULLET = 15, LASER = 25, ENERGY = 10, BOMB = 25, BIO = 100, RAD = 0, FIRE = 100, ACID = 75, WOUND = 5)
 	resistance_flags = FIRE_PROOF | ACID_PROOF

@@ -1,10 +1,10 @@
-/datum/species/carpfolk // FISH PEOPLE. Distant cousins of space carp who never left the seas, piloting a water-based robot body from their integrated fishbowl. Absolutely wicked.
+/datum/species/carpfolk // FISH PEOPLE. Distant cousins of space carp who never left the seas, piloting a water-based robot body from their integrated fishbowl.
 	name = "Carpfolk"
 	id = "carpfolk"
 	say_mod = "blubs"
 	sexes = FALSE // it do be just a fish
 	species_traits = list(NOTRANSSTING,NOEYESPRITES,MUTCOLORS,AGENDER,NOHUSK,NO_UNDERWEAR)
-	inherent_traits = list(TRAIT_NOBREATH,TRAIT_NOCRITDAMAGE,TRAIT_MEDICALIGNORE,TRAIT_NOCLONE,TRAIT_TOXIMMUNE,TRAIT_NODEFIB,TRAIT_POWERHUNGRY)
+	inherent_traits = list(TRAIT_NOBREATH,TRAIT_NOCRITDAMAGE,TRAIT_MEDICALIGNORE,TRAIT_NOCLONE,TRAIT_NODEFIB, TRAIT_NO_BLOOD_REGEN)
 	inherent_biotypes = MOB_ROBOTIC|MOB_HUMANOID
 	//mutantbrain = /obj/item/organ/brain/fish
 	/*mutantheart = /obj/item/organ/heart/cybernetic/ipc //water pump of some kind?
@@ -14,7 +14,7 @@
 	mutant_organs = list(/obj/item/organ/cyberimp/arm/power_cord, /obj/item/organ/cyberimp/chest/cooling_intake)*/
 	default_features = list("mcolor" = "#7D7D7D","ipc_chassis" = "Morpheus Cyberkinetics(Greyscale)")
 	meat = /obj/item/reagent_containers/food/snacks/carpmeat
-	skinned_type = /obj/item/stack/sheet/plasteel{amount = 5}
+	skinned_type = /obj/item/stack/sheet/mineral/titanium{amount = 10}
 	exotic_blood = /datum/reagent/water
 	exotic_bloodtype = "H2O"
 	damage_overlay_type = "synth"
@@ -22,23 +22,20 @@
 	pressuremod = 0.9 // Exosuit is pretty durable, and mostly sealed
 	tempmod = 0.7 // Water has high specific heat, makes a great coolant
 	coldmod = 1.3 // Wouldn't go well if all that water freezed up though
-	heatmod = 1.15 // Ditto for heat, but a tropically hot fishbowl is better than a cold one
-	toxmod = 1.2 // I poisoned the water supply, now everyone dead. Whoops
-	siemens_coeff = 1.75 // but it makes one hell of a conductor
+	heatmod = 1.15 // Ditto for heat, but a tropical fishbowl is better than a cold one
+	toxmod = 1.2 // Poison -> water supply -> not good
+	siemens_coeff = 1.75 // Water also makes a great conductor
 	species_gibs = "robotic"
 	attack_sound = 'sound/effects/Glasshit.ogg'
 	/*screamsound = 'goon/sound/robot_scream.ogg'
 	deathsound = 'sound/voice/borg_deathsound.ogg'*/
 	special_step_sounds = list('sound/effects/footstep/catwalk1.ogg', 'sound/effects/footstep/catwalk2.ogg', 'sound/effects/footstep/catwalk3.ogg', 'sound/effects/footstep/catwalk4.ogg')
-	special_walk_sounds = list('sound/effects/servostep.ogg')
 	species_language_holder = /datum/language_holder/carpfolk
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
-	// Hats need to be 1 up
-	offset_features = list(OFFSET_HEAD = list(0,1))
 
 	var/datum/action/innate/change_screen/change_screen
 
-	smells_like = "fish oil and polish"
+	smells_like = "fish oil"
 
 /datum/species/carpfolk/random_name(unique)
 	var/carpfolk_name = "[pick(GLOB.carpfolk_names)] the [thtotext(12)]"
