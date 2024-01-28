@@ -1,5 +1,5 @@
 /obj/item/implant/biosig_ert
-	name = "ert biosignaller implant"
+	name = "ERT biosignaller implant"
 	desc = "Monitors host vital signs and transmits an encrypted radio message upon death."
 	actions_types = null
 	verb_say = "broadcasts"
@@ -25,8 +25,7 @@
 	if(cause == "death")
 		message = "TEAM ALERT: [mobname]'s lifesigns ceased in [turf.name]! Dispatch notified, proceed with caution."
 
-
-	name = "[mobname]'s Biosignaller"
+	name = "Biosignaller Implant"
 	radio.talk_into(src, message, RADIO_CHANNEL_CENTCOM)
 
 /obj/item/implant/biosig_ert/on_mob_death(mob/living/L, gibbed)

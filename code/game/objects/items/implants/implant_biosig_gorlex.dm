@@ -1,5 +1,5 @@
 /obj/item/implant/biosig_gorlex
-	name = "gorlex marauder biosignaller implant"
+	name = "Gorlex Marauder biosignaller implant"
 	desc = "Monitors host vital signs and transmits an encrypted radio message upon death."
 	actions_types = null
 	verb_say = "broadcasts"
@@ -44,9 +44,8 @@
 	var/message = "OPERATIVE NOTICE: AGENT [uppertext(mobname)] EXPLO//N&#@$¤#§>..." // Default message for unexpected causes.
 	if(cause == "death")
 		message = "OPERATIVE NOTICE: AGENT [uppertext(mobname)] EXPLOSIVE IMPLANT TRIGGERED IN [uppertext(turf.name)]. [gorlex_msg]"
-
-
-	name = "[mobname]'s Biosignaller"
+	
+	name = "Biosignaller Implant"
 	radio.talk_into(src, message, RADIO_CHANNEL_SYNDICATE)
 	qdel(src) // Single purpose, single use.
 
