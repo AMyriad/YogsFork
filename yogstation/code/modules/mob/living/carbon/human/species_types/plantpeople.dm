@@ -338,16 +338,23 @@
 /datum/species/pod/create_pref_unique_perks()
 	var/list/to_add = list()
 
-	// TODO
+	to_add += list(
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "clover",
+			SPECIES_PERK_NAME = "Photosynthesis",
+			SPECIES_PERK_DESC = "Phytosians regenerate and gain sustenance when in light. This healing effect is doubled when processing sugar.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "moon",
+			SPECIES_PERK_NAME = "Naught But Bone",
+			SPECIES_PERK_DESC = "Plasmamen may only suffer fracture wounds, and have higher tolerance to being afflicted with them.
+		),
+	)
 
 	return to_add
 
-/datum/species/pod/create_pref_biotypes_perks()
-	var/list/to_add = list()
-
-	// TODO
-
-	return to_add
 /*
  Podpeople subspecies: IVYMEN
 */

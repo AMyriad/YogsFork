@@ -240,47 +240,42 @@
 	to_add += list(
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "user-shield",
-			SPECIES_PERK_NAME = "Protected",
-			SPECIES_PERK_DESC = "Plasmamen are immune to radiation, poisons, and most diseases.",
+			SPECIES_PERK_ICON = "user-astronaut",
+			SPECIES_PERK_NAME = "The Suit",
+			SPECIES_PERK_DESC = "Plasmamen begin with an airtight envirosuit, which they are dependant on to survive. \
+				Their envirohelm is also space-worthy, and provides shielding from welding flashes, as well as an inbuilt flashlight.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "bone",
-			SPECIES_PERK_NAME = "Wound Resistance",
-			SPECIES_PERK_DESC = "Plasmamen have higher tolerance for damage that would wound others.",
+			SPECIES_PERK_NAME = "Naught But Bone",
+			SPECIES_PERK_DESC = "Plasmamen may only suffer fracture wounds, and have higher tolerance to being afflicted with them.
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "wind",
-			SPECIES_PERK_NAME = "Plasma Healing",
-			SPECIES_PERK_DESC = "Plasmamen can heal wounds by consuming plasma.",
-		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "hard-hat",
-			SPECIES_PERK_NAME = "Protective Helmet",
-			SPECIES_PERK_DESC = "Plasmamen's helmets provide them shielding from the flashes of welding, as well as an inbuilt flashlight.",
+			SPECIES_PERK_ICON = "skull",
+			SPECIES_PERK_NAME = "Hazard-born",
+			SPECIES_PERK_DESC = "Plasmamen are completely immune to being husked, hungry, or cold.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "fire",
-			SPECIES_PERK_NAME = "Living Torch",
-			SPECIES_PERK_DESC = "Plasmamen instantly ignite when their body makes contact with oxygen.",
+			SPECIES_PERK_NAME = "Phlogiston",
+			SPECIES_PERK_DESC = "Plasmamen instantly ignite upon coming into contact with oxygen.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "wind",
-			SPECIES_PERK_NAME = "Plasma Breathing",
-			SPECIES_PERK_DESC = "Plasmamen must breathe plasma to survive. You receive a tank when you arrive.",
+			SPECIES_PERK_ICON = "mask-face",
+			SPECIES_PERK_NAME = "Baroxuldium Breath",
+			SPECIES_PERK_DESC = "Oxygen is toxic to Plasmamen, and must instead breathe plasma to survive. \
+				You receive a tank that will last most of the shift when you arrive.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "briefcase-medical",
-			SPECIES_PERK_NAME = "Complex Biology",
-			SPECIES_PERK_DESC = "Plasmamen take specialized medical knowledge to be \
-				treated. Do not expect speedy revival, if you are lucky enough to get \
-				one at all.",
+			SPECIES_PERK_ICON = "heart-circle-xmark",
+			SPECIES_PERK_NAME = "Heartless Bastard",
+			SPECIES_PERK_DESC = "Plasmamen do not have hearts. Combined with their predisposition to oxygen, \
+				surgery and revival may be much more slow and/or difficult.",
 		),
 	)
 

@@ -108,27 +108,28 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "feather-alt",
 			SPECIES_PERK_NAME = "Precious Wings",
-			SPECIES_PERK_DESC = "Moths can fly in pressurized, zero-g environments and safely land short falls using their wings.",
+			SPECIES_PERK_NAME = "Flutter Wings",
+			SPECIES_PERK_DESC = "Ex'hau can fly in pressurized, zero-g environments and safely land \
+				short falls using their wings. Take care however, as they're easily burnt off.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "tshirt",
-			SPECIES_PERK_NAME = "Meal Plan",
-			SPECIES_PERK_DESC = "Moths can eat clothes for nourishment.",
+			SPECIES_PERK_ICON = "scroll",
+			SPECIES_PERK_NAME = "Silky Sustenance",
+			SPECIES_PERK_DESC = "Ex'hau can eat cloth for nourishment.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "fire",
-			SPECIES_PERK_NAME = "Ablazed Wings",
-			SPECIES_PERK_DESC = "Moth wings are fragile, and can be easily burnt off.",
+			SPECIES_PERK_ICON = "mosquito",
+			SPECIES_PERK_NAME = "Fluffy Pests",
+			SPECIES_PERK_DESC = "Ex'hau are hurt much more by pest spray and fly swatters.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "sun",
-			SPECIES_PERK_NAME = "Bright Lights",
-			SPECIES_PERK_DESC = "Moths need an extra layer of flash protection to protect \
-				themselves, such as against security officers or when welding. Welding \
-				masks will work.",
+			SPECIES_PERK_ICON = "lightbulb",
+			SPECIES_PERK_NAME = "Nocturnal Eyes",
+			SPECIES_PERK_DESC = "Ex'hau have very sensitive eyes. Welding may need more than one layer of protection, \
+				and sunglasses won't shield them from flashes.",
 		),
 	)
 
