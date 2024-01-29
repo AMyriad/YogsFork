@@ -141,6 +141,11 @@
 
 	// TODO
 
+	/* brain in chest
+cold immunity
+no need to breathe
+can't process most chems
+	*/
 	return to_add
 
 /datum/action/innate/change_screen
