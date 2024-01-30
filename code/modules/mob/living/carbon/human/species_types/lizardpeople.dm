@@ -185,7 +185,7 @@
 		SPECIES_PERK_ICON = "shoe-prints",
 		SPECIES_PERK_NAME = "Digitigrade",
 		SPECIES_PERK_DESC = "Vuulen have digitigrade legs, preventing them from fitting into most standard footwear. \
-			Footwraps need to be worn in lieu of shoes instead.
+			Footwraps need to be worn in lieu of shoes instead.",
 		),
 	)
 

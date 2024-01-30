@@ -249,7 +249,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "bone",
 			SPECIES_PERK_NAME = "Bones of Steel",
-			SPECIES_PERK_DESC = "Plasmamen may only suffer fracture wounds, and have higher tolerance to being afflicted with them.
+			SPECIES_PERK_DESC = "Plasmamen may only suffer fracture wounds, and have higher tolerance to being afflicted with them.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
