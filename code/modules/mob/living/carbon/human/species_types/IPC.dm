@@ -139,7 +139,36 @@
 /datum/species/ipc/create_pref_unique_perks()
 	var/list/to_add = list()
 
-	// TODO
+	to_add += list(
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "brain",
+			SPECIES_PERK_NAME = "Rerouted Consciousness",
+			SPECIES_PERK_DESC = "IPCs have positronic brains located in their chest rather than the head, letting them survive decapitation.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
+			SPECIES_PERK_ICON = "robot",
+			SPECIES_PERK_NAME = "Automa",
+			SPECIES_PERK_DESC = "IPCs are completely inorganic. They boast complete immunity to \
+				toxins, cell damage, disease, and have no need to breathe. However their organs \
+				do not regenerate, and must be replaced if destroyed.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "trash-alt",
+			SPECIES_PERK_NAME = "\[DATA EXPUNGED\]",
+			SPECIES_PERK_DESC = "IPCs lose all recent memory on death regardless of how long they've been dead for, \
+				never remembering how they died.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "dna",
+			SPECIES_PERK_NAME = "NULL_SEQUENCE",
+			SPECIES_PERK_DESC = "IPCs have no genetic sequence, and cannot be affected by mutations nor be cloned.",
+		),
+
+	)
 
 	return to_add
 

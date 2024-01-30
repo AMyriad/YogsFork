@@ -248,7 +248,7 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "bone",
-			SPECIES_PERK_NAME = "Naught But Bone",
+			SPECIES_PERK_NAME = "Bones of Steel",
 			SPECIES_PERK_DESC = "Plasmamen may only suffer fracture wounds, and have higher tolerance to being afflicted with them.
 		),
 		list(
@@ -267,15 +267,21 @@
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "mask-face",
 			SPECIES_PERK_NAME = "Baroxuldium Breath",
-			SPECIES_PERK_DESC = "Oxygen is toxic to Plasmamen, and must instead breathe plasma to survive. \
-				You receive a tank that will last most of the shift when you arrive.",
+			SPECIES_PERK_DESC = "Oxygen is toxic to Plasmamen, and they must instead breathe plasma to survive. \
+				You receive a tank which will last most of the shift when you arrive.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "heart-circle-xmark",
-			SPECIES_PERK_NAME = "Heartless Bastard",
+			SPECIES_PERK_NAME = "Heartless Husk",
 			SPECIES_PERK_DESC = "Plasmamen do not have hearts. Combined with their predisposition to oxygen, \
-				surgery and revival may be much more slow and/or difficult.",
+				surgery and revival may be much slower and/or difficult.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "dna",
+			SPECIES_PERK_NAME = "Charred Genome",
+			SPECIES_PERK_DESC = "Plasmamen have no genetic sequence, and cannot be affected by mutations. They can however still be cloned.",
 		),
 	)
 

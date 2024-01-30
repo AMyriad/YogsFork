@@ -342,14 +342,35 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "clover",
-			SPECIES_PERK_NAME = "Photosynthesis",
-			SPECIES_PERK_DESC = "Phytosians regenerate and gain sustenance when in light. This healing effect is doubled when processing sugar.",
+			SPECIES_PERK_NAME = "Life By Light",
+			SPECIES_PERK_DESC = "Phytosians heal and gain sustenance from exposure to light. \
+				This healing effect is doubled while processing sugar.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "wind",
+			SPECIES_PERK_NAME = "CO2",
+			SPECIES_PERK_DESC = "",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "tree",
+			SPECIES_PERK_NAME = "Friend of the Forest",
+			SPECIES_PERK_DESC = "",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "moon",
-			SPECIES_PERK_NAME = "Naught But Bone",
-			SPECIES_PERK_DESC = "Plasmamen may only suffer fracture wounds, and have higher tolerance to being afflicted with them.
+			SPECIES_PERK_ICON = "flask",
+			SPECIES_PERK_NAME = "Chemicals",
+			SPECIES_PERK_DESC = "",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "plant-wilt",
+			SPECIES_PERK_NAME = "Death By Dark",
+			SPECIES_PERK_DESC = "Phytosians lose nutrition without light. \
+				When starving, they will begin to wilt and die. \
+				This damaging effect is tripled while processing sugar.",
 		),
 	)
 

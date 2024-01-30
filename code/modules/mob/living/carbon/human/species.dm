@@ -2746,13 +2746,6 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			SPECIES_PERK_DESC = "Toxins damage dealt to [plural_form] are reversed - healing toxins will instead cause harm, and \
 				causing toxins will instead cause healing. Be careful around purging chemicals!",
 		))
-		if(TRAIT_GENELESS in inherent_traits)
-		to_add += list(list(
-			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
-			SPECIES_PERK_ICON = "dna",
-			SPECIES_PERK_NAME = "Geneless",
-			SPECIES_PERK_DESC = "[plural_form] have no genetic sequence, and cannot be affected by mutations. They can however still be cloned.",
-		))
 
 	return to_add
 
