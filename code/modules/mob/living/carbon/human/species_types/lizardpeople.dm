@@ -177,7 +177,7 @@
 		list(
 		SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 		SPECIES_PERK_ICON = "worm",
-		SPECIES_PERK_NAME = "Hisssing Ssspeech",
+		SPECIES_PERK_NAME = "Reptilian Ssspeech",
 		SPECIES_PERK_DESC = "Vuulen have a tendency to hisss when ssspeaking.",
 		),
 		list(

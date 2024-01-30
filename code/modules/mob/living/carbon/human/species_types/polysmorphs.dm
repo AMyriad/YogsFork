@@ -87,13 +87,43 @@
 /datum/species/polysmorph/create_pref_unique_perks()
 	var/list/to_add = list()
 
-	// TODO
-
-	return to_add
-
-/datum/species/polysmorph/create_pref_biotypes_perks()
-	var/list/to_add = list()
-
-	// TODO
+	to_add += list(
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "low-vision",
+			SPECIES_PERK_NAME = "Slight nightvision",
+			SPECIES_PERK_DESC = "",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "lungs",
+			SPECIES_PERK_NAME = "Breathe plasma and oxygen",
+			SPECIES_PERK_DESC = "",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "running",
+			SPECIES_PERK_NAME = "Faster speed and crawl speed",
+			SPECIES_PERK_DESC = "",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "bone",
+			SPECIES_PERK_NAME = "No bones",
+			SPECIES_PERK_DESC = "",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "low-vision",
+			SPECIES_PERK_NAME = "Efficient liver",
+			SPECIES_PERK_DESC = "",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "tools",
+			SPECIES_PERK_NAME = "Slower action speed",
+			SPECIES_PERK_DESC = "",
+		),
+	)
 
 	return to_add
