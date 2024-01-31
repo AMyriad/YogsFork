@@ -4,7 +4,7 @@
 	actions_types = null
 	verb_say = "broadcasts"
 	var/obj/item/radio/radio
-	var/team_remaining = GLOB.ert_biosigs // The number of surviving team members with the implant.
+
 	var/alert_msg = ""
 
 /obj/item/implant/biosig_ert/Initialize(mapload)
@@ -22,13 +22,13 @@
 /obj/item/implant/biosig_ert/activate(cause)
 	if(!imp_in)
 		return FALSE
-
-	switch(team_remaining)
-	if(>= 4)
+	var/team_remaining = GLOB.ert_biosigs // The number of surviving team members with the implant.
+	switch()
+	if(team_remaining >= 4)
 		alert_msg = "Dispatch notified, proceed with caution."
-	if(>= 3)
+	if(team_remaining >= 3)
 		alert_msg = "Two units remaining, proceed with caution."
-	if(>= 2)
+	if(team_remaining >= 2)
 		alert_msg = "One unit remaining, proceed with extreme caution."
 	else
 		alert_msg = "All response teams KIA, transmitting final readings to data network..."

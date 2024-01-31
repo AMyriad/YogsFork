@@ -4,7 +4,7 @@
 	actions_types = null
 	verb_say = "broadcasts"
 	var/obj/item/radio/radio
-	var/team_remaining = GLOB.gorlex_biosigs // The number of surviving team members with the implant.
+
 
 /obj/item/implant/biosig_gorlex/Initialize(mapload)
 	. = ..()
@@ -16,7 +16,7 @@
 
 /obj/item/implant/biosig_gorlex/Destroy()
 	. = ..()
-	GLOB.ert_biosigs -= src
+	GLOB.gorlex_biosigs -= src
 
 /obj/item/implant/biosig_gorlex/activate(cause)
 	if(!imp_in)
@@ -42,8 +42,9 @@
 		"GO HARD OR GO HOME DEAD.",
 		"GET DAT FUKKEN DISK.")
 
-	switch(team_remaining)
-	if(>= 2)
+	var/team_remaining = GLOB.gorlex_biosigs // The number of surviving team members with the implant.
+	switch()
+	if(team_remaining >= 2)
 		gorlex_msg = pick("YOU'RE THE LAST ONE, COMPLETE THE MISSION.",
 						  "YOU'RE THE LAST ONE LEFT, COMPLETE THE OBJECTIVE.",
 						  "YOU'RE THE LAST MAN STANDING, FINISH IT.")
