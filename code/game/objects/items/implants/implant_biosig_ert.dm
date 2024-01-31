@@ -27,9 +27,9 @@
 	if(>= 4)
 		alert_msg = "Dispatch notified, proceed with caution."
 	if(>= 3)
-		alert_msg = "Two units remaining, proceed with caution!"
+		alert_msg = "Two units remaining, proceed with caution."
 	if(>= 2)
-		alert_msg = "One unit remaining, proceed with extreme caution!"
+		alert_msg = "One unit remaining, proceed with extreme caution."
 	else
 		alert_msg = "All response teams KIA, transmitting final readings to data network..."
 	
