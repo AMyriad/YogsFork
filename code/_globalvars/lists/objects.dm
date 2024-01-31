@@ -26,6 +26,8 @@ GLOBAL_LIST_EMPTY(cooking_recipes_atoms) //list of all atoms occuring in cooking
 GLOBAL_LIST_EMPTY(rcd_list)					//list of Rapid Construction Devices.
 GLOBAL_LIST_EMPTY(apcs_list)					//list of all Area Power Controller machines, separate from machines for powernet speeeeeeed.
 GLOBAL_LIST_EMPTY(tracked_implants)			//list of all current implants that are tracked to work out what sort of trek everyone is on. Sadly not on lavaworld not implemented...
+GLOBAL_LIST_EMPTY(gorlex_biosigs)		//list of nuke op biosig implants so we can tell users how many of their teammates left
+GLOBAL_LIST_EMPTY(ert_biosigs)			//list of ERT biosig implants so we can tell users how many of their teammates left
 GLOBAL_LIST_EMPTY(tracked_chem_implants)			//list of implants the prisoner console can track and send inject commands too
 GLOBAL_LIST_EMPTY(tracked_collars)			///list of all anti-magic collars the prisoner console can track and lock/unlock
 GLOBAL_LIST_EMPTY(poi_list)					//list of points of interest for observe/follow
