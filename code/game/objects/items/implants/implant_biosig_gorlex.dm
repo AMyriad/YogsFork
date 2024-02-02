@@ -4,6 +4,7 @@
 	actions_types = null
 	verb_say = "broadcasts"
 	var/obj/item/radio/radio
+	var/team_remaining = 0
 
 
 /obj/item/implant/biosig_gorlex/Initialize(mapload)
@@ -12,11 +13,11 @@
 	radio.keyslot = new/obj/item/encryptionkey/syndicate // Should broadcast exclusively on the syndicate channel.
 	radio.listening = FALSE
 	radio.recalculateChannels()
-	GLOB.gorlex_biosigs += src
+	GLOB.gorlex_biosigs += (src, team_remaining)
 
 /obj/item/implant/biosig_gorlex/Destroy()
 	. = ..()
-	GLOB.gorlex_biosigs -= src
+	GLOB.gorlex_biosigs -= (src, team_remaining)
 
 /obj/item/implant/biosig_gorlex/activate(cause)
 	if(!imp_in)
@@ -42,16 +43,15 @@
 		"GO HARD OR GO HOME DEAD.",
 		"GET DAT FUKKEN DISK.")
 
-	var/team_remaining = GLOB.gorlex_biosigs // The number of surviving team members with the implant.
-	switch()
-	if(team_remaining >= 2)
-		gorlex_msg = pick("YOU'RE THE LAST ONE, COMPLETE THE MISSION.",
+	switch(team_remaining)
+		if(2)
+			gorlex_msg = pick("YOU'RE THE LAST ONE, COMPLETE THE MISSION.",
 						  "YOU'RE THE LAST ONE LEFT, COMPLETE THE OBJECTIVE.",
 						  "YOU'RE THE LAST MAN STANDING, FINISH IT.")
-	else
-		gorlex_msg = pick("ALL OPERATIVES KIA, MISSION IS A FAILURE...",
-						  "TEAM VITAL SIGNS STOPPED, THE MISSION IS LOST...",
-						  "MISSION FAILED, WE'LL GET THEM NEXT TIME...")
+		if(1)
+			gorlex_msg = pick("ALL OPERATIVES KIA, MISSION IS A FAILURE...",
+						      "TEAM VITAL SIGNS STOPPED, THE MISSION IS LOST...",
+							  "MISSION FAILED, WE'LL GET THEM NEXT TIME...")
 
 	// Location.
 	var/area/turf = get_area(imp_in)
