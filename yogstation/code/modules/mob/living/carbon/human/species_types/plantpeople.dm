@@ -309,7 +309,7 @@
 		on a divine monument known as the Mother Tree. The main continent was wiped barren of life save the Tree, \
 		until jars of blood crashed into it and spawned the few victors. The survivors formed the Gukdem Confederacy: \
 		a government tasked with preventing such an event from happening again through strict authoritarian policies. \
-		They quickly butchered almost all remaining non-phytosians lifeforms on Muldova in order to to assimilate them, \
+		They quickly butchered almost all remaining non-phytosians lifeforms on Muldova in order to assimilate them, \
 		enclosing the rest to ensure a steady supply of population.",
 
 		"In the year 2511, drones of Sano-Waltfield Industries landing on Muldova alerted phytosians of the existence \
@@ -323,11 +323,11 @@
 		"Families do not exist among phytosians, and each individual is expected to be autonomous. Society is organized by disciplined, \
 		constant work with few celebrations. Phytosians give no value to their lives, as death is seen as a minor inconvenience \
 		at worst; it is a rather unremarkable event, since they'll be back soon. Violent, often lethal sports are not uncommon and \
-		still remain popular among them today. Most notable is the phytosian's obsession with fire. Fire is both revered and \
+		still remain popular amongthem today. Most notable is the phytosian's obsession with fire. Fire is both revered and \
 		feared, as incineration is one of the only ways for a phytosian to truly die; it destroysthe podseeds under them and \
-		evaporates blood.  It is a divine power, a destructive force, and an escape from the endless cycle of rebirth.",
+		evaporates blood. It is a divine power, a destructive force, and an escape from the endless cycle of rebirth.",
 
-		"Today, few embassies exist on Muldova, and anything shown to SIC denizens and representative is carefully \
+		"Today, few embassies exist on Muldova, and anything shown to SIC denizens and representatives is carefully \
 		chosen and controlled. Cooperation and exchanges between the SIC and the Confederacy are almost inexistent. \
 		The only phytosians seen in SIC space are generally political opponents to the Confederacy or have come to \
 		observe the galaxy outside their system, intending on coming back to provide a full report. Phytosians \
@@ -373,7 +373,7 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "plant-wilt",
-			SPECIES_PERK_NAME = "Death In Dark",
+			SPECIES_PERK_NAME = "eath In DarkD",
 			SPECIES_PERK_DESC = "Phytosians lose nutrition without light. \
 				When starving, they will begin to wilt and die. \
 				This damaging effect is tripled while processing sugar.",

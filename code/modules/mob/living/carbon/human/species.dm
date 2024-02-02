@@ -2755,9 +2755,9 @@ GLOBAL_LIST_EMPTY(features_by_species)
  * Returns a list containing perks, or an empty list.
  */
 /datum/species/proc/create_pref_biotypes_perks()
-	var/list/to_add = list()
+	var/list/to_add = list()   
 
-	if(inherent_biotypes & MOB_UNDEAD)
+	if((inherent_biotypes & MOB_UNDEAD)(inherent_traits & NO_BREATH))
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "skull",
