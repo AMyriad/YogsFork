@@ -436,6 +436,10 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi
 	jetpack = /obj/item/tank/jetpack/suit
 
+/obj/item/clothing/suit/space/hardsuit/syndi/Initialize(mapload) // Prevents nukies from being horizontalled by the long-range corgifying explosive banana gun some assistant found 4 minutes in I imagine? Mention if this oughta stay or not in the review idk
+	. = ..()
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100)
+
 //Elite Syndie suit
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite
 	name = "elite syndicate hardsuit helmet"
@@ -559,8 +563,8 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 20, BOMB = 25, BIO = 100, RAD = 50, FIRE = 100, ACID = 100, WOUND = 30, ELECTRIC = 100)
 	allowed = list(/obj/item/teleportation_scroll, /obj/item/tank/internals)
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS					//Uncomment to enable firesuit protection
-	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT	//Comment to enable firesuit protection
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/wizard
 	slowdown = 0
 	clothing_traits = list(TRAIT_ANTIMAGIC_NO_SELFBLOCK)
@@ -568,7 +572,7 @@
 /obj/item/clothing/suit/space/hardsuit/wizard/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/anti_magic, antimagic_flags = MAGIC_RESISTANCE, inventory_flags = ITEM_SLOT_OCLOTHING)
-
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100) // Can't out-magic the magician!
 
 	//Medical hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/medical
@@ -606,6 +610,7 @@
 /obj/item/clothing/head/helmet/space/hardsuit/rd/Initialize(mapload)
 	. = ..()
 	RegisterSignal(SSdcs, COMSIG_GLOB_EXPLOSION, PROC_REF(sense_explosion))
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100)
 
 /obj/item/clothing/head/helmet/space/hardsuit/rd/equipped(mob/living/carbon/human/user, slot)
 	..()
@@ -1086,6 +1091,10 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/shielded/syndi
 	slowdown = 0
 	jetpack = /obj/item/tank/jetpack/suit
+
+/obj/item/clothing/suit/space/hardsuit/shieldedsyndi/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100)
 
 /obj/item/clothing/head/helmet/space/hardsuit/shielded/syndi
 	name = "blood-red hardsuit helmet"

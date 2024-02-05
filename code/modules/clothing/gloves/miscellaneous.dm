@@ -271,3 +271,22 @@
 	desc = "These gloves provide excellent thermal and electrical insulation."
 	icon_state = "ce_insuls"
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 90, RAD = 0, FIRE = 100, ACID = 90, ELECTRIC = 100)
+
+/obj/item/clothing/gloves/artifact_pinchers
+	name = "anti-tactile pinchers"
+	desc = "Used for the fine manipulation and examination of artifacts."
+	icon_state = "pincher"
+	item_state = "pincher"
+	worn_icon_state = "pincher"
+	transfer_prints = FALSE
+	actions_types = list(/datum/action/item_action/artifact_pincher_mode)
+	var/safety = FALSE
+
+/datum/action/item_action/artifact_pincher_mode
+	name = "Toggle Safety"
+
+/datum/action/item_action/artifact_pincher_mode/Trigger()
+	var/obj/item/clothing/gloves/artifact_pinchers/pinchy = target
+	if(istype(pinchy))
+		pinchy.safety = !pinchy.safety
+		button.icon_state = (pinchy.safety ? "template_active" : "template")

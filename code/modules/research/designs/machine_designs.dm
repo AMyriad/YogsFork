@@ -794,3 +794,27 @@
 	build_path = /obj/item/circuitboard/machine/mindmachine_pod
 	category = list("Medical Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
+/datum/design/board/mass_driver
+	name = "Machine Design (Mass Driver)"
+	desc = "The circuit board for a mass driver."
+	id = "mass_driver"
+	build_path = /obj/item/circuitboard/machine/mass_driver
+	category = list("Misc. Machinery")
+	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/board/xenoa_listing_console
+	name = "Computer Design (Xenoartifact Listing Console)"
+	desc = "The circuit board for a xenoartifact listing console."
+	id = "xenoa_list_console"
+	build_path = /obj/item/circuitboard/computer/xenoartifact_console
+	category = list ("Research Machinery")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
+
+/datum/design/board/xenoa_delivery_pad
+	name = "Machine Design (Xenoartifact Delivery Pad)"
+	desc = "The circuit board for a xenoartifact delivery pad."
+	id = "xenoa_delivery_pad"
+	build_path = /obj/item/circuitboard/machine/xenoartifact_inbox
+	category = list ("Research Machinery")
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE

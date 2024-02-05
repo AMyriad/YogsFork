@@ -71,6 +71,10 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	mutantrace_variation = MUTANTRACE_VARIATION
 
+/obj/item/clothing/suit/wizrobe/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100) // Can't out-magic the magician
+
 /obj/item/clothing/suit/wizrobe/red
 	name = "red wizard robe"
 	desc = "A magnificent red gem-lined robe that seems to radiate power."

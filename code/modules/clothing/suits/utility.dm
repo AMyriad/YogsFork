@@ -151,3 +151,7 @@
 	flags_inv = HIDEJUMPSUIT
 	resistance_flags = NONE
 	flags_1 = RAD_PROTECT_CONTENTS_1
+
+/obj/item/clothing/suit/bio_suit/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 65)

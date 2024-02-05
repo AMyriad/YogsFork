@@ -12,7 +12,14 @@
 	)
 	weighted_flora_spawn_list = list(/obj/structure/flora/ash/leaf_shroom = 2 , /obj/structure/flora/ash/cap_shroom = 2 , /obj/structure/flora/ash/stem_shroom = 2 , /obj/structure/flora/ash/cacti = 1, /obj/structure/flora/ash/tall_shroom = 2)
 	///Note that this spawn list is also in the icemoon generator
-	weighted_feature_spawn_list = list(/obj/structure/geyser/ash = 10, /obj/structure/geyser/random = 2, /obj/structure/geyser/stable_plasma = 6, /obj/structure/geyser/oil = 8,/obj/structure/geyser/protozine = 10,/obj/structure/geyser/holywater = 2) //yogs, yes geysers
+	weighted_feature_spawn_list = list(
+		/obj/structure/geyser/ash = 10,
+		/obj/structure/geyser/random = 2,
+		/obj/structure/geyser/stable_plasma = 6,
+		/obj/structure/geyser/oil = 8,
+		/obj/structure/geyser/protozine = 10,
+		/obj/structure/geyser/holywater = 2,
+		/obj/item/xenoartifact = 1) //yogs, yes geysers
 
 	initial_closed_chance = 45
 	smoothing_iterations = 50
