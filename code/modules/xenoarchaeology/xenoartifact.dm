@@ -4,7 +4,7 @@
 	icon = 'icons/obj/xenoarchaeology/xenoartifact.dmi'
 	icon_state = "map_editor"
 	w_class = WEIGHT_CLASS_NORMAL
-	item_flags = ISWEAPON
+	item_flags = NO_MAT_REDEMPTION
 	light_color = LIGHT_COLOR_FIRE
 	desc = "A strange alien device. What could it possibly do?"
 	throw_range = 3
@@ -57,7 +57,6 @@
 /obj/item/xenoartifact/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/xenoartifact_pricing)
-	AddComponent(/datum/component/discoverable, XENOA_DP, TRUE) //Same values as original artifacts from exploration
 
 /obj/item/xenoartifact/Initialize(mapload, difficulty)
 	. = ..()
