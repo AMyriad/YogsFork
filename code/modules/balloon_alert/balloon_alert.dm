@@ -16,7 +16,7 @@
 
 /// Creates a balloon alert, or sends a chat message dependant on client preferences. 
 /// Args: viewer -  mob that gets message/alert, alert - balloon alert text, message - text message that the mob gets if the preference is toggled, equals to alert message if not passed in the proc, color - set to NULL for default white text
-/atom/proc/balloon_or_message(mob/viewer, alert, message, color = NULL)
+/atom/proc/balloon_or_message(mob/viewer, alert, message, color = null)
 	SHOULD_NOT_SLEEP(TRUE)
 	
 	if(viewer.client.prefs.read_preference(/datum/preference/toggle/disable_balloon_alerts))
@@ -42,7 +42,7 @@
 // MeasureText blocks. I have no idea for how long.
 // I would've made the maptext_height update on its own, but I don't know
 // if this would look bad on laggy clients.
-/atom/proc/balloon_alert_perform(mob/viewer, text, color = NULL)
+/atom/proc/balloon_alert_perform(mob/viewer, text)
 	var/client/viewer_client = viewer.client
 	if (isnull(viewer_client))
 		return

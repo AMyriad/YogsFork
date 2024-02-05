@@ -195,11 +195,10 @@
 				final_price = max(X.modifier*X.price, 1)
 				budget.adjust_money(final_price)
 				linked_techweb.add_point_type(TECHWEB_POINT_TYPE_DEFAULT, (final_price*XENOA_RP) * (final_price >= X.price))
-				linked_techweb.add_point_type(TECHWEB_POINT_TYPE_DISCOVERY, ((XENOA_SOLD_DP*(final_price/X.price)) * max(1, final_price/1000)) * (final_price >= X.price))
 
 				//Handle player info
 				entry.main = "[selling_item.name] sold at [station_time_timestamp()] for [final_price] credits, bought for [X.price]."
-				entry.gain = "Awarded [(final_price*2.3) * (final_price >= X.price)] Research Points & [XENOA_SOLD_DP*(final_price/X.price) * (final_price >= X.price)] Discovery Points."
+				entry.gain = "Awarded [(final_price*2.3) * (final_price >= X.price)] Research Points."
 				info = "[entry.main]\n[entry.gain]\n"
 
 				//append sticker traits & pass it off

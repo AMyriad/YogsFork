@@ -664,7 +664,7 @@
 				/obj/item/circuitboard/machine/nanite_program_hub,
 				/obj/item/circuitboard/machine/xenoartifact_inbox,
 				/obj/item/circuitboard/computer/xenoartifact_console
-				))
+				)
 
 /obj/effect/spawner/lootdrop/techstorage/security
 	name = "security circuit board spawner"

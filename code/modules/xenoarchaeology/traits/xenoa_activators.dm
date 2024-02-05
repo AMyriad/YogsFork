@@ -167,7 +167,7 @@
 /datum/xenoartifact_trait/activator/honk/pass_input(datum/source, obj/item/thing, mob/user, atom/target)
 	var/obj/item/xenoartifact/X = source
 	//Make sure we're being silly before we activate it - isclown( ) refers to the simplemob
-	if(!(istype(thing, /obj/item/bikehorn) || istype(thing, /obj/item/bikehorn/golden) || isclown(target) || HAS_TRAIT(user, TRAIT_NAIVE) || HAS_TRAIT(target, TRAIT_NAIVE)))
+	if(!(istype(thing, /obj/item/bikehorn) || istype(thing, /obj/item/bikehorn/golden) || isclown(target) || HAS_TRAIT(user, TRAIT_CLUMSY) || HAS_TRAIT(target, TRAIT_CLUMSY)))
 		return
 	charge = charge*((thing?.force || 10)*0.1)
 	X.default_activate(charge, user, target)

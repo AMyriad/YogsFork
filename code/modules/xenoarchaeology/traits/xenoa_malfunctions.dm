@@ -14,16 +14,16 @@
 	if(length(bears) >= XENOA_MAX_BEARS)
 		return
 	var/turf/T = get_turf(X)
-	var/mob/living/simple_animal/hostile/bear/malnourished/new_bear = new(T)
+	var/mob/living/simple_animal/hostile/bear/new_bear = new(T)
 	new_bear.name = pick("Freddy", "Bearington", "Smokey", "Beorn", "Pooh", "Winnie", "Baloo", "Rupert", "Yogi", "Fozzie", "Boo") //Why not?
 	bears += new_bear
-	RegisterSignal(new_bear, COMSIG_MOB_DEATH, PROC_REF(handle_death))
-	log_game("[X] spawned a (/mob/living/simple_animal/hostile/bear/malnourished) at [world.time]. [X] located at [AREACOORD(X)]")
+	RegisterSignal(new_bear, COMSIG_GLOB_MOB_DEATH, PROC_REF(handle_death))
+	log_game("[X] spawned a (/mob/living/simple_animal/hostile/bear) at [world.time]. [X] located at [AREACOORD(X)]")
 	X.cooldown += 20 SECONDS
 
 /datum/xenoartifact_trait/malfunction/bear/proc/handle_death(datum/source)
 	bears -= source
-	UnregisterSignal(source, COMSIG_MOB_DEATH)
+	UnregisterSignal(source, COMSIG_GLOB_MOB_DEATH)
 
 //============
 // Maltargeting - Changes target to user
@@ -188,12 +188,11 @@
 /mob/living/simple_animal/hostile/twin
 	name = "evil twin"
 	desc = "It looks just like... someone!"
-	mob_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
+	mob_biotypes = list(MOB_HUMANOID)
 	speak_chance = 0
 	turns_per_move = 5
 	response_help = "pokes"
 	response_disarm = "shoves"
-	response_harm = "hits"
 	speed = 0
 	maxHealth = 10
 	health = 10
@@ -203,11 +202,10 @@
 	a_intent = INTENT_HARM
 	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
 	unsuitable_atmos_damage = 15
-	faction = list("evil_clone")
+	faction = list("hostile") // Test before PRing
 	status_flags = CANPUSH
 	del_on_death = TRUE
 	do_footstep = TRUE
-	mobchatspan = "syndmob"
 
 //============
 // Explode - A very small explosion takes place, destroying the artifact in the process

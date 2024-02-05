@@ -910,6 +910,7 @@ GLOBAL_LIST_INIT(maintenance_loot_moderate,list(
 	/obj/item/gun/ballistic/automatic/l6_saw/toy/unrestricted = W_LEGENDARY,
 	/obj/item/gun/ballistic/automatic/toy/unrestricted = W_MYTHICAL,
 	/obj/item/gun/ballistic/automatic/toy/pistol/unrestricted = W_RARE,
+	/obj/item/xenoartifact = W_RARE
 ))
 
 //Has serious mechanical usage or uplink stuff that antags would get for flavor.

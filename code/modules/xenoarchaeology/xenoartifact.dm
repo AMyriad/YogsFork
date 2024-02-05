@@ -1,4 +1,4 @@
-/// The actual item we'll be applying all of this onto
+/// The actual item we'll be applying all of this to
 /obj/item/xenoartifact
 	name = "artifact"
 	icon = 'icons/obj/xenoarchaeology/xenoartifact.dmi'
