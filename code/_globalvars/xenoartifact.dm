@@ -18,17 +18,10 @@ GLOBAL_LIST_INIT(xenoa_emote, list(/datum/emote/flip, /datum/emote/spin, /datum/
 	/datum/emote/living/sniff, /datum/emote/living/cough, /datum/emote/living/sneeze, //lol, lmao even
 	/datum/emote/living/twitch))
 
-
 ///Blacklist for traits
 GLOBAL_LIST(xenoa_bluespace_blacklist)
 GLOBAL_LIST(xenoa_plasma_blacklist)
 GLOBAL_LIST(xenoa_uranium_blacklist)
-
-///List of emotes for emote-trait
-GLOBAL_LIST_INIT(xenoa_emote, list(/datum/emote/flip, /datum/emote/spin, /datum/emote/living/laugh, 
-	/datum/emote/living/scream, /datum/emote/living/tremble, /datum/emote/living/whimper,
-	/datum/emote/living/smile, /datum/emote/living/pout, /datum/emote/living/gag,
-	/datum/emote/living/deathgasp, /datum/emote/living/dance, /datum/emote/living/blush))
 
 ///Fill globals
 /proc/generate_xenoa_statics()

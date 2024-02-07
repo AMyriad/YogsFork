@@ -1,4 +1,6 @@
-//Minor traits - Use the to define aspects of the artifact without any immediate interaction
+/////- MINOR TRAITS -/////
+// Aspects of the artifact one may not be able to discern immediately.
+// Visual description of these traits are optional, as they're mainly effects to be discovered and documented. (Delayed activation, invisibility, alters gravity, etc.)
 
 //============
 // Looped, increases charge towards 100
@@ -132,7 +134,7 @@
 		man.key = M.ckey
 
 /datum/xenoartifact_trait/minor/sentient/proc/get_canidate(obj/item/xenoartifact/X, mob/M)
-	var/list/mob/dead/observer/candidates = poll_ghost_candidates("Do you want to play as the maleviolent force inside the [X.name]?", ROLE_SENTIENT_XENOARTIFACT, null, 8 SECONDS)
+	var/list/mob/dead/observer/candidates = poll_ghost_candidates("Do you want to play as the malevolent force inside the [X.name]?", ROLE_SENTIENT_XENOARTIFACT, null, 8 SECONDS)
 	if(LAZYLEN(candidates))
 		var/mob/dead/observer/C = pick(candidates)
 		setup_sentience(X, C.ckey)
@@ -152,7 +154,7 @@
 	log_game("[key_name_admin(man)] took control of the sentient [X]. [X] located at [AREACOORD(X)]")
 	man.forceMove(X)
 	man.anchored = TRUE
-	var/obj/effect/proc_holder/spell/targeted/xeno_senitent_action/P = new /obj/effect/proc_holder/spell/targeted/xeno_senitent_action(,X)
+	var/obj/effect/proc_holder/spell/targeted/xeno_sentient_action/P = new /obj/effect/proc_holder/spell/targeted/xeno_sentient_action(,X)
 	man.AddSpell(P)
 	//show little guy his traits
 	to_chat(man, "<span class='notice'>Your traits are: \n</span>")
@@ -162,7 +164,7 @@
 		playsound(get_turf(X), 'sound/items/haunted/ghostitemattack.ogg', 50, TRUE)
 	qdel(S)
 
-/obj/effect/proc_holder/spell/targeted/xeno_senitent_action //Lets sentience target goober
+/obj/effect/proc_holder/spell/targeted/xeno_sentient_action //Lets sentience target goober
 	name = "Activate"
 	desc = "Select a target to activate your traits on."
 	range = 1
@@ -174,12 +176,12 @@
 	action_background_icon_state = "bg_spell"
 	var/obj/item/xenoartifact/xeno
 
-/obj/effect/proc_holder/spell/targeted/xeno_senitent_action/Initialize(mapload, var/obj/item/xenoartifact/Z)
+/obj/effect/proc_holder/spell/targeted/xeno_sentient_action/Initialize(mapload, var/obj/item/xenoartifact/Z)
 	. = ..()
 	xeno = Z
 	range = Z.max_range+1
 
-/obj/effect/proc_holder/spell/targeted/xeno_senitent_action/cast(list/targets, mob/living/simple_animal/revenant/user = usr)
+/obj/effect/proc_holder/spell/targeted/xeno_sentient_action/cast(list/targets, mob/living/simple_animal/revenant/user = usr)
 	if(!xeno)
 		return
 	for(var/atom/M in targets)
@@ -197,7 +199,7 @@
 	name = "Sentient Xenoartifact"
 	short_desc = "You're a maleviolent sentience, possesing an ancient alien artifact."
 	flavour_text = (pick(
-		"Return to your master..."
+		"Return to your master...",
 		"Escape this twisted plane..."))
 	use_cooldown = TRUE
 	banType = ROLE_SENTIENT_XENOARTIFACT

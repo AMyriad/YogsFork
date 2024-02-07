@@ -1,6 +1,6 @@
 /////- MAJOR TRAITS -/////
 // The artifact's main effect, how it interacts with the world.
-// Flavor-wise, the player sees this as the artifact's shape/structure.
+// The player reads this as the artifact's shape/structure. (Large, triangular, opaque, etc.)
 
 ///============
 /// Capture - Moves the target to inside the artifact.
@@ -306,7 +306,7 @@
 ///============
 /datum/xenoartifact_trait/major/heal
 	label_name = "Healing"
-	label_desc = "Healing: The Artifact repairs any damaged organic tissue the targat may contain."
+	label_desc = "Healing: The Artifact repairs any damaged organic tissue the target may contain."
 	flags = BLUESPACE_TRAIT
 	weight = 25
 	var/healing_type

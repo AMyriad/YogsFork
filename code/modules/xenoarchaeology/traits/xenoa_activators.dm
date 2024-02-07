@@ -1,6 +1,6 @@
 /////- ACTIVATOR TRAITS -/////
 // Only used to generate charge, activating the artifact's effects.
-// Flavor-wise, the player sees this as the artifact's material/material properties.
+// The player reads this as the artifact's material/material properties. (Density, smoothness, patterns, etc.)
 
 ///============
 /// Default/Impact - On-use/interact or throw.

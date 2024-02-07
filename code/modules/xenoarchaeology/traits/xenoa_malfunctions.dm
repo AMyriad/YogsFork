@@ -1,4 +1,6 @@
-//Malfunctions - The artifact's dangerous aspects; hazards, explosions, bad effects, and such
+/////- MALFUNCTIONS -/////
+// The artifact's unintended dangers, hazards that can make interaction risky.
+// Similar to minor traits, no visual description but rather effects that become more apparent with use. (Radiation, explosions, fire, etc.)
 
 //============
 // Bear - Produces a bear until it reaches its upper limit
@@ -45,7 +47,7 @@
 	X.cooldown += 5 SECONDS
 
 //============
-// Strip - Moves a single clothing on target to floor
+// Strip - Moves a single clothing on target to floor.
 //============
 /datum/xenoartifact_trait/malfunction/strip
 	label_name = "B.A.D."
@@ -66,7 +68,7 @@
 			X.cooldown += 10 SECONDS
 
 //============
-// Trauma - Gives target trauma, amazing
+// Trauma - Gives target brain trauma, amazing.
 //============
 /datum/xenoartifact_trait/malfunction/trauma
 	label_name = "C.D.E."
@@ -91,9 +93,9 @@
 		X.cooldownmod += 10 SECONDS
 
 //============
-// Heated - Causes artifact to explode in flames
+// Heated - Causes artifact to explode in flames.
 //============
-/datum/xenoartifact_trait/malfunction/heated
+/datum/xenoartifact_trait/malfunction/heated	// Kill the shitty effect and give this turf fires before PRing
 	label_name = "Combustible"
 	label_desc = "Combustible: A strange malfunction that causes the Artifact to violently combust."
 	weight = 15
@@ -154,7 +156,7 @@
 	X.rad_act(25)
 
 //============
-// Twin - Makes an evil twin of the target
+// Twin - Makes an evil twin of the target.
 //============
 /datum/xenoartifact_trait/malfunction/twin
 	label_name = "Anti-Cloning"
@@ -208,7 +210,7 @@
 	do_footstep = TRUE
 
 //============
-// Explode - A very small explosion takes place, destroying the artifact in the process
+// Explode - A very small explosion takes place, destroying the artifact in the process.
 //============
 /datum/xenoartifact_trait/malfunction/explode
 	label_name = "Delaminating"
@@ -226,7 +228,7 @@
 	qdel(X)
 
 //============
-// Absorbant - Absorbs nearby gasses
+// Absorbant - Absorbs nearby gasses.
 //============
 /datum/xenoartifact_trait/malfunction/absorbant
 	label_name = "Absorbing"
@@ -262,7 +264,7 @@
 	parent.air_update_turf()
 
 //============
-// Hallucination - Shows a random hallucination to the target once
+// Hallucination - Shows a random hallucination to the target once.
 //============
 /datum/xenoartifact_trait/malfunction/hallucination
 	label_name = "Hallucinogenic"

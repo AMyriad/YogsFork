@@ -1,4 +1,4 @@
-/// The actual item we'll be applying all of this to
+/// The actual item we'll be applying all of this onto and how it works
 /obj/item/xenoartifact
 	name = "artifact"
 	icon = 'icons/obj/xenoarchaeology/xenoartifact.dmi'
@@ -130,7 +130,7 @@
 /obj/item/xenoartifact/Destroy()
 	SSradio.remove_object(src, frequency)
 	for(var/datum/xenoartifact_trait/T as() in traits)
-		qdel(T) //deleting the traits individually ensures they properly destroy, deleting the list bunks it
+		qdel(T) //Deleting the traits individually ensures they properly destroy, deleting the list bunks it
 	traits = null
 	qdel(touch_desc)
 	for(var/atom/movable/AM in contents)
@@ -267,7 +267,7 @@
 	charge = 0
 	true_target?.Cut(1, 0)
 
-///Generate traits outside of blacklist. Malf = TRUE if you want malfunctioning traits.
+///Generates traits outside of blacklist. Malf = TRUE if you want malfunctioning traits.
 /obj/item/xenoartifact/proc/generate_traits(list/blacklist_traits, malf = FALSE)
 	//Provided blacklist or nothing, covers bananium
 	blacklist = blacklist_traits?.Copy() || list()
@@ -296,13 +296,13 @@
 
 	charge_req = rand(1, 10) * 10
 
-///generate a single trait against a blacklist. Used in larger /obj/item/xenoartifact/proc/generate_traits()
+///Generates a single trait against a blacklist. Used in larger /obj/item/xenoartifact/proc/generate_traits()
 /obj/item/xenoartifact/proc/generate_trait_unique(list/trait_list, list/blacklist_traits = list())
 	var/datum/xenoartifact_trait/new_trait //Selection
 	var/list/selection = trait_list.Copy() //Selectable traits
 	selection -= blacklist_traits
 	if(selection.len < 1)
-		log_game("An impossible event has occured. [src] has failed to generate any traits!")
+		log_game("An impossible event has occured. [src] has failed to generate any artifact traits!")
 		return
 	new_trait = pick_weight(selection)
 	blacklist += new_trait //Add chosen trait to blacklist
@@ -311,7 +311,7 @@
 	blacklist += new_trait.blacklist_traits //Cant use initial() to access lists without bork'ing it
 	return new_trait
 
-///generates a malfunction respective to the artifact's type - don't use anywhere but for check_charge malfunctions
+///Generates a malfunction respective to the artifact's type - don't use anywhere but for check_charge malfunctions
 /obj/item/xenoartifact/proc/generate_malfunction_unique(list/blacklist)
 	var/list/malfunctions = GLOB.xenoa_malfs.Copy()
 	malfunctions -= blacklist
@@ -327,7 +327,7 @@
 /obj/item/xenoartifact/proc/get_target_in_proximity(range)
 	for(var/mob/living/M in oview(range, get_turf(src)))
 		. = process_target(M)
-	if(isliving(loc) && !.)
+	if(isliving(loc) && !.) // Line may cause a runtime? Check before PRing
 		. = process_target(loc)
 	//Return a list becuase byond is fucky and WILL overwrite the typing
 	return list(.)
