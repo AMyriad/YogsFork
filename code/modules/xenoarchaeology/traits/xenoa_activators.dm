@@ -1,4 +1,6 @@
-///Activation traits - Only used to generate charge, activating the artifact's effects
+/////- ACTIVATOR TRAITS -/////
+// Only used to generate charge, activating the artifact's effects.
+// Flavor-wise, the player sees this as the artifact's material/material properties.
 
 ///============
 /// Default/Impact - On-use/interact or throw.

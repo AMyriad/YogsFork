@@ -1,4 +1,6 @@
-//Major traits - The artifact's main effect, how it interacts with the world
+/////- MAJOR TRAITS -/////
+// The artifact's main effect, how it interacts with the world.
+// Flavor-wise, the player sees this as the artifact's shape/structure.
 
 ///============
 /// Capture - Moves the target to inside the artifact.
@@ -84,7 +86,7 @@
 	X.cooldownmod = (X.charge*0.35) SECONDS
 
 ///============
-/// Laser, shoots varying laser based on charge
+/// Laser - Shoots varying laser based on charge.
 ///============
 /datum/xenoartifact_trait/major/laser
 	desc = "Barreled"
@@ -92,13 +94,13 @@
 	flags = PLASMA_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/major/laser/activate(obj/item/xenoartifact/X, atom/target, mob/living/user)
-	//light target on fire if we're close
+	//Light target on fire if we're close
 	if(isliving(target) && get_dist(target, X.loc || user) <= 1)
 		var/mob/living/victim = target
 		victim.adjust_fire_stacks(5*(X.charge/X.charge_req))
-		victim.IgniteMob()
+		victim.ignite_mob()
 		return
-	//otherwise shoot laser
+	//Otherwise shoot laser
 	var/obj/projectile/A
 	switch(X.charge)
 		if(0 to 24)
@@ -116,9 +118,9 @@
 	playsound(get_turf(src), 'sound/mecha/mech_shield_deflect.ogg', 50, TRUE)
 
 ///============
-/// Corginator, turns the target into a corgi for a short time
+/// Corginator - Turns the target into a corgi for a short time.
 ///============
-/datum/xenoartifact_trait/major/corginator ///All of this is stolen from corgium.
+/datum/xenoartifact_trait/major/corginator ///All of this is stolen from corgium
 	desc = "Fuzzy" //Weirdchamp
 	label_desc = "Fuzzy: The shape is hard to discern under all the hair sprouting out from the surface. You swear you've heard it bark before."
 	flags = BLUESPACE_TRAIT
@@ -128,7 +130,7 @@
 	var/timer
 
 /datum/xenoartifact_trait/major/corginator/activate(obj/item/xenoartifact/X, mob/living/target)
-	X.say(pick("Woof!", "Bark!", "Yap!"))
+	X.say(pick("Woof!", "Bark!", "YAP!"))
 	if(istype(target, /mob/living) && !(istype(target, /mob/living/simple_animal/pet/dog/corgi)) && !IS_DEAD_OR_INCAP(target))
 		var/mob/living/simple_animal/pet/dog/corgi/new_corgi = transform(target)
 		timer = addtimer(CALLBACK(src, PROC_REF(transform_back), new_corgi), (X.charge*0.6) SECONDS, TIMER_STOPPABLE)
@@ -145,7 +147,7 @@
 	ADD_TRAIT(target, TRAIT_NOBREATH, TRAIT_NOMOBSWAP)
 	var/mob/living/simple_animal/pet/dog/corgi/new_corgi = new(target.loc)
 	H = new(new_corgi,src,target)
-	//hat check
+	//Hat check
 	var/mob/living/carbon/C = target
 	if(istype(C))
 		var/obj/item/hat = C.get_item_by_slot(ITEM_SLOT_HEAD)
@@ -182,7 +184,7 @@
 			transform_back(H)
 
 ///============
-/// EMP, produces an empulse
+/// EMP - Produces an empulse.
 ///============
 /datum/xenoartifact_trait/major/emp
 	label_name = "EMP"
@@ -195,7 +197,7 @@
 	empulse(get_turf(X.loc), max(1, X.charge*0.03), max(1, X.charge*0.07, 1)) //This might be too big
 
 ///============
-/// Invisible, makes the target invisible for a short time
+/// Invisible - Makes the target invisible for a short time.
 ///============
 /datum/xenoartifact_trait/major/invisible //One step closer to the one ring
 	label_name = "Transparent"
@@ -233,7 +235,7 @@
 		reveal(L)
 
 ///============
-/// Teleports the target to a random nearby location
+/// Teleporting - Teleports the target to a random nearby location.
 ///============
 /datum/xenoartifact_trait/major/teleporting
 	desc = "Displaced"
@@ -247,7 +249,7 @@
 			do_teleport(victim, get_turf(victim), (X.charge*0.3)+1, channel = TELEPORT_CHANNEL_BLUESPACE)
 
 ///============
-/// Lamp, creates a light with random color for a short time
+/// Lamp - Creates a light with random color for a short time.
 ///============
 /datum/xenoartifact_trait/major/lamp
 	label_name = "Lamp"
@@ -268,7 +270,7 @@
 	X.set_light(0, 0)
 
 ///============
-/// Forcefield, creates a random shape wizard wall
+/// Forcefield - Creates a random shape wizard wall.
 ///============
 /datum/xenoartifact_trait/major/forcefield
 	label_name = "Wall"
@@ -300,11 +302,11 @@
 	desc = "An impenetrable artifact wall."
 
 ///============
-/// Heal, heals a random damage type
+/// Heal - Heals a random damage type.
 ///============
 /datum/xenoartifact_trait/major/heal
 	label_name = "Healing"
-	label_desc = "Healing: The Artifact repeairs any damaged organic tissue the targat may contain. Widely considered the Holy Grail of Artifact traits."
+	label_desc = "Healing: The Artifact repairs any damaged organic tissue the targat may contain."
 	flags = BLUESPACE_TRAIT
 	weight = 25
 	var/healing_type
@@ -331,7 +333,7 @@
 				victim.adjustToxLoss((X.charge*0.25)*-1)
 
 ///============
-/// Chem, injects a random safe chem into target
+/// Chem - Injects a random safe chem into target.
 ///============
 /datum/xenoartifact_trait/major/chem
 	desc = "Hypodermic"
@@ -353,7 +355,7 @@
 		log_game("[X] injected [key_name_admin(target)] with [amount]u of [formula] at [world.time]. [X] located at [AREACOORD(X)]")
 
 ///============
-/// Push, pushes target away from artifact
+/// Push - Pushes target away from artifact.
 ///============
 /datum/xenoartifact_trait/major/push
 	label_name = "Push"
@@ -369,7 +371,7 @@
 		victim.throw_at(get_turf(trg), (X.charge*0.07)+1, 8)
 
 ///============
-/// Pull, pulls target towards artifact
+/// Pull - Pulls target towards artifact.
 ///============
 /datum/xenoartifact_trait/major/pull
 	label_name = "Pull"
@@ -390,7 +392,7 @@
 		victim.throw_at(get_turf(X), X.charge*0.08, 8)
 
 ///============
-/// Horn, produces a random noise
+/// Horn - Produces a random noise.
 ///============
 /datum/xenoartifact_trait/major/horn
 	desc = "Horned"
@@ -410,7 +412,7 @@
 	playsound(get_turf(target), sound, 50, FALSE)
 
 ///============
-/// Gas, replaces a random gas with another random gas
+/// Gas - Replaces a random gas with another random gas.
 ///============
 /datum/xenoartifact_trait/major/gas
 	desc = "Porous"
@@ -434,9 +436,9 @@
 	var/datum/gas/output
 
 /datum/xenoartifact_trait/major/gas/on_init(obj/item/xenoartifact/X)
-	input = pick_weight(valid_inputs)
+	input = pickweight(valid_inputs)
 	valid_outputs -= input //in the rare case the artifact wants to exhcange plasma for more plasma.
-	output = pick_weight(valid_outputs)
+	output = pickweight(valid_outputs)
 
 /datum/xenoartifact_trait/major/gas/on_item(obj/item/xenoartifact/X, atom/user, atom/item)
 	if(istype(item, /obj/item/analyzer))
@@ -454,8 +456,9 @@
 		air.adjust_moles(input_id, -moles)
 		air.adjust_moles(output_id, moles)
 
+/*		TODO BEFORE PRING
 ///============
-/// Destabilizing, teleports the victim to that weird place from the exploration meme.
+/// Destabilizing - Teleports the victim to that weird place from the exploration meme.
 ///============
 /datum/xenoartifact_trait/major/distablizer
 	desc = "Destabilizing"
@@ -499,9 +502,10 @@
 /datum/xenoartifact_trait/major/distablizer/Destroy()
 	GLOB.destabliization_exits -= exit
 	..()
+*/
 
 ///============
-/// Dissipating, the artifact creates a could of smoke.
+/// Dissipating - The artifact creates a cloud of smoke.
 ///============
 /datum/xenoartifact_trait/major/smokey
 	desc = "Dissipating"
@@ -514,7 +518,7 @@
 	E.start()
 
 ///============
-/// Marker, colors target with a random color
+/// Marker - Colors target with a random color.
 ///============
 /datum/xenoartifact_trait/major/marker
 	label_name = "Marker"
@@ -533,7 +537,7 @@
 		target.color = color
 
 ///============
-/// emote, makes user do a random emote
+/// Emote - Makes user do a random emote.
 ///============
 /datum/xenoartifact_trait/major/emote
 	label_name = "Emotional"

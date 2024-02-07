@@ -5,7 +5,7 @@
 #define XENOA_BLUESPACE "#1e7cff"
 //Associated weapons
 #define XENOA_PLASMA "#ff00c8"
-//Broken Enigmas
+//Broken enigmas
 #define XENOA_URANIUM "#00ff0d"
 //Wildcard, may god have mercy
 #define XENOA_BANANIUM "#ffd900"

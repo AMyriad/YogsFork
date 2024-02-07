@@ -3,12 +3,21 @@ GLOBAL_LIST_INIT(xenoa_seller_names, world.file2list("strings/names/artifact_sel
 GLOBAL_LIST_INIT(xenoa_seller_dialogue, world.file2list("strings/artifact_dialogue.txt"))
 GLOBAL_LIST_INIT(xenoa_artifact_names, world.file2list("strings/names/artifact_sentience.txt"))
 
-///traits types, referenced for generation
+///Trait types, referenced for generation
 GLOBAL_LIST(xenoa_activators)
 GLOBAL_LIST(xenoa_minors)
 GLOBAL_LIST(xenoa_majors)
 GLOBAL_LIST(xenoa_malfs)
 GLOBAL_LIST(xenoa_all_traits)
+
+///List of emotes for emote-trait
+GLOBAL_LIST_INIT(xenoa_emote, list(/datum/emote/flip, /datum/emote/spin, /datum/emote/living/laugh, 
+	/datum/emote/living/scream, /datum/emote/living/tremble, /datum/emote/living/trip,
+	/datum/emote/living/smile, /datum/emote/living/pout, /datum/emote/living/gag,
+	/datum/emote/living/deathgasp, /datum/emote/living/dance, /datum/emote/living/blush,
+	/datum/emote/living/sniff, /datum/emote/living/cough, /datum/emote/living/sneeze, //lol, lmao even
+	/datum/emote/living/twitch))
+
 
 ///Blacklist for traits
 GLOBAL_LIST(xenoa_bluespace_blacklist)

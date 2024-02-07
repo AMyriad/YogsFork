@@ -18,7 +18,7 @@
 	X.charge = ((100-X.charge)*0.2)+X.charge //This should generally cut off around 100
 
 //============
-// Capacitive, gives the artifact extra uses before it starts cooldown
+// Capacitive - Gives the artifact extra uses before it starts cooldown
 //============
 /datum/xenoartifact_trait/minor/capacitive
 	desc = "Capacitive"
@@ -53,7 +53,7 @@
 	return ..()
 
 //============
-// Dense, makes the artifact mimic a structure
+// Dense - Makes the artifact mimic a structure
 //============
 /datum/xenoartifact_trait/minor/dense //Rather large, quite gigantic, particularly big
 	desc = "Dense"
@@ -68,7 +68,7 @@
 	X.charge_req += 20
 
 //============
-// Sharp, makes the artifact do extra damage and slice type
+// Sharp - Makes the artifact do extra damage and slice type
 //============
 /datum/xenoartifact_trait/minor/sharp
 	desc = "Sharp"
@@ -88,7 +88,7 @@
 	X.armour_penetration = 5
 
 //============
-// Cooler, reduces cooldown times
+// Cooler - Ceduces cooldown times
 //============
 /datum/xenoartifact_trait/minor/cooler
 	desc = "Frosted"
@@ -106,11 +106,11 @@
 	X.charge -= 10
 
 //============
-// Sentient, allows a ghost to control the artifact
+// Sentient - Allows a ghost to control the artifact
 //============
 /datum/xenoartifact_trait/minor/sentient
 	label_name = "Sentient"
-	label_desc = "Sentient: The Artifact seems to be alive, influencing events around it. The Artifact wants to return to its master..."
+	label_desc = "Sentient: The Artifact seems to be alive, influencing events around it. It seems to be seeking something..."
 	//Slightly increase weight - muh arpee serber
 	weight = 55
 	///he who lives inside
@@ -196,7 +196,9 @@
 	death = FALSE
 	name = "Sentient Xenoartifact"
 	short_desc = "You're a maleviolent sentience, possesing an ancient alien artifact."
-	flavour_text = "Return to your master..."
+	flavour_text = (pick(
+		"Return to your master..."
+		"Escape this twisted plane..."))
 	use_cooldown = TRUE
 	banType = ROLE_SENTIENT_XENOARTIFACT
 	invisibility = 101
@@ -214,7 +216,7 @@
 	S.setup_sentience(artifact, ckey)
 
 //============
-// Delicate, makes the artifact have limited uses
+// Delicate - Makes the artifact have limited uses
 //============
 /datum/xenoartifact_trait/minor/delicate
 	desc = "Fragile"
@@ -238,7 +240,7 @@
 		qdel(X)
 
 //============
-// Aura, adds everything in the vicinity to the target list
+// Aura - Adds everything in the vicinity to the target list
 //============
 /datum/xenoartifact_trait/minor/aura
 	desc = "Expansive"
@@ -260,7 +262,7 @@
 			X.true_target |= X.process_target(I)
 
 //============
-// Long, makes the artifact ranged, allows effects to select targets from afar
+// Long - Makes the artifact ranged, allows effects to select targets from afar
 //============
 /datum/xenoartifact_trait/minor/long
 	desc = "Scoped"
@@ -272,7 +274,7 @@
 	X.max_range += 18
 
 //============
-// Wearable, allows artifact to be worn like a glove.
+// Wearable - Allows artifact to be worn like a glove.
 //============
 /datum/xenoartifact_trait/minor/wearable
 	desc = "Shaped"
@@ -287,7 +289,7 @@
 	X.true_target |= list(user)
 
 //============
-// Allows artifact to act like a shield
+// Blocking - Allows artifact to act like a shield
 //============
 /datum/xenoartifact_trait/minor/blocking
 	desc = "Shielded"
@@ -301,7 +303,7 @@
 	X.block_power = 25 * pick(0.8, 1, 1.3, 1.5)
 
 //============
-// Light, allows artifact to be thrown far
+// Light - Allows artifact to be thrown far
 //============
 /datum/xenoartifact_trait/minor/light
 	desc = "Light"
@@ -313,7 +315,7 @@
 	X.throw_range = 8
 
 //============
-// Heavy, artifact cannot be throwwn far
+// Heavy - Artifact cannot be throwwn far
 //============
 /datum/xenoartifact_trait/minor/heavy
 	desc = "Heavy"
@@ -325,7 +327,7 @@
 	X.throw_range = 1
 
 //============
-// Signalsend, activating the artifact sends a set signal
+// Signalsend - Activating the artifact sends a set signal
 //============
 /datum/xenoartifact_trait/minor/signalsend
 	label_name = "Signaler"
@@ -349,7 +351,7 @@
 	log_game("[X] sent signal code [X.code] on frequency [X.frequency] at [world.time]. [X] located at [AREACOORD(X)]")
 
 //============
-// Anchor, the artifact can be anchored, anchors when activated
+// Anchor - The artifact can be anchored, anchors when activated
 //============
 /datum/xenoartifact_trait/minor/anchor
 	desc = "Anchored"
@@ -378,7 +380,7 @@
 	return ..()
 
 //============
-// Slippery, the artifact is slippery. Honk
+// Slippery - The artifact is slippery. Honk
 //============
 /datum/xenoartifact_trait/minor/slippery
 	desc = "Slippery"
@@ -395,7 +397,7 @@
 	return ..()
 
 //============
-// haunted, the artifact can be controlled by deadchat, works well with sentient
+// Haunted - The artifact can be controlled by deadchat, works well with sentient
 //============
 /datum/xenoartifact_trait/minor/haunted
 	label_name = "Haunted"
@@ -438,7 +440,7 @@
 	return ..()
 
 //============
-// Delay, delays the activation. Credit to EvilDragon#4532
+// Delay - Delays the activation. Credit to EvilDragon#4532
 //============
 /datum/xenoartifact_trait/minor/delay
 	label_name = "Delayed"
@@ -453,7 +455,7 @@
 	sleep(3 SECONDS)
 
 //============
-// Blink, the artifact dissapears for a short duration after use
+// Blink - The artifact dissapears for a short duration after use
 //============
 /datum/xenoartifact_trait/minor/blink
 	label_name = "Desynced"
