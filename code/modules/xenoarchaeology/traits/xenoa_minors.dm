@@ -167,12 +167,11 @@
 /obj/effect/proc_holder/spell/targeted/xeno_sentient_action //Lets sentience target goober
 	name = "Activate"
 	desc = "Select a target to activate your traits on."
-	range = 1
-	charge_max = 0 SECONDS
-	clothes_req = 0
+	cast_range = 1
+	cooldown_time = 0 SECONDS
+	spell_requirements = NONE
 	include_user = 0
-	action_icon = 'icons/mob/actions/actions_revenant.dmi'
-	action_icon_state = "r_transmit"
+	button_icon_state = "r_transmit"
 	action_background_icon_state = "bg_spell"
 	var/obj/item/xenoartifact/xeno
 
