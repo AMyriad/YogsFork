@@ -1,17 +1,17 @@
 /obj/item/circuitboard/computer/xenoartifact_console
-	name = "research and development listing console (Computer Board)"
+	name = "xenoartifact listing console (Computer Board)"
 	icon_state = "science"
 	build_path = /obj/machinery/computer/xenoartifact_console
 
-/obj/item/circuitboard/machine/xenoartifact_inbox
-	name = "bluespace straythread pad (Machine Board)"
+/obj/item/circuitboard/machine/xenoartifact_pad
+	name = "xenoartifact delivery pad (Machine Board)"
 	icon_state = "science"
-	build_path = /obj/machinery/xenoartifact_inbox
+	build_path = /obj/machinery/xenoartifact_pad
 	req_components = list(
-		/obj/item/stack/ore/bluespace_crystal = 1,
+		/obj/item/stack/ore/bluespace_crystal = 5,
 		/obj/item/stock_parts/capacitor = 1,
-		/obj/item/stock_parts/manipulator = 1,
-		/obj/item/stack/cable_coil = 1)
+		/obj/item/stock_parts/scanning_module = 1,
+		/obj/item/stack/cable_coil = 2)
 	def_components = list(/obj/item/stack/ore/bluespace_crystal = /obj/item/stack/ore/bluespace_crystal/artificial)
 
 ///Stability lost on purchase
@@ -20,7 +20,7 @@
 #define STABILITY_GAIN 5
 
 /obj/machinery/computer/xenoartifact_console
-	name = "research and development listing console"
+	name = "xenoartifact listing console"
 	desc = "A science console used to source sellers, and buyers, for various blacklisted research objects."
 	icon_screen = "xenoartifact_console"
 	icon_keyboard = "rd_key"
@@ -35,7 +35,7 @@
 	var/current_tab = "Listings"
 	var/current_tab_info = "Here you can find listings for various research samples, usually fresh from the field. These samples aren't distrubuted by the Nanotrasen affiliated cargo system, so instead listing data is sourced from stray bluespace-threads."
 	///used for 'shipping'
-	var/obj/machinery/xenoartifact_inbox/linked_inbox
+	var/obj/machinery/xenoartifact_pad/linked_pad
 	///List of linked machines for UI purposes
 	var/list/linked_machines = list()
 	///Which science server receives points
@@ -50,7 +50,7 @@
 /obj/machinery/computer/xenoartifact_console/Initialize()
 	. = ..()
 	linked_techweb = SSresearch.science_tech
-	budget = SSeconomy.get_budget_account(ACCOUNT_SCI_ID)
+	budget = SSeconomy.get_budget_account(ACCOUNT_SCI)
 	sync_devices()
 	for(var/I in 1 to XENOA_MAX_VENDORS) //Add initial buyers and sellers
 		var/datum/xenoartifact_seller/S = new
@@ -65,8 +65,8 @@
 
 /obj/machinery/computer/xenoartifact_console/Destroy()
 	. = ..()
-	if(linked_inbox)
-		on_inbox_del()
+	if(linked_pad)
+		on_pad_del()
 	qdel(sellers)
 	qdel(buyers)
 	qdel(sold_artifacts)
@@ -147,15 +147,15 @@
 		if(stability < STABILITY_COST)
 			say("Error. Insufficient thread stability.")
 			return
-		if(!linked_inbox)
+		if(!linked_pad)
 			say("Error. No linked hardware.")
 			return
 		else if(budget.account_balance-S.price < 0)
 			say("Error. Insufficient funds.")
 			return
 
-		if(linked_inbox && budget.account_balance-S.price >= 0)
-			var/obj/item/xenoartifact/A = new (get_turf(linked_inbox.loc), S.difficulty)
+		if(linked_pad && budget.account_balance-S.price >= 0)
+			var/obj/item/xenoartifact/A = new (get_turf(linked_pad.loc), S.difficulty)
 			var/datum/component/xenoartifact_pricing/X = A.GetComponent(/datum/component/xenoartifact_pricing)
 			if(X)
 				X.price = S.price //dont bother trying to use internal singals for this
@@ -169,11 +169,11 @@
 
 //Auto sells item on pad, finds seller for you
 /obj/machinery/computer/xenoartifact_console/proc/sell()
-	if(!linked_inbox)
+	if(!linked_pad)
 		say("Error. No linked hardware.")
 		return
 	var/obj/selling_item
-	for(var/obj/I in oview(1, linked_inbox))
+	for(var/obj/I in oview(1, linked_pad))
 		for(var/datum/xenoartifact_seller/buyer/B as() in buyers)
 			if(istype(I, B.buying))
 				buyers -= B
@@ -237,41 +237,41 @@
 	ui_update()
 
 /obj/machinery/computer/xenoartifact_console/proc/sync_devices()
-	for(var/obj/machinery/xenoartifact_inbox/I in oview(9,src))
+	for(var/obj/machinery/xenoartifact_pad/I in oview(9,src))
 		if(I.linked_console || I.panel_open)
 			return
-		if(!(linked_inbox))
-			linked_inbox = I
+		if(!(linked_pad))
+			linked_pad = I
 			linked_machines += I.name
 			I.linked_console = src
-			I.RegisterSignal(src, COMSIG_PARENT_QDELETING, TYPE_PROC_REF(/obj/machinery/xenoartifact_inbox, on_machine_del))
-			RegisterSignal(I, COMSIG_PARENT_QDELETING, PROC_REF(on_inbox_del))
+			I.RegisterSignal(src, COMSIG_PARENT_QDELETING, TYPE_PROC_REF(/obj/machinery/xenoartifact_pad, on_machine_del))
+			RegisterSignal(I, COMSIG_PARENT_QDELETING, PROC_REF(on_pad_del))
 			say("Successfully linked [I].")
 			return
 	say("Unable to find linkable hadrware.")
 
-/obj/machinery/computer/xenoartifact_console/proc/on_inbox_del() //Hard del measures
+/obj/machinery/computer/xenoartifact_console/proc/on_pad_del() //Hard del measures
 	SIGNAL_HANDLER
-	UnregisterSignal(linked_inbox, COMSIG_PARENT_QDELETING)
-	linked_inbox = null
+	UnregisterSignal(linked_pad, COMSIG_PARENT_QDELETING)
+	linked_pad = null
 
 #undef STABILITY_COST
 #undef STABILITY_GAIN
 
-/obj/machinery/xenoartifact_inbox
+/obj/machinery/xenoartifact_pad
 	name = "bluespace straythread pad" //Science words
 	desc = "This machine takes advantage of bluespace thread manipulation to highjack in-coming and out-going bluespace signals. Science uses it to deliver their very legal purchases." //All very sciencey
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "qpad-idle"
-	circuit = /obj/item/circuitboard/machine/xenoartifact_inbox
+	circuit = /obj/item/circuitboard/machine/xenoartifact_pad
 	var/linked_console
 
-/obj/machinery/xenoartifact_inbox/proc/on_machine_del()
+/obj/machinery/xenoartifact_pad/proc/on_machine_del()
 	SIGNAL_HANDLER
 	UnregisterSignal(linked_console, COMSIG_PARENT_QDELETING)
 	linked_console = null
 
-/obj/machinery/xenoartifact_inbox/Destroy()
+/obj/machinery/xenoartifact_pad/Destroy()
 	. = ..()
 	on_machine_del()
 

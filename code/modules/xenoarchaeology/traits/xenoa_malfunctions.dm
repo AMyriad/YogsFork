@@ -196,9 +196,10 @@
 	response_help = "pokes"
 	response_disarm = "shoves"
 	speed = 0
-	maxHealth = 10
-	health = 10
-	melee_damage = 5
+	maxHealth = 25
+	health = 25
+	melee_damage_lower = 1
+	melee_damage_upper = 10 // Just like a human!
 	attacktext = "punches"
 	attack_sound = 'sound/weapons/punch1.ogg'
 	a_intent = INTENT_HARM

@@ -662,7 +662,7 @@
 				/obj/item/circuitboard/machine/nanite_chamber,
 				/obj/item/circuitboard/machine/nanite_programmer,
 				/obj/item/circuitboard/machine/nanite_program_hub,
-				/obj/item/circuitboard/machine/xenoartifact_inbox,
+				/obj/item/circuitboard/machine/xenoartifact_pad,
 				/obj/item/circuitboard/computer/xenoartifact_console
 				)
 

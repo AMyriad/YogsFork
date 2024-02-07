@@ -458,7 +458,7 @@
 
 /*		TODO BEFORE PRING
 ///============
-/// Destabilizing - Teleports the victim to that weird place from the exploration meme.
+/// Destabilizing - Teleports the victim to limbo.
 ///============
 /datum/xenoartifact_trait/major/distablizer
 	desc = "Destabilizing"

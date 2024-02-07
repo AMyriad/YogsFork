@@ -446,16 +446,6 @@
 /datum/component/xenoartifact_pricing/proc/update_price(datum/source, f_price)
 	price = f_price
 
- ///Objective version for exploration
-/obj/item/xenoartifact/objective/Initialize(mapload, difficulty)
-	traits += new /datum/xenoartifact_trait/special/objective
-	..()
-
-/obj/item/xenoartifact/objective/ComponentInitialize()
-	AddComponent(/datum/component/gps, "[scramble_message_replace_chars("#########", 100)]", TRUE)
-	AddComponent(/datum/component/tracking_beacon, EXPLORATION_TRACKING, null, null, TRUE, "#eb4d4d", TRUE, TRUE)
-	..()
-
 /obj/effect/ebeam/xenoa_ebeam //Beam code. This isn't mine. See beam.dm for better documentation.
 	name = "artifact beam"
 

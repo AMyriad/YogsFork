@@ -117,10 +117,3 @@
 
 /datum/xenoartifact_trait/proc/on_touch(obj/item/xenoartifact/X, atom/user) //Touch hint
 	return FALSE
-
-//Exploration mission GPS trait
-/datum/xenoartifact_trait/special/objective
-	blacklist_traits = list(/datum/xenoartifact_trait/minor/delicate)
-
-/datum/xenoartifact_trait/special/objective/on_init(obj/item/xenoartifact/X)
-	X.AddComponent(/datum/component/gps, "[scramble_message_replace_chars("#########", 100)]", TRUE)

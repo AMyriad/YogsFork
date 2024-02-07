@@ -56,7 +56,7 @@
 
 	minimal_lightup_areas = list(
 		/area/crew_quarters/heads/hor,
-		/area/science/explab,
+		/area/science/xenoarchlab,
 		/area/science/misc_lab,
 		/area/science/mixing,
 		/area/science/nanite,
