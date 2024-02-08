@@ -53,7 +53,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/floor/plating/dirt/jungleland
 	name = "generic jungle land turf"
-	desc = "Nothing but the smell of blood, sweat, and tears. You feel like you should report seeing this."
+	desc = "Nothing but blood, sweat, and tears here. You feel like you should report seeing this."
 	icon = 'yogstation/icons/turf/floors/jungle.dmi'
 	icon_state = "jungle"
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -108,9 +108,11 @@ Temperature: 126.85 °C (400 K)
 /turf/open/floor/plating/dirt/jungleland/ex_act(severity, target)
 	if(can_spawn_ore && prob( (severity/3)*100  ))	
 		spawn_rock()
+
 /turf/open/floor/plating/dirt/jungleland/barren_rocks
 	name = "rocky surface"
-	desc = "A surface covered by rocks, pebbles and stones."
+	desc = "A dense ground of magmatic rock, laden with cracks and fissures. It's warm to the touch."
+	gender = NEUTER
 	icon_state = "barren_rocks"
 	icon_plating = "barren_rocks"
 	icon_state_regular_floor = "barren_rocks" 
@@ -139,6 +141,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/floor/plating/dirt/jungleland/dry_swamp1
 	name = "dried surface"
 	desc = "it used to be a riverbed"
+	gender = NEUTER
 	icon_state = "dry_swamp1"
 	icon_plating = "dry_swamp1"
 	icon_state_regular_floor = "dry_swamp1" 
@@ -181,6 +184,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/water/toxic_pit
 	name = "sulphuric pit"
 	desc = "Very toxic"
+	gender = NEUTER // That's a sulphuric pit
 	color = "#00c167"
 	slowdown = 2
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -200,7 +204,7 @@ Temperature: 126.85 °C (400 K)
 
 	if(isipc(humie) && prob(chance))
 		humie.adjustFireLoss(33)
-		to_chat(humie,span_danger("the sulphuric solution burns and singes into your plating!"))
+		to_chat(humie,span_danger("The sulphuric solution burns and singes into your plating!"))
 		return 
 
 	if(HAS_TRAIT(humie,TRAIT_TOXIMMUNE) || HAS_TRAIT(humie,TRAIT_TOXINLOVER))
@@ -218,6 +222,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/water/deep_toxic_pit
 	name = "deep sulphuric pit"
 	desc = "Extraordinarly toxic"
+	gender = NEUTER
 	color = "#004700"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -280,6 +285,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/water/tar_basin
 	name = "tar basin"
+	gender = NEUTER
 	color = "#680047"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS

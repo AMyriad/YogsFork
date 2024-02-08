@@ -675,7 +675,7 @@
 	light_color = "#2d066d"
 
 /obj/item/demon_core
-	name = "demon core"
+	name = "\improper Demon Core" // Only one exists, dropped by the tar king
 	desc = "It glows with a faint light, you can feel the energy buzzing off of it"
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "demon_core"
@@ -683,7 +683,7 @@
 /obj/item/demon_core/examine(mob/user)
 	. = ..()
 	. += "You can insert it into any hardsuit to give it a rechargeable shield."
-	. += "You can insert it into the super-matter engine, to double it's rad production."
+	. += "You can insert it into the supermatter engine, to double it's rad production."
 
 /obj/item/demon_core/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
 	if(!proximity_flag)

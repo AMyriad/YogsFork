@@ -70,7 +70,7 @@
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
 	name = "cursed jungle spirit"
 	desc = "An amalgam of splintering branches wearing the husk of a long dead... 'vine' around it. \
-			This zealous spirit of the jungle, once a benevolent protector has turned feral and wild, lashing out at any foreign presence."
+			This zealous spirit of the jungle, a once kind protector has turned feral and wild. Best not to go near it."
 	icon_state = "corrupted_dryad"
 	icon_living = "corrupted_dryad"
 	icon_dead = "corrupted_dryad_dead"

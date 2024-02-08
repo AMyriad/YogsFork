@@ -88,6 +88,7 @@
 
 /obj/structure/tar_pit
 	name = "tar pit"
+	gender = NEUTER // That's a tar pit
 	desc = "A pit filled with a viscous, tar-like sludge. Every so often a bubble rises to the top."
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "tar_pit"
@@ -169,9 +170,9 @@
 
 /obj/structure/fluff/tarstatue
 	name = "tar statue"
-	desc = "
-
-	desc = "A lifelike recreation of some...one? It seems damaged from years of neglect."
+	desc = "A crude effigy shaped in likeness of something [pick("imposing", "royal", "somber", "violent", "once noble")]. \
+			Time has sanded its features down to a cracked and sinking mess, pooling into the ground beneath.
+	gender = NEUTER
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "damaged_tarstatue"
 	deconstructible = FALSE
@@ -179,6 +180,7 @@
 
 /obj/structure/tar_altar
 	name = "\improper Forgotten Altar"
+	desc = "A singularly imposing pillar of ivory 
 	desc = "A might pillar of ivory, untouched by time and corrosion. There is a large hole on the top, it's missing a key ingridient..."
 	icon = 'yogstation/icons/obj/jungle32x48.dmi'
 	icon_state = "tar_altar"
