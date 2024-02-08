@@ -53,7 +53,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/floor/plating/dirt/jungleland
 	name = "generic jungle land turf"
-	desc = "pain"
+	desc = "Nothing but the smell of blood, sweat, and tears. You feel like you should report seeing this."
 	icon = 'yogstation/icons/turf/floors/jungle.dmi'
 	icon_state = "jungle"
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -110,7 +110,7 @@ Temperature: 126.85 °C (400 K)
 		spawn_rock()
 /turf/open/floor/plating/dirt/jungleland/barren_rocks
 	name = "rocky surface"
-	desc = "Surface covered by rocks, pebbles and stones."
+	desc = "A surface covered by rocks, pebbles and stones."
 	icon_state = "barren_rocks"
 	icon_plating = "barren_rocks"
 	icon_state_regular_floor = "barren_rocks" 

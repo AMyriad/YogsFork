@@ -24,9 +24,12 @@
 	if(C && crusher_loot && C.total_damage >= maxHealth * 0.6 && crusher_loot)
 		loot += crusher_loot
 	. = ..()
+
 /mob/living/simple_animal/hostile/yog_jungle/dryad
-	name = "Jungle spirit"
-	desc = "A spirit of the jungle, protector of the forest, heals the ones in need, and butchers the ones that plauge the forest."
+	name = "jungle spirit"
+	desc = "An amalgam of branches held together by the long, squirming... 'vine' coiled around it. \
+			This zealous spirit of the jungle and protector of the woods is known as a friend to any stranger who doesn't disturb the life here. \
+			Respect the woods." // Be patient. Focus.
 	icon_state = "dryad"
 	icon_living = "dryad"
 	icon_dead = "dryad_dead"
@@ -63,10 +66,11 @@
 		projectiletype = alt_projectiletype
 		ranged_cooldown_time = initial(ranged_cooldown_time)	
 	return ..()
-	
+
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
-	name = "Cursed jungle spirit"
-	desc = "A spirit of the jungle, once a protector, but now corrupted by forced beyond this world. It's essence it's twisted and it will attack everyone in sight"
+	name = "cursed jungle spirit"
+	desc = "An amalgam of splintering branches wearing the husk of a long dead... 'vine' around it. \
+			This zealous spirit of the jungle, once a benevolent protector has turned feral and wild, lashing out at any foreign presence."
 	icon_state = "corrupted_dryad"
 	icon_living = "corrupted_dryad"
 	icon_dead = "corrupted_dryad_dead"
@@ -93,8 +97,12 @@
 	alpha_type = /mob/living/simple_animal/hostile/yog_jungle/alpha/alpha_corrupted_dryad
 
 /mob/living/simple_animal/hostile/yog_jungle/meduracha
-	name ="Meduracha aquatica"
-	desc = "A predator of the toxic swamps, it's long tendrils cause very fast toxic buildup that after a while will cause varying degrees of incapacitation"
+	name ="meduracha aquatica"
+	
+
+
+	desc = "A predator of the toxic swamps, it's long tendrils cause very fast toxic buildup \
+	that after a while will cause varying degrees of incapacitation"
 	icon_state = "meduracha"
 	icon_living = "meduracha"
 	icon_dead = "meduracha_dead"
@@ -161,7 +169,8 @@
 	icon_state = "meduracha"
 
 /mob/living/simple_animal/hostile/yog_jungle/skin_twister
-	name = "Skin twister"
+	name = "skin twister"
+	desc = "
 	desc = "The apex predator of this planet, kills everything and then steals the victim's skin, allowing it to lure it's prey and kill them with ease"
 	icon_state = "skin_twister"
 	icon_living = "skin_twister"

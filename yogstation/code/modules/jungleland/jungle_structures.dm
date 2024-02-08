@@ -87,8 +87,8 @@
 	QDEL_IN(src,4)
 
 /obj/structure/tar_pit
-	name = "Tar pit"
-	desc = "A pit filled with viscious substance resembling tar, every so often a bubble rises to the top."
+	name = "tar pit"
+	desc = "A pit filled with a viscous, tar-like sludge. Every so often a bubble rises to the top."
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "tar_pit"
 	layer = SIGIL_LAYER
@@ -168,7 +168,9 @@
 	return ..()
 
 /obj/structure/fluff/tarstatue
-	name = "Tar Statue"
+	name = "tar statue"
+	desc = "
+
 	desc = "A lifelike recreation of some...one? It seems damaged from years of neglect."
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "damaged_tarstatue"
@@ -176,7 +178,7 @@
 	density = TRUE
 
 /obj/structure/tar_altar
-	name = "Forgotten Altar"
+	name = "\improper Forgotten Altar"
 	desc = "A might pillar of ivory, untouched by time and corrosion. There is a large hole on the top, it's missing a key ingridient..."
 	icon = 'yogstation/icons/obj/jungle32x48.dmi'
 	icon_state = "tar_altar"
