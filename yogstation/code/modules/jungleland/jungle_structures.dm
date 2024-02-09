@@ -170,8 +170,8 @@
 
 /obj/structure/fluff/tarstatue
 	name = "tar statue"
-	desc = "A crude effigy shaped in likeness of something [pick("imposing", "royal", "somber", "violent", "once noble")]. \
-			Time has sanded its features down to a cracked and sinking mess, pooling into the ground beneath.
+	desc = "A crude effigy shaped in likeness of something [pick("imposing", "royal", "somber", "violent", "noble")]. \
+			Time has sanded its features down to a cracked and sinking mess, pooling into the ground below.
 	gender = NEUTER
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "damaged_tarstatue"

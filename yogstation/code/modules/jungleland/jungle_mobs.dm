@@ -101,7 +101,7 @@
 	
 
 
-	desc = "A predator of the toxic swamps, it's long tendrils cause very fast toxic buildup \
+	desc = "A predator of the toxic swamps, its long tendrils cause very fast toxic buildup \
 	that after a while will cause varying degrees of incapacitation"
 	icon_state = "meduracha"
 	icon_living = "meduracha"

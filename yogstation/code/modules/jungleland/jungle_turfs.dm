@@ -106,41 +106,42 @@ Temperature: 126.85 °C (400 K)
 	spawn_rock()
 	
 /turf/open/floor/plating/dirt/jungleland/ex_act(severity, target)
-	if(can_spawn_ore && prob( (severity/3)*100  ))	
+	if(can_spawn_ore && prob( (severity/3)*100  ))
 		spawn_rock()
 
 /turf/open/floor/plating/dirt/jungleland/barren_rocks
-	name = "rocky surface"
-	desc = "A dense ground of magmatic rock, laden with cracks and fissures. It's warm to the touch."
-	gender = NEUTER
+	name = "barren rock"
+	desc = "A dense ground of magmatic rock, laden with cracks and fissures. It's faintly warm to the touch."
+	gender = PLURAL // That's some barren rock
 	icon_state = "barren_rocks"
 	icon_plating = "barren_rocks"
 	icon_state_regular_floor = "barren_rocks" 
 
 /turf/open/floor/plating/dirt/jungleland/toxic_rocks
 	name = "mud"
-	desc = "Liquid mixed with dirt"
+	desc = "Acidic dirt mixed with toxic river water. You get the feeling this kind of mud wouldn't be good for your skin."
 	icon_state = "toxic_rocks"
 	icon_plating = "toxic_rocks"
 	icon_state_regular_floor = "toxic_rocks" 
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp
 	name = "sand"
-	desc = "mounds upon mounds of sand"
+	desc = "Mounds upon mounds of coarse sand. Great for throwing in people's eyes."
 	icon_state = "dry_swamp"
 	icon_plating = "dry_swamp"
 	icon_state_regular_floor = "dry_swamp" 
 
 /turf/open/floor/plating/dirt/jungleland/toxic_pit
 	name = "shallow mud"
-	desc = "pit of shallow mud"
+	desc = "It's a pit of shallow mud. Only the stupid, the brave, or the angry would care to step through this."
 	icon_state = "toxic_pit"
 	icon_plating = "toxic_pit"
 	icon_state_regular_floor = "toxic_pit" 
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp1
 	name = "dried surface"
-	desc = "it used to be a riverbed"
+	desc = 
+	desc = "it used to be a riverbed." //How do they know this?
 	gender = NEUTER
 	icon_state = "dry_swamp1"
 	icon_plating = "dry_swamp1"
@@ -184,7 +185,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/water/toxic_pit
 	name = "sulphuric pit"
 	desc = "Very toxic"
-	gender = NEUTER // That's a sulphuric pit
+	gender = NEUTER
 	color = "#00c167"
 	slowdown = 2
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS

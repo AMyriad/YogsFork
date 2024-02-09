@@ -1,8 +1,8 @@
 /atom/movable/screen/alert/status_effect/toxic_buildup
 	name = "Toxic buildup"
 	desc = "Toxins have built up in your system, they cause sustained toxin damage and given enough time severely damage the liver. \
-			If you choose to neglect this condition and let it worsen it will lead to exhaustaion followed by death from either liver failure or toxin damage. \
-			To cure it use an un-corrupted dryad heart, injest anti-toxin medication or if the condition isn't severe, let your body naturally expell the toxic metabolites."
+			If you choose to neglect this condition and let it worsen it will lead to exhaustion followed by death from either liver failure or toxin damage. \
+			To cure it use an un-corrupted dryad heart, ingest anti-toxin medicine or if the condition isn't severe, let your body naturally expel the toxic metabolites."
 	icon = 'yogstation/icons/mob/screen_alert.dmi'
 	icon_state = "toxic_buildup"
 
@@ -15,7 +15,7 @@
 
 /atom/movable/screen/alert/status_effect/tar_curse
 	name = "Curse of Tar"
-	desc = "You've been cursed by a tar priest. The next attack from any tar monster will deal more damage, and may have additional effects."
+	desc = "You've been cursed by a tar priest. The next attack from any tar creature will deal more damage, and may have additional effects."
 	icon = 'yogstation/icons/mob/screen_alert.dmi'
 	icon_state = "tar_curse"
 
