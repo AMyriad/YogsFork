@@ -13,7 +13,7 @@
 	var/alpha_damage_boost = 1 //if a mob has really high damage it may be unfair to boost it further when making an alpha version.
 	var/crusher_loot
 	var/alpha_type = 0
- 
+
 /mob/living/simple_animal/hostile/yog_jungle/attacked_by(obj/item/I, mob/living/user)
 	if(stat == CONSCIOUS && AIStatus != AI_OFF && !client && user)
 		ADD_TRAIT(user,TRAIT_ENEMY_OF_THE_FOREST,JUNGLELAND_TRAIT)	
@@ -33,7 +33,7 @@
 	icon_state = "dryad"
 	icon_living = "dryad"
 	icon_dead = "dryad_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("eak!","sheik!","ahik!","keish!")
 	speak_emote = list("shimmers", "vibrates")
 	emote_hear = list("vibes.","sings.","shimmers.")
@@ -68,13 +68,13 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
-	name = "cursed jungle spirit"
+	name = "wild jungle spirit"
 	desc = "An amalgam of splintering branches wearing the husk of a long dead... 'vine' around it. \
 			This zealous spirit of the jungle, a once kind protector has turned feral and wild. Best not to go near it."
 	icon_state = "corrupted_dryad"
 	icon_living = "corrupted_dryad"
 	icon_dead = "corrupted_dryad_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("eak!","sheik!","ahik!","keish!")
 	speak_emote = list("shimmers", "vibrates")
 	emote_hear = list("vibes.","sings.","shimmers.")
@@ -102,11 +102,11 @@
 
 
 	desc = "A predator of the toxic swamps, its long tendrils cause very fast toxic buildup \
-	that after a while will cause varying degrees of incapacitation"
+			that after a while will cause varying degrees of incapacitation"
 	icon_state = "meduracha"
 	icon_living = "meduracha"
 	icon_dead = "meduracha_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("hgrah!","blrp!","poasp!","ahkr!")
 	speak_emote = list("bubbles", "vibrates")
 	emote_hear = list("gazes.","bellows.","splashes.")
@@ -148,7 +148,6 @@
 /mob/living/simple_animal/hostile/yog_jungle/meduracha/Goto(target, delay, minimum_distance)
 	update_sulking(TRUE)
 	return ..()
-	
 
 /mob/living/simple_animal/hostile/yog_jungle/meduracha/LoseAggro()
 	update_sulking(TRUE)
@@ -170,12 +169,12 @@
 
 /mob/living/simple_animal/hostile/yog_jungle/skin_twister
 	name = "skin twister"
-	desc = "
-	desc = "The apex predator of this planet, kills everything and then steals the victim's skin, allowing it to lure it's prey and kill them with ease"
+	desc = ""
+	//desc = "The apex predator of this planet, kills everything and then steals the victim's skin, allowing it to lure it's prey and kill them with ease"
 	icon_state = "skin_twister"
 	icon_living = "skin_twister"
 	icon_dead = "skin_twister_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("AGRH!","SAGH!","REAAH!","REEIK!")
 	speak_emote = list("roars", "howls")
 	emote_hear = list("stalks.","listens.","hears.")
@@ -189,7 +188,6 @@
 	response_harm   = "hits"
 	maxHealth = 320
 	health = 320
-	spacewalk = TRUE
 	melee_damage_lower = 30
 	melee_damage_upper = 55 // ouch
 	rapid_melee = 2
@@ -301,7 +299,7 @@
 	icon_state = "blobby"
 	icon_living = "blobby"
 	icon_dead = "blobby_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("brbl","bop","pop","blsp")
 	speak_emote = list("bops", "pops")
 	emote_hear = list("vibrates.","listens.","hears.")
@@ -357,7 +355,7 @@
 	icon_state = "mosquito"
 	icon_living = "mosquito"
 	icon_dead = "mosquito_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("bzzzzz")
 	speak_emote = list("buzzes")
 	emote_hear = list("buzzes")
