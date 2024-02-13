@@ -10,14 +10,14 @@
 
 /mob/living/simple_animal/hostile/megafauna/tar_king 
 	name = "\improper King of Tar"
-	desc = "A hunking mass of tar resembling a human, a shining gem glows from within. It yearns for the end of its agony..."
+	desc = "A hulking mass of tar resembling a human, a shining gem glows from within. It yearns for the end of its agony..."
 	health = 2000
 	maxHealth = 2000
 	icon_state = "tar_king"
 	icon_living = "tar_king"
 	icon = 'yogstation/icons/mob/jungle64x64.dmi'
 	health_doll_icon = "tar_king"
-	mob_biotypes = list(MOB_ORGANIC, MOB_HUMANOID)
+	mob_biotypes = MOB_ORGANIC | MOB_HUMANOID
 	light_color = "#dd35d5"
 	a_intent = INTENT_HARM
 	melee_damage_lower = 25
@@ -25,7 +25,7 @@
 	movement_type = GROUND
 	ranged = TRUE 
 	faction = list("tar", "boss")
-	speak_emote = list("roars")
+	speak_emote = "roars"
 	speed = 2
 	move_to_delay = 2
 	pixel_x = -16

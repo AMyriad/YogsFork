@@ -11,7 +11,7 @@
 	icon_state = "alpha_meduracha"
 	icon_living = "alpha_meduracha"
 	icon_dead = "alpha_meduracha_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("hgrah!","blrp!","poasp!","ahkr!")
 	speak_emote = list("bubbles", "vibrates")
 	emote_hear = list("gazes.","bellows.","splashes.")
@@ -95,7 +95,7 @@
 	icon_state = "big_blob"
 	icon_living = "big_blob"
 	icon_dead = "big_blob_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("brbl","bop","pop","blsp")
 	speak_emote = list("bops", "pops")
 	emote_hear = list("vibrates.","listens.","hears.")
@@ -145,7 +145,7 @@
 	icon_state = "wrath_of_gaia"
 	icon_living = "wrath_of_gaia"
 	icon_dead = "wrath_of_gaia_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	faction = list("mining")
 	response_help  = "gently pokes"
 	response_disarm = "gently pushes aside"
@@ -177,7 +177,7 @@
 	icon_state = "wrath_of_corruption"
 	icon_living = "wrath_of_corruption"
 	icon_dead = "wrath_of_corruption_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	faction = list("mining")
 	response_help  = "gently pokes"
 	response_disarm = "gently pushes aside"
@@ -237,7 +237,7 @@
 	icon_state = "mosquito"
 	icon_living = "mosquito"
 	icon_dead = "mosquito_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	faction = list("mining")
 	response_help  = "gently pokes"
 	response_disarm = "gently pushes aside"

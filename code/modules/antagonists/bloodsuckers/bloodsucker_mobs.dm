@@ -272,7 +272,7 @@
 	gender = PLURAL
 	icon_state = "wraith"
 	icon_living = "wraith"
-	mob_biotypes = list(MOB_SPIRIT)
+	mob_biotypes = MOB_SPIRIT
 	maxHealth = 30
 	health = 30
 	spacewalk = TRUE

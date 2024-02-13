@@ -35,7 +35,7 @@
 	icon_dead = "dryad_dead"
 	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("eak!","sheik!","ahik!","keish!")
-	speak_emote = list("shimmers", "vibrates")
+	speak_emote = "rustles"
 	emote_hear = list("vibes.","sings.","shimmers.")
 	emote_taunt = list("tremors", "shakes")
 	speak_chance = 1
@@ -69,14 +69,14 @@
 
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
 	name = "wild jungle spirit"
-	desc = "An amalgam of splintering branches wearing the husk of a long dead... 'vine' around it. \
+	desc = "An amalgam of splintering branches wearing the husk of a long dead... 'vine' coiled around it. \
 			This zealous spirit of the jungle, a once kind protector has turned feral and wild. Best not to go near it."
 	icon_state = "corrupted_dryad"
 	icon_living = "corrupted_dryad"
 	icon_dead = "corrupted_dryad_dead"
 	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak = list("eak!","sheik!","ahik!","keish!")
-	speak_emote = list("shimmers", "vibrates")
+	speak_emote = "thrums deeply"
 	emote_hear = list("vibes.","sings.","shimmers.")
 	emote_taunt = list("tremors", "shakes")
 	speak_chance = 1
