@@ -139,9 +139,8 @@ Temperature: 126.85 °C (400 K)
 	icon_state_regular_floor = "toxic_pit" 
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp1
-	name = "dried surface"
-	desc = 
-	desc = "it used to be a riverbed." //How do they know this?
+	name = "dried marsh"
+	desc = "Something once lived here." //How do they know this?
 	gender = NEUTER
 	icon_state = "dry_swamp1"
 	icon_plating = "dry_swamp1"

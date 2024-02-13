@@ -170,7 +170,7 @@
 
 /obj/structure/fluff/tarstatue
 	name = "tar statue"
-	desc = "A crude effigy shaped in likeness of some... thing. Time has sanded its features down to a cracked and drooling mess, seeping into the ground below."
+	desc = "A crude effigy shaped in the likeness of some... thing. Time has sanded its features down to a cracked and drooling mess, seeping into the ground below."
 	gender = NEUTER
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "damaged_tarstatue"
@@ -179,8 +179,8 @@
 
 /obj/structure/tar_altar
 	name = "\improper Forgotten Altar"
-	desc = "A singularly imposing pillar of ivory 
-	desc = "A might pillar of ivory, untouched by time and corrosion. There is a large hole on the top, it's missing a key ingridient..."
+	desc = "A singularly imposing pillar of ivory stands alone in this room, untouched by time. \
+			<b>There's a large, narrowing hole in the top. It appears to be missing something...</b>"
 	icon = 'yogstation/icons/obj/jungle32x48.dmi'
 	icon_state = "tar_altar"
 	layer = ABOVE_ALL_MOB_LAYER

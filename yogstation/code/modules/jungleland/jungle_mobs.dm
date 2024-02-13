@@ -70,7 +70,8 @@
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
 	name = "wild jungle spirit"
 	desc = "An amalgam of splintering branches wearing the husk of a long dead... \"vine\" coiled around it. \
-			This zealous spirit of the jungle, a once kind protector has turned feral and wild. Best not to go near it."
+			This zealous spirit of the jungle, a once kind protector has turned feral and wild. \
+			Best not to go near it."
 	icon_state = "corrupted_dryad"
 	icon_living = "corrupted_dryad"
 	icon_dead = "corrupted_dryad_dead"
@@ -100,8 +101,6 @@
 	name = "meduracha aquatica"
 	desc = "Marshland predator that's known to have a venom that stiffens muscles once inside the body \
 			They're in constant motion to keep the venom mixing, and prevent it from stiffening inside their own body."
-	desc = "A predator of the toxic swamps, its long tendrils cause very fast toxic buildup \
-			that after a while will cause varying degrees of incapacitation"
 	icon_state = "meduracha"
 	icon_living = "meduracha"
 	icon_dead = "meduracha_dead"
