@@ -39,7 +39,7 @@
 
 /obj/item/full_tar_crystal
 	name = "Ominous Crystal"
-	desc = "a crystal that has been repaired from 3 parts, it emantes dark energy."
+	desc = "A crystal that has been repaired from 3 parts, it emantes dark energy."
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "tar_crystal"
 	max_integrity = 400
@@ -666,7 +666,7 @@
 
 /obj/item/gem/tarstone
 	name = "primal tarstone"
-	desc = "An incredibly dense and tough chunk of ancient tar. Millions of microscopic runes subtly line the surface, and probably make this artifact worth thousands."
+	desc = "An incredibly dense chunk of ancient tar. Millions of microscopic runes subtly line the surface, and probably make this artifact worth thousands."
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "targem"
 	point_value = 3000
@@ -676,14 +676,14 @@
 
 /obj/item/demon_core
 	name = "\improper Demon Core" // Only one exists, dropped by the tar king
-	desc = "It glows with a faint light, you can feel the energy buzzing off of it"
+	desc = "It glows with a faint light, you can feel the energy buzzing off of it."
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "demon_core"
 
 /obj/item/demon_core/examine(mob/user)
 	. = ..()
-	. += "You can insert it into any hardsuit to give it a rechargeable shield."
-	. += "You can insert it into the supermatter engine, to double it's rad production."
+	. += "You can insert this into any hardsuit to give it a recharging shield."
+	. += "You can insert this into a supermatter crystal to double its radiation output."
 
 /obj/item/demon_core/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
 	if(!proximity_flag)
