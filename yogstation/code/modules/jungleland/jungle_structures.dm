@@ -170,7 +170,7 @@
 
 /obj/structure/fluff/tarstatue
 	name = "tar statue"
-	desc = "A crude effigy adorned with a crown of pale stone, and luminescent amber pebbles. \
+	desc = "A crude effigy adorned with a crown of pale stone and some shiny pebbles of amber. \
 			Time has sanded its features down to a cracked and drooling mess, seeping into the ground below."
 	gender = NEUTER
 	icon = 'yogstation/icons/obj/jungle.dmi'

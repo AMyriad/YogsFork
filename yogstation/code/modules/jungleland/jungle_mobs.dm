@@ -28,7 +28,7 @@
 /mob/living/simple_animal/hostile/yog_jungle/dryad
 	name = "jungle spirit"
 	desc = "An amalgam of branches held together by the long, squirming... \"vine\" coiled around it. \
-			This zealous spirit of the jungle and protector of the woods is known as a friend to any stranger who doesn't disturb the life here. \
+			This zealous spirit of the jungle and protector of the woods is known as a friend to any stranger who doesn't disturb the life here. <br>\
 			Respect the woods." // Be patient. Focus.
 	icon_state = "dryad"
 	icon_living = "dryad"
@@ -167,7 +167,7 @@
 
 /mob/living/simple_animal/hostile/yog_jungle/skin_twister
 	name = "skin twister"
-	desc = "Inky beasts known by rumor to crawl from pits and burrows to steal the skin of their victims and lure in any would-be saviors. \
+	desc = "Inky beasts known to crawl from pits and burrows to steal the skin of their victims and lure in any would-be saviors. \
 			
 	//desc = "The apex predator of this planet, kills everything and then steals the victim's skin, allowing it to lure it's prey and kill them with ease"
 	icon_state = "skin_twister"
@@ -294,7 +294,8 @@
 
 /mob/living/simple_animal/hostile/yog_jungle/blobby
 	name = "Blobby"
-	desc = "A gelatinous creature of the swampy regions of the jungle. It's a big blob of goo, and it's not very friendly."
+	desc = "Believed to be an ancient variant of slime, these gelatinous creautes roam the swampy"
+	//desc = "A gelatinous creature of the swampy regions of the jungle. It's a big blob of goo, and it's not very friendly."
 	icon_state = "blobby"
 	icon_living = "blobby"
 	icon_dead = "blobby_dead"
