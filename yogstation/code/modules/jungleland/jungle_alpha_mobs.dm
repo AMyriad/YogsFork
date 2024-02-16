@@ -6,7 +6,7 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/yog_jungle/alpha/alpha_meduracha
-	name ="Meduracha majora"
+	name ="meduracha majora"
 	desc = "Collosal beast of tentacles, its deep eye looks directly at you."
 	icon_state = "alpha_meduracha"
 	icon_living = "alpha_meduracha"
@@ -328,7 +328,7 @@
 	return can_charge 
 
 /mob/living/simple_animal/hostile/yog_jungle/alpha/alpha_yellowjacket
-	name = "yellow jacket matriarch"
+	name = "yellowjacket matriarch"
 	desc = "A large and aggressive creature with a massive stinger. It is very angry."
 	icon = 'yogstation/icons/mob/jungle64x64.dmi'
 	icon_state = "wasp"

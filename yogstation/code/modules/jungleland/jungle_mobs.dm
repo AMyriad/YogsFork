@@ -167,7 +167,8 @@
 
 /mob/living/simple_animal/hostile/yog_jungle/skin_twister
 	name = "skin twister"
-	desc = ""
+	desc = "Inky beasts known by rumor to crawl from pits and burrows to steal the skin of their victims and lure in any would-be saviors. \
+			
 	//desc = "The apex predator of this planet, kills everything and then steals the victim's skin, allowing it to lure it's prey and kill them with ease"
 	icon_state = "skin_twister"
 	icon_living = "skin_twister"
@@ -315,6 +316,7 @@
 	loot  = list(/obj/item/stack/sheet/slime)
 	melee_damage_lower = 4
 	melee_damage_upper = 6
+	melee_damage_type = BURN
 	
 	alpha_type = /mob/living/simple_animal/hostile/yog_jungle/alpha/alpha_blobby
 
@@ -450,7 +452,7 @@
 
 //jungle version of the wasp. Slightly weaker and faster, with different loot. Renamed to avoid confusion. Credit to original creator.
 /mob/living/simple_animal/hostile/yog_jungle/yellowjacket
-	name = "yellow jacket"
+	name = "yellowjacket"
 	desc = "A large and aggressive creature with a massive stinger."
 	icon = 'icons/mob/jungle/wasp.dmi'
 	icon_state = "wasp"
