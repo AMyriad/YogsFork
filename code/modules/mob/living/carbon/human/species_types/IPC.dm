@@ -151,20 +151,20 @@
 			SPECIES_PERK_ICON = "robot",
 			SPECIES_PERK_NAME = "Automa",
 			SPECIES_PERK_DESC = "IPCs are completely inorganic. They boast complete immunity to \
-				toxins, cell damage, disease, and have no need to breathe. However their organs \
+				toxins, cell damage, disease, and have no need to breathe. However, their organs \
 				do not regenerate, and must be replaced if destroyed.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "trash-alt",
-			SPECIES_PERK_NAME = "\[DATA EXPUNGED\]",
+			SPECIES_PERK_NAME = "Random Access Memory",
 			SPECIES_PERK_DESC = "IPCs lose all recent memory on death regardless of how long they've been dead for, \
 				never remembering how they died.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "dna",
-			SPECIES_PERK_NAME = "NULL_SEQUENCE",
+			SPECIES_PERK_NAME = "SEQUENCE_NULL",
 			SPECIES_PERK_DESC = "IPCs have no genetic sequence, and cannot be affected by mutations nor be cloned.",
 		),
 

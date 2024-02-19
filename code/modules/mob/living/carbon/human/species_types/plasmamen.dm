@@ -243,18 +243,18 @@
 			SPECIES_PERK_ICON = "user-astronaut",
 			SPECIES_PERK_NAME = "The Suit",
 			SPECIES_PERK_DESC = "Plasmamen begin with an airtight envirosuit, which they are dependant on to survive. \
-				Their envirohelm is also space-worthy, and provides shielding from welding flashes, as well as an inbuilt flashlight.",
+				Their envirohelm is also space-worthy, and provides shielding from welding flashes, as well as a built-in flashlight.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "bone",
 			SPECIES_PERK_NAME = "Bones of Steel",
-			SPECIES_PERK_DESC = "Plasmamen may only suffer fracture wounds, and have higher tolerance to being afflicted with them.",
+			SPECIES_PERK_DESC = "Plasmamen only suffer from fracture wounds, and are more resistant to getting them.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "skull",
-			SPECIES_PERK_NAME = "Hazard-born",
+			SPECIES_PERK_NAME = "Hazard-Born",
 			SPECIES_PERK_DESC = "Plasmamen are completely immune to being husked, hungry, or cold.",
 		),
 		list(
@@ -265,9 +265,9 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "mask-face",
+			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Baroxuldium Breath",
-			SPECIES_PERK_DESC = "Oxygen is toxic to Plasmamen, and they must instead breathe plasma to survive. \
+			SPECIES_PERK_DESC = "Oxygen is toxic to Plasmamen. They must instead breathe plasma to survive. \
 				You receive a tank which will last most of the shift when you arrive.",
 		),
 		list(
@@ -275,13 +275,13 @@
 			SPECIES_PERK_ICON = "heart-circle-xmark",
 			SPECIES_PERK_NAME = "Heartless Husk",
 			SPECIES_PERK_DESC = "Plasmamen do not have hearts. Combined with their predisposition to oxygen, \
-				surgery and revival may be much slower and/or difficult.",
+				surgery and revival may be much more slow and/or difficult.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "dna",
 			SPECIES_PERK_NAME = "Charred Genome",
-			SPECIES_PERK_DESC = "Plasmamen have no genetic sequence, and cannot be affected by mutations. They can however still be cloned.",
+			SPECIES_PERK_DESC = "Plasmamen have no genetic sequence, and cannot be affected by mutations. They can, however, still be cloned.",
 		),
 	)
 

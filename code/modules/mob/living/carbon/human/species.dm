@@ -2775,12 +2775,12 @@ GLOBAL_LIST_EMPTY(features_by_species)
 				However, this gives [plural_form] the ability to do self-maintenance with just simple tools.",
 		))
 
-	if(DIGITIGRADE in species_traits)
+	if(DIGITIGRADE in species_traits) // Intentionally vague as preterni have DIGITIGRADE, feel free to change this when that changes
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "shoe-prints",
-			SPECIES_PERK_NAME = "Digitigrade",
-			SPECIES_PERK_DESC = "[plural_form] possess digitigrade legs, preventing them from fitting into most standard footwear. Footwraps can be worn as a substitute instead.",
+			SPECIES_PERK_NAME = "Nonstandard Limbs",
+			SPECIES_PERK_DESC = "[plural_form] have oddly shaped legs, and cannot fit into most standard footwear. Footwraps may be able to be worn instead.",
 		))
 
 	return to_add

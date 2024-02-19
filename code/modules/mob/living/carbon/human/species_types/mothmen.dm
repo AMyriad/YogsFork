@@ -108,7 +108,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "feather-alt",
 			SPECIES_PERK_NAME = "Precious Wings",
-			SPECIES_PERK_NAME = "Flutter Wings",
+			SPECIES_PERK_NAME = "Flutter-Wings",
 			SPECIES_PERK_DESC = "Ex'hau can fly in pressurized, zero-g environments and safely land \
 				short falls using their wings. Take care however, as they're easily burnt off.",
 		),

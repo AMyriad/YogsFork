@@ -341,22 +341,23 @@
 	to_add += list(
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "clover",
-			SPECIES_PERK_NAME = "Life In Light",
+			SPECIES_PERK_ICON = "clover", // Looks kinda like a sun as well
+			SPECIES_PERK_NAME = "Photosynthetic",
 			SPECIES_PERK_DESC = "Phytosians heal and gain sustenance from exposure to light. \
-				This healing effect is doubled while processing sugar.",
+								This effect is doubled while processing sugar.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "wind",
-			SPECIES_PERK_NAME = "CO2",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_ICON = "lungs",
+			SPECIES_PERK_NAME = "Res",
+			SPECIES_PERK_DESC = "Phytosians are able to breathe CO2 safely.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "tree",
-			SPECIES_PERK_NAME = "Friend of Flora",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_NAME = "Friend of the Florae",
+			SPECIES_PERK_DESC = "Certain plant-like creatures such as killer tomatoes are neutral toward phytosians, \
+								and won't instantly go to attack them.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
