@@ -272,7 +272,7 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "heart-circle-xmark",
+			SPECIES_PERK_ICON = "heart-circle-exclamation",
 			SPECIES_PERK_NAME = "Heartless Husk",
 			SPECIES_PERK_DESC = "Plasmamen do not have hearts. Combined with their predisposition to oxygen, \
 				surgery and revival may be much more slow and/or difficult.",

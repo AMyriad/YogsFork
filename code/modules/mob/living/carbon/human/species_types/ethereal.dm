@@ -285,13 +285,14 @@
 			SPECIES_PERK_ICON = "heart-circle-bolt",
 			SPECIES_PERK_NAME = "Crystalline Core",
 			SPECIES_PERK_DESC = "Ethereal hearts never decompose, and form a reviving chrysalis around them 5 minutes after death. \
-				Those who revive through this intense process are left with an irreversible brain trauma.",
+								Those who revive through this intense process are left with an irreversible brain trauma.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "arrows-to-eye",
 			SPECIES_PERK_NAME = "Telescopic Orbits", // Literally the best thing you could call this
-			SPECIES_PERK_DESC = "Ethereals see one tile further in all directions.",
+			SPECIES_PERK_DESC = "Ethereals see one tile further in all directions. \
+								Things may appear slightly smaller because of this.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
@@ -302,8 +303,8 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "biohazard",
-			SPECIES_PERK_NAME = "Burning Core",
-			SPECIES_PERK_DESC = "Ethereals take toxin damage while starving.",
+			SPECIES_PERK_NAME = "Gravitational Collapse",
+			SPECIES_PERK_DESC = "Ethereals begin to slowly die of toxin damage without enough charge.",
 		),
 	)
 
