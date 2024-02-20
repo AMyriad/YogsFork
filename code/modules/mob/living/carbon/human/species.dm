@@ -2710,7 +2710,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(TRAIT_LIMBATTACHMENT in inherent_traits)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "user-plus",
+			SPECIES_PERK_ICON = "fa-handshake-angle",
 			SPECIES_PERK_NAME = "Limbs Easily Reattached",
 			SPECIES_PERK_DESC = "[plural_form] limbs are easily readded, and as such do not \
 				require surgery to restore. Simply pick it up and pop it back in, champ!",

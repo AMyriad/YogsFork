@@ -343,41 +343,39 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "clover", // Looks kinda like a sun as well
 			SPECIES_PERK_NAME = "Photosynthetic",
-			SPECIES_PERK_DESC = "Phytosians heal and gain sustenance from exposure to light. \
-								This effect is doubled while processing sugar.",
+			SPECIES_PERK_DESC = "Phytosians passively heal and gain nutrition from exposure to light. \
+								This effect is <b>doubled</b> while processing sugar.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
-			SPECIES_PERK_NAME = "Res",
+			SPECIES_PERK_NAME = "Carbon Cycle",
 			SPECIES_PERK_DESC = "Phytosians are able to breathe CO2 safely.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "tree",
 			SPECIES_PERK_NAME = "Friend of the Florae",
-			SPECIES_PERK_DESC = "Certain plant-like creatures such as killer tomatoes are neutral toward phytosians, \
-								and won't instantly go to attack them.",
+			SPECIES_PERK_DESC = "Certain hostile plant-like creatures such as killer tomatoes are neutral toward phytosians.",
 		),
 		list(
-			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "flask",
-			SPECIES_PERK_NAME = "Chemicals",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_NAME = "Botanical Biology",
+			SPECIES_PERK_DESC = "Phytosians have many unique interactions with chemicals that affect plant life.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "walking",
-			SPECIES_PERK_NAME = "Slow",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_NAME = "Lumbering Steps",
+			SPECIES_PERK_DESC = "Phytosians are slower than most races.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "plant-wilt",
-			SPECIES_PERK_NAME = "eath In DarkD",
-			SPECIES_PERK_DESC = "Phytosians lose nutrition without light. \
-				When starving, they will begin to wilt and die. \
-				This damaging effect is tripled while processing sugar.",
+			SPECIES_PERK_NAME = "Wilting",
+			SPECIES_PERK_DESC = "Phytosians lose nutrition in darkness, and begin to die from oxygen loss when starving. \
+								This effect is <b>tripled</b> while processing sugar.",
 		),
 	)
 
