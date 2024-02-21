@@ -92,22 +92,19 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "running",
 			SPECIES_PERK_NAME = "Predator", // Ironic
-			SPECIES_PERK_DESC = "Polysmorphs are faster than most races, \
-								and are especially quick while crawling.",
+			SPECIES_PERK_DESC = "Polysmorphs are faster than most races, and are especially quick while crawling.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "low-vision",
 			SPECIES_PERK_NAME = "Darkvision",
-			SPECIES_PERK_DESC = "Polysmorphs have a degree of night-vision, \
-								letting them see better in the dark than most.",
+			SPECIES_PERK_DESC = "Polysmorphs have a degree of night-vision, letting them see better in the dark than most.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Plasma Vessels", // If you know you know
-			SPECIES_PERK_DESC = "Polysmorphs are able to breathe plasma safely, \
-								but have a lower threshold to being burned from breathing hot air.",
+			SPECIES_PERK_DESC = "Polysmorphs are able to breathe plasma safely, but have a lower threshold to being burned from breathing hot air.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
@@ -117,7 +114,7 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "",
+			SPECIES_PERK_ICON = "filter",
 			SPECIES_PERK_NAME = "Efficient liver",
 			SPECIES_PERK_DESC = "Polysmorphs have a robust liver",
 		),
