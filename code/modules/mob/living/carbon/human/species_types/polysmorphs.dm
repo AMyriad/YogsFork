@@ -90,39 +90,48 @@
 	to_add += list(
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "running",
+			SPECIES_PERK_NAME = "Predator", // Ironic
+			SPECIES_PERK_DESC = "Polysmorphs are faster than most races, \
+								and are especially quick while crawling.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "low-vision",
-			SPECIES_PERK_NAME = "Slight nightvision",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_NAME = "Darkvision",
+			SPECIES_PERK_DESC = "Polysmorphs have a degree of night-vision, \
+								letting them see better in the dark than most.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
-			SPECIES_PERK_NAME = "Breathe plasma and oxygen",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_NAME = "Plasma Vessels", // If you know you know
+			SPECIES_PERK_DESC = "Polysmorphs are able to breathe plasma safely, \
+								but have a lower threshold to being burned from breathing hot air.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "running",
-			SPECIES_PERK_NAME = "Faster speed and crawl speed",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_ICON = "shield-virus",
+			SPECIES_PERK_NAME = "Exoskeletal",
+			SPECIES_PERK_DESC = "Polysmorphs have tough exoskeletons, making them harder to wound.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "bone",
-			SPECIES_PERK_NAME = "No bones",
-			SPECIES_PERK_DESC = "",
-		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "low-vision",
+			SPECIES_PERK_ICON = "",
 			SPECIES_PERK_NAME = "Efficient liver",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_DESC = "Polysmorphs have a robust liver",
 		),
 		list(
-			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
+			SPECIES_PERK_ICON = "",
+			SPECIES_PERK_NAME = "Alien Ssssspeech",
+			SPECIES_PERK_DESC = "Polysmorphs have a tendency to hisssss when ssssspeaking.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "tools",
-			SPECIES_PERK_NAME = "Slower action speed",
-			SPECIES_PERK_DESC = "",
+			SPECIES_PERK_NAME = "Indextrous",
+			SPECIES_PERK_DESC = "Polysmorphs use tools and items slower than most races.",
 		),
 	)
 

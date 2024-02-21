@@ -356,12 +356,12 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "tree",
 			SPECIES_PERK_NAME = "Friend of the Florae",
-			SPECIES_PERK_DESC = "Certain hostile plant-like creatures such as killer tomatoes are neutral toward phytosians.",
+			SPECIES_PERK_DESC = "Certain hostile plant-like creatures such as killer tomatoes are insteda neutral toward phytosians.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "flask",
-			SPECIES_PERK_NAME = "Botanical Biology",
+			SPECIES_PERK_NAME = "Biologiae Botanica",
 			SPECIES_PERK_DESC = "Phytosians have many unique interactions with chemicals that affect plant life.",
 		),
 		list(

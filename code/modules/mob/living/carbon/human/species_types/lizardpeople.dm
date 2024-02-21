@@ -169,7 +169,7 @@
 	to_add += list(list(
 		SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 		SPECIES_PERK_ICON = "thermometer-half",
-		SPECIES_PERK_NAME = "Cold-blooded",
+		SPECIES_PERK_NAME = "Cold-Blooded",
 		SPECIES_PERK_DESC = "Vuulen have difficulty regulating their body temperature, they're not quite as affected by the temperature itself though.",
 		SPECIES_PERK_DESC = "Vuulen are damaged a bit less by more extreme temperatures, \
 			yet become drowsy in colder environments, and more awake in warmer ones."
@@ -179,13 +179,6 @@
 		SPECIES_PERK_ICON = "worm",
 		SPECIES_PERK_NAME = "Reptilian Ssspeech",
 		SPECIES_PERK_DESC = "Vuulen have a tendency to hisss when ssspeaking.",
-		),
-		list(
-		SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-		SPECIES_PERK_ICON = "shoe-prints",
-		SPECIES_PERK_NAME = "Digitigrade",
-		SPECIES_PERK_DESC = "Vuulen have digitigrade legs, preventing them from fitting into most standard footwear. \
-			Footwraps need to be worn in lieu of shoes instead.",
 		),
 	)
 

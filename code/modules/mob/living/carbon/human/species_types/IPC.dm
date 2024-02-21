@@ -147,6 +147,12 @@
 			SPECIES_PERK_DESC = "IPCs have positronic brains located in their chest rather than the head, letting them survive decapitation.",
 		),
 		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "tools",
+			SPECIES_PERK_NAME = "Working Machine",
+			SPECIES_PERK_DESC = "IPCs use tools and items faster than most races.",
+		),
+		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "robot",
 			SPECIES_PERK_NAME = "Automa",
