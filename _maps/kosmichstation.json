@@ -1,7 +1,7 @@
 {
-    "map_name": "NewStation",
-    "map_path": "map_files/NewStation",
-    "map_file": "NewStation.dmm",
+    "map_name": "KosmichStation",
+    "map_path": "map_files/KosmichStation",
+    "map_file": "KosmichStation.dmm",
     "shuttles": {
 	    "cargo": "cargo_box",
 	    "ferry": "ferry_fancy",

@@ -41,7 +41,7 @@ map donutstation
 	votable
 endmap
 
-map newstation
+map kosmichstation
 	maxplayers 50
 	votable
 endmap
