@@ -2757,7 +2757,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 /datum/species/proc/create_pref_biotypes_perks()
 	var/list/to_add = list()   
 
-	if((inherent_biotypes & MOB_UNDEAD) && (TRAIT_NOBREATH in inherent_traits))
+	if((inherent_biotypes & MOB_UNDEAD) && (TRAIT_NOBREATH in inherent_traits)) // We check NOBREATH so plasmamen don't get this
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "skull",

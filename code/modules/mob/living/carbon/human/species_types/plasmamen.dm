@@ -200,7 +200,7 @@
 	return randname
 
 /datum/species/plasmaman/get_species_description()
-	return "Reanimated skeletons of those who died in plasma fires, plasmamen are the first alien sapient beings to be \
+	return "Reanimated skeletons of those who died in plasma fires, plasmamen were the first sapient alien beings to be \
 		discovered, even though they're mainly former humans. While horrifying, most manage to return to their previous position in society before their transformation."
 
 /datum/species/plasmaman/get_species_lore()
@@ -273,7 +273,7 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "heart-circle-exclamation",
-			SPECIES_PERK_NAME = "Heartless Husk",
+			SPECIES_PERK_NAME = "Heartless Husks",
 			SPECIES_PERK_DESC = "Plasmamen do not have hearts. Combined with their predisposition to oxygen, \
 				surgery and revival may be much more slow and/or difficult.",
 		),
