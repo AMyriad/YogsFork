@@ -120,9 +120,9 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
-			SPECIES_PERK_ICON = "",
-			SPECIES_PERK_NAME = "Alien Ssssspeech",
-			SPECIES_PERK_DESC = "Polysmorphs have a tendency to hisssss when ssssspeaking.",
+			SPECIES_PERK_ICON = "comment-dots",
+			SPECIES_PERK_NAME = "Alien Sssssspeech",
+			SPECIES_PERK_DESC = "Polysmorphs have a tendency to hissssss when sssssspeaking.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,

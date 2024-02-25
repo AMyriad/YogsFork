@@ -87,7 +87,7 @@
 	if(CONFIG_GET(flag/enforce_human_authority))
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "medal",
+			SPECIES_PERK_ICON = "fa-solid fa-star",
 			SPECIES_PERK_NAME = "Nanotrasen's Trusted",
 			SPECIES_PERK_DESC = "Per company policy, only humans may bear the rank of Captain. In addition to this, humans may serve as any and all Heads of Staff.",
 		),
