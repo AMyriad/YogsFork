@@ -284,7 +284,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "heart-circle-bolt",
 			SPECIES_PERK_NAME = "Crystal Core",
-			SPECIES_PERK_DESC = "Ethereals have strange, crystalline hearts that never decompose, and form a reviving chrysalis around them 5 minutes after death. \
+			SPECIES_PERK_DESC = "Ethereals have , crystalline hearts that never decompose, and form a reviving chrysalis around them 5 minutes after death. \
 								Those who revive through this intense process are left with permanent brain trauma.",
 		),
 		list(
@@ -304,7 +304,7 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "biohazard",
-			SPECIES_PERK_NAME = "Starved Implosion",
+			SPECIES_PERK_NAME = "Fizzling Hunger",
 			SPECIES_PERK_DESC = "Ethereals begin to slowly die of toxin damage without enough charge.",
 		),
 	)
