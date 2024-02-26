@@ -2,10 +2,12 @@
 	name = "Carpfolk"
 	id = "carpfolk"
 	say_mod = "blubs"
-	sexes = FALSE // it do be just a fish
 	species_traits = list(NOTRANSSTING,NOEYESPRITES,MUTCOLORS,AGENDER,NOHUSK,NO_UNDERWEAR)
 	inherent_traits = list(TRAIT_NOBREATH,TRAIT_NOCRITDAMAGE,TRAIT_MEDICALIGNORE,TRAIT_NOCLONE,TRAIT_NODEFIB, TRAIT_NO_BLOOD_REGEN)
 	inherent_biotypes = MOB_ROBOTIC|MOB_HUMANOID
+	sexes = FALSE // It do be just a fish
+	no_equip = list(ITEM_SLOT_HEAD) // Fishbowl for a head
+
 	//mutantbrain = /obj/item/organ/brain/fish
 	/*mutantheart = /obj/item/organ/heart/cybernetic/ipc //water pump of some kind?
 	mutantliver = /obj/item/organ/liver/cybernetic/upgraded/ipc //water filter
@@ -33,9 +35,9 @@
 	species_language_holder = /datum/language_holder/carpfolk
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
 
-	var/datum/action/innate/change_screen/change_screen
+	var/datum/action/innate/toggle_fishbowl/toggle_fishbowl
 
-	smells_like = "fish oil"
+	smells_like = "fish oil and polish"
 
 /datum/species/carpfolk/random_name(unique)
 	var/carpfolk_name = "[pick(GLOB.carpfolk_names)] the [thtotext(12)]"
