@@ -291,6 +291,14 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "arrows-to-eye",
 			SPECIES_PERK_NAME = "Telescopic Orbits", // Literally the best thing you could call this
+			SPECIES_PERK_DESC = "Ethereals have a wider field of view \
+								They see one tile further in all directions. \
+								(Things may look slightly smaller because of this).",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "lungs",
+			SPECIES_PERK_NAME = "aeration reticulum",
 			SPECIES_PERK_DESC = "Ethereals have advanced eyes with wide, dense retinas. \
 								Their expanded field of view lets them see one tile further in all directions. \
 								Things may appear slightly smaller because of this.",
