@@ -1,5 +1,11 @@
 "a" = (/turf/template_noop,/area/space)
+"p" = (/obj/structure/shuttle/engine/propulsion{dir = 8},/turf/open/floor/plating/airless,/area/space)
+"q" = (/obj/machinery/computer/emergency_shuttle{dir = 8},/turf/open/floor/mineral/titanium,/area/space)
+"x" = (/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/open/floor/plating/airless,/area/space)
+"C" = (/obj/machinery/door/airlock/titanium{name = "Emergency Shuttle Airlock"},/turf/open/floor/plating,/area/space)
 "I" = (/turf/closed/wall/mineral/titanium,/area/space)
+"U" = (/obj/structure/chair/comfy/shuttle{dir = 8},/turf/open/floor/mineral/titanium,/area/space)
+"V" = (/turf/open/floor/mineral/titanium,/area/space)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -7,25 +13,25 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaIIaIIaIIaaaaaaaaaa
-aaaaaaaaaaaIIaaaaaaIIaaaaaaaaa
-aaaaaaaaaaIIaaaaaaaaIIaaaaaaaa
-aaaaaaaaaIIaaaaaaaaaaIIaaaaaaa
-aaaaaaaaIIaaaaaaaaaaaaIIaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaIIIxaaaaaaaaaaaaa
+aaaaaaaaaaIIIIVIIxaaaaaaaaaaaa
+aaaaaaaaIIIVVVVIIxaaaaaaaaaaaa
+aaaaaaapIVVVIIIIxaaaaaaaaaaaaa
+aaaaaaaIIVVIIaaaaaaaaaaaaaaaaa
+aaaaaIIIIIIIIIIIIaaaaaaaaaaaaa
+aaaaIIVIVVVVVVIVIIaaaaaaaaaaaa
+aaaIIVVIUUUUUUIVIIaaaaaaaaaaaa
+aaaIVVVVUUUUUIIVVIaaaaaaaaaaaa
+aaaCVVVVVVVVVIVVqIaaaaaaaaaaaa
+aaaIVVVVUUUUUIIVVIaaaaaaaaaaaa
+aaaIIVVIUUUUUUIVIIaaaaaaaaaaaa
+aaaaIIVIVVVVVVIVIIaaaaaaaaaaaa
+aaaaaIIIIIIIIIIIIaaaaaaaaaaaaa
+aaaaaaaIIVVIIaaaaaaaaaaaaaaaaa
+aaaaaaapIVVVIIIIxaaaaaaaaaaaaa
+aaaaaaaaIIIVVVVIIxaaaaaaaaaaaa
+aaaaaaaaaaIIIIVIIxaaaaaaaaaaaa
+aaaaaaaaaaaaaIIIxaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
