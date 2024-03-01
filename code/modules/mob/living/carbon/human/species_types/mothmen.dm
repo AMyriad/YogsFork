@@ -107,22 +107,21 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "feather-alt",
-			SPECIES_PERK_NAME = "Precious Wings",
 			SPECIES_PERK_NAME = "Flutter-Wings",
-			SPECIES_PERK_DESC = "Ex'hau can fly in pressurized, zero-g environments and safely land \
-				short falls using their wings. Take care however, as they're easily burnt off.",
+			SPECIES_PERK_DESC = "Ex'hau naturally have large, delicate wings. They can fly in pressurized, zero-g environments and safely land \
+								short falls using them. Take care however, as they're easily burnt off.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "scroll",
 			SPECIES_PERK_NAME = "Silky Sustenance",
-			SPECIES_PERK_DESC = "Ex'hau can eat cloth for nourishment.",
+			SPECIES_PERK_DESC = "Ex'hau are able to feed off proteins found in most fabrics, letting them eat cloth and most clothing for nourishment.
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "mosquito",
 			SPECIES_PERK_NAME = "Fluffy Pests",
-			SPECIES_PERK_DESC = "Ex'hau are hurt much more by pest spray and fly swatters.",
+			SPECIES_PERK_DESC = "Ex'hau are genetically very similar to insects, and are hurt much more by fly swatters and insecticides.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
