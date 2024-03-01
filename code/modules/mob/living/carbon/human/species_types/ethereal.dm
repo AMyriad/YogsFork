@@ -276,44 +276,43 @@
 	to_add += list(
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "sun",
+			SPECIES_PERK_ICON = "sun", // May or not be worse than lightbulb idk
 			SPECIES_PERK_NAME = "Living Star",
-			SPECIES_PERK_DESC = "Ethereals are bioluminescent, emitting a constant source of light from their bodies. The brightness of this light changes based on charge.",
+			SPECIES_PERK_DESC = "Ethereals are naturally bioluminescent, emitting a constant source of light from their bodies. \
+								The brightness of this light changes based on energy.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "heart-circle-bolt",
 			SPECIES_PERK_NAME = "Crystal Core",
-			SPECIES_PERK_DESC = "Ethereals have , crystalline hearts that never decompose, and form a reviving chrysalis around them 5 minutes after death. \
-								Those who revive through this intense process are left with permanent brain trauma.",
+			SPECIES_PERK_DESC = "Ethereals have strange crystalline hearts that never decompose, and form a regenerative chrysalis around them 5 minutes after death. \
+								Reviving through this intense process leaves crystal growths in and around the brain, leaving the host with permanent brain trauma.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "arrows-to-eye",
 			SPECIES_PERK_NAME = "Telescopic Orbits", // Literally the best thing you could call this
-			SPECIES_PERK_DESC = "Ethereals have a wider field of view \
-								They see one tile further in all directions. \
+			SPECIES_PERK_DESC = "Ethereals have a wider field of view, letting them see one tile further in all directions. \
 								(Things may look slightly smaller because of this).",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
-			SPECIES_PERK_NAME = "aeration reticulum",
-			SPECIES_PERK_DESC = "Ethereals have advanced eyes with wide, dense retinas. \
-								Their expanded field of view lets them see one tile further in all directions. \
-								Things may appear slightly smaller because of this.",
+			SPECIES_PERK_NAME = "Respirative Electrolysis",
+			SPECIES_PERK_DESC = "Ethereals are capable of electrolyzing water vapor when inhaled, converting it into hydrogen and oxygen when exhaled.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "bolt",
 			SPECIES_PERK_NAME = "Bioelectric",
-			SPECIES_PERK_DESC = "Ethereals .",
+			SPECIES_PERK_DESC = "Ethereals have unique interactions with their power-hungry qualities; Most kinds of radiation will be absorbed as energy. \
+								Storing too much energy however, will result in a dangerous discharge of that excess electricity.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "biohazard",
+			SPECIES_PERK_ICON = "battery-empty",
 			SPECIES_PERK_NAME = "Fizzling Hunger",
-			SPECIES_PERK_DESC = "Ethereals begin to slowly die of toxin damage without enough charge.",
+			SPECIES_PERK_DESC = "Ethereals fizzle out without enough energy to fuel them, taking toxin damage until death.",
 		),
 	)
 
