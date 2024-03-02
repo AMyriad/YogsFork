@@ -170,15 +170,14 @@
 		SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 		SPECIES_PERK_ICON = "thermometer-half",
 		SPECIES_PERK_NAME = "Cold-Blooded",
-		SPECIES_PERK_DESC = "Vuulen have difficulty regulating their body temperature, they're not quite as affected by the temperature itself though.",
-		SPECIES_PERK_DESC = "Vuulen are damaged a bit less by more extreme temperatures, \
-			yet become drowsy in colder environments, and more awake in warmer ones."
+		SPECUES_PERK_DESC = "Vuulen are cold-blooded, and have evolved to withstand extreme temperatures for longer than most. \
+							They're also affected by temperature psychologically, becoming more awake and alert in heat, but grow tired and drowsy in the cold.",
 		),
 		list(
 		SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 		SPECIES_PERK_ICON = "comment-dots",
 		SPECIES_PERK_NAME = "Reptilian Ssspeech",
-		SPECIES_PERK_DESC = "Vuulen have a tendency to hisss when ssspeaking.",
+		SPECIES_PERK_DESC = "Vuulen have a forked tongue, sssimilar to that of a sssnake. They have a tendency to hisss when ssspeaking.",
 		),
 	)
 

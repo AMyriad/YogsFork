@@ -90,6 +90,6 @@
 			SPECIES_PERK_ICON = "star-half-alt",
 			SPECIES_PERK_NAME = "Nanotrasen's Trusted",
 			SPECIES_PERK_DESC = "Humans are the only race Nanotrasen trusts to run their stations and bear the rank of Captain. \
-								Per company policy, they can also work as any and all Heads of Staff without restrictions.",
+								Per company policy, they may also work as any and all Heads of Staff without restrictions.",
 		))
 	return to_add

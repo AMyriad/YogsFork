@@ -263,13 +263,14 @@
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "fire",
 			SPECIES_PERK_NAME = "Phlogiston",
-			SPECIES_PERK_DESC = "Plasmamen are infused with volatile solid plasma, igniting them instantly upon coming into contact with oxygen.",
+			SPECIES_PERK_DESC = "Plasmamen are infused with a volatile form of solid plasma throughout their body. \
+								Any exposure to oxygen gas will ignite this plasma, instantly setting them on fire.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Baroxuldium Breath",
-			SPECIES_PERK_DESC = "Plasmamen have adapted being able to breathe plasma gas safely at the cost of oxygen becoming toxic to them. \
+			SPECIES_PERK_DESC = "Plasmamen are able to breathe plasma gas safely at the cost of oxygen being toxic to them. \
 								They're supplied with a tank of plasma that will last most of the shift when arriving, as well as a spare in their emergency box.",
 		),
 		list(
