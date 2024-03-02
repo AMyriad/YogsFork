@@ -89,12 +89,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "star-half-alt",
 			SPECIES_PERK_NAME = "Nanotrasen's Trusted",
-			SPECIES_PERK_DESC = "Per company policy, only humans may bear the rank of Captain. In addition to this, humans may serve as any and all Heads of Staff.",
-		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
-			SPECIES_PERK_ICON = "balance-scale",
-			SPECIES_PERK_NAME = "Master of None",
-			SPECIES_PERK_DESC = "Humans notably lack any actual racial benefits or drawbacks. The standard experience.",
+			SPECIES_PERK_DESC = "Humans are the only race Nanotrasen trusts to run their stations and bear the rank of Captain. \
+								Per company policy, they can also work as any and all Heads of Staff without restrictions.",
 		))
 	return to_add
