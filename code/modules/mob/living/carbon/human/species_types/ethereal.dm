@@ -243,7 +243,7 @@
 	return features
 
 /datum/species/ethereal/get_species_description()
-	return "Ethereals are one of the two other spacefaring species encountered by the SIC. Strange slime-based humanoids that emit light based on their \
+	return "Ethereals are one of the two other spacefaring species encountered by the SIC. Strange humanoids comprised of crystal and stardust that emit light based on their \
 		general health, ethereals are also well-known for their general benevolence and naivety. While not common within SIC space, they are still \
 		a relatively accepted species in its borders."
 
@@ -292,7 +292,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "arrows-to-eye",
 			SPECIES_PERK_NAME = "Telescopic Orbits", // Literally the best thing you could call this
-			SPECIES_PERK_DESC = "Ethereals have a wider field of view, letting them see one tile further in all directions. \
+			SPECIES_PERK_DESC = "Ethereals have a wider field of vision, letting them see one tile further in all directions. \
 								(Things may look slightly smaller because of this).",
 		),
 		list(
@@ -310,7 +310,7 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "battery-empty",
+			SPECIES_PERK_ICON = "battery-quarter",
 			SPECIES_PERK_NAME = "Fizzling Hunger",
 			SPECIES_PERK_DESC = "Ethereals fizzle out without enough energy to fuel them, taking toxin damage until death.",
 		),

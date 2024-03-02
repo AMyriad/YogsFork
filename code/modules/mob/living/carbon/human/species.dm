@@ -2814,7 +2814,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
  * Returns a list containing perks, or an empty list.
  */
 /datum/species/proc/create_pref_biotypes_perks()
-	var/list/to_add = list()   
+	var/list/to_add = list()
 
 	if((inherent_biotypes & MOB_UNDEAD) && (TRAIT_NOBREATH in inherent_traits)) // We check NOBREATH so plasmamen don't get this
 		to_add += list(list(

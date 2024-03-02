@@ -121,7 +121,7 @@
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "mosquito",
 			SPECIES_PERK_NAME = "Fluffy Pests",
-			SPECIES_PERK_DESC = "Ex'hau are genetically very similar to insects, and are hurt much more by fly swatters and insecticides.",
+			SPECIES_PERK_DESC = "Ex'hau are very similar to insects genetically, and are hurt much more by fly swatters and insecticides.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
