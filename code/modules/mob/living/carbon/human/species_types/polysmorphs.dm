@@ -135,7 +135,7 @@
 			SPECIES_PERK_ICON = "tools",
 			SPECIES_PERK_NAME = "Indextrous",
 			SPECIES_PERK_DESC = "Polysmorphs have large claw-like fingers built for slicing rather than quick, or precise motions. \
-								Using tools and items will take a bit more time.",
+								They use tools and items a bit slower than most races.",
 		),
 	)
 

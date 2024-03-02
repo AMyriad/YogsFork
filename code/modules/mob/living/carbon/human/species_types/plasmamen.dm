@@ -285,7 +285,6 @@
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "dna",
 			SPECIES_PERK_NAME = "Charred Genome",
-			SPECIES_PERK_DESC = "Plasmamen have no genetic sequence, and cannot be affected by mutations. They can, however, still be cloned.",
 			SPECIES_PERK_DESC = "Plasmaman DNA has more in common with purple ash than it does normal DNA. \
 								They have no genetic sequence, and can't be affect by genetic mutations at all. \
 								Despite this, they can still be cloned."
