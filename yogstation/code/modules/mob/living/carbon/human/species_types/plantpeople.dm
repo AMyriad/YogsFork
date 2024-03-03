@@ -361,21 +361,22 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "flask",
-			SPECIES_PERK_NAME = "Biologiae Botanica",
+			SPECIES_PERK_NAME = "Botanical Biology",
 			SPECIES_PERK_DESC = "Phytosians have many unique interactions with chemicals that affect plant life.",
 		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "walking",
-			SPECIES_PERK_NAME = "Lumbering Steps",
-			SPECIES_PERK_DESC = "Phytosians are slower than most races.",
-		),
+
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "plant-wilt",
 			SPECIES_PERK_NAME = "Wilting",
 			SPECIES_PERK_DESC = "Phytosians lose nutrition in darkness, and begin to die from oxygen loss when starving. \
 								This effect is <b>tripled</b> while processing sugar.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "walking",
+			SPECIES_PERK_NAME = "Lumbering Steps",
+			SPECIES_PERK_DESC = "Phytosians are slower than most races.",
 		),
 	)
 

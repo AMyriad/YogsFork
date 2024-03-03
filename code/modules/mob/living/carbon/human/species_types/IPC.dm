@@ -172,11 +172,10 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "dna",
-			SPECIES_PERK_NAME = "SEQUENCE_NULL",
+			SPECIES_PERK_NAME = "Missing Sequence",
 			SPECIES_PERK_DESC = "IPCs have no biological DNA, and by extension, no genetic sequence. \
 								They can't be affected by genetic mutations, nor be cloned.",
 		),
-
 	)
 
 	return to_add

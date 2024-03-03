@@ -247,17 +247,17 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "bone",
-			SPECIES_PERK_NAME = "Bones of Steel",
-			SPECIES_PERK_DESC = "Plasmamen have naturally dense bones due to their makeup of solid plasma. \
-								Because of this, they only suffer fracture wounds, and are generally harder to wound.",
-		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "skull",
 			SPECIES_PERK_NAME = "Hazard-Born",
 			SPECIES_PERK_DESC = "Plasmamen are reborn in the fires they died in. They emerge a changed person, lacking their skin, many of their senses, and the need to sleep. \
 								They're completely immune to becoming husked, feeling any hunger, or being affected by the cold.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "bone",
+			SPECIES_PERK_NAME = "Bones of Steel",
+			SPECIES_PERK_DESC = "Plasmamen have naturally dense bones due to their makeup of solid plasma. \
+								Because of this, they only suffer fracture wounds, and are generally harder to wound.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,

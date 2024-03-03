@@ -119,16 +119,16 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "mosquito",
-			SPECIES_PERK_NAME = "Fluffy Pests",
-			SPECIES_PERK_DESC = "Ex'hau are very similar to insects genetically, and are hurt much more by fly swatters and insecticides.",
-		),
-		list(
-			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "eye",
 			SPECIES_PERK_NAME = "Nocturnal Eyes",
 			SPECIES_PERK_DESC = "Ex'hau have very sensitive eyes. Welding may need more than one layer of protection, \
 				and sunglasses won't shield them from flashes.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
+			SPECIES_PERK_ICON = "mosquito",
+			SPECIES_PERK_NAME = "Fluffy Pests",
+			SPECIES_PERK_DESC = "Ex'hau are very similar to insects genetically, and are hurt much more by fly swatters and insecticides.",
 		),
 	)
 
