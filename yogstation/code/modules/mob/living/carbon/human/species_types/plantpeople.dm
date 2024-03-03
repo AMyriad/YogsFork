@@ -344,7 +344,7 @@
 			SPECIES_PERK_ICON = "clover", // Looks kinda like a sun as well
 			SPECIES_PERK_NAME = "Photosynthetic",
 			SPECIES_PERK_DESC = "Phytosians passively heal and gain nutrition from exposure to light. \
-								This effect is <b>doubled</b> while processing sugar.",
+								This effect is doubled while processing sugar.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
@@ -370,7 +370,7 @@
 			SPECIES_PERK_ICON = "plant-wilt",
 			SPECIES_PERK_NAME = "Wilting",
 			SPECIES_PERK_DESC = "Phytosians lose nutrition in darkness, and begin to die from oxygen loss when starving. \
-								This effect is <b>tripled</b> while processing sugar.",
+								This effect is tripled while processing sugar.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,

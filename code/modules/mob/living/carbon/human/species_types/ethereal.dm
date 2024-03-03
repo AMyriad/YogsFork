@@ -299,7 +299,8 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Respirative Electrolysis",
-			SPECIES_PERK_DESC = "Ethereals are capable of electrolyzing water vapor when inhaled, converting it into hydrogen and oxygen when exhaled.",
+			SPECIES_PERK_DESC = "Ethereals have a network of electrically charged chambers within their lungs. \
+								These structures convert any inhaled water vapor into hydrogen and oxygen when exhaled.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,

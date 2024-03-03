@@ -321,26 +321,37 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "cookie-bite",
-			SPECIES_PERK_NAME = "Stone eater",
-			SPECIES_PERK_DESC = "Preterni can eat ores to replenish their metal skin. All ores are not created equal.",
+			SPECIES_PERK_NAME = "Stone Eater",
+			SPECIES_PERK_DESC = "Preterni were designed to survive even the most barren environments. \
+								They can eat and process ores to replenish their metal skin. All ores are not created equal.",
 		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "cookie-bite",
+			SPECIES_PERK_NAME = "Stone Eater",
+			SPECIES_PERK_DESC = "Preterni were designed to survive even the most barren environments. \
+								They're fitted with a series of grinders in their stomachs that let them eat ores to replenish their metal skin. \
+								All ores are not created equal.",
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "flask",
 			SPECIES_PERK_NAME = "Chemical Purge",
-			SPECIES_PERK_DESC = "Preterni will purge any foreign chemicals after a short time of them being in the blood stream.",
+			SPECIES_PERK_DESC = "Preterni have an elaborate system of filters and \"veins\" dedicated to decontaminating their internal components. \
+								A percentage of all foreign chemicals in their bloodstream will be purged every few seconds.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "droplet-slash",
+			SPECIES_PERK_ICON = "shower",
 			SPECIES_PERK_NAME = "Keep Dry",
-			SPECIES_PERK_DESC = "Preterni have exposed circuitry under cracks in their body, if water gets in they will short, causing weakness in the limbs and burns.",
+			SPECIES_PERK_DESC = "Preterni have exposed circuitry under the cracks in their outer shell. \
+								If water gets in their electronics will short, causing weakness in the limbs and burns.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "droplet-slash",
 			SPECIES_PERK_NAME = "Metal Marrow",
-			SPECIES_PERK_DESC = "Preterni have solid metal bones with no internal marrow. Their body will not create blood to replace any lost.",
+			SPECIES_PERK_DESC = "Preterni have solid metal bones with no internal marrow. \
+								Because of this, preterni don't generate blood in their body, and can't replenish any they've lost.",
 		),
 	)
 

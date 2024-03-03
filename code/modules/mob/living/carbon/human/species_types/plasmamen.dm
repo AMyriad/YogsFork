@@ -243,7 +243,7 @@
 			SPECIES_PERK_ICON = "user-astronaut",
 			SPECIES_PERK_NAME = "The Suit",
 			SPECIES_PERK_DESC = "Plasmamen begin with an airtight envirosuit, which they are dependant on to survive. \
-				Their envirohelm is also space-worthy, and provides shielding from welding flashes, as well as a built-in flashlight.",
+				Their envirohelm is also space-worthy, and provides welding protection, as well as a built-in flashlight.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
@@ -279,15 +279,14 @@
 			SPECIES_PERK_NAME = "Heartless Husk",
 			SPECIES_PERK_DESC = "Plasmamen, since their violent rebirth, do not have hearts. \
 								Combined with their disposition toward oxygen, surgery and revival may be more difficult.",
-
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "dna",
 			SPECIES_PERK_NAME = "Charred Genome",
-			SPECIES_PERK_DESC = "Plasmaman DNA has more in common with purple ash than it does normal DNA. \
+			SPECIES_PERK_DESC = "Plasmaman DNA has more in common with ash than it does normal DNA. \
 								They have no genetic sequence, and can't be affect by genetic mutations at all. \
-								Despite this, they can still be cloned."
+								Despite this, they can still be cloned.",
 		),
 	)
 

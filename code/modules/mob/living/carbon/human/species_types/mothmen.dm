@@ -115,7 +115,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "scroll",
 			SPECIES_PERK_NAME = "Silky Sustenance",
-			SPECIES_PERK_DESC = "Ex'hau are able to feed off proteins found in most fabrics, letting them eat cloth and most clothing for nourishment.
+			SPECIES_PERK_DESC = "Ex'hau are able to feed off proteins found in most fabrics, letting them eat cloth and most clothing for nourishment.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
