@@ -151,7 +151,7 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "tools",
 			SPECIES_PERK_NAME = "Working Machines",
-			SPECIES_PERK_DESC = "IPCs are mass-produced to be cheap, fast, and efficient workers. \
+			SPECIES_PERK_DESC = "IPCs are manufactured to be quick, cheap labor. \
 								They use tools and items faster than most races.",
 		),
 		list(

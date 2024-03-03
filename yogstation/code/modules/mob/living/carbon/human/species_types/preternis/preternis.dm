@@ -324,19 +324,26 @@
 			SPECIES_PERK_NAME = "Stone Eater",
 			SPECIES_PERK_DESC = "Preterni were designed to survive even the most barren environments. \
 								They can eat and process ores to replenish their metal skin. All ores are not created equal.",
+			SPECIES_PERK_DESC = "Preterni
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "cookie-bite",
-			SPECIES_PERK_NAME = "Stone Eater",
-			SPECIES_PERK_DESC = "Preterni were designed to survive even the most barren environments. \
-								They're fitted with a series of grinders in their stomachs that let them eat ores to replenish their metal skin. \
-								All ores are not created equal.",
+			SPECIES_PERK_ICON = "shield-virus",
+			SPECIES_PERK_NAME = "Foreign Immune System",
+			SPECIES_PERK_DESC = "Preterni have incredibly alien biology, posing a significant challenge to any modern diseases trying to infect them.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "tools",
+			SPECIES_PERK_NAME = "Worker Drone",
+			SPECIES_PERK_DESC = "Preterni were designed to be quick and efficient workers. \
+								They use tools and items faster than most races.",
+		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "flask",
 			SPECIES_PERK_NAME = "Chemical Purge",
-			SPECIES_PERK_DESC = "Preterni have an elaborate system of filters and \"veins\" dedicated to decontaminating their internal components. \
+			SPECIES_PERK_DESC = "Preterni have an elaborate system of filters and \"veins\" dedicated to decontaminating their organic innards. \
 								A percentage of all foreign chemicals in their bloodstream will be purged every few seconds.",
 		),
 		list(
