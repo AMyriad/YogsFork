@@ -175,7 +175,7 @@
 		),
 		list(
 		SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
-		SPECIES_PERK_ICON = "comment-dots",
+		SPECIES_PERK_ICON = "commenting",
 		SPECIES_PERK_NAME = "Reptilian Ssspeech",
 		SPECIES_PERK_DESC = "Vuulen have a forked tongue, similar to that of a snake. \
 							They have a tendency to hisss when ssspeaking.",

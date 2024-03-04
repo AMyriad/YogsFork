@@ -363,6 +363,9 @@
 			SPECIES_PERK_ICON = "flask",
 			SPECIES_PERK_NAME = "Botanical Biology",
 			SPECIES_PERK_DESC = "Phytosians have many unique interactions with chemicals that affect plant life.",
+			
+			SPECIES_PERK_NAME = "Botanic Biology",
+			SPECIES_PERK_DESC = "Phytosians are affected by chemicals that interact with plant life, such as herbicides.",
 		),
 
 		list(

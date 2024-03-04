@@ -112,20 +112,20 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "shield-virus",
+			SPECIES_PERK_ICON = "bone",
 			SPECIES_PERK_NAME = "Exoskeletal",
-			SPECIES_PERK_DESC = "Polysmorphs have a rigid exoskeleton around their bodies, making them harder to wound.",
+			SPECIES_PERK_DESC = "Polysmorphs have a rigid exoskeleton lining their bodies, making them harder to wound.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "filter",
 			SPECIES_PERK_NAME = "Reckless Filtration",
-			SPECIES_PERK_DESC = "Polysmorphs have alienlike livers capable of filtering out toxins much faster than most races. \
+			SPECIES_PERK_DESC = "Polysmorphs have alien livers capable of filtering out toxins much faster than most races. \
 								Despite this, it's not very tough, and takes more damage from processing too many toxins at once.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
-			SPECIES_PERK_ICON = "comment-dots",
+			SPECIES_PERK_ICON = "commenting",
 			SPECIES_PERK_NAME = "Alien Sssssspeech",
 			SPECIES_PERK_DESC = "Polysmorphs have a mouthed tongue similar to xenomorphs, but without the teeth. \
 								They have a tendency to hissssss when sssssspeaking.",
