@@ -13,13 +13,15 @@ GLOBAL_LIST_EMPTY(blob_nodes)
 	icon_state = "marker"
 	mouse_opacity = MOUSE_OPACITY_ICON
 	move_on_shuttle = 1
-	see_in_dark = 8
 	invisibility = INVISIBILITY_OBSERVER
 	layer = FLY_LAYER
 
+	// Vivid blue green, would be cool to make this change with strain
+	lighting_cutoff_red = 0
+	lighting_cutoff_green = 35
+	lighting_cutoff_blue = 20
 	pass_flags = PASSBLOB
 	faction = list(ROLE_BLOB)
-	lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_INVISIBLE
 	hud_type = /datum/hud/blob_overmind
 	var/obj/structure/blob/core/blob_core = null // The blob overmind's core
 	var/blob_points = 0
@@ -113,7 +115,7 @@ GLOBAL_LIST_EMPTY(blob_nodes)
 	else if(!victory_in_progress && (blobs_legit.len >= blobwincount))
 		victory_in_progress = TRUE
 		priority_announce("Biohazard has reached critical mass. Station loss is imminent.", "Biohazard Alert")
-		set_security_level("delta")
+		SSsecurity_level.set_level(SEC_LEVEL_DELTA)
 		max_blob_points = INFINITY
 		blob_points = INFINITY	
 		blob_core.max_integrity = 999999
@@ -207,7 +209,7 @@ GLOBAL_LIST_EMPTY(blob_nodes)
 
 /mob/camera/blob/update_health_hud()
 	if(blob_core)
-		var/current_health = round((blob_core.obj_integrity / blob_core.max_integrity) * 100)
+		var/current_health = round((blob_core.get_integrity() / blob_core.max_integrity) * 100)
 		hud_used.healths.maptext = "<div align='center' valign='middle' style='position:relative; top:0px; left:6px'><font color='#82ed00'>[current_health]%</font></div>"
 		for(var/mob/living/simple_animal/hostile/blob/blobbernaut/B in blob_mobs)
 			if(B.hud_used && B.hud_used.blobpwrdisplay)
@@ -258,7 +260,7 @@ GLOBAL_LIST_EMPTY(blob_nodes)
 /mob/camera/blob/get_status_tab_items()
 	. = ..()
 	if(blob_core)
-		. += "Core Health: [blob_core.obj_integrity]"
+		. += "Core Health: [blob_core.get_integrity()]"
 		. += "Power Stored: [blob_points]/[max_blob_points]"
 		. += "Blobs to Win: [blobs_legit.len]/[blobwincount]"
 	if(free_strain_rerolls)

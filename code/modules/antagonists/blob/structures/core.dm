@@ -51,7 +51,7 @@
 
 /obj/structure/blob/core/take_damage(damage_amount, damage_type = BRUTE, damage_flag = 0, sound_effect = TRUE, attack_dir, armour_penetration = 0, overmind_reagent_trigger = 1)
 	. = ..()
-	if(obj_integrity > 0)
+	if(atom_integrity > 0)
 		if(overmind) //we should have an overmind, but...
 			overmind.update_health_hud()
 
@@ -69,7 +69,7 @@
 			B.change_to(/obj/structure/blob/shield/core, overmind)
 	..()
 
-/obj/structure/blob/core/onTransitZ(old_z, new_z)
-	if(overmind && is_station_level(new_z))
+/obj/structure/blob/core/on_changed_z_level(turf/old_turf, turf/new_turf)
+	if(overmind && is_station_level(new_turf.z))
 		overmind.forceMove(get_turf(src))
 	return ..()
