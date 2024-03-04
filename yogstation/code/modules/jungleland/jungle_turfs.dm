@@ -116,19 +116,21 @@ Temperature: 126.85 °C (400 K)
 /turf/open/floor/plating/dirt/jungleland/ex_act(severity, target)
 	if(can_spawn_ore && prob( (severity/3)*100  ))	
 		spawn_rock()
+
 /turf/open/floor/plating/dirt/jungleland/barren_rocks
-	name = "rocky surface"
-	desc = "Surface covered by rocks, pebbles and stones."
+	name = "barren rock"
+	desc = "A dense ground of magmatic rock laden with cracks and fissures. It's faintly warm to the touch."
+	gender = PLURAL // That's some barren rock
 	icon_state = "barren_rocks"
 	icon_plating = "barren_rocks"
 	icon_state_regular_floor = "barren_rocks" 
 
-/turf/open/floor/plating/dirt/jungleland/toxic_rocks
-	name = "mud"
-	desc = "Liquid mixed with dirt"
+/* /turf/open/floor/plating/dirt/jungleland/toxic_rocks		// So there appears to be an area icon for this, but this turf type is completely unused; this is its only mention
+	name = "mud"											// Uncomment this if you want it to exist again for some reason
+	desc = "Liquid mixed with dirt."
 	icon_state = "toxic_rocks"
 	icon_plating = "toxic_rocks"
-	icon_state_regular_floor = "toxic_rocks" 
+	icon_state_regular_floor = "toxic_rocks" */
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp
 	name = "sand"

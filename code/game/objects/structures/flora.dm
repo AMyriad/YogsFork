@@ -420,10 +420,13 @@
 	icon_state = "grassb"
 
 //Jungle rocks
+/obj/structure/flora/rock/desert
+	desc = "A large portrusion of dense stone. A hallmark of every great desert."
 
 /obj/structure/flora/rock/jungle
+	name = "pile of rocks"
+	desc = "A small pile of pebbles, with some leafy friends growing inbetween."
 	icon_state = "pile of rocks"
-	desc = "A pile of rocks."
 	icon_state = "rock"
 	icon = 'icons/obj/flora/jungleflora.dmi'
 	density = FALSE
@@ -437,7 +440,7 @@
 
 /obj/structure/flora/junglebush
 	name = "bush"
-	desc = "A wild plant that is found in jungles."
+	desc = "Some wild shrubbery. Known to be found all throughout the jungle."
 	icon = 'icons/obj/flora/jungleflora.dmi'
 	icon_state = "busha"
 
