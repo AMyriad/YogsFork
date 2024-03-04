@@ -26,7 +26,7 @@
 	. = ..()
 
 /mob/living/simple_animal/hostile/yog_jungle/dryad
-	name = "jungle spirit"
+	name = "dryad"
 	desc = "An amalgam of branches held together by the long, squirming... \"vine\" coiled around it. \
 			This zealous spirit of the jungle and protector of the woods is known as a friend to any stranger who doesn't disturb the life here. <br>\
 			Respect the woods." // Be patient. Focus.
@@ -47,7 +47,6 @@
 	response_harm   = "hits"
 	maxHealth = 60
 	health = 60
-	spacewalk = TRUE
 	ranged = TRUE
 	loot = list(/obj/item/organ/regenerative_core/dryad)
 	ranged_cooldown_time = 4 SECONDS
@@ -68,7 +67,7 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
-	name = "wild jungle spirit"
+	name = "wild dryad"
 	desc = "An amalgam of splintering branches wearing the husk of a long dead... \"vine\" coiled around it. \
 			This zealous spirit of the jungle, a once kind protector has turned feral and wild. \
 			Best not to go near it."
@@ -88,7 +87,6 @@
 	response_harm   = "hits"
 	maxHealth = 120
 	health = 120
-	spacewalk = TRUE
 	ranged = TRUE
 	loot = list (/obj/item/organ/regenerative_core/dryad/corrupted)
 	ranged_cooldown_time = 2 SECONDS
@@ -168,6 +166,7 @@
 /mob/living/simple_animal/hostile/yog_jungle/skin_twister
 	name = "skin twister"
 	desc = "Inky beasts known to crawl from pits and burrows to steal the skin of their victims and lure in any would-be saviors. \
+			" 
 			
 	//desc = "The apex predator of this planet, kills everything and then steals the victim's skin, allowing it to lure it's prey and kill them with ease"
 	icon_state = "skin_twister"
@@ -644,7 +643,7 @@
 	faction = list("tar")
 
 /mob/living/simple_animal/hostile/tar/amalgamation
-	name = "Tar Amalgamation"
+	name = "tar amalgamation"
 	desc = "Tar amalgamate, it has blades for hands and crystalline plates cover it's body"
 	icon_state = "tar_faithless"
 	health = 200
@@ -654,17 +653,17 @@
 
 /mob/living/simple_animal/hostile/tar/amalgamation/AttackingTarget()
 	if(isliving(target))
-		var/mob/living/L = target 
+		var/mob/living/L = target
 		if(L.has_status_effect(/datum/status_effect/tar_curse))
 			melee_damage_lower = initial(melee_damage_lower) * 1.5 
 			melee_damage_upper = initial(melee_damage_upper) * 1.5
-		else 
+		else
 			melee_damage_lower = initial(melee_damage_lower)
 			melee_damage_upper = initial(melee_damage_upper)
 	return ..()
 
 /mob/living/simple_animal/hostile/tar/amalgamation/convert
-	name = "Tar Convert"
+	name = "tar convert"
 	desc = "The remains of a shaft miner which has fallen to the tar."
 	icon_state = "tar_convert"
 	health = 150
@@ -673,7 +672,7 @@
 	melee_damage_upper = 20
 
 /mob/living/simple_animal/hostile/tar/dryad
-	name = "Tar Dryad"
+	name = "tar dryad"
 	desc = "Once a creature of the forest. It now belongs to the dominion of tar."
 	icon_state = "tar_dryad"
 	health = 100
@@ -699,7 +698,7 @@
 		return pick(Targets)
 
 /mob/living/simple_animal/hostile/tar/shade
-	name = "Tar Priest"
+	name = "tar priest"
 	desc = "A lingering spirit of a priest, he serves his lord in death as he did in life."
 	icon_state = "tar_shade"
 	health = 150
@@ -726,7 +725,7 @@
 	faction = list("mining")
 
 /mob/living/simple_animal/hostile/obsidian_demon 
-	name = "True Abomination"
+	name = "true abomination"
 	desc = "Ancient evil unsealed from it's obsidian prison"
 	icon = 'yogstation/icons/mob/jungle64x64.dmi'
 	health = 500
