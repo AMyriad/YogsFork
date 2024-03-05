@@ -61,15 +61,15 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/floor/plating/dirt/jungleland
 	name = "generic jungle land turf"
-	desc = "pain"
+	desc = "Nothing but blood, sweat, and tears here. You feel like you should report seeing this."
 	icon = 'yogstation/icons/turf/floors/jungle.dmi'
-	icon_state = "jungle"
+	icon_state = "nothing"
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
 	planetary_atmos = TRUE
 	baseturfs = /turf/open/water/toxic_pit
-	icon_state_regular_floor = "jungle" //used to remember what icon state the tile should have by default
+	icon_state_regular_floor = "nothing" //used to remember what icon state the tile should have by default
 	icon_regular_floor = 'yogstation/icons/turf/floors/jungle.dmi' //used to remember what icon the tile should have by default
-	icon_plating = "jungle"
+	icon_plating = "nothing"
 	var/can_spawn_ore = TRUE
 	var/ore_present = ORE_EMPTY
 	var/spawn_overlay = TRUE
@@ -141,10 +141,10 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/floor/plating/dirt/jungleland/toxic_pit
 	name = "mud"
-	desc = "A healthy blend of dirt and the sulphuric river water. Probably isn't best kind for your skin."
-	icon_state = "toxic_pit"
-	icon_plating = "toxic_pit"
-	icon_state_regular_floor = "toxic_pit"
+	desc = "A healthy blend of dirt and the acidic river water. Probably isn't the best kind for your skin."
+	icon_state = "mud"
+	icon_plating = "mud"
+	icon_state_regular_floor = "mud"
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp1
 	name = "dried surface"
@@ -154,18 +154,18 @@ Temperature: 126.85 °C (400 K)
 	icon_state_regular_floor = "dry_swamp1" 
 
 /turf/open/floor/plating/dirt/jungleland/dying_forest
-	name = "deep sand"
-	desc = "this sand runs deep into the earth"
-	icon_state = "dying_forest"
-	icon_plating = "dying_forest"
-	icon_state_regular_floor = "dying_forest" 
+	name = "sand"
+	desc = "Mounds of coarse, rough, and irritating sand. Great for the eyes."
+	icon_state = list("sand[pick(1-12)]")
+	icon_plating = list("sand[pick(1-12)]")
+	icon_state_regular_floor = list("sand[pick(1-12)]")
 
 /turf/open/floor/plating/dirt/jungleland/jungle
 	name = "forest litter"
 	desc = "rich in minerals, this feeds the flora and fauna of the jungle"
-	icon_state = "jungle"
-	icon_plating = "jungle"
-	icon_state_regular_floor = "jungle"
+	icon_state = "dirt"
+	icon_plating = "dirt"
+	icon_state_regular_floor = "dirt"
 
 /turf/open/floor/plating/dirt/jungleland/quarry
 	name = "loose quarry stones"
@@ -191,6 +191,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/water/toxic_pit
 	name = "sulphuric pit"
 	desc = ""
+	gender = NEUTER
 	color = "#00c167"
 	slowdown = 2
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -225,9 +226,24 @@ Temperature: 126.85 °C (400 K)
 /turf/open/water/safe/jungle
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
 
+/turf/open/water/toxic_pit/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
+	switch(the_rcd.construction_mode)
+		if(RCD_FLOORWALL)
+			return list("mode" = RCD_FLOORWALL, "delay" = 0, "cost" = 3)
+	return FALSE
+
+/turf/open/water/toxic_pit/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
+	switch(passed_mode)
+		if(RCD_FLOORWALL)
+			to_chat(user, span_notice("You build a floor."))
+			place_on_top(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
+			return TRUE
+	return FALSE
+
 /turf/open/water/deep_toxic_pit
 	name = "deep sulphuric pit"
 	desc = "Extraordinarly toxic"
+	gender = NEUTER
 	color = "#004700"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -255,6 +271,20 @@ Temperature: 126.85 °C (400 K)
 	humie.reagents.add_reagent(/datum/reagent/toxic_metabolities,15)
 	humie.adjustFireLoss(33)
 	humie.acid_act(15,15)
+
+/turf/open/water/deep_toxic_pit/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
+	switch(the_rcd.construction_mode)
+		if(RCD_FLOORWALL)
+			return list("mode" = RCD_FLOORWALL, "delay" = 0, "cost" = 3)
+	return FALSE
+
+/turf/open/water/deep_toxic_pit/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
+	switch(passed_mode)
+		if(RCD_FLOORWALL)
+			to_chat(user, span_notice("You build a floor."))
+			place_on_top(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
+			return TRUE
+	return FALSE
 
 /turf/open/floor/wood/jungle
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -290,6 +320,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/water/tar_basin
 	name = "tar basin"
+	gender = NEUTER
 	color = "#680047"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS

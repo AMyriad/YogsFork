@@ -421,7 +421,8 @@
 
 //Jungle rocks
 /obj/structure/flora/rock/desert
-	desc = "A large portrusion of dense stone. A hallmark of every great desert."
+	name = "rock"
+	desc = "A large portrusion of dense stone. A hallmark of every great barren wasteland."
 
 /obj/structure/flora/rock/jungle
 	name = "pile of rocks"
