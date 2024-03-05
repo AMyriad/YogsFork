@@ -134,17 +134,17 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp
 	name = "sand"
-	desc = "mounds upon mounds of sand"
+	desc = "Mounds of coarse, rough, and irritating sand. Great for the eyes."
 	icon_state = "dry_swamp"
 	icon_plating = "dry_swamp"
 	icon_state_regular_floor = "dry_swamp" 
 
 /turf/open/floor/plating/dirt/jungleland/toxic_pit
-	name = "shallow mud"
-	desc = "pit of shallow mud"
+	name = "mud"
+	desc = "A healthy blend of dirt and the sulphuric river water. Probably isn't best kind for your skin."
 	icon_state = "toxic_pit"
 	icon_plating = "toxic_pit"
-	icon_state_regular_floor = "toxic_pit" 
+	icon_state_regular_floor = "toxic_pit"
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp1
 	name = "dried surface"
@@ -165,7 +165,7 @@ Temperature: 126.85 °C (400 K)
 	desc = "rich in minerals, this feeds the flora and fauna of the jungle"
 	icon_state = "jungle"
 	icon_plating = "jungle"
-	icon_state_regular_floor = "jungle" 
+	icon_state_regular_floor = "jungle"
 
 /turf/open/floor/plating/dirt/jungleland/quarry
 	name = "loose quarry stones"
@@ -190,7 +190,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/water/toxic_pit
 	name = "sulphuric pit"
-	desc = "Very toxic"
+	desc = ""
 	color = "#00c167"
 	slowdown = 2
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
