@@ -243,21 +243,21 @@
 			SPECIES_PERK_ICON = "user-astronaut",
 			SPECIES_PERK_NAME = "The Suit",
 			SPECIES_PERK_DESC = "Plasmamen begin with an airtight envirosuit, which they are dependant on to survive. \
-				Their envirohelm is also space-worthy, and provides welding protection, as well as a built-in flashlight.",
+								Their envirohelm is also space-worthy, and provides welding protection, as well as a built-in flashlight.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "skull",
 			SPECIES_PERK_NAME = "Hazard-Born",
-			SPECIES_PERK_DESC = "Plasmamen are reborn in the fires they died in. They emerge a changed person, lacking their skin, many of their senses, and the need to sleep. \
-								They're completely immune to becoming husked, feeling any hunger, or being affected by the cold.",
+			SPECIES_PERK_DESC = "Plasmamen are reshaped by the plasmafires they died in. \
+								They're completely immune to becoming husked, feeling any hunger, being affected by the cold, and resist diseases.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "bone",
 			SPECIES_PERK_NAME = "Bones of Steel",
 			SPECIES_PERK_DESC = "Plasmamen have naturally dense bones due to their makeup of solid plasma. \
-								Because of this, they only suffer fracture wounds, and are generally harder to wound.",
+								They only suffer fracture wounds, and are generally harder to wound.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
@@ -271,7 +271,7 @@
 			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Baroxuldium Breath",
 			SPECIES_PERK_DESC = "Plasmamen are able to breathe plasma gas safely at the cost of oxygen being toxic to them. \
-								They're supplied with a tank of plasma that will last most of the shift when arriving, as well as a spare in their emergency box.",
+								They're supplied with a tank of plasma that will last most of the shift, as well as a spare in their survival box.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,

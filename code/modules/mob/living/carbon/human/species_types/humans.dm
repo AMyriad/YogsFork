@@ -78,10 +78,10 @@
 	if(CONFIG_GET(number/default_laws) == 0) // Default lawset is set to Asimov
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "robot",
+			SPECIES_PERK_ICON = "terminal",
 			SPECIES_PERK_NAME = "Asimov Priority",
-			SPECIES_PERK_DESC = "The AI and their cyborgs are, by default, subservient only \
-				to humans. As a human, silicons are required to both protect and obey you.",
+			SPECIES_PERK_DESC = "The AI and their cyborgs are, by default, subservient only to humans. \
+								As a human, silicons are required to both protect and obey you.",
 		))
 
 	if(CONFIG_GET(flag/enforce_human_authority))

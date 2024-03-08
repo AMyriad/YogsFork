@@ -322,43 +322,55 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "cookie-bite",
 			SPECIES_PERK_NAME = "Stone Eater",
-			SPECIES_PERK_DESC = "Preterni were designed to survive even the most barren environments. \
-								They can eat and process ores to replenish their metal skin. All ores are not created equal.",
-			SPECIES_PERK_DESC = "Preterni
+			SPECIES_PERK_DESC = "Preterni are fitted with grinders in their stomach, letting them eat and process ores to replenish their metal skin. \
+								All ores are not created equal.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "shield-virus",
 			SPECIES_PERK_NAME = "Foreign Immune System",
-			SPECIES_PERK_DESC = "Preterni have incredibly alien biology, posing a significant challenge to any modern diseases trying to infect them.",
+			SPECIES_PERK_DESC = "Preterni biology is extraordinarily alien, posing a challenge to any modern diseases trying to infect them.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "tools",
+			SPECIES_PERK_ICON = "wrench",
 			SPECIES_PERK_NAME = "Worker Drone",
 			SPECIES_PERK_DESC = "Preterni were designed to be quick and efficient workers. \
 								They use tools and items faster than most races.",
 		),
 		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "low-vision",
+			SPECIES_PERK_NAME = "Augmented Sight",
+			SPECIES_PERK_DESC = "Preterni have a night vision lens they can toggle built into their eyes. \
+								This lens will drain power while active.",
+		),
+		list(
+			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
+			SPECIES_PERK_ICON = "lungs",
+			SPECIES_PERK_NAME = "+",
+			SPECIES_PERK_DESC = "Preterni have bioengineered lungs that require little oxygen, and filter trace amounts of toxic gases from the air.",
+		),
+		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "flask",
 			SPECIES_PERK_NAME = "Chemical Purge",
-			SPECIES_PERK_DESC = "Preterni have an elaborate system of filters and \"veins\" dedicated to decontaminating their organic innards. \
-								A percentage of all foreign chemicals in their bloodstream will be purged every few seconds.",
+			SPECIES_PERK_DESC = "Preterni have an elaborate system of filters for decontaminating their organic parts. \
+								A percentage of all foreign chemicals in their bloodstream are purged every few seconds.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "shower",
 			SPECIES_PERK_NAME = "Keep Dry",
 			SPECIES_PERK_DESC = "Preterni have exposed circuitry under the cracks in their outer shell. \
-								If water gets in their electronics will short, causing weakness in the limbs and burns.",
+								Contact with water will short their electronics, causing weakness in the limbs and burns.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "droplet-slash",
 			SPECIES_PERK_NAME = "Metal Marrow",
 			SPECIES_PERK_DESC = "Preterni have solid metal bones with no internal marrow. \
-								Because of this, preterni don't generate blood in their body, and can't replenish any they've lost.",
+								Their body will not regenerate any blood lost.",
 		),
 	)
 

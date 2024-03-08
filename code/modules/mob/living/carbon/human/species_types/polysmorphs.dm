@@ -132,9 +132,9 @@
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "tools",
+			SPECIES_PERK_ICON = "wrench",
 			SPECIES_PERK_NAME = "Indextrous",
-			SPECIES_PERK_DESC = "Polysmorphs have large claw-like fingers built for slicing rather than quick, or precise motions. \
+			SPECIES_PERK_DESC = "Polysmorphs have large claw-like fingers built for slicing rather than quick or precise motions. \
 								They use tools and items a bit slower than most races.",
 		),
 	)

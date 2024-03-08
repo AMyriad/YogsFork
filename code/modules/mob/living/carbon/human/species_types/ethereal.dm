@@ -276,7 +276,7 @@
 	to_add += list(
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "sun", // May or not be worse than lightbulb idk
+			SPECIES_PERK_ICON = "sun", // May or may not be worse than lightbulb idk
 			SPECIES_PERK_NAME = "Living Star",
 			SPECIES_PERK_DESC = "Ethereals are naturally bioluminescent, emitting a constant source of light from their bodies. \
 								The brightness of this light changes based on energy.",
@@ -299,15 +299,14 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Respirative Electrolysis",
-			SPECIES_PERK_DESC = "Ethereals have a network of electrically charged chambers within their lungs. \
-								These structures convert any inhaled water vapor into hydrogen and oxygen when exhaled.",
+			SPECIES_PERK_DESC = "Ethereals have a network of conductive chambers in their lungs that convert any inhaled water vapor into hydrogen and oxygen.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "bolt",
 			SPECIES_PERK_NAME = "Bioelectric",
-			SPECIES_PERK_DESC = "Ethereals have unique interactions with their power-hungry qualities; Most kinds of radiation will be absorbed as energy. \
-								Storing too much energy however, will result in a dangerous discharge of that excess electricity.",
+			SPECIES_PERK_DESC = "Ethereals gain charge in more ways than most, such as absorbing certain kinds of radiation. \
+								Storing too much energy will cause a violent discharge of all excess electricity.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
