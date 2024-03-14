@@ -292,7 +292,7 @@
 	
 
 /mob/living/simple_animal/hostile/yog_jungle/blobby
-	name = "Blobby"
+	name = "Gob"
 	desc = "Believed to be an ancient variant of slime, these gelatinous creautes roam the swampy"
 	//desc = "A gelatinous creature of the swampy regions of the jungle. It's a big blob of goo, and it's not very friendly."
 	icon_state = "blobby"
