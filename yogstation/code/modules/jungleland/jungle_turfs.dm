@@ -135,6 +135,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/floor/plating/dirt/jungleland/dry_swamp
 	name = "sand"
 	desc = "Mounds of coarse, rough, and irritating sand. Great for the eyes."
+	gender = PLURAL
 	icon_state = "dry_swamp"
 	icon_plating = "dry_swamp"
 	icon_state_regular_floor = "dry_swamp" 
@@ -142,6 +143,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/floor/plating/dirt/jungleland/toxic_pit
 	name = "mud"
 	desc = "A healthy blend of dirt and the acidic river water. Probably isn't the best kind for your skin."
+	gender = PLURAL
 	icon_state = "mud"
 	icon_plating = "mud"
 	icon_state_regular_floor = "mud"
@@ -154,15 +156,16 @@ Temperature: 126.85 °C (400 K)
 	icon_state_regular_floor = "dry_swamp1" 
 
 /turf/open/floor/plating/dirt/jungleland/dying_forest
-	name = "sand"
-	desc = "Mounds of coarse, rough, and irritating sand. Great for the eyes."
+	name = "jungle sand"
+	desc = "Jungle sand. Sand in the jungle. It's coarse, rough, irritating, and great for the eyes. Jungle sand."
+	gender = PLURAL
 	icon_state = list("sand[pick(1-12)]")
 	icon_plating = list("sand[pick(1-12)]")
 	icon_state_regular_floor = list("sand[pick(1-12)]")
 
 /turf/open/floor/plating/dirt/jungleland/jungle
-	name = "forest litter"
-	desc = "rich in minerals, this feeds the flora and fauna of the jungle"
+	name = "tropical soil" // Mulch, dirt, litter, ground, soil, fuck it it's all the same
+	desc = "A cool mix of dirt, bark, compost, and random debris. Nutritious enough to feed the "
 	icon_state = "dirt"
 	icon_plating = "dirt"
 	icon_state_regular_floor = "dirt"
@@ -218,10 +221,10 @@ Temperature: 126.85 °C (400 K)
 		return
 	
 	if(prob(chance * 0.33))
-		humie.reagents.add_reagent(/datum/reagent/toxic_metabolities,7.5)
+		humie.reagents.add_reagent(/datum/reagent/toxic_metabolities, 7.5)
 	
 	if(prob((chance * 0.15 ) + 10 ))
-		humie.acid_act(5,7.5)
+		humie.acid_act(5, 7.5)
 
 /turf/open/water/safe/jungle
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
