@@ -28,7 +28,7 @@
 	// Less than two people? (1) Last man standing. Less than one people? (0) Failure message.
 		if(team_remaining >= 3)
 			endmsg = default_endmessage
-		else if(team_remaining >= 1)
+		else if(team_remaining >= 2)
 			endmsg = lastman_endmessage
 		else
 			endmsg = alldead_endmessage
@@ -111,32 +111,29 @@
 		"THERE IS NO ROOM FOR ERROR. FINISH THE JOB.",
 		"THAT'S ONE LESS SHARE OF THE PAY.",
 		"GO HARD OR GO HOME DEAD.",
-		"GET DAT FUKKEN DISK."
-	)
+		"GET DAT FUKKEN DISK.")
 
 	lastman_endmessage = pick(
 		"YOU'RE THE LAST ONE. COMPLETE THE MISSION.",
 		"ONE OPERATIVE REMAINS. IT'S ALL ON YOU.",
 		"YOU'RE THE LAST MAN STANDING. DO WHAT MUST BE DONE.",
-		"YOU'RE ALL THAT'S LEFT. DELIVER THE PAYLOAD AT ALL COSTS."
-	)
+		"YOU'RE ALL THAT'S LEFT. DELIVER THE PAYLOAD AT ALL COSTS.")
 
 	alldead_endmessage = pick(
 		"ALL OPERATIVES KILLED IN ACTION. SHUNTING [pick("DATA","ASSESSMENT","FINAL READINGS")] TO PRIVATE NETWORK...",
 		"ALL VITAL SIGNS LOST. SHUNTING [pick("DATA","ASSESSMENT","FINAL READINGS")] TO PRIVATE NETWORK...",
-		"LAST BIOSIGNATURE LOST. SHUNTING [pick("DATA","ASSESSMENT","FINAL READINGS")] TO PRIVATE NETWORK..."
-	)
+		"LAST BIOSIGNATURE LOST. SHUNTING [pick("DATA","ASSESSMENT","FINAL READINGS")] TO PRIVATE NETWORK...")
 
-	message = "OPERATIVE NOTICE: AGENT [uppertext(mobname)] EXPLO//N&#@$¤#§>..." //
+	message = "OPERATIVE NOTICE: AGENT [uppertext(mobname)] EXPLO//N&#@$¤#§>..."
 	if(cause == "death")
 		message = "OPERATIVE NOTICE: AGENT [uppertext(mobname)] EXPLOSIVE IMPLANT TRIGGERED IN [uppertext(turf.name)]. [endmsg]"
 
 	radio.talk_into(src, message, RADIO_CHANNEL_SYNDICATE)
-	qdel(src) // Single purpose, single use.
+	qdel(src) // Probably deleted when gibbing but just to be safe
 
 /obj/item/implant/biosig/gorlex/on_mob_death(mob/living/L, gibbed)
 	if(gibbed)
-		activate("gibbed") // Will use default message.
+		activate("gibbed")
 	else
 		activate("death")
 
