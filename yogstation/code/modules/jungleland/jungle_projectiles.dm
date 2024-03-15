@@ -2,20 +2,22 @@
 	icon = 'yogstation/icons/obj/jungle.dmi'
 
 /obj/projectile/jungle/heal_orb
-	name = "Orb of healing"
+	name = "orb of healing"
 	icon_state = "heal_orb"
 	damage = -10
 	speed = 2
 	homing = TRUE
+	impact_effect_type = /obj/effect/temp_visual/heal(COLOR_ETHIOPIA_GREEN)
+	hitsound = 'sound/magic/staff_healing.ogg'
 
 /obj/projectile/jungle/damage_orb
-	name = "Orb of vengeance"
+	name = "orb of vengeance"
 	icon_state = "damage_orb"
-	damage = 20
+	damage = 17
 	speed = 1
 
 /obj/projectile/jungle/meduracha_spit
-	name = "Glob of toxic goo"
+	name = "glob of toxic goo"
 	icon_state = "meduracha_spit"
 	damage = 20
 	speed = 3
