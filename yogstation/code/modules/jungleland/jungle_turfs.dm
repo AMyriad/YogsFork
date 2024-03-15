@@ -159,9 +159,9 @@ Temperature: 126.85 °C (400 K)
 	name = "jungle sand"
 	desc = "Jungle sand. Sand in the jungle. It's coarse, rough, irritating, and great for the eyes. Jungle sand."
 	gender = PLURAL
-	icon_state = list("sand[pick(1-12)]")
-	icon_plating = list("sand[pick(1-12)]")
-	icon_state_regular_floor = list("sand[pick(1-12)]")
+	icon_state = "dune"
+	icon_plating = "dune"
+	icon_state_regular_floor = "dune"
 
 /turf/open/floor/plating/dirt/jungleland/jungle
 	name = "tropical soil" // Mulch, dirt, litter, ground, soil, fuck it it's all the same
