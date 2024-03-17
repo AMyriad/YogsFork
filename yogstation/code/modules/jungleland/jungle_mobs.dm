@@ -26,7 +26,7 @@
 	. = ..()
 
 /mob/living/simple_animal/hostile/yog_jungle/dryad
-	name = "bramble dryad"
+	name = "\improper bramble dryad"
 	desc = "An amalgam of branches held together by the long... \"vine\" coiled around it. \
 		These empathetic creatures will rush to aid friendly travelers, but take no kindness to those who ruin their jungle."
 	icon_state = "dryad"
@@ -63,7 +63,7 @@
 
 
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
-	name = "wild dryad"
+	name = "\improper wild dryad"
 	desc = "An amalgam of splintering branches wearing the husk of a long dead... \"vine\" coiled around it. \
 		"
 		"These empathetic creatures will rush to aid friendly travelers, but take no kindness to those who ruin their jungle."
@@ -659,7 +659,7 @@
 	melee_damage_upper = 20
 
 /mob/living/simple_animal/hostile/tar/dryad
-	name = "tar dryad"
+	name = "\improper tar dryad"
 	desc = "Once a creature of the forest. It now belongs to the dominion of tar."
 	icon_state = "tar_dryad"
 	health = 120
