@@ -134,7 +134,7 @@
 		man.key = M.ckey
 
 /datum/xenoartifact_trait/minor/sentient/proc/get_canidate(obj/item/xenoartifact/X, mob/M)
-	var/list/mob/dead/observer/candidates = poll_ghost_candidates("Do you want to play as the malevolent force inside the [X.name]?", ROLE_SENTIENT_XENOARTIFACT, null, 8 SECONDS)
+	var/list/mob/dead/observer/candidates = pollCandidatesForMob("Do you want to play as the malevolent force inside the [X.name]?", ROLE_SENTIENCE, null, 8 SECONDS) // Use a different role, fix before PRing
 	if(LAZYLEN(candidates))
 		var/mob/dead/observer/C = pick(candidates)
 		setup_sentience(X, C.ckey)
@@ -201,7 +201,7 @@
 		"Return to your master...",
 		"Escape this twisted plane..."))
 	use_cooldown = TRUE
-	banType = ROLE_SENTIENT_XENOARTIFACT
+	banType = ROLE_SENTIENCE // Fix before PRing
 	invisibility = 101
 	var/obj/item/xenoartifact/artifact
 
@@ -226,12 +226,12 @@
 
 /datum/xenoartifact_trait/minor/delicate/on_init(obj/item/xenoartifact/X)
 	X.max_integrity = pick(200, 300, 500, 800, 1000)
-	X.obj_integrity = X.max_integrity
+	X.atom_integrity = X.max_integrity
 	X.alpha = X.alpha * 0.55
 
 /datum/xenoartifact_trait/minor/delicate/activate(obj/item/xenoartifact/X, atom/user)
-	if(X.obj_integrity > 0)
-		X.obj_integrity -= 100
+	if(X.atom_integrity > 0)
+		X.atom_integrity -= 100
 		X.visible_message("<span class='danger'>The [X.name] cracks!</span>", "<span class='danger'>The [X.name] cracks!</span>")
 	else
 		X.visible_message("<span class='danger'>The [X.name] shatters!</span>", "<span class='danger'>The [X.name] shatters!</span>")

@@ -60,8 +60,8 @@
 	xenoa = X
 	for(var/s in signals)
 		switch(s) //Translating signal params to vaugely resemble (/obj/item, /mob/living, params)
-			if(COMSIG_PARENT_ATTACKBY)
-				RegisterSignal(xenoa, COMSIG_PARENT_ATTACKBY, PROC_REF(translate_attackby))
+			if(COMSIG_ATOM_ATTACKBY)
+				RegisterSignal(xenoa, COMSIG_ATOM_ATTACKBY, PROC_REF(translate_attackby))
 			if(COMSIG_ITEM_ATTACK)
 				RegisterSignal(xenoa, COMSIG_ITEM_ATTACK, PROC_REF(translate_attack))
 			if(COMSIG_MOVABLE_IMPACT)

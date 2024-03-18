@@ -157,7 +157,7 @@
 			process_type = null
 			return FALSE
 		if(P?.safety && isliving(loc))
-			SEND_SIGNAL(src, COMSIG_PARENT_ATTACKBY, src, user, user) //we're in the ghetto now
+			SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, src, user, user) //we're in the ghetto now
 
 	if(P?.safety && isliving(loc))
 		return
@@ -351,12 +351,12 @@
 		. = M?.pulling ? M.pulling : M
 	else
 		. = target
-	RegisterSignal(., COMSIG_PARENT_QDELETING, PROC_REF(on_target_del), TRUE)
+	RegisterSignal(., COMSIG_QDELETING, PROC_REF(on_target_del), TRUE)
 	return
 
 ///Hard del handle
 /obj/item/xenoartifact/proc/on_target_del(atom/target)
-	UnregisterSignal(target, COMSIG_PARENT_QDELETING)
+	UnregisterSignal(target, COMSIG_QDELETING)
 	true_target -= list(target)
 
 ///Helps show how the artifact is working. Hint stuff. Draws a beam between artifact and target
@@ -397,7 +397,7 @@
 	. = ..()
 	if(!(COOLDOWN_FINISHED(src, xenoa_cooldown)) || !get_trait(/datum/xenoartifact_trait/minor/blocking))
 		return
-	SEND_SIGNAL(src, COMSIG_PARENT_ATTACKBY, src, owner, hitby) //I don't think this sends a signal
+	SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, src, owner, hitby) //I don't think this sends a signal
 
 /obj/item/xenoartifact/process(delta_time)
 	switch(process_type)

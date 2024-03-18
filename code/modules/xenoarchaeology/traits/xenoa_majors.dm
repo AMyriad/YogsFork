@@ -118,9 +118,9 @@
 	playsound(get_turf(src), 'sound/mecha/mech_shield_deflect.ogg', 50, TRUE)
 
 ///============
-/// Corginator - Turns the target into a corgi for a short time.
+/// Corginator - Turns the target into a corgi for a short time.	/! Uncomment this when you fix the shapeshift shit, fix before PRing
 ///============
-/datum/xenoartifact_trait/major/corginator ///All of this is stolen from corgium
+/*/datum/xenoartifact_trait/major/corginator ///All of this is stolen from corgium
 	desc = "Fuzzy" //Weirdchamp
 	label_desc = "Fuzzy: The shape is hard to discern under all the hair sprouting out from the surface. You swear you've heard it bark before."
 	flags = BLUESPACE_TRAIT
@@ -181,7 +181,7 @@
 	. = ..()
 	if(victims.len)
 		for(var/mob/living/simple_animal/pet/dog/corgi/H as() in victims)
-			transform_back(H)
+			transform_back(H) */
 
 ///============
 /// EMP - Produces an empulse.
@@ -345,7 +345,7 @@
 
 /datum/xenoartifact_trait/major/chem/on_init(obj/item/xenoartifact/X)
 	amount = pick(7, 14, 21)
-	formula = get_random_reagent_id(CHEMICAL_RNG_GENERAL)
+	formula = get_random_reagent_id() // Check this so they don't get adminordrazine or whatever before PRing
 
 /datum/xenoartifact_trait/major/chem/activate(obj/item/xenoartifact/X, atom/target)
 	if(target?.reagents)
@@ -388,7 +388,7 @@
 			return
 		if(get_dist(X, target) <= 1 && isliving(target))
 			var/mob/living/living_victim = target
-			living_victim.Knockdown(SHOVE_KNOCKDOWN_SOLID)
+			living_victim.Knockdown(SHOVE_KNOCKDOWN_HUMAN)
 		victim.throw_at(get_turf(X), X.charge*0.08, 8)
 
 ///============
@@ -430,7 +430,7 @@
 		/datum/gas/hypernoblium = 1,
 		/datum/gas/plasma = 3,
 		/datum/gas/tritium = 2,
-		/datum/gas/nitryl = 1
+		/datum/gas/nitrium = 1
 	)
 	var/datum/gas/input
 	var/datum/gas/output
@@ -460,7 +460,7 @@
 ///============
 /// Destabilizing - Teleports the victim to limbo.
 ///============
-/datum/xenoartifact_trait/major/distablizer
+/datum/xenoartifact_trait/major/destablizer
 	desc = "Destabilizing"
 	label_desc = "Destabilizing: The Artifact collapses an improper bluespace matrix on the target, sending them to an unknown location."
 	weight = 25
@@ -468,11 +468,11 @@
 	blacklist_traits = list(/datum/xenoartifact_trait/minor/aura)
 	var/obj/item/xenoartifact/exit
 
-/datum/xenoartifact_trait/major/distablizer/on_init(obj/item/xenoartifact/X)
+/datum/xenoartifact_trait/major/destablizer/on_init(obj/item/xenoartifact/X)
 	exit = X
 	GLOB.destabliization_exits += X
 
-/datum/xenoartifact_trait/major/distablizer/on_item(obj/item/xenoartifact/X, mob/living/carbon/human/user, atom/item)
+/datum/xenoartifact_trait/major/destablizer/on_item(obj/item/xenoartifact/X, mob/living/carbon/human/user, atom/item)
 	var/obj/item/clothing/gloves/artifact_pinchers/P
 	if(istype(user))
 		P = user.get_item_by_slot(ITEM_SLOT_GLOVES)
@@ -481,11 +481,11 @@
 		return TRUE
 	..()
 
-/datum/xenoartifact_trait/major/distablizer/activate(obj/item/xenoartifact/X, atom/target, atom/user)
+/datum/xenoartifact_trait/major/destablizer/activate(obj/item/xenoartifact/X, atom/target, atom/user)
 	if(do_banish(target))
 		X.cooldownmod = X.charge*0.2 SECONDS
 
-/datum/xenoartifact_trait/major/distablizer/proc/do_banish(atom/target)
+/datum/xenoartifact_trait/major/destablizer/proc/do_banish(atom/target)
 	. = FALSE
 	if(isliving(exit.loc))
 		var/mob/living/holder = exit.loc
@@ -499,7 +499,7 @@
 		if(AM.forceMove(pick(GLOB.destabilization_spawns)))
 			return TRUE
 
-/datum/xenoartifact_trait/major/distablizer/Destroy()
+/datum/xenoartifact_trait/major/destablizer/Destroy()
 	GLOB.destabliization_exits -= exit
 	..()
 */

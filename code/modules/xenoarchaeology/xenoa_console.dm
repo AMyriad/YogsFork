@@ -50,7 +50,7 @@
 /obj/machinery/computer/xenoartifact_console/Initialize()
 	. = ..()
 	linked_techweb = SSresearch.science_tech
-	budget = SSeconomy.get_budget_account(ACCOUNT_SCI)
+	budget = SSeconomy.get_dep_account(ACCOUNT_SCI)
 	sync_devices()
 	for(var/I in 1 to XENOA_MAX_VENDORS) //Add initial buyers and sellers
 		var/datum/xenoartifact_seller/S = new
@@ -244,15 +244,15 @@
 			linked_pad = I
 			linked_machines += I.name
 			I.linked_console = src
-			I.RegisterSignal(src, COMSIG_PARENT_QDELETING, TYPE_PROC_REF(/obj/machinery/xenoartifact_pad, on_machine_del))
-			RegisterSignal(I, COMSIG_PARENT_QDELETING, PROC_REF(on_pad_del))
+			I.RegisterSignal(src, COMSIG_QDELETING, TYPE_PROC_REF(/obj/machinery/xenoartifact_pad, on_machine_del))
+			RegisterSignal(I, COMSIG_QDELETING, PROC_REF(on_pad_del))
 			say("Successfully linked [I].")
 			return
 	say("Unable to find linkable hadrware.")
 
 /obj/machinery/computer/xenoartifact_console/proc/on_pad_del() //Hard del measures
 	SIGNAL_HANDLER
-	UnregisterSignal(linked_pad, COMSIG_PARENT_QDELETING)
+	UnregisterSignal(linked_pad, COMSIG_QDELETING)
 	linked_pad = null
 
 #undef STABILITY_COST
@@ -268,7 +268,7 @@
 
 /obj/machinery/xenoartifact_pad/proc/on_machine_del()
 	SIGNAL_HANDLER
-	UnregisterSignal(linked_console, COMSIG_PARENT_QDELETING)
+	UnregisterSignal(linked_console, COMSIG_QDELETING)
 	linked_console = null
 
 /obj/machinery/xenoartifact_pad/Destroy()

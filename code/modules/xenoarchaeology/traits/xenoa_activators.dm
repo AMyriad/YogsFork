@@ -9,7 +9,7 @@
 	desc = "Sturdy"
 	label_desc = "Sturdy: The material is sturdy. The amount of force applied seems to directly correlate to the size of the reaction."
 	charge = 25
-	signals = list(COMSIG_PARENT_ATTACKBY, COMSIG_MOVABLE_IMPACT, COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_AFTERATTACK)
+	signals = list(COMSIG_ATOM_ATTACKBY, COMSIG_MOVABLE_IMPACT, COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_AFTERATTACK)
 	flags = BLUESPACE_TRAIT | PLASMA_TRAIT | URANIUM_TRAIT
 	weight = 30
 
@@ -25,7 +25,7 @@
 	desc = "Flammable"
 	label_desc = "Flammable: The material is flammable, and seems to react when ignited."
 	charge = 25
-	signals = list(COMSIG_PARENT_ATTACKBY)
+	signals = list(COMSIG_ATOM_ATTACKBY)
 	flags = BLUESPACE_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/activator/burn/on_init(obj/item/xenoartifact/X)
@@ -49,7 +49,7 @@
 	label_desc = "Timed: The material produces a resonance pattern similar to quartz, causing it to produce a reaction every so often."
 	charge = 25
 	blacklist_traits = list(/datum/xenoartifact_trait/minor/capacitive)
-	signals = list(COMSIG_PARENT_ATTACKBY, COMSIG_MOVABLE_IMPACT, COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_AFTERATTACK)
+	signals = list(COMSIG_ATOM_ATTACKBY, COMSIG_MOVABLE_IMPACT, COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_AFTERATTACK)
 	flags = BLUESPACE_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/activator/timed/on_init(obj/item/xenoartifact/X)
@@ -104,7 +104,7 @@
 	desc = "Charged"
 	label_desc = "Charged: The material has a natural power draw. Supplying any current to this will cause a reaction."
 	charge = 25
-	signals = list(COMSIG_PARENT_ATTACKBY)
+	signals = list(COMSIG_ATOM_ATTACKBY)
 	flags = BLUESPACE_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/activator/battery/on_item(obj/item/xenoartifact/X, atom/user, atom/item)
@@ -128,7 +128,7 @@
 	label_desc = "Weighted: The material is weighted and produces a reaction when picked up."
 	charge = 25
 	signals = list(COMSIG_ITEM_PICKUP)
-	blacklist_traits = list(/datum/xenoartifact_trait/minor/dense, /datum/xenoartifact_trait/minor/anchor, /datum/xenoartifact_trait/major/distablizer)
+	blacklist_traits = list(/datum/xenoartifact_trait/minor/dense, /datum/xenoartifact_trait/minor/anchor) ///datum/xenoartifact_trait/major/destablizer
 	flags = BLUESPACE_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/activator/weighted/pass_input(datum/source, obj/item/thing, mob/living/carbon/user, mob/living/carbon/human/target)
@@ -163,7 +163,7 @@
 	desc = "Honked"
 	label_desc = "Honked: The material is squishy & humorous. Perhaps the clown would know how to use it?"
 	charge = 25
-	signals = list(COMSIG_PARENT_ATTACKBY, COMSIG_MOVABLE_IMPACT, COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_AFTERATTACK)
+	signals = list(COMSIG_ATOM_ATTACKBY, COMSIG_MOVABLE_IMPACT, COMSIG_ITEM_ATTACK_SELF, COMSIG_ITEM_AFTERATTACK)
 	weight = 25
 
 /datum/xenoartifact_trait/activator/honk/pass_input(datum/source, obj/item/thing, mob/user, atom/target)

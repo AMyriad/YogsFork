@@ -63,7 +63,7 @@
 			clothing_list += I
 		//Stops this from stripping funky stuff
 		var/obj/item/clothing/C = pick(clothing_list)
-		if(!HAS_TRAIT_FROM(C, TRAIT_NODROP, GLUED_ITEM_TRAIT))
+		if(!HAS_TRAIT_FROM(C, TRAIT_NODROP, STICKY_NODROP)) // Gotta love BYOND. STICKY_NODROP does jack shit but not having it breaks compiling altogether :D
 			victim.dropItemToGround(C)
 			X.cooldown += 10 SECONDS
 
@@ -181,11 +181,11 @@
 	T.color = COLOR_BLUE
 	//Handle limit and hardel
 	clones += T
-	RegisterSignal(T, COMSIG_PARENT_QDELETING, PROC_REF(handle_death))
+	RegisterSignal(T, COMSIG_QDELETING, PROC_REF(handle_death))
 
 /datum/xenoartifact_trait/malfunction/twin/proc/handle_death(datum/source)
 	clones -= source
-	UnregisterSignal(source, COMSIG_PARENT_QDELETING)
+	UnregisterSignal(source, COMSIG_QDELETING)
 
 /mob/living/simple_animal/hostile/twin
 	name = "evil twin"
@@ -238,7 +238,7 @@
 	///What gasses we've S U C K E D
 	var/datum/gas_mixture/air_contents
 	///Gasses we can suck. Currently everything but, it's here if we need to blacklist in the future
-	var/list/scrubbing = list(GAS_PLASMA, GAS_CO2, GAS_NITROUS, GAS_BZ, GAS_NITRYL, GAS_TRITIUM, GAS_HYPERNOB, GAS_H2O, GAS_O2, GAS_N2, GAS_STIMULUM, GAS_PLUOXIUM)
+	var/list/scrubbing = list(GAS_PLASMA, GAS_CO2, GAS_NITROUS, GAS_BZ, GAS_NITRIUM, GAS_TRITIUM, GAS_HYPERNOB, GAS_H2O, GAS_O2, GAS_N2, GAS_PLUOXIUM)
 	///Adjust for balance - I'm sure this will have no ramifications
 	var/volume = 1000000
 	var/volume_rate = 200000
