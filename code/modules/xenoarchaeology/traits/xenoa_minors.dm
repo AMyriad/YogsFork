@@ -83,7 +83,7 @@
 	return TRUE
 
 /datum/xenoartifact_trait/minor/sharp/on_init(obj/item/xenoartifact/X)
-	X.sharpness = IS_SHARP_ACCURATE
+	X.sharpness = SHARP_EDGED
 	X.force = X.charge_req*0.12
 	X.attack_verb = list("cleaved", "slashed", "stabbed", "sliced", "tore", "ripped", "diced", "cut")
 	X.attack_weight = 2
@@ -126,7 +126,7 @@
 
 /datum/xenoartifact_trait/minor/sentient/on_init(obj/item/xenoartifact/X)
 	addtimer(CALLBACK(src, PROC_REF(get_canidate), X), 5 SECONDS)
-	RegisterSignal(X, COMSIG_PARENT_EXAMINE, PROC_REF(handle_ghost), TRUE)
+	RegisterSignal(X, COMSIG_ATOM_EXAMINE, PROC_REF(handle_ghost), TRUE)
 
 //Proc used to give access to ghosts when original player leaves
 /datum/xenoartifact_trait/minor/sentient/proc/handle_ghost(datum/source, mob/M, list/examine_text)
@@ -357,7 +357,7 @@
 /datum/xenoartifact_trait/minor/anchor
 	desc = "Anchored"
 	label_desc = "Anchored: The Artifact buckles to the floor with the weight of a sun every time it activates. Heavier than you, somehow."
-	blacklist_traits = list(/datum/xenoartifact_trait/minor/wearable, /datum/xenoartifact_trait/minor/haunted)
+	blacklist_traits = list(/datum/xenoartifact_trait/minor/wearable) ///datum/xenoartifact_trait/minor/haunted readd before PRing
 	flags = BLUESPACE_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/minor/anchor/activate(obj/item/xenoartifact/X, atom/target, atom/user)
@@ -400,7 +400,7 @@
 //============
 // Haunted - The artifact can be controlled by deadchat, works well with sentient
 //============
-/datum/xenoartifact_trait/minor/haunted
+/*/datum/xenoartifact_trait/minor/haunted
 	label_name = "Haunted"
 	label_desc = "Haunted: The Artifact's appears to interact with bluespace spatial regression, causing the item to appear haunted."
 	blacklist_traits = list(/datum/xenoartifact_trait/minor/dense, /datum/xenoartifact_trait/minor/anchor, /datum/xenoartifact_trait/minor/wearable)
@@ -408,7 +408,7 @@
 	weight = 15
 	var/datum/component/deadchat_control/controller
 
-/datum/xenoartifact_trait/minor/haunted/on_init(obj/item/xenoartifact/X)
+/datum/xenoartifact_trait/minor/haunted/on_init(obj/item/xenoartifact/X) // Uh oh, gotta port over a whole system! Fix this before PRing
 	controller = X._AddComponent(list(/datum/component/deadchat_control, "democracy", list(
 			 "up" = CALLBACK(src, PROC_REF(haunted_step), X, NORTH),
 			 "down" = CALLBACK(src, PROC_REF(haunted_step), X, SOUTH),
@@ -438,7 +438,7 @@
 
 /datum/xenoartifact_trait/minor/haunted/Destroy(force, ...)
 	QDEL_NULL(controller)
-	return ..()
+	return ..()*/
 
 //============
 // Delay - Delays the activation. Credit to EvilDragon#4532

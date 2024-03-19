@@ -278,7 +278,7 @@
 	icon_state = "pincher"
 	item_state = "pincher"
 	transfer_prints = FALSE // Using the pinchers, not your fingers
-	actions_types = list(/datum/action/item_action/artifact_pincher_mode)
+	var/datum/action/item_action/artifact_pincher_mode
 	var/safety = FALSE
 
 /datum/action/item_action/artifact_pincher_mode
@@ -288,61 +288,4 @@
 	var/obj/item/clothing/gloves/artifact_pinchers/pinchy = target
 	if(istype(pinchy))
 		pinchy.safety = !pinchy.safety
-		button.icon_state = (pinchy.safety ? "template_active" : "template")
-
-
-
-/obj/item/clothing/gloves/bracer/cuffs
-	name = "rabid cuffs"
-	desc = "Wristbands fashioned after one of the hungriest slaughter demons. Wearing these invokes a hunger in the wearer that can only be sated by bloodshed."
-	icon_state = "cuff"
-	item_state = "cuff"
-	var/datum/action/cooldown/swipe/swipe_ability
-	alternate_worn_layer = ABOVE_BODY_FRONT_LAYER
-
-/obj/item/clothing/gloves/bracer/cuffs/Initialize(mapload)
-	. = ..()
-	swipe_ability = new(swipe_ability)
-
-/obj/item/clothing/gloves/bracer/cuffs/equipped(mob/living/user, slot)
-	. = ..()
-	if(ishuman(user) && (slot & ITEM_SLOT_GLOVES))
-		swipe_ability.Grant(user)
-
-/obj/item/clothing/gloves/bracer/cuffs/dropped(mob/living/user)
-	. = ..()
-	swipe_ability?.Remove(user)
-
-/datum/action/cooldown/swipe //you stupid
-	name = "Swipe"
-	desc = "Swipe at a target area, dealing damage to heal yourself. \
-		Creatures take 60 damage while people and cyborgs take 20 damage. \
-		Living creatures hit with this ability will heal the user for 13 brute/burn/poison while dead ones heal for 20 and get butchered, \
-		while killing a creature with a swipe will heal the user for 33. \
-		People and cyborgs hit will heal for 5."
-	background_icon_state = "bg_demon"
-	button_icon = 'icons/mob/actions/actions_items.dmi'
-	button_icon_state = "cuff"
-	ranged_mousepointer = 'icons/effects/mouse_pointers/supplypod_target.dmi'
-	click_to_activate = TRUE
-	check_flags = AB_CHECK_HANDS_BLOCKED | AB_CHECK_CONSCIOUS
-
-	cooldown_time = 10 SECONDS
-
-/datum/action/cooldown/swipe/Remove(mob/living/user)
-	unset_click_ability(user)
-	return ..()
-
-/datum/action/cooldown/swipe/IsAvailable(feedback = FALSE)
-	if(!iscarbon(owner))
-		return FALSE
-	return ..()
-
-/datum/action/cooldown/swipe/Activate(mob/living/target)
-	. = ..()
-	var/turf/open/target_turf = get_turf(target)
-	var/mob/living/carbon/caller = owner
-
-
-/datum/action/cooldown/swipe/proc/cooldown_over()
-	owner.balloon_alert(owner, "ready to swipe!")
+		button_icon_state = (pinchy.safety ? "template_active" : "template")

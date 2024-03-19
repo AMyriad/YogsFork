@@ -460,7 +460,7 @@
 ///============
 /// Destabilizing - Teleports the victim to limbo.
 ///============
-/datum/xenoartifact_trait/major/destablizer
+/datum/xenoartifact_trait/major/destabilizer
 	desc = "Destabilizing"
 	label_desc = "Destabilizing: The Artifact collapses an improper bluespace matrix on the target, sending them to an unknown location."
 	weight = 25
@@ -468,11 +468,11 @@
 	blacklist_traits = list(/datum/xenoartifact_trait/minor/aura)
 	var/obj/item/xenoartifact/exit
 
-/datum/xenoartifact_trait/major/destablizer/on_init(obj/item/xenoartifact/X)
+/datum/xenoartifact_trait/major/destabilizer/on_init(obj/item/xenoartifact/X)
 	exit = X
-	GLOB.destabliization_exits += X
+	GLOB.destabiliization_exits += X
 
-/datum/xenoartifact_trait/major/destablizer/on_item(obj/item/xenoartifact/X, mob/living/carbon/human/user, atom/item)
+/datum/xenoartifact_trait/major/destabilizer/on_item(obj/item/xenoartifact/X, mob/living/carbon/human/user, atom/item)
 	var/obj/item/clothing/gloves/artifact_pinchers/P
 	if(istype(user))
 		P = user.get_item_by_slot(ITEM_SLOT_GLOVES)
@@ -481,11 +481,11 @@
 		return TRUE
 	..()
 
-/datum/xenoartifact_trait/major/destablizer/activate(obj/item/xenoartifact/X, atom/target, atom/user)
+/datum/xenoartifact_trait/major/destabilizer/activate(obj/item/xenoartifact/X, atom/target, atom/user)
 	if(do_banish(target))
 		X.cooldownmod = X.charge*0.2 SECONDS
 
-/datum/xenoartifact_trait/major/destablizer/proc/do_banish(atom/target)
+/datum/xenoartifact_trait/major/destabilizer/proc/do_banish(atom/target)
 	. = FALSE
 	if(isliving(exit.loc))
 		var/mob/living/holder = exit.loc
@@ -499,8 +499,8 @@
 		if(AM.forceMove(pick(GLOB.destabilization_spawns)))
 			return TRUE
 
-/datum/xenoartifact_trait/major/destablizer/Destroy()
-	GLOB.destabliization_exits -= exit
+/datum/xenoartifact_trait/major/destabilizer/Destroy()
+	GLOB.destabiliization_exits -= exit
 	..()
 */
 
@@ -513,7 +513,7 @@
 	flags = URANIUM_TRAIT | PLASMA_TRAIT | BLUESPACE_TRAIT
 
 /datum/xenoartifact_trait/major/smokey/activate(obj/item/xenoartifact/X, atom/target, atom/user, setup)
-	var/datum/effect_system/smoke_spread/E = new()
+	var/datum/effect_system/fluid_spread/smoke/bad/E = new() // E-ffect
 	E.set_up(max(3, X.charge*0.08), get_turf(X))
 	E.start()
 
