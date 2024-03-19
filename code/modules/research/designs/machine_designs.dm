@@ -815,6 +815,6 @@
 	name = "Machine Design (Xenoartifact Delivery Pad)"
 	desc = "The circuit board for a xenoartifact delivery pad."
 	id = "xenoa_delivery_pad"
-	build_path = /obj/item/circuitboard/machine/xenoartifact_pad
+	build_path = /obj/item/circuitboard/machine/xenoa_delivery_pad
 	category = list ("Research Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE

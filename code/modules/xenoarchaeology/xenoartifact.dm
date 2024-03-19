@@ -44,14 +44,14 @@
 	var/cooldownmod = 0
 	COOLDOWN_DECLARE(xenoa_cooldown)
 
-	///Everytime the artifact is used this increases. When this is successfully proc'd the artifact gains a malfunction and this is lowered.
+	// Every time the artifact is used this increases. When this is successfully proc'd the artifact gains a malfunction and this is lowered.
 	var/malfunction_chance = 0
-	///How much the chance can change in a sinlge itteration
+	// How much the chance can change in a single itteration
 	var/malfunction_mod = 1
-	///Ref to trait list for malfunctions
+	// Ref to trait list for malfunctions
 	var/list/blacklist_ref
 
-	//snowflake variable for shaped
+	// Snowflake variable for shaped
 	var/transfer_prints = FALSE
 
 /obj/item/xenoartifact/ComponentInitialize()
@@ -61,17 +61,17 @@
 /obj/item/xenoartifact/Initialize(mapload, difficulty)
 	. = ..()
 
-	generate_xenoa_statics() //This wont load if it's already done, aka this wont spam
+	generate_xenoa_statics() // This wont load if it's already done, aka this wont spam
 
 	blacklist_ref = GLOB.xenoa_bluespace_blacklist
-	material = difficulty //Difficulty is set, in most cases
+	material = difficulty // Difficulty is set, in most cases
 	if(!material)
 		material = pick_weight(list(XENOA_BLUESPACE = 8, XENOA_PLASMA = 5, XENOA_URANIUM = 3, XENOA_BANANIUM = 1)) //Maint artifacts and similar situations
 
 	var/price
 	var/extra_masks = 0
 	switch(material)
-		if(XENOA_BLUESPACE) //Check xenoartifact_materials.dm for info on artifact materials/types/traits
+		if(XENOA_BLUESPACE) // Check xenoartifact_materials.dm for info on artifact materials/types/traits
 			name = "bluespace [name]"
 			generate_traits(GLOB.xenoa_bluespace_blacklist)
 			if(!price)
@@ -103,17 +103,17 @@
 				price = pick(500, 800, 1000)
 			malfunction_mod = 5
 			extra_masks = 0
-	SEND_SIGNAL(src, XENOA_CHANGE_PRICE, price) //update price, bacon requested signals
+	SEND_SIGNAL(src, XENOA_CHANGE_PRICE, price) // Update price
 
-	//Initialize traits that require that.
+	// Initialize traits that require that
 	for(var/datum/xenoartifact_trait/t as() in traits)
 		t.on_init(src)
 
-	//Sprite process
-	//Base texture
+		/// Sprite process
+	// Base texture
 	var/icon/texture = new('icons/obj/xenoarchaeology/xenoartifact.dmi', "texture-[material]-[pick(1, 2, 3)]")
-	//Masking
-	var/list/indecies = list(1, 2, 3, 4, 5) //Indecies for masks
+	// Masking
+	var/list/indecies = list(1, 2, 3, 4, 5) // Indecies for masks
 	var/index = pick(indecies)
 	indecies -= index
 	var/icon/mask = new('icons/obj/xenoarchaeology/xenoartifact.dmi', "mask-[material]-[index]")
@@ -130,22 +130,22 @@
 /obj/item/xenoartifact/Destroy()
 	SSradio.remove_object(src, frequency)
 	for(var/datum/xenoartifact_trait/T as() in traits)
-		qdel(T) //Deleting the traits individually ensures they properly destroy, deleting the list bunks it
+		qdel(T) // Deleting the traits individually ensures they properly destroy, deleting the list bunks it
 	traits = null
 	qdel(touch_desc)
 	for(var/atom/movable/AM in contents)
-		if(istype(AM, /obj/item/xenoartifact_label)) //Delete stickers
+		if(istype(AM, /obj/item/xenoartifact_label)) // Delete stickers
 			qdel(AM)
 		else
 			AM.forceMove((loc ? loc : get_turf(src)))
 	return ..()
 
-/obj/item/xenoartifact/CanAllowThrough(atom/movable/mover, turf/target) //tweedle dee, density feature
+/obj/item/xenoartifact/CanAllowThrough(atom/movable/mover, turf/target) // Tweedle dee, density feature
 	if(get_trait(/datum/xenoartifact_trait/minor/dense) || anchored)
 		return FALSE
 	return ..()
 
-/obj/item/xenoartifact/attack_hand(mob/user) //tweedle dum, density feature
+/obj/item/xenoartifact/attack_hand(mob/user) // Tweedle dum, density feature
 	var/obj/item/clothing/gloves/artifact_pinchers/P = locate(/obj/item/clothing/gloves/artifact_pinchers) in user.contents
 
 	if(isliving(loc) && touch_desc?.on_touch(src, user) && user.can_see_reagents())
@@ -157,7 +157,7 @@
 			process_type = null
 			return FALSE
 		if(P?.safety && isliving(loc))
-			SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, src, user, user) //we're in the ghetto now
+			SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, src, user, user) // We're in the ghetto now
 
 	if(P?.safety && isliving(loc))
 		return
@@ -165,7 +165,7 @@
 
 /obj/item/xenoartifact/examine(mob/living/carbon/user)
 	. = ..()
-	if(user.can_see_reagents()) //Not checking carbon throws a runtime concerning observers
+	if(user.can_see_reagents()) // Not checking carbon throws a runtime concerning observers
 		. += "<span class='notice'>[special_desc]</span>"
 	if(isobserver(user))
 		for(var/datum/xenoartifact_trait/t as() in traits)
@@ -176,7 +176,7 @@
 	if(!isliving(loc) && (!get_trait(/datum/xenoartifact_trait/minor/dense) || anchored))
 		return
 
-	if(process_type == PROCESS_TYPE_LIT) //Snuff out candle
+	if(process_type == PROCESS_TYPE_LIT) // Snuff out candle
 		to_chat(user, "<span class='notice'>You snuff out [name]</span>")
 		process_type = null
 		return
@@ -191,23 +191,23 @@
 
 /obj/item/xenoartifact/attackby(obj/item/I, mob/living/user, params)
 	var/tool_text
-	for(var/datum/xenoartifact_trait/t as() in traits) //chat, bubble-hints & helpers
+	for(var/datum/xenoartifact_trait/t as() in traits) // Chat, bubble-hints & helpers
 		if(t?.on_item(src, user, I) && user.can_see_reagents())
 			tool_text = "[tool_text][t.desc ? t.desc : t.label_name]\n"
 	if(tool_text)
 		balloon_alert(user, tool_text, material)
 
-	//allow people to remove stickers
+	// Allow people to remove stickers
 	if(I.tool_behaviour == TOOL_WIRECUTTER && (locate(/obj/item/xenoartifact_label) in contents))
 		label_desc = null
 		I.use_tool()
 		qdel(locate(/obj/item/xenoartifact_label) in contents)
 
-	//Let people label in peace
+	// Let people label in peace
 	if(istype(I, /obj/item/xenoartifact_label) || istype(I, /obj/item/xenoartifact_labeler))
 		return
 
-	//abort if safety
+	// Abort if safety
 	var/obj/item/clothing/gloves/artifact_pinchers/P = locate(/obj/item/clothing/gloves/artifact_pinchers) in user.contents
 	if(P?.safety)
 		to_chat(user, "<span class='notice'>You perform a safe operation on [src] with [I].</span>")
@@ -215,14 +215,14 @@
 	..()
 
 /obj/item/xenoartifact/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
-	//abort if safety
+	// Abort if safety
 	var/obj/item/clothing/gloves/artifact_pinchers/P = locate(/obj/item/clothing/gloves/artifact_pinchers) in user.contents
 	if(P?.safety)
 		to_chat(user, "<span class='notice'>You perform a safe operation on [src].</span>")
 		return
 	..()
 
-///Run traits. Used to activate all minor, major, and malfunctioning traits in the artifact's trait list. Sets cooldown when properly finished.
+// Run traits. Used to activate all minor, major, and malfunctioning traits in the artifact's trait list. Sets cooldown when properly finished.
 /obj/item/xenoartifact/proc/check_charge(mob/user, charge_mod)
 	log_game("[user] attempted to activate [src] at [world.time]. Located at [AREACOORD(src)].")
 
@@ -241,10 +241,10 @@
 			t.activate(src, user, user)
 			log_game("[src] activated minor trait [t] at [world.time]. Located at [AREACOORD(src)]")
 
-		//Clamp charge to avoid fucky wucky
+		// Clamp charge to avoid fucky wucky
 		charge = max(10, charge)
 
-		//Add holder for muh balance
+		// Add holder for muh balance
 		/*
 		Uncomment this if artifact abuse becomes a huge issue
 
@@ -254,10 +254,10 @@
 				true_target |= list(M)
 		*/
 
-		for(var/atom/M in true_target) //target loop, majors & malfunctions
+		for(var/atom/M in true_target) // Target loop, majors & malfunctions
 			if(get_dist(get_turf(src), get_turf(M)) <= max_range)
-				create_beam(M) //Indicator beam, points to target, M
-				for(var/datum/xenoartifact_trait/t as() in traits) //Major traits
+				create_beam(M) // Indicator beam, points to target, M
+				for(var/datum/xenoartifact_trait/t as() in traits) // Major traits
 					if(!istype(t, /datum/xenoartifact_trait/minor))
 						log_game("[src] activated trait [t] at [world.time]. Located at [AREACOORD(src)]")
 						t.activate(src, M, user)
@@ -267,24 +267,24 @@
 	charge = 0
 	true_target?.Cut(1, 0)
 
-///Generates traits outside of blacklist. Malf = TRUE if you want malfunctioning traits.
+// Generates traits outside of blacklist. Malf = TRUE if you want malfunctioning traits.
 /obj/item/xenoartifact/proc/generate_traits(list/blacklist_traits, malf = FALSE)
-	//Provided blacklist or nothing, covers bananium
+	// Provided blacklist or nothing, covers bananium
 	blacklist = blacklist_traits?.Copy() || list()
 
 	var/datum/xenoartifact_trait/desc_holder
-	desc_holder = generate_trait_unique(GLOB.xenoa_activators, blacklist, FALSE) //Activator
+	desc_holder = generate_trait_unique(GLOB.xenoa_activators, blacklist, FALSE) // Activator
 	special_desc = initial(desc_holder.desc) ? "[special_desc] [initial(desc_holder.desc)]" : "[special_desc]n Unknown"
 
 	desc_holder = null
 	var/datum/xenoartifact_trait/minor_desc_holder
 	for(var/i in 1 to 3)
-		minor_desc_holder = generate_trait_unique(GLOB.xenoa_minors, blacklist, FALSE) //Minor/s
+		minor_desc_holder = generate_trait_unique(GLOB.xenoa_minors, blacklist, FALSE) // Minor/s
 		desc_holder = desc_holder ? desc_holder : minor_desc_holder
 		if(!touch_desc)
 			touch_desc = traits[traits.len]
 			if(!touch_desc.on_touch(src, src))
-				touch_desc = null //not setting this to null fucks with check, qdel refuses to be helpful another day
+				touch_desc = null // Not setting this to null fucks with check, qdel refuses to be helpful another day
 
 	special_desc = initial(desc_holder?.desc) ? "[special_desc] [initial(desc_holder.desc)] material." : "[special_desc] material."
 
@@ -296,7 +296,7 @@
 
 	charge_req = rand(1, 10) * 10
 
-///Generates a single trait against a blacklist. Used in larger /obj/item/xenoartifact/proc/generate_traits()
+// Generates a single trait against a blacklist. Used in larger /obj/item/xenoartifact/proc/generate_traits()
 /obj/item/xenoartifact/proc/generate_trait_unique(list/trait_list, list/blacklist_traits = list())
 	var/datum/xenoartifact_trait/new_trait //Selection
 	var/list/selection = trait_list.Copy() //Selectable traits
@@ -311,32 +311,32 @@
 	blacklist += new_trait.blacklist_traits //Cant use initial() to access lists without bork'ing it
 	return new_trait
 
-///Generates a malfunction respective to the artifact's type - don't use anywhere but for check_charge malfunctions
+// Generates a malfunction respective to the artifact's type - don't use anywhere but for check_charge malfunctions
 /obj/item/xenoartifact/proc/generate_malfunction_unique(list/blacklist)
 	var/list/malfunctions = GLOB.xenoa_malfs.Copy()
 	malfunctions -= blacklist
 	malfunctions -= traits
 	if(!malfunctions.len)
 		return
-	//Pick one to use
+	// Pick one to use
 	var/datum/xenoartifact_trait/T = pick(malfunctions)
 	T = new T
 	traits += T
 
-///Gets a singular entity, there's a specific traits that handles multiple.
+// Gets a singular entity, there's a specific traits that handles multiple.
 /obj/item/xenoartifact/proc/get_target_in_proximity(range)
 	for(var/mob/living/M in oview(range, get_turf(src)))
 		. = process_target(M)
-	if(isliving(loc) && !.) // Line may cause a runtime? Check before PRing
+	if(isliving(loc) && !.) // Line may cause a runtime? Check during testing before PRing
 		. = process_target(loc)
-	//Return a list becuase byond is fucky and WILL overwrite the typing
+	// Return a list becuase byond is fucky and WILL overwrite the typing
 	return list(.)
 
-///Returns the desired trait and it's values if it's in the artifact's list
+// Returns the desired trait and it's values if it's in the artifact's list
 /obj/item/xenoartifact/proc/get_trait(typepath)
 	return (locate(typepath) in traits)
 
-///Used for hand-holding secret technique. Pulling entities swaps them for you in the target list.
+// Used for hand-holding secret technique. Pulling entities swaps them for you in the target list.
 /obj/item/xenoartifact/proc/process_target(atom/target)
 	if(ishuman(target)) //early return if deflect chance
 		var/mob/living/carbon/human/H = target
@@ -346,7 +346,7 @@
 				playsound(get_turf(target), 'sound/weapons/deflect.ogg', 25, TRUE)
 				return
 
-	if(isliving(target)) //handle pulling
+	if(isliving(target)) // Handle pulling
 		var/mob/living/M = target
 		. = M?.pulling ? M.pulling : M
 	else
@@ -354,12 +354,12 @@
 	RegisterSignal(., COMSIG_QDELETING, PROC_REF(on_target_del), TRUE)
 	return
 
-///Hard del handle
+// Hard del handle
 /obj/item/xenoartifact/proc/on_target_del(atom/target)
 	UnregisterSignal(target, COMSIG_QDELETING)
 	true_target -= list(target)
 
-///Helps show how the artifact is working. Hint stuff. Draws a beam between artifact and target
+// Helps show how the artifact is working. Hint stuff. Draws a beam between artifact and target
 /obj/item/xenoartifact/proc/create_beam(atom/target)
 	if((locate(src) in target?.contents) || !get_turf(target))
 		return
@@ -367,7 +367,7 @@
 	B.set_color(material)
 	INVOKE_ASYNC(B, TYPE_PROC_REF(/datum/beam/xenoa_beam, Start))
 
-///Default template used to interface with activator signals.
+// Default template used to interface with activator signals.
 /obj/item/xenoartifact/proc/default_activate(chr, mob/user, atom/target)
 	if(!COOLDOWN_FINISHED(src, xenoa_cooldown))
 		return FALSE
@@ -376,13 +376,13 @@
 	check_charge(user)
 	return TRUE
 
-///Signaler traits. Sets listening freq
+// Signaler traits. Sets listening freq
 /obj/item/xenoartifact/proc/set_frequency(new_frequency)
 	SSradio.remove_object(src, frequency)
 	frequency = new_frequency
-	radio_connection = SSradio.add_object(src, frequency, "[RADIO_XENOA]_[REF(src)]") //not doing the weird filter fucks with other artifacts
+	radio_connection = SSradio.add_object(src, frequency, "[RADIO_XENOA]_[REF(src)]") // Not doing the weird filter fucks with other artifacts
 
-///Signaler traits. Sends signal
+// Signaler traits. Sends signal
 /obj/item/xenoartifact/proc/send_signal(datum/signal/signal)
 	if(!radio_connection||!signal)
 		return
@@ -391,24 +391,24 @@
 /obj/item/xenoartifact/receive_signal(datum/signal/signal)
 	if(!signal || signal.data["code"] != code)
 		return
-	SEND_SIGNAL(src, XENOA_SIGNAL, null, get_target_in_proximity(max_range), get_target_in_proximity(max_range)) //I don't think this sends a signal
+	SEND_SIGNAL(src, XENOA_SIGNAL, null, get_target_in_proximity(max_range), get_target_in_proximity(max_range)) // I don't think this sends a signal
 
 /obj/item/xenoartifact/on_block(mob/living/carbon/human/owner, atom/movable/hitby)
 	. = ..()
 	if(!(COOLDOWN_FINISHED(src, xenoa_cooldown)) || !get_trait(/datum/xenoartifact_trait/minor/blocking))
 		return
-	SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, src, owner, hitby) //I don't think this sends a signal
+	SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, src, owner, hitby) // I don't think this sends a signal
 
 /obj/item/xenoartifact/process(delta_time)
 	switch(process_type)
-		if(PROCESS_TYPE_LIT) //Burning
+		if(PROCESS_TYPE_LIT) // Burning
 			true_target = get_target_in_proximity(min(max_range, 5))
 			if(true_target[1])
 				visible_message("<span class='danger' size='4'>The [name] flicks out.</span>")
 				default_activate(25, null, null)
 				process_type = null
 				return PROCESS_KILL
-		if(PROCESS_TYPE_TICK) //Clock-ing
+		if(PROCESS_TYPE_TICK) // Clock-ing
 			playsound(get_turf(src), 'sound/effects/clock_tick.ogg', 50, TRUE)
 			visible_message("<span class='danger' size='10'>The [name] ticks.</span>")
 			true_target = get_target_in_proximity(min(max_range, 5))
@@ -419,7 +419,7 @@
 		else
 			return PROCESS_KILL
 
-/obj/item/xenoartifact/maint //Semi-toddler-safe version, for maint loot table.
+/obj/item/xenoartifact/maint // Semi-toddler-safe version, for maint loot table.
 	material = XENOA_BLUESPACE
 
 /obj/item/xenoartifact/maint/Initialize(mapload, difficulty)
@@ -428,10 +428,10 @@
 	difficulty = material
 	..()
 
-/datum/component/xenoartifact_pricing ///Pricing component for shipping solution. Consider swapping to cargo after change.
-	///Buying and selling related, based on guess qaulity
+/datum/component/xenoartifact_pricing // Pricing component for shipping solution. Consider swapping to cargo after change.
+	// Buying and selling related, based on guess qaulity
 	var/modifier = 0.5
-	///default price gets generated if it isn't set by console. This only happens if the artifact spawns outside of that process
+	// Default price gets generated if it isn't set by console. This only happens if the artifact spawns outside of that process
 	var/price
 
 /datum/component/xenoartifact_pricing/Initialize(...)
@@ -442,17 +442,17 @@
 	UnregisterSignal(parent, XENOA_CHANGE_PRICE)
 	..()
 
-///Typically used to change internally
+// Typically used to change internally
 /datum/component/xenoartifact_pricing/proc/update_price(datum/source, f_price)
 	price = f_price
 
-/obj/effect/ebeam/xenoa_ebeam //Beam code. This isn't mine. See beam.dm for better documentation.
+/obj/effect/ebeam/xenoa_ebeam // Beam code. This isn't mine. See beam.dm for better documentation.
 	name = "artifact beam"
 
 /datum/beam/xenoa_beam
 	var/color
 
-/datum/beam/xenoa_beam/proc/set_color(col) //Custom proc to set beam colour
+/datum/beam/xenoa_beam/proc/set_color(col) // Custom proc to set beam colour
 	color = col
 
 /datum/beam/xenoa_beam/Draw()
@@ -461,13 +461,13 @@
 	var/turf/origin_turf = get_turf(origin)
 	rot_matrix.Turn(Angle)
 
-	//Translation vector for origin and target
+	// Translation vector for origin and target
 	var/DX = (32*target?.x+target?.pixel_x)-(32*origin?.x+origin?.pixel_x)
 	var/DY = (32*target?.y+target?.pixel_y)-(32*origin?.y+origin?.pixel_y)
 	var/n = 0
-	var/length = round(sqrt((DX)**2+(DY)**2)) //hypotenuse of the triangle formed by target and origin's displacement
+	var/length = round(sqrt((DX)**2+(DY)**2)) // Hypotenuse of the triangle formed by target and origin's displacement
 
-	for(n in 0 to length-1 step 32)//-1 as we want < not <=, but we want the speed of X in Y to Z and step X
+	for(n in 0 to length-1 step 32) // -1 as we want < not <=, but we want the speed of X in Y to Z and step X
 		if(QDELETED(src))
 			break
 		var/obj/effect/ebeam/xenoa_ebeam/X = new(origin_turf) // Start Xenoartifact - This assigns colour to the beam
@@ -475,8 +475,8 @@
 		X.owner = src
 		elements += X // End Xenoartifact
 
-		//Assign our single visual ebeam to each ebeam's vis_contents
-		//ends are cropped by a transparent box icon of length-N pixel size laid over the visuals obj
+		// Assign our single visual ebeam to each ebeam's vis_contents
+		// Ends are cropped by a transparent box icon of length-N pixel size laid over the visuals obj
 		if(n+32>length)
 			var/icon/II = new(icon, icon_state)
 			II.DrawBox(null,1,(length-n),32,32)
@@ -485,7 +485,7 @@
 			X.vis_contents += visuals
 		X.transform = rot_matrix
 
-		//Calculate pixel offsets (If necessary)
+		// Calculate pixel offsets (If necessary)
 		var/Pixel_x
 		var/Pixel_y
 		if(DX == 0)
@@ -497,7 +497,7 @@
 		else
 			Pixel_y = round(cos(Angle)+32*cos(Angle)*(n+16)/32)
 
-		//Position the effect so the beam is one continous line
+		// Position the effect so the beam is one continous line
 		var/a
 		if(abs(Pixel_x)>32)
 			a = Pixel_x > 0 ? round(Pixel_x/32) : CEILING(Pixel_x/32, 1)

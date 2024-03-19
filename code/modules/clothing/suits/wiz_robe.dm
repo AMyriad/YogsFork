@@ -73,7 +73,7 @@
 
 /obj/item/clothing/suit/wizrobe/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100) // Can't out-magic the magician
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100) // Can't out-magic the magician!
 
 /obj/item/clothing/suit/wizrobe/red
 	name = "red wizard robe"

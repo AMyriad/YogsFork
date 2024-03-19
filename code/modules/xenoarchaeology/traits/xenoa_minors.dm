@@ -299,9 +299,9 @@
 	flags = BLUESPACE_TRAIT | PLASMA_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/minor/blocking/on_init(obj/item/xenoartifact/X)
-	X.block_level = pick(1, 2, 3, 4)
-	X.block_upgrade_walk = 1
-	X.block_power = 25 * pick(0.8, 1, 1.3, 1.5)
+	X.block_chance = 35 * pick(0.5, 0.8, 1, 1.2, 1.3) // RIP, current yogs blocking system apparently sucks compared to bee's
+	X.integrity = X.block_chance * (2 * pick(0.5, 0.8, 1, 1.3))
+	// 100% spitballing here - Read this as block_chance * (2*(number)), lowest integrity amount is just the block_chance number, highest ranges from 45.5-118.3 depending on block_chance
 
 //============
 // Light - Allows artifact to be thrown far

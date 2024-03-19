@@ -3,10 +3,10 @@
 	icon_state = "science"
 	build_path = /obj/machinery/computer/xenoartifact_console
 
-/obj/item/circuitboard/machine/xenoartifact_pad
+/obj/item/circuitboard/machine/xenoa_delivery_pad
 	name = "xenoartifact delivery pad (Machine Board)"
 	icon_state = "science"
-	build_path = /obj/machinery/xenoartifact_pad
+	build_path = /obj/machinery/xenoa_delivery_pad
 	req_components = list(
 		/obj/item/stack/ore/bluespace_crystal = 5,
 		/obj/item/stock_parts/capacitor = 1,
@@ -35,7 +35,7 @@
 	var/current_tab = "Listings"
 	var/current_tab_info = "Here you can find listings for various research samples, usually fresh from the field. These samples aren't distrubuted by the Nanotrasen affiliated cargo system, so instead listing data is sourced from stray bluespace-threads."
 	///used for 'shipping'
-	var/obj/machinery/xenoartifact_pad/linked_pad
+	var/obj/machinery/xenoa_delivery_pad/linked_pad
 	///List of linked machines for UI purposes
 	var/list/linked_machines = list()
 	///Which science server receives points
@@ -76,7 +76,7 @@
 	stability = min(100, stability + STABILITY_GAIN)
 	//Update UI every 3 seconds, may be delayed
 	if(world.time % 3 == 0)
-		ui_update()
+		SStgui.try_update_ui(user, src, ui) // Double check before PRing, changed from ui_update()
 
 /obj/machinery/computer/xenoartifact_console/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
@@ -228,23 +228,23 @@
 	var/datum/xenoartifact_seller/S = new
 	S.generate()
 	sellers += S
-	ui_update()
+	SStgui.try_update_ui(user, src, ui) // Double check before PRing, changed from ui_update()
 
 /obj/machinery/computer/xenoartifact_console/proc/generate_new_buyer()
 	var/datum/xenoartifact_seller/buyer/B = new
 	B.generate()
 	buyers += B
-	ui_update()
+	SStgui.try_update_ui(user, src, ui) // Double check before PRing, changed from ui_update()
 
 /obj/machinery/computer/xenoartifact_console/proc/sync_devices()
-	for(var/obj/machinery/xenoartifact_pad/I in oview(9,src))
+	for(var/obj/machinery/xenoa_delivery_pad/I in oview(9,src))
 		if(I.linked_console || I.panel_open)
 			return
 		if(!(linked_pad))
 			linked_pad = I
 			linked_machines += I.name
 			I.linked_console = src
-			I.RegisterSignal(src, COMSIG_QDELETING, TYPE_PROC_REF(/obj/machinery/xenoartifact_pad, on_machine_del))
+			I.RegisterSignal(src, COMSIG_QDELETING, TYPE_PROC_REF(/obj/machinery/xenoa_delivery_pad, on_machine_del))
 			RegisterSignal(I, COMSIG_QDELETING, PROC_REF(on_pad_del))
 			say("Successfully linked [I].")
 			return
@@ -258,20 +258,20 @@
 #undef STABILITY_COST
 #undef STABILITY_GAIN
 
-/obj/machinery/xenoartifact_pad
+/obj/machinery/xenoa_delivery_pad
 	name = "bluespace straythread pad" //Science words
 	desc = "This machine takes advantage of bluespace thread manipulation to highjack in-coming and out-going bluespace signals. Science uses it to deliver their very legal purchases." //All very sciencey
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "qpad-idle"
-	circuit = /obj/item/circuitboard/machine/xenoartifact_pad
+	circuit = /obj/item/circuitboard/machine/xenoa_delivery_pad
 	var/linked_console
 
-/obj/machinery/xenoartifact_pad/proc/on_machine_del()
+/obj/machinery/xenoa_delivery_pad/proc/on_machine_del()
 	SIGNAL_HANDLER
 	UnregisterSignal(linked_console, COMSIG_QDELETING)
 	linked_console = null
 
-/obj/machinery/xenoartifact_pad/Destroy()
+/obj/machinery/xenoa_delivery_pad/Destroy()
 	. = ..()
 	on_machine_del()
 

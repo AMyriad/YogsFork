@@ -30,7 +30,7 @@
 
 /obj/item/clothing/suit/bio_suit/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 65)
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 65) // Still the best protection a crewmember can have
 
 //Standard biosuit, orange stripe
 /obj/item/clothing/head/bio_hood/general

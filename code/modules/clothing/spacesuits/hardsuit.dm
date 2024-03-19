@@ -436,7 +436,8 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi
 	jetpack = /obj/item/tank/jetpack/suit
 
-/obj/item/clothing/suit/space/hardsuit/syndi/Initialize(mapload) // Prevents nukies from being horizontalled by the long-range corgifying explosive banana gun some assistant found 4 minutes in I imagine? Mention if this oughta stay or not in the review idk
+// Prevents nukies from being horizontalled by the long-range corgifying explosive banana gun some assistant found 4 minutes in I imagine
+/obj/item/clothing/suit/space/hardsuit/syndi/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100)
 
@@ -551,7 +552,7 @@
 	hardsuit_type = "wiz"
 	resistance_flags = FIRE_PROOF | ACID_PROOF //No longer shall our kind be foiled by lone chemists with spray bottles!
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 20, BOMB = 25, BIO = 100, RAD = 50, FIRE = 100, ACID = 100, WOUND = 30, ELECTRIC = 100)
-	heat_protection = HEAD												//Uncomment to enable firesuit protection
+	heat_protection = HEAD //Comment to disable firesuit protection
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 
 /obj/item/clothing/suit/space/hardsuit/wizard
@@ -564,7 +565,7 @@
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 20, BOMB = 25, BIO = 100, RAD = 50, FIRE = 100, ACID = 100, WOUND = 30, ELECTRIC = 100)
 	allowed = list(/obj/item/teleportation_scroll, /obj/item/tank/internals)
 	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT	//Comment to enable firesuit protection
+	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT	//Comment to disable firesuit protection
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/wizard
 	slowdown = 0
 	clothing_traits = list(TRAIT_ANTIMAGIC_NO_SELFBLOCK)
@@ -610,7 +611,7 @@
 /obj/item/clothing/head/helmet/space/hardsuit/rd/Initialize(mapload)
 	. = ..()
 	RegisterSignal(SSdcs, COMSIG_GLOB_EXPLOSION, PROC_REF(sense_explosion))
-	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100)
+	AddComponent(/datum/component/anti_artifact, INFINITY, FALSE, 100) // Advanced materials
 
 /obj/item/clothing/head/helmet/space/hardsuit/rd/equipped(mob/living/carbon/human/user, slot)
 	..()
