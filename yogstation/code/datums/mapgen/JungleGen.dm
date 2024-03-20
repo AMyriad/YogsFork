@@ -25,8 +25,8 @@
 						MED_HUMIDITY = /datum/biome/jungleland/dry_swamp, 
 						HIGH_HUMIDITY = /datum/biome/jungleland/dying_forest),
 
-		BIOME_TOXIC = list(	LOW_HUMIDITY = /datum/biome/jungleland/toxic_pit,
-						MED_HUMIDITY = /datum/biome/jungleland/toxic_pit,
+		BIOME_TOXIC = list(	LOW_HUMIDITY = /datum/biome/jungleland/swamp,
+						MED_HUMIDITY = /datum/biome/jungleland/swamp,
 						HIGH_HUMIDITY = /datum/biome/jungleland/jungle)
 	)
 	///Used to select "zoom" level into the perlin noise, higher numbers result in slower transitions

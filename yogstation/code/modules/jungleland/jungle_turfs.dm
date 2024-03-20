@@ -140,7 +140,7 @@ Temperature: 126.85 °C (400 K)
 	icon_plating = "dry_swamp"
 	icon_state_regular_floor = "dry_swamp" 
 
-/turf/open/floor/plating/dirt/jungleland/toxic_pit
+/turf/open/floor/plating/dirt/jungleland/swamp
 	name = "mud"
 	desc = "A healthy blend of dirt and the acidic river water. Probably isn't the best kind for your skin."
 	gender = PLURAL
@@ -165,7 +165,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/floor/plating/dirt/jungleland/deep_jungle
 	name = "tropical grass"
-	desc = "A rich bed of thick, leafy plant life deck these grounds.  "
+	desc = "A rich bed of thick, leafy plant life deck these grounds. "
 	gender = PLURAL
 	icon = 'icons/turf/floors/junglegrass.dmi'
 	icon_state = "junglegrass-255"
@@ -182,6 +182,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/floor/plating/dirt/jungleland/quarry
 	name = "loose quarry stones"
 	desc = "there are some mineral underneath"
+	gender = PLURAL
 	icon_state = "quarry"
 	icon_plating = "quarry"
 	icon_state_regular_floor = "quarry"
@@ -201,8 +202,9 @@ Temperature: 126.85 °C (400 K)
 	can_spawn_ore = TRUE
 
 /turf/open/water/toxic_pit
-	name = "sulphuric water"
+	name = "sulphuric pit"
 	desc = ""
+	gender = NEUTER // That's a deep sulphuric pit
 	color = "#00c167"
 	slowdown = 2
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -252,8 +254,9 @@ Temperature: 126.85 °C (400 K)
 	return FALSE
 
 /turf/open/water/deep_toxic_pit
-	name = "deep sulphuric water"
+	name = "deep sulphuric pit"
 	desc = "Extraordinarly toxic"
+	gender = NEUTER
 	color = "#004700"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -325,8 +328,8 @@ Temperature: 126.85 °C (400 K)
 	baseturfs = /turf/open/floor/plating/dirt/jungleland/deep_jungle
 
 /turf/closed/mineral/ash_rock/jungle/swamp
-	turf_type = /turf/open/floor/plating/dirt/jungleland/toxic_pit
-	baseturfs = /turf/open/floor/plating/dirt/jungleland/toxic_pit
+	turf_type = /turf/open/floor/plating/dirt/jungleland/swamp
+	baseturfs = /turf/open/floor/plating/dirt/jungleland/swamp
 
 /turf/open/water/tar_basin
 	name = "tar basin"
@@ -341,6 +344,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/floor/plating/dirt/jungleland/obsidian 
 	name =	"obsidian ground"
 	desc = "Dark crystaline flooring"
+	gender = PLURAL
 	icon_state = "obsidian"
 	can_mine = FALSE
 
@@ -376,7 +380,7 @@ Temperature: 126.85 °C (400 K)
 		new type(src)
 
 /turf/closed/obsidian/hard 
-	name = "tough obsidian wall"
+	name = "dense obsidian wall"
 	icon = 'yogstation/icons/turf/walls/obsidian_hard.dmi'
 	explosion_threshold = list(EXPLODE_DEVASTATE, EXPLODE_HEAVY)
 	droppable_gems = list (

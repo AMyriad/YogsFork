@@ -73,8 +73,8 @@
 	spawn_fauna_on_closed = TRUE
 	this_area = /area/jungleland/dry_swamp
 
-/datum/biome/jungleland/toxic_pit
-	turf_type = /turf/open/floor/plating/dirt/jungleland/toxic_pit
+/datum/biome/jungleland/swamp
+	turf_type = /turf/open/floor/plating/dirt/jungleland/swamp
 	closed_turf = /turf/open/water/toxic_pit
 	loose_flora = list(/obj/structure/flora/ausbushes/stalkybush = 2,
 						/obj/structure/flora/rock = 2,
