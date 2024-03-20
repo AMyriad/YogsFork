@@ -125,16 +125,16 @@ Temperature: 126.85 °C (400 K)
 	icon_plating = "barren_rocks"
 	icon_state_regular_floor = "barren_rocks" 
 
-/* /turf/open/floor/plating/dirt/jungleland/toxic_rocks		// So there appears to be an area icon for this, but this turf type is completely unused; this is its only mention
+/* /turf/open/floor/plating/dirt/jungleland/toxic_rocks		// There appears to be an area icon for this, but this turf type is completely unused; this is its only mention
 	name = "mud"											// Uncomment this if you want it to exist again for some reason
 	desc = "Liquid mixed with dirt."
-	icon_state = "toxic_rocks"
+	icon_state = "toxic_rocks" // <- The area icon in question
 	icon_plating = "toxic_rocks"
 	icon_state_regular_floor = "toxic_rocks" */
 
 /turf/open/floor/plating/dirt/jungleland/dry_swamp
 	name = "sand"
-	desc = "Mounds of coarse, rough, and irritating sand. Great for the eyes."
+	desc = "Dunes of coarse, rough, and irritating sand. Great for the eyes."
 	gender = PLURAL
 	icon_state = "dry_swamp"
 	icon_plating = "dry_swamp"
@@ -163,12 +163,21 @@ Temperature: 126.85 °C (400 K)
 	icon_plating = "dune"
 	icon_state_regular_floor = "dune"
 
-/turf/open/floor/plating/dirt/jungleland/jungle
-	name = "tropical soil" // Mulch, dirt, litter, ground, soil, fuck it it's all the same
-	desc = "A cool mix of dirt, bark, compost, and random debris. Nutritious enough to feed the "
-	icon_state = "dirt"
-	icon_plating = "dirt"
-	icon_state_regular_floor = "dirt"
+/turf/open/floor/plating/dirt/jungleland/deep_jungle
+	name = "tropical grass"
+	desc = "A rich bed of thick, leafy plant life deck these grounds.  "
+	gender = PLURAL
+	icon = 'icons/turf/floors/junglegrass.dmi'
+	icon_state = "junglegrass-255"
+	base_icon_state = "junglegrass"
+
+	icon_regular_floor = 'icons/turf/floors/junglegrass.dmi'
+	icon_plating = "junglegrass-255"	// So we remember what we looked like before plating was placed
+	icon_state_regular_floor = "junglegrass-255"
+
+	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER
+	smoothing_groups = SMOOTH_GROUP_TURF_OPEN + SMOOTH_GROUP_JUNGLE_GRASS
+	canSmoothWith = SMOOTH_GROUP_JUNGLE_GRASS
 
 /turf/open/floor/plating/dirt/jungleland/quarry
 	name = "loose quarry stones"
@@ -192,9 +201,8 @@ Temperature: 126.85 °C (400 K)
 	can_spawn_ore = TRUE
 
 /turf/open/water/toxic_pit
-	name = "sulphuric pit"
+	name = "sulphuric water"
 	desc = ""
-	gender = NEUTER
 	color = "#00c167"
 	slowdown = 2
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -244,9 +252,8 @@ Temperature: 126.85 °C (400 K)
 	return FALSE
 
 /turf/open/water/deep_toxic_pit
-	name = "deep sulphuric pit"
+	name = "deep sulphuric water"
 	desc = "Extraordinarly toxic"
-	gender = NEUTER
 	color = "#004700"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -296,7 +303,7 @@ Temperature: 126.85 °C (400 K)
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
 
 /turf/open/floor/plating/jungle_baseturf
-	baseturfs = /turf/open/floor/plating/dirt/jungleland/jungle
+	baseturfs = /turf/open/floor/plating/dirt/jungleland/deep_jungle
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
 
 /turf/open/floor/plating/jungle_baseturf/dying
@@ -314,8 +321,8 @@ Temperature: 126.85 °C (400 K)
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
 
 /turf/closed/mineral/ash_rock/jungle/deepjungle
-	turf_type = /turf/open/floor/plating/dirt/jungleland/jungle
-	baseturfs = /turf/open/floor/plating/dirt/jungleland/jungle
+	turf_type = /turf/open/floor/plating/dirt/jungleland/deep_jungle
+	baseturfs = /turf/open/floor/plating/dirt/jungleland/deep_jungle
 
 /turf/closed/mineral/ash_rock/jungle/swamp
 	turf_type = /turf/open/floor/plating/dirt/jungleland/toxic_pit
@@ -335,12 +342,14 @@ Temperature: 126.85 °C (400 K)
 	name =	"obsidian ground"
 	desc = "Dark crystaline flooring"
 	icon_state = "obsidian"
+	can_mine = FALSE
 
 /turf/closed/obsidian
 	name = "obsidian wall"
 	desc = "Obsidian wal tearing out of the earth, it reflects light in all the colours you could ever imagine, and you can see something shining brightly within it. You can't quite seem to destroy it with a pickaxe, but maybe an explosion mau suffice?"
 	icon = 'yogstation/icons/turf/walls/obsidian.dmi'	
-	icon_state = "wall"
+	icon_state = "wall-0"
+	base_icon_state = "wall"
 	smoothing_groups = SMOOTH_GROUP_CLOSED_TURFS + SMOOTH_GROUP_MINERAL_WALLS
 	canSmoothWith = SMOOTH_GROUP_MINERAL_WALLS
 	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER

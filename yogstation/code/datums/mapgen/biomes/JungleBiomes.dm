@@ -112,8 +112,8 @@
 	this_area = /area/jungleland/dying_forest
 
 /datum/biome/jungleland/jungle
-	turf_type = /turf/open/floor/plating/dirt/jungleland/jungle
-	closed_turf = /turf/open/floor/plating/dirt/jungleland/jungle
+	turf_type = /turf/open/floor/plating/dirt/jungleland/deep_jungle
+	closed_turf = /turf/open/floor/plating/dirt/jungleland/deep_jungle
 	cellular_noise_map_id = HIGH_DENSITY
 	dense_flora = list(/obj/structure/flora/tree/jungle/small = 2,
 						/obj/structure/flora/tree/jungle = 2,
