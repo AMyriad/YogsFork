@@ -61,7 +61,8 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/floor/plating/dirt/jungleland
 	name = "generic jungle land turf"
-	desc = "pain"
+	desc = "Nothing but blood, sweat, and tears here. You feel like you should report seeing this."
+	gender = PLURAL // That's some ___
 	icon = 'yogstation/icons/turf/floors/jungle.dmi'
 	icon_state = "jungle"
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -112,62 +113,79 @@ Temperature: 126.85 °C (400 K)
 		return ..()
 	can_mine = TRUE
 	spawn_rock()
-	
+
 /turf/open/floor/plating/dirt/jungleland/ex_act(severity, target)
 	if(can_spawn_ore && prob( (severity/3)*100  ))	
 		spawn_rock()
+
+
+	// Used in barren_rocks - Dry, magmatic, volcanic environment
 /turf/open/floor/plating/dirt/jungleland/barren_rocks
-	name = "rocky surface"
-	desc = "Surface covered by rocks, pebbles and stones."
+	name = "barren rock"
+	desc = "A dense ground of magmatic rock laden with cracks and fissures. It's faintly warm to the touch."
 	icon_state = "barren_rocks"
 	icon_plating = "barren_rocks"
 	icon_state_regular_floor = "barren_rocks" 
 
-/turf/open/floor/plating/dirt/jungleland/toxic_rocks
-	name = "mud"
-	desc = "Liquid mixed with dirt"
-	icon_state = "toxic_rocks"
+/* /turf/open/floor/plating/dirt/jungleland/toxic_rocks		// There appears to be an area icon for this, but this turf type is completely unused; this is its only mention
+	name = "mud"											// Uncomment this if you want it to exist again for some reason
+	desc = "Liquid mixed with dirt."
+	icon_state = "toxic_rocks"	// <- The area icon in question
 	icon_plating = "toxic_rocks"
-	icon_state_regular_floor = "toxic_rocks" 
+	icon_state_regular_floor = "toxic_rocks" */
 
+	// Used in dry_swamp - Environment between sandy and dry swamp1
 /turf/open/floor/plating/dirt/jungleland/dry_swamp
 	name = "sand"
-	desc = "mounds upon mounds of sand"
+	desc = "Dunes of coarse, rough, and irritating sand. Great for the eyes."
 	icon_state = "dry_swamp"
 	icon_plating = "dry_swamp"
-	icon_state_regular_floor = "dry_swamp" 
+	icon_state_regular_floor = "dry_swamp"
 
+	// Used in toxic_put - Muddy swampland, near a lot of sulphuric acid water
 /turf/open/floor/plating/dirt/jungleland/toxic_pit
-	name = "shallow mud"
-	desc = "pit of shallow mud"
+	name = "mud"
+	desc = "A healthy blend of dirt and the acidic river water. Probably isn't the best kind for your skin."
 	icon_state = "toxic_pit"
 	icon_plating = "toxic_pit"
 	icon_state_regular_floor = "toxic_pit" 
 
+	// Used in dry_swamp
 /turf/open/floor/plating/dirt/jungleland/dry_swamp1
-	name = "dried surface"
+	name = "dried marsh"
 	desc = "it used to be a riverbed"
 	icon_state = "dry_swamp1"
 	icon_plating = "dry_swamp1"
 	icon_state_regular_floor = "dry_swamp1" 
 
+	// Used in dying_forest
 /turf/open/floor/plating/dirt/jungleland/dying_forest
-	name = "deep sand"
-	desc = "this sand runs deep into the earth"
+	name = "jungle sand"
+	desc = "Mounds upon mounds of coarse sand. Great for throwing in people's eyes."
 	icon_state = "dying_forest"
 	icon_plating = "dying_forest"
 	icon_state_regular_floor = "dying_forest" 
 
+	// Used in jungle
 /turf/open/floor/plating/dirt/jungleland/jungle
-	name = "forest litter"
-	desc = "rich in minerals, this feeds the flora and fauna of the jungle"
-	icon_state = "jungle"
-	icon_plating = "jungle"
-	icon_state_regular_floor = "jungle" 
+	name = "tropical grass"
+	desc = "A rich bed of thick, leafy plant life deck these grounds. "
+	icon = 'icons/turf/floors/junglegrass.dmi'
+	icon_state = "junglegrass-255"
+	base_icon_state = "junglegrass"
 
+	icon_regular_floor = 'icons/turf/floors/junglegrass.dmi'
+	icon_plating = "junglegrass-255"	// So we remember what we looked like before plating was placed
+	icon_state_regular_floor = "junglegrass-255"
+
+	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER
+	smoothing_groups = SMOOTH_GROUP_TURF_OPEN + SMOOTH_GROUP_TROPIC_GRASS
+	canSmoothWith = SMOOTH_GROUP_TROPIC_GRASS
+
+	// Used in the gulag
 /turf/open/floor/plating/dirt/jungleland/quarry
 	name = "loose quarry stones"
-	desc = "there are some mineral underneath"
+	desc = "There are some minerals underneath."
 	icon_state = "quarry"
 	icon_plating = "quarry"
 	icon_state_regular_floor = "quarry"
@@ -189,6 +207,7 @@ Temperature: 126.85 °C (400 K)
 /turf/open/water/toxic_pit
 	name = "sulphuric pit"
 	desc = "Very toxic"
+	gender = NEUTER // That's a sulphuric pit
 	color = "#00c167"
 	slowdown = 2
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -199,7 +218,7 @@ Temperature: 126.85 °C (400 K)
 	. = ..()
 	if(!ishuman(AM))
 		return
-		
+
 	var/mob/living/carbon/human/humie = AM
 	var/chance = (100 - humie.getarmor(null,BIO)) * 0.33
 
@@ -208,7 +227,7 @@ Temperature: 126.85 °C (400 K)
 
 	if(isipc(humie) && prob(chance))
 		humie.adjustFireLoss(33)
-		to_chat(humie,span_danger("the sulphuric solution burns and singes into your plating!"))
+		to_chat(humie,span_danger("The sulphuric acid burns and singes into your plating!"))
 		return 
 
 	if(HAS_TRAIT(humie,TRAIT_TOXIMMUNE) || HAS_TRAIT(humie,TRAIT_TOXINLOVER))
@@ -220,12 +239,28 @@ Temperature: 126.85 °C (400 K)
 	if(prob((chance * 0.15 ) + 10 ))
 		humie.acid_act(5,7.5)
 
+	// RCD stuff
+/turf/open/water/toxic_pit/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
+	switch(the_rcd.construction_mode)
+		if(RCD_FLOORWALL)
+			return list("mode" = RCD_FLOORWALL, "delay" = 0, "cost" = 3)
+	return FALSE
+
+/turf/open/water/toxic_pit/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
+	switch(passed_mode)
+		if(RCD_FLOORWALL)
+			to_chat(user, span_notice("You build a floor."))
+			place_on_top(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
+			return TRUE
+	return FALSE
+
 /turf/open/water/safe/jungle
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
 
 /turf/open/water/deep_toxic_pit
 	name = "deep sulphuric pit"
 	desc = "Extraordinarly toxic"
+	gender = NEUTER
 	color = "#004700"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -244,7 +279,7 @@ Temperature: 126.85 °C (400 K)
 
 	if(isipc(humie))
 		humie.adjustFireLoss(33)
-		to_chat(humie,span_danger("the sulphuric solution burns and singes into your plating!"))
+		to_chat(humie,span_danger("The sulphuric acid burns and singes into your plating!"))
 		return
 
 	if(HAS_TRAIT(humie,TRAIT_TOXIMMUNE) || HAS_TRAIT(humie,TRAIT_TOXINLOVER))
@@ -253,6 +288,21 @@ Temperature: 126.85 °C (400 K)
 	humie.reagents.add_reagent(/datum/reagent/toxic_metabolities,15)
 	humie.adjustFireLoss(33)
 	humie.acid_act(15,15)
+
+	// RCD stuff
+/turf/open/water/deep_toxic_pit/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
+	switch(the_rcd.construction_mode)
+		if(RCD_FLOORWALL)
+			return list("mode" = RCD_FLOORWALL, "delay" = 0, "cost" = 3)
+	return FALSE
+
+/turf/open/water/deep_toxic_pit/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
+	switch(passed_mode)
+		if(RCD_FLOORWALL)
+			to_chat(user, span_notice("You build a floor."))
+			place_on_top(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
+			return TRUE
+	return FALSE
 
 /turf/open/floor/wood/jungle
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -288,6 +338,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/open/water/tar_basin
 	name = "tar basin"
+	gender = NEUTER
 	color = "#680047"
 	slowdown = 4
 	initial_gas_mix = JUNGLELAND_DEFAULT_ATMOS
@@ -302,7 +353,7 @@ Temperature: 126.85 °C (400 K)
 
 /turf/closed/obsidian
 	name = "obsidian wall"
-	desc = "Obsidian wal tearing out of the earth, it reflects light in all the colours you could ever imagine, and you can see something shining brightly within it. You can't quite seem to destroy it with a pickaxe, but maybe an explosion mau suffice?"
+	desc = "An obsidian wall tearing out of the earth, it reflects light in all the colours you could ever imagine, and you can see something shining brightly within it. You can't quite seem to destroy it with a pickaxe, but maybe an explosion may suffice?"
 	icon = 'yogstation/icons/turf/walls/obsidian.dmi'	
 	icon_state = "wall"
 	smoothing_groups = SMOOTH_GROUP_CLOSED_TURFS + SMOOTH_GROUP_MINERAL_WALLS
@@ -331,7 +382,7 @@ Temperature: 126.85 °C (400 K)
 		new type(src)
 
 /turf/closed/obsidian/hard 
-	name = "tough obsidian wall"
+	name = "dense obsidian wall"
 	icon = 'yogstation/icons/turf/walls/obsidian_hard.dmi'
 	explosion_threshold = list(EXPLODE_DEVASTATE, EXPLODE_HEAVY)
 	droppable_gems = list (

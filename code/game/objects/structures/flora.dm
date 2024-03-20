@@ -421,9 +421,13 @@
 
 //Jungle rocks
 
+/obj/structure/flora/rock/dying_jungle
+	name = "rock"
+	desc = "A large portrusion of dense stone."
+
 /obj/structure/flora/rock/jungle
-	icon_state = "pile of rocks"
-	desc = "A pile of rocks."
+	name = "pile of rocks"
+	desc = "A small pile of pebbles, with some leafy friends growing inbetween."
 	icon_state = "rock"
 	icon = 'icons/obj/flora/jungleflora.dmi'
 	density = FALSE
@@ -437,7 +441,7 @@
 
 /obj/structure/flora/junglebush
 	name = "bush"
-	desc = "A wild plant that is found in jungles."
+	desc = "Some wild shrubbery, found all throughout the jungle."
 	icon = 'icons/obj/flora/jungleflora.dmi'
 	icon_state = "busha"
 
@@ -459,7 +463,8 @@
 	layer = ABOVE_ALL_MOB_LAYER
 
 /obj/structure/flora/rock/pile/largejungle
-	name = "rocks"
+	name = "large pile of rocks"
+	desc = "An unusually large pile of stones, with some leafy friends growing inbetween."
 	icon_state = "rocks"
 	icon = 'icons/obj/flora/largejungleflora.dmi'
 	density = FALSE

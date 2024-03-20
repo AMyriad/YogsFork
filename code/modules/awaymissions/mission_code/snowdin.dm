@@ -635,7 +635,7 @@
 	color = rgb(204,233,235)
 
 /obj/structure/flora/rock/pile/icy
-	name = "icey rocks"
+	name = "icy rocks"
 	color = rgb(204,233,235)
 
 //decals//--
