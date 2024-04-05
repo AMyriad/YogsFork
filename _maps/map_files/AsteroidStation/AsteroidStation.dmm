@@ -2781,9 +2781,14 @@
 /turf/open/floor/plating,
 /area/maintenance/solars/port/fore)
 "azt" = (
-/obj/effect/turf_decal/stripes,
-/turf/open/space/basic,
-/area/space/nearstation)
+/obj/structure/window{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/port/aft)
 "azw" = (
 /obj/effect/landmark/stationroom/maint/threexfive,
 /turf/template_noop,
@@ -10044,6 +10049,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
+"ctY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "cua" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plasteel,
@@ -10518,6 +10529,9 @@
 /area/security/main)
 "cBB" = (
 /obj/machinery/photocopier,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/lawoffice)
 "cBC" = (
@@ -15016,6 +15030,12 @@
 /obj/item/cigbutt,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
+"dXN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/storage/eva)
 "dYm" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/machinery/power/apc{
@@ -18126,9 +18146,10 @@
 /turf/open/floor/plasteel,
 /area/security/processing)
 "eRD" = (
-/obj/effect/turf_decal/trimline/yellow/warning/lower{
-	dir = 10
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
 	},
+/obj/effect/turf_decal/trimline/blue/filled/corner/lower,
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
 "eRL" = (
@@ -19043,7 +19064,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
+/obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -23666,7 +23687,7 @@
 	id = "crematoriumChapel";
 	pixel_y = -25
 	},
-/obj/effect/turf_decal/trimline/yellow/warning/lower{
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -27934,11 +27955,11 @@
 	pixel_x = -4;
 	pixel_y = 7
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
-	dir = 8
-	},
 /obj/effect/turf_decal/trimline/blue/filled/corner/lower{
 	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
@@ -28493,11 +28514,11 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
-	dir = 1
-	},
 /obj/effect/turf_decal/trimline/dark_blue/filled/corner/lower{
 	dir = 4
+	},
+/obj/effect/turf_decal/trimline/engiyellow/filled/corner/lower{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
@@ -33808,7 +33829,7 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/effect/turf_decal/trimline/yellow/warning/lower{
+/obj/effect/turf_decal/trimline/engiyellow/warning/lower{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -35609,6 +35630,9 @@
 /area/engine/engineering)
 "kqr" = (
 /obj/item/radio/off,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/storage/eva)
 "kqx" = (
@@ -35857,7 +35881,7 @@
 /obj/structure/sign/departments/minsky/engineering/telecommmunications{
 	pixel_y = 32
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/line/lower{
+/obj/effect/turf_decal/trimline/engiyellow/filled/line/lower{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -36841,7 +36865,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/obj/effect/turf_decal/trimline/yellow/warning/lower{
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -36917,6 +36941,9 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -37289,6 +37316,17 @@
 /obj/effect/landmark/start/mime,
 /turf/open/floor/plasteel,
 /area/crew_quarters/theatre)
+"kSN" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
 "kSV" = (
 /obj/machinery/holopad,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
@@ -37879,6 +37917,7 @@
 	c_tag = "Law Office";
 	dir = 1
 	},
+/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/wood,
 /area/lawoffice)
 "lep" = (
@@ -40137,7 +40176,7 @@
 	dir = 4;
 	id = "crematoriumChapel"
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
+/obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
@@ -43707,6 +43746,19 @@
 	},
 /turf/open/space/basic,
 /area/space/nearstation)
+"mUa" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plating,
+/area/maintenance/port/fore)
 "mUy" = (
 /obj/machinery/vending/assist,
 /obj/effect/turf_decal/trimline/purple/filled/line/lower{
@@ -54587,6 +54639,9 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/storage/eva)
 "qkB" = (
@@ -60176,7 +60231,7 @@
 /obj/structure/sign/departments/minsky/engineering/telecommmunications{
 	pixel_y = 32
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/line/lower{
+/obj/effect/turf_decal/trimline/engiyellow/filled/line/lower{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -67896,6 +67951,7 @@
 "ujc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/wood,
 /area/lawoffice)
 "ujd" = (
@@ -68219,7 +68275,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
+/obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -68782,11 +68838,11 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
-	dir = 4
-	},
 /obj/effect/turf_decal/trimline/dark_blue/filled/corner/lower{
 	dir = 1
+	},
+/obj/effect/turf_decal/trimline/engiyellow/filled/corner/lower{
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
@@ -69330,7 +69386,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/effect/turf_decal/trimline/yellow/warning/lower{
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -70163,6 +70219,9 @@
 /obj/machinery/meter{
 	target_layer = 2
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "uYh" = (
@@ -70452,6 +70511,16 @@
 /obj/effect/turf_decal/trimline/purple/filled/corner/lower,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
+"vcj" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/abandoned,
+/obj/machinery/door/firedoor/border_only{
+	dir = 1
+	},
+/obj/machinery/door/firedoor/border_only,
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "vcr" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/maintenance/three,
@@ -70795,6 +70864,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "vjp" = (
@@ -71172,10 +71242,7 @@
 	pixel_x = 1;
 	pixel_y = -27
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/blue/filled/corner/lower,
+/obj/effect/turf_decal/trimline/blue/filled/line/lower,
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
 "vrk" = (
@@ -74970,7 +75037,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/effect/turf_decal/trimline/yellow/filled/corner/lower{
+/obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -91386,9 +91453,9 @@ aao
 aao
 wAs
 fiM
-fiM
+mUa
 uXV
-bhm
+kSN
 vla
 juR
 seH
@@ -100697,7 +100764,7 @@ aZG
 aPk
 aVy
 aQo
-aVy
+azt
 aaQ
 wzK
 oKW
@@ -107864,7 +107931,7 @@ akp
 akp
 akp
 akp
-azt
+aAA
 aNg
 kfu
 ycH
@@ -112709,8 +112776,8 @@ aXS
 aXS
 aXS
 aXS
-eYe
-aZH
+vcj
+ctY
 oGi
 oGi
 oGi
@@ -113224,7 +113291,7 @@ oGi
 oGi
 oGi
 oGi
-ucA
+dXN
 nwk
 ucA
 oGi
