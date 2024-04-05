@@ -9280,12 +9280,18 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "dOa" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8;
+	icon_state = "airlock_unres_helper"
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/exit/departure_lounge)
@@ -26408,7 +26414,9 @@
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "loo" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
@@ -26417,6 +26425,10 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8;
+	icon_state = "airlock_unres_helper"
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
@@ -30836,7 +30848,9 @@
 /turf/open/floor/carpet/green,
 /area/quartermaster/warehouse)
 "nfi" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
@@ -30845,6 +30859,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8;
+	icon_state = "airlock_unres_helper"
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/exit/departure_lounge)
@@ -31760,12 +31778,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
-"nBg" = (
-/obj/effect/turf_decal/trimline/dark_blue/filled/corner/lower{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/science/research)
 "nBj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -43919,12 +43931,18 @@
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "sJT" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8;
+	icon_state = "airlock_unres_helper"
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
@@ -82342,7 +82360,7 @@ bdh
 vyi
 wDE
 wDE
-nBg
+uTD
 dRU
 dpM
 muq

@@ -4688,7 +4688,8 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
+	name = "Arrival Airlock";
+	req_access_txt = "13"
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -4696,6 +4697,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "bud" = (
@@ -5043,8 +5047,9 @@
 	},
 /obj/machinery/button/door{
 	id = "supplybridge";
-	name = "Shuttle Bay Space Bridge Control";
-	pixel_y = 27
+	name = "Shuttle Bay EVA Control";
+	pixel_y = 27;
+	req_access_txt = "13"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -11427,22 +11432,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
-"dva" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Telecomms Control Room";
-	req_one_access_txt = "19;61"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/border_only,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/turret_protected/aisat_interior)
 "dvc" = (
 /obj/structure/closet{
 	name = "Evidence Closet 4"
@@ -13863,7 +13852,8 @@
 "efY" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
+	name = "Arrival Airlock";
+	req_access_txt = "13"
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -13871,6 +13861,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "egb" = (
@@ -15293,7 +15284,8 @@
 /area/engine/atmos/distro)
 "eCm" = (
 /obj/machinery/door/airlock/external{
-	name = "Transport Airlock"
+	name = "Transport Airlock";
+	req_access_txt = "13"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -15303,6 +15295,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8;
+	icon_state = "airlock_unres_helper"
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
@@ -31825,12 +31821,14 @@
 /area/maintenance/department/medical/central)
 "jqC" = (
 /obj/machinery/door/airlock/external{
-	name = "Auxiliary Airlock"
+	name = "Auxiliary Airlock";
+	req_access_txt = "13"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "jqE" = (
@@ -34548,12 +34546,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
-"kcT" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/secondarydatacore)
 "kcU" = (
 /obj/machinery/button/door{
 	id = "bridge blast";
@@ -42927,7 +42919,8 @@
 "mxD" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
+	name = "Arrival Airlock";
+	req_access_txt = "13"
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -42935,6 +42928,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "mxH" = (
@@ -51834,13 +51828,17 @@
 "oYj" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
+	name = "Arrival Airlock";
+	req_access_txt = "13"
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "oYk" = (
@@ -53807,7 +53805,9 @@
 /turf/open/floor/plasteel/white,
 /area/science/research)
 "pBs" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
@@ -58224,11 +58224,13 @@
 /area/crew_quarters/toilet/restrooms)
 "qQo" = (
 /obj/machinery/door/airlock/external{
-	name = "Auxiliary Airlock"
+	name = "Auxiliary Airlock";
+	req_access_txt = "13"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "qQr" = (
@@ -60917,7 +60919,9 @@
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "rIR" = (
-/obj/machinery/door/airlock/external,
+/obj/machinery/door/airlock/external{
+	req_access_txt = "13"
+	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
@@ -67850,13 +67854,18 @@
 /area/crew_quarters/cryopods)
 "tFp" = (
 /obj/machinery/door/airlock/external{
-	name = "Transport Airlock"
+	name = "Transport Airlock";
+	req_access_txt = "13"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 8;
+	icon_state = "airlock_unres_helper"
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
@@ -73700,7 +73709,7 @@
 /area/hallway/primary/central)
 "vmi" = (
 /obj/machinery/door/airlock/external{
-	req_one_access_txt = "13,8"
+	req_access_txt = "13"
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -74742,13 +74751,15 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/external{
-	name = "Arrival Airlock"
+	name = "Arrival Airlock";
+	req_access_txt = "13"
 	},
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "vzR" = (
@@ -75316,7 +75327,7 @@
 /area/engine/foyer)
 "vJN" = (
 /obj/machinery/door/airlock/external{
-	req_one_access_txt = "13,8"
+	req_access_txt = "13"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -83610,8 +83621,9 @@
 	},
 /obj/machinery/button/door{
 	id = "supplybridge";
-	name = "Shuttle Bay Space Bridge Control";
-	pixel_y = 27
+	name = "Shuttle Bay EVA Control";
+	pixel_y = 27;
+	req_access_txt = "13"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -252139,7 +252151,7 @@ lgJ
 xNs
 xNs
 bOL
-kcT
+uSX
 uSX
 aHo
 xNs
