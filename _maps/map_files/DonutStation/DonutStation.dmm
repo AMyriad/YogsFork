@@ -17733,7 +17733,7 @@
 /obj/machinery/door/window/eastleft{
 	dir = 8;
 	name = "Robotics Desk";
-	req_access_txt = "29"
+	req_one_access_txt = "29;75"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "roboticsprivacy";
@@ -18787,6 +18787,13 @@
 /area/tcommsat/server)
 "hVE" = (
 /obj/item/clothing/under/color/rainbow,
+/obj/machinery/door/window/eastright{
+	base_state = "left";
+	dir = 8;
+	icon_state = "left";
+	name = "Research Division Delivery";
+	req_access_txt = "47"
+	},
 /turf/open/floor/plating,
 /area/crew_quarters/fitness)
 "hWo" = (
@@ -31760,12 +31767,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
-"nBg" = (
-/obj/effect/turf_decal/trimline/dark_blue/filled/corner/lower{
-	dir = 1
-	},
-/turf/open/floor/plasteel/white,
-/area/science/research)
 "nBj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -41706,6 +41707,13 @@
 /area/ai_monitored/security/armory)
 "rNB" = (
 /obj/item/clothing/gloves/color/rainbow,
+/obj/machinery/door/window/eastright{
+	base_state = "left";
+	dir = 8;
+	icon_state = "left";
+	name = "Research Division Delivery";
+	req_access_txt = "47"
+	},
 /turf/open/floor/plating,
 /area/crew_quarters/fitness)
 "rNC" = (
@@ -82342,7 +82350,7 @@ bdh
 vyi
 wDE
 wDE
-nBg
+uTD
 dRU
 dpM
 muq

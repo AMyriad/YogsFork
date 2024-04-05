@@ -25720,6 +25720,15 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science/central)
+"mun" = (
+/obj/effect/turf_decal/trimline/purple/filled/line/lower,
+/obj/machinery/door/window/southright{
+	dir = 8;
+	name = "Research and Development Desk";
+	req_access_txt = "47"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/starboard)
 "muA" = (
 /obj/effect/turf_decal/trimline/brown/filled/line/lower{
 	dir = 5
@@ -38427,7 +38436,7 @@
 /obj/machinery/door/window/southright{
 	dir = 8;
 	name = "Research and Development Desk";
-	req_access_txt = "7"
+	req_access_txt = "47"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "rnd";
@@ -87841,7 +87850,7 @@ xeH
 trE
 aeV
 pBk
-wYP
+mun
 eiF
 vHD
 vgJ

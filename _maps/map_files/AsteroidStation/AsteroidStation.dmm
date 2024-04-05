@@ -37140,7 +37140,7 @@
 /obj/machinery/door/window/southright{
 	dir = 1;
 	name = "Research and Development Desk";
-	req_access_txt = "7"
+	req_access_txt = "47"
 	},
 /obj/machinery/door/firedoor/border_only{
 	dir = 1

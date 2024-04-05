@@ -45,7 +45,7 @@
 /obj/machinery/door/window/eastright{
 	dir = 2;
 	name = "Research and Development Desk";
-	req_one_access_txt = "7;29"
+	req_access_txt = "47"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "research_shutters";
@@ -11427,22 +11427,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
-"dva" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Telecomms Control Room";
-	req_one_access_txt = "19;61"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/door/firedoor/border_only{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/border_only,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/turret_protected/aisat_interior)
 "dvc" = (
 /obj/structure/closet{
 	name = "Evidence Closet 4"
@@ -32609,7 +32593,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/eastright{
 	name = "Research and Development Desk";
-	req_one_access_txt = "7;29"
+	req_access_txt = "47"
 	},
 /obj/item/folder/white{
 	pixel_x = 4;
@@ -34548,12 +34532,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
-"kcT" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plasteel/dark,
-/area/ai_monitored/secondarydatacore)
 "kcU" = (
 /obj/machinery/button/door{
 	id = "bridge blast";
@@ -45953,7 +45931,7 @@
 /obj/machinery/door/window/eastleft{
 	dir = 1;
 	name = "Research and Development Deliveries";
-	req_one_access_txt = "7;29"
+	req_one_access_txt = "47"
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -252139,7 +252117,7 @@ lgJ
 xNs
 xNs
 bOL
-kcT
+uSX
 uSX
 aHo
 xNs
