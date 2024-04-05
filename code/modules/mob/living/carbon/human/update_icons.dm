@@ -205,8 +205,8 @@ There are several things that need to be remembered:
 			uniform_overlay.pixel_x += dna.species.offset_features[OFFSET_UNIFORM][1]
 			uniform_overlay.pixel_y += dna.species.offset_features[OFFSET_UNIFORM][2]
 		overlays_standing[UNIFORM_LAYER] = uniform_overlay
+		apply_overlay(UNIFORM_LAYER)
 
-	apply_overlay(UNIFORM_LAYER)
 	update_mutant_bodyparts()
 
 
@@ -700,6 +700,8 @@ generate/load female uniform sprites matching all previously decided variables
 		. += "-coloured-hulk"
 	else if(dna.species.use_skintones)
 		. += "-coloured-[skin_tone]"
+	else if(dna.species.forced_skintone)
+		. += "-coloured-[dna.species.forced_skintone]"
 	else if(dna.species.fixed_mut_color)
 		. += "-coloured-[dna.species.fixed_mut_color]"
 	else if(dna.features["mcolor"])

@@ -213,10 +213,6 @@ SUBSYSTEM_DEF(ticker)
 	to_chat(world, span_boldannounce("Starting game..."))
 	var/init_start = world.timeofday
 		//Create and announce mode
-		
-	//quickly load all the unloaded characters so it looks like we've had them loaded the entire time
-	for(var/mob/dead/new_player/player in GLOB.player_list)
-		player.force_load_character()
 
 	var/list/datum/game_mode/runnable_modes
 	if(GLOB.master_mode == "random" || GLOB.master_mode == "secret")
@@ -356,6 +352,8 @@ SUBSYSTEM_DEF(ticker)
 
 		place.power_change()
 
+
+	rock_paper_scissors_puzzle()
 	return TRUE
 
 /datum/controller/subsystem/ticker/proc/PostSetup()
