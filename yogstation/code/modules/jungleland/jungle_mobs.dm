@@ -16,7 +16,7 @@
  
 /mob/living/simple_animal/hostile/yog_jungle/attacked_by(obj/item/I, mob/living/user)
 	if(stat == CONSCIOUS && AIStatus != AI_OFF && !client && user)
-		ADD_TRAIT(user,TRAIT_ENEMY_OF_THE_FOREST,JUNGLELAND_TRAIT)	
+		ADD_TRAIT(user, TRAIT_ENEMY_OF_THE_FOREST, JUNGLELAND_TRAIT)	
 	return ..()
 
 /mob/living/simple_animal/hostile/yog_jungle/death(gibbed)
@@ -26,7 +26,7 @@
 	. = ..()
 
 /mob/living/simple_animal/hostile/yog_jungle/dryad
-	name = "\improper bramble dryad"
+	name = "bramble dryad"
 	desc = "An amalgam of branches held together by the long... \"vine\" coiled around it. \
 		These empathetic creatures will rush to aid friendly travelers, but take no kindness to those who ruin their jungle."
 	icon_state = "dryad"
@@ -63,7 +63,7 @@
 
 
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
-	name = "\improper wild dryad"
+	name = "wild dryad"
 	desc = "An amalgam of splintering branches wearing the husk of a long dead... \"vine\" coiled around it. \
 		"
 		"These empathetic creatures will rush to aid friendly travelers, but take no kindness to those who ruin their jungle."
@@ -195,7 +195,7 @@
 	if(isliving(target))
 		var/mob/living/living_target = target
 		
-		if(!QDELETED(living_target) && living_target.stat > UNCONSCIOUS) //Unconcious or dead
+		if(!QDELETED(living_target) && living_target.stat > UNCONSCIOUS) //Unconscious or dead
 			steal_identity(living_target)
 
 /mob/living/simple_animal/hostile/yog_jungle/skin_twister/Life()
@@ -659,7 +659,7 @@
 	melee_damage_upper = 20
 
 /mob/living/simple_animal/hostile/tar/dryad
-	name = "\improper tar dryad"
+	name = "tar dryad"
 	desc = "Once a creature of the forest. It now belongs to the dominion of tar."
 	icon_state = "tar_dryad"
 	health = 120
