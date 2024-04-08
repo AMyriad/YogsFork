@@ -25,7 +25,9 @@
 		loot += crusher_loot
 	. = ..()
 
+	// A 
 /mob/living/simple_animal/hostile/yog_jungle/dryad
+// Visuals/text
 	name = "bramble dryad"
 	desc = "An amalgam of branches held together by the long... \"vine\" coiled around it. \
 		These empathetic creatures will rush to aid friendly travelers, but take no kindness to those who ruin their jungle."
@@ -33,11 +35,13 @@
 	icon_living = "dryad"
 	icon_dead = "dryad_dead"
 
+//Flavor/interactions
 	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak_emote = "rustles" // Think rustling the leaves on its back
 	response_help  = "pets"
 	response_disarm = "gently pushes aside"
 
+//Combat/mechanics
 	maxHealth = 60
 	health = 60
 	turns_per_move = 1
@@ -72,7 +76,7 @@
 	icon_dead = "corrupted_dryad_dead"
 
 	mob_biotypes = MOB_BEAST | MOB_ORGANIC
-	speak_emote = "crackles" // Whatever what bending wood sounds like
+	speak_emote = "creaks" // Whatever bending wood sounds like
 	response_help  = "cautiously pets"
 	response_disarm = "gently pushes aside"
 
@@ -81,7 +85,7 @@
 	turns_per_move = 1
 	ranged = TRUE
 	loot = list (/obj/item/organ/regenerative_core/dryad/corrupted)
-	ranged_cooldown_time = 3 SECONDS // More angy than the green ones
+	ranged_cooldown_time = 3 SECONDS // Angrier than the normal dryads
 	retreat_distance = 1
 	minimum_distance = 3
 	projectiletype = /obj/projectile/jungle/damage_orb
@@ -617,7 +621,7 @@
 
 /mob/living/simple_animal/hostile/tar 
 	icon = 'yogstation/icons/mob/jungle.dmi'
-	weather_immunities = WEATHER_ACID //YOU'RE TELLIN ME IT'S SUPPOSED TO RAIN ACID??
+	weather_immunities = WEATHER_ACID
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	robust_searching = TRUE
 	see_in_dark = 5
