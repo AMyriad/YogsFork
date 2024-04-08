@@ -14,12 +14,12 @@
 	icon = 'yogstation/icons/obj/chairs.dmi'
 	icon_state = "americhair_black"
 
-turf/open/floor/plasteel/blackwhite
+/turf/open/floor/plasteel/blackwhite
 	name = "ameritard floor"
 	icon = 'yogstation/icons/turf/floors.dmi'
 	icon_state = "blackwhite"
 
-turf/open/floor/plasteel/ameridiner
+/turf/open/floor/plasteel/ameridiner
 	name = "diner floor"
 	icon = 'yogstation/icons/turf/floors.dmi'
 	icon_state = "ameridiner_kitchen"

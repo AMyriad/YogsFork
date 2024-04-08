@@ -544,6 +544,7 @@
 /turf/open/indestructible/brazil/lostit
 	icon = 'yogstation/icons/turf/floors/ballpit_smooth.dmi'
 	icon_state = "smooth"
+	base_icon_state = "smooth"
 	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER
 	smoothing_groups = SMOOTH_GROUP_TURF_OPEN + SMOOTH_GROUP_BRAZIL
 	canSmoothWith = SMOOTH_GROUP_BRAZIL

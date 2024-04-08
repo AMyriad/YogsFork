@@ -1,7 +1,11 @@
 /turf/open/chasm/ballpit
 	name = "deep ball pit"
 	desc = "A fun looking ball pit! You can't seem to see the bottom for some reason..."
-	icon = 'yogstation/icons/turf/floors/ballpit.dmi'
+	icon_state = "smooth"
+	base_icon_state = "smooth"
+	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER
+	smoothing_groups = SMOOTH_GROUP_TURF_BALLPIT
+	canSmoothWith = SMOOTH_GROUP_TURF_BALLPIT
 	baseturfs = /turf/open/chasm/ballpit
 
 /turf/open/chasm/ballpit/sec1prt1
