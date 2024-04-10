@@ -25,23 +25,25 @@
 		loot += crusher_loot
 	. = ..()
 
-	// A 
+	/// Imagine a hermit crab but if the crab was a vine parasite and the shell was a bunch of sticks/forest junk
+	// Follows players while projectile vomiting healing tree sap at them
+	// Gets pissed if players attack it or other dryads, will start shooting "stinging" sap instead
 /mob/living/simple_animal/hostile/yog_jungle/dryad
 // Visuals/text
 	name = "bramble dryad"
-	desc = "An amalgam of branches held together by the long... \"vine\" coiled around it. \
-		These empathetic creatures will rush to aid friendly travelers, but take no kindness to those who ruin their jungle."
+	desc = "An amalgam of branches held together by the squirming \"vine\" coiled around it. \
+		They're known to aid and protect all things in their jungle, but hunt down those who hurt their kind."
 	icon_state = "dryad"
 	icon_living = "dryad"
 	icon_dead = "dryad_dead"
 
-//Flavor/interactions
+// Flavor/interactions
 	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak_emote = "rustles" // Think rustling the leaves on its back
 	response_help  = "pets"
 	response_disarm = "gently pushes aside"
 
-//Combat/mechanics
+// Combat/mechanics
 	maxHealth = 60
 	health = 60
 	turns_per_move = 1
@@ -65,12 +67,12 @@
 		ranged_cooldown_time = initial(ranged_cooldown_time)	
 	return ..()
 
-
+	/// Now imagine if that shell came alive and killed the crab
+	//Follows players while projectile vomiting "poison" sap
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
 	name = "wild dryad"
-	desc = "An amalgam of splintering branches wearing the husk of a long dead... \"vine\" coiled around it. \
-		"
-		"These empathetic creatures will rush to aid friendly travelers, but take no kindness to those who ruin their jungle."
+	desc = "An amalgam of splintered branches wearing the husk of a \"vine\" coiled around it. \
+		It looks like it has grown a mind of its own, and isn't very thrilled by your presence."
 	icon_state = "corrupted_dryad"
 	icon_living = "corrupted_dryad"
 	icon_dead = "corrupted_dryad_dead"
@@ -78,14 +80,14 @@
 	mob_biotypes = MOB_BEAST | MOB_ORGANIC
 	speak_emote = "creaks" // Whatever bending wood sounds like
 	response_help  = "cautiously pets"
-	response_disarm = "gently pushes aside"
+	response_disarm = "pushes aside"
 
 	maxHealth = 120
 	health = 120
 	turns_per_move = 1
 	ranged = TRUE
 	loot = list (/obj/item/organ/regenerative_core/dryad/corrupted)
-	ranged_cooldown_time = 3 SECONDS // Angrier than the normal dryads
+	ranged_cooldown_time = 3 SECONDS // Angrier than normal dryads
 	retreat_distance = 1
 	minimum_distance = 3
 	projectiletype = /obj/projectile/jungle/damage_orb
@@ -662,9 +664,18 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 20
 
+	/// Now imagine the shell and the crab fused together in perpetual agony
+	// Doesn't target the player; instead heals other tar creatures
+	// If no ally tar creatures are nearby, it blows up
 /mob/living/simple_animal/hostile/tar/dryad
 	name = "tar dryad"
 	desc = "Once a creature of the forest. It now belongs to the dominion of tar."
+	desc = "An amalgam of what used to be branches glued together with tar. \
+		"
+
+
+	n amalgam of branches held together by the squirming \"vine\" coiled around it. \
+		They're known to aid and protect all within their jungle, but hunt down those who hurt their kind.
 	icon_state = "tar_dryad"
 	health = 120
 	maxHealth = 120
