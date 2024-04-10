@@ -159,7 +159,7 @@
 	qdel(src)
 
 /proc/wabbajack(mob/living/M, randomize)
-	if(!istype(M) || M.stat == DEAD || M.notransform || (GODMODE & M.status_flags) || HAS_TRAIT(M, TRAIT_SPECIESLOCK))
+	if(!istype(M) || M.stat == DEAD || M.notransform || (GODMODE & M.status_flags))
 		return
 
 	M.notransform = TRUE

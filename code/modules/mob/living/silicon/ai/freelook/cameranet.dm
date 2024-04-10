@@ -17,13 +17,6 @@ GLOBAL_DATUM_INIT(cameranet, /datum/cameranet, new)
 	/// List of images cloned by all chunk static images put onto turfs cameras cant see
 	/// Indexed by the plane offset to use
 	var/list/image/obscured_images
-	///If defined, only cameras with matching network flags will be used by chunks
-	///The cameras list is only used for updating chunks, not for actual vision
-	var/list/networks
-
-//worst 6 hours of my life i spent trying to figure out how to best split a cameranet, this is what i've settled on
-/datum/cameranet/darkspawn 
-	networks = list(ROLE_DARKSPAWN)
 
 /datum/cameranet/New()
 	obscured_images = list()
@@ -61,7 +54,7 @@ GLOBAL_DATUM_INIT(cameranet, /datum/cameranet, new)
 	var/key = "[x],[y],[lowest.z]"
 	. = chunks[key]
 	if(!.)
-		chunks[key] = . = new /datum/camerachunk(x, y, lowest.z, src)
+		chunks[key] = . = new /datum/camerachunk(x, y, lowest.z)
 
 /// Updates what the aiEye can see. It is recommended you use this when the aiEye moves or it's location is set.
 /datum/cameranet/proc/visibility(list/moved_eyes, client/C, list/other_eyes, use_static = TRUE)

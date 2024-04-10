@@ -53,6 +53,7 @@
 			/datum/antagonist/rev,
 			/datum/antagonist/clockcult,
 			/datum/antagonist/darkspawn,
+			/datum/antagonist/shadowling,
 			/datum/antagonist/zombie
 			)
 		for(var/datum/antagonist/NTA in new_owner.antag_datums)

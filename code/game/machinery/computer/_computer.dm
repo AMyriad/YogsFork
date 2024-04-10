@@ -10,8 +10,6 @@
 	integrity_failure = 100
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 40, ACID = 20)
 	clicksound = "keyboard"
-	/// Boolean, Doesn't have standard overlays or appearance, but has the same effects
-	var/special_appearance = FALSE
 	/// How bright we are when turned on.
 	var/brightness_on = 1
 	/// Icon_state of the keyboard overlay.
@@ -47,7 +45,7 @@
 	return TRUE
 
 /obj/machinery/computer/ratvar_act()
-	if(!clockwork && !special_appearance)
+	if(!clockwork)
 		clockwork = TRUE
 		icon_screen = "ratvar[rand(1, 4)]"
 		icon_keyboard = "ratvar_key[rand(1, 6)]"
@@ -64,8 +62,6 @@
 
 /obj/machinery/computer/update_appearance(updates)
 	. = ..()
-	if(special_appearance) //always centered
-		return
 	//Prevents fuckery with subtypes that are meant to be pixel shifted or map shifted shit
 	if(pixel_x == 0 && pixel_y == 0)
 		// this bit of code makes the computer hug the wall its next to
@@ -95,8 +91,6 @@
 
 /obj/machinery/computer/update_overlays()
 	. = ..()
-	if(special_appearance)
-		return
 	if(icon_keyboard)
 		if(keyboard_change_icon && (stat & NOPOWER))
 			. += "[icon_keyboard]_off"

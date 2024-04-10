@@ -257,25 +257,26 @@
 	taste_description = "mint"
 
 /datum/reagent/consumable/frostoil/on_mob_life(mob/living/carbon/M)
-	var/cooling = -10 * TEMPERATURE_DAMAGE_COEFFICIENT
+	var/cooling = 0
 	switch(current_cycle)
 		if(1 to 15)
+			cooling = -10 * TEMPERATURE_DAMAGE_COEFFICIENT
 			if(holder.has_reagent(/datum/reagent/consumable/capsaicin))
 				holder.remove_reagent(/datum/reagent/consumable/capsaicin, 5)
 			if(isslime(M))
 				cooling = -rand(5,20)
 		if(15 to 25)
-			cooling *= 2
+			cooling = -20 * TEMPERATURE_DAMAGE_COEFFICIENT
 			if(isslime(M))
 				cooling = -rand(10,20)
 		if(25 to 35)
-			cooling *= 3
+			cooling = -30 * TEMPERATURE_DAMAGE_COEFFICIENT
 			if(prob(1) && !HAS_TRAIT(M, TRAIT_RESISTCOLD))
 				M.emote("shiver")
 			if(isslime(M))
 				cooling = -rand(15,20)
 		if(35 to INFINITY)
-			cooling *= 4
+			cooling = -40 * TEMPERATURE_DAMAGE_COEFFICIENT
 			if(prob(5) && !HAS_TRAIT(M, TRAIT_RESISTCOLD))
 				M.emote("shiver")
 			if(isslime(M))

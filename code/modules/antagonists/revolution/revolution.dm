@@ -22,6 +22,7 @@
 		var/list/no_team_antag = list(
 			/datum/antagonist/clockcult,
 			/datum/antagonist/darkspawn,
+			/datum/antagonist/shadowling,
 			/datum/antagonist/cult,
 			/datum/antagonist/zombie
 			)

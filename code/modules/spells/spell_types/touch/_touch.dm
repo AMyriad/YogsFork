@@ -120,7 +120,6 @@
 		reset_spell_cooldown()
 	else
 		StartCooldown()
-		consume_resource()
 		build_all_button_icons()
 
 /// Registers all signal procs for the hand.

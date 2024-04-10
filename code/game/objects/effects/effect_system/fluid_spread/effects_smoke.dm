@@ -465,10 +465,3 @@
 
 /datum/effect_system/fluid_spread/smoke/chem/quick
 	effect_type = /obj/effect/particle_effect/fluid/smoke/chem/quick
-
-/datum/effect_system/fluid_spread/smoke/chem/darkspawn
-	effect_type = /obj/effect/particle_effect/fluid/smoke/chem/darkspawn
-
-/obj/effect/particle_effect/fluid/smoke/chem/darkspawn
-	lifetime = 10 SECONDS
-	opacity = FALSE

@@ -21,8 +21,6 @@
 
 	/// List of all actions to give to a user when they're well, granted actions
 	var/list/actions = list()
-	var/datum/cameranet/camnet //the net it's looking at
-
 	///Should we supress any view changes?
 	var/should_supress_view_changes = TRUE
 
@@ -51,8 +49,6 @@
 	//Camera action button to move down a Z level
 	if(move_down_action)
 		actions += new move_down_action(src)
-		
-	camnet = GLOB.cameranet //the default cameranet
 
 /obj/machinery/computer/camera_advanced/connect_to_shuttle(mapload, obj/docking_port/mobile/port, obj/docking_port/stationary/dock)
 	for(var/i in networks)
@@ -68,7 +64,6 @@
 /obj/machinery/computer/camera_advanced/proc/CreateEye()
 	eyeobj = new()
 	eyeobj.origin = src
-	eyeobj.networks = networks
 
 /obj/machinery/computer/camera_advanced/proc/GrantActions(mob/living/user)
 	for(var/datum/action/to_grant as anything in actions)
@@ -140,10 +135,10 @@
 		var/camera_location
 		var/turf/myturf = get_turf(src)
 		if(eyeobj.use_static != FALSE)
-			if((!length(z_lock) || (myturf.z in z_lock)) && camnet.checkTurfVis(myturf))
+			if((!length(z_lock) || (myturf.z in z_lock)) && GLOB.cameranet.checkTurfVis(myturf))
 				camera_location = myturf
 			else
-				for(var/obj/machinery/camera/C as anything in camnet.cameras)
+				for(var/obj/machinery/camera/C as anything in GLOB.cameranet.cameras)
 					if(!C.can_use() || length(z_lock) && !(C.z in z_lock))
 						continue
 					var/list/network_overlap = networks & C.network
@@ -191,7 +186,7 @@
 	var/cooldown = 0
 	var/acceleration = 1
 	var/mob/living/eye_user = null
-	var/obj/machinery/computer/camera_advanced/origin
+	var/obj/machinery/origin
 	var/eye_initialized = 0
 	var/visible_icon = 0
 	var/image/user_image = null
@@ -224,7 +219,7 @@
 		update_ai_detect_hud()
 
 		if(use_static)
-			origin.camnet.visibility(src, GetViewerClient(), null, use_static)
+			GLOB.cameranet.visibility(src, GetViewerClient(), null, use_static)
 
 		if(visible_icon)
 			if(eye_user.client)
@@ -276,7 +271,7 @@
 
 	var/list/L = list()
 
-	for (var/obj/machinery/camera/cam as anything in origin.camnet.cameras)
+	for (var/obj/machinery/camera/cam as anything in GLOB.cameranet.cameras)
 		if(length(origin.z_lock) && !(cam.z in origin.z_lock))
 			continue
 		L.Add(cam)

@@ -23,7 +23,8 @@
 	if(changeling)
 		changeling.regain_powers()
 
-	src.client.init_verbs()
+	var/datum/antagonist/darkspawn/darkspawn = mind.has_antag_datum(/datum/antagonist/darkspawn)
+	if(darkspawn)
+		darkspawn.regain_abilities()
 
-	if(GLOB.sacrament_done)
-		AddComponent(/datum/component/shadowlands)
+	src.client.init_verbs()

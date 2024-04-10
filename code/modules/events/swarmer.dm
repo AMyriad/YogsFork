@@ -18,7 +18,7 @@
 	for(var/x in GLOB.xeno_spawn)
 		var/turf/spawn_turf = x
 		var/light_amount = spawn_turf.get_lumcount()
-		if(light_amount < SHADOW_SPECIES_DIM_LIGHT)
+		if(light_amount < SHADOW_SPECIES_LIGHT_THRESHOLD)
 			spawn_locs += spawn_turf
 	if(!spawn_locs.len)
 		message_admins("No valid spawn locations found in GLOB.xeno_spawn, aborting swarmer spawning...")

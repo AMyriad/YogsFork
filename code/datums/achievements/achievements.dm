@@ -92,9 +92,9 @@
 	desc = "As a changeling, complete your objectives"
 	id = 13
 
-/datum/achievement/greentext/darkspawn
+/datum/achievement/greentext/slingascend
 	name = "The Dark Shadow"
-	desc = "As a darkspawn, ascend successfully"
+	desc = "As a shadowling, ascend successfully"
 	id = 14
 
 /datum/achievement/death
