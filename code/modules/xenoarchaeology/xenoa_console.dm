@@ -76,7 +76,7 @@
 	stability = min(100, stability + STABILITY_GAIN)
 	//Update UI every 3 seconds, may be delayed
 	if(world.time % 3 == 0)
-		SStgui.try_update_ui(user, src, ui) // Double check before PRing, changed from ui_update()
+		return UI_UPDATE // Double check before merging, changed from ui_update()
 
 /obj/machinery/computer/xenoartifact_console/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
@@ -228,13 +228,13 @@
 	var/datum/xenoartifact_seller/S = new
 	S.generate()
 	sellers += S
-	SStgui.try_update_ui(user, src, ui) // Double check before PRing, changed from ui_update()
+	return UI_UPDATE // Double check before merging, changed from ui_update()
 
 /obj/machinery/computer/xenoartifact_console/proc/generate_new_buyer()
 	var/datum/xenoartifact_seller/buyer/B = new
 	B.generate()
 	buyers += B
-	SStgui.try_update_ui(user, src, ui) // Double check before PRing, changed from ui_update()
+	return UI_UPDATE // Double check before merging, changed from ui_update()
 
 /obj/machinery/computer/xenoartifact_console/proc/sync_devices()
 	for(var/obj/machinery/xenoa_delivery_pad/I in oview(9,src))

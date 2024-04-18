@@ -118,7 +118,7 @@
 	playsound(get_turf(src), 'sound/mecha/mech_shield_deflect.ogg', 50, TRUE)
 
 ///============
-/// Corginator - Turns the target into a corgi for a short time.	/! Uncomment this when you fix the shapeshift shit, fix before PRing
+/// Corginator - Turns the target into a corgi for a short time.	/! Uncomment this when you fix the shapeshift shit, fix before merging
 ///============
 /*/datum/xenoartifact_trait/major/corginator ///All of this is stolen from corgium
 	desc = "Fuzzy" //Weirdchamp
@@ -345,7 +345,7 @@
 
 /datum/xenoartifact_trait/major/chem/on_init(obj/item/xenoartifact/X)
 	amount = pick(7, 14, 21)
-	formula = get_random_reagent_id() // Check this so they don't get adminordrazine or whatever before PRing
+	formula = get_random_reagent_id() // Check this so they don't get adminordrazine or whatever before merging
 
 /datum/xenoartifact_trait/major/chem/activate(obj/item/xenoartifact/X, atom/target)
 	if(target?.reagents)
@@ -456,7 +456,7 @@
 		air.adjust_moles(input_id, -moles)
 		air.adjust_moles(output_id, moles)
 
-/*		TODO BEFORE PRING
+/*		TODO BEFORE MERGING
 ///============
 /// Destabilizing - Teleports the victim to limbo.
 ///============

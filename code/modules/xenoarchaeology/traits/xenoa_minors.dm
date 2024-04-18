@@ -84,13 +84,12 @@
 
 /datum/xenoartifact_trait/minor/sharp/on_init(obj/item/xenoartifact/X)
 	X.sharpness = SHARP_EDGED
-	X.force = X.charge_req*0.12
+	X.force = X.charge_req*0.24 // Half this if we ever port bee's blocking/combat system
 	X.attack_verb = list("cleaved", "slashed", "stabbed", "sliced", "tore", "ripped", "diced", "cut")
-	X.attack_weight = 2
 	X.armour_penetration = 5
 
 //============
-// Cooler - Ceduces cooldown times
+// Cooler - Reduces cooldown times
 //============
 /datum/xenoartifact_trait/minor/cooler
 	desc = "Frosted"
@@ -106,9 +105,9 @@
 
 /datum/xenoartifact_trait/minor/cooler/activate(obj/item/xenoartifact/X)
 	X.charge -= 10
-
+/* 
 //============
-// Sentient - Allows a ghost to control the artifact
+// Sentient - Allows a ghost to control the artifact - FIX BEFORE MERGING
 //============
 /datum/xenoartifact_trait/minor/sentient
 	label_name = "Sentient"
@@ -134,7 +133,7 @@
 		man.key = M.ckey
 
 /datum/xenoartifact_trait/minor/sentient/proc/get_canidate(obj/item/xenoartifact/X, mob/M)
-	var/list/mob/dead/observer/candidates = pollCandidatesForMob("Do you want to play as the malevolent force inside the [X.name]?", ROLE_SENTIENCE, null, 8 SECONDS) // Use a different role, fix before PRing
+	var/list/mob/dead/observer/candidates = pollCandidatesForMob("Do you want to play as the malevolent force inside the [X.name]?", ROLE_SENTIENCE, null, 8 SECONDS) // Use a different role, fix before merging
 	if(LAZYLEN(candidates))
 		var/mob/dead/observer/C = pick(candidates)
 		setup_sentience(X, C.ckey)
@@ -154,7 +153,7 @@
 	log_game("[key_name_admin(man)] took control of the sentient [X]. [X] located at [AREACOORD(X)]")
 	man.forceMove(X)
 	man.anchored = TRUE
-	var/obj/effect/proc_holder/spell/targeted/xeno_sentient_action/P = new /obj/effect/proc_holder/spell/targeted/xeno_sentient_action(,X)
+	var/obj/effect/proc_holder/spell/xeno_sentient_action/P = new /obj/effect/proc_holder/spell/xeno_sentient_action(,X)
 	man.AddSpell(P)
 	//show little guy his traits
 	to_chat(man, "<span class='notice'>Your traits are: \n</span>")
@@ -164,10 +163,10 @@
 		playsound(get_turf(X), 'sound/items/haunted/ghostitemattack.ogg', 50, TRUE)
 	qdel(S)
 
-/obj/effect/proc_holder/spell/targeted/xeno_sentient_action //Lets sentience target goober
+/obj/effect/proc_holder/spell/xeno_sentient_action //Lets sentience target goober
 	name = "Activate"
 	desc = "Select a target to activate your traits on."
-	cast_range = 1
+	//cast_range = 1
 	cooldown_time = 0 SECONDS
 	spell_requirements = NONE
 	include_user = 0
@@ -175,12 +174,12 @@
 	action_background_icon_state = "bg_spell"
 	var/obj/item/xenoartifact/xeno
 
-/obj/effect/proc_holder/spell/targeted/xeno_sentient_action/Initialize(mapload, var/obj/item/xenoartifact/Z)
+/obj/effect/proc_holder/spell/xeno_sentient_action/Initialize(mapload, var/obj/item/xenoartifact/Z)
 	. = ..()
 	xeno = Z
 	range = Z.max_range+1
 
-/obj/effect/proc_holder/spell/targeted/xeno_sentient_action/cast(list/targets, mob/living/simple_animal/revenant/user = usr)
+/obj/effect/proc_holder/spell/xeno_sentient_action/cast(list/targets, mob/living/simple_animal/revenant/user = usr)
 	if(!xeno)
 		return
 	for(var/atom/M in targets)
@@ -196,12 +195,9 @@
 /obj/effect/mob_spawn/sentient_artifact
 	death = FALSE
 	name = "Sentient Xenoartifact"
-	short_desc = "You're a maleviolent sentience, possesing an ancient alien artifact."
-	flavour_text = (pick(
-		"Return to your master...",
-		"Escape this twisted plane..."))
-	use_cooldown = TRUE
-	banType = ROLE_SENTIENCE // Fix before PRing
+	short_desc = "VX'NUL'TYR'DE$/-DEC'RYPTING...AKTIV..." // Change before merging
+	flavour_text = ("Return to your master...")
+	banType = ROLE_SENTIENCE // Maybe change before merging
 	invisibility = 101
 	var/obj/item/xenoartifact/artifact
 
@@ -214,7 +210,7 @@
 
 /obj/effect/mob_spawn/sentient_artifact/create(ckey, name)
 	var/datum/xenoartifact_trait/minor/sentient/S = artifact.get_trait(/datum/xenoartifact_trait/minor/sentient)
-	S.setup_sentience(artifact, ckey)
+	S.setup_sentience(artifact, ckey) */
 
 //============
 // Delicate - Makes the artifact have limited uses
@@ -357,7 +353,7 @@
 /datum/xenoartifact_trait/minor/anchor
 	desc = "Anchored"
 	label_desc = "Anchored: The Artifact buckles to the floor with the weight of a sun every time it activates. Heavier than you, somehow."
-	blacklist_traits = list(/datum/xenoartifact_trait/minor/wearable) ///datum/xenoartifact_trait/minor/haunted readd before PRing
+	blacklist_traits = list(/datum/xenoartifact_trait/minor/wearable) ///datum/xenoartifact_trait/minor/haunted readd before merging
 	flags = BLUESPACE_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/minor/anchor/activate(obj/item/xenoartifact/X, atom/target, atom/user)
@@ -408,7 +404,7 @@
 	weight = 15
 	var/datum/component/deadchat_control/controller
 
-/datum/xenoartifact_trait/minor/haunted/on_init(obj/item/xenoartifact/X) // Uh oh, gotta port over a whole system! Fix this before PRing
+/datum/xenoartifact_trait/minor/haunted/on_init(obj/item/xenoartifact/X) // Uh oh, gotta port over a whole system! Fix this before merging
 	controller = X._AddComponent(list(/datum/component/deadchat_control, "democracy", list(
 			 "up" = CALLBACK(src, PROC_REF(haunted_step), X, NORTH),
 			 "down" = CALLBACK(src, PROC_REF(haunted_step), X, SOUTH),

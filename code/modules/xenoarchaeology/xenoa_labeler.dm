@@ -124,7 +124,7 @@
 	selected_minor_traits = list()
 	selected_major_traits = list()
 	selected_malfunction_traits = list()
-	SStgui.try_update_ui(user, src, ui) // Double check before PRing, changed from ui_update()
+	return UI_UPDATE // Double check before merging, changed from ui_update()
 
 /obj/item/xenoartifact_labeler/proc/create_label(new_name, mob/target, mob/user)
 	var/obj/item/xenoartifact_label/P = new(get_turf(src))

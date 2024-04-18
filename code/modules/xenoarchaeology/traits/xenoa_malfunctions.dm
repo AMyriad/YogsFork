@@ -95,7 +95,7 @@
 //============
 // Heated - Causes artifact to explode in flames.
 //============
-/datum/xenoartifact_trait/malfunction/heated	// Kill the shitty effect and give this turf fires before PRing
+/datum/xenoartifact_trait/malfunction/heated	// Kill the shitty effect and give this turf fires before merging
 	label_name = "Combustible"
 	label_desc = "Combustible: A strange malfunction that causes the Artifact to violently combust."
 	weight = 15
@@ -205,7 +205,7 @@
 	a_intent = INTENT_HARM
 	atmos_requirements = list("min_oxy" = 5, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 1, "min_co2" = 0, "max_co2" = 5, "min_n2" = 0, "max_n2" = 0)
 	unsuitable_atmos_damage = 15
-	faction = list("hostile") // Test before PRing
+	faction = list("hostile") // Test before merging
 	status_flags = CANPUSH
 	del_on_death = TRUE
 	do_footstep = TRUE

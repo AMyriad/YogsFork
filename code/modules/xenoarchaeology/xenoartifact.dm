@@ -54,7 +54,7 @@
 	// Snowflake variable for shaped
 	var/transfer_prints = FALSE
 
-/obj/item/xenoartifact/ComponentInitialize()
+/obj/item/xenoartifact/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/xenoartifact_pricing)
 
@@ -327,7 +327,7 @@
 /obj/item/xenoartifact/proc/get_target_in_proximity(range)
 	for(var/mob/living/M in oview(range, get_turf(src)))
 		. = process_target(M)
-	if(isliving(loc) && !.) // Line may cause a runtime? Check during testing before PRing
+	if(isliving(loc) && !.) // Line may cause a runtime? Check during testing before merging
 		. = process_target(loc)
 	// Return a list becuase byond is fucky and WILL overwrite the typing
 	return list(.)
