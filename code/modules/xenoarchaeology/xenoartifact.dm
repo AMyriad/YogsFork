@@ -343,7 +343,7 @@
 		if(H.wear_suit && H.head && isclothing(H.wear_suit) && isclothing(H.head))
 			if(H.anti_artifact_check())
 				to_chat(target, "<span class='warning'>The [name] was unable to target you!</span>")
-				playsound(get_turf(target), 'sound/weapons/deflect.ogg', 25, TRUE)
+				playsound(get_turf(target), 'sound/weapons/parry.ogg', 50, TRUE)
 				return
 
 	if(isliving(target)) // Handle pulling
@@ -393,8 +393,7 @@
 		return
 	SEND_SIGNAL(src, XENOA_SIGNAL, null, get_target_in_proximity(max_range), get_target_in_proximity(max_range)) // I don't think this sends a signal
 
-/obj/item/xenoartifact/on_block(mob/living/carbon/human/owner, atom/movable/hitby)
-	. = ..()
+/obj/item/xenoartifact/proc/on_shield_block(mob/living/carbon/human/owner, atom/movable/hitby, attack_text = "the attack", damage = 0, attack_type = MELEE_ATTACK) // Change this when we port bee's blocking/combat system
 	if(!(COOLDOWN_FINISHED(src, xenoa_cooldown)) || !get_trait(/datum/xenoartifact_trait/minor/blocking))
 		return
 	SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, src, owner, hitby) // I don't think this sends a signal

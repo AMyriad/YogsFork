@@ -44,7 +44,7 @@
 		X.cooldown = -1000 SECONDS //This is better than making a unique interaction in xenoartifact.dm
 		return
 	charges = pick(0, 1, 2)
-	playsound(get_turf(X), 'sound/machines/capacitor_charge.ogg', 50, TRUE)
+	playsound(get_turf(X), 'sound/effects/lunge_warn.ogg', 50, TRUE)
 	X.cooldown = saved_cooldown
 	saved_cooldown = null
 
@@ -296,7 +296,7 @@
 
 /datum/xenoartifact_trait/minor/blocking/on_init(obj/item/xenoartifact/X)
 	X.block_chance = 35 * pick(0.5, 0.8, 1, 1.2, 1.3) // RIP, current yogs blocking system apparently sucks compared to bee's
-	X.integrity = X.block_chance * (2 * pick(0.5, 0.8, 1, 1.3))
+	X.atom_integrity = X.block_chance * (2 * pick(0.5, 0.8, 1, 1.3))
 	// 100% spitballing here - Read this as block_chance * (2*(number)), lowest integrity amount is just the block_chance number, highest ranges from 45.5-118.3 depending on block_chance
 
 //============

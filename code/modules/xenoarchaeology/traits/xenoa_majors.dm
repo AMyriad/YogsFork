@@ -115,7 +115,7 @@
 	//FIRE!
 	A.preparePixelProjectile(get_turf(target), X)
 	A.fire()
-	playsound(get_turf(src), 'sound/mecha/mech_shield_deflect.ogg', 50, TRUE)
+	playsound(get_turf(src), 'sound/weapons/lasgun.ogg', 50, TRUE)
 
 ///============
 /// Corginator - Turns the target into a corgi for a short time.	/! Uncomment this when you fix the shapeshift shit, fix before merging
@@ -401,15 +401,16 @@
 	flags = BLUESPACE_TRAIT | PLASMA_TRAIT | URANIUM_TRAIT
 	var/sound
 
-/datum/xenoartifact_trait/major/horn/on_init(obj/item/xenoartifact/X)
-	sound = pick(list('sound/effects/adminhelp.ogg', 'sound/effects/applause.ogg', 'sound/effects/bubbles.ogg',
-					'sound/effects/empulse.ogg', 'sound/effects/explosion1.ogg', 'sound/effects/explosion_distant.ogg',
-					'sound/effects/laughtrack.ogg', 'sound/effects/magic.ogg', 'sound/effects/meteorimpact.ogg',
-					'sound/effects/phasein.ogg', 'sound/effects/supermatter.ogg', 'sound/weapons/armbomb.ogg',
-					'sound/weapons/blade1.ogg'))
+/datum/xenoartifact_trait/major/horn/on_init(obj/item/xenoartifact/X) // lol
+	sound = pick(list('sound/effects/adminhelp.ogg', 'sound/effects/bubbles.ogg', 'sound/effects/empulse.ogg',
+					'sound/effects/explosion1.ogg', 'sound/effects/explosion_distant.ogg', 'sound/effects/magic.ogg',
+					'sound/effects/phasein.ogg', 'sound/effects/supermatter.ogg',
+					'sound/weapons/armbomb.ogg', 'sound/weapons/blade1.ogg', 'sound/items/bikehorn.ogg',
+					'sound/effects/xylophone1.ogg', 'sound/effects/xylophone2.ogg', 'sound/effects/xylophone3.ogg',
+					'sound/spookoween/scary_horn.ogg'/*, 'sound/misc/Cyka_Blyat.ogg, 'sound/misc/Russian_Anthem_chorus.ogg'*/))
 
 /datum/xenoartifact_trait/major/horn/activate(obj/item/xenoartifact/X, atom/target, atom/user)
-	playsound(get_turf(target), sound, 50, FALSE)
+	playsound(get_turf(target), sound, 65, FALSE)
 
 ///============
 /// Gas - Replaces a random gas with another random gas.
@@ -458,7 +459,7 @@
 
 /*		TODO BEFORE MERGING
 ///============
-/// Destabilizing - Teleports the victim to limbo.
+/// Destabilizing - Teleports the victim to limbo. - FIX BEFORE MERGING
 ///============
 /datum/xenoartifact_trait/major/destabilizer
 	desc = "Destabilizing"
