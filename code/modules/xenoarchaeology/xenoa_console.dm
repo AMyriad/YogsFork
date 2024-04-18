@@ -22,7 +22,7 @@
 /obj/machinery/computer/xenoartifact_console
 	name = "xenoartifact listing console"
 	desc = "A science console used to source sellers, and buyers, for various blacklisted research objects."
-	icon_screen = "xenoartifact_console"
+	icon_screen = "artifact_console"
 	icon_keyboard = "rd_key"
 	circuit = /obj/item/circuitboard/computer/xenoartifact_console
 
@@ -259,7 +259,7 @@
 #undef STABILITY_GAIN
 
 /obj/machinery/xenoa_delivery_pad
-	name = "bluespace straythread pad" //Science words
+	name = "xenoartifact delivery pad" //Science words
 	desc = "This machine takes advantage of bluespace thread manipulation to highjack in-coming and out-going bluespace signals. Science uses it to deliver their very legal purchases." //All very sciencey
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "qpad-idle"

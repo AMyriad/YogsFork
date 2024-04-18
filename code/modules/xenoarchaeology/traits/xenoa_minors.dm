@@ -360,13 +360,14 @@
 	if(isliving(X.loc))
 		var/mob/living/holder = X.loc
 		holder.dropItemToGround(X)
-	X.visible_message("<span class='danger'>The [X.name] buckles to the floor!</span>")
+	X.visible_message("<span class='danger'>The [X.name] fastens to the floor!</span>")
 	X.setAnchored(TRUE)
 	X.density = TRUE
 
 /datum/xenoartifact_trait/minor/anchor/on_item(obj/item/xenoartifact/X, atom/user, obj/item/item)
 	if(item.tool_behaviour == TOOL_WRENCH)
 		to_chat(user, "<span class='info'>You [X.anchored ? "unanchor" : "anchor"] the [X.name] to the [get_turf(X)].</span>")
+		if(tool.use_tool(src, user, 10, volume=100))
 		if(isliving(X.loc))
 			var/mob/living/holder = X.loc
 			holder.dropItemToGround(X)
@@ -375,6 +376,28 @@
 			X.density = !X.density
 		return TRUE
 	return ..()
+
+/obj/structure/girder/wrench_act(mob/user, obj/item/tool)
+	. = FALSE
+	if(state == GIRDER_DISPLACED)
+		if(!isfloorturf(loc))
+			to_chat(user, span_warning("A floor must be present to secure the girder!"))
+
+		to_chat(user, span_notice("You start securing the girder..."))
+		if(tool.use_tool(src, user, 40, volume=100))
+			to_chat(user, span_notice("You secure the girder."))
+			var/obj/structure/girder/G = new (loc)
+			transfer_fingerprints_to(G)
+			qdel(src)
+		return TRUE
+	else if(state == GIRDER_NORMAL && can_displace)
+		to_chat(user, span_notice("You start unsecuring the girder..."))
+		if(tool.use_tool(src, user, 40, volume=100))
+			to_chat(user, span_notice("You unsecure the girder."))
+			var/obj/structure/girder/displaced/D = new (loc)
+			transfer_fingerprints_to(D)
+			qdel(src)
+		return TRUE
 
 //============
 // Slippery - The artifact is slippery. Honk
