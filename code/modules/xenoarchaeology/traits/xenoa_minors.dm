@@ -368,12 +368,12 @@
 /datum/xenoartifact_trait/minor/anchor/on_item(obj/item/xenoartifact/X, atom/user, obj/item/item)
 	. = FALSE
 	if(item.tool_behaviour == TOOL_WRENCH)
-		item.play_tool_sound(X.loc)
-		if(!isfloorturf(loc) || (!X.anchored))
-			var/atom/closest_thing = get_closest_atom()
+		item.play_tool_sound((X.loc))
+		if(!isfloorturf(X.loc) && (!X.anchored))
+			var/atom/closest_thing = get_closest_atom(/atom/movable, range(20, (X.loc)), (X.loc))
 			to_chat(user, span_warning("It flings off!"))
-			X.throw_at(closest_thing, 20, (X.charge))
-		to_chat(user, span_notice("You graze the [X.name] with \the [item.name] and it [X.anchored ? "unanchors from" : "anchors to"] the [get_turf(X)]."))
+			X.throw_at(closest_thing, 20, ((1+X.charge)*2))
+		to_chat(user, span_notice("You barely touch the [X.name] with \the [item.name] and it [X.anchored ? "unanchors from" : "anchors to"] [get_turf(X)]!"))
 		if(isliving(X.loc))
 			var/mob/living/holder = X.loc
 			holder.dropItemToGround(X)
