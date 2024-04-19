@@ -801,7 +801,7 @@
 	desc = "The circuit board for a reactor control console."
 	id = "reactor_control"
 	build_path = /obj/item/circuitboard/computer/reactor
-	category = list ("Engineering Machinery")
+	category = list("Engineering Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
   
 /datum/design/board/mindmachine_hub
@@ -833,7 +833,7 @@
 	desc = "The circuit board for a xenoartifact listing console."
 	id = "xenoa_list_console"
 	build_path = /obj/item/circuitboard/computer/xenoartifact_console
-	category = list ("Research Machinery")
+	category = list("Research Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/board/xenoa_delivery_pad
@@ -841,5 +841,5 @@
 	desc = "The circuit board for a xenoartifact delivery pad."
 	id = "xenoa_delivery_pad"
 	build_path = /obj/item/circuitboard/machine/xenoa_delivery_pad
-	category = list ("Research Machinery")
+	category = list("Research Machinery")
 	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE

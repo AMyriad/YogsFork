@@ -348,11 +348,12 @@
 	log_game("[X] sent signal code [X.code] on frequency [X.frequency] at [world.time]. [X] located at [AREACOORD(X)]")
 
 //============
-// Anchor - The artifact can be anchored, anchors when activated
+// Anchor - The artifact can be anchored, anchors when activated // before merging do a pass through everything using "<span class>" instead of (span(""))
 //============
 /datum/xenoartifact_trait/minor/anchor
 	desc = "Anchored"
 	label_desc = "Anchored: The Artifact buckles to the floor with the weight of a sun every time it activates. Heavier than you, somehow."
+	label_desc = ""
 	blacklist_traits = list(/datum/xenoartifact_trait/minor/wearable) ///datum/xenoartifact_trait/minor/haunted readd before merging
 	flags = BLUESPACE_TRAIT | URANIUM_TRAIT
 
@@ -365,9 +366,14 @@
 	X.density = TRUE
 
 /datum/xenoartifact_trait/minor/anchor/on_item(obj/item/xenoartifact/X, atom/user, obj/item/item)
+	. = FALSE
 	if(item.tool_behaviour == TOOL_WRENCH)
-		to_chat(user, "<span class='info'>You [X.anchored ? "unanchor" : "anchor"] the [X.name] to the [get_turf(X)].</span>")
-		if(tool.use_tool(src, user, 10, volume=100))
+		item.play_tool_sound(X.loc)
+		if(!isfloorturf(loc) || (!X.anchored))
+			var/atom/closest_thing = get_closest_atom()
+			to_chat(user, span_warning("It flings off!"))
+			X.throw_at(closest_thing, 20, (X.charge))
+		to_chat(user, span_notice("You graze the [X.name] with \the [item.name] and it [X.anchored ? "unanchors from" : "anchors to"] the [get_turf(X)]."))
 		if(isliving(X.loc))
 			var/mob/living/holder = X.loc
 			holder.dropItemToGround(X)
@@ -375,32 +381,9 @@
 		if(!X.get_trait(/datum/xenoartifact_trait/minor/dense))
 			X.density = !X.density
 		return TRUE
-	return ..()
-
-/obj/structure/girder/wrench_act(mob/user, obj/item/tool)
-	. = FALSE
-	if(state == GIRDER_DISPLACED)
-		if(!isfloorturf(loc))
-			to_chat(user, span_warning("A floor must be present to secure the girder!"))
-
-		to_chat(user, span_notice("You start securing the girder..."))
-		if(tool.use_tool(src, user, 40, volume=100))
-			to_chat(user, span_notice("You secure the girder."))
-			var/obj/structure/girder/G = new (loc)
-			transfer_fingerprints_to(G)
-			qdel(src)
-		return TRUE
-	else if(state == GIRDER_NORMAL && can_displace)
-		to_chat(user, span_notice("You start unsecuring the girder..."))
-		if(tool.use_tool(src, user, 40, volume=100))
-			to_chat(user, span_notice("You unsecure the girder."))
-			var/obj/structure/girder/displaced/D = new (loc)
-			transfer_fingerprints_to(D)
-			qdel(src)
-		return TRUE
 
 //============
-// Slippery - The artifact is slippery. Honk
+// Slippery - The artifact is slippery. Honk!
 //============
 /datum/xenoartifact_trait/minor/slippery
 	desc = "Slippery"

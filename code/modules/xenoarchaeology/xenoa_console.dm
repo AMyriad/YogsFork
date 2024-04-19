@@ -1,8 +1,3 @@
-/obj/item/circuitboard/computer/xenoartifact_console
-	name = "xenoartifact listing console (Computer Board)"
-	icon_state = "science"
-	build_path = /obj/machinery/computer/xenoartifact_console
-
 /obj/item/circuitboard/machine/xenoa_delivery_pad
 	name = "xenoartifact delivery pad (Machine Board)"
 	icon_state = "science"

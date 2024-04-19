@@ -432,12 +432,15 @@
 	name = "Shuttle Navigation Computer (Computer Board)"
 	build_path = /obj/machinery/computer/camera_advanced/shuttle_docker/custom
 
-
 /obj/item/circuitboard/computer/ai_server_overview
 	name = "AI Server Overview Console (Computer Board)"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/computer/ai_server_console
 
+/obj/item/circuitboard/computer/xenoartifact_console
+	name = "Xenoartifact Listing Console (Computer Board)"
+	greyscale_colors = CIRCUIT_COLOR_SCIENCE
+	build_path = /obj/machinery/computer/xenoartifact_console
 
 //Security
 
