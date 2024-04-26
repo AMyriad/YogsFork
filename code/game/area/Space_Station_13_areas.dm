@@ -1151,9 +1151,9 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Research Division Server Room"
 	icon_state = "server"
 
-/area/science/xenoarchlab
-	name = "Xenoarchaeology Lab"
-	icon_state = "toxmisc"
+/area/science/artifactlab
+	name = "Artifact Research Lab"
+	icon_state = "artifactlab"
 
 /area/science/robotics
 	name = "Robotics"

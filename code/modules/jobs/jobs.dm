@@ -68,7 +68,7 @@ GLOBAL_LIST_INIT(science_lightup_areas, 		\
 		/area/science,							\
 		/area/security/checkpoint/science		\
 	)) - typecacheof(list(						\
-		/area/science/xenoarchlab,				\
+		/area/science/artifactlab,				\
 		/area/science/misc_lab,					\
 		/area/science/mixing,					\
 		/area/science/nanite,					\

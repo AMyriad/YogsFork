@@ -37,7 +37,7 @@
 
 	lightup_areas = list(/area/storage/tech, /area/science/robotics)
 	minimal_lightup_areas = list(
-		/area/science/xenoarchlab,
+		/area/science/artifactlab,
 		/area/science/misc_lab,
 		/area/science/mixing,
 		/area/science/nanite,
