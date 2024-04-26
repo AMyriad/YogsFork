@@ -1,7 +1,7 @@
 /// The actual item we'll be applying all of this onto and how it works
 /obj/item/xenoartifact
 	name = "artifact"
-	icon = 'icons/obj/xenoarchaeology/xenoartifact.dmi'
+	icon = 'icons/obj/artifacts/artifact.dmi'
 	icon_state = "map_editor"
 	w_class = WEIGHT_CLASS_NORMAL
 	item_flags = NO_MAT_REDEMPTION
@@ -111,16 +111,16 @@
 
 		/// Sprite process
 	// Base texture
-	var/icon/texture = new('icons/obj/xenoarchaeology/xenoartifact.dmi', "texture-[material]-[pick(1, 2, 3)]")
+	var/icon/texture = new('icons/obj/artifacts/artifact.dmi', "texture-[material]-[pick(1, 2, 3)]")
 	// Masking
 	var/list/indecies = list(1, 2, 3, 4, 5) // Indecies for masks
 	var/index = pick(indecies)
 	indecies -= index
-	var/icon/mask = new('icons/obj/xenoarchaeology/xenoartifact.dmi', "mask-[material]-[index]")
+	var/icon/mask = new('icons/obj/artifacts/artifact.dmi', "mask-[material]-[index]")
 	for(var/i in 1 to extra_masks)
 		index = pick(indecies)
 		indecies -= index
-		var/icon/extra_mask = new('icons/obj/xenoarchaeology/xenoartifact.dmi', "mask-[material]-[index]")
+		var/icon/extra_mask = new('icons/obj/artifacts/artifact.dmi', "mask-[material]-[index]")
 		mask.Blend(extra_mask, ICON_UNDERLAY)
 	texture.AddAlphaMask(mask)
 	icon = texture
@@ -363,7 +363,7 @@
 /obj/item/xenoartifact/proc/create_beam(atom/target)
 	if((locate(src) in target?.contents) || !get_turf(target))
 		return
-	var/datum/beam/xenoa_beam/B = new((!isturf(loc) ? loc : src), target, time=1.5 SECONDS, beam_icon='icons/obj/xenoarchaeology/xenoartifact.dmi', beam_icon_state="xenoa_beam", btype=/obj/effect/ebeam/xenoa_ebeam)
+	var/datum/beam/xenoa_beam/B = new((!isturf(loc) ? loc : src), target, time=1.5 SECONDS, beam_icon='icons/obj/artifacts/artifact.dmi', beam_icon_state="artif_beam", btype=/obj/effect/ebeam/xenoa_ebeam)
 	B.set_color(material)
 	INVOKE_ASYNC(B, TYPE_PROC_REF(/datum/beam/xenoa_beam, Start))
 
