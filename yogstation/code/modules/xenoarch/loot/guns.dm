@@ -1,7 +1,7 @@
 /obj/item/gun/energy/polarstar
 	name = "Polar Star"
 	desc = "Despite being incomplete, the severe wear on this gun shows to which extent it's been used already."
-	icon = 'yogstation/icons/obj/xenoarch/guns.dmi'
+	icon = 'yogstation/icons/obj/guns/spur.dmi'
 	lefthand_file = 'yogstation/icons/mob/inhands/weapons/xenoarch_lefthand.dmi'
 	righthand_file = 'yogstation/icons/mob/inhands/weapons/xenoarch_righthand.dmi'
 	icon_state = "polarstar"
@@ -78,7 +78,7 @@
 	range = 20
 	damage = 20
 	damage_type = BRUTE
-	icon = 'yogstation/icons/obj/xenoarch/guns.dmi'
+	icon = 'yogstation/icons/obj/guns/spur.dmi'
 	icon_state = "spur_high"
 	var/skip = FALSE //this is the hackiest thing ive ever done but i dont know any other solution other than deparent the spur projectile
 
@@ -108,7 +108,7 @@
 	if(!loc)
 		return
 	var/turf/T = loc
-	var/image/impact = image('yogstation/icons/obj/xenoarch/guns.dmi',T,"spur_range")
+	var/image/impact = image('yogstation/icons/obj/guns/spur.dmi',T,"spur_range")
 	impact.layer = ABOVE_MOB_LAYER
 	T.overlays += impact
 	sleep(0.3 SECONDS)
@@ -128,7 +128,7 @@
 		impact_icon = "spur_hitwall"
 		impact_sound = 'yogstation/sound/weapons/spur_hitwall.ogg'
 
-	var/image/impact = image('yogstation/icons/obj/xenoarch/guns.dmi',target,impact_icon)
+	var/image/impact = image('yogstation/icons/obj/guns/spur.dmi',target,impact_icon)
 	target.overlays += impact
 	spawn(30)
 		target.overlays -= impact
@@ -148,7 +148,7 @@
 	range = 20
 	damage = 40
 	damage_type = BRUTE
-	icon = 'yogstation/icons/obj/xenoarch/guns.dmi'
+	icon = 'yogstation/icons/obj/guns/spur.dmi'
 	icon_state = "spur_high"
 	skip = TRUE
 
