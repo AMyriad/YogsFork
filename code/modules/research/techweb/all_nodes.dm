@@ -31,7 +31,7 @@
 	starting_node = TRUE
 	display_name = "Mechanical Exosuits"
 	description = "Mechanized exosuits that are several magnitudes stronger and more powerful than the average human."
-	design_ids = list("mecha_tracking", "mechacontrol", "mechapower", "mech_recharger", "ripley_chassis", "firefighter_chassis", "ripley_torso", "ripley_left_arm", "ripley_right_arm", "ripley_left_leg", "ripley_right_leg",
+	design_ids = list("mecha_tracking", "mechacontrol", "mechapower", "mech_recharger", "ripley_chassis", "ripley_torso", "ripley_left_arm", "ripley_right_arm", "ripley_left_leg", "ripley_right_leg",
 	"ripley_main", "ripley_peri", "ripleyupgrade", "mech_hydraulic_clamp")
 
 /datum/techweb_node/mech_tools
@@ -375,7 +375,7 @@
 	display_name = "Cyborg Upgrades: Advanced Medical"
 	description = "Advanced upgrades that focus on cyborgs with a medical-related module."
 	prereq_ids = list("cyborg_upgrades_medical", "exp_tools")
-	design_ids = list("borg_upgrade_piercinghypospray", "borg_upgrade_surgerykit", "borg_upgrade_analyzer")
+	design_ids = list("borg_upgrade_piercinghypospray", "borg_upgrade_surgicalomnitool", "borg_upgrade_analyzer")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 1000)
 
 /datum/techweb_node/cyborg_upgrades_mining
