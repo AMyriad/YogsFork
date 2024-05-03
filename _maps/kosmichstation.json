@@ -1,0 +1,27 @@
+{
+	"map_name": "Kosmicheskaya Station",
+	"map_path": "map_files/KosmichStation",
+	"map_file": "KosmichStation.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_fancy",
+	    "emergency": "emergency_box"
+    },
+	"traits": [
+		{
+			"Up": true
+		},
+		{
+			"Up": true, "Down": true,
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Up": true, "Down": true,
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Down": true,
+			"Baseturf": "/turf/open/openspace"
+		}
+	]
+}
