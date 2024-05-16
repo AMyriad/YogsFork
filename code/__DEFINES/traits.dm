@@ -265,10 +265,6 @@
 #define WRIST_STRAP_TRAIT "wrist_strap"
 #define GRIMOIRE_TRAIT "grimoire_trait"
 
-///Traits given by station traits
-
-#define STATION_TRAIT_MOONSCORCH "station_trait_moonscorch"
-
 ///Darkspawn traits
 ///lets darkspawns walk through weak light
 #define TRAIT_DARKSPAWN_LIGHTRES "darkspawn_lightres" 

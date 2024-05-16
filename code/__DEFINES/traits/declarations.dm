@@ -66,7 +66,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_DUMB "dumb"
 /// Whether a mob is dexterous enough to use machines and certain items or not.
 #define TRAIT_ADVANCEDTOOLUSER "advancedtooluser"
-// Antagonizes the above.
+/// Antagonizes the above.
 #define TRAIT_DISCOORDINATED_TOOL_USER "discoordinated_tool_user"
 #define TRAIT_PACIFISM "pacifism"
 #define TRAIT_IGNORESLOWDOWN "ignoreslow"
@@ -915,6 +915,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define STATION_TRAIT_UNIQUE_AI "station_trait_unique_ai"
 #define STATION_TRAIT_UNNATURAL_ATMOSPHERE "station_trait_unnatural_atmosphere"
 #define STATION_TRAIT_VENDING_SHORTAGE "station_trait_vending_shortage"
+#define STATION_TRAIT_MOONSCORCH "station_trait_moonscorch"
 
 /// This atom is currently spinning.
 #define TRAIT_SPINNING "spinning"
@@ -1039,5 +1040,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 
 /// Trait which self-identifies as an enemy of the law
 #define TRAIT_ALWAYS_WANTED "always_wanted"
+
+/// Trait for those touched by the beyond, able to see the true nature of certain things
+#define TRAIT_VEILTOUCHED "veiltouched"
 
 // END TRAIT DEFINES

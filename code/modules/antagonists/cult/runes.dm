@@ -77,7 +77,7 @@ Runes can either be invoked by one's self or with many different cultists. Each 
 			to_chat(user, span_notice("You carefully erase the [lowertext(cultist_name)] rune."))
 			qdel(src)
 	else if(istype(I, /obj/item/nullrod))
-		user.say("BEGONE FOUL MAGIKS!!", forced = "nullrod")
+		user.say("BEGONE FOUL MAGICKS!!", forced = "nullrod")
 		to_chat(user, span_danger("You disrupt the magic of [src] with [I]."))
 		qdel(src)
 
@@ -87,7 +87,7 @@ Runes can either be invoked by one's self or with many different cultists. Each 
 		return
 	if(!iscultist(user))
 		for(var/obj/item/nullrod/antimagic in user.get_equipped_items())
-			user.say("BEGONE FOUL MAGIKS!!", forced = "nullrod")
+			user.say("BEGONE FOUL MAGICKS!!", forced = "nullrod")
 			to_chat(user, span_danger("You disrupt the magic of [src] with [antimagic]."))
 			qdel(src)
 			return
