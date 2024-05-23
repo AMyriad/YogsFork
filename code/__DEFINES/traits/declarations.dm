@@ -73,6 +73,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_IGNOREDAMAGESLOWDOWN "ignoredamageslowdown"
 /// Makes it so the mob can use guns regardless of tool user status
 #define TRAIT_GUN_NATURAL "gunnatural"
+/// Can't hold people up with guns, for whatever reason
+#define TRAIT_NO_HOLDUP "no_holdup"
 /// Causes death-like unconsciousness
 #define TRAIT_DEATHCOMA "deathcoma"
 /// The mob has the stasis effect.
@@ -670,6 +672,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_APC_SHOCKING "apc_shocking"
 /// Properly wielded two handed item
 #define TRAIT_WIELDED "wielded"
+/// This item is currently performing a cleaving attack
+#define TRAIT_CLEAVING "cleaving"
 /// A transforming item that is actively extended / transformed
 #define TRAIT_TRANSFORM_ACTIVE "active_transform"
 /// Buckling yourself to objects with this trait won't immobilize you

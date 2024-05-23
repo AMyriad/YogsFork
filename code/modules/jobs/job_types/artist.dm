@@ -11,7 +11,7 @@
 	outfit = /datum/outfit/job/artist
 	alt_titles = list("Painter", "Composer", "Artisan")
 	added_access = list()
-	base_access = list()
+	base_access = list(ACCESS_SERVHALL)
 	paycheck = PAYCHECK_ASSISTANT
 	paycheck_department = ACCOUNT_CIV
 
@@ -42,8 +42,8 @@
 	
 	head = /obj/item/clothing/head/frenchberet
 	ears = /obj/item/radio/headset/headset_srv
-	uniform = /obj/item/clothing/under/rank/artist
-	uniform_skirt = /obj/item/clothing/under/rank/artist/skirt
+	uniform = /obj/item/clothing/under/rank/civilian/artist
+	uniform_skirt = /obj/item/clothing/under/rank/civilian/artist/skirt
 	gloves = /obj/item/clothing/gloves/fingerless
 	neck = /obj/item/clothing/neck/artist
 	l_pocket = /obj/item/laser_pointer

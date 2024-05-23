@@ -96,21 +96,21 @@
 	name = "Plasma canister"
 	desc = "Plasma gas. The reason YOU are here. Highly toxic."
 	greyscale_config = /datum/greyscale_config/canister/hazard
-	greyscale_colors = "#f62800#000000"
+	greyscale_colors = "#f63400#000000"
 	gas_type = GAS_PLASMA
 
 /obj/machinery/portable_atmospherics/canister/bz
 	name = "\improper BZ canister"
 	desc = "BZ, a powerful hallucinogenic nerve agent."
 	greyscale_config = /datum/greyscale_config/canister/double_stripe
-	greyscale_colors = "#f62800#d0d2a0"
+	greyscale_colors = "#f63800#ffffff"
 	gas_type = GAS_BZ
 
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide
 	name = "Nitrous oxide canister"
 	desc = "Nitrous oxide gas. Known to cause drowsiness."
 	greyscale_config = /datum/greyscale_config/canister/double_stripe
-	greyscale_colors = "#1b6d1b#f7d5d3"
+	greyscale_colors = "#1b6d1b#ffffff"
 	gas_type = GAS_NITROUS
 
 /obj/machinery/portable_atmospherics/canister/air
@@ -151,7 +151,7 @@
 	name = "Water vapor canister"
 	desc = "Water vapor. We get it, you vape."
 	greyscale_config = /datum/greyscale_config/canister/double_stripe
-	greyscale_colors = "#2ee5e9#f7d5d3"
+	greyscale_colors = "#17c3c7#ffffff"
 	gas_type = GAS_H2O
 	filled = 1
 
@@ -310,14 +310,10 @@
 	air_contents.set_moles(GAS_O2, (O2STANDARD * maximum_pressure * filled) * air_contents.return_volume() / (R_IDEAL_GAS_EQUATION * air_contents.return_temperature()))
 	air_contents.set_moles(GAS_N2, (N2STANDARD * maximum_pressure * filled) * air_contents.return_volume() / (R_IDEAL_GAS_EQUATION * air_contents.return_temperature()))
 
-/obj/machinery/portable_atmospherics/canister/update_icon_state()
-	if(stat & BROKEN)
-		icon_state = "[initial(icon_state)]-1"
-	return ..()
-
 /obj/machinery/portable_atmospherics/canister/update_overlays()
 	. = ..()
 	if(stat & BROKEN)
+		. += mutable_appearance(canister_overlay_file, "broken")
 		return
 	if(valve_open)
 		. += mutable_appearance(canister_overlay_file, "can-open")
@@ -367,7 +363,7 @@
 	qdel(src)
 
 /obj/machinery/portable_atmospherics/canister/welder_act(mob/living/user, obj/item/I)
-	if(user.a_intent == INTENT_HARM)
+	if(user.combat_mode)
 		return FALSE
 
 	if(stat & BROKEN)
@@ -401,6 +397,8 @@
 	if(holding)
 		usr.put_in_hands(holding)
 		holding = null
+
+	animate(src, 0.5 SECONDS, transform=turn(transform, 90), easing=BOUNCE_EASING)
 
 /obj/machinery/portable_atmospherics/canister/replace_tank(mob/living/user, close_valve)
 	. = ..()
