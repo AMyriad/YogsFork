@@ -13,7 +13,12 @@
 	radio = new(src)
 	radio.listening = FALSE
 	radio.recalculateChannels()
+
+/obj/item/implant/biosig/implant(mob/living/target, mob/user, silent = FALSE, force = FALSE)
 	team_remaining += 1
+
+/obj/item/implant/biosig/removed(mob/living/source, silent = FALSE, special = 0)
+	team_remaining -= 1
 
 /obj/item/implant/biosig/activate(cause)
 	if(!imp_in)
@@ -33,11 +38,11 @@
 		else
 			endmsg = alldead_endmessage
 
-	// Location.
+	/// Location.
 	var/area/turf = get_area(imp_in)
-	// Name of implant user.
+	/// Name of implant user.
 	var/mobname = imp_in.name
-	// What is to be said.
+	/// What is to be said.
 	var/message = ""
 
 	//Biosignaller Implant broadcasts, ""
