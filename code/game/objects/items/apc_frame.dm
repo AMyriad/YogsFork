@@ -1,5 +1,5 @@
 /obj/item/wallframe
-	icon = 'icons/obj/frame.dmi'
+	icon = 'icons/obj/machines/wallmounts.dmi'
 	materials = list(/datum/material/iron=MINERAL_MATERIAL_AMOUNT*2)
 	flags_1 = CONDUCT_1
 	item_state = "syringe_kit"
@@ -83,7 +83,7 @@
 /obj/item/wallframe/apc
 	name = "\improper APC frame"
 	desc = "Used for repairing or building APCs."
-	icon_state = "apc"
+	icon_state = "apc_frame"
 	result_path = /obj/machinery/power/apc
 	inverse = 1
 

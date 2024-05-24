@@ -1,11 +1,12 @@
 /obj/structure/noticeboard
 	name = "notice board"
 	desc = "A board for pinning important notices upon."
-	icon = 'icons/obj/stationobjs.dmi'
-	icon_state = "nboard00"
+	icon = 'icons/obj/wallmounts.dmi'
+	icon_state = "noticeboard"
 	density = FALSE
 	anchored = TRUE
 	max_integrity = 150
+	/// Current number of a pinned notices
 	var/notices = 0
 
 /obj/structure/noticeboard/Initialize(mapload)
@@ -20,7 +21,12 @@
 		if(istype(I, /obj/item/paper))
 			I.forceMove(src)
 			notices++
-	icon_state = "nboard0[notices]"
+	update_appearance(UPDATE_ICON)
+
+/obj/structure/noticeboard/update_overlays()
+	. = ..()
+	if(notices)
+		. += "notices_[notices]"
 
 //attaching papers!!
 /obj/structure/noticeboard/attackby(obj/item/O, mob/user, params)
@@ -32,7 +38,7 @@
 			if(!user.transferItemToLoc(O, src))
 				return
 			notices++
-			icon_state = "nboard0[notices]"
+			update_appearance(UPDATE_ICON)
 			to_chat(user, span_notice("You pin the [O] to the noticeboard."))
 		else
 			to_chat(user, span_notice("The notice board is full"))
@@ -65,7 +71,7 @@
 			I.forceMove(usr.loc)
 			usr.put_in_hands(I)
 			notices--
-			icon_state = "nboard0[notices]"
+			update_appearance(UPDATE_ICON)
 
 	if(href_list["write"])
 		if((usr.stat || usr.restrained())) //For when a player is handcuffed while they have the notice window open
@@ -130,3 +136,4 @@
 	name = "Staff Notice Board"
 	desc = "Important notices from the heads of staff."
 	req_access = list(ACCESS_HEADS)
+

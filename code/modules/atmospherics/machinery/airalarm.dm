@@ -41,8 +41,7 @@
 /obj/item/wallframe/airalarm
 	name = "air alarm frame"
 	desc = "Used for building Air Alarms."
-	icon = 'icons/obj/monitors.dmi'
-	icon_state = "alarm_bitem"
+	icon_state = "alarm_frame"
 	result_path = /obj/machinery/airalarm
 
 #define AALARM_MODE_SCRUBBING 1

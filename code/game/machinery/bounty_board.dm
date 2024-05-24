@@ -163,6 +163,7 @@ GLOBAL_LIST_EMPTY(request_list)
 /obj/item/wallframe/bounty_board
 	name = "disassembled bounty board"
 	desc = "Used to build a new bounty board, just secure to the wall."
+	icon = 'icons/obj/terminals.dmi'
 	icon_state = "request_kiosk"
 	materials = list(/datum/material/iron = 14000, /datum/material/glass = 8000)
 	result_path = /obj/machinery/bounty_board

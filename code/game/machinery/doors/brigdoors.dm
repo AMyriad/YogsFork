@@ -20,7 +20,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////
 /obj/machinery/door_timer
 	name = "door timer"
-	icon = 'icons/obj/status_display.dmi'
+	icon = 'icons/obj/machines/status_display.dmi'
 	icon_state = "frame"
 	desc = "A remote control for a door."
 	req_access = list(ACCESS_SECURITY)
@@ -340,7 +340,7 @@
 		return
 	if(maptext)
 		maptext = ""
-	. += mutable_appearance('icons/obj/status_display.dmi', "ai_bsod")
+	. += mutable_appearance('icons/obj/machines/status_display.dmi', "ai_bsod")
 
 
 //Checks to see if there's 1 line or 2, adds text-icons-numbers/letters over display

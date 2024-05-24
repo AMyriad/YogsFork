@@ -576,7 +576,7 @@
 /obj/structure/rack
 	name = "rack"
 	desc = "Different from the Middle Ages version."
-	icon = 'icons/obj/objects.dmi'
+	icon = 'icons/obj/structures.dmi'
 	icon_state = "rack"
 	layer = TABLE_LAYER
 	density = TRUE
@@ -666,7 +666,7 @@
 /obj/item/rack_parts
 	name = "rack parts"
 	desc = "Parts of a rack."
-	icon = 'icons/obj/frame.dmi'
+	icon = 'icons/obj/structures.dmi'
 	icon_state = "rack_parts"
 	flags_1 = CONDUCT_1
 	materials = list(/datum/material/iron=2000)

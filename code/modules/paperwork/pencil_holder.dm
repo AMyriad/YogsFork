@@ -1,9 +1,8 @@
 /obj/item/storage/pencil_holder
-	name = "holder"
+	name = "pencil holder"
 	desc = "A container for writing utensils."
 	icon = 'yogstation/icons/obj/bureaucracy.dmi'
-	icon_state = "pencilholder_0"
-	item_state = "paper !CONFLICT! base"
+	icon_state = "pencilholder"
 	w_class = WEIGHT_CLASS_SMALL
 	throwforce = 0
 	throw_range = 5
@@ -18,20 +17,19 @@
 		/obj/item/pen,
 		/obj/item/toy/crayon,
 	))
+	update_appearance(UPDATE_ICON)
 
-/obj/item/storage/pencil_holder/update_icon_state()
+/obj/structure/noticeboard/update_overlays()
 	. = ..()
 	switch(contents.len)
-		if(0)
-			icon_state = "pencilholder_0"
 		if(1)
-			icon_state = "pencilholder_1"
+			. += "pencils_1"
 		if(2 to 10)
-			icon_state = "pencilholder_2"
+			. += "pencils_2"
 		if(11 to 19)
-			icon_state = "pencilholder_3"
+			. += "pencils_3"
 		if(20)
-			icon_state = "pencilholder_4"
+			. += "pencils_4"
 	
 /obj/item/storage/pencil_holder/crew
 //THE POPULATED CAN FOR CREW

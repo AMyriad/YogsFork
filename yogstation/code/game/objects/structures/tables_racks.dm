@@ -38,7 +38,6 @@
 /obj/structure/rack/skeletal
 	name = "minibar"
 	desc = "Different from the Middle Ages version."
-	icon = 'yogstation/icons/obj/stationobjs.dmi'
 	icon_state = "minibar"
 
 /obj/structure/rack/skeletal/left
