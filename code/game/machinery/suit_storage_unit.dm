@@ -1,4 +1,4 @@
-// SUIT STORAGE UNIT /////////////////
+// SUIT STORAGE UNIT //
 /obj/machinery/suit_storage_unit
 	name = "suit storage unit"
 	desc = "An industrial unit made to hold and decontaminate irradiated equipment. It comes with a built-in UV cauterization mechanism. A small warning label advises that organic matter should not be placed into the unit."
@@ -12,7 +12,8 @@
 	var/obj/item/clothing/head/helmet/space/helmet = null
 	var/obj/item/clothing/mask/mask = null
 	var/obj/item/storage = null
-								// if you add more storage slots, update cook() to clear their radiation too.
+
+		// if you add more storage slots, update cook() to clear their radiation too.
 
 	var/suit_type = null
 	var/helmet_type = null
