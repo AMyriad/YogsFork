@@ -169,6 +169,42 @@
 	else if(occupant)
 		. += "human"
 
+
+/obj/machinery/suit_storage_unit/update_overlays()
+	. = ..()
+	// If things aren't powered, these show anyways
+	if(panel_open)
+		. += "panel"
+	if(state_open)
+		. += "[base_icon_state]_open"
+		if(suit || mod)
+			. += "[base_icon_state]_suit"
+		if(helmet)
+			. += "[base_icon_state]_helm"
+		if(storage)
+			. += "[base_icon_state]_storage"
+	if(!(machine_stat & BROKEN || machine_stat & NOPOWER))
+		if(state_open)
+			. += "[base_icon_state]_lights_open"
+		else
+			if(uv)
+				if(uv_super)
+					. += "[base_icon_state]_super"
+				. += "[base_icon_state]_lights_red"
+			else
+				. += "[base_icon_state]_lights_closed"
+		// Top lights
+		if(uv)
+			if(uv_super)
+				. += "[base_icon_state]_uvstrong"
+			else
+				. += "[base_icon_state]_uv"
+		else if(locked)
+			. += "[base_icon_state]_locked"
+		else
+			. += "[base_icon_state]_ready"
+
+
 /obj/machinery/suit_storage_unit/power_change()
 	if(!is_operational() && state_open)
 		open_machine()
