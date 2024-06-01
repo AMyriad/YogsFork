@@ -143,15 +143,15 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "brain",
-			SPECIES_PERK_NAME = "Rerouted Consciousness",
+			SPECIES_PERK_NAME = "Rerouted Consciousnes",
 			SPECIES_PERK_DESC = "IPCs have positronic brains located in their chest rather than their head. \
-								They can survive decapitation, but revival will need a special reactivation surgery done on the brain.",
+								They can survive decapitation, but revival needs special reactivation surgery done on the brain.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "wrench",
 			SPECIES_PERK_NAME = "Working Machine",
-			SPECIES_PERK_DESC = "IPCs are manufactured to be quick, cheap labor. \
+			SPECIES_PERK_DESC = "IPCs are manufactured to be quick and cheap workers. \
 								They use tools and items faster than most races.",
 		),
 		list(
@@ -159,22 +159,22 @@
 			SPECIES_PERK_ICON = "robot",
 			SPECIES_PERK_NAME = "Automa",
 			SPECIES_PERK_DESC = "IPCs are completely inorganic. \
-								They boast complete immunity to toxins, cellular damage, disease, becoming husked, and have no need to breathe. \
-								However, their organs do not heal naturally, and medicines have no effect on them.",
+								They boast complete immunity to toxins, cell damage, disease, husking, and have no need to breathe. \
+								Their \"organs\" will not heal naturally however, and must be replaced if damaged.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "trash-alt",
 			SPECIES_PERK_NAME = "Random Access Memories", // RIP daft punk
-			SPECIES_PERK_DESC = "IPCs store all recent memory data within their RAM components, which is automatically wiped on death. \
-								IPCs will not remember when or how they died, regardless of how long they have been dead for.",
+			SPECIES_PERK_DESC = "IPCs hold all recent memories in their RAM chips, which wipe automatically on death. \
+								An IPC will never remember when or how it died, regardless of how long it's been dead."
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "dna",
 			SPECIES_PERK_NAME = "Missing Sequence",
-			SPECIES_PERK_DESC = "IPCs have no biological DNA, and by extension, no genetic sequence. \
-								They cannot be affected by genetic mutations, nor be cloned.",
+			SPECIES_PERK_DESC = "IPCs have no DNA or genetic sequence. \
+								They can't be affected by genetic mutations, nor be cloned.",
 		),
 	)
 

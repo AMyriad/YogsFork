@@ -248,49 +248,49 @@
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "user-astronaut",
 			SPECIES_PERK_NAME = "The Suit",
-			SPECIES_PERK_DESC = "Plasmamen begin with an airtight envirosuit, which they are dependant on to survive. \
-								Their envirohelm is also space-worthy, and provides welding protection, as well as a built-in flashlight.",
+			SPECIES_PERK_DESC = "Plasmamen begin wearing an airtight envirosuit, which they are dependant on to stay alive. \
+								Their envirohelm is also space-worthy, provides welding protection, and a built-in headlamp.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "skull",
-			SPECIES_PERK_NAME = "Hazard-Born",
-			SPECIES_PERK_DESC = "Plasmamen are reshaped by the plasmafires they died in. \
-								They're completely immune to becoming husked, feeling any hunger, being affected by the cold, and resist diseases.",
+			SPECIES_PERK_NAME = "Hazard Born",
+			SPECIES_PERK_DESC = "Plasmamen are reborn by the plasmafire they died in. \
+								They're completely immune to husking, starving, the cold, and resist diseases.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "bone",
 			SPECIES_PERK_NAME = "Bones of Steel",
-			SPECIES_PERK_DESC = "Plasmamen have naturally dense bones due to their makeup of solid plasma. \
+			SPECIES_PERK_DESC = "Plasmamen have tough bones infused with solid plasma. \
 								They only suffer fracture wounds, and are generally harder to wound.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "fire",
 			SPECIES_PERK_NAME = "Phlogiston",
-			SPECIES_PERK_DESC = "Plasmamen are infused with a volatile form of solid plasma throughout their body. \
-								Any exposure to oxygen gas will ignite this plasma, instantly setting them on fire.",
+			SPECIES_PERK_DESC = "Plasmamen have a makeup of solid, volatile plasma. \
+								Exposure to oxygen gas will ignite this plasma, instantly setting them ablaze.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Baroxuldium Breath",
-			SPECIES_PERK_DESC = "Plasmamen are able to breathe plasma gas safely at the cost of oxygen being toxic to them. \
-								They're supplied with a tank of plasma that will last most of the shift, as well as a spare in their survival box.",
+			SPECIES_PERK_DESC = "Plasmamen can breathe plasma gas safely, but oxygen is highly toxic. \
+								They receive a tank that can last most of the shift on arrival, and have a spare in their emergency box",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "heart-circle-exclamation",
-			SPECIES_PERK_NAME = "Heartless Husk",
+			SPECIES_PERK_NAME = "Heartless Husks",
 			SPECIES_PERK_DESC = "Plasmamen, since their violent rebirth, do not have hearts. \
-								Combined with their disposition toward oxygen, surgery and revival may be more difficult.",
+								Combined with how they react to oxygen, surgery and revival may be difficult.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "dna",
 			SPECIES_PERK_NAME = "Charred Genome",
-			SPECIES_PERK_DESC = "Plasmaman DNA has more in common with ash than it does normal DNA. \
+			SPECIES_PERK_DESC = "Plasmaman DNA . \
 								They have no genetic sequence, and can't be affect by genetic mutations at all. \
 								Despite this, they can still be cloned.",
 		),

@@ -2762,7 +2762,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(TRAIT_LIMBATTACHMENT in inherent_traits)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "fa-handshake-angle",
+			SPECIES_PERK_ICON = "user-plus",
 			SPECIES_PERK_NAME = "Limbs Easily Reattached",
 			SPECIES_PERK_DESC = "[plural_form] limbs are easily readded, and as such do not \
 				require surgery to restore. Simply pick it up and pop it back in, champ!",
@@ -2770,14 +2770,14 @@ GLOBAL_LIST_EMPTY(features_by_species)
 	if(TRAIT_POWERHUNGRY in inherent_traits)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
-			SPECIES_PERK_ICON = "charging-station", //would prefer battery-bolt, but it doesn't show up
+			SPECIES_PERK_ICON = "battery-4", //would prefer battery-bolt, but it doesn't show up
 			SPECIES_PERK_NAME = "Power-Hungry",
 			SPECIES_PERK_DESC = "[plural_form] run off electricity rather than food.",
 		))
 	if(TRAIT_EASYDISMEMBER in inherent_traits)
 		to_add += list(list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
-			SPECIES_PERK_ICON = "crutch",
+			SPECIES_PERK_ICON = "user-minus",
 			SPECIES_PERK_NAME = "Limbs Easily Dismembered",
 			SPECIES_PERK_DESC = "[plural_form] limbs are not secured well, and as such they are easily dismembered.",
 		))
@@ -2832,7 +2832,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "shoe-prints",
 			SPECIES_PERK_NAME = "Nonstandard Limbs",
-			SPECIES_PERK_DESC = "[plural_form] have oddly shaped legs, and cannot fit into most standard footwear. Footwraps may be able to be worn instead.",
+			SPECIES_PERK_DESC = "[plural_form] have oddly shaped legs, and cannot fit into most standard footwear. Footwraps may be worn instead.",
 		))
 
 	return to_add
@@ -2863,7 +2863,7 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "book",
 			SPECIES_PERK_NAME = "[english_list(bonus_languages)] Fluency",
-			SPECIES_PERK_DESC = "Alongside [initial(common_language.name)], [plural_form] gain the ability to speak and understand [english_list(bonus_languages)].",
+			SPECIES_PERK_DESC = "Alongside [initial(common_language.name)], [plural_form] can speak and understand [english_list(bonus_languages)].",
 		))
 
 	qdel(temp_holder)

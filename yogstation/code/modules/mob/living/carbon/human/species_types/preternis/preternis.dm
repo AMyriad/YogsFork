@@ -347,7 +347,7 @@
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
-			SPECIES_PERK_NAME = "+",
+			SPECIES_PERK_NAME = "Nanovapor Filters",
 			SPECIES_PERK_DESC = "Preterni have bioengineered lungs that require little oxygen, and filter trace amounts of toxic gases from the air.",
 		),
 		list(
@@ -368,8 +368,7 @@
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "droplet-slash",
 			SPECIES_PERK_NAME = "Metal Marrow",
-			SPECIES_PERK_DESC = "Preterni have solid metal bones with no internal marrow. \
-								Their body will not regenerate any blood lost.",
+			SPECIES_PERK_DESC = "Preterni have solid metal bones with no internal marrow. Their body will not create blood to replace any lost."
 		),
 	)
 

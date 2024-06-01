@@ -327,7 +327,7 @@
 		"Families do not exist among phytosians, and each individual is expected to be autonomous. Society is organized by disciplined, \
 		constant work with few celebrations. Phytosians give no value to their lives, as death is seen as a minor inconvenience \
 		at worst; it is a rather unremarkable event, since they'll be back soon. Violent, often lethal sports are not uncommon and \
-		still remain popular amongthem today. Most notable is the phytosian's obsession with fire. Fire is both revered and \
+		still remain popular among them today. Most notable is the phytosian's obsession with fire. Fire is both revered and \
 		feared, as incineration is one of the only ways for a phytosian to truly die; it destroysthe podseeds under them and \
 		evaporates blood. It is a divine power, a destructive force, and an escape from the endless cycle of rebirth.",
 
@@ -345,38 +345,34 @@
 	to_add += list(
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
-			SPECIES_PERK_ICON = "clover", // Looks kinda like a sun as well
+			SPECIES_PERK_ICON = "clover", // Looks a bit like a sun too
 			SPECIES_PERK_NAME = "Photosynthetic",
-			SPECIES_PERK_DESC = "Phytosians passively heal and gain nutrition from exposure to light. \
-								This effect is doubled while processing sugar.",
+			SPECIES_PERK_DESC = "Phytosians passively heal and gain nutrition when exposed to light. \
+								This effect is doubled whdigesting sugar.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "lungs",
 			SPECIES_PERK_NAME = "Carbon Cycle",
-			SPECIES_PERK_DESC = "Phytosians are able to breathe CO2 safely.",
+			SPECIES_PERK_DESC = "Phytosians can breathe CO2 safely.",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_POSITIVE_PERK,
 			SPECIES_PERK_ICON = "tree",
-			SPECIES_PERK_NAME = "Friend of the Florae",
-			SPECIES_PERK_DESC = "Certain hostile plant-like creatures such as killer tomatoes are insteda neutral toward phytosians.",
+			SPECIES_PERK_NAME = "Friend of the Flora",
+			SPECIES_PERK_DESC = "Phytosians are treated .",
 		),
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEUTRAL_PERK,
 			SPECIES_PERK_ICON = "flask",
 			SPECIES_PERK_NAME = "Botanical Biology",
-			SPECIES_PERK_DESC = "Phytosians have many unique interactions with chemicals that affect plant life.",
-			
-			SPECIES_PERK_NAME = "Botanic Biology",
-			SPECIES_PERK_DESC = "Phytosians are affected by chemicals that interact with plant life, such as herbicides.",
+			SPECIES_PERK_DESC = "Phytosians are hurt by herbicides and other chemicals that affect plant life.",
 		),
-
 		list(
 			SPECIES_PERK_TYPE = SPECIES_NEGATIVE_PERK,
 			SPECIES_PERK_ICON = "plant-wilt",
 			SPECIES_PERK_NAME = "Wilting",
-			SPECIES_PERK_DESC = "Phytosians lose nutrition in darkness, and begin to die from oxygen loss when starving. \
+			SPECIES_PERK_DESC = "Phytosians lose nutrition in darkness, and will begin to wilt and die while starving. \
 								This effect is tripled while processing sugar.",
 		),
 		list(
