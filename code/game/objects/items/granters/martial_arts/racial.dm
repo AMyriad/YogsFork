@@ -156,9 +156,10 @@
 
 /obj/item/book/granter/martial/lightning_flow
 	name = "glowing parchment"
+	name = ""
 	desc = "A scroll made of unusual paper, written for ethereals looking to defend themselves while exploring the material world."
-	icon = 'icons/obj/wizard.dmi'
-	icon_state = "scroll2"
+	icon = 'icons/obj/traitor.dmi'
+	icon_state = "lightflow_shard"
 	martial = /datum/martial_art/lightning_flow
 	martial_name = "Lightning Flow"
 	greet = span_sciradio("You have learned lightning flow. Weave through your enemies like a bolt of lightning.\
