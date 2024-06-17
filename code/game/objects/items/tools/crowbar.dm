@@ -21,10 +21,6 @@
 	toolspeed = 1
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 50, ACID = 30)
 
-/obj/item/crowbar/attack(mob/living/M, mob/user)
-	if(!attempt_initiate_surgery(src, M, user))
-		..()
-
 /obj/item/crowbar/suicide_act(mob/user)
 	user.visible_message(span_suicide("[user] is beating [user.p_them()]self to death with [src]! It looks like [user.p_theyre()] trying to commit suicide!"))
 	playsound(loc, 'sound/weapons/genhit.ogg', 50, 1, -1)
@@ -46,7 +42,6 @@
 	desc = "A hard-light crowbar. It appears to pry by itself, without any effort required."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "crowbar_alien"
-	belt_icon_state = "crowbar_alien"
 	usesound = 'sound/weapons/sonic_jackhammer.ogg'
 	toolspeed = 0.1
 
@@ -62,6 +57,10 @@
 	icon_state = "crowbar_large"
 	item_state = "crowbar"
 	toolspeed = 0.7
+
+/obj/item/crowbar/large/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/cleave_attack, no_multi_hit=TRUE) // it's big
 
 /obj/item/crowbar/cyborg
 	name = "hydraulic crowbar"
