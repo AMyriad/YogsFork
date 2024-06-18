@@ -185,13 +185,13 @@
 	distill_reagent = /datum/reagent/magnus_purpura_enzyme/condensed
 
 /obj/item/organ/regenerative_core/dryad
-	name = "Dryad heart"
-	desc = "Heart of a dryad. It can be used to heal completely, but it will rapidly decay into uselessness."
+	name = "dryad heart"
+	desc = "A knot of vines slithering inside a wooden shell. It can be used to heal quickly, but it will rapidly decay into uselessness. Radiation found in active space installments will slow its healing effects."
 	icon = 'yogstation/icons/obj/jungle.dmi'
 	icon_state = "dryad_heart"
 	status_effect = /datum/status_effect/regenerative_core/dryad
 
-/obj/item/organ/regenerative_core/dryad/Initialize()
+/obj/item/organ/regenerative_core/dryad/Initialize(mapload)
 	. = ..()
 	update_appearance(UPDATE_ICON)
 
@@ -202,17 +202,13 @@
 		var/datum/action/A = X
 		A.build_all_button_icons()
 
-/obj/item/organ/regenerative_core/dryad/preserved(implanted)
-	. = ..()
-	name = "preserved [initial(name)]"
-	desc = "Heart of a dryad. It can be used to heal completely, unlike others, this one won't decay"
-
 /obj/item/organ/regenerative_core/dryad/go_inert()
 	..()
-	desc = "[src] has become inert. It has decayed, and is completely useless."
+	desc = "[src] has become still and lifeless. It has decayed, and is completely useless."
 
 /obj/item/organ/regenerative_core/dryad/preserved(implanted = 0)
 	..()
+	name = "preserved [initial(name)]"
 	desc = "[src] has been stabilized. It is preserved, allowing you to use it to heal completely without danger of decay."
 
 /obj/item/organ/regenerative_core/dryad/corrupted

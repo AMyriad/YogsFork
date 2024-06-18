@@ -24,69 +24,73 @@
 	if(C && crusher_loot && C.total_damage >= maxHealth * 0.6 && crusher_loot)
 		loot += crusher_loot
 	. = ..()
+
+
+	/// Bramble/Wild dryads
+	// Imagine a hermit crab but the crab is parasitic and the shell is made of sticks/forest junk
+	// Follows players while projectile vomiting healing tree sap at them
+	// Gets pissed if players attack it or other dryads, will start shooting "stinging" sap instead
+
 /mob/living/simple_animal/hostile/yog_jungle/dryad
-	name = "Jungle spirit"
-	desc = "A spirit of the jungle, protector of the forest, heals the ones in need, and butchers the ones that plauge the forest."
+// Visuals/text
+	name = "bramble dryad"
+	desc = "An amalgam of branches held together by the squirming \"vine\" coiled around it. \
+		They're known to aid and protect all things in their jungle, but hunt down those who hurt their kind."
 	icon_state = "dryad"
 	icon_living = "dryad"
 	icon_dead = "dryad_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
-	speak = list("eak!","sheik!","ahik!","keish!")
-	speak_emote = list("shimmers", "vibrates")
-	emote_hear = list("vibes.","sings.","shimmers.")
-	emote_taunt = list("tremors", "shakes")
-	speak_chance = 1
-	taunt_chance = 1
-	turns_per_move = 1
-	butcher_results = list()
+
+// Flavor/interactions
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
+	speak_emote = "rustles" // Think rustling the leaves on its back
 	response_help  = "pets"
 	response_disarm = "gently pushes aside"
-	response_harm   = "hits"
+
+// Combat/mechanics
 	maxHealth = 60
 	health = 60
-	spacewalk = TRUE
+	turns_per_move = 1
 	ranged = TRUE
 	loot = list(/obj/item/organ/regenerative_core/dryad)
-	ranged_cooldown_time = 4 SECONDS
+	environment_smash = ENVIRONMENT_SMASH_NONE // Weakass walking pile of twigs
 	retreat_distance = 1
 	minimum_distance = 3
+	ranged_cooldown_time = 4 SECONDS
 	projectiletype = /obj/projectile/jungle/damage_orb
 	alpha_type = /mob/living/simple_animal/hostile/yog_jungle/alpha/alpha_dryad
 	var/alt_projectiletype = /obj/projectile/jungle/heal_orb
 	var/alt_cooldown_time = 10 SECONDS
 
 /mob/living/simple_animal/hostile/yog_jungle/dryad/Shoot(atom/targeted_atom)
-	if(HAS_TRAIT(targeted_atom,TRAIT_ENEMY_OF_THE_FOREST)) 
+	if(HAS_TRAIT(targeted_atom, TRAIT_ENEMY_OF_THE_FOREST)) 
 		projectiletype = initial(projectiletype)
 		ranged_cooldown_time = alt_cooldown_time
 	else 
 		projectiletype = alt_projectiletype
 		ranged_cooldown_time = initial(ranged_cooldown_time)	
 	return ..()
-	
+
+	// Imagine the shell came alive and killed the crab
+	// Follows players while projectile vomiting "poison" sap
 /mob/living/simple_animal/hostile/yog_jungle/corrupted_dryad
-	name = "Cursed jungle spirit"
-	desc = "A spirit of the jungle, once a protector, but now corrupted by forced beyond this world. It's essence it's twisted and it will attack everyone in sight"
+	name = "wild dryad"
+	desc = "An amalgam of splintered branches wearing the husk of a \"vine\" coiled around it. \
+		It looks like it has grown a mind of its own, and isn't very thrilled by your presence."
 	icon_state = "corrupted_dryad"
 	icon_living = "corrupted_dryad"
 	icon_dead = "corrupted_dryad_dead"
-	mob_biotypes = list(MOB_BEAST,MOB_ORGANIC)
-	speak = list("eak!","sheik!","ahik!","keish!")
-	speak_emote = list("shimmers", "vibrates")
-	emote_hear = list("vibes.","sings.","shimmers.")
-	emote_taunt = list("tremors", "shakes")
-	speak_chance = 1
-	taunt_chance = 1
-	turns_per_move = 1
-	response_help  = "pets"
-	response_disarm = "gently pushes aside"
-	response_harm   = "hits"
+	
+	mob_biotypes = MOB_BEAST | MOB_ORGANIC
+	speak_emote = "creaks" // Whatever bending wood sounds like
+	response_help  = "cautiously pets"
+	response_disarm = "pushes aside"
+
 	maxHealth = 120
 	health = 120
-	spacewalk = TRUE
+	turns_per_move = 1
 	ranged = TRUE
 	loot = list (/obj/item/organ/regenerative_core/dryad/corrupted)
-	ranged_cooldown_time = 2 SECONDS
+	ranged_cooldown_time = 3 SECONDS // Angrier than normal dryads
 	retreat_distance = 1
 	minimum_distance = 3
 	projectiletype = /obj/projectile/jungle/damage_orb
@@ -200,7 +204,7 @@
 	if(isliving(target))
 		var/mob/living/living_target = target
 		
-		if(!QDELETED(living_target) && living_target.stat > UNCONSCIOUS) //Unconcious or dead
+		if(!QDELETED(living_target) && living_target.stat > UNCONSCIOUS) //Unconscious or dead
 			steal_identity(living_target)
 
 /mob/living/simple_animal/hostile/yog_jungle/skin_twister/Life()
@@ -622,7 +626,6 @@
 
 /mob/living/simple_animal/hostile/tar 
 	icon = 'yogstation/icons/mob/jungle.dmi'
-	stat_attack = DEAD
 	weather_immunities = WEATHER_ACID
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	robust_searching = TRUE
@@ -664,8 +667,13 @@
 	melee_damage_lower = 15
 	melee_damage_upper = 20
 
+	/// Tar dryads
+	// Now imagine the shell and the crab fused together in perpetual agony
+	// Doesn't target the player; instead heals other tar creatures
+	// If no ally tar creatures are nearby, it blows up
 /mob/living/simple_animal/hostile/tar/dryad
 	name = "Tar Dryad"
+	name = "tar dryad"
 	desc = "Once a creature of the forest. It now belongs to the dominion of tar."
 	icon_state = "tar_dryad"
 	health = 100
