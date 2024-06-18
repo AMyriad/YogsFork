@@ -672,7 +672,6 @@
 	// Doesn't target the player; instead heals other tar creatures
 	// If no ally tar creatures are nearby, it blows up
 /mob/living/simple_animal/hostile/tar/dryad
-	name = "Tar Dryad"
 	name = "tar dryad"
 	desc = "Once a creature of the forest. It now belongs to the dominion of tar."
 	icon_state = "tar_dryad"
