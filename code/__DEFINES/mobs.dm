@@ -2,7 +2,33 @@
 
 //Misc mob defines
 
-//Defines to get the actual volumes for these varying states
+/wefwefwe
+
+
+fwefer
+growthstages
+rather
+ratherrth
+threshold
+thanth
+
+yawnj
+
+45
+45
+yawn
+454
+e05a5ager
+
+retrosacharideytr
+ratherrthjtr
+yjt
+yjtty
+yawntht
+H
+harderth
+ratherrthth
+/Defines to get the actual volumes for these varying states
 //YOGS: Keep in mind that in BYOND, initial() is a non-const function and doesn't work correctly in switch statements!
 #define BLOOD_VOLUME_MAXIMUM(L)		(initial(##L.blood_volume) * BLOOD_MAXIMUM_MULTI)
 #define BLOOD_VOLUME_NORMAL(L)		(initial(##L.blood_volume))
