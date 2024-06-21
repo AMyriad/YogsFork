@@ -212,7 +212,7 @@
 	desc = "[src] has been stabilized. It is preserved, allowing you to use it to heal completely without danger of decay."
 
 /obj/item/organ/regenerative_core/dryad/corrupted
-	name = "Corrupted dryad heart"
+	name = "wild dryad heart"
 	desc = "Heart of a corrupted dryad, for now it still lives, and i may use some of it's strength to help me live aswell."
 	icon_state = "corrupted_heart"
 	status_effect = /datum/status_effect/corrupted_dryad
