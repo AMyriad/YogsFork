@@ -2,46 +2,6 @@
 
 //Misc mob defines
 
-//Ready states at roundstart for mob/dead/new_player
-#define PLAYER_NOT_READY 0
-#define PLAYER_READY_TO_PLAY 1
-#define PLAYER_READY_TO_OBSERVE 2
-
-//Game mode list indexes
-#define CURRENT_LIVING_PLAYERS	"living_players_list"
-#define CURRENT_LIVING_ANTAGS	"living_antags_list"
-#define CURRENT_DEAD_PLAYERS	"dead_players_list"
-#define CURRENT_OBSERVERS		"current_observers_list"
-
-//movement intent defines for the m_intent var
-#define MOVE_INTENT_WALK "walk"
-#define MOVE_INTENT_RUN  "run"
-
-//Blood volumes, in cL
-#define BLOOD_VOLUME_MAX_LETHAL		2150 // The lethal amount for a good semaritan, based off IRL data about vampires
-#define BLOOD_VOLUME_GENERIC		560 // The default amount of blood in a blooded creature, in cL, based off IRL data about humans
-#define BLOOD_VOLUME_MONKEY			325 // Based on IRL data bout Chimpanzees
-#define BLOOD_VOLUME_XENO			700 // Based off data from my asshole
-
-#define BLOOD_VOLUME_SLIME_SPLIT	(2.0 * BLOOD_VOLUME_GENERIC) // Amount of blood needed by slimebois for splitting in twain
-
-//Blood multiplers -- Multiply the original default value of blood your Carbon has with these in order to get the actual blood tiers
-// i.e.	if(h.blood_volume < initial(h.blood_volume) * BLOOD_OKAY_MULTI) or whatever
-//used by :living/proc/get_blood_state()
-#define BLOOD_MAXIMUM_MULTI 3.6 // 360%
-#define BLOOD_SAFE_MULTI 0.848	// 84.8%
-#define BLOOD_OKAY_MULTI 0.6	// 60%
-#define BLOOD_BAD_MULTI 0.4		// 40%
-#define BLOOD_SURVIVE_MULTI 0.2	// 20%
-
-//Blood state enums, again used by get_blood_state()
-#define BLOOD_MAXIMUM 5
-#define BLOOD_SAFE 4
-#define BLOOD_OKAY 3
-#define BLOOD_BAD 2
-#define BLOOD_SURVIVE 1
-#define BLOOD_DEAD 0
-
 //Defines to get the actual volumes for these varying states
 //YOGS: Keep in mind that in BYOND, initial() is a non-const function and doesn't work correctly in switch statements!
 #define BLOOD_VOLUME_MAXIMUM(L)		(initial(##L.blood_volume) * BLOOD_MAXIMUM_MULTI)
