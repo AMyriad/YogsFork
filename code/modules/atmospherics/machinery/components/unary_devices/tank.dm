@@ -48,7 +48,7 @@
 	air_contents.set_moles(GAS_CO2, AIR_CONTENTS)
 
 /obj/machinery/atmospherics/components/unary/tank/plasma
-	gas_type = GAS_O2
+	gas_type = GAS_PLASMA
 	greyscale_colors = "#fe6306"
 
 /obj/machinery/atmospherics/components/unary/tank/plasma/Initialize(mapload)
