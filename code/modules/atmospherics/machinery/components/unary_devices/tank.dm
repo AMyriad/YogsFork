@@ -30,7 +30,9 @@
 
 /obj/machinery/atmospherics/components/unary/tank/air
 	name = "pressure tank (Air)"
-	greyscale_colors = "#f5f3f0"
+	greyscale_config = null
+	greyscale_colors = null
+	icon_state = "base"
 
 /obj/machinery/atmospherics/components/unary/tank/air/Initialize(mapload)
 	. = ..()
