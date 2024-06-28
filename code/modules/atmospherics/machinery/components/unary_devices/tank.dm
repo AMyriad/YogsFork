@@ -51,7 +51,7 @@
 
 /obj/machinery/atmospherics/components/unary/tank/plasma
 	gas_type = GAS_PLASMA
-	greyscale_colors = "#fe6306"
+	greyscale_colors = "#f05f16"
 
 /obj/machinery/atmospherics/components/unary/tank/plasma/Initialize(mapload)
 	. = ..()
