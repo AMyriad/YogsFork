@@ -165,8 +165,24 @@
 	var/atom/movable/thrown_thing
 	var/obj/item/I = get_active_held_item()
 	var/power_throw = 0
+	/// We assign a default frequency number for the sound of the throw
+	var/frequency_number = 1
 
-	if(!I)
+	frequency_number = 1-(thrown_item.w_class-3)/8 //At normal weight, the frequency is at 1. For tiny, it is 1.25. For huge, it is 0.75.
+
+	if(!CHECK_BITFIELD(I.item_flags, ABSTRACT) && !HAS_TRAIT(I, TRAIT_NODROP))
+		thrown_thing = I
+		SEND_SIGNAL(thrown_thing, COMSIG_MOVABLE_PRE_DROPTHROW, src)
+		dropItemToGround(I, silent = TRUE)
+
+		if(HAS_TRAIT(src, TRAIT_PACIFISM) && I.throwforce)
+			to_chat(src, span_notice("You set [I] down gently on the ground."))
+			return
+		if(!synth_check(src, SYNTH_RESTRICTED_WEAPON))
+			to_chat(src, span_notice("You set [I] down gently on the ground."))
+			return
+
+	else if(!I)
 		if(pulling && isliving(pulling) && grab_state >= GRAB_AGGRESSIVE)
 			var/mob/living/throwable_mob = pulling
 			if(!throwable_mob.buckled)
@@ -185,19 +201,7 @@
 				if(start_T && end_T)
 					log_combat(src, throwable_mob, "thrown", addition="grab from tile in [AREACOORD(start_T)] towards tile at [AREACOORD(end_T)]")
 
-	else if(!CHECK_BITFIELD(I.item_flags, ABSTRACT) && !HAS_TRAIT(I, TRAIT_NODROP))
-		thrown_thing = I
-		SEND_SIGNAL(thrown_thing, COMSIG_MOVABLE_PRE_DROPTHROW, src)
-		dropItemToGround(I, silent = TRUE)
-
-		if(HAS_TRAIT(src, TRAIT_PACIFISM) && I.throwforce)
-			to_chat(src, span_notice("You set [I] down gently on the ground."))
-			return
-		if(!synth_check(src, SYNTH_RESTRICTED_WEAPON))
-			to_chat(src, span_notice("You set [I] down gently on the ground."))
-			return
-
-	if(thrown_thing)
+	else if(thrown_thing)
 		if(HAS_TRAIT(src, TRAIT_HULK))
 			power_throw++
 		visible_message(span_danger("[src] throws [thrown_thing][power_throw ? " really hard!" : "."]"), \
