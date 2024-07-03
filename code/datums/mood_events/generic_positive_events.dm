@@ -172,7 +172,7 @@
 	timeout = 4 MINUTES
 
 /datum/mood_event/hope_lavaland
-	description = "<span class='nicegreen'>What a peculiar emblem.  It makes me feel hopeful for my future.</span>\n"
+	description = "<span class='nicegreen'>What a peculiar emblem. It makes me feel hopeful for my future.</span>\n"
 	mood_change = 5
 
 /datum/mood_event/drippy
@@ -206,6 +206,11 @@
 /datum/mood_event/adrenaline
 	description = span_nicegreen("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!\n")
 	mood_change = 10
+
+/datum/mood_event/lucky_dice
+	description = span_nicegreen("Slapping those dice have me feeling lucky!\n")
+	mood_change = 3
+	timeout = 5 MINUTES
 
 /datum/mood_event/area
 	description = "" //Fill this out in the area

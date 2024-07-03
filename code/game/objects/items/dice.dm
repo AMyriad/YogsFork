@@ -218,3 +218,46 @@
 		rigged = DICE_BASICALLY_RIGGED
 		rigged_value = result
 	..(M)
+
+/obj/structure/fuzzy_dice
+	name = "fuzzy dice"
+	desc = "Don't forget to give them a slap for good luck!"
+	icon = 'icons/obj/dice.dmi'
+	icon_state = "fuzzy_dice"
+	anchored = TRUE
+	layer = WALL_OBJ_LAYER
+
+/obj/structure/fuzzy_dice/attack_hand(mob/user as mob)
+	. = ..()
+	if(.)
+		return
+	flick("[icon_state]_hit", src)
+	playsound(loc, 'sound/items/fuzzy_hit.ogg', 50, 1, -1)
+	if(isliving(user))
+		var/mob/living/L = user
+		SEND_SIGNAL(user, COMSIG_ADD_MOOD_EVENT, "lucky dice", /datum/mood_event/lucky_dice)
+		(prob(0.1) || (prob(1.5) && L.dna?.check_mutation(DWARFISM)))
+		var/picked_phrase = pick(list("On a roll!",
+										"No more mister dice guy!",
+										"Snake eyes!",
+										"Life is like a dice, so watch the ones you're rolling with!",
+										"Time to toss the dice!",
+										"The dice are loaded!",
+										"I'm on a roll!",
+										"The die has been cast!",
+										"For good luck!",
+										"Slappity slap slap!",
+										"Dicey!",
+										"High five!",
+										"Fortune be with us!",
+										"Let's shake, rattle and roll!",
+										"Roll deep, rise high!",
+										"Let the good times roll!",
+										"Yahtzee!",
+										"Time to play dice with death!",
+										"Seven!",
+										"Let's roll!",
+										"Guys, we gotta roll!",
+										"Fuzzy dice!"
+										))
+		user.say(picked_phrase)
