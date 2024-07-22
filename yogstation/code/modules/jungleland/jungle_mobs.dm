@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/yog_jungle //yog_jungle and not just jungle because TG has some mobs under /jungle/ that i dont want to fuck with and override (they are unused, but like whats the point..)
 	icon = 'yogstation/icons/mob/jungle.dmi'
 	stat_attack = UNCONSCIOUS
-	weather_immunities = WEATHER_ACID
+	weather_immunities = WEATHER_STORM
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	faction = list("mining", "skintwister_cloak")
 	see_in_dark = 3
@@ -139,7 +139,7 @@
 	var/mob/living/carbon/human/humie = target
 	var/chance = 100 - humie.getarmor(null,BIO)
 	if(prob(max(10,chance * 0.66))) // higher chance than toxic water
-		humie.reagents.add_reagent(/datum/reagent/toxic_metabolities,2.5)
+		humie.reagents.add_reagent(/datum/reagent/toxic_metabolites,2.5)
 
 /mob/living/simple_animal/hostile/yog_jungle/meduracha/Goto(target, delay, minimum_distance)
 	update_sulking(TRUE)
@@ -626,7 +626,7 @@
 
 /mob/living/simple_animal/hostile/tar 
 	icon = 'yogstation/icons/mob/jungle.dmi'
-	weather_immunities = WEATHER_ACID
+	weather_immunities = WEATHER_STORM
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	robust_searching = TRUE
 	see_in_dark = 5
@@ -742,7 +742,7 @@ mob/living/simple_animal/hostile/asteroid/hivelord/tar
 	desc = "A solid chunk of tar. You struggle to think that something like this could even be alive, but it seems to pulsate and even move at times..."
 	icon = 'yogstation/icons/mob/jungle.dmi'
 	stat_attack = DEAD
-	weather_immunities = WEATHER_ACID
+	weather_immunities = WEATHER_STORM
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	robust_searching = TRUE
 	see_in_dark = 5
@@ -776,7 +776,7 @@ mob/living/simple_animal/hostile/asteroid/hivelord/tar
 	icon_aggro = "tar_aspect"
 	icon_dead = "tar_aspect"
 	stat_attack = DEAD
-	weather_immunities = WEATHER_ACID
+	weather_immunities = WEATHER_STORM
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	robust_searching = TRUE
 	see_in_dark = 5
