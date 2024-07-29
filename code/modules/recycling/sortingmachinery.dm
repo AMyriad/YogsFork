@@ -6,7 +6,7 @@
 	density = TRUE
 	mouse_drag_pointer = MOUSE_ACTIVE_POINTER
 	var/giftwrapped = FALSE
-	var/sortTag = 0
+	var/sortTag = "unsorted"
 
 /obj/structure/bigDelivery/Initialize(mapload)
 	. = ..()
@@ -94,7 +94,7 @@
 	icon_state = "deliverypackage3"
 	item_state = "deliverypackage"
 	var/giftwrapped = 0
-	var/sortTag = 0
+	var/sortTag = "unsorted"
 
 /obj/item/smallDelivery/Initialize(mapload)
 	. = ..()

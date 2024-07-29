@@ -15,6 +15,26 @@
 		log_mapping("[src] failed to find a mail sorting disposal pipe at [AREACOORD(src)]")
 	qdel(src)
 
+
+///// ---- YOG SORT HELPERS BEGIN ---- /////
+
+
+
+//---  COMMAND  ---//
+
+/obj/effect/mapping_helpers/mail_sorting/command
+	icon_state = "sort_command"
+
+
+
+
+
+
+
+
+
+
+
 /obj/effect/mapping_helpers/mail_sorting/supply
 	icon_state = "sort_type_helper_sup"
 
@@ -47,6 +67,9 @@
 
 /obj/effect/mapping_helpers/mail_sorting/security/hos_office
 	sort_type = SORT_TYPE_HOS_OFFICE
+
+/obj/effect/mapping_helpers/mail_sorting/security/warden
+	sort_type = SORT_TYPE_WARDEN
 
 /obj/effect/mapping_helpers/mail_sorting/security/detectives_office
 	sort_type = SORT_TYPE_DETECTIVES_OFFICE
