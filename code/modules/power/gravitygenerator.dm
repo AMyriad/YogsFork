@@ -25,7 +25,19 @@ GLOBAL_LIST_EMPTY(gravity_generators) // We will keep track of this by adding ne
 	move_resist = INFINITY
 	use_power = NO_POWER_USE
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
+
 	var/sprite_number = 0
+
+	///Audio for when the gravgen is on
+	var/datum/looping_sound/gravgen/soundloop
+
+/obj/machinery/gravity_generator/Initialize(mapload)
+	. = ..()
+	soundloop = new(src, TRUE)
+
+/obj/machinery/gravity_generator/Destroy()
+	QDEL_NULL(soundloop)
+	return ..()
 
 /obj/machinery/gravity_generator/safe_throw_at(atom/target, range, speed, mob/thrower, spin = TRUE, diagonals_first = FALSE, datum/callback/callback, force = MOVE_FORCE_STRONG, quickstart = TRUE)
 	return FALSE
@@ -65,6 +77,7 @@ GLOBAL_LIST_EMPTY(gravity_generators) // We will keep track of this by adding ne
 	if(main_part)
 		qdel(main_part)
 	set_broken()
+	QDEL_NULL(soundloop)
 	return ..()
 
 //
@@ -341,6 +354,7 @@ GLOBAL_LIST_EMPTY(gravity_generators) // We will keep track of this by adding ne
 	var/old_gravity = gravity_in_level()
 	complete_state_update()
 
+	soundloop.start()
 	if (!old_gravity)
 		if(SSticker.current_state == GAME_STATE_PLAYING)
 			investigate_log("was brought online and is now producing gravity for this level.", INVESTIGATE_GRAVITY)
@@ -356,6 +370,7 @@ GLOBAL_LIST_EMPTY(gravity_generators) // We will keep track of this by adding ne
 	var/old_gravity = gravity_in_level()
 	complete_state_update()
 
+	soundloop.stop()
 	if (old_gravity)
 		if(SSticker.current_state == GAME_STATE_PLAYING)
 			investigate_log("was brought offline and there is now no gravity for this level.", INVESTIGATE_GRAVITY)

@@ -80,3 +80,11 @@
 /datum/looping_sound/decontamination_unit/emagged
 	mid_sounds = list('sound/machines/decon/decon-emagged1.ogg'=10, 'sound/machines/decon/decon-emagged2.ogg'=1)
 	mid_length = 25
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/datum/looping_sound/gravgen
+	mid_sounds = list('sound/machines/gravgen/gravgen_mid1.ogg' = 1, 'sound/machines/gravgen/gravgen_mid2.ogg' = 1, 'sound/machines/gravgen/gravgen_mid3.ogg' = 1, 'sound/machines/gravgen/gravgen_mid4.ogg' = 1)
+	mid_length = 1.8 SECONDS
+	extra_range = 10
+	volume = 20
