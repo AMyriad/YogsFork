@@ -50,6 +50,8 @@
 
 	var/atom/movable/gravity_lens/grav_lens
 
+	var/datum/looping_sound/singularity/soundloop
+
 /obj/singularity/Initialize(mapload, starting_energy = 50)
 	//CARN: admin-alert for chuckle-fuckery.
 	admin_investigate_setup()
@@ -59,6 +61,7 @@
 	START_PROCESSING(SSobj, src)
 	GLOB.poi_list |= src
 	GLOB.singularities |= src
+	soundloop = new (list(src), TRUE)
 	for(var/obj/machinery/power/singularity_beacon/singubeacon in GLOB.machines)
 		if(singubeacon.active)
 			target = singubeacon
@@ -76,6 +79,7 @@
 	STOP_PROCESSING(SSobj, src)
 	GLOB.poi_list.Remove(src)
 	GLOB.singularities.Remove(src)
+	QDEL_NULL(soundloop)
 	return ..()
 
 /obj/singularity/Move(atom/newloc, direct)
@@ -225,6 +229,7 @@
 			dissipate_delay = 10
 			dissipate_track = 0
 			dissipate_strength = 1
+			soundloop.extra_range = 5
 			if(maxStage < 1)
 				maxStage = 1
 			if(grav_lens)
@@ -243,6 +248,7 @@
 				dissipate_delay = 5
 				dissipate_track = 0
 				dissipate_strength = 5
+				soundloop.extra_range = 10
 				if(maxStage < 2)
 					maxStage = 2
 				if(grav_lens)
@@ -262,6 +268,7 @@
 				dissipate_delay = 4
 				dissipate_track = 0
 				dissipate_strength = 20
+				soundloop.extra_range = 15
 				if(maxStage < 3)
 					maxStage = 3
 				if(grav_lens)
@@ -280,6 +287,7 @@
 				dissipate_delay = 10
 				dissipate_track = 0
 				dissipate_strength = 10
+				soundloop.extra_range = 20
 				if(maxStage < 4)
 					maxStage = 4
 				if(grav_lens)
@@ -295,6 +303,7 @@
 			grav_pull = 10
 			consume_range = 4
 			dissipate = 0 //It cant go smaller due to e loss
+			soundloop.extra_range = 25
 			if(maxStage < 5)
 				maxStage = 5
 			if(grav_lens)
@@ -313,6 +322,7 @@
 			grav_pull = 15
 			consume_range = 5
 			dissipate = 0
+			soundloop.extra_range = 30
 			if(maxStage < 6)
 				maxStage = 6
 			if(grav_lens)
