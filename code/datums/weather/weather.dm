@@ -112,11 +112,18 @@
 		if(A.z in impacted_z_levels)
 			impacted_areas |= A
 	weather_duration = rand(weather_duration_lower, weather_duration_upper)
-	SSweather.processing |= src
-	update_areas()
-	if(telegraph_duration)
-		send_alert(telegraph_message, telegraph_sound)
-	addtimer(CALLBACK(src, PROC_REF(start)), telegraph_duration)
+	for(var/z_level in impacted_z_levels)
+		for(var/mob/player as anything in SSmobs.clients_by_zlevel[z_level])
+			var/turf/mob_turf = get_turf(player)
+			if(!mob_turf)
+				continue
+			if(telegraph_message)
+				to_chat(M, telegraph_message)
+				to_chat(player, telegraph_message)
+			if(telegraph_sound)
+				SEND_SOUND(M, sound(telegraph_sound))
+				SEND_SOUND(player, sound(telegraph_sound))
+	addtimer(CALLBACK(src, .proc/start), telegraph_duration)
 
 /**
  * Starts the actual weather and effects from it

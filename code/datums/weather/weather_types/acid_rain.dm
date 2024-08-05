@@ -32,8 +32,8 @@
 
 	barometer_predictable = TRUE
 
-	var/datum/looping_sound/outside_acid_rain/sound_outside = new(list(), FALSE, TRUE)
-	var/datum/looping_sound/inside_acid_rain/sound_inside = new(list(), FALSE, TRUE)
+	var/list/weak_sounds = list()
+	var/list/strong_sounds = list()
 
 /datum/weather/acid_rain/telegraph()
 	. = ..()
@@ -45,23 +45,25 @@
 	for(var/i in 1 to eligible_areas.len)
 		var/area/place = eligible_areas[i]
 		if(place.outdoors)
-			outside_areas += place
+			weak_sounds[place] = /datum/looping_sound/weak_outside_acid_rain
+			strong_sounds[place] = /datum/looping_sound/active_outside_acid_rain
 		else
-			inside_areas += place
+			weak_sounds[place] = /datum/looping_sound/weak_inside_acid_rain
+			strong_sounds[place] = /datum/looping_sound/active_inside_acid_rain
 		CHECK_TICK
 
 	sound_outside.output_atoms = outside_areas
 	sound_inside.output_atoms = inside_areas
 
 /datum/weather/acid_rain/start()
-	. = ..()
-	sound_outside.start()
-	sound_inside.start()
+	GLOB.acid_rain_sounds -= weak_sounds
+	GLOB.acid_rain_sounds += strong_sounds
+	return ..()
 
 /datum/weather/acid_rain/wind_down()
-	. = ..()
-	sound_outside.stop()
-	sound_inside.stop()
+	GLOB.acid_rain_sounds -= strong_sounds
+	GLOB.acid_rain_sounds += weak_sounds
+	return ..()
 
 /datum/weather/acid_rain/proc/is_acid_immune(atom/L)
 	while (L && !isturf(L))

@@ -51,6 +51,13 @@
 	#define LINKED_UP (1<<0)
 /// an obj/item is created! (obj/item/created_item)
 #define COMSIG_GLOB_NEW_ITEM "!new_item"
+
+/// A weather event of some kind occured
+#define COMSIG_WEATHER_TELEGRAPH(event_type) "!weather_telegraph [event_type]"
+#define COMSIG_WEATHER_START(event_type) "!weather_start [event_type]"
+#define COMSIG_WEATHER_WINDDOWN(event_type) "!weather_winddown [event_type]"
+#define COMSIG_WEATHER_END(event_type) "!weather_end [event_type]"
+
 /// called post /obj/item initialize (obj/item/created_item)
 #define COMSIG_GLOB_ATOM_AFTER_POST_INIT "!atom_after_post_init"
 /// an obj/machinery is created! (obj/machinery/created_machine)
