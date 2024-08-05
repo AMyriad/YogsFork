@@ -3,3 +3,8 @@
 	category = PREFERENCE_CATEGORY_GAME_PREFERENCES
 	savefile_key = "sound_combatmode"
 	savefile_identifier = PREFERENCE_PLAYER
+
+/datum/preference/toggle/sound_breathing
+	category = PREFERENCE_CATEGORY_GAME_PREFERENCES
+	savefile_key = "sound_breathing"
+	savefile_identifier = PREFERENCE_PLAYER

@@ -106,6 +106,13 @@ export const sound_combatmode: FeatureToggle = {
   component: CheckboxInput,
 };
 
+export const sound_breathing: FeatureToggle = {
+  name: 'Enable breathing sounds',
+  category: 'SOUND',
+  description: 'When enabled, hear breathing sounds when using internals.',
+  component: CheckboxInput,
+};
+
 export const sound_endofround: FeatureToggle = {
   name: "Enable end of round sounds",
   category: "SOUND",

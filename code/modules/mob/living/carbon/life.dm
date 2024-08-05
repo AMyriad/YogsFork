@@ -76,6 +76,8 @@
 //Second link in a breath chain, calls check_breath()
 /mob/living/carbon/proc/breathe()
 	var/obj/item/organ/lungs = getorganslot(ORGAN_SLOT_LUNGS)
+	var/is_on_internals = FALSE
+
 	if(reagents.has_reagent(/datum/reagent/toxin/lexorin, needs_metabolizing = TRUE))
 		return
 	if(istype(loc, /obj/machinery/atmospherics/components/unary/cryo_cell))
@@ -119,16 +121,26 @@
 
 				breath = loc.remove_air_ratio(breath_ratio)
 		else //Breathe from loc as obj again
+			is_on_internals = TRUE
+
 			if(istype(loc, /obj/))
 				var/obj/loc_as_obj = loc
 				loc_as_obj.handle_internal_lifeform(src,0)
 
-	if(breath)
+	if(check_breath(breath) && is_on_internals)
 		breath.set_volume(BREATH_VOLUME)
-	check_breath(breath)
+		try_breathing_sound(breath)
 
 	if(breath)
 		loc.assume_air(breath)
+
+// Tries to play the carbon a breathing sound when using internals
+/mob/living/carbon/proc/try_breathing_sound(breath)
+	var/should_be_on = canon_client?.prefs?.read_preference(/datum/preference/toggle/sound_breathing)
+	if(should_be_on && !breathing_loop.timer_id)
+		breathing_loop.start()
+	else if(!should_be_on && breathing_loop.timer_id)
+		breathing_loop.stop()
 
 /mob/living/carbon/proc/has_smoke_protection()
 	if(HAS_TRAIT(src, TRAIT_NOBREATH))

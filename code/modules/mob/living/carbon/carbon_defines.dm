@@ -48,6 +48,9 @@
 
 	var/failed_last_breath = 0 //This is used to determine if the mob failed a breath. If they did fail a brath, they will attempt to breathe each tick, otherwise just once per 4 ticks.
 
+	/// Sound loop for breathing when using internals
+	var/datum/looping_sound/breathing/breathing_loop
+
 	var/co2overloadtime = null
 	var/temperature_resistance = T0C+75
 	var/obj/item/reagent_containers/food/snacks/meat/slab/type_of_meat = /obj/item/reagent_containers/food/snacks/meat/slab

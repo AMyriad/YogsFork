@@ -7,6 +7,7 @@
 	assign_bodypart_ownership()
 	update_body_parts() //to update the carbon's new bodyparts appearance
 	GLOB.carbon_list += src
+	breathing_loop = new(src)
 
 /mob/living/carbon/Destroy()
 	//This must be done first, so the mob ghosts correctly before DNA etc is nulled
@@ -24,6 +25,7 @@
 	remove_from_all_data_huds()
 	QDEL_NULL(dna)
 	GLOB.carbon_list -= src
+	QDEL_NULL(breathing_loop)
 
 /mob/living/carbon/perform_hand_swap(held_index)
 	. = ..()

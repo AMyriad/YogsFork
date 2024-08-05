@@ -5,6 +5,8 @@ GLOBAL_VAR_INIT(permadeath, FALSE)
 	if(stat != DEAD)
 		death(TRUE)
 
+	breathing_loop.stop() //This would've happened eventually but it's nice to make it stop immediately in this case
+
 	if(!no_items)
 		unequip_everything()
 
