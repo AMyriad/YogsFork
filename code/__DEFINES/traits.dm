@@ -285,3 +285,6 @@
 
 ///reduces the cooldown of all used /datum/action/cooldown by 25%
 #define TRAIT_FAST_COOLDOWNS "short_spell_cooldowns" 
+
+/// We can walk up or around cliffs, or at least we don't fall off of it
+#define TRAIT_CLIFF_WALKER "cliff_walker"

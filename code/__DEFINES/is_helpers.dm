@@ -57,6 +57,8 @@ GLOBAL_LIST_INIT(turfs_without_ground, typecacheof(list(
 
 #define isvalidAIloc(A) ((isturf(A) || isaicore(A)))
 
+#define iscliffturf(A) (istype(A, /turf/open/cliff))
+
 //Mobs
 #define isliving(A) (istype(A, /mob/living))
 

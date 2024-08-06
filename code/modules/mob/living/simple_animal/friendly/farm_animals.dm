@@ -34,6 +34,7 @@
 
 /mob/living/simple_animal/hostile/retaliate/goat/Initialize(mapload)
 	udder = new()
+	AddElement(/datum/element/cliff_walking) //we walk the cliff
 	. = ..()
 
 /mob/living/simple_animal/hostile/retaliate/goat/Destroy()

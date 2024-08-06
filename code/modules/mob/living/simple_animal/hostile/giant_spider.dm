@@ -55,6 +55,7 @@
 /mob/living/simple_animal/hostile/poison/giant_spider/Initialize(mapload)
 	. = ..()
 	var/datum/action/innate/spider/lay_web/webbing = new(src)
+	AddElement(/datum/element/cliff_walking)
 	webbing.Grant(src)
 
 /mob/living/simple_animal/hostile/poison/giant_spider/Topic(href, href_list)
