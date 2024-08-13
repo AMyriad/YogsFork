@@ -322,7 +322,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "lE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -589,11 +590,12 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "qR" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "qV" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
@@ -763,7 +765,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "wF" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction,
@@ -962,7 +965,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "Bo" = (
 /obj/machinery/atmospherics/pipe/simple/brown/visible,
@@ -1106,7 +1110,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "FG" = (
 /obj/effect/turf_decal/pool{
@@ -1392,7 +1397,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "PG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -1422,7 +1428,8 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/floor/plating/snowed/smoothed/icemoon,
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "PQ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
@@ -1606,6 +1613,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"Uw" = (
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
+/area/icemoon/top_layer/outdoors)
 "UH" = (
 /obj/structure/closet/firecloset,
 /obj/effect/turf_decal/stripes/line{
@@ -1757,6 +1768,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"YE" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/turf/open/lava/plasma/ice_moon,
+/area/icemoon/top_layer/outdoors)
 "YK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -2112,11 +2130,11 @@ Zk
 TX
 Uv
 mS
-mU
+Uw
 le
 vJ
 Bg
-mU
+Uw
 "}
 (13,1,1) = {"
 dO
@@ -2139,9 +2157,9 @@ ya
 IA
 wF
 qR
-PK
-PK
-PK
+YE
+YE
+YE
 Bg
 "}
 (14,1,1) = {"
@@ -2189,11 +2207,11 @@ nl
 pO
 jp
 mU
-mU
+Uw
 Fp
-PK
-PK
-PK
+YE
+YE
+YE
 Bg
 "}
 (16,1,1) = {"
@@ -2215,7 +2233,7 @@ LI
 aK
 jp
 mU
-mU
+Uw
 vJ
 PK
 PK
@@ -2241,11 +2259,11 @@ lX
 Wq
 jp
 mU
-mU
+Uw
 Fp
-PK
-PK
-PK
+YE
+YE
+YE
 Bg
 "}
 (18,1,1) = {"
@@ -2267,7 +2285,7 @@ It
 aK
 jp
 mU
-mU
+Uw
 vJ
 PK
 PK
@@ -2293,7 +2311,7 @@ Vr
 ME
 jp
 mU
-mU
+Uw
 Fp
 qA
 qA

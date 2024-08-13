@@ -22,6 +22,7 @@
 /area/engine/engineering)
 "aA" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "aH" = (
@@ -743,6 +744,14 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
+"tD" = (
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple,
+/obj/machinery/atmospherics/pipe/heat_exchanging/simple{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/lava/plasma/ice_moon,
+/area/icemoon/top_layer/outdoors)
 "ud" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -878,6 +887,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "xf" = (
@@ -997,6 +1007,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "Bf" = (
@@ -1093,6 +1104,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "Et" = (
@@ -1442,6 +1454,7 @@
 /turf/template_noop,
 /area/template_noop)
 "OK" = (
+/obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "OR" = (
@@ -1515,6 +1528,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "Qx" = (
@@ -1616,6 +1630,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
+/obj/structure/lattice/catwalk,
 /turf/open/lava/plasma/ice_moon,
 /area/icemoon/top_layer/outdoors)
 "TU" = (
@@ -2101,9 +2116,9 @@ vl
 SM
 jp
 DY
-cm
-cm
-cm
+tD
+tD
+tD
 wW
 "}
 (15,1,1) = {"
@@ -2153,9 +2168,9 @@ NY
 Rt
 jp
 DY
-cm
-cm
-cm
+tD
+tD
+tD
 wW
 "}
 (17,1,1) = {"
@@ -2205,9 +2220,9 @@ Zy
 KF
 jp
 DY
-cm
-cm
-cm
+tD
+tD
+tD
 wW
 "}
 (19,1,1) = {"
