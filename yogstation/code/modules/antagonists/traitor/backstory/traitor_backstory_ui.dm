@@ -57,7 +57,7 @@
 	var/list/data = list()
 	var/list/all_factions = list()
 	for(var/key in GLOB.traitor_factions_to_datum)
-		var/datum/traitor_faction/faction = GLOB.traitor_factions_to_datum[key]
+		var/datum/corporation/faction = GLOB.traitor_factions_to_datum[key]
 		all_factions[key] = list(
 			"name" = faction.name,
 			"description" = faction.description,
@@ -88,7 +88,7 @@
 			if(istype(backstory)) // bad!!
 				return TRUE
 			var/datum/traitor_backstory/selected_backstory = GLOB.traitor_backstories[params["backstory"]]
-			var/datum/traitor_faction/selected_faction = GLOB.traitor_factions_to_datum[params["faction"]]
+			var/datum/corporation/selected_faction = GLOB.traitor_factions_to_datum[params["faction"]]
 			if(!istype(selected_faction) || !istype(selected_backstory))
 				return TRUE
 			if(istype(faction) && faction.key != selected_faction.key) // bad!

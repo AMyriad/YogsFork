@@ -1,15 +1,22 @@
 /datum/antagonist/traitor
 	/// A list of factions the traitor can pick from freely.
 	var/list/allowed_factions = list(
-		TRAITOR_FACTION_SYNDICATE, 
-		TRAITOR_FACTION_BLACK_MARKET, 
-		TRAITOR_FACTION_INDEPENDENT,
-		TRAITOR_FACTION_DONK,
-		TRAITOR_FACTION_WAFFLE,
-		TRAITOR_FACTION_CYBERSUN,
-		TRAITOR_FACTION_VAHLEN,
-		TRAITOR_FACTION_GORLEX,
-		TRAITOR_FACTION_SELF)
+		FACTION_SIC,
+		FACTION_INDEPENDENT,
+		FACTION_AMBERCOVE,
+		FACTION_ASP_FOUNDATION,
+		FACTION_AZIMUTH,
+		FACTION_CARTHAGE,
+		FACTION_GORLEX,
+		FACTION_HAIMATSU,
+		FACTION_HEPHAESTUS,
+		FACTION_KONBINA,
+		FACTION_LICOME_MERCURY,
+		FACTION_NANOTRASEN,
+		FACTION_STALVERKET,
+		FACTION_TRANSIT_ALLIANCE,
+		FACTION_VODYKOV
+		)
 	/// A list of factions the traitor can pick from freely.
 	var/list/recommended_factions = list()
 	/// A list of backstories that are allowed for this traitor.
@@ -19,7 +26,7 @@
 	/// The actual backstory for this traitor. Can be null.
 	var/datum/traitor_backstory/backstory
 	/// The actual faction for this traitor. Can be null.
-	var/datum/traitor_faction/faction
+	var/datum/corporation/faction
 
 /datum/antagonist/traitor/proc/setup_backstories(murderbone, hijack)
 	if(murderbone || hijack)
@@ -43,7 +50,7 @@
 
 	// add_menu_action() -- dont need doubles lol -- cowbot93
 
-/datum/antagonist/traitor/proc/set_faction(datum/traitor_faction/new_faction)
+/datum/antagonist/traitor/proc/set_faction(datum/corporation/new_faction)
 	if(!istype(new_faction))
 		return
 	var/no_faction = isnull(faction)
