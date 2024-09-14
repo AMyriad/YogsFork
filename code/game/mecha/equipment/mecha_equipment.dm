@@ -15,6 +15,10 @@
 	var/equip_ready = TRUE
 	/// How much energy it drains when used or while in use
 	var/energy_drain = 0
+	/// How much this heats the mech when used
+	var/heat_cost = 0
+	/// Whether this equipment should process along with its chassis
+	var/active = FALSE
 	/// Linked Mech/Chassis
 	var/obj/mecha/chassis = null
 	/// Bitflag: MECHA_MELEE|MECHA_RANGED what ranges it operates at
@@ -39,9 +43,11 @@
 	var/list/action_type_list = equip_actions.Copy()
 	equip_actions = list()
 	for(var/path in action_type_list)
-		var/datum/action/innate/mecha/equipment/action = new path
-		action.equipment = src
-		equip_actions.Add(action)
+		var/datum/action/new_action = new path
+		if(istype(new_action, /datum/action/innate/mecha/equipment))
+			var/datum/action/innate/mecha/equipment/equip_action = new_action
+			equip_action.equipment = src
+		equip_actions.Add(new_action)
 	qdel(action_type_list)
 
 /obj/item/mecha_parts/mecha_equipment/proc/update_chassis_page()
@@ -97,55 +103,73 @@
 
 	return txt
 
-/obj/item/mecha_parts/mecha_equipment/proc/is_ranged()//add a distance restricted equipment. Why not?
-	return range & MECHA_RANGED
-
-/obj/item/mecha_parts/mecha_equipment/proc/is_melee()
-	return range & MECHA_MELEE
-
-
 /obj/item/mecha_parts/mecha_equipment/proc/action_checks(atom/target)
 	if(!target)
-		return 0
+		return FALSE
 	if(!chassis)
-		return 0
+		return FALSE
+	if(!(range & MECHA_MELEE) && chassis.default_melee_attack(target))
+		return FALSE
+	if(!(range & MECHA_RANGED) && !chassis.Adjacent(target))
+		return FALSE
 	if(!equip_ready)
-		return 0
+		return FALSE
 	if(energy_drain && !chassis.has_charge(energy_drain))
-		return 0
+		return FALSE
+	if(HAS_TRAIT(src, TRAIT_MECH_DISABLED))
+		return FALSE
 	if(chassis.is_currently_ejecting)
-		return 0
+		return FALSE
 	if(chassis.equipment_disabled)
 		to_chat(chassis.occupant, "<span=warn>Error -- Equipment control unit is unresponsive.</span>")
-		return 0
-	return 1
+		return FALSE
+	if(isliving(target) && harmful && (HAS_TRAIT(chassis.occupant, TRAIT_PACIFISM) || !synth_check(chassis.occupant, SYNTH_RESTRICTED_WEAPON)))
+		to_chat(chassis.occupant, span_warning("You don't want to harm other living beings!"))
+		return FALSE
+	if(isliving(target) && harmful && HAS_TRAIT(chassis.occupant, TRAIT_NO_STUN_WEAPONS))
+		to_chat(chassis.occupant, span_warning("You cannot use non-lethal weapons!"))
+		return FALSE
+	return TRUE
+
+/obj/item/mecha_parts/mecha_equipment/proc/on_process(delta_time)
+	return PROCESS_KILL
 
 /obj/item/mecha_parts/mecha_equipment/proc/action(atom/target, mob/living/user, params)
 	return 0
 
 /obj/item/mecha_parts/mecha_equipment/proc/start_cooldown()
+	if(equip_ready)
+		chassis.use_power(energy_drain)
+		chassis.adjust_overheat(heat_cost)
 	set_ready_state(0)
-	chassis.use_power(energy_drain)
-	addtimer(CALLBACK(src, PROC_REF(set_ready_state), 1), equip_cooldown * check_eva())
+	addtimer(CALLBACK(src, PROC_REF(set_ready_state), 1), equip_cooldown * check_eva(), TIMER_UNIQUE|TIMER_OVERRIDE)
 
 /obj/item/mecha_parts/mecha_equipment/proc/do_after_cooldown(atom/target)
 	if(!chassis)
+		return FALSE
+	set_ready_state(FALSE)
+	. = do_after(chassis.occupant, equip_cooldown * check_eva(), target, extra_checks = CALLBACK(src, PROC_REF(do_after_checks), target, chassis.loc))
+	set_ready_state(TRUE)
+	if(!.)
 		return
-	var/C = chassis.loc
-	set_ready_state(0)
 	chassis.use_power(energy_drain)
-	. = do_after(chassis.occupant, equip_cooldown * check_eva(), target)
-	set_ready_state(1)
-	if(!chassis || 	chassis.loc != C || src != chassis.selected || !(get_dir(chassis, target)&chassis.dir))
-		return 0
+	chassis.adjust_overheat(heat_cost)
 
 /obj/item/mecha_parts/mecha_equipment/proc/do_after_mecha(atom/target, delay)
 	if(!chassis)
 		return
-	var/C = chassis.loc
-	. = do_after(chassis.occupant, delay, target)
-	if(!chassis || 	chassis.loc != C || src != chassis.selected || !(get_dir(chassis, target)&chassis.dir))
-		return 0
+	return do_after(chassis.occupant, delay * check_eva(), target, extra_checks = CALLBACK(src, PROC_REF(do_after_checks), target, chassis.loc))
+
+/obj/item/mecha_parts/mecha_equipment/proc/do_after_checks(atom/target, atom/old_loc)
+	if(!chassis)
+		return FALSE
+	if(chassis.loc != old_loc || chassis.inertia_dir)
+		return FALSE
+	if(src != chassis.selected)
+		return FALSE
+	if(!(chassis.omnidirectional_attacks || (get_dir(chassis, target) & chassis.dir)))
+		return FALSE
+	return TRUE
 
 /obj/item/mecha_parts/mecha_equipment/proc/can_attach(obj/mecha/M)
 	if(M.equipment.len<M.max_equip)
@@ -233,10 +257,10 @@
 
 // Grant any actions to the pilot
 /obj/item/mecha_parts/mecha_equipment/proc/grant_actions(mob/pilot)
-	for(var/datum/action/innate/mecha/equipment/action as anything in equip_actions)
-		action.Grant(pilot)
+	for(var/datum/action/action as anything in equip_actions)
+		action.Grant(pilot, chassis, src)
 
 // Remove the actions!!!!
 /obj/item/mecha_parts/mecha_equipment/proc/remove_actions(mob/pilot)
-	for(var/datum/action/innate/mecha/equipment/action as anything in equip_actions)
+	for(var/datum/action/action as anything in equip_actions)
 		action.Remove(pilot)
