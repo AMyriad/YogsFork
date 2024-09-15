@@ -563,6 +563,7 @@
 			var/logmsg
 			valve_open = !valve_open
 			if(valve_open)
+				playsound(src.loc, 'sound/effects/canister_valve_open.ogg')
 				logmsg = "Valve was <b>opened</b> by [key_name(usr)], starting a transfer into \the [holding || "air"].<br>"
 				investigate_log(logmsg, INVESTIGATE_ATMOS)
 				if(!holding)
@@ -582,6 +583,7 @@
 							message_admins(msg)
 							investigate_log(msg, INVESTIGATE_ATMOS)
 			else
+				playsound(src.loc, 'sound/effects/canister_valve_close.ogg')
 				logmsg = "Valve was <b>closed</b> by [key_name(usr)], stopping the transfer into \the [holding || "air"].<br>"
 				investigate_log(logmsg, INVESTIGATE_ATMOS)
 			release_log += logmsg

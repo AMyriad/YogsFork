@@ -40,7 +40,7 @@
 
 /obj/item/tank/internals/oxygen/red
 	desc = "A tank of oxygen, this one is red."
-	icon_state = "oxygen_fr"
+	icon_state = "oxygen_fr" //on god
 	dog_fashion = null
 
 /obj/item/tank/internals/oxygen/tactical
@@ -124,6 +124,7 @@
 	desc = "A tank of plasma gas designed specifically for use as internals, particularly for plasma-based lifeforms. If you're not a Plasmaman, you probably shouldn't use this."
 	icon_state = "plasmaman_tank"
 	item_state = "plasmaman_tank"
+	drop_sound = 'sound/items/handling/gas_tank_light_drop.ogg'
 	force = 10
 	distribute_pressure = TANK_DEFAULT_RELEASE_PRESSURE
 
@@ -161,6 +162,7 @@
 	slot_flags = ITEM_SLOT_BELT
 	w_class = WEIGHT_CLASS_SMALL
 	force = 4
+	drop_sound = 'sound/items/handling/gas_tank_light_drop.ogg'
 	distribute_pressure = TANK_DEFAULT_RELEASE_PRESSURE
 	volume = 1 //Tiny. Real life equivalents only have 21 breaths of oxygen in them. They're EMERGENCY tanks anyway -errorage (dangercon 2011)
 
@@ -196,6 +198,7 @@
 	item_state = "ipc_coolant"
 	slot_flags = ITEM_SLOT_BELT
 	force = 5
+	drop_sound = 'sound/items/handling/gas_tank_light_drop.ogg'
 	volume = 6
 	w_class = WEIGHT_CLASS_SMALL
 	distribute_pressure = 8

@@ -98,12 +98,15 @@
 			span_notice(" Click [src] with another gas tank to hot swap [holding].")
 
 /obj/machinery/portable_atmospherics/proc/replace_tank(mob/living/user, close_valve, obj/item/tank/new_tank)
+	if(!user)
+		return FALSE
 	if(holding)
 		holding.forceMove(drop_location())
 		if(Adjacent(user) && !issiliconoradminghost(user))
 			user.put_in_hands(holding)
 	if(new_tank)
 		holding = new_tank
+		playsound(src, 'sound/effects/gas_tank_insert.ogg', 50)
 	else
 		holding = null
 	update_appearance(UPDATE_ICON)
