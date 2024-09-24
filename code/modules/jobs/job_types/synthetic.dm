@@ -48,6 +48,9 @@ GLOBAL_LIST_EMPTY(synthetic_added_access)
 
 	forced_species = /datum/species/wy_synth
 
+/datum/job/synthetic/config_check() //disabled for the time being
+	return FALSE
+
 /datum/job/synthetic/after_spawn(mob/living/H, mob/M, latejoin = FALSE)
 	. = ..()
 	H.apply_pref_name(/datum/preference/name/synthetic, M.client)
