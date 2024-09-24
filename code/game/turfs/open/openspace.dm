@@ -163,7 +163,6 @@
 	return HAS_TRAIT(crossing, TRAIT_MOVE_FLYING)
 
 /turf/open/openspace/icemoon
-	name = "ice chasm"
 	baseturfs = /turf/open/openspace/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 	/// Replaces itself with replacement_turf if the turf has the no ruins allowed flag (usually ruins themselves)
