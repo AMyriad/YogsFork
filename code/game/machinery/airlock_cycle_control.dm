@@ -95,6 +95,11 @@
 /obj/machinery/advanced_airlock_controller/mix_chamber
 	depressurization_margin = 0.15 // The minimum - We really don't want contamination.
 
+/obj/machinery/advanced_airlock_controller/icemoon // Fix properly before merging
+	exterior_pressure = 20 
+	depressurization_margin = 36.896
+	depressurization_target = 20
+
 /obj/machinery/advanced_airlock_controller/New(loc, ndir, nbuild)
 	..()
 	wires = new /datum/wires/advanced_airlock_controller(src)
