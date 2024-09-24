@@ -312,84 +312,8 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 //Command
 
-/area/bridge
-	name = "Bridge"
-	icon_state = "bridge"
-	ambientsounds = list('sound/ambience/signal.ogg')
-	minimap_color = "#0400a2"
-	airlock_wires = /datum/wires/airlock/command
-	sound_environment = SOUND_AREA_STANDARD_STATION
 
-/area/bridge/meeting_room
-	name = "Heads of Staff Meeting Room"
-	icon_state = "meeting"
-	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
-/area/bridge/meeting_room/council
-	name = "Council Chamber"
-	icon_state = "meeting"
-	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
-
-/area/bridge/showroom/corporate
-	name = "Corporate Showroom"
-	icon_state = "showroom"
-
-/area/crew_quarters/heads
-	airlock_wires = /datum/wires/airlock/command
-	clockwork_warp_allowed = FALSE
-	lights_always_start_on = FALSE
-
-/area/crew_quarters/heads/captain
-	name = "Captain's Office"
-	icon_state = "captain"
-	minimap_color = "#2900d8"
-	sound_environment = SOUND_AREA_WOODFLOOR
-
-/area/crew_quarters/heads/captain/private
-	name = "Captain's Quarters"
-	icon_state = "captain"
-	sound_environment = SOUND_ENVIRONMENT_ROOM
-
-/area/crew_quarters/heads/chief
-	name = "Chief Engineer's Office"
-	icon_state = "ce_office"
-	minimap_color = "#a5a000"
-
-/area/crew_quarters/heads/cmo
-	name = "Chief Medical Officer's Office"
-	icon_state = "cmo_office"
-	minimap_color = "#00fff0"
-
-/area/crew_quarters/heads/hop
-	name = "Head of Personnel's Office"
-	icon_state = "hop_office"
-	minimap_color = "#070094"
-
-/area/crew_quarters/heads/hos
-	name = "Head of Security's Office"
-	icon_state = "hos_office"
-	minimap_color = "#ff6868"
-
-/area/crew_quarters/heads/hor
-	name = "Research Director's Office"
-	icon_state = "rd_office"
-	minimap_color = "#9257a6"
-
-/area/comms
-	name = "Communications Relay"
-	icon_state = "tcomsatcham"
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	lights_always_start_on = TRUE
-	lighting_colour_tube = "#e2feff"
-	lighting_colour_bulb = "#d5fcff"
-
-/area/server
-	name = "Messaging Server Room"
-	icon_state = "server"
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	lights_always_start_on = TRUE
-	lighting_colour_tube = "#fff4d6"
-	lighting_colour_bulb = "#ffebc1"
 
 //Crew
 
@@ -581,95 +505,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 //Engineering
 
-/area/engine
-	ambience_index = AMBIENCE_ENGI
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-	minimap_color = "#edea00"
-	airlock_wires = /datum/wires/airlock/engineering
-	lighting_colour_tube = "#ffce93"
-	lighting_colour_bulb = "#ffbc6f"
 
-/area/engine/engine_smes
-	name = "Engineering SMES"
-	icon_state = "engine_smes"
-
-/area/engine/engineering
-	name = "Engineering"
-	icon_state = "engine"
-
-/area/engine/atmos
-	name = "Atmospherics"
-	icon_state = "atmos"
-	flags_1 = NONE
-	minimap_color = "#85ff02"
-
-/area/engine/atmos/distro
-	name = "Atmospherics Distribution"
-	icon_state = "atmos_distro"
-
-/area/engine/atmos/project
-	name = "\improper Atmospherics Project Room"
-	icon_state = "atmos_project"
-
-/area/engine/atmos/engine
-	name = "\improper Atmospherics Engine"
-	icon_state = "atmos_engine"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-/area/engine/atmos/pumproom
-	name = "\improper Atmospherics Pumping Room"
-	icon_state = "atmos_pump_room"
-
-/area/engine/atmos/mix
-	name = "\improper Atmospherics Mixing Room"
-	icon_state = "atmos_mix"
-
-/area/engine/atmos/storage
-	name = "\improper Atmospherics Storage Room"
-	icon_state = "atmos_storage"
-
-/area/engine/atmos/foyer
-	name = "\improper Atmospherics Foyer"
-	icon_state = "atmos_foyer"
-
-/area/engine/atmos/hfr
-	name = "\improper Atmospherics HFR Room"
-	icon_state = "atmos_hfr"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/engine/supermatter
-	name = "Supermatter Engine"
-	icon_state = "engine_sm"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/engine/foyer
-	name = "Engineering Foyer"
-	icon_state = "engine_foyer"
-	sound_environment = SOUND_AREA_STANDARD_STATION
-
-/area/engine/break_room
-	name = "Engineering Break Room"
-	icon_state = "engine_foyer"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/engine/gravity_generator
-	name = "Gravity Generator Room"
-	icon_state = "grav_gen"
-	clockwork_warp_allowed = FALSE
-	clockwork_warp_fail = "The gravitons generated here could throw off your warp's destination and possibly throw you into deep space."
-
-/area/engine/storage
-	name = "Engineering Storage"
-	icon_state = "engi_storage"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/engine/storage_shared
-	name = "Shared Engineering Storage"
-	icon_state = "engi_storage"
-
-/area/engine/transit_tube
-	name = "Transit Tube"
-	icon_state = "transit_tube"
 
 
 //Solars
@@ -773,23 +609,8 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Starboard Bow (NE) Solar Maintenance"
 	icon_state = "SolarcontrolFS"
 
-//Teleporter
 
-/area/teleporter
-	name = "Teleporter Room"
-	icon_state = "teleporter"
-	ambience_index = AMBIENCE_ENGI
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	minimap_color = "#6b6b6b"
-	airlock_wires = /datum/wires/airlock/command
 
-/area/gateway
-	name = "Gateway"
-	icon_state = "gateway"
-	ambience_index = AMBIENCE_ENGI
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	minimap_color = "#5d57a5"
-	airlock_wires = /datum/wires/airlock/command
 
 //MedBay
 
