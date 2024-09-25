@@ -54,6 +54,10 @@
 	// Snowflake variable for shaped
 	var/transfer_prints = FALSE
 
+	// Snowflake variables for shielded
+	var/block_flags
+	var/block_force
+
 /obj/item/xenoartifact/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/xenoartifact_pricing)

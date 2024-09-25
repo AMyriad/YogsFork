@@ -195,7 +195,7 @@
 /obj/effect/mob_spawn/sentient_artifact
 	death = FALSE
 	name = "Sentient Xenoartifact"
-	short_desc = "VX'NUL'TYR'DE$/-DEC'RYPTING...AKTIV..." // Change before merging
+	short_desc = "VX'NUL'TYR'DE$/...-DEC'RYPTING...AKTIV-#TE" // Change before merging
 	flavour_text = ("Return to your master...")
 	banType = ROLE_SENTIENCE // Maybe change before merging
 	invisibility = 101
@@ -295,9 +295,22 @@
 	flags = BLUESPACE_TRAIT | PLASMA_TRAIT | URANIUM_TRAIT
 
 /datum/xenoartifact_trait/minor/blocking/on_init(obj/item/xenoartifact/X)
+	. = ..()
+	X.atom_integrity = (X.charge * (2 * pick(0.5, 0.8, 1, 1.2))) // I have zero fuckin clue if this will be balanced or not
+	X.block_force = (X.charge * 0.5)
+	X.block_flags = PARRYING_BLOCK
+	AddComponent(/datum/component/blocking, block_force = X.block_force, block_flags = X.block_flags)
+	RegisterSignal(X, COMSIG_ITEM_PRE_BLOCK, PROC_REF(block_check))
+
+/datum/xenoartifact_trait/minor/blocking/proc/block_check(obj/item/source, mob/living/defender, atom/movable/incoming, damage, attack_type)
+	return NONE
+
+	/*
 	X.block_chance = 35 * pick(0.5, 0.8, 1, 1.2, 1.3) // RIP, current yogs blocking system apparently sucks compared to bee's
 	X.atom_integrity = X.block_chance * (2 * pick(0.5, 0.8, 1, 1.3))
 	// 100% spitballing here - Read this as block_chance * (2*(number)), lowest integrity amount is just the block_chance number, highest ranges from 45.5-118.3 depending on block_chance
+	*/
+
 
 //============
 // Light - Allows artifact to be thrown far
@@ -365,9 +378,9 @@
 	X.setAnchored(TRUE)
 	X.density = TRUE
 	if(!isfloorturf(X.loc) && (!X.anchored))
-			var/atom/closest_thing = get_closest_atom(/atom/movable, range(150, (X.loc)), (X.loc))
-			to_chat(user, span_warning("It flings off!"))
-			X.throw_at(closest_thing, 150, ((1+X.charge)*2), spin = FALSE)
+		var/atom/closest_thing = get_closest_atom(/atom/movable, range(150, (X.loc)), (X.loc))
+		to_chat(user, span_warning("It flings off!"))
+		X.throw_at(closest_thing, 150, ((1+X.charge)*2), spin = FALSE)
 
 /datum/xenoartifact_trait/minor/anchor/on_item(obj/item/xenoartifact/X, atom/user, obj/item/item)
 	. = FALSE
@@ -380,9 +393,6 @@
 		X.setAnchored(!X.anchored)
 		if(!X.get_trait(/datum/xenoartifact_trait/minor/dense))
 			X.density = !X.density
-		if(!isfloorturf(X.loc) && (!X.anchored))
-			to_chat(user, span_warning("It flings off!"))
-			X.throw_at(closest_thing, 150, ((1+X.charge)*2), spin = FALSE)
 		return TRUE
 
 //============
