@@ -22,6 +22,7 @@ export type Feature<
   >;
   category?: string;
   description?: string;
+  sortingPrefix?: string;
 };
 
 /**
@@ -146,7 +147,7 @@ export type FeatureChoicedServerData = {
 
 export type FeatureChoiced = Feature<string, string, FeatureChoicedServerData>;
 
-const capitalizeFirstLetter = (text: string) => (
+export const capitalizeFirstLetter = (text: string) => (
   text.toString().charAt(0).toUpperCase() + text.toString().slice(1)
 );
 

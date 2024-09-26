@@ -498,9 +498,9 @@
 	var/cash_register = FALSE
 	req_components = list()
 
-/obj/item/circuitboard/machine/paystand/attackby(obj/item/held_item, mob/user, params)
+/obj/item/circuitboard/machine/paystand/attackby(obj/item/held_item, mob/living/user, params)
 	if(held_item.tool_behaviour)
-		if(held_item.tool_behaviour == TOOL_SCREWDRIVER && user.a_intent == INTENT_HELP)
+		if(held_item.tool_behaviour == TOOL_SCREWDRIVER && !user.combat_mode)
 			if(cash_register)
 				to_chat(user,span_info("You change the holo-emitter selector to it's default setting."))
 				build_path = /obj/machinery/paystand
@@ -1449,6 +1449,9 @@
 	name = "Thruster (Machine Board)"
 	build_path = /obj/machinery/shuttle/engine
 	req_components = list()
+
+/obj/item/circuitboard/machine/shuttle/engine/get_shipbreaking_reward()
+	return /obj/item/stack/scrap/core
 
 /obj/item/circuitboard/machine/shuttle/engine/plasma
 	name = "Plasma Thruster (Machine Board)"

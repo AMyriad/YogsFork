@@ -506,7 +506,7 @@
 	desc = "Exosuit-mounted armor booster."
 	id = "mech_ccw_armor"
 	build_type = MECHFAB
-	build_path = /obj/item/mecha_parts/mecha_equipment/anticcw_armor_booster
+	build_path = /obj/item/mecha_parts/mecha_equipment/armor/melee
 	materials = list(/datum/material/iron=20000,/datum/material/silver=5000)
 	construction_time = 100
 	category = list("Exosuit Equipment")
@@ -516,9 +516,49 @@
 	desc = "Exosuit-mounted armor booster."
 	id = "mech_proj_armor"
 	build_type = MECHFAB
-	build_path = /obj/item/mecha_parts/mecha_equipment/antiproj_armor_booster
+	build_path = /obj/item/mecha_parts/mecha_equipment/armor/ranged
 	materials = list(/datum/material/iron=20000,/datum/material/gold=5000)
 	construction_time = 100
+	category = list("Exosuit Equipment")
+
+/datum/design/mech_afterburner
+	name = "Exosuit Module (CL-56 \"Hardlight\" Afterburner)"
+	desc = "Repurposed shuttle engine."
+	id = "mech_afterburner"
+	build_type = MECHFAB
+	build_path = /obj/item/mecha_parts/mecha_equipment/afterburner
+	materials = list(/datum/material/iron = 10000, /datum/material/plasma = 5000, /datum/material/uranium = 1000, /datum/material/bluespace = 50)
+	construction_time = 100
+	category = list("Exosuit Equipment")
+
+/datum/design/mech_crusher
+	name = "Exosuit Module (Kinetic Crusher)"
+	desc = "A mounted version of the kinetic crusher."
+	id = "mech_crusher"
+	build_type = MECHFAB
+	build_path = /obj/item/mecha_parts/mecha_equipment/melee_weapon/sword/kinetic_crusher
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	construction_time = 100
+	category = list("Exosuit Equipment")
+
+/datum/design/mech_scythe
+	name = "Exosuit Module (Hydraulic Scythe)"
+	desc = "Hydraulic-actuated scythe for exosuits."
+	id = "mech_scythe"
+	build_type = MECHFAB
+	build_path = /obj/item/mecha_parts/mecha_equipment/melee_weapon/sword/scythe
+	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2000)
+	construction_time = 100
+	category = list("Exosuit Equipment")
+
+/datum/design/mech_magtreads
+	name = "Exosuit Module (Magnetic Treads)"
+	desc = "A set of magnetic exosuit treads."
+	id = "mech_magtreads"
+	build_type = MECHFAB
+	build_path = /obj/item/mecha_parts/mecha_equipment/mag_treads
+	materials = list(/datum/material/iron = 5000, /datum/material/gold = 2000)
+	construction_time = 50
 	category = list("Exosuit Equipment")
 
 /datum/design/mech_diamond_drill
@@ -538,6 +578,36 @@
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/generator/nuclear
 	materials = list(/datum/material/iron=10000,/datum/material/glass=1000,/datum/material/silver=500)
+	construction_time = 100
+	category = list("Exosuit Equipment")
+
+/datum/design/mech_passive_cooling
+	name = "Exosuit Module (Passive Cooling)"
+	desc = "Passive cooling system. Requires an atmosphere."
+	id = "mech_passive_cooling"
+	build_type = MECHFAB
+	build_path = /obj/item/mecha_parts/mecha_equipment/cooling/passive
+	materials = list(/datum/material/iron=5000,)
+	construction_time = 100
+	category = list("Exosuit Equipment")
+
+/datum/design/mech_active_cooling
+	name = "Exosuit Module (Active Cooling)"
+	desc = "Active cooling system. Requires power."
+	id = "mech_active_cooling"
+	build_type = MECHFAB
+	build_path = /obj/item/mecha_parts/mecha_equipment/cooling/active
+	materials = list(/datum/material/iron=10000,/datum/material/gold=100)
+	construction_time = 100
+	category = list("Exosuit Equipment")
+
+/datum/design/mech_heat_sink
+	name = "Exosuit Module (Heat Sink)"
+	desc = "Slows down both heating and cooling."
+	id = "mech_heat_sink"
+	build_type = MECHFAB
+	build_path = /obj/item/mecha_parts/mecha_equipment/heat_sink
+	materials = list(/datum/material/iron=10000,/datum/material/plasma=1000)
 	construction_time = 100
 	category = list("Exosuit Equipment")
 

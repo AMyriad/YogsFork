@@ -5,13 +5,13 @@
 	id = "synthetic"
 	say_mod = "states"
 
-	limbs_id = "human"
+	limbs_id = SPECIES_HUMAN
 	damage_overlay_type = "synth"
 
 	species_traits = list(NOTRANSSTING,NOEYESPRITES,NO_DNA_COPY,TRAIT_EASYDISMEMBER,NOZOMBIE,NOHUSK,NOBLOOD, NO_UNDERWEAR)
 	inherent_traits = list(TRAIT_POWERHUNGRY, TRAIT_NOBREATH, TRAIT_RADIMMUNE,TRAIT_COLDBLOODED,TRAIT_LIMBATTACHMENT,TRAIT_NOCRITDAMAGE,TRAIT_GENELESS,TRAIT_MEDICALIGNORE,TRAIT_NOCLONE,TRAIT_TOXIMMUNE,TRAIT_EASILY_WOUNDED,TRAIT_NODEFIB, TRAIT_REDUCED_DAMAGE_SLOWDOWN, TRAIT_NOGUNS, TRAIT_NO_GRENADES)
 	no_equip = list(ITEM_SLOT_MASK, ITEM_SLOT_EYES)
-	inherent_biotypes = list(MOB_ROBOTIC)
+	inherent_biotypes = MOB_ROBOTIC
 	mutantbrain = /obj/item/organ/brain/positron/synth
 	mutantheart = /obj/item/organ/heart/cybernetic
 	mutanteyes = /obj/item/organ/eyes/robotic/synth
@@ -25,7 +25,6 @@
 	exotic_blood = /datum/reagent/oil
 	use_skintones = TRUE
 	forced_skintone = "albino"
-	inherent_biotypes = MOB_ROBOTIC
 
 	burnmod = 0.9
 	heatmod = 0.95
@@ -47,7 +46,7 @@
 	///For transferring back and forth to an AI body when it's the AI deploying
 	var/mob/living/silicon/ai/mainframe
 
-	inherent_slowdown = 0.65
+	speedmod = 0.65
 	var/datum/action/innate/synth_os/os_button = new
 	var/datum/action/innate/synth_laws/show_laws = new
 
@@ -60,7 +59,6 @@
 	punchdamagehigh = 12
 	punchdamagelow = 5
 	punchstunthreshold = 11
-	var/force_multiplier = 1.25 //We hit 25% harder with all weapons
 
 	var/last_warned
 
@@ -74,11 +72,8 @@
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	laws = new /datum/ai_laws/steward
 
+	C.physiology.force_multiplier *= 1.25 //We hit 25% harder with all weapons
 
-	var/obj/item/organ/appendix/A = C.getorganslot(ORGAN_SLOT_APPENDIX) // Easiest way to remove it.
-	if(A)
-		A.Remove(C)
-		QDEL_NULL(A)
 	original_numbers = rand(1, 999)
 	C.real_name = "Synthetic Unit #[original_numbers]"
 	C.name = C.real_name
@@ -104,8 +99,8 @@
 	. = ..()
 	C.remove_language(/datum/language/machine, source = LANGUAGE_SYNTH)
 	os_button.Remove(C)
-	inbuilt_cpu.forceMove(get_turf(C))
-	inbuilt_cpu = null
+	QDEL_NULL(inbuilt_cpu)
+	C.physiology.force_multiplier /= 1.25
 
 /datum/species/wy_synth/proc/handle_speech(datum/source, list/speech_args)
 	speech_args[SPEECH_SPANS] |= SPAN_ROBOT
@@ -187,6 +182,8 @@
 
 /datum/species/wy_synth/apply_damage(damage, damagetype = BRUTE, def_zone = null, blocked, mob/living/carbon/human/H, wound_bonus = 0, bare_wound_bonus = 0, sharpness = SHARP_NONE, attack_direction = null)
 	. = ..()
+	if(!.)
+		return
 	var/hit_percent = (100-(blocked+armor))/100
 	if(damage * hit_percent * brutemod > 0)
 		if(last_warned <= world.time)
@@ -233,8 +230,7 @@
 
 /datum/species/wy_synth/proc/transfer(mob/living/carbon/human/user, mob/living/carbon/human/target)
 	var/datum/mind/our_mind = user.mind
-	user.mind.transfer_to(target)
-	our_mind.synth_os.switch_shell(user, target)
+	our_mind.synth_os.switch_shell(user, target) //handles the mind transfer to prevent project runtimes
 
 	target.real_name = "[user.real_name]"	//Randomizing the name so it shows up separately in the shells list
 	target.name = target.real_name

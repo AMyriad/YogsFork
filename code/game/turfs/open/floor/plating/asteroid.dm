@@ -55,7 +55,7 @@
 			to_chat(user, span_notice("You build a floor."))
 			place_on_top(/turf/open/floor/plating, flags = CHANGETURF_INHERIT_AIR)
 			return TRUE
-	return FALSE  
+	return FALSE
 
 /turf/open/floor/plating/asteroid/try_replace_tile(obj/item/stack/tile/T, mob/user, params)
 	return
@@ -175,7 +175,7 @@
 
 /turf/open/floor/plating/asteroid/snow/burn_tile()
 	if(!burnt)
-		visible_message(span_danger("[src] melts away!."))
+		visible_message(span_danger("[src] melts away!"))
 		slowdown = 0
 		burnt = TRUE
 		update_appearance()
@@ -208,7 +208,8 @@
 
 /turf/open/floor/plating/asteroid/snow/icemoon/top_layer
 	light_range = 2
-	light_power = 0.1
+	light_power = NIGHT_TURF_BRIGHTNESS
+	light_color = COLOR_STARLIGHT
 
 /turf/open/lava/plasma/ice_moon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
@@ -252,7 +253,8 @@
 
 /turf/open/floor/plating/asteroid/snow/ice/icemoon/top_layer
 	light_range = 2
-	light_power = 0.1
+	light_power = NIGHT_TURF_BRIGHTNESS
+	light_color = COLOR_STARLIGHT
 
 /turf/open/floor/plating/asteroid/snow/ice/burn_tile()
 	return FALSE

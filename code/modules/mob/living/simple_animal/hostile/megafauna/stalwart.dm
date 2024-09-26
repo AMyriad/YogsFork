@@ -116,7 +116,7 @@
 			shake_camera(M, 4, 3)
 			sleep(0.5 SECONDS)
 	playsound(src, 'sound/machines/sm/accent/delam/14.ogg', 400, 1)
-	
+
 /mob/living/simple_animal/hostile/megafauna/stalwart/proc/shoot_projectile(turf/marker, set_angle)
 	playsound(src, 'sound/weapons/ionrifle.ogg', 400, 1)
 	if(!isnum(set_angle) && (!marker || marker == loc))
@@ -266,15 +266,14 @@
 		var/turf/E = get_step(src, d)
 		shoot_projectile(E)
 
-/mob/living/simple_animal/hostile/megafauna/stalwart/proc/enrage(mob/living/L)
-	if(ishuman(L))
-		var/mob/living/carbon/human/H = L
-		if(H.mind)
-			if(H.mind.martial_art && prob(H.mind.martial_art.deflection_chance))
-				. = TRUE
-		if(H.mind)
-			if(H.dna.species == /datum/species/golem/sand)
-				. = TRUE
+/mob/living/simple_animal/hostile/megafauna/stalwart/proc/enrage(mob/living/carbon/target)
+	if(!iscarbon(target))
+		return FALSE
+	if(target.dna?.species == /datum/species/golem/sand)
+		return TRUE
+	if(target.mind.has_martialart(MARTIALART_SPACIALLDOMINANCE))
+		return TRUE
+	return FALSE
 
 /mob/living/simple_animal/hostile/megafauna/stalwart/death()
 	. = ..()
@@ -305,7 +304,7 @@
 	attack_sound = 'sound/weapons/pierce_slow.ogg'
 	speak_emote = list("buzzes")
 	faction = list("mining")
-	weather_immunities = list("lava","ash")
+	weather_immunities = ALL
 
 /mob/living/simple_animal/hostile/asteroid/hivelordbrood/staldrone/Initialize(mapload)
 	. = ..()

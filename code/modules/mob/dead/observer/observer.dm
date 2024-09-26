@@ -19,6 +19,7 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 	light_range = 1
 	light_power = 2
 	light_on = FALSE
+	shift_to_open_context_menu = FALSE
 	lighting_cutoff = LIGHTING_CUTOFF_MEDIUM
 	pass_flags = PASSFLOOR
 	var/can_reenter_corpse
@@ -810,7 +811,7 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 
 	update_appearance()
 
-/mob/dead/observer/canUseTopic(atom/movable/M, be_close=FALSE, no_dextery=FALSE, no_tk=FALSE)
+/mob/dead/observer/canUseTopic(atom/movable/M, be_close=FALSE, no_dexterity=FALSE, no_tk=FALSE)
 	return IsAdminGhost(usr)
 
 /mob/dead/observer/is_literate()

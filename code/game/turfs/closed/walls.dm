@@ -32,6 +32,7 @@
 	var/hardness = 30 
 	var/slicing_duration = 200  //default time taken to slice the wall
 	var/sheet_type = /obj/item/stack/sheet/metal
+	var/scrap_type = /obj/item/stack/scrap/plating
 	var/sheet_amount = 2
 	var/girder_type = /obj/structure/girder
 	var/smash_flags = ENVIRONMENT_SMASH_WALLS|ENVIRONMENT_SMASH_RWALLS
@@ -98,6 +99,8 @@
 	return TRUE
 
 /turf/closed/wall/proc/dismantle_wall(devastated = FALSE, explode = FALSE)
+	if(resistance_flags & INDESTRUCTIBLE)
+		return
 	if(devastated)
 		devastate_wall()
 	else
@@ -117,15 +120,25 @@
 	QUEUE_SMOOTH_NEIGHBORS(src)
 
 /turf/closed/wall/proc/break_wall()
-	new sheet_type(src, sheet_amount)
+	var/area/shipbreak/A = get_area(src)
+	if(istype(A)) //if we are actually in the shipbreaking zone...
+		new scrap_type(src, sheet_amount)
+	else
+		new sheet_type(src, sheet_amount)
 	return new girder_type(src)
 
 /turf/closed/wall/proc/devastate_wall()
-	new sheet_type(src, sheet_amount)
+	var/area/shipbreak/A = get_area(src)
+	if(istype(A))
+		new scrap_type(src, sheet_amount)
+	else
+		new sheet_type(src, sheet_amount)
 	if(girder_type)
 		new /obj/item/stack/sheet/metal(src)
 
 /turf/closed/wall/ex_act(severity, target)
+	if(resistance_flags & INDESTRUCTIBLE)
+		return
 	if(target == src)
 		dismantle_wall(TRUE, TRUE)
 		return
@@ -199,13 +212,14 @@
 	var/turf/T = user.loc	//get user's location for delay checks
 
 	//the istype cascade has been spread among various procs for easy overriding
-	if(try_clean(attacking_item, user, T) || try_wallmount(attacking_item, user, T) || try_decon(attacking_item, user, T))
+	var/list/modifiers = params2list(params)
+	if(try_decon(attacking_item, user, T, modifiers) || try_clean(attacking_item, user, T) || try_wallmount(attacking_item, user, T))
 		return
 
-	return ..() || (attacking_item.attack_atom(src, user))
+	return ..() || (attacking_item.attack_atom(src, user, params))
 
-/turf/closed/wall/proc/try_clean(obj/item/W, mob/user, turf/T)
-	if(user.a_intent == INTENT_HARM)
+/turf/closed/wall/proc/try_clean(obj/item/W, mob/living/user, turf/T, modifiers)
+	if(user.combat_mode)
 		return FALSE
 
 	if(W.tool_behaviour == TOOL_WELDER)
@@ -245,7 +259,10 @@
 
 	return FALSE
 
-/turf/closed/wall/proc/try_decon(obj/item/I, mob/user, turf/T)
+/turf/closed/wall/proc/try_decon(obj/item/I, mob/user, turf/T, modifiers)
+	if(!(modifiers && modifiers[RIGHT_CLICK]))
+		return FALSE
+
 	if(I.tool_behaviour == TOOL_WELDER)
 		if(!I.tool_start_check(user, amount=0))
 			return FALSE

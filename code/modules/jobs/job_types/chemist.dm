@@ -16,8 +16,8 @@
 
 	outfit = /datum/outfit/job/chemist
 
-	added_access = list(ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_GENETICS, ACCESS_CLONING)
-	base_access = list(ACCESS_MEDICAL, ACCESS_CHEMISTRY, ACCESS_MECH_MEDICAL, ACCESS_MINERAL_STOREROOM)
+	added_access = list(ACCESS_MORGUE, ACCESS_SURGERY, ACCESS_GENETICS, ACCESS_CLONING, ACCESS_VIROLOGY)
+	base_access = list(ACCESS_MEDICAL, ACCESS_CHEMISTRY, ACCESS_MECH_MEDICAL)
 	paycheck = PAYCHECK_MEDIUM
 	paycheck_department = ACCOUNT_MED
 
@@ -56,8 +56,8 @@
 
 	glasses = /obj/item/clothing/glasses/science
 	ears = /obj/item/radio/headset/headset_med
-	uniform = /obj/item/clothing/under/rank/chemist
-	uniform_skirt = /obj/item/clothing/under/rank/chemist/skirt
+	uniform = /obj/item/clothing/under/rank/medical/chemist
+	uniform_skirt = /obj/item/clothing/under/rank/medical/chemist/skirt
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	suit =  /obj/item/clothing/suit/toggle/labcoat/chemist
 	backpack = /obj/item/storage/backpack/chemistry

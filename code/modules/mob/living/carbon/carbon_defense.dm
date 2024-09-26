@@ -71,10 +71,7 @@
 						I.pixel_x = initial(I.pixel_x)
 						I.pixel_y = initial(I.pixel_y)
 						I.transform = initial(I.transform)
-						//If() explanation: if we have a mind and a martial art that we can use, check if it has a block or deflect chance or it's sleeping carp
-						//Assuming any of that isnt true, then throw mode isnt helpful and it gets turned off. Otherwise, it stays on.
-						if(!(mind && mind.martial_art && mind.martial_art.can_use(src) && (mind.martial_art.deflection_chance || mind.martial_art.block_chance || mind.martial_art.id == "sleeping carp")))
-							throw_mode_off()
+						throw_mode_off()
 						return TRUE
 	..()
 
@@ -268,7 +265,7 @@
 	return //so we don't call the carbon's attack_hand().
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
-/mob/living/carbon/attack_hand(mob/living/carbon/human/user)
+/mob/living/carbon/attack_hand(mob/living/carbon/human/user, modifiers)
 
 	for(var/thing in diseases)
 		var/datum/disease/D = thing
@@ -282,8 +279,8 @@
 
 	for(var/datum/surgery/S in surgeries)
 		if(!(mobility_flags & MOBILITY_STAND) || !S.lying_required)
-			if((S.self_operable || user != src) && (user.a_intent == INTENT_HELP || user.a_intent == INTENT_DISARM))
-				if(S.next_step(user, user.a_intent))
+			if((S.self_operable || user != src) && !user.combat_mode)
+				if(S.next_step(user, modifiers))
 					return TRUE
 
 	for(var/datum/wound/W in all_wounds)
@@ -293,7 +290,7 @@
 	return FALSE
 
 
-/mob/living/carbon/attack_paw(mob/living/carbon/monkey/M)
+/mob/living/carbon/attack_paw(mob/living/carbon/monkey/M, modifiers)
 
 	if(can_inject(M, TRUE))
 		for(var/thing in diseases)
@@ -306,7 +303,7 @@
 		if(D.spread_flags & DISEASE_SPREAD_CONTACT_SKIN)
 			ContactContractDisease(D)
 
-	if(M.a_intent == INTENT_HELP)
+	if(!M.combat_mode)
 		help_shake_act(M)
 		return FALSE
 
@@ -318,25 +315,19 @@
 
 
 /mob/living/carbon/attack_slime(mob/living/simple_animal/slime/M)
-	if(..()) //successful slime attack
+	. = ..()
+	if(.) //successful slime attack
 		if(M.powerlevel > 0)
-			var/stunprob = M.powerlevel * 7 + 10  // 17 at level 1, 80 at level 10
-			if(prob(stunprob))
-				M.powerlevel -= 3
-				if(M.powerlevel < 0)
-					M.powerlevel = 0
+			var/dazeprob = M.powerlevel * 10  // 10 at level 1, 100 at level 10
+			if(!prob(dazeprob))
+				return
 
-				visible_message(span_danger("The [M.name] has shocked [src]!"), \
-				span_userdanger("The [M.name] has shocked [src]!"))
+			visible_message(span_danger("The [M.name] has dazed [src]!"), span_userdanger("The [M.name] has dazed [src]!"))
 
-				do_sparks(5, TRUE, src)
-				var/power = M.powerlevel + rand(0,3)
-				Paralyze(power*20)
-				set_stutter_if_lower(power * 2 SECONDS)
-				if (prob(stunprob) && M.powerlevel >= 8)
-					adjustFireLoss(M.powerlevel * rand(6,10))
-					updatehealth()
-		return TRUE
+			var/power = M.powerlevel + rand(0,3)
+			set_stutter_if_lower(power SECONDS)
+			Daze(power SECONDS)
+		return
 
 /mob/living/carbon/proc/dismembering_strike(mob/living/attacker, dam_zone)
 	if(!attacker.limb_destroyer)
@@ -648,7 +639,7 @@
 /obj/item/self_grasp
 	name = "self-grasp"
 	desc = "Sometimes all you can do is slow the bleeding."
-	icon = 'icons/obj/toy.dmi'
+	icon = 'icons/obj/weapons/hand.dmi'
 	icon_state = "latexballon"
 	item_state = "nothing"
 	force = 0

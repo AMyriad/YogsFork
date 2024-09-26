@@ -217,8 +217,9 @@ GLOBAL_VAR(changeling_team_objective_type)
 		new_flesh_item.lefthand_file = chosen_prof.lefthand_file_list[slot]
 		new_flesh_item.righthand_file = chosen_prof.righthand_file_list[slot]
 		new_flesh_item.item_state = chosen_prof.inhand_icon_state_list[slot]
-		new_flesh_item.mob_overlay_icon = chosen_prof.worn_icon_list[slot]
+		new_flesh_item.worn_icon = chosen_prof.worn_icon_list[slot]
 		new_flesh_item.worn_icon_state = chosen_prof.worn_icon_state_list[slot]
+		new_flesh_item.sprite_sheets = chosen_prof.sprite_sheets_list[slot]
 
 		if(equip)
 			user.equip_to_slot_or_del(new_flesh_item, GLOB.slot2slot[slot])

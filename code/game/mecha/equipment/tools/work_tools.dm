@@ -51,13 +51,11 @@
 	tool_behaviour = 0
 
 /obj/item/mecha_parts/mecha_equipment/hydraulic_clamp/action(atom/target, mob/living/user, params)
-	if(!action_checks(target))
-		return
 	if(!cargo_holder)
 		return
 	
 	// There are two ways things handle being pried, and I'm too lazy to make every single thing use the same one
-	if(target.tool_act(user, src, tool_behaviour) & TOOL_ACT_MELEE_CHAIN_BLOCKING)
+	if(target.tool_act(user, src, tool_behaviour, params) & TOOL_ACT_MELEE_CHAIN_BLOCKING)
 		return TRUE
 	if(target.attackby(src, user, params))
 		return TRUE
@@ -100,7 +98,7 @@
 		var/mob/living/M = target
 		if(M.stat == DEAD)
 			return
-		if(chassis.occupant.a_intent == INTENT_HARM)
+		if(chassis.occupant.combat_mode)
 			M.take_overall_damage(dam_force)
 			if(!M)
 				return
@@ -109,7 +107,7 @@
 			target.visible_message(span_danger("[chassis] squeezes [target]."), \
 								span_userdanger("[chassis] squeezes [target]."),\
 								span_italics("You hear something crack."))
-			log_combat(chassis.occupant, M, "attacked", "[name]", "(INTENT: [uppertext(chassis.occupant.a_intent)]) (DAMTYE: [uppertext(damtype)])")
+			log_combat(chassis.occupant, M, "attacked", "[name]", "(COMBAT MODE: [user.combat_mode ? "ON" : "OFF"]) (DAMTYE: [uppertext(damtype)])")
 		else
 			step_away(M,chassis)
 			occupant_message("You push [target] out of the way.")
@@ -132,9 +130,7 @@
 	dam_force = 20
 	real_clamp = TRUE
 
-/obj/item/mecha_parts/mecha_equipment/hydraulic_clamp/kill/action(atom/target)
-	if(!action_checks(target))
-		return
+/obj/item/mecha_parts/mecha_equipment/hydraulic_clamp/kill/action(atom/target, mob/living/user, params)
 	if(!cargo_holder)
 		return
 	if(isobj(target))
@@ -160,20 +156,9 @@
 		var/mob/living/M = target
 		if(M.stat == DEAD)
 			return
-		if(chassis.occupant.a_intent == INTENT_HARM)
-			if(real_clamp)
-				M.take_overall_damage(dam_force)
-				if(!M)
-					return
-				M.adjustOxyLoss(round(dam_force/2))
-				M.updatehealth()
-				target.visible_message(span_danger("[chassis] destroys [target] in an unholy fury."), \
-									span_userdanger("[chassis] destroys [target] in an unholy fury."))
-				log_combat(chassis.occupant, M, "attacked", "[name]", "(INTENT: [uppertext(chassis.occupant.a_intent)]) (DAMTYE: [uppertext(damtype)])")
-			else
-				target.visible_message(span_danger("[chassis] destroys [target] in an unholy fury."), \
-									span_userdanger("[chassis] destroys [target] in an unholy fury."))
-		else if(chassis.occupant.a_intent == INTENT_DISARM)
+		
+		var/list/modifiers = params2list(params)
+		if(modifiers && modifiers[RIGHT_CLICK])
 			if(real_clamp)
 				var/mob/living/carbon/C = target
 				var/play_sound = FALSE
@@ -192,10 +177,23 @@
 					playsound(src, get_dismember_sound(), 80, TRUE)
 					target.visible_message(span_danger("[chassis] rips [target]'s arms off."), \
 								   span_userdanger("[chassis] rips [target]'s arms off."))
-					log_combat(chassis.occupant, M, "dismembered of[limbs_gone],", "[name]", "(INTENT: [uppertext(chassis.occupant.a_intent)]) (DAMTYE: [uppertext(damtype)])")
+					log_combat(chassis.occupant, M, "dismembered of[limbs_gone],", "[name]", "(COMBAT MODE: [user.combat_mode ? "ON" : "OFF"]) (DAMTYE: [uppertext(damtype)])")
 			else
 				target.visible_message(span_danger("[chassis] rips [target]'s arms off."), \
 								   span_userdanger("[chassis] rips [target]'s arms off."))
+		else if(chassis.occupant.combat_mode)
+			if(real_clamp)
+				M.take_overall_damage(dam_force)
+				if(!M)
+					return
+				M.adjustOxyLoss(round(dam_force/2))
+				M.updatehealth()
+				target.visible_message(span_danger("[chassis] destroys [target] in an unholy fury."), \
+									span_userdanger("[chassis] destroys [target] in an unholy fury."))
+				log_combat(chassis.occupant, M, "attacked", "[name]", "(COMBAT MODE: [user.combat_mode ? "ON" : "OFF"]) (DAMTYE: [uppertext(damtype)])")
+			else
+				target.visible_message(span_danger("[chassis] destroys [target] in an unholy fury."), \
+									span_userdanger("[chassis] destroys [target] in an unholy fury."))
 		else
 			step_away(M,chassis)
 			target.visible_message("[chassis] tosses [target] like a piece of paper.")
@@ -218,9 +216,6 @@
 	reagents.add_reagent(/datum/reagent/firefighting_foam, 1000)
 
 /obj/item/mecha_parts/mecha_equipment/extinguisher/action(atom/target) //copypasted from extinguisher. TODO: Rewrite from scratch.
-	if(!action_checks(target))
-		return
-
 	if(istype(target, /obj/structure/reagent_dispensers/foamtank) && get_dist(chassis,target) <= 1)
 		var/obj/structure/reagent_dispensers/WT = target
 		WT.reagents.trans_to(src, 1000)
@@ -367,8 +362,6 @@
 	selectable = FALSE
 	/// Scanning distance
 	var/distance = 6
-	/// Whether the scanning is enabled
-	var/scanning = FALSE
 	/// Stored t-ray scan images
 	var/list/t_ray_images
 
@@ -378,11 +371,11 @@
 
 /obj/item/mecha_parts/mecha_equipment/t_scanner/detach(atom/moveto)
 	UnregisterSignal(chassis, COMSIG_MOVABLE_MOVED)
-	if(scanning)
-		STOP_PROCESSING(SSobj, src)
+	update_scan(chassis.occupant, TRUE)
+	active = FALSE
 	return ..()
 
-/obj/item/mecha_parts/mecha_equipment/t_scanner/process(delta_time)
+/obj/item/mecha_parts/mecha_equipment/t_scanner/on_process(delta_time)
 	if(!update_scan(chassis.occupant))
 		return PROCESS_KILL
 
@@ -396,7 +389,7 @@
 	if(t_ray_images?.len)
 		pilot.client.images.Remove(t_ray_images)
 		QDEL_NULL(t_ray_images)
-	if(!scanning || force_remove)
+	if(!active || force_remove)
 		return FALSE
 
 	t_ray_images = list()
@@ -428,15 +421,30 @@
 
 /datum/action/innate/mecha/equipment/t_scanner/Activate()
 	var/obj/item/mecha_parts/mecha_equipment/t_scanner/t_scan = equipment
-	t_scan.scanning = !t_scan.scanning
+	t_scan.active = !t_scan.active
 	t_scan.update_scan(t_scan.chassis.occupant)
-	t_scan.chassis.occupant_message("You [t_scan.scanning ? "activate" : "deactivate"] [t_scan].")
-	button_icon_state = "t_scanner_[t_scan.scanning ? "on" : "off"]"
+	t_scan.chassis.occupant_message("You [t_scan.active ? "activate" : "deactivate"] [t_scan].")
+	button_icon_state = "t_scanner_[t_scan.active ? "on" : "off"]"
 	build_all_button_icons()
-	if(t_scan.scanning)
-		START_PROCESSING(SSobj, t_scan)
-	else
-		STOP_PROCESSING(SSobj, t_scan)
+
+/obj/item/mecha_parts/mecha_equipment/mag_treads
+	name = "magnetic treads"
+	desc = "A set of magnetic treads for ensuring an exosuit stays secured during EVA."
+	icon_state = "mecha_magtreads"
+	selectable = FALSE
+
+/obj/item/mecha_parts/mecha_equipment/mag_treads/attach(obj/mecha/new_mecha)
+	. = ..()
+	RegisterSignal(new_mecha, COMSIG_ATOM_HAS_GRAVITY, PROC_REF(grav_check))
+
+/obj/item/mecha_parts/mecha_equipment/mag_treads/detach(atom/moveto)
+	UnregisterSignal(chassis, COMSIG_ATOM_HAS_GRAVITY)
+	return ..()
+
+/obj/item/mecha_parts/mecha_equipment/mag_treads/proc/grav_check(obj/mecha/attached_mech, turf/location, list/gravs)
+	if(isgroundlessturf(location))
+		return
+	gravs.Add(STANDARD_GRAVITY)
 
 /obj/item/mecha_parts/mecha_equipment/cable_layer
 	name = "cable layer"
@@ -473,8 +481,6 @@
 	return ..()
 
 /obj/item/mecha_parts/mecha_equipment/cable_layer/action(obj/item/stack/cable_coil/target)
-	if(!action_checks(target))
-		return
 	if(istype(target) && target.amount)
 		var/cur_amount = cable? cable.amount : 0
 		var/to_load = max(max_cable - cur_amount,0)
@@ -623,10 +629,9 @@
 	N.dna_lock = M.dna_lock
 	N.maint_access = M.maint_access
 	N.strafe = M.strafe
-	N.update_integrity(M.get_integrity()) //This is not a repair tool
+	N.update_integrity(N.max_integrity * M.get_integrity() / M.max_integrity) //This is not a repair tool
 	if (M.name != "\improper APLU MK-I \"Ripley\"")
 		N.name = M.name
-	M.wreckage = 0
 	qdel(M)
 	playsound(get_turf(N),'sound/items/ratchet.ogg',50,1)
 	return

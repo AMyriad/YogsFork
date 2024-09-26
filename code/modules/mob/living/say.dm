@@ -2,8 +2,7 @@ GLOBAL_LIST_INIT(department_radio_prefixes, list(":", "."))
 
 GLOBAL_LIST_INIT(department_radio_keys, list(
 	// Location
-	MODE_KEY_R_HAND = MODE_R_HAND,
-	MODE_KEY_L_HAND = MODE_L_HAND,
+	MODE_KEY_RADIO = MODE_RADIO,
 	MODE_KEY_INTERCOM = MODE_INTERCOM,
 
 	// Department
@@ -32,8 +31,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 	//kinda localization -- rastaf0
 	//same keys as above, but on russian keyboard layout. This file uses cp1251 as encoding.
 	// Location
-	"ê" = MODE_R_HAND,
-	"ä" = MODE_L_HAND,
+	"ê" = MODE_RADIO,
 	"ø" = MODE_INTERCOM,
 
 	// Department
@@ -235,7 +233,6 @@ GLOBAL_LIST_INIT(special_radio_keys, list(
 		spans |= SPAN_ITALICS
 
 	send_speech(message, message_range, src, bubble_type, spans, language, message_mods)
-
 	
 	return on_say_success(message,message_range,succumbed, spans, language, message_mods)//Yogs
 
@@ -305,6 +302,15 @@ GLOBAL_LIST_INIT(special_radio_keys, list(
 		eavesdropping = stars(message)
 		eavesrendered = compose_message(src, message_language, eavesdropping, , spans, message_mods)
 
+
+	
+	//yogs edit (stolen from monkestation and moved)
+	///Play a sound to indicate we just spoke
+	var/sound/speak_sound
+	if(client && voice_type && istype(voice_type))
+		speak_sound = voice_type.get_sound(src, message, spans)
+	//yogs change end
+
 	var/rendered = compose_message(src, message_language, message, , spans, message_mods)
 	for(var/_AM in listening)
 		var/atom/movable/AM = _AM
@@ -312,6 +318,12 @@ GLOBAL_LIST_INIT(special_radio_keys, list(
 			AM.Hear(eavesrendered, src, message_language, eavesdropping, , spans, message_mods)
 		else
 			AM.Hear(rendered, src, message_language, message, , spans, message_mods)
+			if(speak_sound && ismob(AM))
+				var/mob/hearing_mob = AM
+				if(hearing_mob.client?.prefs?.read_preference(/datum/preference/toggle/speech_hear) && hearing_mob.has_language(message_language))
+					var/volume = hearing_mob.client?.prefs?.read_preference(/datum/preference/numeric/speech_volume) || DEFAULT_SPEECH_VOLUME
+					volume *= 6 //the sounds are actually really quiet, we just reduced the numbers shown in preferences to not confuse players
+					hearing_mob.playsound_local(src, speak_sound, volume, TRUE, pressure_affected = FALSE, use_reverb = FALSE) //virtualspeaker handles radio stuff
 	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_LIVING_SAY_SPECIAL, src, message)
 
 	//speech bubble
@@ -320,7 +332,7 @@ GLOBAL_LIST_INIT(special_radio_keys, list(
 		if(M.client)
 			speech_bubble_recipients.Add(M.client)
 	var/image/say_popup = image('icons/mob/talk.dmi', src, "[bubble_type][say_test(message)]", FLY_LAYER)
-	if(a_intent == INTENT_HARM) // ANGRY!!!!
+	if(combat_mode) // ANGRY!!!!
 		var/mutable_appearance/angerlay = mutable_appearance('icons/mob/talk.dmi', "angry")
 		say_popup.add_overlay(angerlay)
 	SET_PLANE_EXPLICIT(say_popup, ABOVE_GAME_PLANE, src)
@@ -375,44 +387,34 @@ GLOBAL_LIST_INIT(special_radio_keys, list(
 	var/obj/item/implant/radio/imp = locate() in src
 	if(imp && imp.radio.on)
 		if(message_mods[MODE_HEADSET])
-			imp.radio.talk_into(src, message, , spans, language, message_mods)
+			imp.radio.talk_into(src, message, null, spans, language, message_mods)
 			return ITALICS | REDUCE_RANGE
 		if(message_mods[RADIO_EXTENSION] == MODE_DEPARTMENT || (message_mods[RADIO_EXTENSION] in imp.radio.channels))
 			imp.radio.talk_into(src, message, message_mods[RADIO_EXTENSION], spans, language, message_mods)
 			return ITALICS | REDUCE_RANGE
 
-	var/list/storage_item = list(get_active_held_item(), get_item_by_slot(ITEM_SLOT_BELT), get_item_by_slot(ITEM_SLOT_RPOCKET), get_item_by_slot(ITEM_SLOT_LPOCKET), get_item_by_slot(ITEM_SLOT_SUITSTORE))
-	for(var/obj/item/radio/hand in storage_item)
-		if(message_mods[MODE_HEADSET])
-			hand.talk_into(src, message, , spans, language, message_mods)
-			return ITALICS | REDUCE_RANGE
-		if(message_mods[RADIO_EXTENSION] == MODE_DEPARTMENT || (message_mods[RADIO_EXTENSION] in hand.channels))
-			hand.talk_into(src, message, message_mods[RADIO_EXTENSION], spans, language, message_mods)
-			return ITALICS | REDUCE_RANGE
-
-	for (var/obj/item/radio/intercom/I in view(1, null))
-		if(message_mods[MODE_HEADSET])
-			I.talk_into(src, message, , spans, language, message_mods)
-			return ITALICS | REDUCE_RANGE
-		if(message_mods[RADIO_EXTENSION] == MODE_DEPARTMENT || (message_mods[RADIO_EXTENSION] in I.channels))
-			I.talk_into(src, message, message_mods[RADIO_EXTENSION], spans, language, message_mods)
-			return ITALICS | REDUCE_RANGE
-			
 	switch(message_mods[RADIO_EXTENSION])
-		if(MODE_R_HAND)
-			for(var/obj/item/r_hand in get_held_items_for_side("r", all = TRUE))
-				if (r_hand)
-					return r_hand.talk_into(src, message, , spans, language, message_mods)
-				return ITALICS | REDUCE_RANGE
-		if(MODE_L_HAND)
-			for(var/obj/item/l_hand in get_held_items_for_side("l", all = TRUE))
-				if (l_hand)
-					return l_hand.talk_into(src, message, , spans, language, message_mods)
+		if(MODE_RADIO)
+			var/list/radio_slots = list(
+				get_active_held_item(),
+				get_inactive_held_item(),
+				get_item_by_slot(ITEM_SLOT_BELT),
+				get_item_by_slot(ITEM_SLOT_RPOCKET),
+				get_item_by_slot(ITEM_SLOT_LPOCKET),
+				get_item_by_slot(ITEM_SLOT_SUITSTORE)
+			)
+			for(var/held_item in radio_slots)
+				if(!held_item)
+					continue
+				if(!istype(held_item, /obj/item/radio))
+					continue
+				var/obj/item/radio/held_radio = held_item
+				held_radio.talk_into(src, message, null, spans, language, message_mods)
 				return ITALICS | REDUCE_RANGE
 
 		if(MODE_INTERCOM)
 			for (var/obj/item/radio/intercom/I in view(1, null))
-				I.talk_into(src, message, , spans, language, message_mods)
+				I.talk_into(src, message, null, spans, language, message_mods)
 			return ITALICS | REDUCE_RANGE
 
 		if(MODE_BINARY)

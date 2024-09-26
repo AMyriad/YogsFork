@@ -285,7 +285,7 @@
 	if(flag) //It's adjacent, is the user, or is on the user's person
 		if(target in user.contents) //can't shoot stuff inside us.
 			return
-		if(!ismob(target) || user.a_intent == INTENT_HARM) //melee attack
+		if(!ismob(target) || user.combat_mode) //melee attack
 			return
 		if(target == user && user.zone_selected != BODY_ZONE_PRECISE_MOUTH) //so we can't shoot ourselves (unless mouth selected)
 			return
@@ -353,6 +353,10 @@
 	var/tracer_fire_chance = 0
 	var/fire_color = "green"
 
+/obj/projectile/beam/beam_rifle/Initialize(mapload)
+	. = ..()
+	ADD_TRAIT(src, TRAIT_SHIELDBUSTER, INNATE_TRAIT)
+
 /obj/projectile/beam/beam_rifle/hitscan
 	icon_state = ""
 	hitscan = TRUE
@@ -364,7 +368,7 @@
 	aoe_range = 0 // no AOE, has piercing instead
 	penetrations = 2
 	tracer_fire_chance = 50
-	penetration_flags = PENETRATE_OBJECTS | PENETRATE_MOBS
+	penetration_flags = PENETRATE_OBJECTS | PENETRATE_WALLS | PENETRATE_MOBS
 
 /obj/projectile/beam/beam_rifle/hitscan/impact
 	damage = 30 // total of 60 on direct hit

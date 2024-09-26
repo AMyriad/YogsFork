@@ -18,8 +18,7 @@
 //////////////////////////////////////////////////////////////////////////
 /datum/action/cooldown/spell/touch/devour_will
 	name = "Devour Will"
-	desc = "Creates a dark bead that can be used on a human to fully recharge Psi, gain one lucidity, and knock them unconscious. The victim will be stunned for the duration of the channel, being interrupted \
-	will knock both you and the victim down. Costs 5 Psi."
+	desc = "Creates a dark bead that can be used on a human to begin draining the lucidity and willpower from a living target, knocking them unconscious for a time. Being interrupted will knock you down for a time."
 	panel = "Darkspawn"
 	button_icon = 'yogstation/icons/mob/actions/actions_darkspawn.dmi'
 	sound = null
@@ -30,7 +29,7 @@
 	check_flags = AB_CHECK_HANDS_BLOCKED |  AB_CHECK_IMMOBILE | AB_CHECK_LYING | AB_CHECK_CONSCIOUS
 	spell_requirements = SPELL_REQUIRES_HUMAN
 	invocation_type = INVOCATION_NONE
-	psi_cost = 5
+	resource_costs = list(ANTAG_RESOURCE_DARKSPAWN = 5)
 	hand_path = /obj/item/melee/touch_attack/devour_will
 	var/eating = FALSE //If we're devouring someone's will
 
@@ -53,7 +52,7 @@
 	if(!target.mind)
 		to_chat(caster, span_warning("You cannot drain the mindless."))
 		return
-	if(is_darkspawn_or_thrall(target))
+	if(is_team_darkspawn(target))
 		to_chat(caster, span_warning("You cannot drain allies."))
 		return
 	if(!istype(target))
@@ -143,7 +142,7 @@
 	spell_requirements = SPELL_REQUIRES_HUMAN
 	invocation_type = INVOCATION_NONE
 	hand_path = /obj/item/melee/touch_attack/darkspawn
-	psi_cost = 5
+	resource_costs = list(ANTAG_RESOURCE_DARKSPAWN = 5)
 	//Boolean on whether we're tying someone's hands
 	var/tying = FALSE
 
@@ -159,7 +158,7 @@
 	var/datum/antagonist/darkspawn/darkspawn = isdarkspawn(caster)
 	if(!darkspawn || tying || target == caster) //no tying yourself
 		return
-	if(is_darkspawn_or_thrall(target))
+	if(is_team_darkspawn(target))
 		to_chat(caster, span_warning("You cannot restrain allies."))
 		return
 	if(!istype(target))
@@ -221,7 +220,7 @@
 	panel = "Darkspawn"
 	check_flags = AB_CHECK_CONSCIOUS | AB_CHECK_IMMOBILE
 	spell_requirements = SPELL_REQUIRES_HUMAN
-	psi_cost = 60
+	resource_costs = list(ANTAG_RESOURCE_DARKSPAWN = 60)
 	hand_path = /obj/item/melee/touch_attack/darkspawn
 	///Boolean on whether this is in use.
 	var/in_use = FALSE
@@ -300,7 +299,7 @@
 	check_flags = AB_CHECK_HANDS_BLOCKED | AB_CHECK_CONSCIOUS | AB_CHECK_LYING
 	spell_requirements = SPELL_REQUIRES_HUMAN
 	ranged_mousepointer = 'icons/effects/mouse_pointers/visor_reticule.dmi'
-	psi_cost = 35
+	resource_costs = list(ANTAG_RESOURCE_DARKSPAWN = 35)
 	cooldown_time = 15 SECONDS
 	cast_range = 2
 	///Whether or not the user is in the process of "building"

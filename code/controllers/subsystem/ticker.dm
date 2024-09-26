@@ -353,7 +353,7 @@ SUBSYSTEM_DEF(ticker)
 		place.power_change()
 
 
-	INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(rock_paper_scissors_puzzle))
+	//INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(rock_paper_scissors_puzzle))
 	return TRUE
 
 /datum/controller/subsystem/ticker/proc/PostSetup()
@@ -477,7 +477,7 @@ SUBSYSTEM_DEF(ticker)
 				var/atom/movable/screen/splash/S = new(null, living.client, TRUE)
 				S.Fade(TRUE)
 				living.client.init_verbs()
-				player_assigned_role.after_roundstart_spawn(living, living.client)
+				player_assigned_role?.after_roundstart_spawn(living, living.client) //not all people who spawn get jobs, LIKE NUKIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 			livings += living
 	if(livings.len)
 		addtimer(CALLBACK(src, PROC_REF(release_characters), livings), 30, TIMER_CLIENT_TIME)

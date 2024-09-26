@@ -92,12 +92,12 @@
 	qdel(src)
 	target.Bumped(B)
 
-/obj/item/reagent_containers/food/drinks/bottle/attack(mob/living/target, mob/living/user)
+/obj/item/reagent_containers/food/drinks/bottle/attack(mob/living/target, mob/living/user, modifiers)
 
 	if(!target)
 		return
 
-	if(user.a_intent != INTENT_HARM || !isGlass)
+	if(!user.combat_mode || !isGlass)
 		return ..()
 
 	if(!synth_check(user, SYNTH_ORGANIC_HARM))
@@ -499,7 +499,7 @@
 	name = "Nuka Cola"
 	desc = "Don't cry, Don't raise your eye, it's only nuclear wasteland."
 	icon_state = "nuka_colaglass"
-	list_reagents = list(/datum/reagent/consumable/nuka_cola = 50)
+	list_reagents = list(/datum/reagent/consumable/energy_drink/nuka_cola = 50)
 
 ////////////////////////// MOLOTOV ///////////////////////
 /obj/item/reagent_containers/food/drinks/bottle/molotov
