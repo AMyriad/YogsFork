@@ -10,26 +10,34 @@
 	lighting_colour_tube = "#ffce93"
 	lighting_colour_bulb = "#ffbc6f"
 
-/area/station/engineering/main
-	name = "Engineering Bay"
+/area/station/engineering/bay
+	name = "\improper Engineering Bay"
 	icon_state = "engine"
 
+/area/station/engineering/bay/upper
+	name = "\improper Upper Engineering Bay"
+	icon_state = ""
+
+/area/station/engineering/bay/lower
+	name = "\improper Lower Engineering Bay"
+	icon_state = ""
+
 /area/station/engineering/foyer
-	name = "Engineering Foyer"
+	name = "\improper Engineering Foyer"
 	icon_state = "engine_foyer"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/production_lathes
-	name = "Engineering Production Lathes"
+	name = "\improper Engineering Production "
 	icon_state = "engi_storage"
 
 
 /area/station/engineering/engine_smes
-	name = "Engineering SMES"
+	name = "\improper Engineering SMES"
 	icon_state = "engine_smes"
 
-/area/station/engineering/supermatter
-	name = "Supermatter Engine"
+/area/station/engineering/supermatter_chamber
+	name = "\improper Supermatter Engine Chamber"
 	icon_state = "engine_sm"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
@@ -55,9 +63,6 @@
 	name = "Shared Engineering Storage"
 	icon_state = "engi_storage"
 
-/area/station/engineering/transit_tube
-	name = "Transit Tube"
-	icon_state = "transit_tube"
 
 
 /area/station/engineering/atmos

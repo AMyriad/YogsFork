@@ -19,9 +19,8 @@
 /area/station/command/meeting_room/council
 	name = "\improper Council Chamber"
 	icon_state = "meeting"
-	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
-/area/station/command/showroom/corporate
+/area/station/command/showroom
 	name = "\improper Corporate Showroom"
 	icon_state = "showroom"
 
