@@ -160,8 +160,8 @@
 //Need to be granted by the mech type, Not default abilities.
 
 /datum/action/innate/mecha/mech_defence_mode
-	name = "Toggle Defence Mode"
-	button_icon_state = "mech_defence_mode_off"
+	name = "Toggle Defense Mode"
+	button_icon_state = "mech_defense_mode_off"
 
 /datum/action/innate/mecha/mech_defence_mode/Activate(forced_state = null)
 	if(!owner || !chassis || chassis.occupant != owner)
@@ -170,14 +170,14 @@
 		chassis.defence_mode = forced_state
 	else
 		chassis.defence_mode = !chassis.defence_mode
-	button_icon_state = "mech_defence_mode_[chassis.defence_mode ? "on" : "off"]"
+	button_icon_state = "mech_defense_mode_[chassis.defence_mode ? "on" : "off"]"
 	if(chassis.defence_mode)
 		chassis.deflect_chance += chassis.defence_mode_deflect_chance
-		chassis.occupant_message(span_notice("You enable [chassis] defence mode."))
+		chassis.occupant_message(span_notice("You enable [chassis] defense mode."))
 	else
 		chassis.deflect_chance -= chassis.defence_mode_deflect_chance
-		chassis.occupant_message(span_danger("You disable [chassis] defence mode."))
-	chassis.log_message("Toggled defence mode.", LOG_MECHA)
+		chassis.occupant_message(span_danger("You disable [chassis] defense mode."))
+	chassis.log_message("Toggled defense mode.", LOG_MECHA)
 	build_all_button_icons()
 
 /datum/action/innate/mecha/mech_overload_mode
@@ -199,13 +199,11 @@
 		chassis.leg_overload_mode = 1
 		chassis.bumpsmash = 1
 		chassis.step_in = min(1, round(chassis.step_in/2))
-		chassis.step_energy_drain = max(chassis.overload_step_energy_drain_min,chassis.step_energy_drain*chassis.leg_overload_coeff)
 		chassis.occupant_message(span_danger("You enable leg actuators overload."))
 	else
 		chassis.leg_overload_mode = 0
 		chassis.bumpsmash = initial(chassis.bumpsmash)
 		chassis.step_in = initial(chassis.step_in)
-		chassis.step_energy_drain = chassis.normal_step_energy_drain
 		chassis.occupant_message(span_notice("You disable leg actuators overload."))
 	build_all_button_icons()
 

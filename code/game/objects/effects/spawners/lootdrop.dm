@@ -773,7 +773,6 @@
 	lootcount = 1
 	loot = list(/mob/living/simple_animal/hostile/retaliate/goat/pete = 1,
 			/mob/living/simple_animal/cow/betsy = 1,
-			/mob/living/simple_animal/sheep = 1,
 			/mob/living/simple_animal/sheep/shawn = 1)
 
 /obj/effect/spawner/lootdrop/mob/marrow_weaver
@@ -785,3 +784,11 @@
 	loot = list(/mob/living/simple_animal/hostile/asteroid/marrowweaver = 35,
 			/mob/living/simple_animal/hostile/asteroid/marrowweaver/ice = 5,
 			"" = 60)
+
+/obj/effect/spawner/lootdrop/random_anomaly_core
+	name = "anomaly core spawner"
+
+/obj/effect/spawner/lootdrop/random_anomaly_core/Initialize(mapload)
+	var/item = pick(typesof(/obj/item/assembly/signaler/anomaly))
+	new item(loc)
+	return INITIALIZE_HINT_QDEL
