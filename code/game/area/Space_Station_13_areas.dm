@@ -392,10 +392,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Monastery Garden"
 	icon_state = "hydro"
 
-/area/crew_quarters/cafeteria
-	name = "Cafeteria"
-	icon_state = "cafeteria"
-	minimap_color = "#5ac866"
 
 
 /area/crew_quarters/public_lounge
@@ -410,33 +406,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	. = ..()
 	GLOB.bar_areas += src
 
-/area/crew_quarters/bar/atrium
-	name = "Atrium"
-	icon_state = "bar"
-	sound_environment = SOUND_AREA_WOODFLOOR
-
-/area/crew_quarters/electronic_marketing_den
-	name = "Electronic Marketing Den"
-	icon_state = "bar"
-
-/area/crew_quarters/abandoned_gambling_den
-	name = "Abandoned Gambling Den"
-	icon_state = "abandoned_g_den"
-
-/area/crew_quarters/abandoned_gambling_den/secondary
-	icon_state = "abandoned_g_den_2"
-
-
-
-/area/crew_quarters/theatre/abandoned
-	name = "Abandoned Theatre"
-	icon_state = "Theatre"
-
-
-/area/library/abandoned
-	name = "Abandoned Library"
-	icon_state = "library"
-	flags_1 = NONE
 
 
 //Solars
@@ -543,112 +512,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 
 
-//MedBay
 
-/area/medical
-	name = "Medical"
-	icon_state = "medbay3"
-	ambience_index = AMBIENCE_MEDICAL
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	minimap_color = "#5d57a5"
-	airlock_wires = /datum/wires/airlock/medbay
-	lighting_colour_tube = "#e7f8ff"
-	lighting_colour_bulb = "#d5f2ff"
-
-/area/medical/abandoned
-	name = "Abandoned Medbay"
-	icon_state = "medbay3"
-	ambientsounds = list('sound/ambience/signal.ogg')
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/medical/medbay/central
-	name = "Medbay Central"
-	icon_state = "medbay"
-
-/area/medical/medbay/lobby
-	name = "Medbay Lobby"
-	icon_state = "medbay"
-
-	//Medbay is a large area, these additional areas help level out APC load.
-
-/area/medical/medbay/zone2
-	name = "Medbay"
-	icon_state = "medbay2"
-
-/area/medical/medbay/aft
-	name = "Medbay Aft"
-	icon_state = "medbay3"
-
-/area/medical/storage
-	name = "Medbay Storage"
-	icon_state = "medbay2"
-
-/area/medical/storage/locker
-	name = "Medbay Locker Room"
-	icon_state = "medbay2"
-
-/area/medical/storage/backroom
-	name = "Medbay Backroom"
-	icon_state = "medbay2"
-
-/area/medical/patients_rooms
-	name = "Patients' Rooms"
-	icon_state = "patients"
-	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
-
-/area/medical/patients_rooms/room_a
-	name = "Patient Room A"
-	icon_state = "patients"
-
-/area/medical/patients_rooms/room_b
-	name = "Patient Room B"
-	icon_state = "patients"
-
-/area/medical/patients_rooms/room_c
-	name = "Patient Room C"
-	icon_state = "patients"
-
-/area/medical/virology
-	name = "Virology"
-	icon_state = "virology"
-	flags_1 = NONE
-	minimap_color = "#01f5b3"
-	ambience_index = AMBIENCE_MEDICAL
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/medical/morgue
-	name = "Morgue"
-	icon_state = "morgue"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/medical/chemistry
-	name = "Chemistry"
-	icon_state = "chem"
-
-/area/medical/surgery
-	name = "Surgery"
-	icon_state = "surgery"
-
-/area/medical/cryo
-	name = "Cryogenics"
-	icon_state = "cryo"
-
-/area/medical/exam_room
-	name = "Exam Room"
-	icon_state = "exam_room"
-
-/area/medical/genetics
-	name = "Genetics Lab"
-	icon_state = "genetics"
-	minimap_color = "#006384"
-
-/area/medical/genetics/cloning
-	name = "Cloning Lab"
-	icon_state = "cloning"
-
-/area/medical/sleeper
-	name = "Medbay Treatment Center"
-	icon_state = "exam_room"
 
 
 
