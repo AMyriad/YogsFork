@@ -10,15 +10,15 @@
 	lighting_colour_tube = "#ffce93"
 	lighting_colour_bulb = "#ffbc6f"
 
-/area/station/engineering/bay
+/area/station/engineering/main
 	name = "\improper Engineering Bay"
 	icon_state = "engine"
 
-/area/station/engineering/bay/upper
+/area/station/engineering/main/upper
 	name = "\improper Upper Engineering Bay"
 	icon_state = ""
 
-/area/station/engineering/bay/lower
+/area/station/engineering/main/lower
 	name = "\improper Lower Engineering Bay"
 	icon_state = ""
 
@@ -27,13 +27,17 @@
 	icon_state = "engine_foyer"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
+
+
+
+
 /area/station/engineering/production_lathes
 	name = "\improper Engineering Production "
 	icon_state = "engi_storage"
 
 
-/area/station/engineering/engine_smes
-	name = "\improper Engineering SMES"
+/area/station/engineering/smes
+	name = "\improper Engineering SMES "
 	icon_state = "engine_smes"
 
 /area/station/engineering/supermatter_chamber
@@ -64,16 +68,27 @@
 	icon_state = "engi_storage"
 
 
+//- Atmospherics -//
 
-/area/station/engineering/atmos
-	name = "Atmospherics"
+/area/station/engineering/atmospherics
+	name = "Atmospherics Areas"
 	icon_state = "atmos"
-	flags_1 = NONE
 	minimap_color = "#85ff02"
 
-/area/station/engineering/atmos/distro
-	name = "Atmospherics Distribution"
+/area/station/engineering/atmospherics/foyer
+	name = "\improper Atmospherics Foyer"
+	icon_state = "atmos_foyer"
+
+/area/station/engineering/atmospherics/storage
+	name = "\improper Atmospherics Storage Room"
+	icon_state = "atmos_storage"
+
+/area/station/engineering/atmospherics/distro
+	name = "\improper Atmospherics Distribution"
 	icon_state = "atmos_distro"
+
+
+
 
 /area/station/engineering/atmos/project
 	name = "\improper Atmospherics Project Room"
@@ -92,13 +107,8 @@
 	name = "\improper Atmospherics Mixing Room"
 	icon_state = "atmos_mix"
 
-/area/station/engineering/atmos/storage
-	name = "\improper Atmospherics Storage Room"
-	icon_state = "atmos_storage"
 
-/area/station/engineering/atmos/foyer
-	name = "\improper Atmospherics Foyer"
-	icon_state = "atmos_foyer"
+
 
 /area/station/engineering/atmos/hfr
 	name = "\improper Atmospherics HFR Room"

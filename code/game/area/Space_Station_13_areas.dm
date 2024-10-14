@@ -378,35 +378,25 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Recreation Area"
 	icon_state = "fitness"
 
+/area/hydroponics/garden
+	name = "Garden"
+	icon_state = "garden"
+	minimap_color = "#70ff38"
+
+/area/hydroponics/garden/abandoned
+	name = "Abandoned Garden"
+	icon_state = "abandoned_garden"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+
+/area/hydroponics/garden/monastery
+	name = "Monastery Garden"
+	icon_state = "hydro"
+
 /area/crew_quarters/cafeteria
 	name = "Cafeteria"
 	icon_state = "cafeteria"
 	minimap_color = "#5ac866"
 
-/area/crew_quarters/kitchen
-	name = "Kitchen"
-	icon_state = "kitchen"
-	minimap_color = "#5ac866"
-	airlock_wires = /datum/wires/airlock/service
-	lights_always_start_on = FALSE
-	lighting_colour_tube = "#e3ffff"
-	lighting_colour_bulb = "#d5ffff"
-
-/area/crew_quarters/kitchen/coldroom
-	name = "Kitchen Cold Room"
-	icon_state = "kitchen_cold"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-	lighting_colour_tube = "#fff4d6"
-	lighting_colour_bulb = "#ffebc1"
-
-/area/crew_quarters/bar
-	name = "Bar"
-	icon_state = "bar"
-	minimap_color = "#5ac866"
-	mood_bonus = 5
-	mood_message = span_nicegreen("I love being in the bar!\n")
-	airlock_wires = /datum/wires/airlock/service
-	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/crew_quarters/public_lounge
 	name = "Lounge"
@@ -436,76 +426,17 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/crew_quarters/abandoned_gambling_den/secondary
 	icon_state = "abandoned_g_den_2"
 
-/area/crew_quarters/theatre
-	name = "Theatre"
-	icon_state = "Theatre"
-	minimap_color = "#5ac866"
-	sound_environment = SOUND_AREA_WOODFLOOR
-	lights_always_start_on = FALSE
+
 
 /area/crew_quarters/theatre/abandoned
 	name = "Abandoned Theatre"
 	icon_state = "Theatre"
 
-/area/library
-	name = "Library"
-	icon_state = "library"
-	flags_1 = NONE
-	minimap_color = "#5ac866"
-	lighting_colour_tube = "#fff1cc"
-	lighting_colour_bulb = "#ffe9b9"
-
-/area/library/lounge
-	name = "Library Lounge"
-	icon_state = "library"
-	sound_environment = SOUND_AREA_LARGE_SOFTFLOOR
 
 /area/library/abandoned
 	name = "Abandoned Library"
 	icon_state = "library"
 	flags_1 = NONE
-
-/area/chapel
-	icon_state = "chapel"
-	ambience_index = AMBIENCE_HOLY
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-	flags_1 = NONE
-	clockwork_warp_allowed = FALSE
-	clockwork_warp_fail = "The consecration here prevents you from warping in."
-	minimap_color = "#5ac866"
-
-/area/chapel/main
-	name = "Chapel"
-
-/area/chapel/main/monastery
-	name = "Monastery"
-
-/area/chapel/office
-	name = "Chapel Office"
-	icon_state = "chapeloffice"
-
-/area/chapel/asteroid
-	name = "Chapel Asteroid"
-	icon_state = "explored"
-	sound_environment = SOUND_AREA_ASTEROID
-
-/area/chapel/asteroid/monastery
-	name = "Monastery Asteroid"
-
-/area/chapel/dock
-	name = "Chapel Dock"
-	icon_state = "construction"
-
-/area/lawoffice
-	name = "Law Office"
-	icon_state = "law"
-	minimap_color = "#b12527"
-	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
-
-
-//Engineering
-
-
 
 
 //Solars
@@ -720,302 +651,8 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "exam_room"
 
 
-//Security
 
-/area/security
-	name = "Security"
-	icon_state = "security"
-	ambience_index = AMBIENCE_DANGER
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	minimap_color = "#b12527"
-	airlock_wires = /datum/wires/airlock/security
-	lighting_colour_tube = "#ffeee2"
-	lighting_colour_bulb = "#ffdfca"
 
-/area/security/interrogation
-	name = "Interrogation"
-	icon_state = "security"
-
-/area/security/main
-	name = "Security Office"
-	icon_state = "security"
-
-/area/security/brig
-	name = "Brig"
-	icon_state = "brig"
-
-/area/security/courtroom
-	name = "Courtroom"
-	icon_state = "courtroom"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-/area/security/prison
-	name = "Prison Wing"
-	icon_state = "sec_prison"
-	minimap_color = "#530505"
-	lights_always_start_on = TRUE
-
-/area/security/prison/hallway
-	name = "Prison Wing Hallway"
-
-/area/security/processing
-	name = "Labor Shuttle Dock"
-	icon_state = "sec_prison"
-
-/area/security/processing/cremation
-	name = "Security Crematorium"
-	icon_state = "sec_prison"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/security/warden
-	name = "Brig Control"
-	icon_state = "Warden"
-	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
-
-/area/security/detectives_office
-	name = "Detective's Office"
-	icon_state = "detective"
-	ambientsounds = list('sound/ambience/ambidet1.ogg','sound/ambience/ambidet2.ogg')
-
-/area/security/detectives_office/private_investigators_office
-	name = "Private Investigator's Office"
-	icon_state = "detective"
-	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
-
-/area/security/range
-	name = "Firing Range"
-	icon_state = "firingrange"
-
-/area/security/execution
-	icon_state = "execution_room"
-	minimap_color = "#530505"
-
-/area/security/execution/transfer
-	name = "Transfer Centre"
-
-/area/security/execution/education
-	name = "Prisoner Education Chamber"
-
-/area/security/nuke_storage
-	name = "Vault"
-	icon_state = "nuke_storage"
-	minimap_color = "#a2a2a2"
-	airlock_wires = /datum/wires/airlock/command
-
-/area/ai_monitored/nuke_storage
-	name = "Vault"
-	icon_state = "nuke_storage"
-	minimap_color = "#a2a2a2"
-	airlock_wires = /datum/wires/airlock/command
-
-/area/security/checkpoint
-	name = "Security Checkpoint"
-	icon_state = "checkpoint1"
-
-/area/security/checkpoint/auxiliary
-	icon_state = "checkpoint_aux"
-
-/area/security/checkpoint/escape
-	name = "Security Post - Escape"
-	icon_state = "checkpoint_esc"
-
-/area/security/checkpoint/supply
-	name = "Security Post - Cargo Bay"
-	icon_state = "checkpoint_supp"
-
-/area/security/checkpoint/engineering
-	name = "Security Post - Engineering"
-	icon_state = "checkpoint_engi"
-
-/area/security/checkpoint/medical
-	name = "Security Post - Medbay"
-	icon_state = "checkpoint_med"
-
-/area/security/checkpoint/science
-	name = "Security Post - Science"
-	icon_state = "checkpoint_sci"
-
-/area/security/checkpoint/science/research
-	name = "Security Post - Research Division"
-	icon_state = "checkpoint_res"
-
-/area/security/checkpoint/service
-	name = "Security Post - Service"
-	icon_state = "checkpoint_srv"
-
-/area/security/checkpoint/customs
-	name = "Customs"
-	icon_state = "customs_point"
-
-/area/security/checkpoint/customs/auxiliary
-	icon_state = "customs_point_aux"
-
-
-//Service
-
-/area/quartermaster
-	name = "Quartermasters"
-	icon_state = "quart"
-	minimap_color = "#936f3c"
-	airlock_wires = /datum/wires/airlock/service
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	lighting_colour_tube = "#ffe3cc"
-	lighting_colour_bulb = "#ffdbb8"
-
-/area/quartermaster/sorting
-	name = "Delivery Office"
-	icon_state = "cargo_delivery"
-	sound_environment = SOUND_AREA_STANDARD_STATION
-
-/area/quartermaster/warehouse
-	name = "Warehouse"
-	icon_state = "cargo_warehouse"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-/area/quartermaster/office
-	name = "Cargo Office"
-	icon_state = "quartoffice"
-	minimap_color = "#936f3c"
-
-/area/quartermaster/storage
-	name = "Cargo Bay"
-	icon_state = "cargo_bay"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-/area/quartermaster/qm
-	name = "Quartermaster's Office"
-	icon_state = "quart"
-
-/area/quartermaster/miningdock
-	name = "Mining Dock"
-	icon_state = "mining"
-
-/area/quartermaster/miningoffice
-	name = "Mining Office"
-	icon_state = "mining"
-
-/area/janitor
-	name = "Custodial Closet"
-	icon_state = "janitor"
-	flags_1 = NONE
-	minimap_color = "#cc00ff"
-	airlock_wires = /datum/wires/airlock/service
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/janitor/a //yogs start added two new areas
-	name = "Custodial Closet A"
-	icon_state = "janitor"
-	flags_1 = NONE
-
-/area/janitor/b
-	name = "Custodial Closet B"
-	icon_state = "janitor"
-	flags_1 = NONE //yogs end added two new areas
-
-/area/hydroponics
-	name = "Hydroponics"
-	icon_state = "hydro"
-	minimap_color = "#5ac866"
-	airlock_wires = /datum/wires/airlock/service
-	sound_environment = SOUND_AREA_STANDARD_STATION
-
-/area/hydroponics/upper
-	name = "Upper Hydroponics"
-	icon_state = "hydro"
-
-/area/hydroponics/garden
-	name = "Garden"
-	icon_state = "garden"
-	minimap_color = "#70ff38"
-
-/area/hydroponics/garden/abandoned
-	name = "Abandoned Garden"
-	icon_state = "abandoned_garden"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/hydroponics/garden/monastery
-	name = "Monastery Garden"
-	icon_state = "hydro"
-
-
-//Science
-
-/area/science
-	name = "Science Division"
-	icon_state = "toxlab"
-	minimap_color = "#75009b"
-	airlock_wires = /datum/wires/airlock/science
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	lighting_colour_tube = "#f0fbff"
-	lighting_colour_bulb = "#e4f7ff"
-
-/area/science/lab
-	name = "Research and Development"
-	icon_state = "toxlab"
-
-/area/science/xenobiology
-	name = "Xenobiology Lab"
-	icon_state = "toxlab"
-
-/area/science/storage
-	name = "Toxins Storage"
-	icon_state = "toxstorage"
-
-/area/science/test_area
-	valid_territory = FALSE
-	name = "Toxins Test Area"
-	icon_state = "toxtest"
-	lights_always_start_on = TRUE
-
-/area/science/mixing
-	name = "Toxins Mixing Lab"
-	icon_state = "toxmix"
-
-/area/science/mixing/chamber
-	name = "Toxins Mixing Chamber"
-	icon_state = "toxmix"
-	valid_territory = FALSE
-
-/area/science/misc_lab
-	name = "Testing Lab"
-	icon_state = "toxmisc"
-
-/area/science/misc_lab/range
-	name = "Research Testing Range"
-	icon_state = "toxmisc"
-
-/area/science/server
-	name = "Research Division Server Room"
-	icon_state = "server"
-
-/area/science/explab
-	name = "Experimentation Lab"
-	icon_state = "toxmisc"
-
-/area/science/robotics
-	name = "Robotics"
-	icon_state = "medresearch"
-
-/area/science/robotics/mechbay
-	name = "Mech Bay"
-	icon_state = "mechbay"
-
-/area/science/robotics/lab
-	name = "Robotics Lab"
-	icon_state = "ass_line"
-
-/area/science/research
-	name = "Research Division"
-	icon_state = "research_development" //yogs
-
-/area/science/research/abandoned
-	name = "Abandoned Research Lab"
-	icon_state = "medresearch"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/science/nanite
-	name = "Nanite Lab"
-	icon_state = "toxmisc"
 
 //Storage
 

@@ -7,8 +7,16 @@
 	ambientsounds = list('sound/ambience/signal.ogg')
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
-/area/station/command/bridge
+/area/station/command/main
 	name = "\improper Bridge"
+	icon_state = "bridge"
+
+/area/station/command/main/upper
+	name = "\improper Upper Bridge"
+	icon_state = "bridge"
+
+/area/station/command/main/lower
+	name = "\improper Lower Bridge"
 	icon_state = "bridge"
 
 /area/station/command/meeting_room
@@ -30,10 +38,10 @@
 	ambience_index = AMBIENCE_ENGI
 
 
-// Heads of staff quarters/offices
+//- Heads of Staff Quarters/Offices -//
 
 /area/station/command/heads
-	name = "Heads of Staff Offices"
+	name = "Heads of Staff Office Areas"
 	icon_state = "heads"
 	clockwork_warp_allowed = FALSE
 	lights_always_start_on = FALSE
