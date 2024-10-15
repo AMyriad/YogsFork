@@ -23,14 +23,14 @@
 /area/station/service/kitchen
 	name = "\improper Kitchen"
 	icon_state = "kitchen"
-	lighting_colour_tube = "#e3ffff"
-	lighting_colour_bulb = "#d5ffff"
+	lighting_colour_tube = "#fff4d6"
+	lighting_colour_bulb = "#ffebc1"
 
 /area/station/service/kitchen/freezer
 	name = "\improper Kitchen Freezer"
 	icon_state = "kitchen_cold"
-	lighting_colour_tube = "#fff4d6"
-	lighting_colour_bulb = "#ffebc1"
+	lighting_colour_tube = "#e3ffff"
+	lighting_colour_bulb = "#d5ffff"
 
 /area/station/service/bar
 	name = "\improper Bar"
@@ -79,3 +79,7 @@
 	icon_state = "law"
 	minimap_color = "#b12527"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/service/gift_shop
+	name = "\improper Gift Shop"
+	icon_state = "cafeteria"

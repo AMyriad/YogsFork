@@ -49,6 +49,14 @@
 	icon_state = "courtroom"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
+/area/station/security/infirmary
+	name = "\improper Brig Infirmary"
+	icon_state = "brig_infirmary"
+
+/area/station/security/infirmary/office
+	name = "\improper Brig Physician's Office"
+	icon_state = "physician"
+
 
 //- Prison and Detention Rooms-//
 

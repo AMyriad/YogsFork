@@ -1,7 +1,7 @@
 /area/station/station/engineering
 	name = "Engineering Areas"
 	icon_state = "engineering_template"
-	minimap_color = "#edea00"
+	minimap_color = "#f7de02"
 	airlock_wires = /datum/wires/airlock/engineering
 
 	ambience_index = AMBIENCE_ENGI
@@ -30,14 +30,17 @@
 /area/station/engineering/protolathe_bay
 	name = "\improper Engineering Protolathe Bay"
 	icon_state = "engi_storage"
+	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/smes
 	name = "\improper Engineering SMES Chamber"
 	icon_state = "engine_smes"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/gravity_generator
 	name = "\improper Gravity Generator"
 	icon_state = "grav_gen"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	clockwork_warp_allowed = FALSE
 	clockwork_warp_fail = "The gravitons generated here could throw off your warp's destination and possibly throw you into deep space."
 
@@ -46,13 +49,29 @@
 	icon_state = "engine_sm"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
+/area/station/engineering/tech_storage
+	name = "\improper Tech Storage"
+	icon_state = "auxstorage"
+
+/area/station/engineering/construction
+	name = "\improper Construction Area"
+	icon_state = "yellow"
+	sound_environment = SOUND_AREA_STANDARD_STATION
+
+/area/station/engineering/aux_base
+	name = "\improper Auxiliary Base Construction"
+	icon_state = "aux_base_construction"
+	sound_environment = SOUND_AREA_LARGE_ENCLOSED
+
+
+
 
 //- Atmospherics -//
 
 /area/station/engineering/atmospherics
 	name = "Atmospherics Areas"
 	icon_state = "atmos"
-	minimap_color = "#85ff02"
+	minimap_color = "#207df7"
 
 /area/station/engineering/atmospherics/foyer
 	name = "\improper Atmospherics Foyer"
@@ -79,14 +98,8 @@
 	name = "\improper Atmospherics Project Room"
 	icon_state = "atmos_project"
 
-/area/station/engineering/atmos/engine
-	name = "\improper Atmospherics Engine"
-	icon_state = "atmos_engine"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
-/area/station/engineering/atmos/pumproom
-	name = "\improper Atmospherics Pumping Room"
-	icon_state = "atmos_pump_room"
+
 
 
 

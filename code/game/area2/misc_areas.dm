@@ -1,5 +1,5 @@
 /*
-* Only put an area here if it wouldn't fit sorting criteria
+* Only put an area here if it doesn't fit sorting criteria
 * If more areas are created of an area in this file, please
 * make a new file for it!
 */

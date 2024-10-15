@@ -9,7 +9,6 @@
 	lighting_colour_tube = "#ffe3cc"
 	lighting_colour_bulb = "#ffdbb8"
 
-
 /area/station/supply/main
 	name = "\improper Cargo Bay"
 	icon_state = "cargo_bay"

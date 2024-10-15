@@ -1,7 +1,7 @@
 /area/station/command
 	name = "Command Areas"
 	icon_state = "command_template"
-	minimap_color = "#0400a2"
+	minimap_color = "#0b37b1"
 	airlock_wires = /datum/wires/airlock/command
 
 	ambientsounds = list('sound/ambience/signal.ogg')
@@ -49,7 +49,7 @@
 /area/station/command/heads/captain
 	name = "\improper Captain's Office"
 	icon_state = "captain"
-	minimap_color = "#2900d8"
+	minimap_color = "#1432df"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/command/heads/hop
@@ -57,7 +57,7 @@
 	icon_state = "hop"
 	minimap_color = "#070094"
 
-/area/station/command/heads/hor
+/area/station/command/heads/rd
 	name = "\improper Research Director's Office"
 	icon_state = "rd"
 	minimap_color = "#9257a6"

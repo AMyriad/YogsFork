@@ -556,28 +556,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Port (W) Emergency Storage"
 	icon_state = "emergencystorage"
 
-/area/storage/tech
-	name = "Technical Storage"
-	icon_state = "auxstorage"
-	minimap_color = "#9ccf00"
-
-//Construction
-
-/area/construction
-	name = "Construction Area"
-	icon_state = "yellow"
-	ambience_index = AMBIENCE_ENGI
-	sound_environment = SOUND_AREA_STANDARD_STATION
-	minimap_color = "#4f4e3a"
-
-/area/construction/mining/aux_base
-	name = "Auxiliary Base Construction"
-	icon_state = "aux_base_construction"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-/area/construction/storage_wing
-	name = "Storage Wing"
-	icon_state = "storage_wing"
 
 // Vacant Rooms
 /area/vacant_room
