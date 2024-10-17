@@ -165,11 +165,18 @@
 	name = "\improper Starboard Fore (NE) Geothermal Maintenance"
 	icon_state = "fsmaint"
 
-
-
 /area/station/maintenance/external_power/east
 	name = "\improper Starboard (E) Maintenance"
 	icon_state = "smaint"
+
+/area/station/maintenance/external_power/east/solar
+	name = "\improper Starboard (E) Maintenance"
+	icon_state = "smaint"
+
+/area/station/maintenance/external_power/east/geothermal
+	name = "\improper Starboard (E) Maintenance"
+	icon_state = "smaint"
+
 
 /area/station/maintenance/external_power/southeast
 	name = "\improper Starboard Quarter (SE) Maintenance"
