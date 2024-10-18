@@ -82,18 +82,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/asteroid/nearstation/bomb_site
 	name = "Bomb Testing Asteroid"
 
-//STATION13
-
-
-
-//Departments
-
-
-
-
-
-
-
 
 
 
@@ -186,113 +174,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	mood_message = span_nicegreen("I love being in the lounge!\n")
 	airlock_wires = /datum/wires/airlock/service
 
-/area/crew_quarters/bar/Initialize(mapload)
-	. = ..()
-	GLOB.bar_areas += src
-
-
-
-//Solars
-
-/area/solar
-	valid_territory = FALSE
-	blob_allowed = FALSE
-	mining_speed = TRUE
-	flags_1 = NONE
-	ambience_index = AMBIENCE_ENGI
-	sound_environment = SOUND_AREA_SPACE
-	lights_always_start_on = TRUE
-	minimap_color = "#6b6b6b"
-	airlock_wires = /datum/wires/airlock/engineering
-
-/area/solar/fore
-	name = "Fore (N) Solar Array"
-	icon_state = "yellow"
-	sound_environment = SOUND_AREA_STANDARD_STATION
-
-/area/solar/aft
-	name = "Aft (S) Solar Array"
-	icon_state = "yellow"
-
-/area/solar/aux/port
-	name = "Port Bow (NW) Auxiliary Solar Array"
-	icon_state = "panelsA"
-
-/area/solar/aux/starboard
-	name = "Starboard Bow (NE) Auxiliary Solar Array"
-	icon_state = "panelsA"
-
-/area/solar/starboard
-	name = "Starboard (E) Solar Array"
-	icon_state = "panelsS"
-
-/area/solar/starboard/aft
-	name = "Starboard Quarter (SE) Solar Array"
-	icon_state = "panelsAS"
-
-/area/solar/starboard/aft/icemoon
-	name = "Southeast (SE) Geothermal Station" // it's a planetary station and not a ship, cardinal directions apply
-	uses_daylight = TRUE
-
-/area/solar/starboard/fore
-	name = "Starboard Bow (NE) Solar Array"
-	icon_state = "panelsFS"
-
-/area/solar/starboard/fore/icemoon
-	name = "Northeast (NE) Geothermal Station"
-	uses_daylight = TRUE
-
-/area/solar/port
-	name = "Port (W) Solar Array"
-	icon_state = "panelsP"
-
-/area/solar/port/aft
-	name = "Port Quarter (SW) Solar Array"
-	icon_state = "panelsAP"
-
-/area/solar/port/aft/icemoon
-	name = "Southwest (SW) Geothermal Station"
-	uses_daylight = TRUE
-
-/area/solar/port/fore
-	name = "Port Bow (NW) Solar Array"
-	icon_state = "panelsFP"
-
-/area/solar/port/fore/icemoon
-	name = "Northwest (NW) Geothermal Station"
-	uses_daylight = TRUE
-
-
-//Solar Maint
-
-/area/maintenance/solars
-	name = "Solar Maintenance"
-	icon_state = "yellow"
-
-/area/maintenance/solars/port
-	name = "Port (W) Solar Maintenance"
-	icon_state = "SolarcontrolP"
-
-/area/maintenance/solars/port/aft
-	name = "Port Quarter (SW) Solar Maintenance"
-	icon_state = "SolarcontrolAP"
-
-/area/maintenance/solars/port/fore
-	name = "Port Bow (NW) Solar Maintenance"
-	icon_state = "SolarcontrolFP"
-
-/area/maintenance/solars/starboard
-	name = "Starboard (E) Solar Maintenance"
-	icon_state = "SolarcontrolS"
-
-/area/maintenance/solars/starboard/aft
-	name = "Starboard Quarter (SE) Solar Maintenance"
-	icon_state = "SolarcontrolAS"
-
-/area/maintenance/solars/starboard/fore
-	name = "Starboard Bow (NE) Solar Maintenance"
-	icon_state = "SolarcontrolFS"
-
 
 
 
@@ -326,11 +207,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "green"
 	valid_territory = FALSE
 
-/area/storage/eva
-	name = "EVA Storage"
-	icon_state = "eva"
-	clockwork_warp_allowed = FALSE
-	minimap_color = "#c8c0ff"
 
 /area/storage/emergency/starboard
 	name = "Starboard (E) Emergency Storage"
@@ -402,7 +278,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	minimap_color = "#00fff6"
 	ambience_index = AMBIENCE_DANGER
 
-	//Turret_protected
+//Turret_protected
 
 /area/ai_monitored/turret_protected
 	ambience_index = AMBIENCE_AI
@@ -428,6 +304,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "AI Satellite"
 	icon_state = "ai"
 	sound_environment = SOUND_ENVIRONMENT_ROOM
+
 /area/ai_monitored/turret_protected/aisat/atmos
 	name = "AI Satellite Atmos"
 	icon_state = "ai"
@@ -464,26 +341,3 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "AI Sat Ext"
 	icon_state = "storage"
 
-
-// Telecommunications Satellite
-
-/area/tcommsat
-	clockwork_warp_allowed = FALSE
-	clockwork_warp_fail = "For safety reasons, warping here is disallowed; the radio and bluespace noise could cause catastrophic results."
-	ambientsounds = list('sound/ambience/ambisin2.ogg', 'sound/ambience/signal.ogg', 'sound/ambience/signal.ogg', 'sound/ambience/ambigen10.ogg', 'sound/ambience/ambitech.ogg',\
-											'sound/ambience/ambitech2.ogg', 'sound/ambience/ambitech3.ogg', 'sound/ambience/ambimystery.ogg')
-	minimap_color = "#00fff6"
-	airlock_wires = /datum/wires/airlock/engineering
-
-/area/tcommsat/computer
-	name = "Telecomms Control Room"
-	icon_state = "tcomsatcomp"
-	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
-
-/area/tcommsat/server
-	name = "Telecomms Server Room"
-	icon_state = "tcomsatcham"
-
-/area/tcommsat/storage
-	name = "Telecomms Storage Room"
-	icon_state = "tcomsatstorage"

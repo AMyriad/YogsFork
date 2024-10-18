@@ -8,6 +8,23 @@
 	lighting_colour_tube = "#fdf3ea"
 	lighting_colour_bulb = "#ffebd6"
 
+
+/area/station/commons/departures
+	name = "Escape Shuttle Hallway"
+	icon_state = "escape"
+
+/area/station/commons/secondary/exit/departure_lounge
+	name = "Departure Lounge"
+	icon_state = "escape_lounge"
+
+/area/station/commons/secondary/entry
+	name = "Arrival Shuttle Hallway"
+	icon_state = "entry"
+
+
+
+
+
 //- Hallways -//
 // Keep order going clockwise from north pls ty
 
@@ -24,7 +41,7 @@
 	icon_state = "hallF"
 
 /area/station/commons/hallway/northeast
-	name = "\improper Starboard Fore (NE) Maintenance"
+	name = "\improper Starboard Bow (NE) Maintenance"
 	icon_state = "fsmaint"
 
 /area/station/commons/hallway/east
@@ -58,22 +75,4 @@
 	name = "Command Hallway"
 	icon_state = "bridge_hallway"
 
-/area/station/commons/secondary/construction
-	name = "Construction Area"
-	icon_state = "construction"
 
-/area/station/commons/secondary/exit
-	name = "Escape Shuttle Hallway"
-	icon_state = "escape"
-
-/area/station/commons/secondary/exit/departure_lounge
-	name = "Departure Lounge"
-	icon_state = "escape_lounge"
-
-/area/station/commons/secondary/entry
-	name = "Arrival Shuttle Hallway"
-	icon_state = "entry"
-
-/area/station/commons/secondary/service
-	name = "Service Hallway"
-	icon_state = "hall_service"

@@ -14879,7 +14879,7 @@
 "dTe" = (
 /obj/structure/lattice,
 /obj/machinery/camera{
-	c_tag = "MiniSat Exterior - Starboard Fore";
+	c_tag = "MiniSat Exterior - Starboard Bow";
 	dir = 1;
 	network = list("minisat")
 	},

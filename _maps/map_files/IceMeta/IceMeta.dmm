@@ -27596,7 +27596,7 @@
 	dir = 4
 	},
 /obj/machinery/camera{
-	c_tag = "Departure Lounge - Starboard Fore";
+	c_tag = "Departure Lounge - Starboard Bow";
 	dir = 8
 	},
 /obj/structure/extinguisher_cabinet{
@@ -67859,7 +67859,7 @@
 	dir = 8
 	},
 /obj/machinery/camera{
-	c_tag = "MiniSat Exterior - Starboard Fore";
+	c_tag = "MiniSat Exterior - Starboard Bow";
 	dir = 4;
 	network = list("minisat","ss13")
 	},

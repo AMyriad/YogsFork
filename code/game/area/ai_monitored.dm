@@ -14,8 +14,8 @@
 				motioncameras.Add(M)
 				M.area_motion = src
 
-//Only need to use one camera
 
+//Only need to use one camera
 /area/ai_monitored/Entered(atom/movable/O)
 	..()
 	if (ismob(O) && motioncameras.len)

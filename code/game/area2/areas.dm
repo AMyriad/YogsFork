@@ -140,9 +140,6 @@
 	var/uses_daylight = FALSE
 	/// Daylight brightness
 	var/daylight_multiplier = 1
-
-	/// Does the AI get notified if some ne'er-do-well comes in this room with a motion sensor?
-	var/ai_monitored = FALSE
 	
 /**
   * A list of teleport locations
@@ -793,14 +790,6 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 	SEND_SIGNAL(src, COMSIG_AREA_ENTERED, M)
 	SEND_SIGNAL(M, COMSIG_ENTER_AREA, src) //The atom that enters the area
 
-	if(ai_monitored)
-		..()
-		if (ismob(O) && motioncameras.len)
-			for(var/X in motioncameras)
-				var/obj/machinery/camera/cam = X
-				cam.newTarget(O)
-				return
-
 /**
   * Called when an atom exits an area
   *
@@ -809,14 +798,6 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 /area/Exited(atom/movable/M)
 	SEND_SIGNAL(src, COMSIG_AREA_EXITED, M)
 	SEND_SIGNAL(M, COMSIG_EXIT_AREA, src) //The atom that exits the area
-
-	if(ai_monitored)
-		..()
-		if (ismob(O) && motioncameras.len)
-			for(var/X in motioncameras)
-				var/obj/machinery/camera/cam = X
-				cam.lostTargetRef(WEAKREF(O))
-				return
 
 /**
   * Returns true if this atom has gravity for the passed in turf
@@ -929,10 +910,3 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 	if(name == initial(name))
 		return name
 	return "[name] ([initial(name)])"
-
-/**
- * A blank area subtype solely used by the golem area editor for the purpose of
- * allowing golems to create new areas without suffering from the hazard_area debuffs.
- */
-/area/golem
-	name = "Golem Territory"

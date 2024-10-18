@@ -61,9 +61,6 @@
 /area/station/engineering/aux_base
 	name = "\improper Auxiliary Base Construction"
 	icon_state = "aux_base_construction"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-
 
 
 //- Atmospherics -//
@@ -112,3 +109,34 @@
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 
+
+//- Telecomms -//
+
+/area/station/engineering/telecomms
+	name = "Telecomms Areas"
+	icon_state = ""
+	minimap_color = "#00fff6"
+	ambientsounds = list('sound/ambience/ambisin2.ogg',
+						'sound/ambience/signal.ogg',
+						'sound/ambience/signal.ogg',
+						'sound/ambience/ambigen10.ogg',
+						'sound/ambience/ambitech.ogg',
+						'sound/ambience/ambitech2.ogg',
+						'sound/ambience/ambitech3.ogg',
+						'sound/ambience/ambimystery.ogg')
+	clockwork_warp_allowed = FALSE
+	clockwork_warp_fail = "For safety reasons, warping here is disallowed; the radio and bluespace noise could cause catastrophic results."
+
+/area/station/engineering/telecomms/storage
+	name = "\improper Telecomms Storage Room"
+	icon_state = "tcomsatstorage"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/engineering/telecomms/computer
+	name = "\improper Telecomms Control Room"
+	icon_state = "tcomsatcomp"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/engineering/telecomms/server
+	name = "\improper Telecomms Server Room"
+	icon_state = "tcomsatcham"

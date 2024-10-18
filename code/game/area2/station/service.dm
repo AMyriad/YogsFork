@@ -39,6 +39,10 @@
 	mood_message = span_nicegreen("I love being in the bar!\n")
 	sound_environment = SOUND_AREA_WOODFLOOR
 
+/area/station/service/bar/Initialize(mapload)
+	. = ..()
+	GLOB.bar_areas += src
+
 /area/station/service/janitor
 	name = "\improper Custodial Closet"
 	icon_state = "janitor"

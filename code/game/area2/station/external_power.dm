@@ -1,72 +1,100 @@
-
-//Solars
-
-/area/solar
-	valid_territory = FALSE
-	blob_allowed = FALSE
-	mining_speed = TRUE
-	flags_1 = NONE
-	ambience_index = AMBIENCE_ENGI
-	sound_environment = SOUND_AREA_SPACE
-	lights_always_start_on = TRUE
+/area/station/external_power
+	name = "External Power Areas"
+	icon_state = ""
 	minimap_color = "#6b6b6b"
 	airlock_wires = /datum/wires/airlock/engineering
 
-/area/solar/fore
-	name = "Fore (N) Solar Array"
-	icon_state = "yellow"
-	sound_environment = SOUND_AREA_STANDARD_STATION
+	ambience_index = AMBIENCE_ENGI
+	sound_environment = SOUND_AREA_SPACE
 
-/area/solar/aft
-	name = "Aft (S) Solar Array"
+	lights_always_start_on = TRUE
+
+	flags_1 = NONE
+	valid_territory = FALSE
+	blob_allowed = FALSE
+	mining_speed = TRUE
+
+//- Solar Panel Arrays -//
+// Keep order going clockwise from north pls ty
+
+/area/station/external_power/solar
+	name = "Solar Array Areas"
+	icon_state = ""
+
+/area/station/external_power/solar/north
+	name = "\improper Fore (N) Solar Array"
 	icon_state = "yellow"
 
-/area/solar/aux/port
-	name = "Port Bow (NW) Auxiliary Solar Array"
+/area/station/external_power/solar/northeast
+	name = "\improper Starboard Bow (NE) Solar Array"
 	icon_state = "panelsA"
 
-/area/solar/aux/starboard
-	name = "Starboard Bow (NE) Auxiliary Solar Array"
-	icon_state = "panelsA"
-
-/area/solar/starboard
-	name = "Starboard (E) Solar Array"
+/area/station/external_power/solar/east
+	name = "\improper Starboard (E) Solar Array"
 	icon_state = "panelsS"
 
-/area/solar/starboard/aft
-	name = "Starboard Quarter (SE) Solar Array"
+/area/station/external_power/solar/southeast
+	name = "\improper Starboard Quarter (SE) Solar Array"
 	icon_state = "panelsAS"
 
-/area/solar/starboard/aft/icemoon
-	name = "Southeast (SE) Geothermal Station" // it's a planetary station and not a ship, cardinal directions apply
-	uses_daylight = TRUE
+/area/station/external_power/solar/south
+	name = "\improper Aft (S) Solar Array"
+	icon_state = "yellow"
 
-/area/solar/starboard/fore
-	name = "Starboard Bow (NE) Solar Array"
-	icon_state = "panelsFS"
-
-/area/solar/starboard/fore/icemoon
-	name = "Northeast (NE) Geothermal Station"
-	uses_daylight = TRUE
-
-/area/solar/port
-	name = "Port (W) Solar Array"
-	icon_state = "panelsP"
-
-/area/solar/port/aft
-	name = "Port Quarter (SW) Solar Array"
+/area/station/external_power/solar/southwest
+	name = "\improper Port Quarter (SW) Solar Array"
 	icon_state = "panelsAP"
 
-/area/solar/port/aft/icemoon
-	name = "Southwest (SW) Geothermal Station"
-	uses_daylight = TRUE
+/area/station_external_power/solar/west
+	name = "\improper Port (W) Solar Array"
+	icon_state = "panelsP"
 
-/area/solar/port/fore
-	name = "Port Bow (NW) Solar Array"
+/area/station_external_power/solar/northwest
+	name = "\improper Port Bow (NW) Solar Array"
 	icon_state = "panelsFP"
 
-/area/solar/port/fore/icemoon
-	name = "Northwest (NW) Geothermal Station"
+
+//- Geothermal Stations -//
+// We're on a planet not a ship, cardinal directions apply
+// P.S. If you need subtypes without the icemoon ambience don't be afraid to make them (im killing you)
+
+/area/station/external_power/geothermal
+	name = "Geothermal Station Areas"
+	icon_state = ""
+	ambient_buzz = null // Stillness
+	ambience_index = AMBIENCE_ICEMOON
+	sound_environment = SOUND_ENVIRONMENT_FOREST
+	area_flags = FLORA_ALLOWED
 	uses_daylight = TRUE
 
+/area/station/external_power/geothermal/north
+	name = "\improper Geothermal Station North"
+	icon_state = "yellow"
 
+/area/station/external_power/geothermal/northeast
+	name = "\improper Geothermal Station Northwest"
+	icon_state = "panelsA"
+
+/area/station/external_power/geothermal/east
+	name = "\improper Geothermal Station East"
+	icon_state = "panelsS"
+
+/area/station/external_power/geothermal/southeast
+	name = "\improper Geothermal Station Southeast"
+	icon_state = "panelsAS"
+
+/area/station/external_power/geothermal/south
+	name = "\improper Geothermal Station South"
+	icon_state = "yellow"
+
+/area/station/external_power/geothermal/southwest
+	name = "\improper Geothermal Station Southwest"
+	icon_state = "panelsAP"
+
+/area/station_external_power/geothermal/west
+	name = "\improper Geothermal Station West"
+	icon_state = "panelsP"
+
+/area/station_external_power/geothermal/northwest
+	name = "\improper Geothermal Station Northwest"
+	icon_state = "panelsFP"

@@ -15,16 +15,16 @@
 						 'sound/ambience/ambimaint3.ogg',
 						 'sound/ambience/ambimaint4.ogg',
 						 'sound/ambience/ambimaint5.ogg',
-						 'sound/voice/lowHiss2.ogg', //Xeno Breathing Hisses, Hahahaha I'm not even sorry.
+						 'sound/voice/lowHiss2.ogg', // Xeno breathing hisses, hahahaha I'm not even sorry
 						 'sound/voice/lowHiss3.ogg',
 						 'sound/voice/lowHiss4.ogg',
 						 'yogstation/sound/misc/honk_echo_distant.ogg')
 
-	valid_territory = FALSE
-
 	lights_always_start_on = TRUE
 	lighting_colour_tube = "#ffe5cb"
 	lighting_colour_bulb = "#ffdbb4"
+
+	valid_territory = FALSE
 
 //- General Maintenance Areas -//
 // Keep order going clockwise from north pls ty
@@ -42,7 +42,7 @@
 	icon_state = "fmaint"
 
 /area/station/maintenance/general/northeast
-	name = "\improper Starboard Fore (NE) Maintenance"
+	name = "\improper Starboard Bow (NE) Maintenance"
 	icon_state = "fsmaint"
 
 /area/station/maintenance/general/east
@@ -134,95 +134,81 @@
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 
-//- Solar Maintenance/Control Rooms -//
+//- External Power Maintenance/Control Rooms -//
 // Keep order going clockwise from north pls ty
 
 /area/station/maintenance/external_power
 	name = "External Power Maintenance Areas"
 	icon_state = "yellow"
 
-/area/station/maintenance/external_power/north
-	name = "North Areas"
+/area/station/maintenance/external_power/solar //- SOLARS
+	name = "Solar Array Areas"
 	icon_state = "fmaint"
 
-/area/station/maintenance/external_power/north/solar
+/area/station/maintenance/external_power/solar/north
 	name = "\improper Fore (N) Solar Maintenance"
 	icon_state = "fmaint"
 
-/area/station/maintenance/external_power/north/geothermal
+/area/station/maintenance/external_power/solar/northeast
+	name = "\improper Starboard Bow (NE) Solar Maintenance"
+	icon_state = "fsmaint"
+
+/area/station/maintenance/external_power/solar/east
+	name = "\improper Starboard (E) Solar Maintenance"
+	icon_state = "smaint"
+
+/area/station/maintenance/external_power/solar/southeast
+	name = "\improper Starboard Quarter (SE) Solar Maintenance"
+	icon_state = "asmaint"
+
+/area/station/maintenance/external_power/solar/south
+	name = "\improper Aft (S) Solar Maintenance"
+	icon_state = "pmaint"
+
+/area/station/maintenance/external_power/solar/southwest
+	name = "\improper Port Quarter (SW) Solar Maintenance"
+	icon_state = "apmaint"
+
+/area/station/maintenance/external_power/solar/west
+	name = "\improper Port (W) Solar Maintenance"
+	icon_state = "pmaint"
+
+/area/station/maintenance/external_power/solar/northwest
+	name = "\improper Port Bow (NW) Solar Maintenance"
+	icon_state = "fpmaint"
+
+/area/station/maintenance/external_power/geothermal //- GEOTHERMAL
+	name = "Geothermal Station Areas"
+	icon_state = "fmaint"
+
+/area/station/maintenance/external_power/geothermal/north
 	name = "\improper Fore (N) Geothermal Maintenance"
 	icon_state = "fmaint"
 
-/area/station/maintenance/external_power/northeast
-	name = "Northeast Areas"
+/area/station/maintenance/external_power/geothermal/northeast
+	name = "\improper Starboard Bow (NE) Geothermal Maintenance"
 	icon_state = "fsmaint"
 
-/area/station/maintenance/external_power/northeast/solar
-	name = "\improper Starboard Fore (NE) Solar Maintenance"
-	icon_state = "fsmaint"
-
-/area/station/maintenance/external_power/northeast/geothermal
-	name = "\improper Starboard Fore (NE) Geothermal Maintenance"
-	icon_state = "fsmaint"
-
-/area/station/maintenance/external_power/east
-	name = "\improper Starboard (E) Maintenance"
+/area/station/maintenance/external_power/geothermal/east
+	name = "\improper Starboard (E) Geothermal Maintenance"
 	icon_state = "smaint"
 
-/area/station/maintenance/external_power/east/solar
-	name = "\improper Starboard (E) Maintenance"
-	icon_state = "smaint"
-
-/area/station/maintenance/external_power/east/geothermal
-	name = "\improper Starboard (E) Maintenance"
-	icon_state = "smaint"
-
-
-/area/station/maintenance/external_power/southeast
-	name = "\improper Starboard Quarter (SE) Maintenance"
+/area/station/maintenance/external_power/geothermal/southeast
+	name = "\improper Starboard Quarter (SE) Geothermal Maintenance"
 	icon_state = "asmaint"
 
-/area/station/maintenance/external_power/south
-	name = "\improper Aft (S) Maintenance"
-	icon_state = "amaint"
-
-/area/station/maintenance/external_power/southwest
-	name = "\improper Port Quarter (SW) Maintenance"
-	icon_state = "apmaint"
-
-/area/station/maintenance/external_power/west
-	name = "\improper Port (W) Maintenance"
+/area/station/maintenance/external_power/geothermal/south
+	name = "\improper Aft (S) Geothermal Maintenance"
 	icon_state = "pmaint"
 
-/area/station/maintenance/external_power/northwest
-	name = "\improper Port Bow (NW) Maintenance"
+/area/station/maintenance/external_power/geothermal/southwest
+	name = "\improper Port Quarter (SW) Geothermal Maintenance"
+	icon_state = "apmaint"
+
+/area/station/maintenance/external_power/geothermal/west
+	name = "\improper Port (W) Geothermal Maintenance"
+	icon_state = "pmaint"
+
+/area/station/maintenance/external_power/geothermal/northwest
+	name = "\improper Port Bow (NW) Geothermal Maintenance"
 	icon_state = "fpmaint"
-
-
-
-
-
-
-/area/station/maintenance/external_power/port
-	name = "Port (W) Solar Maintenance"
-	icon_state = "SolarcontrolP"
-
-/area/station/maintenance/external_power/port/aft
-	name = "Port Quarter (SW) Solar Maintenance"
-	icon_state = "SolarcontrolAP"
-
-/area/station/maintenance/external_power/port/fore
-	name = "Port Bow (NW) Solar Maintenance"
-	icon_state = "SolarcontrolFP"
-
-/area/station/maintenance/external_power/starboard
-	name = "Starboard (E) Solar Maintenance"
-	icon_state = "SolarcontrolS"
-
-/area/station/maintenance/external_power/starboard/aft
-	name = "Starboard Quarter (SE) Solar Maintenance"
-	icon_state = "SolarcontrolAS"
-
-/area/station/maintenance/external_power/starboard/fore
-	name = "Starboard Bow (NE) Solar Maintenance"
-	icon_state = "SolarcontrolFS"
