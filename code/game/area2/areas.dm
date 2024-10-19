@@ -140,7 +140,10 @@
 	var/uses_daylight = FALSE
 	/// Daylight brightness
 	var/daylight_multiplier = 1
-	
+
+	/// For bluespace lockers
+	var/atom/global_turf_object = null
+
 /**
   * A list of teleport locations
   *

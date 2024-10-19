@@ -120,7 +120,7 @@
 
 /area/ruin/powered/syndicate_lava_base/vault
 	name = "Syndicate Lavaland Vault"
-	
+
 /area/ruin/unpowered/dragonslair //yogs start
 	name = "Dragons Lair"
 	hidden = TRUE

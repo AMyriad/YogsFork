@@ -41,7 +41,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/space/nearstation
 	icon_state = "space_near"
 
-/area/start
+/area/start //sort this with centcom
 	name = "start area"
 	icon_state = "start"
 	requires_power = FALSE
@@ -51,7 +51,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	ambience_index = null
 	ambient_buzz = null
 
-/area/testroom
+/area/testroom //sort this with centcom
 	requires_power = FALSE
 	has_gravity = STANDARD_GRAVITY
 	static_lighting = FALSE
