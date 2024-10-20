@@ -92,14 +92,17 @@
 	ambience_index = AMBIENCE_MINING
 	ambient_buzz = 'sound/ambience/magma.ogg'
 
-	flags_1 = NONE
 	always_unpowered = TRUE
-	poweralm = FALSE
+	requires_power = TRUE
 	power_environ = FALSE
 	power_equip = FALSE
 	power_light = FALSE
+	poweralm = FALSE
+
+	flags_1 = NONE
 	outdoors = TRUE
 
+// VVV IMPORTANT! COMMENTS HERE APPLY TO ALL MINING AREAS VVV
 // Put this in safe "discovered" areas where we don't want map generation like outside ruins/buildings and lava rivers
 /area/external/mining/lavaland/explored
 	name = "\improper Lavaland Wastes"
@@ -116,7 +119,7 @@
 	icon_state = "unexplored"
 	area_flags = CAVES_ALLOWED | MOB_SPAWN_ALLOWED
 
-// Standard lavaland unexplored danger zone
+// Standard unexplored danger zone
 /area/external/mining/lavaland/unexplored
 	name = "\improper Lavaland Wastes"
 	icon_state = "danger"
@@ -127,121 +130,108 @@
 //- Icemoon -//
 
 /area/external/mining/icemoon
-	name = "Lavaland Areas"
+	name = "Icemoon Areas"
 	icon_state = ""
 
 	ambience_index = AMBIENCE_ICEMOON
 	sound_environment = SOUND_ENVIRONMENT_FOREST
 	ambient_buzz = null // Stillness
 
-	flags_1 = NONE
 	always_unpowered = TRUE
-	poweralm = FALSE
+	requires_power = TRUE
 	power_environ = FALSE
 	power_equip = FALSE
 	power_light = FALSE
+	poweralm = FALSE
+
+	flags_1 = NONE
 	blob_allowed = FALSE
 	area_flags = FLORA_ALLOWED
 	outdoors = TRUE
 
-	uses_daylight = TRUE
-	daylight_multiplier = 0.7
-
-// Put this in safe "discovered" areas where we don't want map generation like outside ruins/buildings and lava rivers
-/area/external/mining/icemoon/explored
-	name = "\improper Lavaland Wastes"
+/area/external/mining/icemoon/surface //- SURFACE
+	name = "Surface Areas"
 	icon_state = ""
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**********************Ice Moon Areas**************************/
-
-/area/icemoon
-
-
-
-/area/icemoon/top_layer
-	name = "Icemoon Surface"
-	icon_state = "explored"
-	always_unpowered = TRUE
-	poweralm = FALSE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	requires_power = TRUE
 	uses_daylight = TRUE
 	daylight_multiplier = 0.7
 
-/area/icemoon/top_layer/outdoors
-	name = "Icemoon Wastes"
-	outdoors = TRUE
-
-/area/icemoon/top_layer/outdoors/unexplored
-	icon_state = "unexplored"
-	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
-	map_generator = /datum/map_generator/cave_generator/icemoon/top_layer
-	
-/area/icemoon/top_layer/outdoors/unexplored/danger
-	icon_state = "danger"	
-
-/area/icemoon/top_layer/outdoors/explored
+/area/external/mining/icemoon/surface/explored
+	name = "\improper Icemoon Wastes"
+	icon_state = "explored"
 	area_flags = NONE
 
-/area/icemoon/surface
-	name = "Icemoon"
-	icon_state = "explored"
-	always_unpowered = TRUE
-	poweralm = FALSE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	requires_power = TRUE
-
-/area/icemoon/surface/outdoors
-	name = "Icemoon Wastes"
-	outdoors = TRUE
-
-/area/icemoon/surface/outdoors/unexplored //monsters and ruins spawn here
+/area/external/mining/icemoon/surface/unexplored
+	name = "\improper Icemoon Wastes"
 	icon_state = "unexplored"
 	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
 	map_generator = /datum/map_generator/cave_generator/icemoon/surface
 
-/area/icemoon/surface/outdoors/unexplored/danger
-	icon_state = "danger"
+/area/external/mining/icemoon/underground //- UNDERGROUND
+	name = "Underground Areas"
+	icon_state = ""
 
-/area/icemoon/surface/outdoors/explored
-	name = "Icemoon Labor Camp"
+/area/external/mining/icemoon/underground/explored
+	name = "\improper Icemoon Subterranean Wastes"
+	icon_state = "explored"
+
+/area/external/mining/icemoon/underground/explored/labor
+	name = "\improper Labor Camp Exterior"
 	area_flags = NONE
 
-/area/icemoon/underground
-	name = "Icemoon Caves"
-	outdoors = TRUE
+/area/external/mining/icemoon/underground/unexplored
+	name = "\improper Icemoon Subterranean Wastes"
+	icon_state = "unexplored"
+	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
+	map_generator = /datum/map_generator/cave_generator/icemoon
+
+
+//- Jungleland -//
+
+/area/external/mining/jungleland
+	name = "Jungleland Areas"
+	icon_state = ""
+
+	//ambience_index = AMBIENCE_JUNGLE // One day...
+	sound_environment = SOUND_ENVIRONMENT_FOREST
+
 	always_unpowered = TRUE
 	requires_power = TRUE
-	poweralm = FALSE
 	power_environ = FALSE
 	power_equip = FALSE
 	power_light = FALSE
+	poweralm = FALSE
 
-/area/icemoon/underground/unexplored // mobs and megafauna and ruins spawn here
-	name = "Icemoon Caves"
-	icon_state = "unexplored"
-	area_flags = CAVES_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
-	map_generator = /datum/map_generator/cave_generator/icemoon
-	
-/area/icemoon/underground/explored
-	name = "Icemoon Underground"
-	area_flags = NONE
+	flags_1 = NONE
+	blob_allowed = FALSE
+	outdoors = TRUE
 
-/area/icemoon/underground/explored/laborcamp
-	name = "Icemoon Labor Camp"
+	static_lighting = TRUE
+	uses_daylight = TRUE
+
+
+
+
+/area/jungleland/explored
+	name = "Explored Jungle"
+
+/area/jungleland/ocean
+	name = "Toxic Ocean"
+
+/area/jungleland/proper
+	name = "Jungle"
+
+/area/jungleland/toxic_pit
+	name = "Toxic Pit"
+
+/area/jungleland/tar_wastes
+	name = "Tar Wastes"
+
+/area/jungleland/dry_swamp
+	name = "Rocky Beach"
+
+/area/jungleland/dying_forest
+	name = "Dying Jungle"
+
+/area/ruin/powered/sinden
+	name = "Den of Sin"
+	icon_state = "dk_yellow"

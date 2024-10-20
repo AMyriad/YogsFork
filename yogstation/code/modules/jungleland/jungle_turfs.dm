@@ -18,55 +18,6 @@ Temperature: 126.85 °C (400 K)
 	base_lighting_alpha = 255
 	has_gravity = TRUE
 
-/area/jungleland
-	name = "Jungleland"
-	static_lighting = TRUE
-
-	base_lighting_alpha = 255
-	outdoors = TRUE
-	has_gravity = TRUE
-	always_unpowered = TRUE
-
-	poweralm = FALSE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	requires_power = TRUE
-
-	outdoors = TRUE
-	mining_speed = TRUE
-	uses_daylight = TRUE
-	base_lighting_alpha = 0
-	//base_lighting_color = COLOR_STARLIGHT
-	blob_allowed = FALSE //just in case
-	//ambience_index = AMBIENCE_JUNGLE
-	sound_environment = SOUND_ENVIRONMENT_FOREST
-
-/area/jungleland/explored
-	name = "Explored Jungle"
-
-/area/jungleland/ocean
-	name = "Toxic Ocean"
-
-/area/jungleland/proper
-	name = "Jungle"
-
-/area/jungleland/toxic_pit
-	name = "Toxic Pit"
-
-/area/jungleland/tar_wastes
-	name = "Tar Wastes"
-
-/area/jungleland/dry_swamp
-	name = "Rocky Beach"
-
-/area/jungleland/dying_forest
-	name = "Dying Jungle"
-
-/area/ruin/powered/sinden
-	name = "Den of Sin"
-	icon_state = "dk_yellow"
-
 /turf/open/floor/plating/dirt/jungleland
 	name = "generic jungle land turf"
 	desc = "pain"
