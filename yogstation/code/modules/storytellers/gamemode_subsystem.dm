@@ -259,7 +259,7 @@ SUBSYSTEM_DEF(gamemode)
 				continue
 			// I split these checks up to make the code more readable ~Lucy
 			var/is_on_station = is_station_level(player.z)
-			var/is_late_arrival = HAS_TRAIT(SSstation, STATION_TRAIT_LATE_ARRIVALS) && istype(get_area(player), /area/shuttle/arrival)
+			var/is_late_arrival = HAS_TRAIT(SSstation, STATION_TRAIT_LATE_ARRIVALS) && istype(get_area(player), /area/external/shuttle/station/arrival)
 			if(!is_on_station && !is_late_arrival)
 				continue
 			candidate_candidates += player

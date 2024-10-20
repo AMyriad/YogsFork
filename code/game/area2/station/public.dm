@@ -25,7 +25,7 @@
 
 
 
-//- Hallways -//
+//-- Hallways --//
 // Keep order going clockwise from north pls ty
 
 /area/station/public/hallway

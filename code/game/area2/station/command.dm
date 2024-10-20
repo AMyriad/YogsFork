@@ -38,7 +38,7 @@
 	ambience_index = AMBIENCE_ENGI
 
 
-//- Heads of Staff Quarters/Offices -//
+//-- Heads of Staff Quarters/Offices --//
 
 /area/station/command/heads
 	name = "Heads of Staff Office Areas"

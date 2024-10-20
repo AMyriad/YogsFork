@@ -63,7 +63,7 @@
 	icon_state = "aux_base_construction"
 
 
-//- Atmospherics -//
+//-- Atmospherics --//
 
 /area/station/engineering/atmospherics
 	name = "Atmospherics Areas"
@@ -74,8 +74,8 @@
 	name = "\improper Atmospherics Foyer"
 	icon_state = "atmos_foyer"
 
-/area/station/engineering/atmospherics/storage
-	name = "\improper Atmospherics Storage Room"
+/area/station/engineering/atmospherics/equipment
+	name = "\improper Atmospherics Equipment Room"
 	icon_state = "atmos_storage"
 
 /area/station/engineering/atmospherics/mixing
@@ -90,27 +90,13 @@
 	name = "\improper Incinerator"
 	icon_state = "atmos_distro"
 
-
-/area/station/engineering/atmos/project
-	name = "\improper Atmospherics Project Room"
-	icon_state = "atmos_project"
-
-
-
-
-
-
-
-
-
-/area/station/engineering/atmos/hfr
-	name = "\improper Atmospherics HFR Room"
+// For when HFR/atmos engine is in a separate area than the incinerator
+/area/station/engineering/atmos/engine
+	name = "\improper Atmospherics Engine Room"
 	icon_state = "atmos_hfr"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 
-
-//- Telecomms -//
+//-- Telecomms --//
 
 /area/station/engineering/telecomms
 	name = "Telecomms Areas"
@@ -127,16 +113,21 @@
 	clockwork_warp_allowed = FALSE
 	clockwork_warp_fail = "For safety reasons, warping here is disallowed; the radio and bluespace noise could cause catastrophic results."
 
-/area/station/engineering/telecomms/storage
-	name = "\improper Telecomms Storage Room"
-	icon_state = "tcomsatstorage"
-	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+/area/station/engineering/telecomms/server
+	name = "\improper Telecomms Server Room"
+	icon_state = "tcomsatcham"
 
-/area/station/engineering/telecomms/computer
+/area/station/engineering/telecomms/control
 	name = "\improper Telecomms Control Room"
 	icon_state = "tcomsatcomp"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
-/area/station/engineering/telecomms/server
-	name = "\improper Telecomms Server Room"
-	icon_state = "tcomsatcham"
+/area/station/engineering/telecomms/workshop
+	name = "\improper Telecomms Hardware Workshop"
+	icon_state = "tcomsatstorage"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/engineering/telecomms/foyer
+	name = "\improper Telecomms Foyer"
+	icon_state = "tcomsatstorage"
+	sound_environment = SOUND_AREA_STANDARD_STATION

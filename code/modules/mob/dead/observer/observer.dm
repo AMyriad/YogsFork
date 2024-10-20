@@ -120,7 +120,7 @@ GLOBAL_VAR_INIT(observer_default_invisibility, INVISIBILITY_OBSERVER)
 	update_appearance()
 
 	if(!T || is_secret_level(T.z))
-		var/list/turfs = get_area_turfs(/area/shuttle/arrival)
+		var/list/turfs = get_area_turfs(/area/external/shuttle/station/arrival)
 		if(turfs.len)
 			T = pick(turfs)
 		else

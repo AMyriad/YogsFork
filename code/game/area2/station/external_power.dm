@@ -14,7 +14,7 @@
 	blob_allowed = FALSE
 	mining_speed = TRUE
 
-//- Solar Panel Arrays -//
+//-- Solar Panel Arrays --//
 // Keep order going clockwise from north pls ty
 
 /area/station/external_power/solar
@@ -54,9 +54,8 @@
 	icon_state = "panelsFP"
 
 
-//- Geothermal Stations -//
+//-- Geothermal Stations --//
 // We're on a planet not a ship, cardinal directions apply
-// P.S. If you need subtypes without the icemoon ambience don't be afraid to make them (im killing you)
 
 /area/station/external_power/geothermal
 	name = "Geothermal Station Areas"

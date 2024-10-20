@@ -1,17 +1,27 @@
 /*
-/area/station/science/research/abandoned
-	name = "Abandoned Research Lab"
-	icon_state = "medresearch"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
-/area/station/security/nuke_storage
-	name = "Vault"
-	icon_state = "nuke_storage"
-	minimap_color = "#a2a2a2"
-	airlock_wires = /datum/wires/airlock/command
 
-/area/ai_monitored/nuke_storage
-	name = "Vault"
-	icon_state = "nuke_storage"
-	minimap_color = "#a2a2a2"
-	airlock_wires = /datum/wires/airlock/command
+
+/area/escapepodbay
+	name = "Escape Shuttle Hallway Podbay"
+	icon_state = "escape"
+
+/area/shipbreak
+	name = "Shipbreak Zone"
+	icon_state = "escape"
+
+
+
+// RUINS
+/area/ruin/powered/sinden
+	name = "Den of Sin"
+	icon_state = "dk_yellow"
+
+// CENTCOM
+/area/bluespace_locker
+	name = "Bluespace Locker"
+	icon_state = "away"
+	has_gravity = STANDARD_GRAVITY
+	area_flags = NOTELEPORT
+
+*/

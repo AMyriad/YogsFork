@@ -1,5 +1,5 @@
 /area/external/mining
-	name = "External Mining Areas"
+	name = "Mining Areas"
 	icon_state = "mining"
 
 	ambient_buzz = 'sound/ambience/magma.ogg'
@@ -11,7 +11,7 @@
 	has_gravity = STANDARD_GRAVITY
 	mining_speed = TRUE
 
-//- Shaft Miner Mining Base -//
+//-- Shaft Miner Mining Base -//
 
 /area/external/mining/base
 	name = "Mining Base Areas"
@@ -67,7 +67,7 @@
 	icon_state = "mining_storage"
 
 
-//- Labor Camp/Gulag -//
+//-- Labor Camp/Gulag --//
 
 /area/external/mining/labor
 	name = "Labor Camp Areas"
@@ -83,7 +83,7 @@
 	ambience_index = AMBIENCE_DANGER
 
 
-//- Lavaland -//
+//-- Lavaland --//
 
 /area/external/mining/lavaland
 	name = "Lavaland Areas"
@@ -102,7 +102,7 @@
 	flags_1 = NONE
 	outdoors = TRUE
 
-// VVV IMPORTANT! COMMENTS HERE APPLY TO ALL MINING AREAS VVV
+// IMPORTANT! COMMENTS HERE APPLY TO ALL MINING AREAS!
 // Put this in safe "discovered" areas where we don't want map generation like outside ruins/buildings and lava rivers
 /area/external/mining/lavaland/explored
 	name = "\improper Lavaland Wastes"
@@ -110,7 +110,7 @@
 
 // Special type for area in proximity to the labor camp, place on every normal ground turf up until you meet a wall/lava
 /area/external/mining/lavaland/explored/labor
-	name = "\improper Labor Camp Exterior"
+	name = "\improper Labor Camp Grounds"
 	icon_state = ""
 
 // Put this in areas where we don't want megafauna and useful flora to spawn like near the labor camp
@@ -127,7 +127,7 @@
 	map_generator = /datum/map_generator/cave_generator/lavaland
 
 
-//- Icemoon -//
+//-- Icemoon --//
 
 /area/external/mining/icemoon
 	name = "Icemoon Areas"
@@ -175,7 +175,7 @@
 	icon_state = "explored"
 
 /area/external/mining/icemoon/underground/explored/labor
-	name = "\improper Labor Camp Exterior"
+	name = "\improper Labor Camp Grounds"
 	area_flags = NONE
 
 /area/external/mining/icemoon/underground/unexplored
@@ -185,7 +185,7 @@
 	map_generator = /datum/map_generator/cave_generator/icemoon
 
 
-//- Jungleland -//
+//-- Jungleland --//
 
 /area/external/mining/jungleland
 	name = "Jungleland Areas"
@@ -208,30 +208,27 @@
 	static_lighting = TRUE
 	uses_daylight = TRUE
 
+/area/external/mining/jungleland/explored
+	name = "\improper Jungle Wilderness"
+	icon_state = ""
 
+// Note that jungleland uses a different map gen system than icemoon and lavaland (see JungleGen.dm) so same vars and flags do not apply
+/area/external/mining/jungleland/unexplored
+	name = "\improper Jungle Wilderness"
+	icon_state = ""
 
+/area/external/mining/jungleland/unexplored/dying_forest
+	name = "\improper Dying Forest"
+	icon_state = ""
 
-/area/jungleland/explored
-	name = "Explored Jungle"
+/area/external/mining/jungleland/unexplored/toxic_pit
+	name = "\improper Toxic Pits"
+	icon_state = ""
 
-/area/jungleland/ocean
-	name = "Toxic Ocean"
+/area/external/mining/jungleland/unexplored/dry_swamp
+	name = "\improper Dry Swamps"
+	icon_state = ""
 
-/area/jungleland/proper
-	name = "Jungle"
-
-/area/jungleland/toxic_pit
-	name = "Toxic Pit"
-
-/area/jungleland/tar_wastes
-	name = "Tar Wastes"
-
-/area/jungleland/dry_swamp
-	name = "Rocky Beach"
-
-/area/jungleland/dying_forest
-	name = "Dying Jungle"
-
-/area/ruin/powered/sinden
-	name = "Den of Sin"
-	icon_state = "dk_yellow"
+/area/external/mining/jungleland/unexplored/tar_wastes
+	name = "\improper Tar-Blighted Wastes"
+	icon_state = ""

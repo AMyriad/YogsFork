@@ -16,8 +16,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /*-----------------------------------------------------------------------------*/
 
-/area/ai_monitored	//stub defined ai_monitored.dm
-
 /area/space
 	icon_state = "space"
 	requires_power = TRUE
@@ -160,10 +158,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "abandoned_garden"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
-/area/hydroponics/garden/monastery
-	name = "Monastery Garden"
-	icon_state = "hydro"
-
 
 
 /area/crew_quarters/public_lounge
@@ -233,111 +227,3 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/vacant_room/commissary
 	name = "Vacant Commissary"
 	icon_state = "vacant_commissary"
-
-//AI
-
-/area/ai_monitored/security/armory
-	name = "Armory"
-	icon_state = "armory"
-	ambience_index = AMBIENCE_DANGER
-	minimap_color = "#b12527"
-	airlock_wires = /datum/wires/airlock/security
-
-/area/ai_monitored/security/armory/upper
-	name = "Upper Armory"
-
-/area/ai_monitored/storage/eva
-	name = "EVA Storage"
-	icon_state = "eva"
-	ambience_index = AMBIENCE_DANGER
-	minimap_color = "#c8c0ff"
-
-/area/ai_monitored/storage/satellite
-	name = "AI Satellite Maint"
-	icon_state = "storage"
-	ambience_index = AMBIENCE_DANGER
-	minimap_color = "#4f4e3a"
-	airlock_wires = /datum/wires/airlock/ai
-
-/area/ai_monitored/storage/satellite/teleporter
-	name = "AI Satellite Access Teleporter"
-	icon_state = "storage"
-	ambience_index = AMBIENCE_DANGER
-	minimap_color = "#4f4e3a"
-	airlock_wires = /datum/wires/airlock/ai
- 
-/area/ai_monitored/secondarydatacore
-	name = "AI Secondary Datacore Monitoring"
-	icon_state =  "ai"
-	minimap_color = "#00fff6"
-	ambience_index = AMBIENCE_DANGER
-
-/area/ai_monitored/secondarydatacoreserver
-	name = "AI Secondary Datacore Servers"
-	icon_state = "ai"
-	minimap_color = "#00fff6"
-	ambience_index = AMBIENCE_DANGER
-
-//Turret_protected
-
-/area/ai_monitored/turret_protected
-	ambience_index = AMBIENCE_AI
-	minimap_color = "#00fff6"
-	airlock_wires = /datum/wires/airlock/ai
-
-/area/ai_monitored/turret_protected/ai_upload
-	name = "AI Upload Chamber"
-	icon_state = "ai_upload"
-	minimap_color = "#4f4e3a"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/ai_monitored/turret_protected/ai_upload_foyer
-	name = "AI Upload Access"
-	icon_state = "ai_foyer"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-
-/area/ai_monitored/turret_protected/ai
-	name = "AI Chamber"
-	icon_state = "ai_chamber"
-
-/area/ai_monitored/turret_protected/aisat
-	name = "AI Satellite"
-	icon_state = "ai"
-	sound_environment = SOUND_ENVIRONMENT_ROOM
-
-/area/ai_monitored/turret_protected/aisat/atmos
-	name = "AI Satellite Atmos"
-	icon_state = "ai"
-
-/area/ai_monitored/turret_protected/aisat/foyer
-	name = "AI Satellite Foyer"
-	icon_state = "ai"
-
-/area/ai_monitored/turret_protected/aisat/service
-	name = "AI Satellite Service"
-	icon_state = "ai"
-
-/area/ai_monitored/turret_protected/aisat/hallway
-	name = "AI Satellite Hallway"
-	icon_state = "ai"
-
-/area/aisat
-	name = "AI Satellite Exterior"
-	icon_state = "yellow"
-	minimap_color = "#00fff6"
-	airlock_wires = /datum/wires/airlock/ai
-	lights_always_start_on = TRUE
-
-/area/ai_monitored/turret_protected/aisat_interior
-	name = "AI Satellite Antechamber"
-	icon_state = "ai"
-	sound_environment = SOUND_AREA_LARGE_ENCLOSED
-
-/area/ai_monitored/turret_protected/AIsatextAS
-	name = "AI Sat Ext"
-	icon_state = "storage"
-
-/area/ai_monitored/turret_protected/AIsatextAP
-	name = "AI Sat Ext"
-	icon_state = "storage"
-

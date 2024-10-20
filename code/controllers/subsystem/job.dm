@@ -904,7 +904,7 @@ SUBSYSTEM_DEF(job)
 	destination.JoinPlayerHere(M, buckle)
 
 /datum/controller/subsystem/job/proc/get_cryo_spawn_points()
-	var/area/shuttle/arrival/cryo_spawn_area = GLOB.areas_by_type[/area/crew_quarters/cryopods]
+	var/area/external/shuttle/station/arrival/cryo_spawn_area = GLOB.areas_by_type[/area/crew_quarters/cryopods]
 	if(!isnull(cryo_spawn_area))
 		var/list/turf/available_turfs = list()
 		for (var/list/zlevel_turfs as anything in cryo_spawn_area.get_zlevel_turf_lists())
@@ -923,7 +923,7 @@ SUBSYSTEM_DEF(job)
 	return GET_ERROR_ROOM
 
 /datum/controller/subsystem/job/proc/get_last_resort_spawn_points()
-	var/area/shuttle/arrival/arrivals_area = GLOB.areas_by_type[/area/shuttle/arrival]
+	var/area/external/shuttle/station/arrival/arrivals_area = GLOB.areas_by_type[/area/external/shuttle/station/arrival]
 	if(!isnull(arrivals_area))
 		var/list/turf/available_turfs = list()
 		for (var/list/zlevel_turfs as anything in arrivals_area.get_zlevel_turf_lists())

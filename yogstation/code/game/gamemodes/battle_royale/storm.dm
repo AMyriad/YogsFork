@@ -1,7 +1,7 @@
 /datum/weather/royale
 	telegraph_message = null //don't clutter chat at the start
 	weather_message = null
-	protected_areas = list(/area/shuttle/arrival)
+	protected_areas = list(/area/external/shuttle/station/arrival)
 	area_type = /area
 	weather_overlay = "ash_storm"
 	telegraph_overlay = "light_ash"

@@ -58,7 +58,7 @@
 	icon_state = "physician"
 
 
-//- Prison and Detention Rooms-//
+//-- Prison and Detention Rooms --//
 
 /area/station/security/detention
 	name = "Detention Areas"
@@ -67,7 +67,7 @@
 	lights_always_start_on = TRUE
 
 /area/station/security/detention/prison
-	name = "\improper Prison Wing
+	name = "\improper Prison Wing"
 	icon_state = "sec_prison"
 
 /area/station/security/detention/prison_hallway
@@ -86,7 +86,7 @@
 	icon_state = "sec_prison"
 
 
-//- Security Posts -//
+//-- Security Posts --//
 
 /area/station/security/post
 	name = "Security Post Areas"

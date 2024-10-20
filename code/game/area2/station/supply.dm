@@ -42,5 +42,5 @@
 	icon_state = "quart"
 
 /area/station/supply/mining
-	name = "\improper Shaft Mining Dock"
+	name = "\improper Mining Dock"
 	icon_state = "mining"

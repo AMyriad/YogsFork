@@ -1,5 +1,3 @@
-//MedBay
-
 /area/station/medical
 	name = "Medical Areas"
 	icon_state = "medbay3"
@@ -63,7 +61,7 @@
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 
-//- Genetics -//
+//-- Genetics --//
 
 /area/station/medical/genetics
 	name = "Genetics Areas"
@@ -79,7 +77,7 @@
 	icon_state = "cloning"
 
 
-//- Chemistry -//
+//-- Chemistry --//
 
 /area/station/medical/chemistry
 	name = "Chemistry Areas"
@@ -99,7 +97,7 @@
 	icon_state = "chem"
 
 
-//- Virology -//
+//-- Virology --//
 
 /area/station/medical/virology
 	name = "Virology Areas"
@@ -113,7 +111,7 @@
 	icon_state = "virology"
 
 
-//- Patient Recovery Wards -//
+//-- Patient Recovery Wards --//
 
 /area/station/medical/recovery
 	name = "Recovery Ward Areas"

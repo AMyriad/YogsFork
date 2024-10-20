@@ -1,5 +1,3 @@
-//Science
-
 /area/station/science
 	name = "Science Areas"
 	icon_state = "toxlab"
@@ -67,7 +65,7 @@
 	icon_state = "server"
 
 
-// Robotics
+//-- Robotics --//
 
 /area/station/science/robotics
 	name = "Robotics Areas"

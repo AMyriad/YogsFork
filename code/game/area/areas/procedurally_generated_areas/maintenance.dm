@@ -170,4 +170,3 @@
 	name = "The Backrooms"
 	requires_power = FALSE
 	map_generator = /datum/map_generator/dungeon_generator/maintenance/backrooms
-	

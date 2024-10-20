@@ -6,7 +6,7 @@
 
 	ambience_index = AMBIENCE_MAINT
 	sound_environment = SOUND_AREA_TUNNEL_ENCLOSED
-	ambient_buzz = 'sound/ambience/source_corridor2.ogg''
+	ambient_buzz = 'sound/ambience/source_corridor2.ogg'
 	ambient_buzz_vol = 20
 	min_ambience_cooldown = 20 SECONDS
 	max_ambience_cooldown = 35 SECONDS
@@ -26,7 +26,7 @@
 
 	valid_territory = FALSE
 
-//- General Maintenance -//
+//-- General Maintenance --//
 // Keep order going clockwise from north pls ty
 
 /area/station/maintenance/general
@@ -70,7 +70,7 @@
 	icon_state = "fpmaint"
 
 
-//- Departmental Maintenance -//
+//-- Departmental Maintenance --//
 // For maintenance areas INSIDE/INBETWEEN rooms inside departments
 // Subtypes of this subtype are exceptions to the above (ex: electrical maint)
 
@@ -134,7 +134,7 @@
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 
-//- External Power Maintenance/Control Rooms -//
+//-- External Power Maintenance/Control Rooms --//
 // Keep order going clockwise from north pls ty
 
 /area/station/maintenance/external_power
