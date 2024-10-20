@@ -231,13 +231,6 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 	if(!static_lighting)
 		blend_mode = BLEND_MULTIPLY
 
-	if(ai_monitored)
-		for (var/obj/machinery/camera/M in src)
-		if(M.isMotion())
-			motioncameras.Add(M)
-			M.area_motion = src
-
-
 	reg_in_areas_in_z()
 	
 	update_base_lighting()
