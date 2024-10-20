@@ -5,7 +5,7 @@
 */
 
 /*
-* This is the ROOT for all main areas
+* This is the ROOT for all main area types
 * It keeps the work tree in mapping tools nice and pretty :)
 */
 /area/debug

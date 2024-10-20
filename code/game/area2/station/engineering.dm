@@ -1,4 +1,4 @@
-/area/station/station/engineering
+/area/station/engineering
 	name = "Engineering Areas"
 	icon_state = "engineering_template"
 	minimap_color = "#f7de02"

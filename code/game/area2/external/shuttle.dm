@@ -156,9 +156,9 @@
 
 /area/external/shuttle/ruins
 	name = "Ruins Shuttle Areas"
-	area_flags = NOTELEPORT
 	blob_allowed = FALSE
 	requires_power = TRUE
+	area_flags = NOTELEPORT
 
 /area/external/shuttle/ruins/whiteship
 	name = "\improper Abandoned Ship"

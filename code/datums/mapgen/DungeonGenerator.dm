@@ -82,7 +82,7 @@
 
 	///If this is set to TRUE then it will only change turfs that are /turf/open/genturf, for more flexability in design
 	var/gen_gurf_only = TRUE
-	var/static/list/overlappable_areas = typecacheof(list(/area/space, /area/procedurally_generated))
+	var/static/list/overlappable_areas = typecacheof(list(/area/space, /area/procedural_gen))
 
 /datum/map_generator/dungeon_generator/New(area/generate_in)
 	. = ..()
@@ -95,7 +95,7 @@
 	
 
 /datum/map_generator/dungeon_generator/combine_local_areas()
-	for(var/area/procedurally_generated/current_area in GLOB.areas)
+	for(var/area/procedural_gen/current_area in GLOB.areas)
 		if(istype(src, current_area.map_generator) && current_area.z == area_ref.z)
 			areas_included |= current_area
 			current_area.map_generator = src
@@ -103,7 +103,7 @@
 /datum/map_generator/dungeon_generator/generate_terrain()
 	var/start_time = REALTIMEOFDAY
 	
-	for(var/area/procedurally_generated/pg in areas_included)
+	for(var/area/procedural_gen/pg in areas_included)
 		pg.shared_generator_initialized = TRUE
 		for(var/turf/t in pg.contents)
 			working_turfs |= t	

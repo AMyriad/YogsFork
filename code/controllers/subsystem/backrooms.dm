@@ -50,7 +50,7 @@ SUBSYSTEM_DEF(backrooms)
 		log_game("Backrooms failed to load!")
 
 	for(var/area/A as anything in GLOB.areas)
-		if(istype(A, /area/procedurally_generated/maintenance/the_backrooms))
+		if(istype(A, /area/procedural_gen/maintenance/backrooms))
 			A.RunGeneration()
 			backrooms_generator = A.map_generator
 			break

@@ -47,9 +47,9 @@
 	return A.use_power(amount,chan)
 
 /*
-	This is the standard holodeck area. It is intended to allow you to
+	This is the holodeck. It is intended to allow you to
 	blow off steam by doing stupid things like laying down, throwing
 	spheres at holes, or bludgeoning people.
 */
-/area/debug/holodeck/rec_center
+/area/debug/holodeck/main // The actual area holodeck rooms on the station use
 	name = "\improper Recreational Holodeck"
