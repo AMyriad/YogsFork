@@ -41,13 +41,6 @@
 	name = "\improper Quartermaster's Office"
 	icon_state = "quart"
 
-
-//- Mining -//
-
 /area/station/supply/mining
-	name = "Mining Areas"
-	icon_state = "mining"
-
-/area/station/supply/mining/bay
-	name = "\improper Mining Bay"
+	name = "\improper Shaft Mining Dock"
 	icon_state = "mining"

@@ -26,7 +26,7 @@
 
 	valid_territory = FALSE
 
-//- General Maintenance Areas -//
+//- General Maintenance -//
 // Keep order going clockwise from north pls ty
 
 /area/station/maintenance/general
@@ -72,7 +72,7 @@
 
 //- Departmental Maintenance -//
 // For maintenance areas INSIDE/INBETWEEN rooms inside departments
-// Subtypes of this subtype are exceptions to the above tho (ex: electrical maint)
+// Subtypes of this subtype are exceptions to the above (ex: electrical maint)
 
 /area/station/maintenance/department
 	name = "Department Maintenance Areas"

@@ -25,6 +25,7 @@
 	icon_state = "kitchen"
 	lighting_colour_tube = "#fff4d6"
 	lighting_colour_bulb = "#ffebc1"
+	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/service/kitchen/freezer
 	name = "\improper Kitchen Freezer"
@@ -61,9 +62,10 @@
 /area/station/service/library
 	name = "\improper Library"
 	icon_state = "library"
-	flags_1 = NONE
+	sound_environment = SOUND_AREA_WOODFLOOR
 	lighting_colour_tube = "#fff1cc"
 	lighting_colour_bulb = "#ffe9b9"
+	flags_1 = NONE
 
 /area/station/service/chapel
 	name = "\improper Chapel"

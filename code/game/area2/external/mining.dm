@@ -9,203 +9,166 @@
 	lighting_colour_bulb = "#ffdcb7"
 
 	has_gravity = STANDARD_GRAVITY
-	area_flags = FLORA_ALLOWED
 	mining_speed = TRUE
 
+//- Shaft Miner Mining Base -//
 
+/area/external/mining/base
+	name = "Mining Base Areas"
+	icon_state = ""
+	airlock_wires = /datum/wires/airlock/service
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**********************Mine areas**************************/
-
-/area/mine
-	icon_state = "mining"
-	has_gravity = STANDARD_GRAVITY
-	area_flags = FLORA_ALLOWED
-	ambient_buzz = 'sound/ambience/magma.ogg'
-	lighting_colour_tube = "#ffe8d2"
-	lighting_colour_bulb = "#ffdcb7"
-	
-	ambient_buzz_vol = 10
-	mining_speed = TRUE
-
-/area/mine/explored
-	name = "Mine"
-	icon_state = "explored"
-	always_unpowered = TRUE
-	requires_power = TRUE
-	poweralm = FALSE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	outdoors = TRUE
-	flags_1 = NONE
-	ambience_index = AMBIENCE_MINING
-	area_flags = NONE
-	ambient_buzz = 'sound/ambience/magma.ogg'
-	ambient_buzz_vol = 20
-
-/area/mine/unexplored
-	name = "Mine"
-	icon_state = "unexplored"
-	always_unpowered = TRUE
-	requires_power = TRUE
-	poweralm = FALSE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	outdoors = TRUE
-	flags_1 = NONE
-	ambience_index = AMBIENCE_MINING
-	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
-	ambient_buzz = 'sound/ambience/magma.ogg'
-	map_generator = /datum/map_generator/cave_generator
-
-/area/mine/lobby
-	name = "Mining Station"
-
-/area/mine/infirmary
-	name = "Mining Station Infirmary"
-	icon_state = "mining_infirmary"
-
-/area/mine/storage
-	name = "Mining Station Storage"
-	icon_state = "mining_storage"
-
-/area/mine/production
-	name = "Mining Station Starboard (E) Wing"
-	icon_state = "mining_production"
-
-/area/mine/abandoned
-	name = "Abandoned Mining Station"
-
-/area/mine/living_quarters
-	name = "Mining Station Living Quarters"
+/area/external/mining/base/main
+	name = "\improper Mining Base Central Hall"
 	icon_state = "mining_living"
+	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
-/area/mine/break_room
-	name = "Mining Station Break Room"
-	icon_state = "mining_breakroom"
-
-/area/mine/eva
-	name = "Mining Station EVA"
-	icon_state = "mining_eva"
-
-/area/mine/eva_secondary
-	name = "Mining Station Secondary EVA"
+/area/external/mining/base/eva_north
+	name = "\improper Mining Base EVA North"
 	icon_state = "mining_eva_secondary"
 
-/area/mine/maintenance
-	name = "Mining Station Communications"
+/area/external/mining/base/eva_south
+	name = "\improper Mining Base EVA South"
+	icon_state = "mining_eva"
+
+/area/external/mining/base/infirmary
+	name = "\improper Mining Base Infirmary"
+	icon_state = "mining_infirmary"
+
+/area/external/mining/base/life_support
+	name = "\improper Mining Base Life Support"
 	icon_state = "mining_engineering"
 	lighting_colour_tube = "#edfdff"
 	lighting_colour_bulb = "#dafffd"
 
-/area/mine/vacant
-	name = "Mining Station Vacant Room"
+/area/external/mining/base/break_room
+	name = "\improper Mining Base Break Room"
+	icon_state = "mining_breakroom"
+
+/area/external/mining/base/refinery
+	name = "\improper Mining Base Refinery"
+	icon_state = "mining_production"
+
+/area/external/mining/base/restrooms
+	name = "\improper Mining Base Restrooms"
+	icon_state = "mining_living"
+
+/area/external/mining/base/quarters
+	name = "\improper Mining Base Quarters"
+	icon_state = "mining_living"
+
+/area/external/mining/base/vacant
+	name = "\improper Mining Base Vacant Room"
 	icon_state = "mining_vacant"
 
-/area/mine/cafeteria
-	name = "Mining Station Cafeteria"
+/area/external/mining/base/maintenance
+	name = "\improper Mining Base Storage Maintenance"
+	icon_state = "mining_storage"
 
-/area/mine/hydroponics
-	name = "Mining Station Hydroponics"
 
-/area/mine/sleeper
-	name = "Mining Station Emergency Sleeper"
+//- Labor Camp/Gulag -//
 
-/area/mine/laborcamp
-	name = "Labor Camp"
+/area/external/mining/labor
+	name = "Labor Camp Areas"
 
-/area/mine/laborcamp/security
-	name = "Labor Camp Security"
+/area/external/mining/labor/main
+	name = "\improper Labor Camp"
+	icon_state = "mining_vacant"
+
+/area/external/mining/labor/security
+	name = "\improper Labor Camp Security Desk"
 	icon_state = "security"
+	airlock_wires = /datum/wires/airlock/security
 	ambience_index = AMBIENCE_DANGER
 
 
+//- Lavaland -//
 
+/area/external/mining/lavaland
+	name = "Lavaland Areas"
+	icon_state = ""
 
-/**********************Lavaland Areas**************************/
+	ambience_index = AMBIENCE_MINING
+	ambient_buzz = 'sound/ambience/magma.ogg'
 
-/area/lavaland
-	icon_state = "mining"
-	has_gravity = STANDARD_GRAVITY
 	flags_1 = NONE
-	area_flags = FLORA_ALLOWED
-	ambient_buzz = 'sound/ambience/magma.ogg'
-	mining_speed = TRUE
-
-/area/lavaland/surface
-	name = "Lavaland"
-	icon_state = "explored"
 	always_unpowered = TRUE
 	poweralm = FALSE
 	power_environ = FALSE
 	power_equip = FALSE
 	power_light = FALSE
-	requires_power = TRUE
-	ambience_index = AMBIENCE_MINING
-	ambient_buzz = 'sound/ambience/magma.ogg'
-
-/area/lavaland/underground
-	name = "Lavaland Caves"
-	icon_state = "unexplored"
-	always_unpowered = TRUE
-	requires_power = TRUE
-	poweralm = FALSE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	ambience_index = AMBIENCE_MINING
-	ambient_buzz = 'sound/ambience/magma.ogg'
-
-
-/area/lavaland/surface/outdoors
-	name = "Lavaland Wastes"
 	outdoors = TRUE
 
-/area/lavaland/surface/outdoors/unexplored //monsters and ruins spawn here
+// Put this in safe "discovered" areas where we don't want map generation like outside ruins/buildings and lava rivers
+/area/external/mining/lavaland/explored
+	name = "\improper Lavaland Wastes"
+	icon_state = "explored"
+
+// Special type for area in proximity to the labor camp, place on every normal ground turf up until you meet a wall/lava
+/area/external/mining/lavaland/explored/labor
+	name = "\improper Labor Camp Exterior"
+	icon_state = ""
+
+// Put this in areas where we don't want megafauna and useful flora to spawn like near the labor camp
+/area/external/mining/lavaland/light_unexplored
+	name = "\improper Lavaland Wastes"
 	icon_state = "unexplored"
 	area_flags = CAVES_ALLOWED | MOB_SPAWN_ALLOWED
 
-/area/lavaland/surface/outdoors/unexplored/danger //megafauna will also spawn here
+// Standard lavaland unexplored danger zone
+/area/external/mining/lavaland/unexplored
+	name = "\improper Lavaland Wastes"
 	icon_state = "danger"
 	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
 	map_generator = /datum/map_generator/cave_generator/lavaland
 
-/area/lavaland/surface/outdoors/explored
-	name = "Lavaland Labor Camp"
-	area_flags = NONE
+
+//- Icemoon -//
+
+/area/external/mining/icemoon
+	name = "Lavaland Areas"
+	icon_state = ""
+
+	ambience_index = AMBIENCE_ICEMOON
+	sound_environment = SOUND_ENVIRONMENT_FOREST
+	ambient_buzz = null // Stillness
+
+	flags_1 = NONE
+	always_unpowered = TRUE
+	poweralm = FALSE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	blob_allowed = FALSE
+	area_flags = FLORA_ALLOWED
+	outdoors = TRUE
+
+	uses_daylight = TRUE
+	daylight_multiplier = 0.7
+
+// Put this in safe "discovered" areas where we don't want map generation like outside ruins/buildings and lava rivers
+/area/external/mining/icemoon/explored
+	name = "\improper Lavaland Wastes"
+	icon_state = ""
+
+
+
+
+
+
+
+
+
+
 
 
 
 /**********************Ice Moon Areas**************************/
 
 /area/icemoon
-	icon_state = "mining"
-	has_gravity = STANDARD_GRAVITY
-	flags_1 = NONE
-	area_flags = FLORA_ALLOWED
-	blob_allowed = FALSE
-	mining_speed = TRUE
-	ambient_buzz = null // stillness.
-	ambience_index = AMBIENCE_ICEMOON
-	sound_environment = SOUND_ENVIRONMENT_FOREST
+
+
 
 /area/icemoon/top_layer
 	name = "Icemoon Surface"

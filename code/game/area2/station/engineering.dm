@@ -27,8 +27,8 @@
 	icon_state = "engine_foyer"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
-/area/station/engineering/protolathe_bay
-	name = "\improper Engineering Protolathe Bay"
+/area/station/engineering/production_bay
+	name = "\improper Engineering Production Bay"
 	icon_state = "engi_storage"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 

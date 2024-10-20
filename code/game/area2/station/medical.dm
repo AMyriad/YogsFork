@@ -104,9 +104,9 @@
 /area/station/medical/virology
 	name = "Virology Areas"
 	icon_state = "virology"
-	flags_1 = NONE
 	minimap_color = "#01f5b3"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+	flags_1 = NONE
 
 /area/station/medical/virology/lab
 	name = "\improper Virology Lab"
