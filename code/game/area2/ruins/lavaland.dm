@@ -6,6 +6,51 @@
 	has_gravity = STANDARD_GRAVITY
 	mining_speed = TRUE
 
+/area/ruins/lavaland/syndicate
+	name = "Syndicate Lavaland"
+	icon_state = "syndie-control"
+	ambience_index = AMBIENCE_DANGER
+	ambient_buzz = 'sound/ambience/magma.ogg'
+	ambient_buzz_vol = 10
+	hidden = FALSE
+
+/area/ruins/lavaland/syndicate/engineering
+	name = "Syndicate Lavaland Engineering"
+
+/area/ruins/lavaland/syndicate/medbay
+	name = "Syndicate Lavaland Medbay"
+
+/area/ruins/lavaland/syndicate/arrivals
+	name = "Syndicate Lavaland Arrivals"
+
+/area/ruins/lavaland/syndicate/bar
+	name = "Syndicate Lavaland Bar"
+
+/area/ruins/lavaland/syndicate/main
+	name = "Syndicate Lavaland Primary Hallway"
+
+/area/ruins/lavaland/syndicate/cargo
+	name = "Syndicate Lavaland Cargo Bay"
+
+/area/ruins/lavaland/syndicate/chemistry
+	name = "Syndicate Lavaland Chemistry"
+
+/area/ruins/lavaland/syndicate/virology
+	name = "Syndicate Lavaland Virology"
+
+/area/ruins/lavaland/syndicate/testlab
+	name = "Syndicate Lavaland Experimentation Lab"
+
+/area/ruins/lavaland/syndicate/dormitories
+	name = "Syndicate Lavaland Dormitories"
+
+/area/ruins/lavaland/syndicate/telecomms
+	name = "Syndicate Lavaland Telecommunications"
+
+/area/ruins/lavaland/syndicate/vault
+	name = "Syndicate Lavaland Vault"
+
+
 //-- Powered --//
 
 /area/ruins/lavaland/powered
@@ -80,56 +125,6 @@
 /area/ruins/lavaland/powered/gasstation
 	name = "\improper Lavaland Gas Station"
 	icon_state = "dk_yellow"
-
-
-
-
-
-
-/area/ruins/lavaland/powered/syndicate_lava_base
-	name = "Syndicate Lavaland"
-	icon_state = "syndie-control"
-	ambience_index = AMBIENCE_DANGER
-	ambient_buzz = 'sound/ambience/magma.ogg'
-	ambient_buzz_vol = 10
-	hidden = FALSE
-	requires_power = TRUE
-
-/area/ruins/lavaland/powered/syndicate_lava_base/engineering
-	name = "Syndicate Lavaland Engineering"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/medbay
-	name = "Syndicate Lavaland Medbay"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/arrivals
-	name = "Syndicate Lavaland Arrivals"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/bar
-	name = "Syndicate Lavaland Bar"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/main
-	name = "Syndicate Lavaland Primary Hallway"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/cargo
-	name = "Syndicate Lavaland Cargo Bay"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/chemistry
-	name = "Syndicate Lavaland Chemistry"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/virology
-	name = "Syndicate Lavaland Virology"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/testlab
-	name = "Syndicate Lavaland Experimentation Lab"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/dormitories
-	name = "Syndicate Lavaland Dormitories"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/telecomms
-	name = "Syndicate Lavaland Telecommunications"
-
-/area/ruins/lavaland/powered/syndicate_lava_base/vault
-	name = "Syndicate Lavaland Vault"
 
 
 //-- Unpowered --//
