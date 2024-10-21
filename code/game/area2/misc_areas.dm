@@ -10,13 +10,18 @@
 */
 /area/debug
 	name = "Debug Areas"
-	icon_state = "external"
+	icon_state = "debug"
 	icon = 'icons/area/areas_debug.dmi'
 
 /area/external
 	name = "External Areas"
 	icon_state = "external"
 	icon = 'icons/area/areas_external.dmi'
+
+/area/ruins
+	name = "Ruins Areas"
+	icon_state = "ruins"
+	icon = 'icons/area/areas_ruins.dmi'
 
 /area/station
 	name = "Station Areas"

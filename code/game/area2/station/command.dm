@@ -28,7 +28,7 @@
 	name = "\improper Council Chamber"
 	icon_state = "meeting"
 
-/area/station/command/showroom
+/area/station/command/meeting_room/showroom
 	name = "\improper Corporate Showroom"
 	icon_state = "showroom"
 
@@ -60,12 +60,12 @@
 /area/station/command/heads/rd
 	name = "\improper Research Director's Office"
 	icon_state = "rd"
-	minimap_color = "#9257a6"
+	minimap_color = "#721392"
 
 /area/station/command/heads/ce
 	name = "\improper Chief Engineer's Office"
 	icon_state = "ce"
-	minimap_color = "#a5a000"
+	minimap_color = "#e6cf08"
 
 /area/station/command/heads/cmo
 	name = "\improper Chief Medical Officer's Office"
@@ -75,4 +75,4 @@
 /area/station/command/heads/hos
 	name = "\improper Head of Security's Office"
 	icon_state = "hos"
-	minimap_color = "#ff6868"
+	minimap_color = "#e92828"

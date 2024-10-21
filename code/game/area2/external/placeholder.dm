@@ -17,6 +17,12 @@
 	name = "Den of Sin"
 	icon_state = "dk_yellow"
 
+/area/ruins/lavaland/powered/kinggoat_arena
+	name = "King Goat Arena"
+	area_flags = NOTELEPORT
+	icon_state = "dk_yellow"
+
+
 // CENTCOM
 /area/bluespace_locker
 	name = "Bluespace Locker"

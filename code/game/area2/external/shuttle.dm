@@ -78,8 +78,8 @@
 	blob_allowed = FALSE
 	area_flags = NOTELEPORT
 
-// Emergency response teams and deathsquads
-/area/external/shuttle/station/centcom_transport
+// Emergency response teams and deathsquads, vaguely named and ominous
+/area/external/shuttle/station/centcom_ferry
 	name = "\improper Transport Shuttle"
 	blob_allowed = FALSE
 
