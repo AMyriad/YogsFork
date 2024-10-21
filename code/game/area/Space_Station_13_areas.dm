@@ -39,23 +39,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 /area/space/nearstation
 	icon_state = "space_near"
 
-/area/start //sort this with centcom
-	name = "start area"
-	icon_state = "start"
-	requires_power = FALSE
-	has_gravity = STANDARD_GRAVITY
-	static_lighting = FALSE
-	base_lighting_alpha = 255
-	ambience_index = null
-	ambient_buzz = null
 
-/area/testroom //sort this with centcom
-	requires_power = FALSE
-	has_gravity = STANDARD_GRAVITY
-	static_lighting = FALSE
-	base_lighting_alpha = 255
-	name = "Test Room"
-	icon_state = "test_room"
 
 //EXTRA
 

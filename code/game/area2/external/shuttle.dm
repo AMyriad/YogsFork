@@ -151,6 +151,16 @@
 	name = "\improper Hunter Shuttle"
 	blob_allowed = FALSE
 
+/area/external/shuttle/misc/infiltrator_cruiser
+	name = "\improper Syndicate Infiltration Cruiser"
+	blob_allowed = FALSE
+
+/area/external/shuttle/misc/infiltrator_cruiser/poweralert(state, obj/source)
+	return
+
+/area/external/shuttle/misc/infiltrator_cruiser/atmosalert(danger_level, obj/source)
+	return
+
 
 //-- Ruins Shuttles --//
 

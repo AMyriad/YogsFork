@@ -6,7 +6,8 @@
 	has_gravity = STANDARD_GRAVITY
 	mining_speed = TRUE
 
-
+/area/ruins/icemoon/generic
+	name = "\improper Unidentified Location"
 
 
 //Syndicate Icemoon
@@ -63,13 +64,16 @@
 	requires_power = FALSE
 	lights_always_start_on = TRUE
 
+/area/ruins/icemoon/powered/generic
+	name = "\improper Unidentified Location"
+
 /area/ruins/icemoon/powered/walker_village
-	name = "\improper Walker Village"
+	name = "\improper Unidentified Encampment"
 	ambience_index = AMBIENCE_ICEMOON
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/ruins/icemoon/powered/bathhouse
-	name = "\improper Bath House"
+	name = "\improper Subterranean Bath House"
 	ambience_index = NONE // Not creepy
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	mood_bonus = 10
@@ -104,5 +108,8 @@
 	power_equip = FALSE
 	power_environ = FALSE
 
+/area/ruins/icemoon/unpowered/generic
+	name = "\improper Unidentified Location"
+
 /area/ruins/icemoon/unpowered/buried_library
-	name = "Buried Library"
+	name = "\improper Buried Library"

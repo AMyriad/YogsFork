@@ -11,6 +11,20 @@
 	flags_1 = NONE
 	area_flags = NOTELEPORT
 
+/area/debug/admin/start
+	name = "\improper Start Area"
+	icon_state = "start"
+	static_lighting = FALSE
+	base_lighting_alpha = 255
+	ambience_index = null
+	ambient_buzz = null
+
+/area/debug/admin/testroom
+	name = "\improper Test Room"
+	icon_state = "test_room"
+	static_lighting = FALSE
+	base_lighting_alpha = 255
+
 /area/debug/admin/ctf
 	name = "\improper Capture The Flag"
 	icon_state = "yellow"
@@ -153,15 +167,31 @@
 	ambience_index = AMBIENCE_DANGER
 	base_lighting_alpha = 255
 
-/area/debug/admin/gamemode/syndicate/dreadnought_main
+/area/debug/admin/gamemode/syndicate/nukeops_main
 	name = "\improper Syndicate Dreadnought"
 	icon_state = "syndie-control"
 
-/area/debug/admin/gamemode/syndicate/dreadnought_hangar
+/area/debug/admin/gamemode/syndicate/nukeops_hangar
 	name = "\improper Syndicate Dreadnought Hangar"
 
-/area/debug/admin/gamemode/syndicate/dreadnought_pod
-	name = "\improper Syndicate Dreadnought Pod Bay"
+/area/debug/admin/gamemode/syndicate/nukeops_pod
+	name = "\improper Syndicate Dreadnought Assault Podbay"
+
+/area/debug/admin/gamemode/syndicate/infiltrator_main
+	name = "\improper Syndicate Infiltrator Base"
+
+/area/debug/admin/gamemode/syndicate/infiltrator_main/poweralert(state, obj/source)
+	return
+
+/area/debug/admin/gamemode/syndicate/infiltrator_main/atmosalert(danger_level, obj/source)
+	return
+
+/area/debug/admin/gamemode/syndicate/infiltrator_jail
+	name = "\improper Syndicate Infiltrator Base Brig"
+
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior // Headcanon lore: this is some random snowy moon that the syndies use as a base
+	name = "\improper Syndicate Base X-77"
+	icon_state = "yellow"
 
 /area/debug/admin/gamemode/clock
 	name = "Clock Cult Gamemode Areas"
@@ -174,7 +204,7 @@
 	area_flags = NONE // Yes to teleporting
 
 /area/debug/admin/gamemode/clock/reebe
-	name = "Reebe"
+	name = "\improper Reebe"
 	icon_state = "yellow"
 	hidden = TRUE
 
@@ -182,3 +212,6 @@
 	name = "\improper City of Cogs"
 	icon_state = "purple"
 	hidden = FALSE
+
+/area/debug/admin/gamemode/brazil
+	name = "\improper Location Unresolved"

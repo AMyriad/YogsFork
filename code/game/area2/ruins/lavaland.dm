@@ -6,6 +6,9 @@
 	has_gravity = STANDARD_GRAVITY
 	mining_speed = TRUE
 
+/area/ruins/lavaland/generic
+	name = "\improper Unidentified Location"
+
 /area/ruins/lavaland/syndicate
 	name = "Syndicate Lavaland"
 	icon_state = "syndie-control"
@@ -57,6 +60,9 @@
 	name = "Powered Ruin Areas"
 	requires_power = FALSE
 	lights_always_start_on = TRUE
+
+/area/ruins/lavaland/powered/generic
+	name = "\improper Unidentified Location"
 
 /area/ruins/lavaland/powered/biodome/beach
 	name = "\improper Beach Biodome"
@@ -135,6 +141,9 @@
 	power_light = FALSE
 	power_equip = FALSE
 	power_environ = FALSE
+
+/area/ruins/lavaland/unpowered/generic
+	name = "\improper Unidentified Location"
 
 /area/ruins/lavaland/unpowered/russianbunker
 	name = "\improper Unidentified Russian Structure"
