@@ -145,7 +145,6 @@
 	poweralm = FALSE
 
 	flags_1 = NONE
-	blob_allowed = FALSE
 	area_flags = FLORA_ALLOWED
 	outdoors = TRUE
 
@@ -202,7 +201,6 @@
 	poweralm = FALSE
 
 	flags_1 = NONE
-	blob_allowed = FALSE
 	outdoors = TRUE
 
 	static_lighting = TRUE
@@ -230,5 +228,5 @@
 	icon_state = ""
 
 /area/external/mining/jungleland/unexplored/tar_wastes
-	name = "\improper Tar-Blighted Wastes"
+	name = "\improper Tar-Infested Wastes"
 	icon_state = ""

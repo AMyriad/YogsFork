@@ -2,12 +2,23 @@
 	name = "Space Ruin Areas"
 	icon_state = ""
 
-	blob_allowed = FALSE // Nope, no winning in space as a blob. Gotta eat the station.
-
-
 
 /area/ruins/space/generic
 	name = "\improper Unidentified Location"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //-- Powered --//
 
@@ -105,10 +116,17 @@
 
 /////////////
 
-/area/ruin/space/way_home
+
+
+
+
+
+
+
+
+/area/ruin/space/unpowered/way_home
 	name = "\improper Salvation"
 	icon_state = "away"
-	always_unpowered = FALSE
 
 // Ruins of "onehalf" ship
 
@@ -483,11 +501,7 @@
 	icon_state = "teleporter"
 	ambientsounds = list('sound/ambience/ambimalf.ogg', 'sound/ambience/signal.ogg')
 
-//OLD AI SAT
 
-/area/tcommsat/oldaisat
-	name = "Abandoned Satellite"
-	icon_state = "tcomsatcham"
 
 //ABANDONED BOX WHITESHIP
 

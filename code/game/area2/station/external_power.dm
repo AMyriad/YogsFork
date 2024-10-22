@@ -11,7 +11,7 @@
 
 	flags_1 = NONE
 	valid_territory = FALSE
-	blob_allowed = FALSE
+	blob_allowed = FALSE // Stay inside the station silly billy
 	mining_speed = TRUE
 
 //-- Solar Panel Arrays --//
@@ -55,7 +55,7 @@
 
 
 //-- Geothermal Stations --//
-// We're on a planet not a ship, cardinal directions apply
+// We're on solid ground not a ship, cardinal directions apply
 
 /area/station/external_power/geothermal
 	name = "Geothermal Station Areas"

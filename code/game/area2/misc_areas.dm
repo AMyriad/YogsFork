@@ -6,7 +6,7 @@
 
 /*
 * This is the ROOT for all main area types
-* It keeps the work tree in mapping tools nice and pretty :)
+* It keeps the work tree in map editors nice and pretty :)
 */
 /area/debug
 	name = "Debug Areas"
@@ -27,6 +27,8 @@
 	name = "Station Areas"
 	icon_state = "station"
 	icon = 'icons/area/areas_station.dmi'
+	blob_allowed = TRUE
+	valid_territory = TRUE
 
 /**
  * A blank area subtype solely used by the golem area editor for the purpose of

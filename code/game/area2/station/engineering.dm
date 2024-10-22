@@ -113,7 +113,7 @@
 	clockwork_warp_allowed = FALSE
 	clockwork_warp_fail = "For safety reasons, warping here is disallowed; the radio and bluespace noise could cause catastrophic results."
 
-/area/station/engineering/telecomms/server
+/area/station/engineering/telecomms/servers
 	name = "\improper Telecomms Server Room"
 	icon_state = "tcomsatcham"
 

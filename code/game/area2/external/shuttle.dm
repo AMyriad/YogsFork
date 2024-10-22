@@ -11,7 +11,7 @@
 
 	unique = FALSE
 	has_gravity = STANDARD_GRAVITY
-	valid_territory = FALSE // RIP gangs
+	valid_territory = FALSE
 	area_limited_icon_smoothing = /area/external/shuttle // Loading the same shuttle map at a different time will produce distinct area instances
 
 	/// List of miners & their mining points from gems to be given once all exports are processed, used by supply shuttles
@@ -67,25 +67,20 @@
 
 /area/external/shuttle/station/mining
 	name = "\improper Mining Shuttle"
-	blob_allowed = FALSE
 
 /area/external/shuttle/station/labor
 	name = "\improper Labor Camp Shuttle"
-	blob_allowed = FALSE
 
 /area/external/shuttle/station/supply
 	name = "\improper Supply Shuttle"
-	blob_allowed = FALSE
 	area_flags = NOTELEPORT
 
 // Emergency response teams and deathsquads, vaguely named and ominous
 /area/external/shuttle/station/centcom_ferry
 	name = "\improper Transport Shuttle"
-	blob_allowed = FALSE
 
 /area/external/shuttle/station/ai
 	name = "\improper AI Satellite Shuttle"
-	blob_allowed = FALSE
 
 
 //-- Debug Shuttles --//
@@ -135,25 +130,20 @@
 /area/external/shuttle/misc/nukeop_dropship
 	name = "\improper Syndicate Dropship"
 	ambience_index = AMBIENCE_DANGER
-	blob_allowed = FALSE
 	area_limited_icon_smoothing = /area/external/shuttle/misc/nukeop_dropship
 
 /area/external/shuttle/misc/assault_pod
 	name = "Steel Rain"
-	blob_allowed = FALSE
 
 /area/external/shuttle/misc/space_pirate
 	name = "\improper Pirate Shuttle"
-	blob_allowed = FALSE
 	requires_power = TRUE
 
 /area/external/shuttle/misc/fugitive_hunter
 	name = "\improper Hunter Shuttle"
-	blob_allowed = FALSE
 
 /area/external/shuttle/misc/infiltrator_cruiser
 	name = "\improper Syndicate Infiltration Cruiser"
-	blob_allowed = FALSE
 
 /area/external/shuttle/misc/infiltrator_cruiser/poweralert(state, obj/source)
 	return
@@ -166,7 +156,6 @@
 
 /area/external/shuttle/ruins
 	name = "Ruins Shuttle Areas"
-	blob_allowed = FALSE
 	requires_power = TRUE
 	area_flags = NOTELEPORT
 
@@ -176,7 +165,7 @@
 
 /area/external/shuttle/ruins/freeminer
 	name = "\improper Frontiersfolk Ship"
-	area_limited_icon_smoothing = /area/external/shuttle/ruin/freeminer
+	area_limited_icon_smoothing = /area/external/shuttle/ruins/freeminer
 
 /area/external/shuttle/ruins/fighter_syndicate
 	name = "\improper Syndicate Fighter"

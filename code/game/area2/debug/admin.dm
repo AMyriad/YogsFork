@@ -6,7 +6,6 @@
 
 	requires_power = FALSE
 
-	blob_allowed = FALSE
 	has_gravity = STANDARD_GRAVITY
 	flags_1 = NONE
 	area_flags = NOTELEPORT
