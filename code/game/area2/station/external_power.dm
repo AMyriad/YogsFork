@@ -90,10 +90,10 @@
 	name = "\improper Geothermal Station Southwest"
 	icon_state = "panelsAP"
 
-/area/station_external_power/geothermal/west
+/area/station/external_power/geothermal/west
 	name = "\improper Geothermal Station West"
 	icon_state = "panelsP"
 
-/area/station_external_power/geothermal/northwest
+/area/station/external_power/geothermal/northwest
 	name = "\improper Geothermal Station Northwest"
 	icon_state = "panelsFP"

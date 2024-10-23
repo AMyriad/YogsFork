@@ -1,13 +1,3 @@
-/*****************************Survival Pod********************************/
-/area/survivalpod
-	name = "\improper Emergency Shelter"
-	icon_state = "away"
-	static_lighting = TRUE
-	requires_power = FALSE
-	has_gravity = STANDARD_GRAVITY
-	valid_territory = FALSE
-
-//Survival Capsule
 /obj/item/survivalcapsule
 	name = "bluespace shelter capsule"
 	desc = "An emergency shelter stored within a pocket of bluespace."

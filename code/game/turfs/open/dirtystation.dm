@@ -47,7 +47,7 @@
 		/area/maintenance,
 		/area/construction,
 		/area/vacant_room/commissary,
-		/area/survivalpod,
+		/area/external/survival_pod,
 		/area/procedural_gen/maintenance,
 	))
 	if(is_type_in_typecache(A, engine_dirt_areas))

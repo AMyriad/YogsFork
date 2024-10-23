@@ -412,11 +412,6 @@
 	icon_state = "teleporter"
 	ambientsounds = list('sound/ambience/ambimalf.ogg', 'sound/ambience/signal.ogg')
 
-//OLD AI SAT
-
-/area/tcommsat/oldaisat
-	name = "Abandoned Satellite"
-	icon_state = "tcomsatcham"
 
 //ABANDONED BOX WHITESHIP
 

@@ -1,15 +1,20 @@
 /area/external/mining
 	name = "Mining Areas"
 	icon_state = "mining"
-
-	ambient_buzz = 'sound/ambience/magma.ogg'
-	ambient_buzz_vol = 10
 	
 	lighting_colour_tube = "#ffe8d2"
 	lighting_colour_bulb = "#ffdcb7"
 
 	has_gravity = STANDARD_GRAVITY
 	mining_speed = TRUE
+
+/area/external/survival_pod
+	name = "\improper Emergency Shelter"
+	icon_state = "away"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+	static_lighting = TRUE
+	requires_power = FALSE
+	mining_speed = FALSE
 
 //-- Shaft Miner Mining Base -//
 
@@ -91,6 +96,7 @@
 
 	ambience_index = AMBIENCE_MINING
 	ambient_buzz = 'sound/ambience/magma.ogg'
+	ambient_buzz_vol = 10
 
 	always_unpowered = TRUE
 	requires_power = TRUE
