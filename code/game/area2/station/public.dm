@@ -8,21 +8,17 @@
 	lighting_colour_tube = "#fdf3ea"
 	lighting_colour_bulb = "#ffebd6"
 
-
-/area/station/public/departures
-	name = "Escape Shuttle Hallway"
-	icon_state = "escape"
-
-/area/station/public/secondary/exit/departure_lounge
-	name = "Departure Lounge"
-	icon_state = "escape_lounge"
-
-/area/station/public/secondary/entry
-	name = "Arrival Shuttle Hallway"
+/area/station/public/arrivals
+	name = "\improper Arrival Shuttle Hallway"
 	icon_state = "entry"
 
+/area/station/public/departures
+	name = "\improper Escape Shuttle Hallway"
+	icon_state = "escape"
 
-
+/area/station/public/departures/lounge
+	name = "\improper Departure Lounge"
+	icon_state = "escape_lounge"
 
 
 //-- Hallways --//
@@ -130,7 +126,7 @@
 	icon_state = "toilet"
 
 /area/station/public/misc/restrooms/skibidi // Kill me
-	name = "\improper Skibidi Toilet"
+	name = "\improper Skibidi Restrooms"
 	icon_state = "toilet"
 	ambience_index = AMBIENCE_DANGER
 	min_ambience_cooldown = 20 SECONDS

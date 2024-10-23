@@ -53,3 +53,5 @@
 */
 /area/debug/holodeck/main // The actual area holodeck rooms on the station use
 	name = "\improper Recreational Holodeck"
+	blob_allowed = TRUE
+	valid_territory = TRUE
