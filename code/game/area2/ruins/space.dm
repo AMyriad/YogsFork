@@ -2,22 +2,10 @@
 	name = "Space Ruin Areas"
 	icon_state = ""
 
+	has_gravity = FALSE
 
 /area/ruins/space/generic
 	name = "\improper Unidentified Location"
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //-- Powered --//
@@ -40,22 +28,96 @@
 	power_equip = FALSE
 	power_environ = FALSE
 
+
 /area/ruins/space/unpowered/generic
+	name = "\improper Unidentified Location"
+
+/area/ruins/space/unpowered/way_home
+	name = "\improper Salvation"
+
+
+
+
+
+
+
+
+
+
+
+
+//-- Standard Gravity --//
+
+/area/ruins/space/gravity
+	name = "Gravity Ruin Areas"
+	has_gravity = STANDARD_GRAVITY
+
+/area/ruins/space/gravity/generic
+	name = "\improper Unidentified Location"
+
+/area/ruin/space/gravity/onehalf_hallway
+	name = "\improper Destroyed Ship Hallway"
+	icon_state = "hallC"
+
+/area/ruin/space/gravity/onehalf_drone_bay
+	name = "\improper Destroyed Ship Mining Drone Bay"
+	icon_state = "engine"
+
+/area/ruin/space/gravity/onehalf_med
+	name = "\improper Destroyed Ship Crew Quarters"
+	icon_state = "Sleep"
+
+/area/ruin/space/gravity/onehalf_bridge
+	name = "\improper Destroyed Ship Bridge"
+	icon_state = "bridge"
+
+
+/area/ruins/space/gravity/powered //- POWERED GRAVITY
+	name = "Powered Gravity Ruin Areas"
+	requires_power = FALSE
+	lights_always_start_on = TRUE
+
+/area/ruins/space/gravity/powered/generic
+	name = "\improper Unidentified Location"
+
+/area/ruin/space/gravity/powered/spacebar
+	name = "\improper Space Bar"
+	icon_state = "dk_yellow"
+
+/area/ruin/space/gravity/powered/dinner_for_two
+	name = "\improper Dinner for Two"
+
+/area/ruin/space/gravity/powered/cat_man
+	name = "\improper Kitty Den"
+
+/area/ruin/space/gravity/powered/authorship
+	name = "\improper Authorship"
+
+/area/ruin/space/gravity/powered/aesthetic
+	name = "\improper Aesthetic"
+	ambientsounds = list('sound/ambience/ambivapor1.ogg')
+
+/area/ruin/space/gravity/powered/gaming
+	name ="Game Room"
+
+
+
+
+
+
+/area/ruins/space/gravity/unpowered //- UNPOWERED GRAVITY
+	name = "Unpowered Gravity Ruin Areas"
+	always_unpowered = TRUE
+	power_light = FALSE
+	power_equip = FALSE
+	power_environ = FALSE
+
+/area/ruins/space/gravity/unpowered/generic
 	name = "\improper Unidentified Location"
 
 
 
 
-//-- Desolate --//
-// Unpowered + no gravity
-
-/area/ruins/space/desolate
-	name = "Desolate Ruin Areas"
-	always_unpowered = TRUE
-	power_light = FALSE
-	power_equip = FALSE
-	power_environ = FALSE
-	has_gravity = FALSE
 
 
 
@@ -80,41 +142,6 @@
 
 
 
-//Space Ruin Parents
-
-/area/ruin/space
-	has_gravity = FALSE
-	blob_allowed = FALSE //Nope, no winning in space as a blob. Gotta eat the station.
-	mining_speed = FALSE
-
-/area/ruin/space/has_grav
-	has_gravity = STANDARD_GRAVITY
-
-/area/ruin/space/has_grav/powered
-	requires_power = FALSE
-
-
-/area/ruin/fakespace
-	icon_state = "space"
-	requires_power = TRUE
-	always_unpowered = TRUE
-	static_lighting = FALSE
-
-	base_lighting_alpha = 255
-	has_gravity = FALSE
-	power_light = FALSE
-	power_equip = FALSE
-	power_environ = FALSE
-	valid_territory = FALSE
-	outdoors = TRUE
-	blob_allowed = FALSE
-	ambience_index = null
-	ambient_music_index = AMBIENCE_SPACE
-	ambient_buzz = null
-	sound_environment = SOUND_AREA_SPACE
-	mining_speed = FALSE
-
-/////////////
 
 
 
@@ -124,105 +151,68 @@
 
 
 
-/area/ruin/space/unpowered/way_home
-	name = "\improper Salvation"
-	icon_state = "away"
 
 // Ruins of "onehalf" ship
 
-/area/ruin/space/has_grav/onehalf/hallway
-	name = "Destroyed Ship Hallway"
-	icon_state = "hallC"
 
-/area/ruin/space/has_grav/onehalf/drone_bay
-	name = "Destroyed Ship Mining Drone Bay"
-	icon_state = "engine"
-
-/area/ruin/space/has_grav/onehalf/dorms_med
-	name = "Destroyed Ship Crew Quarters"
-	icon_state = "Sleep"
-
-/area/ruin/space/has_grav/onehalf/bridge
-	name = "Destroyed Ship Bridge"
-	icon_state = "bridge"
-
-/area/ruin/space/has_grav/powered/spacebar //yogs start
-	name = "Space Bar"
-	icon_state = "dk_yellow" //yogs end
-
-/area/ruin/space/has_grav/powered/dinner_for_two
-	name = "Dinner for Two"
-
-/area/ruin/space/has_grav/powered/cat_man
-	name = "Kitty Den"
-
-/area/ruin/space/has_grav/powered/authorship
-	name = "Authorship"
-
-/area/ruin/space/has_grav/powered/aesthetic
-	name = "Aesthetic"
-	ambientsounds = list('sound/ambience/ambivapor1.ogg')
-
-/area/ruin/space/has_grav/powered/gaming
-	name ="Game Room"
 
 //Ruin of Hotel
 
-/area/ruin/space/has_grav/hotel
+/area/ruin/space/gravity/hotel
 	name = "Hotel"
 
-/area/ruin/space/has_grav/hotel/guestroom
+/area/ruin/space/gravity/hotel/guestroom
 	name = "Hotel Guest Room"
 	icon_state = "Sleep"
 
-/area/ruin/space/has_grav/hotel/guestroom/room_1
+/area/ruin/space/gravity/hotel/guestroom/room_1
 	name = "Hotel Guest Room 1"
 
-/area/ruin/space/has_grav/hotel/guestroom/room_2
+/area/ruin/space/gravity/hotel/guestroom/room_2
 	name = "Hotel Guest Room 2"
 
-/area/ruin/space/has_grav/hotel/guestroom/room_3
+/area/ruin/space/gravity/hotel/guestroom/room_3
 	name = "Hotel Guest Room 3"
 
-/area/ruin/space/has_grav/hotel/guestroom/room_4
+/area/ruin/space/gravity/hotel/guestroom/room_4
 	name = "Hotel Guest Room 4"
 
-/area/ruin/space/has_grav/hotel/guestroom/room_5
+/area/ruin/space/gravity/hotel/guestroom/room_5
 	name = "Hotel Guest Room 5"
 
-/area/ruin/space/has_grav/hotel/guestroom/room_6
+/area/ruin/space/gravity/hotel/guestroom/room_6
 	name = "Hotel Guest Room 6"
 
-/area/ruin/space/has_grav/hotel/security
+/area/ruin/space/gravity/hotel/security
 	name = "Hotel Security Post"
 	icon_state = "security"
 
-/area/ruin/space/has_grav/hotel/pool
+/area/ruin/space/gravity/hotel/pool
 	name = "Hotel Pool Room"
 	icon_state = "fitness"
 
-/area/ruin/space/has_grav/hotel/bar
+/area/ruin/space/gravity/hotel/bar
 	name = "Hotel Bar"
 	icon_state = "cafeteria"
 
-/area/ruin/space/has_grav/hotel/power
+/area/ruin/space/gravity/hotel/power
 	name = "Hotel Power Room"
 	icon_state = "engine_smes"
 
-/area/ruin/space/has_grav/hotel/custodial
+/area/ruin/space/gravity/hotel/custodial
 	name = "Hotel Custodial Closet"
 	icon_state = "janitor"
 
-/area/ruin/space/has_grav/hotel/shuttle
+/area/ruin/space/gravity/hotel/shuttle
 	name = "Hotel Shuttle"
 	icon_state = "shuttle"
 	requires_power = FALSE
 
-/area/ruin/space/has_grav/hotel/dock
+/area/ruin/space/gravity/hotel/dock
 	name = "Hotel Shuttle Dock"
 	icon_state = "start"
 
-/area/ruin/space/has_grav/hotel/workroom
+/area/ruin/space/gravity/hotel/workroom
 	name = "Hotel Staff Room"
 	icon_state = "crew_quarters"
 
@@ -231,29 +221,29 @@
 
 //Ruin of Derelict Oupost
 
-/area/ruin/space/has_grav/derelictoutpost
+/area/ruin/space/gravity/derelictoutpost
 	name = "Derelict Outpost"
 	icon_state = "green"
 
-/area/ruin/space/has_grav/derelictoutpost/cargostorage
+/area/ruin/space/gravity/derelictoutpost/cargostorage
 	name = "Derelict Outpost Cargo Storage"
 	icon_state = "storage"
 
-/area/ruin/space/has_grav/derelictoutpost/cargobay
+/area/ruin/space/gravity/derelictoutpost/cargobay
 	name = "Derelict Outpost Cargo Bay"
 	icon_state = "quartstorage"
 
-/area/ruin/space/has_grav/derelictoutpost/powerstorage
+/area/ruin/space/gravity/derelictoutpost/powerstorage
 	name = "Derelict Outpost Power Storage"
 	icon_state = "engine_smes"
 
-/area/ruin/space/has_grav/derelictoutpost/dockedship
+/area/ruin/space/gravity/derelictoutpost/dockedship
 	name = "Derelict Outpost Docked Ship"
 	icon_state = "red"
 
 //Ruin of turretedoutpost
 
-/area/ruin/space/has_grav/turretedoutpost
+/area/ruin/space/gravity/turretedoutpost
 	name = "Turreted Outpost"
 	icon_state = "red"
 
@@ -267,59 +257,59 @@
 
 //Ruin of mech transport
 
-/area/ruin/space/has_grav/powered/mechtransport
+/area/ruin/space/gravity/powered/mechtransport
 	name = "Mech Transport"
 	icon_state = "green"
 
 
 //Ruin of gas the lizard
 
-/area/ruin/space/has_grav/gasthelizard
+/area/ruin/space/gravity/gasthelizard
 	name = "Gas the lizard"
 
 
 //Ruin of Deep Storage
 
-/area/ruin/space/has_grav/deepstorage
+/area/ruin/space/gravity/deepstorage
 	name = "Deep Storage"
 	icon_state = "storage"
 
-/area/ruin/space/has_grav/deepstorage/airlock
+/area/ruin/space/gravity/deepstorage/airlock
 	name = "Deep Storage Airlock"
 	icon_state = "quart"
 
-/area/ruin/space/has_grav/deepstorage/power
+/area/ruin/space/gravity/deepstorage/power
 	name = "Deep Storage Power and Atmospherics Room"
 	icon_state = "engi_storage"
 
-/area/ruin/space/has_grav/deepstorage/hydroponics
+/area/ruin/space/gravity/deepstorage/hydroponics
 	name = "Deep Storage Hydroponics"
 	icon_state = "garden"
 
-/area/ruin/space/has_grav/deepstorage/armory
+/area/ruin/space/gravity/deepstorage/armory
 	name = "Deep Storage Secure Storage"
 	icon_state = "armory"
 
-/area/ruin/space/has_grav/deepstorage/storage
+/area/ruin/space/gravity/deepstorage/storage
 	name = "Deep Storage Storage"
 	icon_state = "storage_wing"
 
-/area/ruin/space/has_grav/deepstorage/dorm
+/area/ruin/space/gravity/deepstorage/dorm
 	name = "Deep Storage Dormitory"
 	icon_state = "crew_quarters"
 
-/area/ruin/space/has_grav/deepstorage/kitchen
+/area/ruin/space/gravity/deepstorage/kitchen
 	name = "Deep Storage Kitchen"
 	icon_state = "kitchen"
 
-/area/ruin/space/has_grav/deepstorage/crusher
+/area/ruin/space/gravity/deepstorage/crusher
 	name = "Deep Storage Recycler"
 	icon_state = "storage"
 
 
 //Ruin of Abandoned Zoo
 
-/area/ruin/space/has_grav/abandonedzoo
+/area/ruin/space/gravity/abandonedzoo
 	name = "Abandoned Zoo"
 	icon_state = "green"
 
@@ -327,81 +317,81 @@
 //Old Station
 //please stop calling it charlie station, that's just the cryo module
 
-/area/ruin/space/has_grav/ancientstation
+/area/ruin/space/gravity/ancientstation
 	name = "Charlie Station Main Corridor"
 	icon_state = "green"
 
-/area/ruin/space/has_grav/ancientstation/space
+/area/ruin/space/gravity/ancientstation/space
 	name = "Exposed To Space"
 	icon_state = "teleporter"
 	has_gravity = FALSE
 
-/area/ruin/space/has_grav/ancientstation/atmo
+/area/ruin/space/gravity/ancientstation/atmo
 	name = "Beta Station Atmospherics"
 	icon_state = "red"
 
-/area/ruin/space/has_grav/ancientstation/betanorth
+/area/ruin/space/gravity/ancientstation/betanorth
 	name = "Beta Station North Corridor"
 	icon_state = "blue"
 
-/area/ruin/space/has_grav/ancientstation/solars
+/area/ruin/space/gravity/ancientstation/solars
 	name = "Beta Station Solar Control"
 	icon_state = "blue"
 
-/area/ruin/space/has_grav/ancientstation/solararray
+/area/ruin/space/gravity/ancientstation/solararray
 	name = "Beta Station Solar Array"
 	icon_state = "panelsAP"
 
-/area/ruin/space/has_grav/ancientstation/engi
+/area/ruin/space/gravity/ancientstation/engi
 	name = "Charlie Station Engineering"
 	icon_state = "engine"
 
-/area/ruin/space/has_grav/ancientstation/comm
+/area/ruin/space/gravity/ancientstation/comm
 	name = "Charlie Station Command"
 	icon_state = "captain"
 
-/area/ruin/space/has_grav/ancientstation/hydroponics
+/area/ruin/space/gravity/ancientstation/hydroponics
 	name = "Charlie Station Hydroponics"
 	icon_state = "garden"
 
-/area/ruin/space/has_grav/ancientstation/kitchen
+/area/ruin/space/gravity/ancientstation/kitchen
 	name = "Charlie Station Kitchen"
 	icon_state = "kitchen"
 
-/area/ruin/space/has_grav/ancientstation/sec
+/area/ruin/space/gravity/ancientstation/sec
 	name = "Charlie Station Security"
 	icon_state = "red"
 
-/area/ruin/space/has_grav/ancientstation/deltacorridor
+/area/ruin/space/gravity/ancientstation/deltacorridor
 	name = "Delta Station Main Corridor"
 	icon_state = "green"
 
-/area/ruin/space/has_grav/ancientstation/proto
+/area/ruin/space/gravity/ancientstation/proto
 	name = "Delta Station Prototype Lab"
 	icon_state = "toxlab"
 
-/area/ruin/space/has_grav/ancientstation/deltaai
+/area/ruin/space/gravity/ancientstation/deltaai
 	name = "Delta Station AI Core"
 	icon_state = "ai"
 	ambientsounds = list('sound/ambience/ambimalf.ogg', 'sound/ambience/ambitech.ogg', 'sound/ambience/ambitech2.ogg', 'sound/ambience/ambiatmos.ogg', 'sound/ambience/ambiatmos2.ogg')
 
-/area/ruin/space/has_grav/ancientstation/medbay
+/area/ruin/space/gravity/ancientstation/medbay
 	name = "Beta Station Medbay"
 	icon_state = "medbay"
 
-/area/ruin/space/has_grav/ancientstation/mining
+/area/ruin/space/gravity/ancientstation/mining
 	name = "Beta Station Mining Equipment"
 	icon_state = "mining"
 
-/area/ruin/space/has_grav/ancientstation/betastorage
+/area/ruin/space/gravity/ancientstation/betastorage
 	name = "Beta Station Storage"
 	icon_state = "storage"
 
-/area/ruin/space/has_grav/ancientstation/betacorridor
+/area/ruin/space/gravity/ancientstation/betacorridor
 	name = "Beta Station Main Corridor"
 	icon_state = "bluenew"
 
-/area/ruin/space/has_grav/ancientstation/rnd
+/area/ruin/space/gravity/ancientstation/rnd
 	name = "Delta Station Research and Development"
 	icon_state = "toxlab"
 
@@ -505,7 +495,7 @@
 
 //ABANDONED BOX WHITESHIP
 
-/area/ruin/space/has_grav/whiteship/box
+/area/ruin/space/gravity/whiteship/box
 
 	name = "Adrift Ship" //it might get confused with whiteship
 	icon_state = "red"
@@ -513,105 +503,150 @@
 
 //SYNDICATE LISTENING POST STATION
 
-/area/ruin/space/has_grav/listeningstation
+/area/ruin/space/gravity/listeningstation
 	name = "Unidentified Asteroid"
 	icon_state = "yellow"
 
-/area/ruin/space/has_grav/listeningstation/telecomms
+/area/ruin/space/gravity/listeningstation/telecomms
 	name = "Listening Post Telecommunications"
 	icon_state = "tcomsatcham"
 
-/area/ruin/space/has_grav/listeningstation/engineering
+/area/ruin/space/gravity/listeningstation/engineering
 	name = "Listening Post Maintenance"
 	icon_state = "engine"
 
-/area/ruin/space/has_grav/listeningstation/quarters
+/area/ruin/space/gravity/listeningstation/quarters
 	name = "Listening Post Crew Quarters"
 	icon_state = "green"
 
-/area/ruin/space/has_grav/listeningstation/warehouse
+/area/ruin/space/gravity/listeningstation/warehouse
 	name = "Listening Post Warehouse"
 	icon_state = "storage"
 
-/area/ruin/space/has_grav/listeningstation/hallway
+/area/ruin/space/gravity/listeningstation/hallway
 	name = "Listening Post Central Hallway"
 	icon_state = "hallP"
 
-/area/ruin/space/has_grav/listeningstation/airlock
+/area/ruin/space/gravity/listeningstation/airlock
 	name = "Listening Post Dock"
 	icon_state = "red"
 
 //ANCIENT SHUTTLE
 
-/area/ruin/space/has_grav/powered/ancient_shuttle
+/area/ruin/space/gravity/powered/ancient_shuttle
 	name = "Ancient Shuttle"
 	icon_state = "yellow"
 
 //PUBBY MONASTERY
 
-/area/ruin/space/has_grav/monastery
+/area/ruin/space/gravity/monastery
 	name = "Monastery"
 	icon_state = "chapel"
 
-/area/ruin/space/has_grav/monastery/dock
+/area/ruin/space/gravity/monastery/dock
 	name = "Monastery Dock"
 	icon_state = "construction"
 
-/area/ruin/space/has_grav/monastery/garden
+/area/ruin/space/gravity/monastery/garden
 	name = "Monastery Garden"
 	icon_state = "hydro"
 
-/area/ruin/space/has_grav/monastery/office
+/area/ruin/space/gravity/monastery/office
 	name = "Monastery Office"
 	icon_state = "chapeloffice"
 
-/area/ruin/space/has_grav/monastery/maint
+/area/ruin/space/gravity/monastery/maint
 	name = "Monastery Maintenance"
 	icon_state = "maint_monastery"
 
-/area/ruin/space/has_grav/monastery/library
+/area/ruin/space/gravity/monastery/library
 	name = "Monastery Library"
 	icon_state = "library"
 
-/area/ruin/space/has_grav/monastery/library/lounge
+/area/ruin/space/gravity/monastery/library/lounge
 	name = "Monastery Library Lounge"
 
 //SYNDICATE DERELICT STATION
 
-/area/ruin/space/has_grav/syndiederelict
+/area/ruin/space/gravity/syndiederelict
 	name = "Syndicate Derelict Station"
 	icon_state = "red"
 
-/area/ruin/space/has_grav/syndiederelict/engineering
+/area/ruin/space/gravity/syndiederelict/engineering
 	name = "Syndicate Derelict Engineering"
 	icon_state = "construction"
 
-/area/ruin/space/has_grav/syndiederelict/solars
+/area/ruin/space/gravity/syndiederelict/solars
 	name = "Syndicate Derelict Solar Array"
 	icon_state = "yellow"
 	requires_power = FALSE
 
-/area/ruin/space/has_grav/syndiederelict/hydroponics
+/area/ruin/space/gravity/syndiederelict/hydroponics
 	name = "Syndicate Derelict Hydroponics"
 	icon_state = "hydro"
 
-/area/ruin/space/has_grav/syndiederelict/kitchen
+/area/ruin/space/gravity/syndiederelict/kitchen
 	name = "Syndicate Derelict Kitchen"
 	icon_state = "kitchen"
 
-/area/ruin/space/has_grav/syndiederelict/hallway
+/area/ruin/space/gravity/syndiederelict/hallway
 	name = "Syndicate Derelict Hallway"
 	icon_state = "red"
 
-/area/ruin/space/has_grav/syndiederelict/research
+/area/ruin/space/gravity/syndiederelict/research
 	name = "Syndicate Derelict Research Wing"
 	icon_state = "toxlab"
 
-/area/ruin/space/has_grav/syndiederelict/medbay
+/area/ruin/space/gravity/syndiederelict/medbay
 	name = "Syndicate Derelict Medical Bay"
 	icon_state = "medbay"
 
-/area/ruin/space/has_grav/syndiederelict/virology
+/area/ruin/space/gravity/syndiederelict/virology
 	name = "Syndicate Derelict Virology"
 	icon_state = "virology"
+
+
+
+
+
+
+
+
+//Space Ruin Parents
+
+/area/ruin/space
+	has_gravity = FALSE
+	blob_allowed = FALSE //Nope, no winning in space as a blob. Gotta eat the station.
+	mining_speed = FALSE
+
+/area/ruin/space/gravity
+	has_gravity = STANDARD_GRAVITY
+
+/area/ruin/space/gravity/powered
+	requires_power = FALSE
+
+
+/area/ruin/fakespace
+	icon_state = "space"
+	requires_power = TRUE
+	always_unpowered = TRUE
+	static_lighting = FALSE
+
+	base_lighting_alpha = 255
+	has_gravity = FALSE
+	power_light = FALSE
+	power_equip = FALSE
+	power_environ = FALSE
+	valid_territory = FALSE
+	outdoors = TRUE
+	blob_allowed = FALSE
+	ambience_index = null
+	ambient_music_index = AMBIENCE_SPACE
+	ambient_buzz = null
+	sound_environment = SOUND_AREA_SPACE
+	mining_speed = FALSE
+
+/////////////
+
+
 
