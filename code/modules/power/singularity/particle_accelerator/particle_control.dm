@@ -120,7 +120,7 @@
 			toggle_power()
 			update_appearance(UPDATE_ICON)
 			return
-		if(area_restricted && !istype(get_area(src),/area/engine))
+		if(area_restricted && !istype(get_area(src), /area/station/engineering))
 			investigate_log("had its area restriction turned on while in an invalid area; It <font color='red'>powered down</font>.", INVESTIGATE_SINGULO)
 			toggle_power()
 			update_appearance(UPDATE_ICON)
@@ -182,7 +182,7 @@
 /obj/machinery/particle_accelerator/control_box/proc/toggle_power()
 	if(!active && area_restricted)
 		var/area/A = get_area(src)
-		if(!istype(A,/area/engine))
+		if(!istype(A, /area/station/engineering))
 			src.visible_message("Restricted area detected! Aborting.")
 			return
 	active = !active

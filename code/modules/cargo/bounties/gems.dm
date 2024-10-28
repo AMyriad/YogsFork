@@ -3,7 +3,7 @@
 	var/obj/item/gem/sold = O
 	var/obj/item/card/id/claim = sold?.claimed_by
 	if(claim)
-		var/area/shuttle/shuttle = get_area(O)
+		var/area/external/shuttle/shuttle = get_area(O)
 		shuttle.gem_payout[claim] += sold.point_value * 1.1 //bounty bonus
 
 /datum/bounty/item/gems/rupees

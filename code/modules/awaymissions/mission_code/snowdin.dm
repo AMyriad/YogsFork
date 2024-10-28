@@ -136,12 +136,6 @@
 	base_lighting_alpha = 0
 	requires_power = TRUE
 
-/area/shuttle/snowdin/elevator1
-	name = "Excavation Elevator"
-
-/area/shuttle/snowdin/elevator2
-	name = "Mining Elevator"
-
 //shuttle console for elevators//
 
 /obj/machinery/computer/shuttle/snowdin/mining

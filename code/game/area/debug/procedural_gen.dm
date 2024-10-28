@@ -4,7 +4,7 @@
 
 	map_generator = /datum/map_generator/dungeon_generator
 	unique = FALSE
-	
+
 	/// If there's other areas on the same z-level that share a generator, their turfs will be aggregated together into a combined working area
 	var/shared_generator_initialized = FALSE
 

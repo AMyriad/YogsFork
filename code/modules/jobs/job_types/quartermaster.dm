@@ -37,7 +37,7 @@
 	)
 
 	minimal_lightup_areas = list(
-		/area/quartermaster/qm
+		/area/station/supply/quartermaster
 	)
 
 	smells_like = "capitalism"

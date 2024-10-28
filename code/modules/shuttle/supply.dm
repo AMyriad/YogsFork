@@ -59,7 +59,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 
 /obj/docking_port/mobile/supply/proc/check_blacklist(areaInstances)
 	for(var/place in areaInstances)
-		var/area/shuttle/shuttle_area = place
+		var/area/external/shuttle/shuttle_area = place
 		for(var/trf in shuttle_area)
 			var/turf/T = trf
 			for(var/a in T.get_all_contents())
@@ -94,7 +94,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 
 	var/list/empty_turfs = list()
 	for(var/place in shuttle_areas)
-		var/area/shuttle/shuttle_area = place
+		var/area/external/shuttle/shuttle_area = place
 		for(var/turf/open/floor/T in shuttle_area)
 			if(T.is_blocked_turf())
 				continue
@@ -191,7 +191,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 	var/datum/export_report/ex = new
 
 	for(var/place in shuttle_areas)
-		var/area/shuttle/shuttle_area = place
+		var/area/external/shuttle/shuttle_area = place
 		for(var/atom/movable/AM in shuttle_area)
 			if(iscameramob(AM))
 				continue
@@ -243,7 +243,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 	//spawn crate
 	var/list/empty_turfs = list()
 	for(var/place as anything in shuttle_areas)
-		var/area/shuttle/shuttle_area = place
+		var/area/external/shuttle/shuttle_area = place
 		for(var/turf/open/floor/shuttle_floor in shuttle_area)
 			if(shuttle_floor.is_blocked_turf())
 				continue

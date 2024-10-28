@@ -33,7 +33,9 @@
 		///obj/item/reagent_containers/spray/waterflower/superlube = 1 // Superlube, good lord.
 	)
 	
-	minimal_lightup_areas = list(/area/crew_quarters/theatre)
+	minimal_lightup_areas = list(
+		/area/station/service/theatre
+	)
 
 	smells_like = "kinda funny"
 

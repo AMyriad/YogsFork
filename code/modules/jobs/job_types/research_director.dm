@@ -56,15 +56,17 @@
 	)
 
 	minimal_lightup_areas = list(
-		/area/crew_quarters/heads/hor,
-		/area/science/explab,
-		/area/science/misc_lab,
-		/area/science/mixing,
-		/area/science/nanite,
-		/area/science/robotics,
-		/area/science/server,
-		/area/science/storage,
-		/area/science/xenobiology
+		/area/station/command/heads/rd,
+		/area/station/science/research,
+		/area/station/science/experimentation,
+		/area/station/science/toxins,
+		/area/station/science/toxins/storage,
+		/area/station/science/nanite,
+		/area/station/science/robotics/lab,
+		/area/station/science/robotics/mech_bay,
+		/area/station/science/server,
+		/area/station/science/xenobiology,
+		/area/station/science/aux_lab
 	)
 
 	smells_like = "theoretical education"

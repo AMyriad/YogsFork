@@ -41,6 +41,10 @@
 /area/station/science/toxins/testing_site
 	name = "\improper Toxins Testing Site"
 	icon_state = "toxtest"
+	ambience_index = null
+	ambient_music_index = AMBIENCE_SPACE
+	sound_environment = SOUND_AREA_SPACE
+	ambient_buzz = null
 	valid_territory = FALSE	
 	lights_always_start_on = TRUE
 
@@ -56,7 +60,7 @@
 	name = "\improper Nanite Lab"
 	icon_state = "toxmisc"
 
-/area/station/science/auxiliary
+/area/station/science/aux_lab
 	name = "\improper Auxiliary Testing Lab"
 	icon_state = "toxmisc"
 

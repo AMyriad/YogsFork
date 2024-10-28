@@ -62,7 +62,7 @@
 		applies_to = list(BRUTE,BURN,TOX,CLONE)
 
 /datum/component/heal_react/boost/holylight/on_heal_limb(var/mob/living/carbon/target,amount,damtype,var/obj/item/bodypart/BP)
-	if(istype(get_area(target), /area/chapel))
+	if(istype(get_area(target), /area/station/service/chapel))
 		boost_amount *= GLOB.religious_sect.chapel_buff_coeff
 	var/favor = ..()
 	boost_amount = initial(boost_amount)
@@ -70,7 +70,7 @@
 		GLOB.religious_sect.adjust_favor(round(favor/2, 0.1))
 
 /datum/component/heal_react/boost/holylight/on_heal(var/mob/living/target,amount,damtype)
-	if(istype(get_area(target), /area/chapel))
+	if(istype(get_area(target), /area/station/service/chapel))
 		boost_amount *= GLOB.religious_sect.chapel_buff_coeff
 	var/favor = ..()
 	boost_amount = initial(boost_amount)

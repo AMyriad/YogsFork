@@ -24,7 +24,7 @@
 	)
 	
 	minimal_lightup_areas = list(
-		/area/construction/mining/aux_base
+		/area/station/engineering/aux_base
 	)
 
 	//if it's skeleton there's probably no paramedic to save spaced miners that jaunted away from danger

@@ -218,7 +218,7 @@
 	var/mob/living/carbon/carbon_source = source
 	if(!carbon_source)
 		return
-	if(istype(get_area(carbon_source), /area/chapel))
+	if(istype(get_area(carbon_source), /area/station/service/chapel))
 		demon_burn()
 
 /datum/antagonist/sinfuldemon/roundend_report()

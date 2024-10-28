@@ -42,9 +42,9 @@
 	)
 	
 	minimal_lightup_areas = list(
-		/area/crew_quarters/heads/captain,
-		/area/crew_quarters/heads/hop,
-		/area/security
+		/area/station/command/heads/captain,
+		/area/station/command/heads/hop,
+		/area/station/security
 	)
 
 	display_order = JOB_DISPLAY_ORDER_CAPTAIN

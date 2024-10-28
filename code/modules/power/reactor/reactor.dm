@@ -977,8 +977,13 @@
 	weather_sound = 'sound/effects/reactor/falloutwind.ogg'
 	end_duration = 200
 	area_type = /area
-	protected_areas = list(/area/maintenance, /area/ai_monitored/turret_protected/ai_upload, /area/ai_monitored/turret_protected/ai_upload_foyer,
-	/area/ai_monitored/turret_protected/ai, /area/shuttle)
+	protected_areas = list(
+		/area/station/maintenance,
+		/area/station/ai_monitored/ai/upload,
+		/area/station/ai_monitored/ai/upload_access,
+		/area/station/ai_monitored/ai/core,
+		/area/external/shuttle
+		)
 	end_message = "<span class='notice'>The ash stops falling.</span>"
 	immunity_type = WEATHER_RAD
 
@@ -1017,12 +1022,6 @@
 	icon = 'icons/obj/inflatable.dmi'
 	icon_state = "sealant"
 	w_class = WEIGHT_CLASS_TINY
-
-/area/engineering/main/reactor_core
-	name = "Nuclear Reactor Core"
-
-/area/engineering/main/reactor_control
-	name = "Reactor Control Room"
 
 // Guide for setting this up, best to put one of these somewhere in the engine room so engineers know what to do
 /obj/item/paper/guides/jobs/engi/agcnr

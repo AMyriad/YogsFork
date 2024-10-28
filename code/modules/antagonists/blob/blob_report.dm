@@ -18,7 +18,7 @@
 	for(var/Z in SSmapping.levels_by_trait(ZTRAIT_STATION))
 		for(var/turf/T in block(locate(1,1,Z), locate(world.maxx,world.maxy,Z)))
 			// don't count shuttles since they may have just left
-			if(istype(T.loc, /area/shuttle))
+			if(istype(T.loc, /area/external/shuttle))
 				continue
 
 			if(isfloorturf(T))

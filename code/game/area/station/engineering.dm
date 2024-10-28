@@ -91,7 +91,7 @@
 	icon_state = "atmos_distro"
 
 // For when HFR/atmos engine is in a separate area than the incinerator
-/area/station/engineering/atmos/engine
+/area/station/engineering/atmospherics/engine
 	name = "\improper Atmospherics Engine Room"
 	icon_state = "atmos_hfr"
 

@@ -286,7 +286,7 @@
 		deltimer(revive_timer)
 
 /datum/action/cooldown/spell/revive/proc/revive(mob/living/user)
-	if(istype(get_area(user.loc), /area/chapel))
+	if(istype(get_area(user.loc), /area/station/service/chapel))
 		var/datum/antagonist/vampire/V = IS_VAMPIRE(user)
 		if(V && V.get_ability(/datum/vampire_passive/full)) //full blooded vampire doesn't get dusted if they try to res, it still doesn't work though
 			to_chat(user, span_danger("The holy energies of this place prevent our revival!"))

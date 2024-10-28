@@ -96,7 +96,7 @@
 #define SHUTTLE_DOCKER_BLOCKED 3
 
 //Shuttle defaults
-#define SHUTTLE_DEFAULT_SHUTTLE_AREA_TYPE /area/shuttle
+#define SHUTTLE_DEFAULT_SHUTTLE_AREA_TYPE /area/external/shuttle
 #define SHUTTLE_DEFAULT_UNDERLYING_AREA /area/space
 
 /// Shuttle unlocks

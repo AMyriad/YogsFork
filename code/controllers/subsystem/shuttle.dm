@@ -627,8 +627,8 @@ SUBSYSTEM_DEF(shuttle)
 	var/area/old_area = midpoint.loc
 	LISTASSERTLEN(old_area.turfs_to_uncontain_by_zlevel, bottomleft.z, list())
 	old_area.turfs_to_uncontain_by_zlevel[bottomleft.z] += proposal.reserved_turfs
-	
-	var/area/shuttle/transit/new_area = new()
+
+	var/area/external/shuttle/debug/transit/new_area = new()
 	new_area.parallax_movedir = travel_dir
 	new_area.contents = proposal.reserved_turfs
 	LISTASSERTLEN(new_area.turfs_by_zlevel, bottomleft.z, list())
@@ -723,7 +723,7 @@ SUBSYSTEM_DEF(shuttle)
 
 /datum/controller/subsystem/shuttle/proc/is_in_shuttle_bounds(atom/A)
 	var/area/current = get_area(A)
-	if(istype(current, /area/shuttle) && !istype(current, /area/shuttle/transit))
+	if(istype(current, /area/external/shuttle) && !istype(current, /area/external/shuttle/debug/transit))
 		return TRUE
 	for(var/obj/docking_port/mobile/M in mobile_docking_ports)
 		if(M.is_in_shuttle_bounds(A))

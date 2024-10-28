@@ -46,7 +46,7 @@
  *	@param custom_drop_callback If set, will use this callback instead of the default deconstruct callback.
  */
 /obj/proc/find_and_hang_on_wall(directional = TRUE, custom_drop_callback)
-	if(istype(get_area(src), /area/shuttle))
+	if(istype(get_area(src), /area/external/shuttle))
 		return FALSE //For now, we're going to keep the component off of shuttles to avoid the turf changing issue. We'll hit that later really;
 	var/turf/attachable_wall
 	if(directional)

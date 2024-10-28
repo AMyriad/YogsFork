@@ -725,7 +725,7 @@ GLOBAL_LIST_EMPTY(objectives)
 ////////////////////////////////////////////////////////////////////////////////////
 //--------------------------------Steal-------------------------------------------//
 ////////////////////////////////////////////////////////////////////////////////////
-GLOBAL_LIST_INIT(infiltrator_objective_areas, typecacheof(list(/area/yogs/infiltrator_base, /area/centcom/syndicate_mothership, /area/shuttle/yogs/stealthcruiser)))
+GLOBAL_LIST_INIT(infiltrator_objective_areas, typecacheof(list(/area/debug/admin/gamemode/syndicate, /area/external/shuttle/misc/nukeop_dropship, /area/external/shuttle/misc/infiltrator_cruiser)))
 GLOBAL_LIST_EMPTY(possible_items)
 /datum/objective/steal
 	name = "steal"

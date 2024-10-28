@@ -52,9 +52,9 @@
 	)
 
 	minimal_lightup_areas = list(
-		/area/crew_quarters/heads/hos,
-		/area/security/detectives_office,
-		/area/security/warden
+		/area/station/command/heads/hos,
+		/area/station/security/detective,
+		/area/station/security/warden
 	)
 	
 	smells_like = "deadly authority"

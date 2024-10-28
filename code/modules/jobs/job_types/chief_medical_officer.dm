@@ -46,12 +46,13 @@
 	)
 
 	minimal_lightup_areas = list(
-		/area/crew_quarters/heads/cmo,
-		/area/medical/chemistry,
-		/area/medical/genetics,
-		/area/medical/morgue,
-		/area/medical/surgery,
-		/area/storage/eva
+		/area/station/command/heads/cmo,
+		/area/station/medical/chemistry/lab,
+		/area/station/medical/genetics/lab,
+		/area/station/medical/genetics/cloning,
+		/area/station/medical/morgue,
+		/area/station/medical/surgery,
+		/area/station/ai_monitored/general/eva
 	)
 
 	smells_like = "blood-soaked stress"

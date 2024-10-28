@@ -37,13 +37,13 @@
 	)
 
 	lightup_areas = list(
-		/area/medical/surgery,
-		/area/medical/virology,
-		/area/medical/genetics
+		/area/station/medical/surgery,
+		/area/station/medical/virology/lab,
+		/area/station/medical/genetics/lab
 	)
 	minimal_lightup_areas = list(
-		/area/medical/morgue,
-		/area/medical/chemistry
+		/area/station/medical/morgue,
+		/area/station/medical/chemistry/lab
 	)
 
 	smells_like = "chemicals"

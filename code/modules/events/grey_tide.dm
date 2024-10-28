@@ -14,12 +14,14 @@
 	announce_when = 50
 	end_when = 20
 	var/list/area/areasToOpen = list()
-	var/list/potential_areas = list(/area/bridge,
-									/area/engine,
-									/area/medical,
-									/area/security,
-									/area/quartermaster,
-									/area/science)
+	var/list/potential_areas = list(
+		/area/station/command,
+		/area/station/engineering,
+		/area/station/medical,
+		/area/station/security,
+		/area/station/supply,
+		/area/station/science
+		)
 	var/severity = 1
 
 

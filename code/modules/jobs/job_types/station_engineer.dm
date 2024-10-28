@@ -38,7 +38,9 @@
 		/obj/item/clothing/suit/space/hardsuit/engine = 1
 	)
 
-	lightup_areas = list(/area/engine/atmos)
+	lightup_areas = list(
+		/area/station/engineering/atmospherics
+	)
 	
 	smells_like = "welding fuel"
 

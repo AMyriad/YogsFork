@@ -7,7 +7,7 @@
 	lighting_colour_tube = "#fff0dd"
 	lighting_colour_bulb = "#ffe1c1"
 
-	always_unpowered = FALSE
+	requires_power = FALSE
 
 	unique = FALSE
 	has_gravity = STANDARD_GRAVITY
@@ -79,11 +79,40 @@
 /area/external/shuttle/station/centcom_ferry
 	name = "\improper Transport Shuttle"
 
+/area/external/shuttle/station/aux_base
+	name = "\improper Auxiliary Base"
+	luminosity = 0 //Lighting gets lost when it lands anyway
+
 /area/external/shuttle/station/ai
 	name = "\improper AI Satellite Shuttle"
 
 
-//-- Debug Shuttles --//
+//-- Custom Evac Shuttles --//
+// NOTE: Separated from station shuttles for sake of readability but has same parents, so put yo custom shuttles here gamer
+
+/area/external/shuttle/station/escape/custom
+	name = "Custom Emergency Shuttle Areas"
+
+/area/external/shuttle/station/escape/custom/luxury
+	name = "\improper Luxurious Emergency Shuttle"
+	area_flags = NOTELEPORT
+
+/area/external/shuttle/station/escape/custom/arena
+	name = "The Arena"
+	area_flags = NOTELEPORT
+
+/area/external/shuttle/station/escape/custom/arena_combat
+	name = "The Arena"
+	hidden = TRUE
+	mood_bonus = 25
+	mood_message = span_nicegreen("NO TIME TO THINK, JUST RIP AND TEAR!!/n")
+
+/area/external/shuttle/station/escape/custom/meteor
+	name = "\proper a meteor with engines strapped to it"
+	luminosity = NONE
+
+
+//-- Debug Shuttle Stuff --//
 
 /area/external/shuttle/debug
 	name = "Debug Shuttle Areas"
@@ -97,28 +126,9 @@
 /area/external/shuttle/debug/custom
 	name = "\improper Custom Shuttle"
 
-/area/external/shuttle/debug/custom_powered
+/area/external/shuttle/debug/custom/power // Not /powered to avoid overlap with a proc
 	name = "\improper Custom Powered Shuttle"
 	requires_power = FALSE
-
-
-//-- Custom Evac Shuttles --//
-// IMPORTANT! Separated from station shuttles for sake of readability but has same parents, so put yo custom shuttles here dawg
-
-/area/external/shuttle/station/escape/custom
-	name = "Custom Emergency Shuttle Areas"
-
-/area/external/shuttle/station/escape/custom/luxury
-	name = "\improper Luxurious Emergency Shuttle"
-	area_flags = NOTELEPORT
-
-/area/external/shuttle/station/escape/custom/arena
-	name = "The Arena"
-	area_flags = NOTELEPORT
-
-/area/external/shuttle/station/escape/custom/meteor
-	name = "\proper a meteor with engines strapped to it"
-	luminosity = NONE
 
 
 //-- Misc Shuttles --//
@@ -135,7 +145,7 @@
 /area/external/shuttle/misc/assault_pod
 	name = "Steel Rain"
 
-/area/external/shuttle/misc/space_pirate
+/area/external/shuttle/misc/space_pirates
 	name = "\improper Pirate Shuttle"
 	requires_power = TRUE
 

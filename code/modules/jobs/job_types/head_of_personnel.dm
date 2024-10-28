@@ -58,7 +58,11 @@
 
 	smells_like = "bureaucracy"
 
-	minimal_lightup_areas = list(/area/crew_quarters/heads/hop, /area/security/nuke_storage)
+	minimal_lightup_areas = list(
+		/area/station/command/heads/hop,
+		/area/station/ai_monitored/general/vault,
+		/area/station/ai_monitored/general/eva
+	)
 
 // Special handling to avoid lighting up the entirety of supply whenever there's a HoP.
 /datum/job/head_of_personnel/areas_to_light_up(minimal_access = TRUE)

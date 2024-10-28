@@ -56,7 +56,7 @@
 			lastWarning = world.time
 			to_chat(src, span_warning("This turf is consecrated and can't be crossed!"))
 		return
-	if(istype(get_area(T), /area/chapel))
+	if(istype(get_area(T), /area/station/service/chapel))
 		if((world.time - lastWarning) >= 30)
 			lastWarning = world.time
 			to_chat(src, span_warning("The Chapel is hallowed ground under a much, MUCH stronger deity, and can't be accessed!"))

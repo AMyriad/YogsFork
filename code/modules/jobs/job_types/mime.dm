@@ -31,7 +31,9 @@
 		/obj/item/book/mimery = 1,
 	)
 
-	minimal_lightup_areas = list(/area/crew_quarters/theatre)
+	minimal_lightup_areas = list(
+		/area/station/service/theatre
+	)
 
 	smells_like = "complete nothingness"
 

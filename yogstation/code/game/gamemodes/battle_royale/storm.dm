@@ -43,66 +43,64 @@
 // ROYALE WEATHER TYPES
 /datum/weather/royale/start
 	name = "royale start" //roundstart wave, just hits solars, toxins test area, space, and any shuttles
-	areasToWeather = list(/area/science/test_area)
-	areaTypesToWeather = list(/area/solar, /area/space, /area/shuttle)
-	areaIgnore = list(/area/shuttle/supply)//but not the supply shuttle just yet
+	areasToWeather = list(/area/station/science/toxins/testing_site)
+	areaTypesToWeather = list(/area/station/external_power, /area/space, /area/asteroid, /area/external/mining/icemoon, /area/external/shuttle)
+	areaIgnore = list(/area/external/shuttle/supply)//but not the supply shuttle just yet
 
 /datum/weather/royale/maint
 	name = "royale maint" //First wave, hits maintenance
 	telegraph_message = span_narsiesmall("<i>The storm is closing, get away from maintenance!</i>")
-	area_type = /area/maintenance
+	areaTypesToWeather = list(/area/station/maintenance, /area/debug/procedural_gen/maintenance)
 
 /datum/weather/royale/security
-	name = "royale security" //North wave, takes out security, EVA, dorms and associated areas.
-	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from security!</i>")
-	areasToWeather = list(/area/crew_quarters/heads/hos)
-	areaTypesToWeather = list(/area/security, /area/lawoffice)
-	areaIgnore = list(/area/security/checkpoint/science, /area/security/checkpoint/engineering, //ignore all department security offices
-	/area/security/checkpoint/medical, /area/security/checkpoint/supply, /area/ai_monitored/security/armory)
+	name = "royale security" //North wave, takes out security, EVA, and vault
+	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from security, EVA, and the vault!</i>")
+	areasToWeather = list(/area/station/command/heads/hos)
+	areaTypesToWeather = list(/area/station/security, /area/station/ai_monitored/general)
+	areaIgnore = list(/area/station/security/post) //ignore all department security offices
 
 /datum/weather/royale/science
 	name = "royale science" //takes out science
 	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from science!</i>")
-	areasToWeather = list(/area/crew_quarters/heads/hor, /area/security/checkpoint/science)
-	areaTypesToWeather = list(/area/science, /area/ai_monitored)
+	areasToWeather = list(/area/station/command/heads/rd, /area/station/security/post/science)
+	areaTypesToWeather = list(/area/station/science, /area/station/ai_monitored/ai)
 
 /datum/weather/royale/engineering
-	name = "royale engineering" //takes out engineering and atmos
+	name = "royale engineering" //takes out engineering and storage areas (f.ex. aux tool storage)
 	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from engineering and storage!</i>")
-	areasToWeather = list(/area/crew_quarters/heads/chief, /area/security/checkpoint/engineering)
-	areaTypesToWeather = list(/area/engine, /area/tcommsat, /area/construction, /area/storage)
+	areasToWeather = list(/area/station/command/heads/ce, /area/station/security/post/engineering)
+	areaTypesToWeather = list(/area/station/engineering, /area/station/public/storage)
 
-/datum/weather/royale/service //this one is more annoying because head offices are considered a type of crew_quarters
-	name = "royale service" //takes out service
-	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from service!</i>")
-	areasToWeather = list(/area/security/checkpoint/service)
-	areaTypesToWeather = list(/area/chapel, /area/library, /area/hydroponics, /area/holodeck, /area/janitor, /area/crew_quarters, /area/clerk)
-	areaIgnore = list(/area/crew_quarters/heads/hos, /area/crew_quarters/heads/hor, /area/crew_quarters/heads/cmo, //ignore all the head offices
-	/area/crew_quarters/heads/chief, /area/crew_quarters/heads/hop, /area/crew_quarters/heads/captain)
+/datum/weather/royale/service
+	name = "royale service" //takes out service and fitness/locker/recreational areas
+	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from service and recreational areas!</i>")
+	areasToWeather = list(/area/station/security/post/service, /area/station/security/post/arrivals, /area/station/security/post/departures)
+	areaTypesToWeather = list(/area/station/service, /area/debug/holodeck, /area/station/public/misc)
 
 /datum/weather/royale/medbay
 	name = "royale medbay" //takes out medbay
 	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from medbay!</i>")
-	areasToWeather = list(/area/crew_quarters/heads/cmo, /area/security/checkpoint/medical)
-	areaTypesToWeather = list(/area/medical)
+	areasToWeather = list(/area/station/command/heads/cmo, /area/station/security/post/medical)
+	areaTypesToWeather = list(/area/station/medical)
 
 /datum/weather/royale/cargo
 	name = "royale cargo" //takes out arrivals and cargo (shuttle included)
 	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from cargo and any vacant rooms!</i>")
-	areasToWeather = list(/area/security/checkpoint/supply)
-	areaTypesToWeather = list(/area/quartermaster, /area/vacant_room, /area/shuttle)
+	areasToWeather = list(/area/station/security/post/supply)
+	areaTypesToWeather = list(/area/station/supply, /area/station/public/vacant, /area/external/shuttle)
 
 /datum/weather/royale/bridge
 	name = "royale the bridge"
 	telegraph_message = span_narsiesmall("<i>The storm is closing in, get away from the bridge!</i>")
-	areasToWeather = list(/area/teleporter, /area/crew_quarters/heads/captain, /area/crew_quarters/heads/hop)
-	areaTypesToWeather = list(/area/bridge)
+	areasToWeather = list(/area/station/command/heads/captain, /area/station/command/heads/hop)
+	areaTypesToWeather = list(/area/station/command)
+	areaIgnore = list(/area/station/command/heads/rd, /area/station/command/heads/ce, /area/station/command/heads/cmo, /area/station/command/heads/hos) // me guess overlap bad? -AMyriad
 
 /datum/weather/royale/hallway
 	name = "royale hallway"
 	telegraph_duration = 30 SECONDS //hallway's a bit bigger
 	telegraph_message = span_narsiesmall("<i>The storm is closing in, get out of the hallways!</i>")
-	areaTypesToWeather = list(/area/hallway)
+	areaTypesToWeather = list(/area/station/public/hallway)
 
 /datum/weather/royale/hallway/telegraph() //message changes depending on which one is left
 	if(GLOB.final_zone) 

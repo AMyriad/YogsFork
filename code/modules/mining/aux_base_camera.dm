@@ -14,7 +14,7 @@
 
 /mob/camera/ai_eye/remote/base_construction/setLoc(turf/destination, force_update = FALSE)
 	var/area/curr_area = get_area(destination)
-	if(curr_area == starting_area || istype(curr_area, /area/shuttle/auxiliary_base))
+	if(curr_area == starting_area || istype(curr_area, /area/external/shuttle/station/aux_base))
 		return ..()
 	//While players are only allowed to build in the base area, but consoles starting outside the base can move into the base area to begin work.
 
@@ -39,7 +39,7 @@
 	icon_keyboard = "rd_key"
 	light_color = LIGHT_COLOR_PINK
 	///Area that the eyeobj will be constrained to. If null, eyeobj will be able to build and move anywhere.
-	var/area/allowed_area = /area/shuttle/auxiliary_base
+	var/area/allowed_area = /area/external/shuttle/station/aux_base
 
 	var/obj/item/construction/rcd/internal/RCD //Internal RCD. The computer passes user commands to this in order to avoid massive copypaste.
 	var/obj/machinery/computer/auxiliary_base/found_aux_console //Tracker for the Aux base console, so the eye can always find it.
@@ -141,7 +141,7 @@
 	var/turf/build_target = get_turf(remote_eye)
 	var/area/build_area = get_area(build_target)
 
-	if(!istype(build_area, /area/shuttle/auxiliary_base))
+	if(!istype(build_area, /area/external/shuttle/station/aux_base))
 		to_chat(owner, span_warning("You can only build within the mining base!"))
 		return FALSE
 

@@ -32,7 +32,7 @@
 /datum/round_event/aurora_caelus/start()
 	if(!prob(1) && !check_holidays(APRIL_FOOLS))
 		return
-	for(var/area/crew_quarters/kitchen/affected_area in GLOB.areas)
+	for(var/area/station/service/kitchen/affected_area in GLOB.areas)
 		var/obj/machinery/oven/roast_ruiner = locate() in affected_area
 		if(roast_ruiner)
 			roast_ruiner.balloon_alert_to_viewers("oh egads!")
@@ -52,7 +52,7 @@
 	var/aurora_color = hsl_gradient((activeFor - start_when) / (end_when - start_when), 0, "#A2FF80", 1, "#A2FFEE")
 	set_starlight(aurora_color)
 
-	for(var/area/crew_quarters/kitchen/affected_area in GLOB.areas)
+	for(var/area/station/service/kitchen/affected_area in GLOB.areas)
 		for(var/turf/open/kitchen_floor in affected_area.get_turfs_from_all_zlevels())
 			kitchen_floor.set_light(l_color = aurora_color)
 
@@ -108,10 +108,10 @@
 		var/walked_color = hsl_gradient(i/5, 0, start_color, 1, end_color)
 		var/walked_range = LERP(start_range, end_range, i/5)
 		var/walked_power = LERP(start_power, end_power, i/5)
-		for(var/area/crew_quarters/kitchen/affected_area in GLOB.areas)
+		for(var/station/service/kitchen/affected_area in GLOB.areas)
 			for(var/turf/open/kitchen_floor in affected_area.get_turfs_from_all_zlevels())
 				kitchen_floor.set_light(walked_range, walked_power, walked_color)
 		sleep(8 SECONDS)
-	for(var/area/crew_quarters/kitchen/affected_area in GLOB.areas)
+	for(var/area/station/service/kitchen/affected_area in GLOB.areas)
 		for(var/turf/open/kitchen_floor in affected_area.get_turfs_from_all_zlevels())
 			kitchen_floor.set_light(end_range, end_power, end_color)

@@ -3,6 +3,8 @@ GLOBAL_LIST_EMPTY(battleroyale_players) //reduce iteration cost
 GLOBAL_VAR_INIT(stormdamage, 3)
 GLOBAL_VAR(final_zone)
 
+// !! NOTE: AREA TYPES ARE NOT UPDATED IN THIS UNCOMMENTED SECTION, UPDATE THEM IF YOU UNCOMMENT !! -AMyriad
+//
 // /datum/game_mode/fortnite
 // 	name = "battle royale"
 // 	config_tag = "battleroyale"
@@ -263,7 +265,7 @@ GLOBAL_VAR(final_zone)
 // 			continue
 // 		if(istype(lootlake, /area/solar))//no solars
 // 			continue
-// 		if(istype(lootlake, /area/maintenance))//no maintenance, it's too large, it'd lag the hell out of the server and it's not as popular as main hallways
+// 		if(istype(lootlake, /area/station/maintenance))//no maintenance, it's too large, it'd lag the hell out of the server and it's not as popular as main hallways
 // 			continue //also, ideally keeps people out of maints, and in larger open areas that are more interesting
 // 		if(is_type_in_list(lootlake, weathered))
 // 			continue //if the area is covered with a storm, don't spawn loot (less lag)

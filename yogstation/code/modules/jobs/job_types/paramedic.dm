@@ -32,11 +32,13 @@
 		/obj/item/reagent_containers/autoinjector/medipen/survival = 5
 	)
 
-	lightup_areas = list(/area/medical/surgery)
+	lightup_areas = list(
+		/area/station/medical/surgery
+	)
 	minimal_lightup_areas = list(
-		/area/storage/eva,
-		/area/medical/morgue,
-		/area/medical/genetics/cloning
+		/area/station/ai_monitored/general/eva,
+		/area/station/medical/morgue,
+		/area/station/medical/genetics/cloning
 	)
 
 	smells_like = "pre-packaged oxygen"

@@ -7,10 +7,8 @@ GLOBAL_LIST_INIT(original_command_positions, list(
 	"Chief Medical Officer"))
 
 GLOBAL_LIST_INIT(command_lightup_areas, typecacheof(list(
-	/area/bridge,
-	/area/gateway,
-	/area/security/brig,
-	/area/teleporter
+	/area/station/station/command,
+	/area/station/station/security/main,
 )))
 
 GLOBAL_LIST_INIT(original_engineering_positions, list(
@@ -19,19 +17,17 @@ GLOBAL_LIST_INIT(original_engineering_positions, list(
 	"Atmospheric Technician",
 	"Network Admin"))
 
-GLOBAL_LIST_INIT(engineering_lightup_areas,		\
-	typecacheof(list(							\
-		/area/construction,						\
-		/area/engine,							\
-		/area/security/checkpoint/engineering,	\
-		/area/solar,							\
-		/area/tcommsat,							\
-		/area/vacant_room						\
-	)) - typecacheof(list(						\
-		/area/engine/atmos,						\
-		/area/engine/gravity_generator			\
-	))											\
-)
+GLOBAL_LIST_INIT(engineering_lightup_areas, typecacheof(list(
+	/area/station/engineering,
+	/area/station/security/post/engineering,
+	/area/station/external_power,
+	/area/station/public/vacant
+	)) - typecacheof(list(
+	/area/station/engine/atmospherics,
+	/area/station/engine/telecomms,
+	/area/station/engine/gravity_generator,
+	/area/station/engine/smes
+)))
 
 GLOBAL_LIST_INIT(original_medical_positions, list(
 	"Chief Medical Officer",
@@ -44,40 +40,34 @@ GLOBAL_LIST_INIT(original_medical_positions, list(
 	"Mining Medic",
 	"Brig Physician"))
 
-GLOBAL_LIST_INIT(medical_lightup_areas, 	\
-	typecacheof(list(						\
-		/area/medical,						\
-		/area/security/checkpoint/medical	\
-	)) - typecacheof(list(					\
-		/area/medical/abandoned,			\
-		/area/medical/chemistry,			\
-		/area/medical/genetics,				\
-		/area/medical/morgue,				\
-		/area/medical/surgery,				\
-		/area/medical/virology				\
-	))										\
-)
+GLOBAL_LIST_INIT(medical_lightup_areas, typecacheof(list(
+	/area/station/medical,
+	/area/station/security/post/medical
+	)) - typecacheof(list(
+	/area/station/medical/chemistry,
+	/area/station/medical/genetics,
+	/area/station/medical/morgue,	
+	/area/station/medical/surgery,	
+	/area/station/medical/virology
+)))
 
 GLOBAL_LIST_INIT(original_science_positions, list(
 	"Research Director",
 	"Scientist",
 	"Roboticist"))
 
-GLOBAL_LIST_INIT(science_lightup_areas, 		\
-	typecacheof(list(							\
-		/area/science,							\
-		/area/security/checkpoint/science		\
-	)) - typecacheof(list(						\
-		/area/science/explab,					\
-		/area/science/misc_lab,					\
-		/area/science/mixing,					\
-		/area/science/nanite,					\
-		/area/science/robotics,					\
-		/area/science/server,					\
-		/area/science/storage,					\
-		/area/science/xenobiology				\
-	))											\
-)
+GLOBAL_LIST_INIT(science_lightup_areas, typecacheof(list(
+	/area/station/science,
+	/area/station/security/post/science
+	)) - typecacheof(list(
+	/area/station/science/research,
+	/area/station/science/aux_lab,
+	/area/station/science/toxins,
+	/area/station/science/nanite,
+	/area/station/science/robotics,
+	/area/station/science/server,
+	/area/station/science/xenobiology
+)))
 
 GLOBAL_LIST_INIT(original_supply_positions, list(
 	"Head of Personnel",
@@ -85,14 +75,12 @@ GLOBAL_LIST_INIT(original_supply_positions, list(
 	"Cargo Technician",
 	"Shaft Miner"))
 
-GLOBAL_LIST_INIT(supply_lightup_areas,			\
-	typecacheof(list(							\
-		/area/quartermaster,					\
-		/area/security/checkpoint/supply		\
-	)) - typecacheof(list(						\
-		/area/quartermaster/qm					\
-	))											\
-)
+GLOBAL_LIST_INIT(supply_lightup_areas, typecacheof(list(
+	/area/station/supply
+	/area/station/security/post/supply
+	)) - typecacheof(list(
+	/area/station/supply/quartermaster
+)))
 
 GLOBAL_LIST_INIT(original_civilian_positions, list(
 	"Bartender",
@@ -115,14 +103,13 @@ GLOBAL_LIST_INIT(original_security_positions, list(
 	"Detective",
 	"Security Officer"))
 
-GLOBAL_LIST_INIT(security_lightup_areas,	\
-	typecacheof(list(						\
-		/area/security						\
-	)) - typecacheof(list(					\
-		/area/security/detectives_office,	\
-		/area/security/nuke_storage,		\
-		/area/security/warden				\
-	))										\
+GLOBAL_LIST_INIT(security_lightup_areas, typecacheof(list(
+	/area/station/security
+	)) - typecacheof(list(
+	/area/station/security/detective,
+	/area/station/security/warden,
+	/area/station/ai_monitored/general/vault
+	))
 )
 
 GLOBAL_LIST_INIT(original_nonhuman_positions, list(

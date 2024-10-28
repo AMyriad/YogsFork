@@ -33,7 +33,9 @@
 		/obj/item/clothing/suit/space/hardsuit/engine/atmos = 1,
 	)
 	
-	minimal_lightup_areas = list(/area/engine/atmos)
+	minimal_lightup_areas = list(
+		/area/station/engineering/atmospherics
+	)
 
 	smells_like = "a gas leak"
 

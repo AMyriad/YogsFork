@@ -1,29 +1,20 @@
-/*	GUIDE TO ADDING AREAS
- *	
- *	
- *	
+/*	AREA FORMATTING GUIDE
+*	Areas are put into 4 categories (see below) depending on where it exists in the game
+*	
+*	
 
 
-
- * Only put an area here if it doesn't fit sorting criteria
- * If more areas are created of an area in this file, please
- * make a new file for it!
- */
-
-
-
-/**
- *	BASE TYPES
- *	These are the ROOT for all main area types
- *	We organize areas like this to keep the work tree in map editors nice and clean :]
- *
- *	Quick reference:
- *	/debug/ - Areas that (mostly) aren't supposed to be on station, or exist behind the scenes
- *	/external/ - Areas that exist outside space station 13
- *	/ruins/ - Random ruins and derelicts found in space, mining environments, etc
- *	/station/ - Areas on space station 13
- *
- */
+* BASE TYPES
+*	These are the ROOTS for all main area types
+*	We organize areas like this to keep the work tree in map editors nice and pretty :]
+*
+*	Quickref:
+*	/debug/ - Areas that (mostly) aren't supposed to appear on station, or exist behind the scenes
+*	/external/ - Areas outside Space Station 13
+*	/ruins/ - Random ruins and derelicts found in space, mining environments, etc
+*	/station/ - Areas on Space Station 13
+*
+*/
 /area/debug
 	name = "Debug Areas"
 	icon_state = "debug"

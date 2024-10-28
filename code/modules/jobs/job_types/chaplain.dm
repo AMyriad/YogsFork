@@ -36,9 +36,9 @@
 	)
 	
 	minimal_lightup_areas = list(
-		/area/chapel,
-		/area/medical/morgue,
-		/area/crew_quarters/theatre
+		/area/station/service/chapel,
+		/area/station/medical/morgue,
+		/area/station/service/theatre
 	)
 
 	smells_like = "zealous fervor"

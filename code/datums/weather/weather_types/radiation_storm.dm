@@ -17,9 +17,14 @@
 	end_message = span_notice("The air seems to be cooling off again.")
 
 	area_type = /area
-	protected_areas = list(/area/maintenance, /area/ai_monitored/turret_protected/ai_upload, /area/ai_monitored/turret_protected/ai_upload_foyer,
-							/area/ai_monitored/turret_protected/ai, /area/storage/emergency/starboard, /area/storage/emergency/port, 
-							/area/shuttle, /area/ai_monitored/storage/satellite, /area/security/prison, /area/icemoon/underground)
+	protected_areas = list(
+		/area/station/maintenance,
+		/area/debug/procedural_gen/maintenance,
+		/area/station/ai_monitored/ai,
+		/area/external/shuttle,
+		/area/station/security/detention,
+		/area/external/mining/icemoon/underground
+	)
 	
 	target_trait = ZTRAIT_STATION
 

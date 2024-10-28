@@ -27,7 +27,7 @@
 	)
 
 	minimal_lightup_areas = list(
-		/area/construction/mining/aux_base
+		/area/station/engineering/aux_base
 	)
 
 	mail_goodies = list(

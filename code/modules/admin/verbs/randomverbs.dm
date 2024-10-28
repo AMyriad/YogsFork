@@ -1497,7 +1497,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	for(var/obj/machinery/cryopod/cryopod in GLOB.cryopods)
 		if(cryopod.occupant)
 			continue
-		if(!istype(get_area(cryopod), /area/crew_quarters))
+		if(!istype(get_area(cryopod), /area/station/public/misc/cryo))
 			continue
 		new /obj/effect/particle_effect/sparks/quantum(get_turf(target))
 		target.forceMove(cryopod.loc)

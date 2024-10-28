@@ -160,12 +160,3 @@
 	spawn()
 		var/obj/effect/mine/pickup/bloodbath/B = new (M)
 		B.mineEffect(M)
-
-
-/area/shuttle_arena
-	name = "The Arena"
-	has_gravity = STANDARD_GRAVITY
-	requires_power = FALSE
-	hidden = TRUE
-	mood_bonus = 25
-	mood_message = span_nicegreen("NO TIME TO THINK, JUST RIP AND TEAR!!/n")

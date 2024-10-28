@@ -53,7 +53,7 @@
 	if(!A)
 		to_chat(owner, span_warning("No area detected!"))
 		return
-	if(istype(A, /area/maintenance))
+	if(istype(A, /area/station/maintenance))
 		to_chat(owner, span_warning("It is not possible to lockdown maintenance areas due to poor networking!"))
 		return
 

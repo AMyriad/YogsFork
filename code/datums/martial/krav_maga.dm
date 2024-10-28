@@ -195,13 +195,12 @@
 	var/equipped = FALSE //does the user currently have the martial art? 
 	///List of places that Kravs can be used.
 	var/list/enabled_areas = list(
-		/area/security, 
-		/area/ai_monitored/security,
-		/area/mine/laborcamp,
-		/area/shuttle/labor,
-		/area/crew_quarters/heads/hos,
-		/area/holodeck/rec_center/perma,
-	)
+		/area/station/security,
+		/area/station/ai_monitored/general/armory,
+		/area/external/mining/labor,
+		/area/station/shuttle/station/labor,
+		/area/station/command/heads/hos
+		)
 
 /obj/item/clothing/gloves/sec_maga/equipped(mob/user, slot)
 	. = ..()

@@ -2,11 +2,26 @@
 	name = "Space Ruin Areas"
 	icon_state = ""
 
-	has_gravity = FALSE
+	has_gravity = STANDARD_GRAVITY
 
 /area/ruins/space/generic
 	name = "\improper Unidentified Location"
 
+/area/ruin/space/onehalf_hallway
+	name = "\improper Destroyed Ship Hallway"
+	icon_state = "hallC"
+
+/area/ruin/space/onehalf_drone
+	name = "\improper Destroyed Ship Mining Drone Bay"
+	icon_state = "engine"
+
+/area/ruin/space/onehalf_med
+	name = "\improper Destroyed Ship Crew Quarters"
+	icon_state = "Sleep"
+
+/area/ruin/space/onehalf_bridge
+	name = "\improper Destroyed Ship Bridge"
+	icon_state = "bridge"
 
 //-- Powered --//
 
@@ -17,6 +32,26 @@
 
 /area/ruins/space/powered/generic
 	name = "\improper Unidentified Location"
+
+/area/ruin/space/powered/spacebar
+	name = "\improper Space Bar"
+	icon_state = "dk_yellow"
+
+/area/ruin/space/powered/dinner_for_two
+	name = "\improper Dinner for Two"
+
+/area/ruin/space/powered/cat_man
+	name = "\improper Kitty Den"
+
+/area/ruin/space/powered/authorship
+	name = "\improper Authorship"
+
+/area/ruin/space/powered/aesthetic
+	name = "\improper Aesthetic"
+	ambientsounds = list('sound/ambience/ambivapor1.ogg')
+
+/area/ruin/space/powered/gaming
+	name ="\improper Game Room"
 
 
 //-- Unpowered --//
@@ -40,79 +75,31 @@
 
 
 
+//-- No Gravity --//
 
-
-
-
-
-
-//-- Standard Gravity --//
-
-/area/ruins/space/gravity
+/area/ruins/space/no_gravity
 	name = "Gravity Ruin Areas"
-	has_gravity = STANDARD_GRAVITY
+	has_gravity = FALSE
 
-/area/ruins/space/gravity/generic
+/area/ruins/space/no_gravity/generic
 	name = "\improper Unidentified Location"
 
-/area/ruin/space/gravity/onehalf_hallway
-	name = "\improper Destroyed Ship Hallway"
-	icon_state = "hallC"
-
-/area/ruin/space/gravity/onehalf_drone_bay
-	name = "\improper Destroyed Ship Mining Drone Bay"
-	icon_state = "engine"
-
-/area/ruin/space/gravity/onehalf_med
-	name = "\improper Destroyed Ship Crew Quarters"
-	icon_state = "Sleep"
-
-/area/ruin/space/gravity/onehalf_bridge
-	name = "\improper Destroyed Ship Bridge"
-	icon_state = "bridge"
-
-
-/area/ruins/space/gravity/powered //- POWERED GRAVITY
+/area/ruins/space/no_gravity/powered //- POWERED GRAVITY
 	name = "Powered Gravity Ruin Areas"
 	requires_power = FALSE
 	lights_always_start_on = TRUE
 
-/area/ruins/space/gravity/powered/generic
+/area/ruins/space/no_gravity/powered/generic
 	name = "\improper Unidentified Location"
 
-/area/ruin/space/gravity/powered/spacebar
-	name = "\improper Space Bar"
-	icon_state = "dk_yellow"
-
-/area/ruin/space/gravity/powered/dinner_for_two
-	name = "\improper Dinner for Two"
-
-/area/ruin/space/gravity/powered/cat_man
-	name = "\improper Kitty Den"
-
-/area/ruin/space/gravity/powered/authorship
-	name = "\improper Authorship"
-
-/area/ruin/space/gravity/powered/aesthetic
-	name = "\improper Aesthetic"
-	ambientsounds = list('sound/ambience/ambivapor1.ogg')
-
-/area/ruin/space/gravity/powered/gaming
-	name ="Game Room"
-
-
-
-
-
-
-/area/ruins/space/gravity/unpowered //- UNPOWERED GRAVITY
+/area/ruins/space/no_gravity/unpowered //- UNPOWERED GRAVITY
 	name = "Unpowered Gravity Ruin Areas"
 	always_unpowered = TRUE
 	power_light = FALSE
 	power_equip = FALSE
 	power_environ = FALSE
 
-/area/ruins/space/gravity/unpowered/generic
+/area/ruins/space/no_gravity/unpowered/generic
 	name = "\improper Unidentified Location"
 
 
@@ -134,25 +121,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Ruins of "onehalf" ship
 
 
 
@@ -450,13 +418,6 @@
 	name = "Derelict Chapel"
 	icon_state = "chapel"
 
-/area/solar/derelict_starboard
-	name = "Derelict Starboard (E) Solar Array"
-	icon_state = "panelsS"
-
-/area/solar/derelict_aft
-	name = "Derelict Aft (S) Solar Array"
-	icon_state = "yellow"
 
 /area/ruin/space/derelict/singularity_engine
 	name = "Derelict Singularity Engine"

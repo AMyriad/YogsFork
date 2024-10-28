@@ -9,15 +9,15 @@
 	lighting_colour_bulb = "#ffebd6"
 
 /area/station/public/arrivals
-	name = "\improper Arrival Shuttle Hallway"
+	name = "\improper Arrivals Hallway"
 	icon_state = "entry"
 
 /area/station/public/departures
-	name = "\improper Escape Shuttle Hallway"
+	name = "\improper Departures Hallway"
 	icon_state = "escape"
 
 /area/station/public/departures/lounge
-	name = "\improper Departure Lounge"
+	name = "\improper Departures Lounge"
 	icon_state = "escape_lounge"
 
 
@@ -133,6 +133,18 @@
 	max_ambience_cooldown = 35 SECONDS
 	ambientsounds = 'yogstation/sound/misc/honk_echo_distant.ogg'
 	valid_territory = FALSE
+
+/area/station/public/misc/pod_bay
+	name = "\improper Space Pod Bay"
+	icon_state = "fitness"
+
+/area/station/public/misc/shipbreak_staging
+	name = "\improper Shipbreaking Staging Area"
+	icon_state = "fitness"
+
+/area/station/public/misc/shipbreak_zone
+	name = "\improper Shipbreaking Field"
+	icon_state = "fitness"
 
 
 //-- Storage --//

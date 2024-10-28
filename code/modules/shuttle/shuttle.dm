@@ -326,7 +326,7 @@
 	/// The turf reservation returned by the transit area request
 	var/datum/turf_reservation/reserved_area
 	/// The area created during the transit area reservation
-	var/area/shuttle/transit/assigned_area
+	var/area/external/shuttle/debug/transit/assigned_area
 	/// The mobile port that owns this transit port
 	var/obj/docking_port/mobile/owner
 
@@ -815,7 +815,7 @@
 	for(var/i in 1 to stop)
 		var/turf/T0 = L0[i]
 		var/turf/T1 = L1[i]
-		if(!istype(T0.loc, area_type) || istype(T0.loc, /area/shuttle/transit))
+		if(!istype(T0.loc, area_type) || istype(T0.loc, /area/external/shuttle/debug/transit))
 			continue  // not part of the shuttle
 		ripple_turfs += T1
 
@@ -892,13 +892,13 @@
 	var/obj/docking_port/stationary/S0 = get_docked()
 	if(istype(S0, /obj/docking_port/stationary/transit) && timeLeft(1) <= PARALLAX_LOOP_TIME)
 		for(var/place in shuttle_areas)
-			var/area/shuttle/shuttle_area = place
+			var/area/external/shuttle/shuttle_area = place
 			if(shuttle_area.parallax_movedir)
 				parallax_slowdown()
 
 /obj/docking_port/mobile/proc/parallax_slowdown()
 	for(var/place in shuttle_areas)
-		var/area/shuttle/shuttle_area = place
+		var/area/external/shuttle/shuttle_area = place
 		shuttle_area.parallax_movedir = FALSE
 	if(assigned_transit?.assigned_area)
 		assigned_transit.assigned_area.parallax_movedir = FALSE
@@ -1054,7 +1054,7 @@
 
 // attempts to locate /obj/machinery/computer/shuttle with matching ID inside the shuttle
 /obj/docking_port/mobile/proc/get_control_console()
-	for(var/area/shuttle/shuttle_area as anything in shuttle_areas)
+	for(var/area/external/shuttle/shuttle_area as anything in shuttle_areas)
 		var/obj/machinery/computer/shuttle/shuttle_computer = locate(/obj/machinery/computer/shuttle) in shuttle_area
 		if(!shuttle_computer)
 			continue
@@ -1122,7 +1122,7 @@
 	. = 0
 	engine_list.Cut()
 	for(var/thing in shuttle_areas)
-		var/area/shuttle/areaInstance = thing
+		var/area/external/shuttle/areaInstance = thing
 		for(var/obj/structure/shuttle/engine/E in areaInstance.contents)
 			if(!QDELETED(E))
 				engine_list += E

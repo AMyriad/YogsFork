@@ -904,7 +904,7 @@ SUBSYSTEM_DEF(job)
 	destination.JoinPlayerHere(M, buckle)
 
 /datum/controller/subsystem/job/proc/get_cryo_spawn_points()
-	var/area/external/shuttle/station/arrival/cryo_spawn_area = GLOB.areas_by_type[/area/crew_quarters/cryopods]
+	var/area/external/shuttle/station/arrival/cryo_spawn_area = GLOB.areas_by_type[/area/station/public/misc/cryo]
 	if(!isnull(cryo_spawn_area))
 		var/list/turf/available_turfs = list()
 		for (var/list/zlevel_turfs as anything in cryo_spawn_area.get_zlevel_turf_lists())
@@ -943,7 +943,7 @@ SUBSYSTEM_DEF(job)
 
 ///Lands specified mob at a random spot in the hallways
 /datum/controller/subsystem/job/proc/DropLandAtRandomHallwayPoint(mob/living/living_mob)
-	var/turf/spawn_turf = get_safe_random_station_turf(typesof(/area/hallway) - typesof(/area/hallway/secondary))
+	var/turf/spawn_turf = get_safe_random_station_turf(typesof(/area/station/public/hallway))
 	if(!spawn_turf)
 		return FALSE
 	var/obj/structure/closet/supplypod/centcompod/toLaunch = new()

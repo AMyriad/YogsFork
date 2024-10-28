@@ -68,7 +68,7 @@
 	. = ..()
 	if(!src)
 		return
-	if(istype(get_area(src.loc), /area/chapel)) //being a non-carbon will not save you!
+	if(istype(get_area(src.loc), /area/station/service/chapel)) //being a non-carbon will not save you!
 		if(src.stat != DEAD) //being dead, however, will save you
 			src.visible_message(span_warning("[src] begins to melt apart!"), span_danger("Your very soul melts from the holy room!"), "You hear sizzling.")
 			adjustHealth(20) //20 damage every ~2 seconds. About 20 seconds for a full HP demon to melt apart in the chapel.

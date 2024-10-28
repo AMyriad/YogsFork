@@ -153,11 +153,11 @@
 ///Checks whether a target atom is safe to deconstruct.
 /mob/living/simple_animal/hostile/swarmer/proc/environment_check(atom/target)
 	var/turf/target_area = get_area(target)
-	if(istype(target_area, /area/engine/supermatter))
+	if(istype(target_area, /area/station/engineering/supermatter))
 		to_chat(src, span_warning("Disrupting the containment of a supermatter crystal would not be to our benefit. Aborting."))
 		target = null
 		return FALSE
-	if(istype(target_area, /area/shuttle)) // some of you can't behave
+	if(istype(target_area, /area/external/shuttle)) // some of you can't behave
 		to_chat(src, span_warning("Preventing crew evacuation interferes with our goal. Aborting."))
 		target = null
 		return FALSE
@@ -173,7 +173,7 @@
 			target = null
 			return FALSE
 		var/datum/gas_mixture/turf_air = adjacent_turf.return_air()
-		if(turf_air.return_pressure() < HAZARD_LOW_PRESSURE || isspaceturf(adjacent_turf) || istype(get_area(adjacent_turf), /area/shuttle))
+		if(turf_air.return_pressure() < HAZARD_LOW_PRESSURE || isspaceturf(adjacent_turf) || istype(get_area(adjacent_turf), /area/external/shuttle))
 			to_chat(src, span_warning("Destroying this object has the potential to cause a hull breach. Aborting."))
 			target = null
 			return FALSE

@@ -153,11 +153,9 @@
 	if(A.outdoors)
 		return AREA_SPACE
 	var/list/SPECIALS = list(
-		/area/shuttle,
-		/area/centcom,
+		/area/external/shuttle,
+		/area/debug/admin,
 		/area/asteroid,
-		/area/centcom/tdome,
-		/area/centcom/wizard_station,
 		/area/hilbertshotel,
 		/area/hilbertshotelstorage
 	)

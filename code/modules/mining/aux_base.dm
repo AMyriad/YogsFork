@@ -9,10 +9,6 @@
 
 #define SCIENCE_AMOUNT 500 // How much science to generate per minute
 
-/area/shuttle/auxiliary_base
-	name = "Auxiliary Base"
-	luminosity = 0 //Lighting gets lost when it lands anyway
-
 /obj/machinery/computer/auxiliary_base
 	name = "auxiliary base management console"
 	desc = "Allows a deployable expedition base to be dropped from the station to a designated mining location. It can also \
@@ -348,7 +344,7 @@
 	dwidth = 3
 	width = 7
 	height = 5
-	area_type = /area/construction/mining/aux_base
+	area_type = /area/station/engineering/aux_base
 
 /obj/structure/mining_shuttle_beacon
 	name = "mining shuttle beacon"
@@ -437,7 +433,7 @@
 			SSshuttle.stationary_docking_ports.Remove(Mport)
 			qdel(Mport)
 			return
-		if(istype(get_area(L), /area/shuttle/auxiliary_base))
+		if(istype(get_area(L), /area/external/shuttle/station/aux_base))
 			to_chat(user, span_warning("The mining shuttle must not land within the mining base itself."))
 			SSshuttle.stationary_docking_ports.Remove(Mport)
 			qdel(Mport)

@@ -34,7 +34,9 @@
 		/obj/item/gun/ballistic/rifle/boltaction = 1
 	)
 	
-	lightup_areas = list(/area/quartermaster/qm)
+	lightup_areas = list(
+		/area/station/supply/quartermaster
+	)
 
 	smells_like = "cardboard"
 

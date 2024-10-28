@@ -36,14 +36,17 @@
 		/obj/item/camera_bug = 1
 	)
 
-	lightup_areas = list(/area/storage/tech, /area/science/robotics)
+	lightup_areas = list(
+		/area/station/station/science/robotics/lab,
+		/area/station/station/robotics/mech_bay
+	)
 	minimal_lightup_areas = list(
-		/area/science/explab,
-		/area/science/misc_lab,
-		/area/science/mixing,
-		/area/science/nanite,
-		/area/science/storage,
-		/area/science/xenobiology
+		/area/station/science/experimentation,
+		/area/station/science/aux_lab,
+		/area/station/science/toxins,
+		/area/station/science/toxins/storage,
+		/area/station/science/nanite,
+		/area/station/science/xenobiology
 	)
 	
 	smells_like = "slime"

@@ -262,7 +262,7 @@ GLOBAL_LIST_EMPTY(custom_shuttle_machines)		//Machines that require updating (He
 	if(!loggedTurfs)
 		return FALSE
 	//Create the new area
-	var/area/shuttle/custom/powered/newS
+	var/area/external/shuttle/debug/custom_powered/newS
 	var/area/oldA = loggedOldArea
 	var/str = stripped_input(user, "Shuttle Name:", "Blueprint Editing", "", MAX_NAME_LEN)
 	if(!str || !length(str))
@@ -281,7 +281,7 @@ GLOBAL_LIST_EMPTY(custom_shuttle_machines)		//Machines that require updating (He
 		user.create_area_cooldown = world.time + 10
 		return FALSE
 //Yogs End
-	newS = new /area/shuttle/custom/powered()
+	newS = new/area/external/shuttle/debug/custom/powered()
 	newS.setup(str)
 	//Shuttles always have gravity
 	newS.has_gravity = TRUE
@@ -367,7 +367,7 @@ GLOBAL_LIST_EMPTY(custom_shuttle_machines)		//Machines that require updating (He
 /obj/item/shuttle_creator/proc/add_saved_area(mob/user)
 	var/static/area_or_turf_fail_types = typecacheof(list(
 		/turf/open/space,
-		/area/shuttle
+		/area/external/shuttle
 		))
 	//Detect the turfs connected in the curerrent enclosed area
 	var/list/turfs = detect_room(get_turf(user), area_or_turf_fail_types)

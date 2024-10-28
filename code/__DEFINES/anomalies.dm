@@ -10,8 +10,8 @@
 #define ANOMALY_RADIATION_X "radiation_goat_anomaly"
 
 ///Defines for area allowances
-#define ANOMALY_AREA_BLACKLIST list(/area/ai_monitored/turret_protected/ai,/area/ai_monitored/turret_protected/ai_upload,/area/engine,/area/solar,/area/holodeck,/area/shuttle)
-#define ANOMALY_AREA_SUBTYPE_WHITELIST list(/area/engine/break_room)
+#define ANOMALY_AREA_BLACKLIST list(/area/station/ai_monitored/ai,/area/station/engineering,/area/station/external_power,/area/debug/holodeck,/area/external/shuttle)
+#define ANOMALY_AREA_SUBTYPE_WHITELIST list()
 
 ///Defines for the different types of explosion a flux anomaly can have
 #define ANOMALY_FLUX_NO_EXPLOSION 0

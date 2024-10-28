@@ -375,7 +375,7 @@
 
 /datum/martial_art/cqc/under_siege/proc/in_kitchen(mob/living/carbon/human/H)
 	var/area/A = get_area(H)
-	if(istype(A, /area/crew_quarters/kitchen))
+	if(istype(A, /area/station/service/kitchen))
 		return TRUE
 	return FALSE
 

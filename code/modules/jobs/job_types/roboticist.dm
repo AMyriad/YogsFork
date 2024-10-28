@@ -36,11 +36,13 @@
 		/obj/item/stack/ore/dilithium_crystal/refined = 5
 	)
 
-	lightup_areas = list(/area/science/mixing, /area/science/storage)
+	lightup_areas = list(
+		/area/station/science/research
+	)
 	minimal_lightup_areas = list(
-		/area/medical/morgue,
-		/area/science/robotics,
-		/area/storage/tech
+		/area/station/medical/morgue,
+		/area/station/science/robotics/lab,
+		/area/station/science/robotics/mech_bay
 	)
 	
 	smells_like = "burnt solder"

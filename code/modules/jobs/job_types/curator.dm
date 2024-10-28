@@ -38,8 +38,8 @@
 	)
 	
 	minimal_lightup_areas = list(
-		/area/library,
-		/area/construction/mining/aux_base
+		/area/station/service/library,
+		/area/station/engineering/aux_base
 	)
 
 	smells_like = "musty paper"

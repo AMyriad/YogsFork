@@ -238,7 +238,7 @@
 			var/obj/docking_port/mobile/M = A
 			if(M.launch_status == ENDGAME_TRANSIT)
 				for(var/place in M.shuttle_areas)
-					var/area/shuttle/shuttle_area = place
+					var/area/external/shuttle/shuttle_area = place
 					if(T in shuttle_area)
 						return TRUE
 
@@ -254,7 +254,7 @@
 		var/obj/docking_port/mobile/M = A
 		if(M.launch_status == ENDGAME_LAUNCHED)
 			for(var/place in M.shuttle_areas)
-				var/area/shuttle/shuttle_area = place
+				var/area/external/shuttle/shuttle_area = place
 				if(T in shuttle_area)
 					return TRUE
 
@@ -273,7 +273,7 @@
 	if(!is_centcom_level(T.z))//if not, don't bother
 		return FALSE
 
-	if(istype(T.loc, /area/shuttle/syndicate) || istype(T.loc, /area/centcom/syndicate_mothership) || istype(T.loc, /area/shuttle/assault_pod))
+	if(istype(T.loc, /area/debug/admin/gamemode/syndicate) || istype(T.loc, /area/external/shuttle/misc/nukeop_dropship) || istype(T.loc, /area/external/shuttle/misc/assault_pod || istype(T.loc, /area/external/shuttle/misc/infiltrator_cruiser)))
 		return TRUE
 
 	return FALSE

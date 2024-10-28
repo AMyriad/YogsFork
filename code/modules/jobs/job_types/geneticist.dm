@@ -34,11 +34,11 @@
 	)
 	
 	lightup_areas = list(
-		/area/medical/surgery,
-		/area/medical/virology,
-		/area/medical/chemistry
+		/area/station/medical/surgery,
+		/area/station/medical/virology/lab,
+		/area/station/medical/chemistry/lab
 	)
-	minimal_lightup_areas = list(/area/medical/morgue, /area/medical/genetics)
+	minimal_lightup_areas = list(/area/station/medical/morgue, /area/station/medical/genetics)
 
 	smells_like = "monkey hair"
 

@@ -45,7 +45,11 @@
 		/obj/effect/spawner/lootdrop/engineering_tool_alien = 1
 	)
 
-	minimal_lightup_areas = list(/area/crew_quarters/heads/chief, /area/engine/atmos)
+	minimal_lightup_areas = list(
+		/area/station/command/heads/ce,
+		/area/station/engineering/atmospherics,
+		/area/station/engineering/telecommunications
+	)
 
 	smells_like = "industry leadership"
 

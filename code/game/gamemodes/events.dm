@@ -1,7 +1,7 @@
 /proc/power_failure()
 	priority_announce("Abnormal activity detected in [station_name()]'s powernet. As a precautionary measure, the station's power will be shut off for an indeterminate duration.", "Critical Power Failure", ANNOUNCER_POWEROFF)
 	for(var/obj/machinery/power/smes/S in GLOB.machines)
-		if(istype(get_area(S), /area/ai_monitored/turret_protected) || !is_station_level(S.z))
+		if(istype(get_area(S), /area/station/ai_monitored/ai) || !is_station_level(S.z))
 			continue
 		S.charge = 0
 		S.output_level = 0
@@ -46,7 +46,7 @@
 	for(var/area/A in GLOB.the_station_areas)
 		if(!A.requires_power || A.always_unpowered)
 			continue
-		if(!istype(A, /area/shuttle))
+		if(!istype(A, /area/external/shuttle))
 			A.power_light = TRUE
 			A.power_equip = TRUE
 			A.power_environ = TRUE

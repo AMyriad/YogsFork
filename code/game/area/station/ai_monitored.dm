@@ -72,6 +72,7 @@
 	name = "AI Areas"
 	icon_state = "ai"
 	minimap_color = "#00fff6"
+	ambience_index = AMBIENCE_AI
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/ai_monitored/ai/core

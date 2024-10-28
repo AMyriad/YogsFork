@@ -39,7 +39,10 @@
 		///obj/item/storage/belt/holster/detective/full = 1
 	)
 	
-	minimal_lightup_areas = list(/area/medical/morgue, /area/security/detectives_office)
+	minimal_lightup_areas = list(
+		/area/station/medical/morgue,
+		/area/station/security/detective
+	)
 
 	smells_like = "whisky-soaked despair"
 

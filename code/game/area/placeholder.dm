@@ -1,7 +1,33 @@
 /*
+
+
+
+
+// RUINS
+/area/ruin/powered/sinden
+	name = "Den of Sin"
+	icon_state = "dk_yellow"
+
+/area/ruins/lavaland/powered/kinggoat_arena
+	name = "King Goat Arena"
+	area_flags = NOTELEPORT
+	icon_state = "dk_yellow"
+
+
+// CENTCOM
+/area/bluespace_locker
+	name = "Bluespace Locker"
+	icon_state = "away"
+	has_gravity = STANDARD_GRAVITY
+	area_flags = NOTELEPORT
+
+
+
+
+////////// FROM AWAY_CONTENT.DM
+/*
 Unused icons for new areas are "awaycontent1" ~ "awaycontent30"
 */
-
 
 // Away Missions
 /area/awaymission
@@ -20,12 +46,6 @@ Unused icons for new areas are "awaycontent1" ~ "awaycontent30"
 	requires_power = FALSE
 	has_gravity = STANDARD_GRAVITY
 	ambientsounds = list('sound/ambience/shore.ogg', 'sound/ambience/seag1.ogg','sound/ambience/seag2.ogg','sound/ambience/seag2.ogg','sound/ambience/ambiodd.ogg','sound/ambience/ambinice.ogg')
-
-/area/awaymission/errorroom
-	name = "Super Secret Room"
-	static_lighting = FALSE
-	base_lighting_alpha = 255
-	has_gravity = STANDARD_GRAVITY
 
 /area/awaymission/vr
 	name = "Virtual Reality"
@@ -61,3 +81,22 @@ Unused icons for new areas are "awaycontent1" ~ "awaycontent30"
 /area/awaymission/secret/powered/fullbright
 	static_lighting = FALSE
 	base_lighting_alpha = 255
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

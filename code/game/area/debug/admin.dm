@@ -24,6 +24,11 @@
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
+/area/debug/admin/error_room
+	name = "\improper Super Secret Room"
+	static_lighting = FALSE
+	base_lighting_alpha = 255
+
 /area/debug/admin/ctf
 	name = "\improper Capture The Flag"
 	icon_state = "yellow"

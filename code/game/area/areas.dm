@@ -163,7 +163,7 @@ GLOBAL_LIST_EMPTY(teleportlocs)
  */
 /proc/process_teleport_locs()
 	for(var/area/AR as anything in get_sorted_areas())
-		if(istype(AR, /area/shuttle) || (AR.area_flags & NOTELEPORT))
+		if(istype(AR, /area/external/shuttle) || (AR.area_flags & NOTELEPORT))
 			continue
 		if(GLOB.teleportlocs[AR.name])
 			continue
@@ -365,7 +365,7 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 	areas_in_z["[z]"] += src
 
 /area/proc/add_delta_areas()
-	if(is_station_level(z) && !istype(src, /area/shuttle) && !istype(src, /area/ruin) && !istype(src, /area/space))
+	if(is_station_level(z) && !istype(src, /area/external/shuttle) && !istype(src, /area/ruin) && !istype(src, /area/space))
 		GLOB.delta_areas += src
 
 /**

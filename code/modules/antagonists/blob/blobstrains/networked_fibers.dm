@@ -20,7 +20,7 @@
 			qdel(newB)
 	else
 		var/area/A = get_area(T)
-		if(!isspaceturf(T) && !istype(A, /area/shuttle))
+		if(!isspaceturf(T) && !istype(A, /area/external/shuttle))
 			for(var/obj/structure/blob/core/C in range(1, newB))
 				if(C.overmind == O)
 					newB.forceMove(get_turf(C))

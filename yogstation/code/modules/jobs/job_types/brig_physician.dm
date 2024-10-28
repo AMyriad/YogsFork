@@ -32,7 +32,9 @@
 
 	smells_like = "crimson guardianship"
 
-	minimal_lightup_areas = list(/area/medical/morgue)
+	minimal_lightup_areas = list(
+		/area/station/medical/morgue
+	)
 	
 	mail_goodies = list(
 		/obj/item/storage/firstaid/regular = 20,

@@ -550,7 +550,7 @@
 		if(!L.has_status_effect(STATUS_EFFECT_BRAZIL_PENANCE))
 			. = TRUE
 			to_chat(L, span_velvet("Get out of here, stalker."))
-			var/turf/safe_turf = get_safe_random_station_turf(typesof(/area/hallway) - typesof(/area/hallway/secondary)) //teleport back into a main hallway, secondary hallways include botany's techfab room which could trap someone
+			var/turf/safe_turf = get_safe_random_station_turf(typesof(/area/station/public/hallway))
 			if(safe_turf)
 				L.forceMove(safe_turf)
 				flash_color(L, flash_color = "#000000", flash_time = 10)
