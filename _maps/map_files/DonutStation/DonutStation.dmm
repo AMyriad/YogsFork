@@ -45173,7 +45173,7 @@
 /turf/open/floor/plasteel,
 /area/storage/primary)
 "sTl" = (
-/obj/machinery/vending/cart,
+/obj/machinery/vending/wardrobe/hop_wardrobe,
 /obj/machinery/airalarm{
 	dir = 8;
 	pixel_x = 24
