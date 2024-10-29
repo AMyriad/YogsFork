@@ -34,33 +34,33 @@
 
 /area/station/engineering/smes
 	name = "\improper Engineering SMES Chamber"
-	icon_state = "engine_smes"
+	icon_state = "eng_smes"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/gravity_generator
 	name = "\improper Gravity Generator"
-	icon_state = "grav_gen"
+	icon_state = "eng_gravity_gen"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	clockwork_warp_allowed = FALSE
 	clockwork_warp_fail = "The gravitons generated here could throw off your warp's destination and possibly throw you into deep space."
 
 /area/station/engineering/supermatter
 	name = "\improper Supermatter Engine"
-	icon_state = "engine_sm"
+	icon_state = "eng_sm"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/tech_storage
 	name = "\improper Tech Storage"
-	icon_state = "auxstorage"
+	icon_state = "eng_tech_storage"
 
 /area/station/engineering/construction
 	name = "\improper Construction Area"
-	icon_state = "yellow"
+	icon_state = "eng_construction"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/aux_base
 	name = "\improper Auxiliary Base Construction"
-	icon_state = "aux_base_construction"
+	icon_state = "eng_aux_base"
 
 
 //-- Atmospherics --//
