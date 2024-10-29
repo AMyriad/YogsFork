@@ -1,6 +1,6 @@
 /area/station/engineering
 	name = "Engineering Areas"
-	icon_state = "engineering_template"
+	icon_state = "eng"
 	minimap_color = "#f7de02"
 	airlock_wires = /datum/wires/airlock/engineering
 
@@ -12,24 +12,24 @@
 
 /area/station/engineering/main
 	name = "\improper Engineering Bay"
-	icon_state = "engine"
+	icon_state = "eng_main"
 
 /area/station/engineering/main/upper
 	name = "\improper Upper Engineering Bay"
-	icon_state = ""
+	icon_state = "eng_main_up"
 
 /area/station/engineering/main/lower
 	name = "\improper Lower Engineering Bay"
-	icon_state = ""
+	icon_state = "eng_main_low"
 
 /area/station/engineering/foyer
 	name = "\improper Engineering Foyer"
-	icon_state = "engine_foyer"
+	icon_state = "eng_foyer"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/production_bay
 	name = "\improper Engineering Production Bay"
-	icon_state = "engi_storage"
+	icon_state = "eng_production"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/smes
