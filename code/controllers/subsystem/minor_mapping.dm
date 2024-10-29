@@ -40,9 +40,10 @@ SUBSYSTEM_DEF(minor_mapping)
 /datum/controller/subsystem/minor_mapping/proc/place_satchels(satchel_amount = 10)
 	var/list/turfs = find_satchel_suitable_turfs()
 	///List of areas where satchels should not be placed.
-	var/list/blacklisted_area_types = list(
-		/area/holodeck,
-		)
+	var/list/blacklisted_area_types = typecacheof(list(
+		/area/debug/holodeck,
+		/area/external
+		))
 
 	while(turfs.len && satchel_amount > 0)
 		var/turf/turf = pick_n_take(turfs)

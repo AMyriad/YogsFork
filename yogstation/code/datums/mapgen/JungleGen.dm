@@ -268,7 +268,7 @@
 		if(istype(generated_terrain,/turf/open/floor/plating/dirt/jungleland))
 			var/turf/open/floor/plating/dirt/jungleland/J = generated_terrain
 			J.ore_present = ore_map[world.maxx * (gen_turf.y - 1) + gen_turf.x]
-		var/area/jungleland/jungle_area = selected_biome.this_area
+		var/area/external/mining/jungleland/jungle_area = selected_biome.this_area
 		var/area/old_area = generated_terrain.loc
 		generated_terrain.change_area(old_area, jungle_area)
 		CHECK_TICK

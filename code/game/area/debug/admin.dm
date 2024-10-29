@@ -43,7 +43,13 @@
 	var/turf/origin
 
 /area/debug/admin/holding_restaurant
-	name = "\improper Hidama-ya Café" // A hidden place, away in space
+	name = "\improper Hidama-ya Café" // A hidden place, away in space...
+
+/area/debug/admin/bluespace_locker
+	name = "\improper Bluespace Locker"
+	icon_state = "away"
+	requires_power = TRUE
+	static_lighting = FALSE
 
 
 //-- Centcom Station --//
@@ -77,7 +83,7 @@
 	icon_state = ""
 
 /area/debug/admin/centcom/prison
-	name = "\improper Admin Prison"
+	name = "\improper CentCom Prison"
 	icon_state = ""
 
 /area/debug/admin/centcom/capitalism
@@ -101,6 +107,11 @@
 /area/debug/admin/centcom/supplypod/storage
 	name = "\improper Supply Pod Storage"
 	icon_state = "supplypod_holding"
+
+/area/debug/admin/centcom/supplypod/storage/Initialize(mapload) // temp_pod holding area
+	. = ..()
+	var/obj/imgbound = locate() in locate(200,SUPPLYPOD_X_OFFSET*-4.5, 1)
+	call(GLOB.podlauncher, "RegisterSignal")(imgbound, "ct[GLOB.podstyles[14][9]]", "[GLOB.podstyles[14][10]]dlauncher")
 
 /area/debug/admin/centcom/supplypod/loading
 	name = "Payload Loading Areas"

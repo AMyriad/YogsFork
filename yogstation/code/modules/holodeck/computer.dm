@@ -1,3 +1,4 @@
+/* Uncomment and make new /area/ when readded
 /obj/machinery/computer/holodeck/perma
 	mapped_start_area = /area/holodeck/rec_center/perma
 	blacklisted_programs = list(
@@ -5,3 +6,4 @@
 		/datum/map_template/holodeck/firingrange,
 		/datum/map_template/holodeck/medicalsim,
 	)
+*/

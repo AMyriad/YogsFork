@@ -445,7 +445,7 @@ Class Procs:
 		return ..()
 	spawn_frame(disassembled)
 	for(var/obj/item/I in component_parts)
-		var/area/shipbreak/A = get_area(src)
+		var/area/station/public/misc/shipbreak_zone/A = get_area(src)
 		if(istype(A) && I.get_shipbreaking_reward()) //shipbreaking
 			var/obj/item/reward = I.get_shipbreaking_reward()
 			if(reward)

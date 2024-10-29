@@ -901,7 +901,7 @@ GLOBAL_LIST_EMPTY(possible_items_special)
 	if(..())
 		return TRUE
 	var/captured_amount = 0
-	var/area/centcom/holding/A = GLOB.areas_by_type[/area/centcom/holding]
+	var/area/debug/admin/holding_restaurant/A = GLOB.areas_by_type[/area/debug/admin/holding_restaurant]
 	for(var/mob/living/carbon/human/M in A)//Humans.
 		if(!istype(src,/datum/objective/capture/living) && M.stat == DEAD)
 			captured_amount+= 0.5

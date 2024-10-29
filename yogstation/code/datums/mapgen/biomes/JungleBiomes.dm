@@ -15,7 +15,7 @@
 
 	/// If mobs can be spawned on closed_turf tiles
 	var/spawn_fauna_on_closed = FALSE
-	var/area/jungleland/this_area = /area/jungleland
+	var/area/external/mining/jungleland/this_area = /area/external/mining/jungleland
 
 /datum/biome/jungleland/New()
 	. = ..()
@@ -69,7 +69,7 @@
 		/mob/living/simple_animal/hostile/asteroid/yog_jungle/skin_twister = 1,
 		)
 
-	this_area = /area/jungleland/tar_wastes
+	this_area = /area/external/mining/jungleland/unexplored/tar_wastes
 
 /**
  * Dry swamp
@@ -110,7 +110,7 @@
 	fauna_density = 0.4
 
 	spawn_fauna_on_closed = TRUE
-	this_area = /area/jungleland/dry_swamp
+	this_area = /area/external/mining/jungleland/unexplored/dry_swamp
 
 /**
  * Toxic pit
@@ -150,7 +150,7 @@
 	fauna_density = 0.7
 
 	spawn_fauna_on_closed = TRUE
-	this_area = /area/jungleland/toxic_pit
+	this_area = /area/external/mining/jungleland/unexplored/toxic_pit
 
 /**
  * Dying forest
@@ -182,7 +182,7 @@
 		/mob/living/simple_animal/hostile/asteroid/yog_jungle/skin_twister = 1
 		)
 	fauna_density = 0.8
-	this_area = /area/jungleland/dying_forest
+	this_area = /area/external/mining/jungleland/unexplored/dying_forest
 
 /**
  * Jungle
@@ -225,4 +225,4 @@
 		/mob/living/simple_animal/hostile/asteroid/yog_jungle/skin_twister = 1,
 		)
 	fauna_density = 0.65
-	this_area = /area/jungleland/proper
+	this_area = /area/external/mining/jungleland/unexplored

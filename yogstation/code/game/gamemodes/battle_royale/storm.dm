@@ -45,7 +45,7 @@
 	name = "royale start" //roundstart wave, just hits solars, toxins test area, space, and any shuttles
 	areasToWeather = list(/area/station/science/toxins/testing_site)
 	areaTypesToWeather = list(/area/station/external_power, /area/space, /area/asteroid, /area/external/mining/icemoon, /area/external/shuttle)
-	areaIgnore = list(/area/external/shuttle/supply)//but not the supply shuttle just yet
+	areaIgnore = list(/area/external/shuttle/station/supply)//but not the supply shuttle just yet
 
 /datum/weather/royale/maint
 	name = "royale maint" //First wave, hits maintenance

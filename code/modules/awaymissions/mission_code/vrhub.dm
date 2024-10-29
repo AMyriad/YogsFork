@@ -1,6 +1,6 @@
 /area/awaymission/vr/general
 	name = "Virtual Reality Forbidden Zone"
-	death = TRUE
+	//death = TRUE
 
 /area/awaymission/vr/hub
 	name = "Virtual Reality Hub Area"
@@ -11,12 +11,12 @@
 /area/awaymission/vr/hub/boxing
 	name = "Virtual Reality Boxing Ring"
 	icon_state = "awaycontent9"
-	pacifist = FALSE
+	//pacifist = FALSE
 
 /area/awaymission/vr/syndicate
 	name = "Virtual Reality Syndicate Trainer"
 	icon_state = "awaycontent6"
-	pacifist = FALSE
+	//pacifist = FALSE
 
 /obj/effect/portal/permanent/one_way/recall
 	name = "recall portal"

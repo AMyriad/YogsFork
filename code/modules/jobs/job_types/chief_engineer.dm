@@ -48,7 +48,7 @@
 	minimal_lightup_areas = list(
 		/area/station/command/heads/ce,
 		/area/station/engineering/atmospherics,
-		/area/station/engineering/telecommunications
+		/area/station/engineering/telecomms
 	)
 
 	smells_like = "industry leadership"

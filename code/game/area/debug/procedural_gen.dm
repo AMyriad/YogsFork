@@ -8,7 +8,7 @@
 	/// If there's other areas on the same z-level that share a generator, their turfs will be aggregated together into a combined working area
 	var/shared_generator_initialized = FALSE
 
-/area/procedural_gen/RunGeneration()
+/area/debug/procedural_gen/RunGeneration()
 	if(ispath(map_generator))
 		map_generator = new map_generator(src)
 		map_generator.combine_local_areas()

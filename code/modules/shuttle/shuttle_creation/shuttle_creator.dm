@@ -281,7 +281,7 @@ GLOBAL_LIST_EMPTY(custom_shuttle_machines)		//Machines that require updating (He
 		user.create_area_cooldown = world.time + 10
 		return FALSE
 //Yogs End
-	newS = new/area/external/shuttle/debug/custom/powered()
+	newS = new/area/external/shuttle/debug/custom_powered()
 	newS.setup(str)
 	//Shuttles always have gravity
 	newS.has_gravity = TRUE
@@ -330,8 +330,8 @@ GLOBAL_LIST_EMPTY(custom_shuttle_machines)		//Machines that require updating (He
 			return FALSE
 		if(istype(place, /area/space))
 			overwritten_area = /area/space
-		else if(istype(place, /area/lavaland/surface/outdoors))
-			overwritten_area = /area/lavaland/surface/outdoors
+		else if(istype(place, /area/external/mining/lavaland/explored))
+			overwritten_area = /area/external/mining/lavaland/explored
 		else if(ignore_area)
 			overwritten_area = place
 		else

@@ -240,9 +240,9 @@
 			var/turf/place = colony_turfs[i]
 			if(!place)
 				return BAD_COORDS
-			if(istype(place.loc, /area/icemoon/surface))
+			if(istype(place.loc, /area/external/mining/icemoon/surface))
 				return BAD_LAYER
-			if(!istype(place.loc, /area/lavaland/surface) && !istype(place.loc, /area/icemoon/underground) && !(istype(place.loc, /area/jungleland) && !istype(place.loc, /area/jungleland/explored)) )
+			if(!istype(place.loc, /area/external/mining/lavaland) && !istype(place.loc, /area/external/mining/icemoon/underground) && !(istype(place.loc, /area/external/mining/jungleland)) )
 				return BAD_AREA
 			if(disallowed_turf_types[place.type])
 				return BAD_TURF

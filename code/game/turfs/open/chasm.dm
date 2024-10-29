@@ -135,4 +135,4 @@
 	can_atmos_pass = ATMOS_PASS_NO
 
 /turf/open/chasm/magic/apply_components(mapload)
-	AddComponent(/datum/component/chasm, pick(get_area_turfs(/area/centcom/fabric_of_reality)), mapload)
+	AddComponent(/datum/component/chasm, pick(get_area_turfs(/area/debug/admin/reality)), mapload)

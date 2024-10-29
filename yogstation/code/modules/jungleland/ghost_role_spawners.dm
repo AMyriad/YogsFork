@@ -100,7 +100,7 @@
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	resistance_flags = NONE
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 60, RAD = 0, FIRE = 80, ACID = 50, ELECTRIC = 100)
-	enabled_areas = list(/area/ruin/powered/syndicate_lava_base)
+	enabled_areas = list(/area/ruins/lavaland/syndicate)
 
 /obj/effect/mob_spawn/human/greedydemon
 	name = "Red Sleeper"

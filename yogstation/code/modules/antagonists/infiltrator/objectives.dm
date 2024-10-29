@@ -1,7 +1,7 @@
 #define MIN_POWER_DRAIN 25000000
 #define MAX_POWER_DRAIN 100000000
 
-GLOBAL_LIST_INIT(infiltrator_kidnap_areas, typecacheof(list(/area/external/shuttle/misc/infiltrator_cruiser, /area/debug/admin/syndicate/infiltrator_main)))
+GLOBAL_LIST_INIT(infiltrator_kidnap_areas, typecacheof(list(/area/external/shuttle/misc/infiltrator_cruiser, /area/debug/admin/gamemode/syndicate/infiltrator_main)))
 
 /datum/objective/infiltrator
 	explanation_text = "Generic Infiltrator Objective!"

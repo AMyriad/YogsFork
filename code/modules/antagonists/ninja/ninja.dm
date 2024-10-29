@@ -143,7 +143,7 @@ GLOBAL_LIST_EMPTY(ninja_capture)
 
 /datum/antagonist/ninja/proc/on_death()
 	for(var/mob/L in GLOB.ninja_capture)
-		if(get_area(L) == GLOB.areas_by_type[/area/centcom/holding])
+		if(get_area(L) == GLOB.areas_by_type[/area/debug/admin/holding_restaurant])
 			if(!L)
 				continue
 			var/atom/movable/target = L

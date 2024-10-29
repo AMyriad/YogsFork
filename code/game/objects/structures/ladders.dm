@@ -265,7 +265,7 @@
 	desc = "Where does it go?"
 	height = 0
 	id = "lavaland_binary"
-	var/area_to_place = /area/lavaland/surface/outdoors
+	var/area_to_place = /area/external/mining/lavaland
 	var/active = FALSE
 
 /obj/structure/ladder/unbreakable/binary/proc/ActivateAlmonds()

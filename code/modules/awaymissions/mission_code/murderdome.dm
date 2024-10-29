@@ -1,7 +1,7 @@
 /area/awaymission/vr/murderdome
 	name = "Murderdome"
 	icon_state = "awaycontent8"
-	pacifist = FALSE
+	//pacifist = FALSE
 
 /obj/structure/window/reinforced/fulltile/indestructable
 	name = "robust window"

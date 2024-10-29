@@ -533,7 +533,7 @@
 	hidden = TRUE
 	override_can_dock_checks = TRUE
 	/// The area the pod tries to land at
-	var/target_area = /area/lavaland/surface/outdoors
+	var/target_area = /area/external/mining/lavaland/unexplored
 	/// Minimal distance from the map edge, setting this too low can result in shuttle landing on the edge and getting "sliced"
 	var/edge_distance = 16
 
@@ -562,7 +562,7 @@
 
 
 /obj/docking_port/stationary/random/icemoon
-	target_area = /area/icemoon/surface/outdoors/unexplored/danger
+	target_area = /area/external/mining/icemoon/surface/unexplored
 //Pod suits/pickaxes
 
 

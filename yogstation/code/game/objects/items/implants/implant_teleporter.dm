@@ -103,37 +103,37 @@
 	retrievalmessage = "Employee retrieval complete."
 
 /obj/item/implant/teleporter/gasclerk
-	pointofreturn = /area/ruin/powered/gasstation //for some reason it does not teleport them back to lavaland so I did this to fix it lets just say the gas station clerks implant is a older module
+	pointofreturn = /area/ruins/lavaland/powered/gasstation
 	usewhitelist = TRUE
 	retrievalmessage = "Employee retrieval complete."
 
 /obj/item/implant/teleporter/innkeeper
-	pointofreturn = /area/ruin/powered/inn
+	pointofreturn = /area/ruins/icemoon/powered/inn
 	usewhitelist = TRUE
 	retrievalmessage = "Safety retrieval complete."
 
 /obj/item/implant/teleporter/syndicate_icemoon
-	pointofreturn = /area/ruin/syndicate_icemoon
+	pointofreturn = /area/ruins/icemoon/syndicate_icemoon
 	usewhitelist = TRUE
 	retrievalmessage = "Agent retrieval complete."
 
 /obj/item/implant/teleporter/syndicate_lavaland
-	pointofreturn = /area/ruin/powered/syndicate_lava_base
+	pointofreturn = /area/ruins/lavaland/syndicate
 	usewhitelist = TRUE
 	retrievalmessage = "Agent retrieval complete."
 
 /obj/item/implant/teleporter/syndicate_listening_post
-	pointofreturn = /area/ruin/space/has_grav/listeningstation
+	//pointofreturn = /area/ruins/space/listeningstation FIX BEFORE MERGE
 	usewhitelist = TRUE
 	retrievalmessage = "Agent retrieval complete."
 
 /obj/item/implant/teleporter/syndicate_engineer
-	pointofreturn = /area/ruin/space/has_grav/syndiederelict
+	//pointofreturn = /area/ruins/space/syndiederelict FIX BEFORE MERGE
 	usewhitelist = TRUE
 	retrievalmessage = "Agent retrieval complete."
 
 /obj/item/implant/teleporter/demon
-	pointofreturn = /area/ruin/powered/sinden
+	pointofreturn = /area/ruins/jungleland/powered/sinden
 	usewhitelist = TRUE
 	punishment = TRUE
 	punishment_damage = 50

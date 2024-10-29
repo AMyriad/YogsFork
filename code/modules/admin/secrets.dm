@@ -89,7 +89,7 @@
 			log_admin("[key_name(holder)] reset the thunderdome to default with delete_mobs marked as [delete_mobs].")
 			message_admins(span_adminnotice("[key_name_admin(holder)] reset the thunderdome to default with delete_mobs marked as [delete_mobs]."))
 
-			var/area/thunderdome = GLOB.areas_by_type[/area/centcom/tdome/arena]
+			var/area/thunderdome = GLOB.areas_by_type[/area/debug/admin/centcom/thunderdome/main]
 			if(delete_mobs == "Yes")
 				for(var/mob/living/mob in thunderdome)
 					qdel(mob) //Clear mobs

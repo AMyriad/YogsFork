@@ -7,8 +7,8 @@ GLOBAL_LIST_INIT(original_command_positions, list(
 	"Chief Medical Officer"))
 
 GLOBAL_LIST_INIT(command_lightup_areas, typecacheof(list(
-	/area/station/station/command,
-	/area/station/station/security/main,
+	/area/station/command,
+	/area/station/security/main,
 )))
 
 GLOBAL_LIST_INIT(original_engineering_positions, list(
@@ -21,12 +21,12 @@ GLOBAL_LIST_INIT(engineering_lightup_areas, typecacheof(list(
 	/area/station/engineering,
 	/area/station/security/post/engineering,
 	/area/station/external_power,
-	/area/station/public/vacant
+	/area/station/public/vacant,
 	)) - typecacheof(list(
-	/area/station/engine/atmospherics,
-	/area/station/engine/telecomms,
-	/area/station/engine/gravity_generator,
-	/area/station/engine/smes
+	/area/station/engineering/atmospherics,
+	/area/station/engineering/telecomms,
+	/area/station/engineering/gravity_generator,
+	/area/station/engineering/smes,
 )))
 
 GLOBAL_LIST_INIT(original_medical_positions, list(
@@ -42,13 +42,13 @@ GLOBAL_LIST_INIT(original_medical_positions, list(
 
 GLOBAL_LIST_INIT(medical_lightup_areas, typecacheof(list(
 	/area/station/medical,
-	/area/station/security/post/medical
+	/area/station/security/post/medical,
 	)) - typecacheof(list(
 	/area/station/medical/chemistry,
 	/area/station/medical/genetics,
 	/area/station/medical/morgue,	
 	/area/station/medical/surgery,	
-	/area/station/medical/virology
+	/area/station/medical/virology,
 )))
 
 GLOBAL_LIST_INIT(original_science_positions, list(
@@ -58,7 +58,7 @@ GLOBAL_LIST_INIT(original_science_positions, list(
 
 GLOBAL_LIST_INIT(science_lightup_areas, typecacheof(list(
 	/area/station/science,
-	/area/station/security/post/science
+	/area/station/security/post/science,
 	)) - typecacheof(list(
 	/area/station/science/research,
 	/area/station/science/aux_lab,
@@ -66,7 +66,7 @@ GLOBAL_LIST_INIT(science_lightup_areas, typecacheof(list(
 	/area/station/science/nanite,
 	/area/station/science/robotics,
 	/area/station/science/server,
-	/area/station/science/xenobiology
+	/area/station/science/xenobiology,
 )))
 
 GLOBAL_LIST_INIT(original_supply_positions, list(
@@ -76,10 +76,10 @@ GLOBAL_LIST_INIT(original_supply_positions, list(
 	"Shaft Miner"))
 
 GLOBAL_LIST_INIT(supply_lightup_areas, typecacheof(list(
-	/area/station/supply
-	/area/station/security/post/supply
+	/area/station/supply,
+	/area/station/security/post/supply,
 	)) - typecacheof(list(
-	/area/station/supply/quartermaster
+	/area/station/supply/quartermaster,
 )))
 
 GLOBAL_LIST_INIT(original_civilian_positions, list(
@@ -104,13 +104,12 @@ GLOBAL_LIST_INIT(original_security_positions, list(
 	"Security Officer"))
 
 GLOBAL_LIST_INIT(security_lightup_areas, typecacheof(list(
-	/area/station/security
+	/area/station/security,
 	)) - typecacheof(list(
 	/area/station/security/detective,
 	/area/station/security/warden,
-	/area/station/ai_monitored/general/vault
-	))
-)
+	/area/station/ai_monitored/general/vault,
+	)))
 
 GLOBAL_LIST_INIT(original_nonhuman_positions, list(
 	"AI",

@@ -25,7 +25,7 @@
 
 				//high dirt - 1/3 chance.
 	var/static/list/high_dirt_areas = typecacheof(list(
-		/area/station/science/toxins/test_area,
+		/area/station/science/toxins/testing_site,
 		/area/external/mining/base,
 		/area/external/mining/labor,
 		/area/station/public/vacant,
@@ -46,7 +46,7 @@
 		/area/station/science/robotics,
 		/area/station/maintenance,
 		/area/debug/procedural_gen/maintenance,
-		/area/public/vacant,
+		/area/station/public/vacant,
 		/area/external/survival_pod,
 	))
 	if(is_type_in_typecache(A, engine_dirt_areas))
@@ -64,7 +64,7 @@
 
 		//Bathrooms. Blood, vomit, and shavings in the sinks.
 	var/static/list/bathroom_dirt_areas = typecacheof(list(
-		/area/public/misc/restrooms,
+		/area/station/public/misc/restrooms,
 	))
 	if(is_type_in_typecache(A, bathroom_dirt_areas))
 		if(prob(40))

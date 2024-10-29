@@ -1,25 +1,23 @@
+/area/awaymission/vr
+	name = "Virtual Reality"
+	icon_state = "awaycontent1"
+	requires_power = FALSE
+	base_lighting_alpha = 255
+	var/pacifist = TRUE // if when you enter this zone, you become a pacifist or not
+	var/death = FALSE // if when you enter this zone, you die
+
 /*
 
 
 
 
 // RUINS
-/area/ruin/powered/sinden
-	name = "Den of Sin"
-	icon_state = "dk_yellow"
+
 
 /area/ruins/lavaland/powered/kinggoat_arena
 	name = "King Goat Arena"
 	area_flags = NOTELEPORT
 	icon_state = "dk_yellow"
-
-
-// CENTCOM
-/area/bluespace_locker
-	name = "Bluespace Locker"
-	icon_state = "away"
-	has_gravity = STANDARD_GRAVITY
-	area_flags = NOTELEPORT
 
 
 
@@ -46,14 +44,6 @@ Unused icons for new areas are "awaycontent1" ~ "awaycontent30"
 	requires_power = FALSE
 	has_gravity = STANDARD_GRAVITY
 	ambientsounds = list('sound/ambience/shore.ogg', 'sound/ambience/seag1.ogg','sound/ambience/seag2.ogg','sound/ambience/seag2.ogg','sound/ambience/ambiodd.ogg','sound/ambience/ambinice.ogg')
-
-/area/awaymission/vr
-	name = "Virtual Reality"
-	icon_state = "awaycontent1"
-	requires_power = FALSE
-	base_lighting_alpha = 255
-	var/pacifist = TRUE // if when you enter this zone, you become a pacifist or not
-	var/death = FALSE // if when you enter this zone, you die
 
 /area/awaymission/secret
 	area_flags = NOTELEPORT

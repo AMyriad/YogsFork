@@ -246,7 +246,7 @@
 		return FALSE
 
 	//Check for centcom itself
-	if(istype(T.loc, /area/centcom))
+	if(istype(T.loc, /area/debug/admin/centcom))
 		return TRUE
 
 	//Check for centcom shuttles

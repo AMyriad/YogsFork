@@ -119,7 +119,7 @@
 	name = "\improper Labor Camp Grounds"
 	icon_state = ""
 
-// Put this in areas where we don't want megafauna and useful flora to spawn like near the labor camp
+// Put this in areas where we don't want megafauna, ruins, or useful flora to spawn like near the labor camp
 /area/external/mining/lavaland/light_unexplored
 	name = "\improper Lavaland Wastes"
 	icon_state = "unexplored"
@@ -211,6 +211,13 @@
 
 	static_lighting = TRUE
 	uses_daylight = TRUE
+
+/area/external/mining/jungleland/pregen // Used in biome gen
+	name = "Pregen Space"
+	icon = 'yogstation/icons/turf/floors/jungle.dmi'
+	icon_state = "pregen"
+	map_generator = /datum/map_generator/jungleland
+	base_lighting_alpha = 255
 
 /area/external/mining/jungleland/explored
 	name = "\improper Jungle Wilderness"

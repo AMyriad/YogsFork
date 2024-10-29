@@ -126,7 +126,7 @@
 /area/external/shuttle/debug/custom
 	name = "\improper Custom Shuttle"
 
-/area/external/shuttle/debug/custom/power // Not /powered to avoid overlap with a proc
+/area/external/shuttle/debug/custom_powered
 	name = "\improper Custom Powered Shuttle"
 	requires_power = FALSE
 

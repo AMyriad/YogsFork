@@ -19,6 +19,9 @@
 /area/ruins/jungleland/powered/generic
 	name = "\improper Unidentified Location"
 
+/area/ruins/jungleland/powered/sinden
+	name = "\improper Den of Sin"
+
 
 //-- Unpowered --//
 

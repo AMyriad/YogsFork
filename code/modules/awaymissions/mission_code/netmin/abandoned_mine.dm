@@ -1,7 +1,7 @@
 /area/awaymission/vr/abandoned_mine
 	name = "Abandoned Mine"
 	icon_state = "awaycontent5"
-	pacifist = FALSE
+	//pacifist = FALSE
 
 
 /obj/item/paper/pamphlet/away/safety_pamphlet

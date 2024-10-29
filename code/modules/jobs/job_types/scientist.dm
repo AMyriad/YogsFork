@@ -37,8 +37,8 @@
 	)
 
 	lightup_areas = list(
-		/area/station/station/science/robotics/lab,
-		/area/station/station/robotics/mech_bay
+		/area/station/science/robotics/lab,
+		/area/station/science/robotics/mech_bay
 	)
 	minimal_lightup_areas = list(
 		/area/station/science/experimentation,

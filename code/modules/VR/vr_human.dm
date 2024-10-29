@@ -45,12 +45,12 @@
 	var/area/check = get_area(src)
 	if(!check)
 		return
-	if(!istype(check, /area/awaymission/vr))
+	if(!istype(check, /area/awaymission/vr))  // FIX BEFORE MERGE
 		to_chat(src, span_userdanger("It is unwise to attempt to break Virtual Reality."))
 		playsound(src, 'sound/effects/supermatter.ogg', 50, 1)
 		dust()
 		return
-	var/area/awaymission/vr/A = check
+	var/area/awaymission/vr/A = check  // FIX BEFORE MERGE
 	if(A.death)
 		to_chat(src, span_userdanger("It is unwise to attempt to break Virtual Reality."))
 		playsound(src, 'sound/effects/supermatter.ogg', 50, 1)

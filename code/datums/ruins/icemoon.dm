@@ -5,7 +5,7 @@
 	allow_duplicates = FALSE
 	cost = 5
 	ruin_type = ZTRAIT_ICE_RUINS
-	default_area = /area/icemoon/surface/outdoors/unexplored
+	default_area = /area/external/mining/icemoon/underground/unexplored
 	has_ceiling = TRUE
 	ceiling_turf = /turf/closed/mineral/snowmountain/do_not_chasm
 	ceiling_baseturfs = list(/turf/open/floor/plating/asteroid/snow/icemoon/do_not_chasm)
@@ -98,7 +98,7 @@
 /datum/map_template/ruin/icemoon/underground
 	name = "underground ruin"
 	ruin_type = ZTRAIT_ICE_RUINS_UNDERGROUND
-	default_area = /area/icemoon/underground/unexplored
+	default_area = /area/external/mining/icemoon/underground/unexplored
 
 /datum/map_template/ruin/icemoon/underground/abandonedvillage
 	name = "Abandoned Village"

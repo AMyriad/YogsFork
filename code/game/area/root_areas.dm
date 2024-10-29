@@ -5,7 +5,7 @@
 
 
 * BASE TYPES
-*	These are the ROOTS for all main area types
+*	These are the ROOT for all main area types
 *	We organize areas like this to keep the work tree in map editors nice and pretty :]
 *
 *	Quickref:

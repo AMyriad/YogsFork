@@ -7,17 +7,6 @@ Nitrogen: 78.85 % (164 mol)
 Temperature: 126.85 °C (400 K)
 */
 
-
-/area/pregen
-	name = "Pregenerated Space"
-	icon = 'yogstation/icons/turf/floors/jungle.dmi'
-	icon_state = "pregen"
-	map_generator = /datum/map_generator/jungleland
-	static_lighting = FALSE
-
-	base_lighting_alpha = 255
-	has_gravity = TRUE
-
 /turf/open/floor/plating/dirt/jungleland
 	name = "generic jungle land turf"
 	desc = "pain"

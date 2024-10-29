@@ -198,7 +198,7 @@
 		/area/station/security,
 		/area/station/ai_monitored/general/armory,
 		/area/external/mining/labor,
-		/area/station/shuttle/station/labor,
+		/area/external/shuttle/station/labor,
 		/area/station/command/heads/hos
 		)
 

@@ -108,7 +108,7 @@
 		var/walked_color = hsl_gradient(i/5, 0, start_color, 1, end_color)
 		var/walked_range = LERP(start_range, end_range, i/5)
 		var/walked_power = LERP(start_power, end_power, i/5)
-		for(var/station/service/kitchen/affected_area in GLOB.areas)
+		for(var/area/station/service/kitchen/affected_area in GLOB.areas)
 			for(var/turf/open/kitchen_floor in affected_area.get_turfs_from_all_zlevels())
 				kitchen_floor.set_light(walked_range, walked_power, walked_color)
 		sleep(8 SECONDS)

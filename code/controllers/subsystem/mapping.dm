@@ -144,12 +144,12 @@ SUBSYSTEM_DEF(mapping)
 	var/list/jungle_ruins = levels_by_trait(ZTRAIT_JUNGLE_RUINS)
 	//this is really fuckign hacky, but we need to have a very specific order for these things, and if jungleland isn't even being loaded then i dont fucking care.
 	if(jungle_ruins.len)
-		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/pregen), jungleland_general_ruins_templates, clear_below = TRUE)
+		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/external/mining/jungleland/pregen), jungleland_general_ruins_templates, clear_below = TRUE)
 		run_map_generation()
-		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/jungleland/proper), jungleland_proper_ruins_templates, clear_below = TRUE)
-		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/jungleland/dying_forest), jungleland_dying_ruins_templates, clear_below = TRUE)
-		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/jungleland/toxic_pit), jungleland_swamp_ruins_templates, clear_below = TRUE)
-		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/jungleland/tar_wastes), jungleland_tar_ruins_templates, clear_below = TRUE)
+		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/external/mining/jungleland/unexplored), jungleland_proper_ruins_templates, clear_below = TRUE)
+		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/external/mining/jungleland/unexplored/dying_forest), jungleland_dying_ruins_templates, clear_below = TRUE)
+		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/external/mining/jungleland/unexplored/toxic_pit), jungleland_swamp_ruins_templates, clear_below = TRUE)
+		seedRuins(jungle_ruins, CONFIG_GET(number/jungleland_budget), list(/area/external/mining/jungleland/unexplored/tar_wastes), jungleland_tar_ruins_templates, clear_below = TRUE)
 	else
 		run_map_generation()
 	//YOGS EDIT
@@ -182,18 +182,18 @@ SUBSYSTEM_DEF(mapping)
 	loading_ruins = TRUE
 	var/list/lava_ruins = levels_by_trait(ZTRAIT_LAVA_RUINS)
 	if (lava_ruins.len)
-		seedRuins(lava_ruins, CONFIG_GET(number/lavaland_budget), list(/area/lavaland/surface/outdoors/unexplored), lava_ruins_templates, clear_below = TRUE)
+		seedRuins(lava_ruins, CONFIG_GET(number/lavaland_budget), list(/area/external/mining/lavaland/unexplored), lava_ruins_templates, clear_below = TRUE)
 		for (var/lava_z in lava_ruins)
 			spawn_rivers(lava_z)
 
 	var/list/ice_ruins = levels_by_trait(ZTRAIT_ICE_RUINS)
 	if (ice_ruins.len)
 		// needs to be whitelisted for underground too so place_below ruins work
-		seedRuins(ice_ruins, CONFIG_GET(number/icemoon_budget), list(/area/icemoon/surface/outdoors/unexplored, /area/icemoon/underground/unexplored), ice_ruins_templates, clear_below = TRUE)
+		seedRuins(ice_ruins, CONFIG_GET(number/icemoon_budget), list(/area/external/mining/icemoon/surface/unexplored, /area/external/mining/icemoon/underground/unexplored), ice_ruins_templates, clear_below = TRUE)
 
 	var/list/ice_ruins_underground = levels_by_trait(ZTRAIT_ICE_RUINS_UNDERGROUND)
 	if (ice_ruins_underground.len)
-		seedRuins(ice_ruins_underground, CONFIG_GET(number/icemoon_budget), list(/area/icemoon/underground/unexplored), ice_ruins_underground_templates, clear_below = TRUE)
+		seedRuins(ice_ruins_underground, CONFIG_GET(number/icemoon_budget), list(/area/external/mining/icemoon/underground/unexplored), ice_ruins_underground_templates, clear_below = TRUE)
 
 	// Generate deep space ruins
 	var/list/space_ruins = levels_by_trait(ZTRAIT_SPACE_RUINS)
@@ -497,7 +497,7 @@ SUBSYSTEM_DEF(mapping)
 GLOBAL_LIST_EMPTY(the_station_areas)
 
 /datum/controller/subsystem/mapping/proc/generate_station_area_list()
-	var/list/station_areas_blacklist = typecacheof(list(/area/space, area/asteroid, /area/external/mining, /area/ruins))
+	var/list/station_areas_blacklist = typecacheof(list(/area/space, /area/asteroid, /area/external/mining, /area/ruins))
 	for(var/area/A in GLOB.areas)
 		if (is_type_in_typecache(A, station_areas_blacklist))
 			continue
