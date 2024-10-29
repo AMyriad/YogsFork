@@ -161,7 +161,7 @@
 	icon_state = ""
 
 
-//-- Gamemodes --//
+//-- Gamemode-relevant stuff --//
 
 /area/debug/admin/gamemode
 	name = "Gamemode Areas"

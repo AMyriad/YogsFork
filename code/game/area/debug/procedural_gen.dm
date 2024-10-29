@@ -16,6 +16,6 @@
 	if(!shared_generator_initialized)
 		map_generator.generate_terrain()
 
-/area/procedural_gen/test_gen()
+/area/debug/procedural_gen/test_gen()
 	if(!ispath(map_generator))
 		map_generator.generate_terrain()

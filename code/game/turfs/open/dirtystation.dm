@@ -95,7 +95,7 @@
 		/area/station/security,
 		/area/station/command/heads/hos,
 		/area/station/maintenance,
-		/area/procedural_gen/maintenance,
+		/area/debug/procedural_gen/maintenance,
 	))
 	if(is_type_in_typecache(A, gib_covered_areas))
 		if(prob(20))

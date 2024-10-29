@@ -1,4 +1,4 @@
-/*	AREA FORMATTING GUIDE
+/*	READ BEFORE ADDING NEW AREAS
 *	Areas are put into 4 categories (see below) depending on where it exists in the game
 *	
 *	
@@ -12,27 +12,22 @@
 *	/debug/ - Areas that (mostly) aren't supposed to appear on station, or exist behind the scenes
 *	/external/ - Areas outside Space Station 13
 *	/ruins/ - Random ruins and derelicts found in space, mining environments, etc
-*	/station/ - Areas on Space Station 13
-*
+*	/station/ - Areas on (or around) Space Station 13
 */
 /area/debug
 	name = "Debug Areas"
-	icon_state = "debug"
 	icon = 'icons/area/areas_debug.dmi'
 
 /area/external
 	name = "External Areas"
-	icon_state = "external"
 	icon = 'icons/area/areas_external.dmi'
 
 /area/ruins
 	name = "Ruins Areas"
-	icon_state = "ruins"
 	icon = 'icons/area/areas_ruins.dmi'
 
 /area/station
 	name = "Station Areas"
-	icon_state = "station"
 	icon = 'icons/area/areas_station.dmi'
 	blob_allowed = TRUE
 	valid_territory = TRUE
@@ -42,6 +37,7 @@
  *	These areas are the default environments in a space station map
  *	They are essentially the background, and hence must stay unsorted at the root level
  */
+///--- SPACE ---///
 /area/space
 	name = "Space"
 	icon_state = "space"
@@ -69,6 +65,7 @@
 	base_lighting_color = null
 	always_unpowered = FALSE
 
+///--- ASTEROID ---///
 /area/asteroid
 	name = "Asteroid"
 	icon_state = "asteroid"
@@ -91,6 +88,37 @@
 /area/asteroid/nearstation
 	icon_state = "asteroid_near"
 	always_unpowered = FALSE
+
+///--- OCEAN ---///
+/area/ocean
+	name = "Ocean"
+	icon = 'yogstation/icons/obj/effects/liquid.dmi'
+	base_icon_state = "ocean"
+	icon_state = "ocean"
+
+	ambience_index = AMBIENCE_SPACE
+	sound_environment = SOUND_AREA_SPACE
+
+	requires_power = TRUE
+	always_unpowered = TRUE
+	power_light = FALSE
+	power_equip = FALSE
+	power_environ = FALSE
+
+	base_lighting_alpha = 120
+	flags_1 = NONE
+	outdoors = TRUE
+
+/area/ocean/Initialize(mapload) // See liquid_ocean.dm
+	. = ..()
+	GLOB.initalized_ocean_areas += src
+
+/area/ocean/dark
+	base_lighting_alpha = 0
+
+/area/ocean/nearstation
+	always_unpowered = FALSE
+
 
 /**
  * A blank area subtype solely used by the golem area editor for the purpose of

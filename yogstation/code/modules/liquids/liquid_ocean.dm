@@ -1,49 +1,4 @@
 GLOBAL_LIST_INIT(initalized_ocean_areas, list())
-/area/ocean
-	name = "Ocean"
-
-	icon = 'yogstation/icons/obj/effects/liquid.dmi'
-	base_icon_state = "ocean"
-	icon_state = "ocean"
-	alpha = 120
-
-	requires_power = TRUE
-	always_unpowered = TRUE
-
-	power_light = FALSE
-	power_equip = FALSE
-	power_environ = FALSE
-
-	outdoors = TRUE
-	ambience_index = AMBIENCE_SPACE
-
-	flags_1 = CAN_BE_DIRTY_1
-	sound_environment = SOUND_AREA_SPACE
-
-/area/ocean/Initialize(mapload)
-	. = ..()
-	GLOB.initalized_ocean_areas += src
-
-/area/ocean/dark
-	base_lighting_alpha = 0
-
-/area/ruin/ocean
-	has_gravity = TRUE
-
-/area/ruin/ocean/listening_outpost
-	unique = TRUE
-
-/area/ruin/ocean/bunker
-	unique = TRUE
-
-/area/ruin/ocean/bioweapon_research
-	unique = TRUE
-
-/area/ruin/ocean/mining_site
-	unique = TRUE
-
-/area/ocean/near_station_powered
-	requires_power = FALSE
 
 /turf/open/openspace/ocean
 	name = "ocean"

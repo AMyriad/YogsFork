@@ -45,11 +45,11 @@
 	name = "\improper Port Quarter (SW) Solar Array"
 	icon_state = "panelsAP"
 
-/area/station_external_power/solar/west
+/area/station/external_power/solar/west
 	name = "\improper Port (W) Solar Array"
 	icon_state = "panelsP"
 
-/area/station_external_power/solar/northwest
+/area/station/external_power/solar/northwest
 	name = "\improper Port Bow (NW) Solar Array"
 	icon_state = "panelsFP"
 
