@@ -2,10 +2,6 @@ GLOBAL_VAR_INIT(vr_runner_active, FALSE)
 GLOBAL_LIST_EMPTY(vr_runner_players)
 GLOBAL_LIST_EMPTY(vr_runner_tiles)
 
-/area/awaymission/vr/runner
-	name = "VrRunner"
-	icon_state = "awaycontent5"
-
 /datum/outfit/vr/runner
 	name = "Runner Equipment"
 	shoes = /obj/item/clothing/shoes/bhop

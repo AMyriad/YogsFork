@@ -1,30 +1,5 @@
 //	crashedship / packer ship
 
-//Areas
-
-/area/awaymission/BMPship
-	name = "BMP Asteroids"
-	icon_state = "away"
-
-
-/area/awaymission/BMPship/Aft
-	name = "Aft (S) Block"
-	icon_state = "away1"
-	requires_power = TRUE
-
-/area/awaymission/BMPship/Midship
-	name = "Midship Block"
-	icon_state = "away2"
-	requires_power = TRUE
-
-/area/awaymission/BMPship/Fore
-	name = "Fore (N) Block"
-	icon_state = "away3"
-	requires_power = TRUE
-
-
-//	crashedship items
-
 /obj/item/paper/fluff/ruins/crashedship/scribbled
 	name = "scribbled note"
 	info = "The next person who takes one of my screwdrivers gets stabbed with one. They are MINE. - Love, Madsen"

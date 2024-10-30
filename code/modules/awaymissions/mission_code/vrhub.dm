@@ -1,23 +1,3 @@
-/area/awaymission/vr/general
-	name = "Virtual Reality Forbidden Zone"
-	//death = TRUE
-
-/area/awaymission/vr/hub
-	name = "Virtual Reality Hub Area"
-	icon_state = "awaycontent2"
-	static_lighting = FALSE
-	base_lighting_alpha = 255
-
-/area/awaymission/vr/hub/boxing
-	name = "Virtual Reality Boxing Ring"
-	icon_state = "awaycontent9"
-	//pacifist = FALSE
-
-/area/awaymission/vr/syndicate
-	name = "Virtual Reality Syndicate Trainer"
-	icon_state = "awaycontent6"
-	//pacifist = FALSE
-
 /obj/effect/portal/permanent/one_way/recall
 	name = "recall portal"
 	desc = "Gives you a one time ability to return to this portal once you have entered."

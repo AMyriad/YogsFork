@@ -67,40 +67,40 @@
 
 /area/station/engineering/atmospherics
 	name = "Atmospherics Areas"
-	icon_state = "atmos"
+	icon_state = "eng_atmos"
 	minimap_color = "#207df7"
 
 /area/station/engineering/atmospherics/foyer
 	name = "\improper Atmospherics Foyer"
-	icon_state = "atmos_foyer"
+	icon_state = "eng_atmos_foyer"
 
 /area/station/engineering/atmospherics/equipment
-	name = "\improper Atmospherics Equipment Room"
-	icon_state = "atmos_storage"
+	name = "\improper Atmospherics Equipment Storage"
+	icon_state = "eng_atmos_equip"
 
 /area/station/engineering/atmospherics/mixing
 	name = "\improper Atmospherics Mixing Room"
-	icon_state = "atmos_mix"
+	icon_state = "eng_atmos_mixing"
 
 /area/station/engineering/atmospherics/distro
 	name = "\improper Atmospherics Distribution"
-	icon_state = "atmos_distro"
+	icon_state = "eng_atmos_distro"
 
 /area/station/engineering/atmospherics/incinerator
 	name = "\improper Incinerator"
-	icon_state = "atmos_distro"
+	icon_state = "eng_atmos_incin"
 
 // For when HFR/atmos engine is in a separate area than the incinerator
 /area/station/engineering/atmospherics/engine
 	name = "\improper Atmospherics Engine Room"
-	icon_state = "atmos_hfr"
+	icon_state = "eng_atmos_engine"
 
 
 //-- Telecomms --//
 
 /area/station/engineering/telecomms
 	name = "Telecomms Areas"
-	icon_state = ""
+	icon_state = "eng_tcomms"
 	minimap_color = "#00fff6"
 	ambientsounds = list('sound/ambience/ambisin2.ogg',
 						'sound/ambience/signal.ogg',
@@ -115,19 +115,19 @@
 
 /area/station/engineering/telecomms/servers
 	name = "\improper Telecomms Server Room"
-	icon_state = "tcomsatcham"
+	icon_state = "eng_tcomms_server"
 
 /area/station/engineering/telecomms/control
 	name = "\improper Telecomms Control Room"
-	icon_state = "tcomsatcomp"
+	icon_state = "eng_tcomms_ctrl"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/engineering/telecomms/workshop
 	name = "\improper Telecomms Hardware Workshop"
-	icon_state = "tcomsatstorage"
+	icon_state = "eng_tcomms_workshop"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/engineering/telecomms/foyer
 	name = "\improper Telecomms Foyer"
-	icon_state = "tcomsatstorage"
+	icon_state = "eng_tcomms_foyer"
 	sound_environment = SOUND_AREA_STANDARD_STATION

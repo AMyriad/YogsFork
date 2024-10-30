@@ -14,11 +14,589 @@
 // RUINS
 
 
-/area/ruins/lavaland/powered/kinggoat_arena
-	name = "King Goat Arena"
-	area_flags = NOTELEPORT
-	icon_state = "dk_yellow"
 
+
+
+/////////////////////////// CRASHEDSHIP
+
+/area/awaymission/BMPship
+	name = "BMP Asteroids"
+	icon_state = "away"
+
+
+/area/awaymission/BMPship/Aft
+	name = "Aft (S) Block"
+	icon_state = "away1"
+	requires_power = TRUE
+
+/area/awaymission/BMPship/Midship
+	name = "Midship Block"
+	icon_state = "away2"
+	requires_power = TRUE
+
+/area/awaymission/BMPship/Fore
+	name = "Fore (N) Block"
+	icon_state = "away3"
+	requires_power = TRUE
+
+
+
+
+///////////////////////////// SCIENTIST RAID
+
+/area/awaymission/vr/scientist_raid
+	name = "Small Abandoned Station"
+	icon_state = "awaycontent3"
+
+
+
+/////////////////////////////////// COMBAT FACTORY (MIGHT BE USED IG)
+
+/area/awaymission/vr/combat_robot_factory
+	name = "Abandoned Robot Factory"
+	icon_state = "awaycontent4"
+	//pacifist = FALSE
+
+
+//////////////////////////////////// ABANDONED_MINE
+
+/area/awaymission/vr/abandoned_mine
+	name = "Abandoned Mine"
+	icon_state = "awaycontent5"
+	//pacifist = FALSE
+
+
+////////////////////////////////// WILD WEST BY BROTEMIS
+
+/area/awaymission/wildwest/mines
+	name = "Wild West Mines"
+	icon_state = "away1"
+	requires_power = FALSE
+
+/area/awaymission/wildwest/gov
+	name = "Wild West Mansion"
+	icon_state = "away2"
+	requires_power = FALSE
+
+/area/awaymission/wildwest/refine
+	name = "Wild West Refinery"
+	icon_state = "away3"
+	requires_power = FALSE
+
+/area/awaymission/wildwest/vault
+	name = "Wild West Vault"
+	icon_state = "away3"
+
+/area/awaymission/wildwest/vaultdoors
+	name = "Wild West Vault Doors"  // this is to keep the vault area being entirely lit because of requires_power
+	icon_state = "away2"
+	requires_power = FALSE
+
+//////////////////////////////// VR HUB
+
+/area/awaymission/vr/general
+	name = "Virtual Reality Forbidden Zone"
+	//death = TRUE
+
+/area/awaymission/vr/hub
+	name = "Virtual Reality Hub Area"
+	icon_state = "awaycontent2"
+	static_lighting = FALSE
+	base_lighting_alpha = 255
+
+/area/awaymission/vr/hub/boxing
+	name = "Virtual Reality Boxing Ring"
+	icon_state = "awaycontent9"
+	//pacifist = FALSE
+
+/area/awaymission/vr/syndicate
+	name = "Virtual Reality Syndicate Trainer"
+	icon_state = "awaycontent6"
+	//pacifist = FALSE
+
+
+///////////////////////////////////////// UNDERGROUNDOUTPOST
+
+/area/awaymission/undergroundoutpost45
+	name = "space"
+	icon_state = "awaycontent1"
+
+/area/awaymission/undergroundoutpost45/central
+	name = "UO45 Central Hall"
+	icon_state = "awaycontent2"
+
+/area/awaymission/undergroundoutpost45/crew_quarters
+	name = "UO45 Crew Quarters"
+	icon_state = "awaycontent3"
+
+/area/awaymission/undergroundoutpost45/engineering
+	name = "UO45 Engineering"
+	icon_state = "awaycontent4"
+
+/area/awaymission/undergroundoutpost45/mining
+	name = "UO45 Mining"
+	icon_state = "awaycontent5"
+
+/area/awaymission/undergroundoutpost45/research
+	name = "UO45 Research"
+	icon_state = "awaycontent6"
+
+/area/awaymission/undergroundoutpost45/gateway
+	name = "UO45 Gateway"
+	icon_state = "awaycontent7"
+
+/area/awaymission/undergroundoutpost45/caves
+	name = "UO45 Caves"
+	icon_state = "awaycontent8"
+	always_unpowered = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	poweralm = FALSE
+
+
+
+//////////////////////////////// SPACEBATTLE
+
+/area/awaymission/spacebattle
+	name = "Space Battle"
+	icon_state = "awaycontent1"
+	requires_power = FALSE
+
+/area/awaymission/spacebattle/cruiser
+	name = "Nanotrasen Cruiser"
+	icon_state = "awaycontent2"
+
+/area/awaymission/spacebattle/syndicate1
+	name = "Syndicate Assault Ship 1"
+	icon_state = "awaycontent3"
+
+/area/awaymission/spacebattle/syndicate2
+	name = "Syndicate Assault Ship 2"
+	icon_state = "awaycontent4"
+
+/area/awaymission/spacebattle/syndicate3
+	name = "Syndicate Assault Ship 3"
+	icon_state = "awaycontent5"
+
+/area/awaymission/spacebattle/syndicate4
+	name = "Syndicate War Sphere 1"
+	icon_state = "awaycontent6"
+
+/area/awaymission/spacebattle/syndicate5
+	name = "Syndicate War Sphere 2"
+	icon_state = "awaycontent7"
+
+/area/awaymission/spacebattle/syndicate6
+	name = "Syndicate War Sphere 3"
+	icon_state = "awaycontent8"
+
+/area/awaymission/spacebattle/syndicate7
+	name = "Syndicate Fighter"
+	icon_state = "awaycontent9"
+
+/area/awaymission/spacebattle/secret
+	name = "Hidden Chamber"
+	icon_state = "awaycontent10"
+
+
+/////////////////////////////////////////// SNOWDIN
+
+/area/awaymission/snowdin
+	name = "Snowdin"
+	icon_state = "awaycontent1"
+	requires_power = FALSE
+	static_lighting = FALSE
+	base_lighting_alpha = 255
+
+/area/awaymission/snowdin/outside
+	name = "Snowdin Tundra Plains"
+	icon_state = "awaycontent25"
+
+/area/awaymission/snowdin/post
+	name = "Snowdin Outpost"
+	icon_state = "awaycontent2"
+	requires_power = TRUE
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+
+/area/awaymission/snowdin/post/medbay
+	name = "Snowdin Outpost - Medbay"
+	icon_state = "awaycontent3"
+
+/area/awaymission/snowdin/post/secpost
+	name = "Snowdin Outpost - Security Checkpoint"
+	icon_state = "awaycontent4"
+
+/area/awaymission/snowdin/post/hydro
+	name = "Snowdin Outpost - Hydroponics"
+	icon_state = "awaycontent5"
+
+/area/awaymission/snowdin/post/messhall
+	name = "Snowdin Outpost - Mess Hall"
+	icon_state = "awaycontent6"
+
+/area/awaymission/snowdin/post/gateway
+	name = "Snowdin Outpost - Gateway"
+	icon_state = "awaycontent7"
+
+/area/awaymission/snowdin/post/dorm
+	name = "Snowdin Outpost - Dorms"
+	icon_state = "awaycontent8"
+
+/area/awaymission/snowdin/post/kitchen
+	name = "Snowdin Outpost - Kitchen"
+	icon_state = "awaycontent9"
+
+/area/awaymission/snowdin/post/engineering
+	name = "Snowdin Outpost - Engineering"
+	icon_state = "awaycontent10"
+
+/area/awaymission/snowdin/post/custodials
+	name = "Snowdin Outpost - Custodials"
+	icon_state = "awaycontent11"
+
+/area/awaymission/snowdin/post/research
+	name = "Snowdin Outpost - Research Area"
+	icon_state = "awaycontent12"
+
+/area/awaymission/snowdin/post/garage
+	name = "Snowdin Outpost - Garage"
+	icon_state = "awaycontent13"
+
+/area/awaymission/snowdin/post/minipost
+	name = "Snowdin Outpost - Recon Post"
+	icon_state = "awaycontent19"
+
+/area/awaymission/snowdin/post/mining_main
+	name = "Snowdin Outpost - Mining Post"
+	icon_state = "awaycontent21"
+
+/area/awaymission/snowdin/post/mining_main/mechbay
+	name = "Snowdin Outpost - Mining Post Mechbay"
+	icon_state = "awaycontent25"
+
+/area/awaymission/snowdin/post/mining_main/robotics
+	name = "Snowdin Outpost - Mining Post Robotics"
+	icon_state = "awaycontent26"
+
+/area/awaymission/snowdin/post/cavern1
+	name = "Snowdin Outpost - Cavern Outpost 1"
+	icon_state = "awaycontent27"
+
+/area/awaymission/snowdin/post/cavern2
+	name = "Snowdin Outpost - Cavern Outpost 2"
+	icon_state = "awaycontent28"
+
+/area/awaymission/snowdin/post/mining_dock
+	name = "Snowdin Outpost - Underground Mine Post"
+	icon_state = "awaycontent22"
+
+/area/awaymission/snowdin/post/broken_shuttle
+	name = "Snowdin Outpost - Broken Transit Shuttle"
+	icon_state = "awaycontent20"
+	requires_power = FALSE
+
+/area/awaymission/snowdin/igloo
+	name = "Snowdin Igloos"
+	icon_state = "awaycontent14"
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+
+/area/awaymission/snowdin/cave
+	name = "Snowdin Caves"
+	icon_state = "awaycontent15"
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+
+/area/awaymission/snowdin/cave/cavern
+	name = "Snowdin Depths"
+	icon_state = "awaycontent23"
+
+/area/awaymission/snowdin/cave/mountain
+	name = "Snowdin Mountains"
+	icon_state = "awaycontent24"
+
+
+/area/awaymission/snowdin/base
+	name = "Snowdin Main Base"
+	icon_state = "awaycontent16"
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+	requires_power = TRUE
+
+/area/awaymission/snowdin/dungeon1
+	name = "Snowdin Depths"
+	icon_state = "awaycontent17"
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+
+/area/awaymission/snowdin/sekret
+	name = "Snowdin Operations"
+	icon_state = "awaycontent18"
+	static_lighting = TRUE
+	base_lighting_alpha = 0
+	requires_power = TRUE
+
+
+/////////////////////////////// VR RUNNER
+/area/awaymission/vr/runner
+	name = "VrRunner"
+	icon_state = "awaycontent5"
+
+
+/////////////////////////// RESEARCH BASE
+
+/area/awaymission/research
+	name = "Research Outpost"
+	icon_state = "away"
+	static_lighting = TRUE
+
+/area/awaymission/research/interior
+	name = "Research Inside"
+	requires_power = TRUE
+	icon_state = "away2"
+
+/area/awaymission/research/interior/cryo
+	name = "Research Cryostasis Room"
+	icon_state = "medbay"
+
+/area/awaymission/research/interior/clonestorage
+	name = "Research Clone Storage"
+	icon_state = "cloning"
+
+/area/awaymission/research/interior/genetics
+	name = "Research Genetics Research"
+	icon_state = "genetics"
+
+/area/awaymission/research/interior/engineering
+	name = "Research Engineering"
+	icon_state = "engine"
+
+/area/awaymission/research/interior/security
+	name = "Research Security"
+	icon_state = "security"
+
+/area/awaymission/research/interior/secure
+	name = "Research Secure Vault"
+
+/area/awaymission/research/interior/maint
+	name = "Research Maintenance"
+	icon_state = "maintcentral"
+
+/area/awaymission/research/interior/dorm
+	name = "Research Dorms"
+	icon_state = "Sleep"
+
+/area/awaymission/research/interior/escapepods
+	name = "Research Escape Wing"
+	icon_state = "exit"
+
+/area/awaymission/research/interior/gateway
+	name = "Research Gateway"
+	icon_state = "start"
+
+/area/awaymission/research/interior/bathroom
+	name = "Research Bathrooms"
+	icon_state = "restrooms"
+
+/area/awaymission/research/interior/medbay
+	name = "Research Medbay"
+	icon_state = "medbay"
+
+/area/awaymission/research/exterior
+	name = "Research Exterior"
+	icon_state = "unknown"
+
+
+
+////////////////////////////////// MURDERDOME
+/area/awaymission/vr/murderdome
+	name = "Murderdome"
+	icon_state = "awaycontent8"
+	//pacifist = FALSE
+
+
+/////////////////////////// MOONOUTPOST 19
+/area/awaymission/moonoutpost19
+	name = "space"
+	icon_state = "awaycontent1"
+
+/area/awaymission/moonoutpost19/arrivals
+	name = "MO19 Arrivals"
+	icon_state = "awaycontent2"
+
+/area/awaymission/moonoutpost19/research
+	name = "MO19 Research"
+	icon_state = "awaycontent3"
+
+/area/awaymission/moonoutpost19/syndicate
+	name = "Syndicate Outpost"
+	icon_state = "awaycontent4"
+
+/area/awaymission/moonoutpost19/main
+	name = "Khonsu 19"
+	always_unpowered = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	poweralm = FALSE
+	ambientsounds = list('sound/ambience/ambimine.ogg')
+	icon_state = "awaycontent5"
+
+/area/awaymission/moonoutpost19/hive
+	name = "The Hive"
+	always_unpowered = TRUE
+	power_environ = FALSE
+	power_equip = FALSE
+	power_light = FALSE
+	poweralm = FALSE
+	icon_state = "awaycontent6"
+
+
+
+//////////////////////////// VR MEGAFAUNA ARENA
+
+/area/awaymission/vr/megafauna_arena
+	name = "Virtual Reality Megafauna Trainer Safe Area"
+	icon_state = "awaycontent3"
+
+/area/awaymission/vr/megafauna_arena/arena
+	name = "Virtual Reality Megafauna Trainer Fighting Area"
+	icon_state = "awaycontent4"
+	//pacifist = FALSE
+
+//////////////////////////////////// CHALLENGE AREAS
+
+/area/awaymission/challenge/start
+	name = "Where Am I?"
+	icon_state = "away"
+
+/area/awaymission/challenge/main
+	name = "Danger Room"
+	icon_state = "away1"
+	requires_power = FALSE
+
+/area/awaymission/challenge/end
+	name = "Administration"
+	icon_state = "away2"
+	requires_power = FALSE
+
+
+
+/////////////////////// CENTCOMAWAY
+
+/area/awaymission/centcomAway
+	name = "XCC-P5831"
+	icon_state = "away"
+	requires_power = FALSE
+
+/area/awaymission/centcomAway/general
+	name = "XCC-P5831"
+	ambientsounds = list('sound/ambience/ambigen3.ogg')
+
+/area/awaymission/centcomAway/maint
+	name = "XCC-P5831 Maintenance"
+	icon_state = "away1"
+	ambientsounds = list('sound/ambience/ambisin1.ogg')
+
+/area/awaymission/centcomAway/thunderdome
+	name = "XCC-P5831 Thunderdome"
+	icon_state = "away2"
+	ambientsounds = list('sound/ambience/ambisin2.ogg')
+
+/area/awaymission/centcomAway/cafe
+	name = "XCC-P5831 Kitchen Arena"
+	icon_state = "away3"
+	ambientsounds = list('sound/ambience/ambisin3.ogg')
+
+/area/awaymission/centcomAway/courtroom
+	name = "XCC-P5831 Courtroom"
+	icon_state = "away4"
+	ambientsounds = list('sound/ambience/ambisin4.ogg')
+
+/area/awaymission/centcomAway/hangar
+	name = "XCC-P5831 Hangars"
+	icon_state = "away4"
+	ambientsounds = list('sound/ambience/ambigen5.ogg')
+
+
+
+
+////////////// BMPCAVES AREAS
+
+/area/awaymission/caves/BMP_asteroid
+	name = "\improper BMP Asteroid Level 1"
+	icon_state = "awaycontent1"
+
+/area/awaymission/caves/BMP_asteroid/level_two
+	name = "\improper BMP Asteroid Level 2"
+	icon_state = "awaycontent2"
+
+/area/awaymission/caves/BMP_asteroid/level_three
+	name = "\improper BMP Asteroid Level 3"
+	icon_state = "awaycontent3"
+
+/area/awaymission/caves/BMP_asteroid/level_four
+	name = "\improper BMP Asteroid Level 4"
+	icon_state = "awaycontent4"
+
+/area/awaymission/caves/research
+	name = "Research Outpost"
+	icon_state = "awaycontent5"
+	static_lighting = TRUE
+
+/area/awaymission/caves/northblock //engineering, bridge (not really north but it doesnt really need its own APC)
+
+/area/awaymission/caves/listeningpost
+	name = "Listening Post"
+	icon_state = "awaycontent6"
+	requires_power = FALSE
+
+
+
+
+/////////////////////// CABIN AREAS
+/area/awaymission/cabin
+	name = "Cabin"
+	icon_state = "away2"
+	requires_power = TRUE
+	static_lighting = TRUE
+
+/area/awaymission/snowforest
+	name = "Snow Forest"
+	icon_state = "away"
+	requires_power = FALSE
+	static_lighting = TRUE
+
+/area/awaymission/snowforest/lumbermill
+	name = "Lumbermill"
+	icon_state = "away3"
+
+
+
+
+///////////////// Academy Areas
+
+/area/awaymission/academy
+	icon_state = "away"
+	requires_power = FALSE
+
+/area/awaymission/academy/academyclassroom
+	name = "Academy Classrooms"
+	icon_state = "away1"
+
+/area/awaymission/academy/academyfore
+	name = "Academy Fore (N) Block"
+	icon_state = "away2"
+
+/area/awaymission/academy/academyaft
+	name = "Academy Aft (S) Block"
+	icon_state = "away3"
+
+/area/awaymission/academy/academycellar
+	name = "Academy Cellar"
+	icon_state = "away4"
 
 
 

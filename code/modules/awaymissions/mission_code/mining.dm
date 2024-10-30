@@ -1,12 +1,3 @@
-/area/awaymission/vr/megafauna_arena
-	name = "Virtual Reality Megafauna Trainer Safe Area"
-	icon_state = "awaycontent3"
-
-/area/awaymission/vr/megafauna_arena/arena
-	name = "Virtual Reality Megafauna Trainer Fighting Area"
-	icon_state = "awaycontent4"
-	//pacifist = FALSE
-
 /datum/outfit/job/miner/equipped/vr
 	name = "Virtual Reality Miner"
 	suit = /obj/item/clothing/suit/hooded/explorer
@@ -16,7 +7,7 @@
 	internals_slot = ITEM_SLOT_SUITSTORE
 	backpack_contents = list(
 		/obj/item/gun/energy/kinetic_accelerator=2)
-
+A
 /obj/effect/portal/permanent/one_way/recall/megafauna_arena
 	name = "Megafauna Arena Portal"
 	desc = "Fight against megafauna in the safety of virtual reality."

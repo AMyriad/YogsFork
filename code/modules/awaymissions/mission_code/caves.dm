@@ -1,35 +1,3 @@
-//Areas
-
-/area/awaymission/caves/BMP_asteroid
-	name = "\improper BMP Asteroid Level 1"
-	icon_state = "awaycontent1"
-
-/area/awaymission/caves/BMP_asteroid/level_two
-	name = "\improper BMP Asteroid Level 2"
-	icon_state = "awaycontent2"
-
-/area/awaymission/caves/BMP_asteroid/level_three
-	name = "\improper BMP Asteroid Level 3"
-	icon_state = "awaycontent3"
-
-/area/awaymission/caves/BMP_asteroid/level_four
-	name = "\improper BMP Asteroid Level 4"
-	icon_state = "awaycontent4"
-
-/area/awaymission/caves/research
-	name = "Research Outpost"
-	icon_state = "awaycontent5"
-	static_lighting = TRUE
-
-/area/awaymission/caves/northblock //engineering, bridge (not really north but it doesnt really need its own APC)
-
-/area/awaymission/caves/listeningpost
-	name = "Listening Post"
-	icon_state = "awaycontent6"
-	requires_power = FALSE
-
-//caves papers
-
 /obj/item/paper/crumpled/awaymissions/caves/unsafe_area
 	info = "<center><b>WARNING</center></b><br><br><center>Majority of this area is considered 'unsafe' past this point. Theres an outpost directly south of here where you can get your bearing and travel further down if needed. Traveling in groups is HIGHLY advised, the shit out there can be extremely deadly if you're alone.</center>"
 

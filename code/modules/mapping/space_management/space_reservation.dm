@@ -79,7 +79,7 @@
 /// Actually generates the cordon around the reservation, and marking the cordon turfs as reserved
 /datum/turf_reservation/proc/generate_cordon()
 	for(var/turf/cordon_turf as anything in cordon_turfs)
-		var/area/misc/cordon/cordon_area = GLOB.areas_by_type[/area/misc/cordon] || new
+		var/area/debug/secret/cordon/cordon_area = GLOB.areas_by_type[/area/debug/secret/cordon] || new
 		var/area/old_area = cordon_turf.loc
 
 		LISTASSERTLEN(old_area.turfs_to_uncontain_by_zlevel, cordon_turf.z, list())

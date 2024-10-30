@@ -1,6 +1,6 @@
 /area/station/maintenance
 	name = "Maintenance Areas"
-	icon_state = ""
+	icon_state = "maint"
 	minimap_color = "#4f4e3a"
 	airlock_wires = /datum/wires/airlock/maint
 
@@ -31,43 +31,43 @@
 
 /area/station/maintenance/general
 	name = "General Maintenance Areas"
-	icon_state = "maintcentral"
+	icon_state = "maint_gen"
 
 /area/station/maintenance/general/central
 	name = "\improper Central Maintenance"
-	icon_state = "maintcentral"
+	icon_state = ""
 
 /area/station/maintenance/general/north
 	name = "\improper Fore (N) Maintenance"
-	icon_state = "fmaint"
+	icon_state = ""
 
 /area/station/maintenance/general/northeast
 	name = "\improper Starboard Bow (NE) Maintenance"
-	icon_state = "fsmaint"
+	icon_state = ""
 
 /area/station/maintenance/general/east
 	name = "\improper Starboard (E) Maintenance"
-	icon_state = "smaint"
+	icon_state = ""
 
 /area/station/maintenance/general/southeast
 	name = "\improper Starboard Quarter (SE) Maintenance"
-	icon_state = "asmaint"
+	icon_state = ""
 
 /area/station/maintenance/general/south
 	name = "\improper Aft (S) Maintenance"
-	icon_state = "amaint"
+	icon_state = ""
 
 /area/station/maintenance/general/southwest
 	name = "\improper Port Quarter (SW) Maintenance"
-	icon_state = "apmaint"
+	icon_state = ""
 
 /area/station/maintenance/general/west
 	name = "\improper Port (W) Maintenance"
-	icon_state = "pmaint"
+	icon_state = ""
 
 /area/station/maintenance/general/northwest
 	name = "\improper Port Bow (NW) Maintenance"
-	icon_state = "fpmaint"
+	icon_state = ""
 
 
 //-- Departmental Maintenance --//
@@ -76,52 +76,52 @@
 
 /area/station/maintenance/department
 	name = "Department Maintenance Areas"
-	icon_state = ""
+	icon_state = "maint_dept"
 
 /area/station/maintenance/department/command //- COMMAND
 	name = "\improper Bridge Maintenance"
-	icon_state = "maint_bridge"
+	icon_state = ""
 	clockwork_warp_allowed = FALSE
 
 /area/station/maintenance/department/security //- SECURITY
 	name = "\improper Brig Maintenance"
-	icon_state = "maint_brig"
+	icon_state = ""
 
 /area/station/maintenance/department/engineering //- ENGINEERING
 	name = "\improper Engineering Maintenance"
-	icon_state = "maint_engi"
+	icon_state = ""
 
 /area/station/maintenance/department/engineering/electrical
 	name = "\improper Electrical Maintenance"
-	icon_state = "maint_electrical"
+	icon_state = ""
 
 /area/station/maintenance/department/engineering/atmospherics
 	name = "\improper Atmospherics Maintenance"
-	icon_state = "maint_atmos"
+	icon_state = ""
 
 /area/station/maintenance/department/medical //- MEDICAL
 	name = "\improper Medbay Maintenance"
-	icon_state = "medbay_maint"
+	icon_state = ""
 
 /area/station/maintenance/department/medical/morgue
 	name = "\improper Morgue Maintenance"
-	icon_state = "morgue_maint"
+	icon_state = ""
 
 /area/station/maintenance/department/supply //- SUPPLY
 	name = "\improper Cargo Maintenance"
-	icon_state = "maint_cargo"
+	icon_state = ""
 
 /area/station/maintenance/department/supply/disposal
 	name = "\improper Waste Disposal"
-	icon_state = "disposal"
+	icon_state = ""
 
 /area/station/maintenance/department/science //- SCIENCE
 	name = "\improper Science Maintenance"
-	icon_state = "maint_sci"
+	icon_state = ""
 
 /area/station/maintenance/department/science/xenobiology
 	name = "\improper Xenobiology Maintenance"
-	icon_state = "xenomaint"
+	icon_state = ""
 	xenobiology_compatible = TRUE
 
 /area/station/maintenance/department/service //- SUPPLY
@@ -130,7 +130,7 @@
 
 /area/station/maintenance/department/service/bar
 	name = "\improper Maintenance Bar" // My beloved
-	icon_state = "maint_bar"
+	icon_state = ""
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 
@@ -139,67 +139,67 @@
 
 /area/station/maintenance/external_power
 	name = "External Power Maintenance Areas"
-	icon_state = "yellow"
+	icon_state = "maint_ext_power"
 
 /area/station/maintenance/external_power/solar //- SOLARS
 	name = "Solar Array Areas"
-	icon_state = "fmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/north
 	name = "\improper Fore (N) Solar Maintenance"
-	icon_state = "fmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/northeast
 	name = "\improper Starboard Bow (NE) Solar Maintenance"
-	icon_state = "fsmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/east
 	name = "\improper Starboard (E) Solar Maintenance"
-	icon_state = "smaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/southeast
 	name = "\improper Starboard Quarter (SE) Solar Maintenance"
-	icon_state = "asmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/south
 	name = "\improper Aft (S) Solar Maintenance"
-	icon_state = "pmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/southwest
 	name = "\improper Port Quarter (SW) Solar Maintenance"
-	icon_state = "apmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/west
 	name = "\improper Port (W) Solar Maintenance"
-	icon_state = "pmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/solar/northwest
 	name = "\improper Port Bow (NW) Solar Maintenance"
-	icon_state = "fpmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal //- GEOTHERMAL
 	name = "Geothermal Station Areas"
-	icon_state = "fmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal/north
 	name = "\improper Fore (N) Geothermal Maintenance"
-	icon_state = "fmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal/northeast
 	name = "\improper Starboard Bow (NE) Geothermal Maintenance"
-	icon_state = "fsmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal/east
 	name = "\improper Starboard (E) Geothermal Maintenance"
-	icon_state = "smaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal/southeast
 	name = "\improper Starboard Quarter (SE) Geothermal Maintenance"
-	icon_state = "asmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal/south
 	name = "\improper Aft (S) Geothermal Maintenance"
-	icon_state = "pmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal/southwest
 	name = "\improper Port Quarter (SW) Geothermal Maintenance"
@@ -207,8 +207,8 @@
 
 /area/station/maintenance/external_power/geothermal/west
 	name = "\improper Port (W) Geothermal Maintenance"
-	icon_state = "pmaint"
+	icon_state = ""
 
 /area/station/maintenance/external_power/geothermal/northwest
 	name = "\improper Port Bow (NW) Geothermal Maintenance"
-	icon_state = "fpmaint"
+	icon_state = ""

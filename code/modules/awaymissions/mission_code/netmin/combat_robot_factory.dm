@@ -1,8 +1,3 @@
-/area/awaymission/vr/combat_robot_factory
-	name = "Abandoned Robot Factory"
-	icon_state = "awaycontent4"
-	//pacifist = FALSE
-
 /obj/item/paper/fluff/awaymissions/robot_factory/shipment_details
 	name = "Shipment Details"
 	info = "<b>Shipment Details:</b> <br>500x Agricultural Robots @ 1999.95 cr<br>200x Construction Robots @ 2499.95 cr<br><br><b>Total:</b> 1,499,965 cr<br><br><b>Destination:</b><br>Gamnar Military Base"

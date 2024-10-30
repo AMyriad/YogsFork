@@ -97,19 +97,6 @@
 	SIGNAL_HANDLER
 	SET_PLANE_W_SCALAR(src, initial(plane), SSmapping.max_plane_offset)
 
-/area/ai_multicam_room
-	name = "ai_multicam_room"
-	icon_state = "ai_camera_room"
-	valid_territory = FALSE
-	static_lighting = FALSE
-
-	base_lighting_alpha = 255
-	ambientsounds = list()
-	blob_allowed = FALSE
-	area_flags = NOTELEPORT
-	hidden = TRUE
-	safe = TRUE
-
 GLOBAL_DATUM(ai_camera_room_landmark, /obj/effect/landmark/ai_multicam_room)
 
 /obj/effect/landmark/ai_multicam_room

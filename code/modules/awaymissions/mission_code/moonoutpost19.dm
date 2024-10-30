@@ -1,43 +1,3 @@
-// moonoutpost19
-
-//Areas
-/area/awaymission/moonoutpost19
-	name = "space"
-	icon_state = "awaycontent1"
-
-/area/awaymission/moonoutpost19/arrivals
-	name = "MO19 Arrivals"
-	icon_state = "awaycontent2"
-
-/area/awaymission/moonoutpost19/research
-	name = "MO19 Research"
-	icon_state = "awaycontent3"
-
-/area/awaymission/moonoutpost19/syndicate
-	name = "Syndicate Outpost"
-	icon_state = "awaycontent4"
-
-/area/awaymission/moonoutpost19/main
-	name = "Khonsu 19"
-	always_unpowered = TRUE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	poweralm = FALSE
-	ambientsounds = list('sound/ambience/ambimine.ogg')
-	icon_state = "awaycontent5"
-
-/area/awaymission/moonoutpost19/hive
-	name = "The Hive"
-	always_unpowered = TRUE
-	power_environ = FALSE
-	power_equip = FALSE
-	power_light = FALSE
-	poweralm = FALSE
-	icon_state = "awaycontent6"
-
-//Papers
-
 /obj/item/paper/crumpled/awaymissions/moonoutpost19/hastey_note
 	name = "Hastily Written Note"
 	info = "<i>19 06 2554</i><br><br><i>I fucking knew it. There was a major breach, that idiotic force field failed and the xenomorphs rushed out and took out the scientists. I've managed to make it to my office and closed the blast doors. I can hear them trying to pry open the doors. Probably don't have long. I have no clue what has happened to the rest of the crew, for all I know they've been killed to produce more of the fucks.</i>"
@@ -117,4 +77,3 @@
 /obj/item/paper/fluff/awaymissions/moonoutpost19/goodbye_note
 	name = "Note"
 	info = "<i>Bugs break out. I run to here and lock door. I hear door next to me break open and screams. All nice people here dead now. I no want to be eaten, and bottle always said to be coward way out, but person who say that is stupid. Mira, there is no escape for me, tell Alexis and Elena that father will never come home, and that I love you all.</i>"
-

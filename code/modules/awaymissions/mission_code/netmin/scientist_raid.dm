@@ -1,7 +1,3 @@
-/area/awaymission/vr/scientist_raid
-	name = "Small Abandoned Station"
-	icon_state = "awaycontent3"
-
 /obj/item/paper/fluff/awaymissions/scientist_raid/report1
 	name = "Adaptive Neural Networks - Research Report"
 	info = "While these types of networks seem to be well-suited for our needs, the current processing technology doesn't seem able to simulate them quickly enough. More research is needed.."

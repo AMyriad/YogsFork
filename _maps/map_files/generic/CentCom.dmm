@@ -4920,7 +4920,7 @@
 "apW" = (
 /obj/effect/landmark/ai_multicam_room,
 /turf/open/ai_visible,
-/area/ai_multicam_room)
+/area/debug/secret/ai_multicam)
 "apX" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -11365,7 +11365,7 @@
 /area/debug/admin/centcom/recovery_ship)
 "aDi" = (
 /turf/closed/indestructible/riveted,
-/area/ai_multicam_room)
+/area/debug/secret/ai_multicam)
 "aDj" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
@@ -17276,7 +17276,7 @@
 /area/debug/admin/centcom/test)
 "aQe" = (
 /turf/open/ai_visible,
-/area/ai_multicam_room)
+/area/debug/secret/ai_multicam)
 "aQf" = (
 /obj/structure/table/wood,
 /obj/item/spellbook{

@@ -8,19 +8,6 @@ GLOBAL_LIST_EMPTY(pocket_mirrors)
 		return T.z
 	return A.z
 
-/area/yogstation/pocket_dimension
-	name = "Pocket Dimension"
-	static_lighting = FALSE
-
-	base_lighting_alpha = 255
-	has_gravity = STANDARD_GRAVITY
-	area_flags = NOTELEPORT
-	unique = FALSE
-	requires_power = FALSE
-	show_on_sensors = FALSE
-	ambience_index = AMBIENCE_SPACE
-	parallax_movedir = EAST
-
 /obj/effect/landmark/pocket_dimension_corner
 	name = "pocket dimension corner (bottom left)"
 

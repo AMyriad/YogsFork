@@ -1,6 +1,6 @@
 /area/station/science
 	name = "Science Areas"
-	icon_state = "toxlab"
+	icon_state = "sci"
 	minimap_color = "#75009b"
 	airlock_wires = /datum/wires/airlock/science
 
@@ -11,36 +11,36 @@
 
 /area/station/science/main
 	name = "\improper Science Hall"
-	icon_state = "toxlab"
+	icon_state = "sci_main"
 
 /area/station/science/main/upper
 	name = "\improper Upper Science Hall"
-	icon_state = "toxlab"
+	icon_state = "sci_main_up"
 
 /area/station/science/main/lower
 	name = "\improper Lower Science Hall"
-	icon_state = "toxlab"
+	icon_state = "sci_main_low"
 
 /area/station/science/research
 	name = "\improper Research and Development Lab"
-	icon_state = "toxlab"
+	icon_state = "sci_rnd"
 
 /area/station/science/toxins
 	name = "\improper Toxins Lab"
-	icon_state = "toxmix"
+	icon_state = "sci_toxins"
 
 /area/station/science/toxins/mix_chamber
 	name = "\improper Toxins Mixing Chamber"
-	icon_state = "toxmix"
+	icon_state = "sci_toxins_mixing"
 	valid_territory = FALSE
 
 /area/station/science/toxins/storage
 	name = "\improper Toxins Storage"
-	icon_state = "toxstorage"
+	icon_state = "sci_toxins_storage"
 
 /area/station/science/toxins/testing_site
 	name = "\improper Toxins Testing Site"
-	icon_state = "toxtest"
+	icon_state = "sci_toxins_test"
 	ambience_index = null
 	ambient_music_index = AMBIENCE_SPACE
 	sound_environment = SOUND_AREA_SPACE
@@ -50,35 +50,33 @@
 
 /area/station/science/xenobiology
 	name = "\improper Xenobiology Lab"
-	icon_state = "toxlab"
+	icon_state = "sci_xenobio"
 
 /area/station/science/experimentation
 	name = "\improper Experimentation Lab"
-	icon_state = "toxmisc"
+	icon_state = "sci_experiment"
 
 /area/station/science/nanite
 	name = "\improper Nanite Lab"
-	icon_state = "toxmisc"
+	icon_state = "sci_nanite"
 
 /area/station/science/aux_lab
 	name = "\improper Auxiliary Testing Lab"
-	icon_state = "toxmisc"
+	icon_state = "sci_auxlab"
 
 /area/station/science/server
 	name = "\improper R&D Server Room"
-	icon_state = "server"
+	icon_state = "sci_server"
 
 
 //-- Robotics --//
 
 /area/station/science/robotics
 	name = "Robotics Areas"
-	icon_state = "medresearch"
+	icon_state = "sci_robotics"
 
 /area/station/science/robotics/lab
 	name = "\improper Robotics Lab"
-	icon_state = "mechbay"
 
 /area/station/science/robotics/mech_bay
 	name = "\improper Mech Bay"
-	icon_state = "mechbay"
