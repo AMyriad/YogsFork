@@ -1,4 +1,4 @@
-/*	READ BEFORE ADDING NEW AREAS
+/*	READ: AREAS
 *	Areas are put into 4 categories (see below) depending on where it exists in the game
 *	
 *	

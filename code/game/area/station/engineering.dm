@@ -1,6 +1,6 @@
 /area/station/engineering
 	name = "Engineering Areas"
-	icon_state = "engineering_template"
+	icon_state = "eng"
 	minimap_color = "#f7de02"
 	airlock_wires = /datum/wires/airlock/engineering
 
@@ -12,55 +12,55 @@
 
 /area/station/engineering/main
 	name = "\improper Engineering Bay"
-	icon_state = "engine"
+	icon_state = "eng_main"
 
 /area/station/engineering/main/upper
 	name = "\improper Upper Engineering Bay"
-	icon_state = ""
+	icon_state = "eng_main_up"
 
 /area/station/engineering/main/lower
 	name = "\improper Lower Engineering Bay"
-	icon_state = ""
+	icon_state = "eng_main_low"
 
 /area/station/engineering/foyer
 	name = "\improper Engineering Foyer"
-	icon_state = "engine_foyer"
+	icon_state = "eng_foyer"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/production_bay
 	name = "\improper Engineering Production Bay"
-	icon_state = "engi_storage"
+	icon_state = "eng_production"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/smes
 	name = "\improper Engineering SMES Chamber"
-	icon_state = "engine_smes"
+	icon_state = "eng_smes"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/gravity_generator
 	name = "\improper Gravity Generator"
-	icon_state = "grav_gen"
+	icon_state = "eng_gravity_gen"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	clockwork_warp_allowed = FALSE
 	clockwork_warp_fail = "The gravitons generated here could throw off your warp's destination and possibly throw you into deep space."
 
 /area/station/engineering/supermatter
 	name = "\improper Supermatter Engine"
-	icon_state = "engine_sm"
+	icon_state = "eng_sm"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/tech_storage
 	name = "\improper Tech Storage"
-	icon_state = "auxstorage"
+	icon_state = "eng_tech_storage"
 
 /area/station/engineering/construction
 	name = "\improper Construction Area"
-	icon_state = "yellow"
+	icon_state = "eng_construction"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/engineering/aux_base
 	name = "\improper Auxiliary Base Construction"
-	icon_state = "aux_base_construction"
+	icon_state = "eng_aux_base"
 
 
 //-- Atmospherics --//
