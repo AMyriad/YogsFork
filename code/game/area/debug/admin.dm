@@ -31,7 +31,6 @@
 
 /area/debug/admin/ctf
 	name = "\improper Capture The Flag"
-	icon_state = "yellow"
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 

@@ -5,8 +5,7 @@
   */
 /area
 	name = "Area"
-	icon = 'icons/turf/areas.dmi'
-	icon_state = "unknown"
+	icon = 'icons/areas_misc.dmi'
 	layer = AREA_LAYER
 	//Keeping this on the default plane, GAME_PLANE, will make area overlays fail to render on FLOOR_PLANE.
 	plane = AREA_PLANE

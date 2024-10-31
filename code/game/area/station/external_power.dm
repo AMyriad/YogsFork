@@ -23,35 +23,27 @@
 
 /area/station/external_power/solar/north
 	name = "\improper Fore (N) Solar Array"
-	icon_state = ""
 
 /area/station/external_power/solar/northeast
 	name = "\improper Starboard Bow (NE) Solar Array"
-	icon_state = ""
 
 /area/station/external_power/solar/east
 	name = "\improper Starboard (E) Solar Array"
-	icon_state = ""
 
 /area/station/external_power/solar/southeast
 	name = "\improper Starboard Quarter (SE) Solar Array"
-	icon_state = ""
 
 /area/station/external_power/solar/south
 	name = "\improper Aft (S) Solar Array"
-	icon_state = ""
 
 /area/station/external_power/solar/southwest
 	name = "\improper Port Quarter (SW) Solar Array"
-	icon_state = ""
 
 /area/station/external_power/solar/west
 	name = "\improper Port (W) Solar Array"
-	icon_state = ""
 
 /area/station/external_power/solar/northwest
 	name = "\improper Port Bow (NW) Solar Array"
-	icon_state = ""
 
 
 //-- Geothermal Stations --//
@@ -68,32 +60,24 @@
 
 /area/station/external_power/geothermal/north
 	name = "\improper Geothermal Station North"
-	icon_state = ""
 
 /area/station/external_power/geothermal/northeast
 	name = "\improper Geothermal Station Northwest"
-	icon_state = ""
 
 /area/station/external_power/geothermal/east
 	name = "\improper Geothermal Station East"
-	icon_state = ""
 
 /area/station/external_power/geothermal/southeast
 	name = "\improper Geothermal Station Southeast"
-	icon_state = ""
 
 /area/station/external_power/geothermal/south
 	name = "\improper Geothermal Station South"
-	icon_state = ""
 
 /area/station/external_power/geothermal/southwest
 	name = "\improper Geothermal Station Southwest"
-	icon_state = ""
 
 /area/station/external_power/geothermal/west
 	name = "\improper Geothermal Station West"
-	icon_state = ""
 
 /area/station/external_power/geothermal/northwest
 	name = "\improper Geothermal Station Northwest"
-	icon_state = ""

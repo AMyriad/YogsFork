@@ -92,8 +92,6 @@
 ///--- OCEAN ---///
 /area/ocean
 	name = "Ocean"
-	icon = 'yogstation/icons/obj/effects/liquid.dmi'
-	base_icon_state = "ocean"
 	icon_state = "ocean"
 
 	ambience_index = AMBIENCE_SPACE
@@ -114,9 +112,12 @@
 	GLOB.initalized_ocean_areas += src
 
 /area/ocean/dark
+	icon_state = "ocean_dark"
 	base_lighting_alpha = 0
 
 /area/ocean/nearstation
+	icon_state = "ocean_near"
+	base_lighting_alpha = 0
 	always_unpowered = FALSE
 
 
