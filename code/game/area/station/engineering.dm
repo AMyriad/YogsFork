@@ -124,7 +124,7 @@
 
 /area/station/engineering/telecomms/workshop
 	name = "\improper Telecomms Hardware Workshop"
-	icon_state = "eng_tcomms_workshop"
+	icon_state = "eng_tcomms_work"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/engineering/telecomms/foyer
