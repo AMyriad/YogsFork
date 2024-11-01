@@ -1,19 +1,10 @@
 /*	READ: AREAS
-*	Areas are put into 4 categories (see below) depending on where it exists in the game
-*	No area should exist outside these categories nor the folder this file is in
+*	All areas stem from the 4 types below depending on where they belong in the game
 *	
 *
-
-* BASE TYPES
-*	These are the ROOT for all main area types
-*	We organize areas like this to keep the work tree in map editors nice and pretty :]
-*
-*	Quickref:
-*	/debug/ - Areas that (mostly) aren't supposed to appear on station, or exist behind the scenes
-*	/external/ - Areas outside Space Station 13
-*	/ruins/ - Random ruins and derelicts found in space, mining environments, etc
-*	/station/ - Areas on (or around) Space Station 13
 */
+
+
 /area/debug
 	name = "Debug Areas"
 	icon = 'icons/area/areas_debug.dmi'
@@ -127,3 +118,15 @@
  */
 /area/golem
 	name = "Golem Territory"
+
+/*
+* BASE TYPES
+*	These are the ROOT for all main area types
+*	We organize areas like this to keep the work tree in map editors nice and pretty :]
+*
+*	Quickref:
+*	/debug/ - Areas that (mostly) aren't supposed to appear on station, or exist behind the scenes
+*	/external/ - Areas outside Space Station 13
+*	/ruins/ - Random ruins and derelicts found in space, mining environments, etc
+*	/station/ - Areas on (or around) Space Station 13
+*/

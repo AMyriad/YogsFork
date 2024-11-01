@@ -155,19 +155,12 @@
 /area/external/shuttle/misc/infiltrator_cruiser
 	name = "\improper Syndicate Infiltration Cruiser"
 
-/area/external/shuttle/misc/infiltrator_cruiser/poweralert(state, obj/source)
-	return
-
-/area/external/shuttle/misc/infiltrator_cruiser/atmosalert(danger_level, obj/source)
-	return
-
 
 //-- Ruins Shuttles --//
 
 /area/external/shuttle/ruins
 	name = "Ruins Shuttle Areas"
 	requires_power = TRUE
-	area_flags = NOTELEPORT
 
 /area/external/shuttle/ruins/whiteship
 	name = "\improper Abandoned Ship"

@@ -55,7 +55,7 @@
 	name = "\improper Paramedic Staging Area"
 	icon_state = "med_paramedic"
 
-/area/station/medical/psychiatrist
+/area/station/medical/psych
 	name = "\improper Psychiatrist's Office"
 	icon_state = "med_psych"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
@@ -65,7 +65,6 @@
 
 /area/station/medical/genetics
 	name = "Genetics Areas"
-	icon_state = "med_gene"
 	minimap_color = "#006384"
 
 /area/station/medical/genetics/lab
@@ -81,7 +80,6 @@
 
 /area/station/medical/chemistry
 	name = "Chemistry Areas"
-	icon_state = "med_chem"
 	minimap_color = "#f5a801"
 
 /area/station/medical/chemistry/lab
