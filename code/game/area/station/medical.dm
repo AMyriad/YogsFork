@@ -61,10 +61,30 @@
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 
+//-- Patient Recovery Wards --//
+
+/area/station/medical/recovery
+	name = "Recovery Ward Areas"
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+
+/area/station/medical/recovery/room_a
+	name = "Recovery Ward A"
+	icon_state = "med_ward_a"
+
+/area/station/medical/recovery/room_b
+	name = "Recovery Ward B"
+	icon_state = "med_ward_b"
+
+/area/station/medical/recovery/room_c
+	name = "Recovery Ward C"
+	icon_state = "med_ward_c"
+
+
 //-- Genetics --//
 
 /area/station/medical/genetics
 	name = "Genetics Areas"
+	icon_state = "med_gene"
 	minimap_color = "#006384"
 
 /area/station/medical/genetics/lab
@@ -99,7 +119,7 @@
 
 /area/station/medical/virology
 	name = "Virology Areas"
-	icon_state = "virology"
+	icon_state = "med_viro"
 	minimap_color = "#01f5b3"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	flags_1 = NONE
@@ -107,23 +127,3 @@
 /area/station/medical/virology/lab
 	name = "\improper Virology Lab"
 	icon_state = "virology"
-
-
-//-- Patient Recovery Wards --//
-
-/area/station/medical/recovery
-	name = "Recovery Ward Areas"
-	icon_state = "patients"
-	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
-
-/area/station/medical/recovery/room_a
-	name = "Recovery Ward A"
-	icon_state = "patients"
-
-/area/station/medical/recovery/room_b
-	name = "Recovery Ward B"
-	icon_state = "patients"
-
-/area/station/medical/recovery/room_c
-	name = "Recovery Ward C"
-	icon_state = "patients"

@@ -10,20 +10,20 @@
 	lighting_colour_bulb = "#e4f7ff"
 
 /area/station/science/main
-	name = "\improper Science Hall"
+	name = "\improper Science Central Hall"
 	icon_state = "sci_main"
 
 /area/station/science/main/upper
-	name = "\improper Upper Science Hall"
+	name = "\improper Upper Science Central Hall"
 	icon_state = "sci_main_up"
 
 /area/station/science/main/lower
-	name = "\improper Lower Science Hall"
+	name = "\improper Lower Science Central Hall"
 	icon_state = "sci_main_low"
 
 /area/station/science/research
 	name = "\improper Research and Development Lab"
-	icon_state = "sci_rnd"
+	icon_state = "sci_research"
 
 /area/station/science/toxins
 	name = "\improper Toxins Lab"
@@ -40,7 +40,7 @@
 
 /area/station/science/toxins/testing_site
 	name = "\improper Toxins Testing Site"
-	icon_state = "sci_toxins_test"
+	icon_state = "sci_toxins_testing"
 	ambience_index = null
 	ambient_music_index = AMBIENCE_SPACE
 	sound_environment = SOUND_AREA_SPACE
@@ -50,7 +50,7 @@
 
 /area/station/science/xenobiology
 	name = "\improper Xenobiology Lab"
-	icon_state = "sci_xenobio"
+	icon_state = "sci_xenobiology"
 
 /area/station/science/experimentation
 	name = "\improper Experimentation Lab"
@@ -77,6 +77,9 @@
 
 /area/station/science/robotics/lab
 	name = "\improper Robotics Lab"
+	icon_state = "sci_robotics_lab"
 
 /area/station/science/robotics/mech_bay
 	name = "\improper Mech Bay"
+	icon_state = "sci_robotics_mech_bay"
+
