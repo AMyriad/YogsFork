@@ -47,7 +47,7 @@
 		/area/station/maintenance,
 		/area/debug/procedural_gen/maintenance,
 		/area/station/public/vacant,
-		/area/external/survival_pod,
+		/area/external/mining/survival_pod,
 	))
 	if(is_type_in_typecache(A, engine_dirt_areas))
 		if(prob(3))

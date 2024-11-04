@@ -62,17 +62,16 @@
 
 /area/station/security/detention
 	name = "Detention Areas"
-	icon_state = "sec_detention"
 	minimap_color = "#530505"
 	lights_always_start_on = TRUE
 
 /area/station/security/detention/prison
 	name = "\improper Prison Wing"
-	icon_state = "sec_detention_prison"
+	icon_state = "sec_det_prison"
 
 /area/station/security/detention/prison_hallway
 	name = "\improper Prison Wing Hallway"
-	icon_state = "sec_detention_hallway"
+	icon_state = "sec_detention_prison_hallway"
 
 /area/station/security/detention/execution
 	name = "\improper Prisoner Transfer Centre"
@@ -91,32 +90,31 @@
 
 /area/station/security/post
 	name = "Security Post Areas"
-	icon_state = "checkpoint1"
 
 /area/station/security/post/arrivals
 	name = "\improper Arrivals Security Post"
-	icon_state = "checkpoint_aux"
+	icon_state = "sec_post_arr"
 
 /area/station/security/post/departures
 	name = "\improper Departures Security Post"
-	icon_state = "checkpoint_esc"
+	icon_state = "sec_post_dep"
 
 /area/station/security/post/supply
 	name = "\improper Supply Security Post"
-	icon_state = "checkpoint_supp"
+	icon_state = "sec_post_sup"
 
 /area/station/security/post/engineering
 	name = "\improper Engineering Security Post"
-	icon_state = "checkpoint_engi"
+	icon_state = "sec_post_eng"
 
 /area/station/security/post/medical
 	name = "\improper Medical Security Post"
-	icon_state = "checkpoint_med"
+	icon_state = "sec_post_med"
 
 /area/station/security/post/science
 	name = "\improper Science Security Post"
-	icon_state = "checkpoint_sci"
+	icon_state = "sec_post_sci"
 
 /area/station/security/post/service
 	name = "\improper Service Security Post"
-	icon_state = "checkpoint_srv"
+	icon_state = "sec_post_srv"

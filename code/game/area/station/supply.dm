@@ -1,6 +1,6 @@
 /area/station/supply
 	name = "Supply Areas"
-	icon_state = "quart"
+	icon_state = "sup"
 	minimap_color = "#936f3c"
 	airlock_wires = /datum/wires/airlock/service
 
@@ -11,36 +11,36 @@
 
 /area/station/supply/main
 	name = "\improper Cargo Bay"
-	icon_state = "cargo_bay"
+	icon_state = "sup_main"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/supply/main/upper
 	name = "\improper Upper Cargo Bay"
-	icon_state = "cargo_bay"
+	icon_state = "sup_main_up"
 
 /area/station/supply/main/lower
 	name = "\improper Lower Cargo Bay"
-	icon_state = "cargo_bay"
+	icon_state = "sup_main_low"
 
 /area/station/supply/office
 	name = "\improper Cargo Office"
-	icon_state = "quartoffice"
+	icon_state = "sup_office"
 	minimap_color = "#936f3c"
 
 /area/station/supply/delivery
 	name = "\improper Cargo Delivery Office"
-	icon_state = "cargo_delivery"
+	icon_state = "sup_delivery"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/supply/warehouse
 	name = "\improper Cargo Warehouse"
-	icon_state = "cargo_warehouse"
+	icon_state = "sup_warehouse"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/supply/quartermaster
 	name = "\improper Quartermaster's Office"
-	icon_state = "quart"
+	icon_state = "sup_qm"
 
 /area/station/supply/mining
 	name = "\improper Mining Dock"
-	icon_state = "mining"
+	icon_state = "sup_mining"

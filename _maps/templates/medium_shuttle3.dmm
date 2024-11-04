@@ -7,65 +7,65 @@
 	dir = 1
 	},
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "c" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "d" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "h" = (
 /turf/closed/wall/mineral/titanium,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "j" = (
 /obj/machinery/door/airlock/external/glass,
 /turf/open/floor/plating,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "k" = (
 /obj/machinery/power/smes/magical,
 /turf/open/floor/plasteel,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "l" = (
 /turf/open/floor/plasteel,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "m" = (
 /turf/open/floor/plating,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "n" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 8
 	},
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "o" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "p" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/plasteel,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "q" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "r" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
 	},
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "t" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "v" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/yellow{
@@ -79,7 +79,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "w" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
@@ -92,7 +92,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "x" = (
 /obj/structure/chair/comfy{
 	dir = 8
@@ -108,7 +108,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "z" = (
 /obj/machinery/sleeper,
 /obj/effect/turf_decal/tile/blue{
@@ -122,10 +122,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "A" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "C" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -138,7 +138,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "D" = (
 /obj/structure/table,
 /obj/item/storage/firstaid,
@@ -153,18 +153,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "E" = (
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating/airless,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "F" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 "G" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/powered/shuttle/medium_3)
+/area/external/shuttle/ruins/generic)
 
 (1,1,1) = {"
 a

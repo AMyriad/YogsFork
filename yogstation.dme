@@ -976,6 +976,7 @@
 #include "code\game\area\debug\admin.dm"
 #include "code\game\area\debug\holodeck.dm"
 #include "code\game\area\debug\procedural_gen.dm"
+#include "code\game\area\debug\secret.dm"
 #include "code\game\area\debug\procedural_gen\maintenance.dm"
 #include "code\game\area\external\mining.dm"
 #include "code\game\area\external\shuttle.dm"

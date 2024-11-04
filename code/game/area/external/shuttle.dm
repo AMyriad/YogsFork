@@ -162,6 +162,10 @@
 	name = "Ruins Shuttle Areas"
 	requires_power = TRUE
 
+/area/external/shuttle/ruins/generic
+	name = "\improper Unidentified Ship"
+	requires_power = TRUE
+
 /area/external/shuttle/ruins/whiteship
 	name = "\improper Abandoned Ship"
 	area_limited_icon_smoothing = /area/external/shuttle/ruins/whiteship

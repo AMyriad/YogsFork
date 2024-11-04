@@ -6,77 +6,80 @@
 /turf/closed/indestructible/oldshuttle/corner{
 	dir = 8
 	},
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "c" = (
 /turf/closed/indestructible/oldshuttle,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "d" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "e" = (
 /turf/closed/indestructible/oldshuttle/corner,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "f" = (
 /turf/closed/indestructible/oldshuttle/corner{
 	dir = 1
 	},
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "g" = (
 /turf/open/floor/oldshuttle,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "h" = (
 /turf/closed/indestructible/oldshuttle/corner{
 	dir = 4
 	},
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "i" = (
 /obj/structure/closet{
 	icon_state = "oldcloset"
 	},
 /turf/open/floor/oldshuttle,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "j" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 1
 	},
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "k" = (
 /turf/closed/indestructible/oldshuttle{
 	icon_state = "orange"
 	},
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "l" = (
 /obj/structure/chair/old{
 	dir = 1
 	},
 /turf/open/floor/oldshuttle,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "r" = (
 /obj/machinery/power/generator,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "s" = (
 /obj/machinery/power/smes,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "t" = (
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "u" = (
 /obj/structure/shuttle/engine/propulsion/burst/right,
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "v" = (
 /obj/structure/shuttle/engine/propulsion/burst/right,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
 "w" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/space,
-/area/ruin/powered/shuttle/medium_4)
+/area/external/shuttle/ruins/generic)
+"N" = (
+/turf/template_noop,
+/area/external/shuttle/ruins/generic)
 
 (1,1,1) = {"
 a
@@ -283,7 +286,7 @@ b
 c
 "}
 (13,1,1) = {"
-a
+N
 e
 h
 i

@@ -67,7 +67,6 @@
 
 /area/station/engineering/atmospherics
 	name = "Atmospherics Areas"
-	icon_state = "eng_atmos"
 	minimap_color = "#207df7"
 
 /area/station/engineering/atmospherics/foyer
@@ -100,7 +99,6 @@
 
 /area/station/engineering/telecomms
 	name = "Telecomms Areas"
-	icon_state = "eng_tcomms"
 	minimap_color = "#00fff6"
 	ambientsounds = list('sound/ambience/ambisin2.ogg',
 						'sound/ambience/signal.ogg',

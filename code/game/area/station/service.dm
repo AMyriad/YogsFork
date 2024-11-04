@@ -1,6 +1,6 @@
 /area/station/service
 	name = "Service Areas"
-	icon_state = "Theatre"
+	icon_state = "srv"
 	minimap_color = "#5ac866"
 	airlock_wires = /datum/wires/airlock/service
 
@@ -10,32 +10,32 @@
 
 /area/station/service/main
 	name = "\improper Service Hall"
-	icon_state = "janitor"
+	icon_state = "srv_main"
 
 /area/station/service/main/upper
 	name = "\improper Upper Service Hall"
-	icon_state = "janitor"
+	icon_state = "srv_main_up"
 
 /area/station/service/main/lower
 	name = "\improper Lower Service Hall"
-	icon_state = "janitor"
+	icon_state = "srv_main_low"
 
 /area/station/service/kitchen
 	name = "\improper Kitchen"
-	icon_state = "kitchen"
+	icon_state = "srv_kitchen"
 	lighting_colour_tube = "#fff4d6"
 	lighting_colour_bulb = "#ffebc1"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/service/kitchen/freezer
 	name = "\improper Kitchen Freezer"
-	icon_state = "kitchen_cold"
+	icon_state = "srv_kitchen_freezer"
 	lighting_colour_tube = "#e3ffff"
 	lighting_colour_bulb = "#d5ffff"
 
 /area/station/service/bar
 	name = "\improper Bar"
-	icon_state = "bar"
+	icon_state = "srv_bar"
 	mood_bonus = 5
 	mood_message = span_nicegreen("I love being in the bar!\n")
 	sound_environment = SOUND_AREA_WOODFLOOR
@@ -46,22 +46,22 @@
 
 /area/station/service/janitor
 	name = "\improper Custodial Closet"
-	icon_state = "janitor"
+	icon_state = "srv_janitor"
 	minimap_color = "#cc00ff"
 
 /area/station/service/hydroponics
 	name = "\improper Hydroponics"
-	icon_state = "hydro"
+	icon_state = "srv_hydroponics"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/service/theatre
 	name = "\improper Theatre"
-	icon_state = "Theatre"
+	icon_state = "srv_theatre"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/service/library
 	name = "\improper Library"
-	icon_state = "library"
+	icon_state = "srv_library"
 	sound_environment = SOUND_AREA_WOODFLOOR
 	lighting_colour_tube = "#fff1cc"
 	lighting_colour_bulb = "#ffe9b9"
@@ -69,7 +69,7 @@
 
 /area/station/service/chapel
 	name = "\improper Chapel"
-	icon_state = "chapel"
+	icon_state = "srv_chapel"
 	flags_1 = NONE
 	ambience_index = AMBIENCE_HOLY
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
@@ -78,14 +78,14 @@
 
 /area/station/service/chapel/office
 	name = "\improper Chapel Office"
-	icon_state = "chapeloffice"
+	icon_state = "srv_chapel_office"
 
 /area/station/service/law_office
 	name = "\improper Law Office"
-	icon_state = "law"
+	icon_state = "srv_law_office"
 	minimap_color = "#b12527"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/service/gift_shop
 	name = "\improper Gift Shop"
-	icon_state = "cafeteria"
+	icon_state = "srv_gift_shop"

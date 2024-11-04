@@ -10,14 +10,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "aE" = (
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "aL" = (
 /obj/structure/closet/crate/coffin,
 /obj/structure/window/reinforced{
@@ -27,15 +27,15 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "be" = (
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "dh" = (
 /turf/open/floor/carpet/purple{
 	icon_state = "carpetsymbol"
 	},
-/area/chapel/main)
+/area/station/service/chapel)
 "di" = (
 /obj/structure/closet/crate/coffin,
 /obj/structure/window/reinforced{
@@ -45,7 +45,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "dl" = (
 /obj/machinery/door/window{
 	dir = 8;
@@ -63,12 +63,12 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/chapel/main)
+/area/station/service/chapel)
 "du" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "dG" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/chaplain,
@@ -79,7 +79,7 @@
 /obj/item/clothing/under/rank/civilian/chaplain/burial,
 /obj/item/clothing/under/rank/civilian/chaplain/burial,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "fv" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -97,14 +97,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "fJ" = (
 /obj/item/radio/intercom{
 	pixel_y = 25
 	},
 /obj/machinery/vending/wardrobe/chap_wardrobe,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "fL" = (
 /obj/machinery/button/crematorium{
 	id = "crematoriumChapel";
@@ -121,7 +121,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "fU" = (
 /obj/machinery/door/morgue{
 	name = "Confession Booth"
@@ -133,7 +133,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "gl" = (
 /obj/structure/chair/pew/left{
 	dir = 1
@@ -141,7 +141,7 @@
 /turf/open/floor/plasteel/chapel{
 	dir = 8
 	},
-/area/chapel/main)
+/area/station/service/chapel)
 "gS" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Chapel Office"
@@ -152,51 +152,51 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/mapping_helpers/airlock/access/all/service/chapel_office,
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "hp" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "hx" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "hL" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "hR" = (
 /obj/structure/bodycontainer/morgue,
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "iw" = (
 /obj/structure/table/wood,
 /obj/item/pen,
 /obj/item/reagent_containers/food/drinks/bottle/holywater,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "iR" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "jp" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -25
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "jr" = (
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "km" = (
 /obj/machinery/power/apc{
 	areastring = "/area/chapel/main";
@@ -206,7 +206,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "kR" = (
 /obj/machinery/airalarm{
 	dir = 8;
@@ -221,7 +221,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "ls" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -232,17 +232,17 @@
 	pixel_y = 30
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "ly" = (
 /obj/structure/spirit_board,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "mG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "mP" = (
 /obj/machinery/door/airlock{
 	name = "Crematorium"
@@ -264,11 +264,11 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/crematorium,
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "nb" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/chapel,
-/area/chapel/main)
+/area/station/service/chapel)
 "nJ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
@@ -280,7 +280,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "nS" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_y = 32
@@ -290,7 +290,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/chapel/main)
+/area/station/service/chapel)
 "pe" = (
 /turf/template_noop,
 /area/template_noop)
@@ -305,7 +305,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "pB" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -317,21 +317,21 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "qN" = (
 /obj/machinery/light_switch{
 	pixel_y = 28
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "qQ" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "re" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "rk" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern,
@@ -340,7 +340,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "rn" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -355,13 +355,13 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "rO" = (
 /obj/structure/table/wood,
 /obj/item/nullrod,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "st" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -371,7 +371,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "uw" = (
 /obj/machinery/light_switch{
 	pixel_y = 28
@@ -381,16 +381,16 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "uN" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/chapel{
 	dir = 4
 	},
-/area/chapel/main)
+/area/station/service/chapel)
 "vd" = (
 /turf/closed/wall,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "vl" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -405,7 +405,7 @@
 	dir = 5
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "wH" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Chapel"
@@ -429,20 +429,20 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
-/area/template_noop)
+/area/station/service/chapel)
 "xG" = (
 /obj/machinery/camera{
 	c_tag = "Chapel North"
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Ar" = (
 /obj/structure/chair,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "BI" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -450,10 +450,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Ck" = (
 /turf/closed/wall,
-/area/chapel/main)
+/area/station/service/chapel)
 "CA" = (
 /obj/item/radio/intercom{
 	broadcasting = 1;
@@ -463,23 +463,23 @@
 	},
 /obj/structure/chair,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Db" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Eb" = (
 /obj/machinery/airalarm{
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "EX" = (
 /obj/structure/chair/wood/wings,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Fi" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/food/snacks/grown/poppy,
@@ -487,14 +487,14 @@
 /turf/open/floor/plasteel/chapel{
 	dir = 4
 	},
-/area/chapel/main)
+/area/station/service/chapel)
 "Gk" = (
 /obj/machinery/camera{
 	c_tag = "Chapel South";
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Gl" = (
 /obj/structure/closet/crate/coffin,
 /obj/machinery/door/window/eastleft{
@@ -504,31 +504,31 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "GT" = (
 /obj/structure/closet/crate/coffin,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "Iu" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/chapel/main)
+/area/station/service/chapel)
 "II" = (
 /turf/closed/wall,
 /area/template_noop)
 "IW" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "JH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "Kd" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -540,13 +540,13 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "KJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "Lq" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp{
@@ -557,18 +557,18 @@
 	pixel_x = -26
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "LU" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 1
 	},
-/area/chapel/main)
+/area/station/service/chapel)
 "Ms" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "ML" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Crematorium Maintenance"
@@ -597,7 +597,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "NG" = (
 /obj/effect/spawner/xmastree,
 /obj/structure/disposalpipe/segment,
@@ -606,26 +606,26 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Od" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "OL" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "PM" = (
 /obj/structure/chair/pew/right{
 	dir = 1
 	},
 /turf/open/floor/plasteel/chapel,
-/area/chapel/main)
+/area/station/service/chapel)
 "PO" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Chapel Maintenance"
@@ -661,18 +661,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "QT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "Rz" = (
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "Sa" = (
 /obj/structure/table/altar_of_gods,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Sf" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Chapel"
@@ -684,7 +684,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/purple,
-/area/chapel/main)
+/area/station/service/chapel)
 "Sh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -699,7 +699,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Sl" = (
 /obj/machinery/camera{
 	c_tag = "Chapel Crematorium";
@@ -715,14 +715,14 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "SO" = (
 /obj/structure/closet/crate/coffin,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "SX" = (
 /obj/structure/bodycontainer/crematorium{
 	id = "crematoriumChapel"
@@ -731,14 +731,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "Tv" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Uk" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -751,41 +751,29 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "VG" = (
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "Wy" = (
 /turf/open/floor/plasteel/chapel,
-/area/chapel/main)
+/area/station/service/chapel)
 "WM" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 8
 	},
-/area/chapel/main)
-"Xx" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Chapel"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/turf/open/floor/carpet/purple,
-/area/template_noop)
+/area/station/service/chapel)
 "XS" = (
 /obj/machinery/airalarm{
 	dir = 4;
 	pixel_x = -24
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "XX" = (
 /obj/machinery/door/poddoor{
 	id = "chapelgun";
@@ -793,7 +781,7 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/space/nearstation)
+/area/station/service/chapel)
 "Yh" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -808,13 +796,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "Ym" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "YL" = (
 /obj/structure/disposalpipe/sorting/mail{
 	sortType = 17
@@ -824,7 +812,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "YT" = (
 /obj/structure/chair{
 	dir = 1
@@ -839,17 +827,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "Zv" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/office)
+/area/station/service/chapel/office)
 "ZG" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "ZR" = (
 /obj/machinery/computer/pod/old{
 	density = 0;
@@ -861,18 +849,18 @@
 	req_access = list("chapel_office")
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 "ZS" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 4
 	},
-/area/chapel/main)
+/area/station/service/chapel)
 "ZT" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/chapel/main)
+/area/station/service/chapel)
 
 (1,1,1) = {"
 pe
@@ -1218,13 +1206,13 @@ CA
 IW
 aa
 Ck
-II
-II
-II
-Xx
+Ck
+Ck
+Ck
+Sf
 wH
-II
-II
+Ck
+Ck
 "}
 (17,1,1) = {"
 Ck
