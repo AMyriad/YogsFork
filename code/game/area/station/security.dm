@@ -99,10 +99,6 @@
 	name = "\improper Departures Security Post"
 	icon_state = "sec_post_dep"
 
-/area/station/security/post/supply
-	name = "\improper Supply Security Post"
-	icon_state = "sec_post_sup"
-
 /area/station/security/post/engineering
 	name = "\improper Engineering Security Post"
 	icon_state = "sec_post_eng"
@@ -118,3 +114,7 @@
 /area/station/security/post/service
 	name = "\improper Service Security Post"
 	icon_state = "sec_post_srv"
+
+/area/station/security/post/supply
+	name = "\improper Supply Security Post"
+	icon_state = "sec_post_sup"

@@ -26,7 +26,6 @@
 
 /area/station/public/hallway
 	name = "Primary Hallway Areas"
-	icon_state = "pub_hallway"
 
 /area/station/public/hallway/central
 	name = "\improper Central Primary Hallway"

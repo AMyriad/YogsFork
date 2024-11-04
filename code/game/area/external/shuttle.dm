@@ -1,6 +1,5 @@
 /area/external/shuttle
 	name = "Shuttle Areas"
-	icon_state = "shuttle"
 
 	static_lighting = TRUE
 	lights_always_start_on = TRUE
@@ -30,6 +29,7 @@
 
 /area/external/shuttle/station
 	name = "Station Shuttle Areas"
+	icon_state = "shuttle_station"
 
 /area/external/shuttle/station/arrival
 	name = "\improper Arrival Shuttle"
