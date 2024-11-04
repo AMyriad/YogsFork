@@ -152,13 +152,11 @@
 		A = get_area(usr)
 	if(A.outdoors)
 		return AREA_SPACE
-	var/list/SPECIALS = list(
+	var/list/SPECIALS = typecacheof(list(
 		/area/external/shuttle,
 		/area/debug/admin,
-		/area/asteroid,
-		/area/hilbertshotel,
-		/area/hilbertshotelstorage
-	)
+		/area/debug/secret
+	))
 	for (var/type in SPECIALS)
 		if ( istype(A,type) )
 			return AREA_SPECIAL

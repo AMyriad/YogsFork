@@ -4,59 +4,59 @@
 /area/template_noop)
 "ab" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ae" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 2
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ag" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ah" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ai" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aj" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "am" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "an" = (
 /obj/effect/spawner/lootdrop/whiteship_cere_ripley,
 /turf/open/floor/mech_bay_recharge_floor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ao" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ap" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "as" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -71,7 +71,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "at" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -82,14 +82,14 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "au" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "av" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -100,7 +100,7 @@
 	name = "spare equipment crate"
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ax" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -114,10 +114,10 @@
 /obj/item/storage/toolbox/emergency/old,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ay" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aA" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -125,7 +125,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aC" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -134,7 +134,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aD" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -147,7 +147,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aF" = (
 /obj/machinery/door/poddoor{
 	id = "cerewhiteleft"
@@ -159,12 +159,12 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aG" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aH" = (
 /obj/machinery/door/poddoor{
 	id = "cerewhiteright"
@@ -176,7 +176,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aI" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -189,7 +189,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/clothing/glasses/welding,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aJ" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -202,7 +202,7 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "aN" = (
 /obj/machinery/door/airlock/titanium{
 	name = "cockpit"
@@ -213,19 +213,19 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "bq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "bR" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/mineral/equipment_vendor/free_miner,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "cX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/door/airlock/external,
@@ -234,13 +234,13 @@
 	},
 /obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "dJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "eo" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light{
@@ -249,14 +249,14 @@
 /obj/effect/decal/cleanable/vomit/old,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "fk" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "fD" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -265,7 +265,7 @@
 /obj/effect/decal/cleanable/blood/innards,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "gP" = (
 /obj/structure/table,
 /obj/item/gps{
@@ -276,7 +276,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "kc" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/button/door{
@@ -285,7 +285,7 @@
 	pixel_x = 24
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "kI" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only,
@@ -293,14 +293,14 @@
 	id = "whiteship_bridge"
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "na" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/poddoor{
 	id = "whiteship_windows"
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "ps" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
@@ -310,7 +310,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "pD" = (
 /obj/machinery/computer/shuttle/white_ship{
 	dir = 1
@@ -318,14 +318,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "qs" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "rt" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -333,7 +333,7 @@
 /obj/structure/chair/comfy/shuttle,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "rw" = (
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -344,7 +344,7 @@
 /obj/item/pneumatic_cannon/speargun,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "rY" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -354,7 +354,7 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "sa" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/frame/computer{
@@ -364,19 +364,19 @@
 /obj/item/shard,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "su" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/egg/burst,
 /obj/effect/decal/cleanable/xenoblood,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "tG" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "uT" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light{
@@ -396,30 +396,30 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "vc" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "vO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "wb" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
 	},
 /obj/machinery/suit_storage_unit/mining,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "wj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "wA" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -427,16 +427,16 @@
 /obj/effect/decal/cleanable/xenoblood,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "wM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/suit_storage_unit/mining/eva,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "xG" = (
 /turf/template_noop,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "AN" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -444,7 +444,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "DD" = (
 /obj/machinery/door/airlock/titanium{
 	name = "cockpit"
@@ -456,7 +456,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "DO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/button/door{
@@ -465,7 +465,7 @@
 	pixel_x = -24
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Ex" = (
 /obj/machinery/advanced_airlock_controller{
 	dir = 4;
@@ -478,19 +478,19 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "EZ" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/poddoor{
 	id = "whiteship_bridge"
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Gf" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Gq" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/regular,
@@ -498,19 +498,19 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Hc" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/xenoblood/xgibs/larva/body,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "HE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "HP" = (
 /obj/docking_port/mobile{
 	dheight = 0;
@@ -528,19 +528,19 @@
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "JG" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds/node,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Kk" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "KT" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -556,24 +556,24 @@
 /obj/item/wormhole_jaunter,
 /obj/item/pickaxe,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Lh" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/comfy/shuttle,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Mw" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "MN" = (
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "MZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -583,33 +583,33 @@
 	},
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Ny" = (
 /obj/structure/shuttle/engine/large{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "NG" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "OB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "OE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "OH" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -621,14 +621,14 @@
 	pixel_y = 2
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Pb" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/meson/sunglasses,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "PB" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -637,14 +637,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/ore_box,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "PN" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/alien/egg/burst,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "PT" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -654,7 +654,7 @@
 /obj/machinery/light,
 /obj/machinery/mineral/mint,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Qz" = (
 /obj/machinery/door/airlock/titanium{
 	name = "mech bay"
@@ -664,12 +664,12 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "QA" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/xenoblood/xgibs/larva,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "QW" = (
 /obj/machinery/door/airlock/titanium{
 	name = "mech bay"
@@ -680,12 +680,12 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Sq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/mecha/working/clarke,
 /turf/open/floor/mech_bay_recharge_floor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Wa" = (
 /obj/effect/turf_decal/delivery{
 	dir = 1
@@ -706,18 +706,18 @@
 /obj/item/weldingtool/hugetank,
 /obj/item/multitool,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "XU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "XZ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/vomit/old,
 /obj/structure/alien/weeds,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 
 (1,1,1) = {"
 aa

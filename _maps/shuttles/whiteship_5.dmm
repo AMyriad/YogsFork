@@ -4,11 +4,11 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "c" = (
 /mob/living/simple_animal/hostile/carp/eyeball,
 /turf/open/floor/plating/rust,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "d" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Shuttle Airlock"
@@ -18,13 +18,13 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "e" = (
 /turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "f" = (
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "g" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
@@ -34,11 +34,11 @@
 	layer = 2.9
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "i" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/plating/abductor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "j" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -50,29 +50,29 @@
 /obj/structure/table/glass,
 /obj/item/gun/syringe/rapidsyringe,
 /turf/open/floor/plating/abductor2,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "k" = (
 /mob/living/simple_animal/hostile/carp/eyeball,
 /turf/open/floor/plasteel/broken/three,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "l" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/plating/abductor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "m" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "n" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/open/floor/plating/abductor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "o" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Shuttle Airlock"
@@ -96,18 +96,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "p" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "q" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/plating/abductor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "t" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -121,11 +121,11 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plating/abductor2,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "u" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "v" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Shuttle Airlock"
@@ -137,22 +137,22 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "y" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /mob/living/simple_animal/hostile/carp/eyeball,
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "z" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "A" = (
 /mob/living/simple_animal/hostile/carp/eyeball,
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "B" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 1
@@ -161,7 +161,7 @@
 	layer = 2.9
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "C" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -174,50 +174,50 @@
 /obj/machinery/recharger,
 /obj/item/gun/energy/laser/retro,
 /turf/open/floor/plating/abductor2,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "E" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "G" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "H" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "J" = (
 /obj/effect/decal/cleanable/blood/kilo,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "K" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plasteel/broken/two,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "L" = (
 /obj/machinery/computer/shuttle/white_ship,
 /turf/open/floor/plating/abductor2,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "M" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "N" = (
 /mob/living/simple_animal/hostile/carp/eyeball,
 /turf/open/floor/plating/broken/three,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "O" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/broken/two,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Q" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -225,23 +225,23 @@
 	layer = 2.9
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "R" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "S" = (
 /mob/living/simple_animal/hostile/carp/eyeball,
 /turf/open/floor/plating/broken/two,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "U" = (
 /turf/open/floor/plasteel/broken/three,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "W" = (
 /turf/open/floor/plating/broken,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Y" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -251,7 +251,7 @@
 	layer = 2.9
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 "Z" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -262,7 +262,7 @@
 /obj/item/tank/internals/oxygen/tactical,
 /obj/item/clothing/suit/space/hardsuit/engine/atmos,
 /turf/open/floor/plating/abductor2,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/whiteship)
 
 (1,1,1) = {"
 a

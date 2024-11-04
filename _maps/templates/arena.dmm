@@ -1,21 +1,21 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/indestructible/necropolis,
-/area/shuttle_arena)
+/area/external/shuttle/station/escape/custom/arena_combat)
 "b" = (
 /turf/open/indestructible/necropolis/air,
-/area/shuttle_arena)
+/area/external/shuttle/station/escape/custom/arena_combat)
 "c" = (
 /obj/effect/forcefield/arena_shuttle,
 /turf/open/indestructible/necropolis/air,
-/area/shuttle_arena)
+/area/external/shuttle/station/escape/custom/arena_combat)
 "d" = (
 /turf/open/lava/smooth,
-/area/shuttle_arena)
+/area/external/shuttle/station/escape/custom/arena_combat)
 "e" = (
 /obj/effect/landmark/shuttle_arena_entrance,
 /turf/open/indestructible/necropolis/air,
-/area/shuttle_arena)
+/area/external/shuttle/station/escape/custom/arena_combat)
 
 (1,1,1) = {"
 a

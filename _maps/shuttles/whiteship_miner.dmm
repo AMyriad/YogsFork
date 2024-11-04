@@ -11,11 +11,11 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "aY" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "ba" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -24,10 +24,10 @@
 	dir = 10
 	},
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "bk" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "bI" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -41,7 +41,7 @@
 	name = "hydroponics"
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "cn" = (
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/o2{
@@ -57,37 +57,37 @@
 	},
 /obj/item/healthanalyzer,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "cq" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "cx" = (
 /obj/machinery/smartfridge,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "cF" = (
 /obj/machinery/mech_bay_recharge_port{
 	dir = 2
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "cH" = (
 /obj/machinery/processor,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "cK" = (
 /obj/structure/table,
 /obj/item/healthanalyzer,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "cR" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "dm" = (
 /obj/structure/grille,
 /obj/structure/window/shuttle,
@@ -95,7 +95,7 @@
 	id = "freeship_bridge"
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "dN" = (
 /obj/structure/grille,
 /obj/structure/window/shuttle,
@@ -103,11 +103,11 @@
 	id = "freeship_windows"
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "dP" = (
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "dV" = (
 /obj/docking_port/mobile{
 	callTime = 250;
@@ -127,7 +127,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "ei" = (
 /obj/machinery/light{
 	dir = 1
@@ -137,13 +137,13 @@
 	},
 /obj/machinery/oven,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "fk" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "fJ" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -156,7 +156,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "fW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
@@ -166,7 +166,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "gE" = (
 /obj/structure/sign/departments/minsky/engineering/engineering{
 	pixel_y = -32
@@ -175,7 +175,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "hE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
@@ -184,16 +184,16 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "hU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "ih" = (
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "io" = (
 /obj/structure/sign/warning/vacuum{
 	pixel_x = -32
@@ -209,18 +209,18 @@
 	pixel_x = 24
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "ir" = (
 /obj/machinery/rnd/production/protolathe,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "iN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "iZ" = (
 /obj/structure/closet/secure_closet/medical2,
 /obj/item/clothing/suit/apron/surgical{
@@ -242,22 +242,22 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "jk" = (
 /obj/structure/ore_box,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "jV" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "kL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/table,
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "kQ" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -265,7 +265,7 @@
 	},
 /obj/item/storage/box/mixedcubes,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "kW" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/welding,
@@ -273,7 +273,7 @@
 /obj/item/storage/belt/utility/full/engi,
 /obj/item/construction/rcd/loaded,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "lc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -283,20 +283,20 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "lv" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "lB" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "np" = (
 /obj/machinery/light{
 	dir = 8
@@ -305,31 +305,31 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "nK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "nQ" = (
 /obj/item/mecha_parts/chassis/clarke,
 /turf/open/floor/plasteel/recharge_floor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "nZ" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "ow" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "ox" = (
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "oE" = (
 /obj/structure/bed,
 /obj/effect/mob_spawn/human/free_miner{
@@ -340,13 +340,13 @@
 	},
 /obj/item/bedsheet/dorms,
 /turf/open/floor/carpet,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "oS" = (
 /obj/structure/toilet{
 	pixel_y = 9
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "pe" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -356,19 +356,19 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "pp" = (
 /obj/effect/mob_spawn/human/free_miner/captain,
 /obj/structure/bed,
 /obj/item/bedsheet/random,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "pu" = (
 /obj/machinery/computer/shuttle/white_ship/miner{
 	dir = 8
 	},
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "px" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -378,7 +378,7 @@
 	pixel_y = -4
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "pH" = (
 /obj/structure/closet/crate{
 	name = "emergency supplies crate"
@@ -394,18 +394,18 @@
 /obj/item/clothing/mask/breath,
 /obj/item/clothing/mask/breath,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "pN" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "pZ" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -417,11 +417,11 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qe" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -431,17 +431,17 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qp" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qq" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qs" = (
 /obj/machinery/light,
 /obj/structure/table,
@@ -458,7 +458,7 @@
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qF" = (
 /obj/machinery/light{
 	dir = 4
@@ -473,7 +473,7 @@
 	pixel_x = 11
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qU" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -482,21 +482,21 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "qZ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "rz" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "rJ" = (
 /obj/structure/frame/machine,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "sg" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -506,7 +506,7 @@
 	icon_state = "heater"
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "sw" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
 	dir = 1;
@@ -514,7 +514,7 @@
 	volume_rate = 200
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "sC" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
@@ -523,7 +523,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "ue" = (
 /obj/item/reagent_containers/food/condiment/saltshaker{
 	pixel_x = -8;
@@ -550,7 +550,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "uk" = (
 /obj/structure/table,
 /obj/item/megaphone,
@@ -564,7 +564,7 @@
 /obj/item/mining_scanner,
 /obj/item/mining_voucher,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "uF" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -31
@@ -573,7 +573,7 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/structure/closet/crate/hydroponics,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "uM" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "bridge"
@@ -591,7 +591,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "vo" = (
 /obj/structure/table,
 /obj/item/storage/box/ids/free_miners{
@@ -605,7 +605,7 @@
 	},
 /obj/item/pen/fountain,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "vO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -614,14 +614,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "vW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "wb" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
@@ -636,17 +636,17 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "wt" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "wF" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "xw" = (
 /obj/machinery/door/airlock/shuttle{
 	icon_state = "closed";
@@ -660,7 +660,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "xK" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
@@ -671,13 +671,13 @@
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/shaker,
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "xW" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "yx" = (
 /obj/item/storage/toolbox/mechanical{
 	pixel_x = -2;
@@ -693,21 +693,21 @@
 	pixel_y = 2
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "yy" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "yT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "zc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "zd" = (
 /obj/structure/tank_dispenser/oxygen{
 	layer = 2.7;
@@ -715,7 +715,7 @@
 	pixel_y = 2
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "zF" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker{
@@ -735,13 +735,13 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "zG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "zR" = (
 /obj/machinery/light{
 	dir = 1
@@ -750,7 +750,7 @@
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Ai" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
@@ -759,7 +759,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Al" = (
 /obj/machinery/vending/coffee{
 	pixel_x = -2
@@ -768,14 +768,14 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Am" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/carpet,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Az" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1;
@@ -784,11 +784,11 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/light,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "AS" = (
 /obj/machinery/suit_storage_unit/mining/eva,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Bh" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
@@ -797,7 +797,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Bw" = (
 /obj/machinery/shower{
 	dir = 4;
@@ -808,7 +808,7 @@
 	},
 /obj/item/soap/nanotrasen,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "BC" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -818,7 +818,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "BN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -827,7 +827,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "BO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/window/shuttle,
@@ -836,11 +836,11 @@
 	id = "freeship_windows"
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Cu" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "CD" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -851,34 +851,34 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "CM" = (
 /obj/machinery/light,
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "DV" = (
 /obj/effect/mob_spawn/human/free_miner/engi,
 /obj/structure/bed,
 /obj/item/bedsheet/yellow,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Eq" = (
 /obj/machinery/griddle,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Es" = (
 /obj/machinery/mecha_part_fabricator/ruin,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "EI" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "EO" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "EV" = (
 /obj/machinery/vending/cigarette{
 	pixel_x = -2
@@ -887,7 +887,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Fb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -898,32 +898,32 @@
 	id = "freeship_windows"
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Fd" = (
 /obj/machinery/computer/rdconsole/nolock/ruin{
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "FG" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -31
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "GE" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/machinery/mineral/equipment_vendor/free_miner,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "GG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "GW" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "bathroom"
@@ -933,11 +933,11 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Hb" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/carpet,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "HB" = (
 /obj/structure/mirror{
 	pixel_x = 28
@@ -951,7 +951,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "HC" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -962,7 +962,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Iu" = (
 /obj/structure/bed,
 /obj/effect/mob_spawn/human/free_miner{
@@ -973,7 +973,7 @@
 	},
 /obj/item/bedsheet/dorms,
 /turf/open/floor/carpet,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Ix" = (
 /obj/structure/disposaloutlet{
 	dir = 8
@@ -982,14 +982,14 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "IZ" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Jl" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -998,13 +998,13 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "JC" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "JW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1013,19 +1013,19 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "JZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Kl" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/whiteship/miner{
 	dir = 8
 	},
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "KJ" = (
 /obj/structure/sink{
 	dir = 8;
@@ -1040,13 +1040,13 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "LW" = (
 /obj/machinery/computer/mech_bay_power_console{
 	dir = 8
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Mq" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/structure/table,
@@ -1059,43 +1059,43 @@
 	pixel_y = 4
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Mz" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
 	},
 /obj/structure/table,
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "MB" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "MP" = (
 /obj/structure/chair/americandiner/booth/end_right{
 	dir = 8
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Ni" = (
 /obj/machinery/vending/boozeomat/all_access,
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Np" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Nz" = (
 /obj/structure/chair/americandiner/booth/end_right{
 	dir = 4
 	},
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Od" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "dormitory"
@@ -1107,7 +1107,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/carpet,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Oh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
@@ -1116,13 +1116,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Ox" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -30
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "OU" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -1132,7 +1132,7 @@
 	pixel_x = -28
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Pj" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
@@ -1147,7 +1147,7 @@
 	pixel_y = -1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "PE" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/layer_manifold{
@@ -1157,14 +1157,14 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "PM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "PU" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -1172,13 +1172,13 @@
 /obj/structure/table,
 /obj/item/defibrillator/loaded,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "PY" = (
 /obj/structure/table,
 /obj/item/radio/off,
 /obj/item/clothing/glasses/meson/sunglasses,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Qc" = (
 /obj/machinery/button/door{
 	id = "freeship_bridge";
@@ -1193,17 +1193,17 @@
 	pixel_y = -5
 	},
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Qf" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
 /obj/structure/frame/machine,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Qh" = (
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Qj" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
@@ -1213,7 +1213,7 @@
 	pixel_y = 9
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Qw" = (
 /obj/machinery/light{
 	dir = 1
@@ -1226,11 +1226,11 @@
 	},
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Qy" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Rg" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -32
@@ -1239,21 +1239,21 @@
 	onstation = 0
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Rj" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Rs" = (
 /obj/machinery/vending/cola/random,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "RF" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "RK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -1262,13 +1262,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Sd" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/structure/table,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/carpet/black,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Sg" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -1277,7 +1277,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "So" = (
 /obj/structure/closet/crate,
 /obj/item/circuitboard/machine/ore_redemption,
@@ -1292,18 +1292,18 @@
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/manipulator,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "SC" = (
 /obj/machinery/vending/snack/random,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "SD" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "SF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -1315,24 +1315,24 @@
 	name = "Frank"
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "SU" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/soap,
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "TK" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "TW" = (
 /obj/machinery/computer/operating,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "TX" = (
 /obj/machinery/light{
 	dir = 1
@@ -1341,7 +1341,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "TY" = (
 /obj/structure/table,
 /obj/item/storage/pill_bottle/dice{
@@ -1349,7 +1349,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/carpet,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Uk" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "kitchen"
@@ -1361,7 +1361,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Uo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -1377,7 +1377,7 @@
 /obj/item/mecha_parts/part/clarke_right_arm,
 /obj/item/mecha_parts/part/clarke_torso,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Ux" = (
 /obj/structure/window/shuttle,
 /obj/structure/grille,
@@ -1385,7 +1385,7 @@
 	id = "freeship_windows"
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Vy" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
@@ -1394,7 +1394,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "VA" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -1404,7 +1404,7 @@
 /obj/item/camera,
 /obj/item/storage/photo_album,
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "VF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -1415,7 +1415,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "VH" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "engineering"
@@ -1429,7 +1429,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "VL" = (
 /obj/machinery/syndicatebomb/training{
 	desc = "A sticky note on the side says 'DO NOT TOUCH, VERY DANGEROUS'.";
@@ -1438,7 +1438,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "VY" = (
 /obj/structure/mirror{
 	pixel_x = 28
@@ -1447,18 +1447,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "VZ" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Wd" = (
 /obj/structure/sign/departments/minsky/medical/medical2{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Wz" = (
 /obj/structure/table,
 /obj/item/stack/sheet/metal/fifty,
@@ -1470,7 +1470,7 @@
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Xg" = (
 /obj/structure/table,
 /obj/item/mining_scanner,
@@ -1480,7 +1480,7 @@
 /obj/item/radio/off,
 /obj/item/radio/off,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Xh" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -1490,7 +1490,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Xq" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1499,19 +1499,19 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Xr" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "YK" = (
 /obj/machinery/sleeper{
 	dir = 8
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "YL" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -1528,26 +1528,26 @@
 	pixel_y = 1
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "YM" = (
 /obj/machinery/computer/crew{
 	dir = 8
 	},
 /turf/open/floor/carpet/cyan,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "YV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "YY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
 	},
 /turf/open/floor/carpet/blue,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Ze" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -1558,7 +1558,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 "Zl" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -1576,7 +1576,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/shuttle,
-/area/shuttle/abandoned)
+/area/external/shuttle/ruins/freeminer)
 
 (1,1,1) = {"
 aa

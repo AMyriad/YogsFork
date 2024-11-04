@@ -4,46 +4,46 @@
 /area/template_noop)
 "ab" = (
 /turf/closed/indestructible/riveted,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ac" = (
 /turf/closed/indestructible/rock/snow,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "ad" = (
 /obj/effect/light_emitter{
 	set_cap = 1;
 	set_luminosity = 4
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "ae" = (
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "af" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "ag" = (
 /obj/structure/flora/grass/green,
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "ah" = (
 /obj/item/book/manual/nuclear{
 	desc = "This manual details exactly how to not Flop(TM) the mission for the hundreth time in a row!";
 	name = "How to Acquire Skill: Nuclear Operative Edition"
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "ai" = (
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "aj" = (
 /turf/closed/indestructible/fakeglass,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ak" = (
 /obj/effect/baseturf_helper/asteroid/snow,
 /turf/closed/indestructible/rock/snow,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "al" = (
 /obj/structure/rack{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -73,7 +73,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "am" = (
 /obj/structure/rack{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -98,7 +98,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "an" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -130,14 +130,14 @@
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ao" = (
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ap" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/beerkeg,
@@ -146,24 +146,24 @@
 	},
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ar" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "as" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "at" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "av" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 9
@@ -175,7 +175,7 @@
 /obj/structure/table,
 /obj/machinery/recharger,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aw" = (
 /obj/machinery/porta_turret/syndicate,
 /obj/structure/sign/warning/securearea{
@@ -184,7 +184,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ax" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 5
@@ -195,14 +195,14 @@
 	},
 /obj/item/suppressor,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ay" = (
 /obj/machinery/door/airlock{
 	name = "Bar Storage"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "az" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
@@ -213,7 +213,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/syndicate/personal,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aA" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 4
@@ -223,13 +223,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aB" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aC" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 1
@@ -239,7 +239,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aD" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
@@ -250,7 +250,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/syndicate/personal,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aE" = (
 /obj/structure/curtain,
 /obj/machinery/shower{
@@ -262,7 +262,7 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aF" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -275,7 +275,7 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aG" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -286,11 +286,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aH" = (
 /obj/structure/chair/stool,
 /obj/machinery/airalarm/syndicate{
-	pixel_y = 24;
+	pixel_y = 24
 	},
 /obj/effect/landmark/start/infiltrator,
 /obj/effect/turf_decal/tile/bar,
@@ -298,7 +298,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aI" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
@@ -313,7 +313,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aJ" = (
 /obj/structure/chair/stool,
 /obj/machinery/light/small{
@@ -329,41 +329,41 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aK" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
 	},
 /obj/structure/closet/syndicate/personal,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aL" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aM" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aN" = (
 /obj/effect/turf_decal/stripes/white/corner,
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aO" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 8
 	},
 /obj/structure/closet/syndicate/personal,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aP" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aQ" = (
 /obj/structure/sink{
 	dir = 4;
@@ -377,11 +377,11 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aR" = (
 /obj/effect/baseturf_helper/asteroid/snow,
 /turf/closed/indestructible/riveted,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aS" = (
 /obj/machinery/vending/coffee,
 /obj/effect/decal/cleanable/dirt,
@@ -390,7 +390,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/tile/bar,
@@ -398,7 +398,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aU" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -408,7 +408,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aV" = (
 /obj/structure/table/wood,
 /obj/item/pizzabox/vegetable,
@@ -418,7 +418,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aW" = (
 /obj/structure/chair/stool,
 /obj/machinery/firealarm{
@@ -431,7 +431,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aX" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 10
@@ -444,11 +444,11 @@
 	},
 /obj/item/gun/energy/e_gun/mini,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "aZ" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 6
@@ -461,7 +461,7 @@
 	},
 /obj/item/gun/ballistic/automatic/pistol,
 /turf/open/floor/pod/light,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ba" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock{
@@ -472,11 +472,11 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bb" = (
 /obj/structure/flora/grass/brown,
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "bc" = (
 /obj/structure/sign/warning/securearea{
 	desc = "You shouldn't be here, you know!";
@@ -487,7 +487,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -495,7 +495,7 @@
 /turf/closed/indestructible/fakedoor{
 	name = "Primary Hallway"
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "be" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -506,7 +506,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bf" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
@@ -516,7 +516,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bg" = (
 /obj/structure/chair/stool,
 /obj/effect/landmark/start/infiltrator,
@@ -525,7 +525,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bh" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/beer{
@@ -542,7 +542,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bi" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/decal/cleanable/dirt,
@@ -552,7 +552,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bj" = (
 /obj/effect/turf_decal/bot_white,
 /obj/machinery/door/airlock/centcom{
@@ -562,19 +562,19 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/pod/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bk" = (
 /obj/machinery/washing_machine,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bm" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -585,7 +585,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/carpet/black,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bn" = (
 /obj/machinery/airalarm/syndicate{
 	pixel_y = 24
@@ -593,19 +593,19 @@
 /obj/structure/bed,
 /obj/item/bedsheet/black,
 /turf/open/floor/carpet/black,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bo" = (
 /obj/effect/baseturf_helper/asteroid/snow,
 /turf/closed/indestructible/riveted,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bp" = (
 /turf/closed/indestructible/riveted,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bq" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Primary Hallway"
 	},
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "br" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/bar,
@@ -614,14 +614,14 @@
 	},
 /obj/machinery/vending/cigarette/syndicate,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bs" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bt" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/landmark/start/infiltrator,
@@ -630,7 +630,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/bar,
@@ -638,7 +638,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bv" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 1
@@ -657,7 +657,7 @@
 /turf/open/floor/plasteel/dark/side{
 	dir = 9
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bw" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -666,7 +666,7 @@
 /turf/open/floor/plasteel/dark/side{
 	dir = 1
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bx" = (
 /obj/effect/turf_decal/stripes/white/corner{
 	dir = 4
@@ -682,12 +682,12 @@
 /obj/machinery/turretid/syndicate{
 	lethal = 1;
 	locked = 1;
-	pixel_y = 28;
+	pixel_y = 28
 	},
 /turf/open/floor/plasteel/dark/side{
 	dir = 5
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "by" = (
 /obj/structure/table,
 /obj/structure/window/reinforced,
@@ -701,13 +701,13 @@
 /turf/open/floor/plasteel/freezer{
 	dir = 2
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bz" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock{
@@ -717,20 +717,20 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
 /turf/open/floor/carpet/black,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bC" = (
 /turf/open/floor/carpet/black,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bE" = (
 /obj/structure/bed,
 /obj/machinery/airalarm/syndicate{
@@ -738,14 +738,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bF" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bG" = (
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bH" = (
 /obj/structure/chair{
 	dir = 4
@@ -758,7 +758,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bI" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/computer/camera_advanced/syndie{
@@ -767,7 +767,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bJ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -781,7 +781,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -793,7 +793,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
@@ -802,7 +802,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -812,7 +812,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bN" = (
 /obj/machinery/light/small,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -823,7 +823,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -833,22 +833,22 @@
 	name = "Bar"
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bQ" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -858,7 +858,7 @@
 	name = "Dormitories"
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -873,7 +873,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bU" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -889,7 +889,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "bV" = (
 /obj/structure/sign/warning/securearea{
 	desc = "You shouldn't be here, you know!";
@@ -897,7 +897,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "bW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -912,13 +912,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bX" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bY" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Cell 2"
@@ -929,7 +929,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "bZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -944,7 +944,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "ca" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -953,7 +953,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -967,7 +967,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cc" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	dir = 8;
@@ -981,11 +981,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cd" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ce" = (
 /obj/structure/rack,
 /obj/item/flashlight{
@@ -996,18 +996,18 @@
 /turf/open/floor/plasteel/dark/side{
 	dir = 10
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cf" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cg" = (
 /obj/structure/rack,
 /obj/item/storage/box/lights/bulbs,
 /turf/open/floor/plasteel/dark/side{
 	dir = 6
 	},
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ch" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/firealarm{
@@ -1021,7 +1021,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ci" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/tile/red,
@@ -1029,7 +1029,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cj" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
@@ -1052,7 +1052,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "ck" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -1060,7 +1060,7 @@
 /turf/open/floor/plasteel{
 	dir = 4
 	},
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cl" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -1080,7 +1080,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cm" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light/small{
@@ -1094,7 +1094,7 @@
 /obj/item/storage/toolbox/syndicate,
 /obj/item/flashlight,
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cn" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/table,
@@ -1102,13 +1102,13 @@
 /obj/item/stock_parts/cell/high/plus,
 /obj/item/stack/cable_coil,
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "co" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cp" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
@@ -1125,7 +1125,7 @@
 /obj/item/radio/headset/syndicate/alt,
 /obj/item/multitool,
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cq" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light/small{
@@ -1140,7 +1140,7 @@
 /obj/structure/table,
 /obj/item/storage/firstaid/regular,
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cr" = (
 /obj/machinery/door/airlock/external/glass{
 	name = "E.V.A. Foyer"
@@ -1148,7 +1148,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cs" = (
 /obj/machinery/airalarm/syndicate{
 	dir = 4;
@@ -1164,7 +1164,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "ct" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /obj/effect/turf_decal/tile/red,
@@ -1172,7 +1172,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock{
@@ -1182,7 +1182,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cv" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -1198,7 +1198,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -1207,7 +1207,7 @@
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cx" = (
 /obj/machinery/door/airlock/security/glass{
 	name = "Cell 1"
@@ -1217,7 +1217,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cy" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
@@ -1230,17 +1230,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cz" = (
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cA" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cB" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/turf_decal/stripes/line{
@@ -1248,28 +1248,28 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cD" = (
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cE" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1296,7 +1296,7 @@
 	dir = 10
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cH" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -1305,7 +1305,7 @@
 	anchored = 1
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/red{
@@ -1315,12 +1315,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cJ" = (
 /obj/structure/bed,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -1346,7 +1346,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cL" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -1362,7 +1362,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -1376,7 +1376,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cN" = (
 /obj/machinery/door/airlock/external/glass{
 	name = "E.V.A. Equipment"
@@ -1386,21 +1386,21 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base/jail)
+/area/debug/admin/gamemode/syndicate/infiltrator_jail)
 "cO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cP" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cQ" = (
 /obj/effect/turf_decal/caution/stand_clear{
 	dir = 1
@@ -1408,14 +1408,14 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cT" = (
 /obj/machinery/door/airlock/external/glass{
 	name = "E.V.A. Equipment"
@@ -1425,11 +1425,11 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cU" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cV" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/light/small{
@@ -1441,7 +1441,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cW" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1450,7 +1450,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cX" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -1461,7 +1461,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cY" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/computer/shuttle/syndicate/recall{
@@ -1470,19 +1470,19 @@
 	shuttleId = "syndicatecutter"
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "cZ" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "da" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/suit_storage_unit/infiltrator,
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "db" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/red{
@@ -1493,7 +1493,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "dc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -1507,7 +1507,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "dd" = (
 /obj/machinery/door/airlock{
 	name = "Cabin 3"
@@ -1516,14 +1516,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "de" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_x = -32
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "df" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1547,7 +1547,7 @@
 	},
 /obj/item/clothing/under/syndicate/combat,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "dg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet{
@@ -1570,7 +1570,7 @@
 	},
 /obj/item/clothing/under/syndicate/combat,
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "dh" = (
 /obj/structure/sign/warning/securearea{
 	desc = "You shouldn't be here, you know!";
@@ -1578,7 +1578,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "di" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -1586,7 +1586,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 "dj" = (
 /obj/docking_port/stationary{
 	area_type = /area/yogs/infiltrator_base/outside;
@@ -1599,11 +1599,11 @@
 	width = 22
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "dk" = (
 /obj/item/toy/plush/nukeplushie,
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "dl" = (
 /obj/structure/flora/grass/both,
 /obj/effect/light_emitter{
@@ -1611,7 +1611,7 @@
 	set_luminosity = 4
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "dm" = (
 /obj/structure/flora/tree/pine{
 	max_integrity = 100000
@@ -1621,7 +1621,7 @@
 	set_luminosity = 4
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "dn" = (
 /obj/structure/flora/grass/brown,
 /obj/effect/light_emitter{
@@ -1629,7 +1629,7 @@
 	set_luminosity = 4
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "do" = (
 /obj/structure/flora/tree/pine,
 /obj/effect/light_emitter{
@@ -1637,13 +1637,13 @@
 	set_luminosity = 4
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "dp" = (
 /obj/structure/flora/tree/pine{
 	max_integrity = 100000
 	},
 /turf/open/floor/plating/asteroid/snow/airless,
-/area/yogs/infiltrator_base/outside)
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "wp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1663,11 +1663,14 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/dark,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
+"yU" = (
+/turf/template_noop,
+/area/debug/admin/gamemode/syndicate/infiltrator_exterior)
 "Lx" = (
 /obj/machinery/vending/cigarette/syndicate,
 /turf/closed/indestructible/riveted,
-/area/yogs/infiltrator_base)
+/area/debug/admin/gamemode/syndicate/infiltrator_main)
 
 (1,1,1) = {"
 aa
@@ -1709,7 +1712,7 @@ ac
 bb
 ac
 ac
-aa
+yU
 aa
 aa
 "}

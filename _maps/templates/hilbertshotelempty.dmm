@@ -1,19 +1,19 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/space/bluespace,
-/area/hilbertshotel)
+/area/debug/secret/hilberts_hotel)
 "b" = (
 /turf/closed/indestructible/hotelwall,
-/area/hilbertshotel)
+/area/debug/secret/hilberts_hotel)
 "c" = (
 /turf/open/indestructible/hotelwood,
-/area/hilbertshotel)
+/area/debug/secret/hilberts_hotel)
 "d" = (
 /turf/open/indestructible/hoteltile,
-/area/hilbertshotel)
+/area/debug/secret/hilberts_hotel)
 "e" = (
 /turf/closed/indestructible/hoteldoor,
-/area/hilbertshotel)
+/area/debug/secret/hilberts_hotel)
 
 (1,1,1) = {"
 a
