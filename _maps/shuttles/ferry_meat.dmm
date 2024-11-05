@@ -7,10 +7,10 @@
 	dir = 8
 	},
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "c" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "d" = (
 /obj/machinery/door/airlock/freezer{
 	name = "Meat Tradeship Backroom"
@@ -23,22 +23,22 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/kitchen,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "e" = (
 /turf/closed/wall/mineral/titanium/interior,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "f" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "g" = (
 /obj/machinery/computer/shuttle/ferry/request{
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "h" = (
 /obj/structure/closet/secure_closet/freezer/meat/open{
 	name = "\"meat\" fridge"
@@ -75,20 +75,20 @@
 	name = "rotten meat"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "i" = (
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "j" = (
 /obj/machinery/gibber,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "k" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 30
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "l" = (
 /obj/machinery/door/airlock/titanium,
 /obj/machinery/door/firedoor/border_only{
@@ -98,7 +98,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "m" = (
 /obj/structure/sink/kitchen{
 	desc = "A sink used for washing one's hands and face. It looks rusty and home-made";
@@ -106,19 +106,19 @@
 	pixel_y = 28
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "n" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "o" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "p" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor/border_only{
@@ -128,7 +128,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "q" = (
 /obj/machinery/door/airlock/titanium,
 /obj/docking_port/mobile{
@@ -147,21 +147,21 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "t" = (
 /obj/structure/closet/chefcloset,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "u" = (
 /obj/structure/kitchenspike,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "w" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 
 (1,1,1) = {"
 a

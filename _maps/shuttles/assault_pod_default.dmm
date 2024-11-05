@@ -7,20 +7,20 @@
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "b" = (
 /obj/machinery/porta_turret/syndicate/pod,
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "c" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "d" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "e" = (
 /obj/machinery/door/airlock/centcom{
 	aiControlDisabled = 1;
@@ -30,7 +30,7 @@
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "f" = (
 /obj/machinery/door/airlock/centcom{
 	aiControlDisabled = 1;
@@ -46,34 +46,34 @@
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "h" = (
 /obj/machinery/computer/shuttle/syndicate/drop_pod,
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "p" = (
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "D" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "H" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "L" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/assault_pod)
+/area/external/shuttle/misc/assault_pod)
 "V" = (
 /turf/template_noop,
 /area/template_noop)

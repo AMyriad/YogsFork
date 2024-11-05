@@ -4,49 +4,49 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "e" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /obj/structure/ore_box,
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "i" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "t" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "v" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "w" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "x" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "z" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "P" = (
 /obj/docking_port/mobile/auxiliary_base{
 	dir = 2
@@ -54,23 +54,23 @@
 /obj/machinery/bluespace_beacon,
 /obj/machinery/computer/auxiliary_base,
 /turf/closed/wall,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "S" = (
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "U" = (
 /obj/structure/closet/secure_closet/miner/unlocked,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "W" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 "X" = (
 /obj/machinery/camera{
 	dir = 1;
@@ -78,7 +78,7 @@
 	},
 /obj/structure/mining_shuttle_beacon,
 /turf/open/floor/plating,
-/area/shuttle/auxiliary_base)
+/area/external/shuttle/station/aux_base)
 
 (1,1,1) = {"
 e

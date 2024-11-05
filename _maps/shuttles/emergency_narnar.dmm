@@ -4,26 +4,26 @@
 /area/template_noop)
 "ab" = (
 /turf/closed/wall/mineral/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ac" = (
 /obj/effect/forcefield/cult,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ad" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/fire,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ae" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "af" = (
 /obj/machinery/computer/emergency_shuttle,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ag" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/regular{
@@ -32,40 +32,40 @@
 	},
 /obj/item/crowbar,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ah" = (
 /obj/machinery/computer/atmos_alert{
 	dir = 4
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ai" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aj" = (
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ak" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "al" = (
 /obj/machinery/computer/security{
 	dir = 8
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "am" = (
 /obj/machinery/computer/crew{
 	dir = 4
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "an" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -74,40 +74,40 @@
 	pixel_y = -30
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ao" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
 	pixel_y = -29
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ap" = (
 /obj/machinery/computer/communications/unlocked{
 	dir = 8
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aq" = (
 /obj/item/stack/sheet/metal,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ar" = (
 /obj/effect/forcefield/cult,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "as" = (
 /obj/machinery/status_display/evac,
 /turf/closed/wall/mineral/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "at" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "au" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/fire,
@@ -117,15 +117,15 @@
 	},
 /obj/item/crowbar,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "av" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aw" = (
 /mob/living/simple_animal/hostile/construct/builder,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ax" = (
 /obj/machinery/door/airlock/cult/friendly,
 /obj/machinery/door/firedoor/border_only{
@@ -135,36 +135,36 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ay" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /obj/item/candle/infinite,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "az" = (
 /obj/effect/rune/raise_dead,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aA" = (
 /obj/item/candle/infinite,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aB" = (
 /obj/effect/rune/convert,
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aC" = (
 /mob/living/simple_animal/hostile/construct/armored,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aD" = (
 /obj/effect/rune/convert,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aE" = (
 /obj/machinery/door/airlock/cult/friendly,
 /obj/docking_port/mobile/emergency{
@@ -177,11 +177,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aF" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aG" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
@@ -190,11 +190,11 @@
 	safety = 0
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aH" = (
 /mob/living/simple_animal/hostile/construct/wraith,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aI" = (
 /obj/effect/rune/narsie,
 /obj/effect/fun_balloon/sentience/emergency_shuttle{
@@ -202,31 +202,31 @@
 	group_name = "horrible monsters on Shuttle 667"
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aJ" = (
 /mob/living/simple_animal/hostile/carp/eyeball{
 	faction = list("cult");
 	name = "left eyeball"
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aK" = (
 /mob/living/simple_animal/hostile/carp/eyeball{
 	faction = list("cult");
 	name = "right eyeball"
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aL" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aM" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
 	},
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aN" = (
 /obj/machinery/door/airlock/cult/glass/friendly,
 /obj/machinery/door/firedoor/border_only{
@@ -234,15 +234,15 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aO" = (
 /obj/structure/dresser,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aP" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aQ" = (
 /obj/item/storage/firstaid/fire,
 /obj/item/storage/firstaid/regular{
@@ -255,32 +255,32 @@
 	},
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aR" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aS" = (
 /obj/structure/table/wood,
 /obj/item/tome,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aT" = (
 /obj/structure/bed,
 /obj/item/bedsheet/cult,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aU" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aV" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aW" = (
 /obj/machinery/door/airlock/cult/unruned/glass/friendly,
 /obj/machinery/door/firedoor/border_only{
@@ -288,32 +288,32 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aX" = (
 /obj/effect/forcefield/cult,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aY" = (
 /obj/effect/forcefield/cult,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ba" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "bb" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plasteel/cult,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 
 (1,1,1) = {"
 aa

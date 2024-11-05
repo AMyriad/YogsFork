@@ -1,20 +1,20 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "b" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "c" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "e" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "f" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -31,7 +31,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "g" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock"
@@ -44,7 +44,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/cargo_bay,
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "i" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock"
@@ -61,7 +61,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/cargo_bay,
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "j" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -78,29 +78,29 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "l" = (
 /turf/closed/wall/mineral/titanium/interior,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "s" = (
 /turf/template_noop,
 /area/template_noop)
 "v" = (
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "x" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "y" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "z" = (
 /obj/machinery/light{
 	dir = 4
@@ -121,19 +121,19 @@
 	req_access = list("cargo_bay")
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "A" = (
 /obj/structure/shuttle/engine/propulsion/burst/right{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "H" = (
 /obj/structure/shuttle/engine/propulsion/burst/left{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 
 (1,1,1) = {"
 s

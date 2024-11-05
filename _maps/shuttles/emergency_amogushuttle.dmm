@@ -3,7 +3,7 @@
 /obj/structure/table,
 /obj/item/storage/box/zipties,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "bl" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 8
@@ -14,7 +14,7 @@
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "bI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/door/airlock/public/glass{
@@ -28,7 +28,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "bO" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 4
@@ -39,7 +39,7 @@
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "bS" = (
 /obj/structure/flora/ausbushes/leafybush{
 	color = "red"
@@ -47,7 +47,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "bX" = (
 /obj/effect/turf_decal/bot_red,
 /obj/structure/closet/crate/secure/weapon,
@@ -55,7 +55,7 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "cc" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -70,13 +70,13 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "cx" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "cT" = (
 /obj/structure/chair/office/dark{
 	color = "red";
@@ -84,18 +84,18 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dx" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dE" = (
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dH" = (
 /obj/machinery/light,
 /obj/machinery/computer/operating{
@@ -103,7 +103,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ec" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -118,12 +118,12 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ej" = (
 /obj/machinery/atmospherics/components/unary/cryo_cell,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "em" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -132,13 +132,13 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "eN" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "eQ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
@@ -148,22 +148,22 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "eS" = (
 /turf/open/floor/plating/burnt{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fl" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fA" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fQ" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -178,14 +178,14 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fV" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "gI" = (
 /obj/structure/table,
 /obj/item/circular_saw,
@@ -200,7 +200,7 @@
 /obj/item/retractor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "gS" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -208,13 +208,13 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "gW" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating/broken{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ht" = (
 /obj/structure/table,
 /obj/item/clothing/suit/apron/surgical,
@@ -224,21 +224,21 @@
 /obj/item/razor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hu" = (
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hy" = (
 /obj/structure/window/reinforced{
 	color = "red";
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hz" = (
 /obj/structure/railing{
 	dir = 4
@@ -249,7 +249,7 @@
 /turf/open/floor/plasteel/stairs/goon/wood_stairs_wide2{
 	dir = 1
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hD" = (
 /obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/blood,
@@ -274,15 +274,15 @@
 /obj/item/reagent_containers/blood/random,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hN" = (
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hP" = (
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hR" = (
 /obj/structure/window/reinforced{
 	color = "red"
@@ -296,14 +296,14 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "is" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "iB" = (
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
@@ -312,7 +312,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "iE" = (
 /obj/structure/sink/puddle{
 	color = "red";
@@ -321,12 +321,12 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jd" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ji" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -335,12 +335,12 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jo" = (
 /obj/structure/table,
 /obj/item/storage/box/teargas,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jq" = (
 /obj/structure/shuttle/engine/heater{
 	color = "red";
@@ -351,14 +351,14 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jF" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -373,44 +373,44 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jG" = (
 /obj/machinery/computer/med_data{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jJ" = (
 /obj/machinery/computer/emergency_shuttle,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ka" = (
 /obj/structure/table,
 /obj/machinery/recharger,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kr" = (
 /obj/machinery/modular_computer/console/preset/command/cmo{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kt" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red";
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kP" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -426,7 +426,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kX" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
@@ -435,7 +435,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kZ" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -443,7 +443,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "le" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -458,13 +458,13 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "lA" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "me" = (
 /obj/effect/turf_decal/ramp_middle{
 	dir = 4
@@ -472,7 +472,7 @@
 /obj/effect/turf_decal/ramp_middle,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mf" = (
 /obj/effect/turf_decal/bot_red,
 /obj/structure/closet/crate,
@@ -480,7 +480,7 @@
 /turf/open/floor/plating/burnt{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mu" = (
 /obj/structure/toilet{
 	color = "red";
@@ -491,7 +491,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mC" = (
 /obj/structure/grille,
 /obj/structure/window/fulltile{
@@ -500,24 +500,24 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mE" = (
 /obj/effect/turf_decal/bot_red,
 /obj/structure/closet/crate,
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mF" = (
 /obj/structure/railing/corner,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mG" = (
 /obj/machinery/iv_drip,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "nb" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
@@ -525,33 +525,33 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "nz" = (
 /obj/machinery/light/floor,
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "oB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "pb" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ph" = (
 /obj/effect/turf_decal/bot_red,
 /obj/structure/closet/crate/secure/loot,
 /turf/open/floor/plating/burnt{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "pF" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red";
@@ -563,14 +563,14 @@
 	},
 /obj/machinery/light/floor,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "pO" = (
 /obj/machinery/computer/atmos_alert{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qg" = (
 /obj/structure/flora/ausbushes/fullgrass{
 	color = "red"
@@ -578,7 +578,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qj" = (
 /obj/item/melee/baseball_bat{
 	pixel_x = -5
@@ -586,7 +586,7 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qD" = (
 /obj/structure/window/reinforced/tinted{
 	color = "red";
@@ -596,7 +596,7 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qN" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -611,7 +611,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "re" = (
 /obj/structure/grille,
 /obj/structure/window/plastitanium{
@@ -620,21 +620,21 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "rl" = (
 /obj/machinery/computer/communications{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "rm" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ro" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/machinery/door/firedoor/border_only{
@@ -642,13 +642,13 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "rE" = (
 /mob/living/simple_animal/hostile/retaliate/goat/suspicious,
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "sh" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
@@ -658,7 +658,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "sC" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -671,13 +671,13 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "sF" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red"
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "sS" = (
 /obj/structure/window/reinforced{
 	color = "red"
@@ -687,7 +687,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tb" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -705,7 +705,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tn" = (
 /obj/machinery/light{
 	dir = 1
@@ -715,7 +715,7 @@
 /obj/item/wrench/medical,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ty" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -725,7 +725,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tW" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -737,24 +737,24 @@
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ue" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/beaker/cryoxadone,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uo" = (
 /obj/machinery/light/floor,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uB" = (
 /obj/structure/shuttle/engine/propulsion{
 	color = "red";
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uK" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -770,19 +770,19 @@
 	name = "Emergency Shuttle Brig"
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vb" = (
 /obj/effect/turf_decal/tile/bar/full,
 /turf/open/floor/plasteel/stairs/goon/wood_stairs_middle{
 	dir = 1
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ve" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/door/airlock/public/glass{
@@ -796,33 +796,33 @@
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vh" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vz" = (
 /obj/effect/turf_decal/bot_red,
 /obj/structure/closet/crate,
 /turf/open/floor/plating/burnt{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vP" = (
 /turf/closed/wall{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "wi" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -837,7 +837,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "wt" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -856,7 +856,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "wv" = (
 /obj/structure/window/reinforced{
 	color = "red"
@@ -867,18 +867,18 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ww" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red";
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "wI" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xo" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -893,7 +893,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xu" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red";
@@ -905,13 +905,13 @@
 	},
 /obj/machinery/light/floor,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xy" = (
 /obj/machinery/light/floor/built,
 /turf/open/floor/plating/broken{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xA" = (
 /mob/living/simple_animal/hostile/retaliate/goat/suspicious,
 /obj/structure/flora/ausbushes/ywflowers{
@@ -920,7 +920,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xD" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -938,16 +938,16 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xL" = (
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xU" = (
 /turf/open/floor/plating/broken{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yh" = (
 /obj/structure/window/reinforced/tinted{
 	color = "red";
@@ -962,7 +962,7 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yt" = (
 /obj/structure/railing,
 /obj/structure/window/reinforced{
@@ -971,7 +971,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yC" = (
 /obj/structure/railing{
 	dir = 8
@@ -982,7 +982,7 @@
 /turf/open/floor/plasteel/stairs/goon/wood_stairs_wide{
 	dir = 1
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/chair/office/dark{
@@ -996,7 +996,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yR" = (
 /obj/structure/chair/office/dark{
 	color = "red";
@@ -1009,28 +1009,28 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "zo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "zQ" = (
 /obj/machinery/stasis{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "zY" = (
 /obj/machinery/modular_computer/console/preset/command{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "As" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/door/firedoor/border_only{
@@ -1038,7 +1038,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Av" = (
 /obj/structure/safe,
 /obj/item/gun/ballistic/automatic/c20r/unrestricted,
@@ -1047,12 +1047,12 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "AJ" = (
 /obj/effect/turf_decal/ramp_middle,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "AN" = (
 /obj/effect/turf_decal/ramp_middle,
 /obj/effect/turf_decal/ramp_middle{
@@ -1060,14 +1060,14 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "BB" = (
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "BP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1079,12 +1079,12 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "BU" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ef" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1102,12 +1102,12 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ek" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "EK" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/regular{
@@ -1117,20 +1117,20 @@
 /obj/item/storage/firstaid/fire,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ER" = (
 /obj/machinery/light/floor,
 /turf/open/floor/plating/burnt{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Fh" = (
 /obj/machinery/modular_computer/console/preset/command/hop{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Fo" = (
 /obj/machinery/light{
 	dir = 4
@@ -1142,16 +1142,16 @@
 	color = "red"
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Fr" = (
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Fs" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "FY" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1166,13 +1166,13 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Gm" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Gn" = (
 /obj/structure/flora/ausbushes/fullgrass{
 	color = "red"
@@ -1183,7 +1183,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "GQ" = (
 /obj/machinery/door/airlock{
 	color = "red";
@@ -1197,14 +1197,14 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "GY" = (
 /obj/machinery/modular_computer/console/preset/command/rd{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Hr" = (
 /obj/item/crowbar/large{
 	pixel_x = 6
@@ -1212,20 +1212,20 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Hs" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Hw" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "HQ" = (
 /obj/structure/urinal{
 	color = "red";
@@ -1234,7 +1234,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "HX" = (
 /mob/living/simple_animal/hostile/retaliate/goat/suspicious,
 /obj/structure/flora/ausbushes/leafybush{
@@ -1246,7 +1246,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ii" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1261,7 +1261,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Is" = (
 /obj/structure/window/reinforced{
 	color = "red"
@@ -1273,27 +1273,27 @@
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "JM" = (
 /obj/machinery/modular_computer/console/preset/command/ce{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "JP" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Kh" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Kw" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red";
@@ -1305,14 +1305,14 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Lh" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile{
 	color = "red"
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ly" = (
 /obj/structure/flora/ausbushes/grassybush{
 	color = "red"
@@ -1320,19 +1320,19 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "LR" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Mf" = (
 /obj/machinery/modular_computer/console/preset/command/hos{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Mg" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1344,13 +1344,13 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Mw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "MC" = (
 /obj/machinery/vending/wallmed{
 	name = "Emergency NanoMed";
@@ -1359,12 +1359,12 @@
 /turf/closed/wall{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ML" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "MZ" = (
 /obj/effect/turf_decal/bot_red,
 /mob/living/simple_animal/hostile/retaliate/poison/snake,
@@ -1381,7 +1381,7 @@
 /turf/open/floor/plating/broken{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Nd" = (
 /obj/structure/window/reinforced/tinted{
 	color = "red";
@@ -1391,13 +1391,13 @@
 /turf/open/floor/plating/burnt{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ND" = (
 /obj/machinery/light/floor/built,
 /turf/open/floor/plating/burnt{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "NY" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -1405,7 +1405,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Oh" = (
 /obj/structure/window/fulltile{
 	color = "red"
@@ -1414,7 +1414,7 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ok" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1423,7 +1423,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Oz" = (
 /obj/structure/chair/office/dark{
 	color = "red";
@@ -1431,13 +1431,13 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "OR" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Pn" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1452,7 +1452,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Pr" = (
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
@@ -1461,14 +1461,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "PB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "PW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -1483,14 +1483,14 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Qe" = (
 /obj/machinery/computer/mecha{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Qn" = (
 /mob/living/simple_animal/hostile/retaliate/goat/suspicious,
 /obj/structure/flora/ausbushes/grassybush{
@@ -1499,7 +1499,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Qs" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Emergency Shuttle Medbay"
@@ -1512,7 +1512,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Qz" = (
 /obj/effect/fun_balloon/sentience/emergency_shuttle{
 	group_name = "murderous suspicious goats on the amogushuttle"
@@ -1523,7 +1523,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "QE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
@@ -1532,7 +1532,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "QQ" = (
 /obj/machinery/light/floor,
 /obj/structure/chair/comfy/shuttle{
@@ -1541,7 +1541,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Rf" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1557,7 +1557,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ru" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/chair/office/dark{
@@ -1571,12 +1571,12 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "RN" = (
 /obj/structure/table/optable,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "RV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1593,7 +1593,7 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Se" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1605,7 +1605,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Sy" = (
 /obj/item/kirbyplants/random{
 	color = "red"
@@ -1614,17 +1614,17 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "SE" = (
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "SO" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "SZ" = (
 /obj/machinery/light{
 	dir = 4
@@ -1637,18 +1637,18 @@
 	color = "red"
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Td" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Tq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ts" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1656,20 +1656,20 @@
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Tu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "TJ" = (
 /obj/machinery/computer/security{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "TM" = (
 /obj/machinery/door/airlock{
 	color = "red";
@@ -1683,19 +1683,19 @@
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "TO" = (
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Up" = (
 /obj/machinery/computer/cargo{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ur" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1710,7 +1710,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "UI" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red";
@@ -1721,7 +1721,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "UN" = (
 /obj/machinery/door/airlock/titanium/glass{
 	name = "Emergency Shuttle Airlock"
@@ -1735,14 +1735,14 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vi" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 5
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vk" = (
 /obj/structure/chair/office/dark{
 	color = "red";
@@ -1755,7 +1755,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -1766,20 +1766,20 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vs" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "VK" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Wm" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	name = "Connector Port (Air Supply)"
@@ -1787,7 +1787,7 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Wu" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -1799,7 +1799,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Xb" = (
 /obj/structure/chair/comfy/shuttle{
 	color = "red";
@@ -1811,7 +1811,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Yp" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1820,7 +1820,7 @@
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Yu" = (
 /turf/template_noop,
 /area/template_noop)
@@ -1834,7 +1834,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "YG" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1845,7 +1845,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "YH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1856,7 +1856,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "YT" = (
 /obj/structure/window/plastitanium{
 	color = "red"
@@ -1865,14 +1865,14 @@
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "YW" = (
 /obj/effect/turf_decal/bot_red,
 /obj/structure/closet/crate/secure/loot,
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "YZ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
@@ -1884,29 +1884,29 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ze" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/freezer,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Zk" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible,
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Zw" = (
 /obj/effect/turf_decal/tile/bar/fourcorners,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Zx" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ZD" = (
 /obj/structure/window/reinforced{
 	color = "red";
@@ -1918,7 +1918,7 @@
 /turf/open/floor/grass{
 	color = "red"
 	},
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ZU" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -1934,7 +1934,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 
 (1,1,1) = {"
 Yu

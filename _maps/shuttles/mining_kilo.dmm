@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "c" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/emergency,
@@ -9,12 +9,12 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "d" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/computer/shuttle/mining,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "e" = (
 /obj/structure/table,
 /obj/item/crowbar/red,
@@ -25,7 +25,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "f" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -35,14 +35,14 @@
 	dir = 9
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "g" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "h" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -55,7 +55,7 @@
 	dir = 10
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "i" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Mining Shuttle Airlock"
@@ -76,7 +76,7 @@
 	width = 7
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "k" = (
 /obj/item/clothing/suit/hazardvest{
 	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
@@ -116,22 +116,22 @@
 /obj/machinery/light/small,
 /obj/effect/turf_decal/box,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "m" = (
 /obj/structure/ore_box,
 /obj/machinery/light/small,
 /obj/effect/turf_decal/box,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "n" = (
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "o" = (
 /obj/structure/shuttle/engine/propulsion,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "s" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -141,7 +141,7 @@
 	dir = 5
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "t" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -154,7 +154,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "v" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -162,14 +162,14 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "G" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "I" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -183,21 +183,21 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "T" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "V" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 "W" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -208,7 +208,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/mining)
+/area/external/shuttle/station/mining)
 
 (1,1,1) = {"
 a

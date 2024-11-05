@@ -2,7 +2,7 @@
 "d" = (
 /turf/open/genturf,
 /turf/open/floor/plating/backrooms,
-/area/procedurally_generated/maintenance/the_backrooms)
+/area/debug/procedural_gen/maintenance/backrooms)
 
 (1,1,1) = {"
 d

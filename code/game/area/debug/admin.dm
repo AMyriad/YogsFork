@@ -58,8 +58,8 @@
 	name = "Central Command Areas"
 	icon_state = ""
 
-/area/debug/admin/centcom/control
-	name = "\improper CentCom Control Hall"
+/area/debug/admin/centcom/main
+	name = "\improper Central Command Station"
 	icon_state = ""
 
 /area/debug/admin/centcom/dock_main
@@ -75,11 +75,11 @@
 	icon_state = ""
 
 /area/debug/admin/centcom/supply
-	name = "\improper CentCom Supply Shuttle Bay"
+	name = "\improper CentCom Supply Depot"
 	icon_state = ""
 
-/area/debug/admin/centcom/dock_ferry
-	name = "\improper CentCom Transport Shuttle Dock"
+/area/debug/admin/centcom/mission_control
+	name = "\improper CentCom Mission Control"
 	icon_state = ""
 
 /area/debug/admin/centcom/prison
@@ -186,8 +186,8 @@
 	name = "\improper Syndicate Dreadnought"
 	icon_state = "syndie-control"
 
-/area/debug/admin/gamemode/syndicate/nukeops_hangar
-	name = "\improper Syndicate Dreadnought Hangar"
+/area/debug/admin/gamemode/syndicate/nukeops_control
+	name = "\improper Syndicate Dreadnought Control Room"
 
 /area/debug/admin/gamemode/syndicate/nukeops_pod
 	name = "\improper Syndicate Dreadnought Assault Podbay"

@@ -4,14 +4,14 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "c" = (
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion";
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "d" = (
 /obj/structure/shuttle/engine/heater{
 	icon_state = "heater";
@@ -19,52 +19,52 @@
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "e" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "f" = (
 /obj/machinery/computer/arcade,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "g" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "h" = (
 /turf/open/floor/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "i" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "k" = (
 /obj/machinery/door/airlock/titanium,
 /turf/open/floor/plating,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "l" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "m" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "n" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "o" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "p" = (
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion";
@@ -78,7 +78,7 @@
 	width = 7
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 
 (1,1,1) = {"
 a

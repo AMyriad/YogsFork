@@ -13,7 +13,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ab" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -30,7 +30,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ac" = (
 /obj/machinery/computer/shuttle/pirate,
 /obj/effect/decal/cleanable/dirt,
@@ -39,7 +39,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ad" = (
 /obj/structure/table,
 /obj/machinery/button/door{
@@ -59,14 +59,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ae" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "af" = (
 /turf/template_noop,
 /area/template_noop)
@@ -75,14 +75,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ah" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ai" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
@@ -90,10 +90,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aj" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "al" = (
 /obj/machinery/loot_locator,
 /obj/effect/decal/cleanable/dirt,
@@ -107,7 +107,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "am" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/turf_decal/tile/neutral{
@@ -121,7 +121,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "an" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -135,7 +135,7 @@
 	},
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ao" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -150,7 +150,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ap" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Port Gun Battery"
@@ -163,7 +163,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aq" = (
 /obj/structure/chair/stool,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -175,7 +175,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "as" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
@@ -188,7 +188,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "at" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
@@ -198,7 +198,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "au" = (
 /obj/machinery/door/airlock/hatch{
 	id_tag = "piratebridgebolt";
@@ -220,7 +220,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "av" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Starboard Gun Battery"
@@ -233,7 +233,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
@@ -244,7 +244,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ax" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
@@ -257,7 +257,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ay" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -269,7 +269,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "az" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -281,7 +281,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aA" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
@@ -294,7 +294,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aB" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -315,7 +315,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aC" = (
 /obj/machinery/shuttle_scrambler,
 /obj/effect/decal/cleanable/dirt,
@@ -327,18 +327,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aD" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aE" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
 	},
 /obj/effect/spawner/structure/window/plastitanium,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aF" = (
 /obj/machinery/door/airlock/external/glass{
 	id_tag = "pirateportexternal"
@@ -351,7 +351,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -364,11 +364,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aH" = (
 /obj/structure/shuttle/engine/propulsion/left,
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aI" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -378,7 +378,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aJ" = (
 /obj/machinery/door/airlock/external/glass{
 	id_tag = "pirateportexternal"
@@ -392,24 +392,24 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aK" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aL" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aM" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/wood,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aN" = (
 /obj/machinery/light/small,
 /obj/machinery/button/door{
@@ -425,7 +425,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aO" = (
 /obj/machinery/light/small,
 /obj/machinery/button/door{
@@ -439,7 +439,7 @@
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aP" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
@@ -449,7 +449,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aQ" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	dir = 1;
@@ -458,7 +458,7 @@
 	mode = 1
 	},
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aR" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	faction = list("pirate");
@@ -466,12 +466,12 @@
 	mode = 1
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aS" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aT" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
@@ -481,11 +481,11 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aU" = (
 /obj/structure/sign/departments/engineering,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aV" = (
 /obj/effect/mob_spawn/human/pirate{
 	dir = 1
@@ -502,7 +502,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "aW" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -525,7 +525,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "be" = (
 /obj/machinery/space_heater,
 /obj/effect/turf_decal/bot,
@@ -535,7 +535,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bf" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -552,7 +552,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bg" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
@@ -566,7 +566,7 @@
 	},
 /obj/machinery/recharger,
 /turf/open/floor/pod/light,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bk" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -577,7 +577,7 @@
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bl" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -598,11 +598,11 @@
 	pixel_y = 3
 	},
 /turf/open/floor/pod/light,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bm" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bo" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -611,7 +611,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "br" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/matches,
@@ -628,7 +628,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/wood,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bu" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
@@ -638,14 +638,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bx" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -656,24 +656,24 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "by" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/piratepad,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bA" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bB" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bC" = (
 /obj/machinery/airalarm/all_access{
 	dir = 8;
@@ -688,7 +688,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -704,7 +704,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bH" = (
 /obj/machinery/vending/boozeomat/all_access{
 	onstation = 0
@@ -714,14 +714,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bI" = (
 /obj/machinery/light/small,
 /obj/machinery/computer/piratepad_control{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bJ" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
@@ -735,7 +735,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sink{
@@ -749,7 +749,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/door/airlock{
@@ -771,7 +771,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bO" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -787,21 +787,21 @@
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bP" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bQ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/terminal{
@@ -827,7 +827,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "bZ" = (
 /obj/machinery/door/airlock/external/glass{
 	id_tag = "piratestarboardexternal"
@@ -840,7 +840,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ce" = (
 /obj/machinery/door/airlock/external/glass{
 	id_tag = "piratestarboardexternal"
@@ -876,7 +876,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "df" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	dir = 4;
@@ -885,7 +885,7 @@
 	mode = 1
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "dy" = (
 /obj/structure/chair/wood/normal,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -896,7 +896,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "dU" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -915,7 +915,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ek" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
@@ -933,7 +933,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor/pod/light,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ep" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -941,41 +941,41 @@
 	},
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "er" = (
 /obj/structure/shuttle/engine/propulsion/right,
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "et" = (
 /obj/structure/grille,
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "eu" = (
 /obj/structure/girder,
 /obj/item/stack/rods{
 	amount = 3
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ew" = (
 /obj/structure/girder,
 /obj/item/stack/rods{
 	amount = 5
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ex" = (
 /obj/structure/window/reinforced,
 /obj/structure/frame/machine,
 /obj/item/wrench,
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "ez" = (
 /obj/structure/window/reinforced,
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil/cut/red,
 /turf/open/floor/plating/airless,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "eA" = (
 /obj/structure/window/reinforced{
 	dir = 1;
@@ -986,30 +986,30 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "eE" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "fW" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "fY" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "gY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "km" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /obj/effect/turf_decal/bot,
@@ -1018,13 +1018,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "mD" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "mU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/door/airlock/engineering{
@@ -1036,7 +1036,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "np" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/bot,
@@ -1045,7 +1045,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "vB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -1061,7 +1061,7 @@
 	pixel_y = 2
 	},
 /turf/open/floor/pod/light,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "wf" = (
 /obj/machinery/door/airlock{
 	name = "Unisex Restrooms"
@@ -1077,7 +1077,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/showroomfloor,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "wP" = (
 /obj/machinery/airalarm/all_access{
 	dir = 4;
@@ -1112,7 +1112,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "wR" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	dir = 8;
@@ -1121,7 +1121,7 @@
 	mode = 1
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "yi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -1137,7 +1137,7 @@
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "zw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/door/airlock{
@@ -1149,13 +1149,13 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/wood,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "Gk" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/suit_storage_unit/pirate,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "JT" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -1174,7 +1174,7 @@
 	pixel_y = -1
 	},
 /turf/open/floor/pod/light,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "Oe" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /obj/effect/turf_decal/tile/bar,
@@ -1182,7 +1182,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "OD" = (
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
@@ -1201,7 +1201,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "OL" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
@@ -1210,7 +1210,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "RY" = (
 /obj/effect/mob_spawn/human/pirate/captain{
 	dir = 4
@@ -1223,7 +1223,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/wood,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "Ur" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/decal/cleanable/dirt,
@@ -1232,7 +1232,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "WJ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -1259,7 +1259,7 @@
 	},
 /obj/item/melee/vxtvulhammer/pirate,
 /turf/open/floor/pod/light,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 "Yj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -1301,7 +1301,7 @@
 	unique_name = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/pirate)
+/area/external/shuttle/misc/space_pirates)
 
 (1,1,1) = {"
 af

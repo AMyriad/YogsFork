@@ -386,7 +386,7 @@
 /turf/open/floor/plating,
 /area/ruin/powered)
 "V" = (
-/obj/item/clothing/under/pirate,
+/obj/item/clothing/under/costume/pirate,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/lavaland_baseturf,
 /area/lavaland/surface/outdoors)

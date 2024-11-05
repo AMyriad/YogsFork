@@ -4,82 +4,82 @@
 /area/template_noop)
 "b" = (
 /turf/closed/mineral,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "c" = (
 /obj/structure/window/reinforced{
 	dir = 1;
 	layer = 2.9
 	},
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "d" = (
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "e" = (
 /obj/machinery/computer/emergency_shuttle{
 	dir = 4;
 	use_power = 0
 	},
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "f" = (
 /mob/living/simple_animal/hostile/asteroid/goliath,
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "g" = (
 /obj/structure/mineral_door/iron,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "h" = (
 /obj/item/pickaxe,
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "i" = (
 /obj/effect/station_crash,
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "k" = (
 /obj/structure/closet/crate,
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "l" = (
 /obj/machinery/power/smes,
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "m" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating/airless,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "n" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/airless,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "B" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "E" = (
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "H" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "K" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "L" = (
 /obj/docking_port/mobile/emergency{
 	dwidth = 20;
@@ -89,13 +89,13 @@
 	width = 40
 	},
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 "S" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid,
-/area/shuttle/escape/meteor)
+/area/external/shuttle/station/escape/custom/meteor)
 
 (1,1,1) = {"
 a

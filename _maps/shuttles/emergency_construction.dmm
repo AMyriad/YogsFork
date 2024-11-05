@@ -10,20 +10,20 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "c" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "d" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "e" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "f" = (
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "g" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Emergency Shuttle Airlock"
@@ -35,7 +35,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "i" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Emergency Shuttle Airlock"
@@ -55,7 +55,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "j" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -71,7 +71,7 @@
 	},
 /obj/item/airlock_painter,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "k" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/electrical,
@@ -84,7 +84,7 @@
 	pixel_y = -4
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "l" = (
 /obj/structure/table,
 /obj/item/storage/box/lights/mixed{
@@ -136,7 +136,7 @@
 	pixel_y = -6
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "m" = (
 /obj/structure/table,
 /obj/item/stack/sheet/metal/fifty{
@@ -149,7 +149,7 @@
 	},
 /obj/item/stack/rods/fifty,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "n" = (
 /obj/structure/table,
 /obj/item/stack/sheet/mineral/titanium/fifty{
@@ -161,7 +161,7 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "o" = (
 /obj/structure/table,
 /obj/item/stack/sheet/glass/fifty{
@@ -173,10 +173,10 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "p" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "t" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
@@ -187,18 +187,18 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "L" = (
 /obj/machinery/computer/emergency_shuttle{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "X" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/window,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 
 (1,1,1) = {"
 a

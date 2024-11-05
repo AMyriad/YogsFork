@@ -7,24 +7,24 @@
 	dir = 8
 	},
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "c" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "d" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "e" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "f" = (
 /obj/machinery/door/airlock/titanium,
 /obj/docking_port/mobile{
@@ -43,26 +43,26 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "g" = (
 /turf/closed/wall/mineral/titanium/interior,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "h" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "i" = (
 /obj/machinery/computer/shuttle/ferry/request{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "j" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "k" = (
 /obj/machinery/door/airlock/titanium,
 /obj/machinery/door/firedoor/border_only{
@@ -72,25 +72,25 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "l" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "p" = (
 /obj/structure/closet/crate,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "q" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "T" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 
 (1,1,1) = {"
 a

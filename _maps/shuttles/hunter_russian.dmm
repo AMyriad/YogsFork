@@ -4,13 +4,13 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "c" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "d" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8;
@@ -20,18 +20,18 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "e" = (
 /obj/machinery/portable_atmospherics/scrubber/huge,
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "f" = (
 /obj/machinery/power/smes,
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "g" = (
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "h" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/machinery/door/firedoor/border_only{
@@ -39,31 +39,31 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "i" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/structure/fans/tiny,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "j" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "k" = (
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "l" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "m" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/item/weldingtool/largetank,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "n" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/reagent_dispensers/watertank,
@@ -73,13 +73,13 @@
 	pixel_x = 6
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "o" = (
 /obj/effect/mob_spawn/human/fugitive/russian{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "p" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -87,24 +87,24 @@
 	icon_state = "crateopen"
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "q" = (
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "r" = (
 /obj/effect/turf_decal/arrows{
 	dir = 4;
 	icon_state = "arrows"
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "s" = (
 /obj/structure/table,
 /obj/item/storage/fancy/cigarettes/cigars/cohiba{
 	pixel_y = 6
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "t" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -112,60 +112,60 @@
 	icon_state = "crittercrate"
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "u" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "v" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "w" = (
 /obj/machinery/fugitive_capture,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "x" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "y" = (
 /turf/template_noop,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "z" = (
 /obj/structure/chair{
 	dir = 4;
 	icon_state = "chair"
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "A" = (
 /obj/machinery/computer/shuttle/hunter{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "B" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "C" = (
 /obj/machinery/computer/camera_advanced{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "D" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "E" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/hunter{
 	dir = 8;
@@ -175,7 +175,7 @@
 	y_offset = 3
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "F" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
@@ -183,28 +183,28 @@
 	icon_state = "engi_crateopen"
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "G" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/bottle/vodka,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "H" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate/coffin{
 	icon_state = "coffinopen"
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "I" = (
 /obj/effect/turf_decal/bot,
 /obj/mecha/working/ripley,
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "J" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "K" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/structure/fans/tiny,
@@ -228,17 +228,17 @@
 	width = 15
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "L" = (
 /obj/effect/mob_spawn/human/fugitive/russian{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "M" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "N" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/table/reinforced,
@@ -248,7 +248,7 @@
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/mask/gas,
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "P" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/table/reinforced,
@@ -283,7 +283,7 @@
 	name = "russian space suit"
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "U" = (
 /obj/machinery/door/airlock/security/glass,
 /obj/machinery/door/firedoor/border_only{
@@ -293,14 +293,14 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 "X" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/hunter)
+/area/external/shuttle/misc/fugitive_hunter)
 
 (1,1,1) = {"
 a

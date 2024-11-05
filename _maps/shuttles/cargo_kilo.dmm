@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "b" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -11,7 +11,7 @@
 	dir = 9
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "c" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -21,7 +21,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "d" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -31,7 +31,7 @@
 	dir = 5
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "e" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -41,7 +41,7 @@
 	dir = 10
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "f" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -51,14 +51,14 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "g" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "h" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -68,13 +68,13 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "j" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "k" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -87,7 +87,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "l" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -100,7 +100,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "n" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -113,7 +113,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "o" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -123,7 +123,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "p" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -149,7 +149,7 @@
 	req_access = list("cargo")
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "q" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -162,7 +162,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "s" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -173,13 +173,13 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "u" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "v" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -189,7 +189,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "w" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -197,7 +197,7 @@
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "x" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -207,11 +207,11 @@
 	dir = 6
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "y" = (
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "z" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -219,7 +219,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "B" = (
 /turf/template_noop,
 /area/template_noop)
@@ -227,17 +227,17 @@
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "D" = (
 /obj/structure/shuttle/engine/propulsion,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "E" = (
 /obj/structure/shuttle/engine/propulsion/burst/right,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "J" = (
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor2";
@@ -255,7 +255,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "K" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Supply Shuttle Airlock"
@@ -273,7 +273,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/cargo_bay,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "V" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Supply Shuttle Airlock"
@@ -287,7 +287,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/cargo_bay,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "W" = (
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor";
@@ -305,13 +305,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "Y" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/structure/shuttle/engine/heater,
 /obj/machinery/door/firedoor/window,
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 
 (1,1,1) = {"
 a

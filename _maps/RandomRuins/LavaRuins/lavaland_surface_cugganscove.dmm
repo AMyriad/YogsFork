@@ -374,8 +374,8 @@
 /area/ruin/unpowered)
 "bB" = (
 /obj/structure/closet/wardrobe/pink,
-/obj/item/clothing/under/pirate,
-/obj/item/clothing/under/pirate,
+/obj/item/clothing/under/costume/pirate,
+/obj/item/clothing/under/costume/pirate,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/glasses/eyepatch,
@@ -401,8 +401,8 @@
 /area/ruin/unpowered)
 "bF" = (
 /obj/structure/closet/wardrobe/pink,
-/obj/item/clothing/under/pirate,
-/obj/item/clothing/under/pirate,
+/obj/item/clothing/under/costume/pirate,
+/obj/item/clothing/under/costume/pirate,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/glasses/eyepatch,

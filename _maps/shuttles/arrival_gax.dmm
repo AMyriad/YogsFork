@@ -4,7 +4,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "c" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Arrivals Shuttle Airlock"
@@ -15,7 +15,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "g" = (
 /obj/machinery/light{
 	dir = 4
@@ -24,7 +24,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "m" = (
 /obj/machinery/light{
 	dir = 8
@@ -42,7 +42,7 @@
 /obj/item/tank/internals/emergency_oxygen,
 /obj/item/clothing/mask/breath,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "n" = (
 /obj/structure/sign/poster/official/random{
 	pixel_y = 32
@@ -51,10 +51,10 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "o" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "p" = (
 /turf/template_noop,
 /area/template_noop)
@@ -66,16 +66,16 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "r" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "s" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/window,
 /turf/open/floor/plating,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "t" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -84,7 +84,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "v" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -5;
@@ -94,10 +94,10 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "w" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "y" = (
 /obj/machinery/vending/wallmed{
 	name = "Emergency NanoMed";
@@ -108,18 +108,18 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "C" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/status_display/ai{
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "H" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "I" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -128,19 +128,19 @@
 	pixel_y = -32
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "K" = (
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "L" = (
 /obj/machinery/door/firedoor/window,
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "M" = (
 /obj/machinery/holopad,
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "O" = (
 /obj/machinery/light{
 	dir = 4
@@ -150,26 +150,26 @@
 	pixel_y = -29
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "R" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/machinery/light/small,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "T" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "U" = (
 /obj/structure/shuttle/engine/propulsion/burst/right{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "Z" = (
 /obj/machinery/light{
 	dir = 8
@@ -183,7 +183,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 
 (1,1,1) = {"
 p

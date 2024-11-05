@@ -4,11 +4,11 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "d" = (
 /obj/machinery/holopad,
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "e" = (
 /obj/item/storage/toolbox/emergency{
 	pixel_y = 5
@@ -19,10 +19,10 @@
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "f" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "g" = (
 /obj/machinery/light{
 	dir = 1
@@ -33,7 +33,7 @@
 	use_power = 0
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "h" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Arrivals Shuttle Airlock"
@@ -48,19 +48,19 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "i" = (
 /obj/structure/closet/wardrobe/black,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "j" = (
 /obj/structure/closet/wardrobe/mixed,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "k" = (
 /obj/structure/closet/wardrobe/grey,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "l" = (
 /obj/machinery/requests_console{
 	department = "Arrival shuttle";
@@ -71,7 +71,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "m" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -83,7 +83,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "n" = (
 /obj/structure/shuttle/engine/propulsion/burst/right{
 	dir = 4
@@ -92,29 +92,29 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "o" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/window,
 /turf/open/floor/plating,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "p" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "q" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "r" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "s" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
@@ -123,7 +123,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "t" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Arrivals Shuttle Airlock"
@@ -135,7 +135,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "u" = (
 /obj/docking_port/mobile/arrivals,
 /obj/effect/turf_decal/stripes/line{
@@ -145,13 +145,13 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "v" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "w" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -160,7 +160,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "x" = (
 /obj/structure/closet/crate/internals,
 /obj/item/storage/firstaid/o2,
@@ -178,14 +178,14 @@
 	pixel_x = -32
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "y" = (
 /obj/machinery/light,
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -29
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "z" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -193,7 +193,7 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "A" = (
 /obj/structure/shuttle/engine/propulsion/burst/left{
 	dir = 4
@@ -202,11 +202,11 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "H" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "N" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -218,21 +218,21 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "Q" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "S" = (
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "U" = (
 /obj/structure/closet/wardrobe/white,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 "V" = (
 /obj/structure/sign/poster/official/random,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/arrival)
+/area/external/shuttle/station/arrival)
 
 (1,1,1) = {"
 a

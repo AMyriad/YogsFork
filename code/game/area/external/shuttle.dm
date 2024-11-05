@@ -99,11 +99,11 @@
 	area_flags = NOTELEPORT
 
 /area/external/shuttle/station/escape/custom/arena
-	name = "The Arena"
+	name = "\improper Hall of Champions"
 	area_flags = NOTELEPORT
 
 /area/external/shuttle/station/escape/custom/arena_combat
-	name = "The Arena"
+	name = "\improper The Arena"
 	hidden = TRUE
 	mood_bonus = 25
 	mood_message = span_nicegreen("NO TIME TO THINK, JUST RIP AND TEAR!!/n")
@@ -119,7 +119,7 @@
 	name = "Debug Shuttle Areas"
 
 /area/external/shuttle/debug/transit
-	name = "Bluespace"
+	name = "\improper Bluespace"
 	desc = "Weeeeee"
 	static_lighting = FALSE
 	base_lighting_alpha = 255
@@ -144,7 +144,7 @@
 	area_limited_icon_smoothing = /area/external/shuttle/misc/nukeop_dropship
 
 /area/external/shuttle/misc/assault_pod
-	name = "Steel Rain"
+	name = "\improper Steel Rain"
 
 /area/external/shuttle/misc/space_pirates
 	name = "\improper Pirate Shuttle"

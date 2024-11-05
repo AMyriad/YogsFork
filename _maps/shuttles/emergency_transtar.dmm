@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ab" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular{
@@ -13,13 +13,13 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ad" = (
 /mob/living/simple_animal/hostile/alien/maid{
 	name = "lusty flight attendant"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aw" = (
 /obj/structure/curtain,
 /obj/machinery/door/firedoor/border_only,
@@ -30,7 +30,7 @@
 	pixel_x = -27
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aP" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -40,7 +40,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "aZ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -49,14 +49,14 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "bf" = (
 /obj/structure/table,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dp" = (
 /turf/closed/wall/mineral/titanium/interior,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dv" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -65,31 +65,31 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dI" = (
 /obj/structure/shuttle/engine/large,
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dM" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced,
 /obj/item/clothing/mask/cigarette/cigar/havana,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "eV" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fu" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "gm" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -98,17 +98,17 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "gy" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "gZ" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hw" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -117,23 +117,23 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hL" = (
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "hS" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ih" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ik" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -149,7 +149,7 @@
 	specialfunctions = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "iE" = (
 /obj/structure/closet/emcloset,
 /obj/structure/window/reinforced{
@@ -159,13 +159,13 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kb" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light,
 /obj/item/book/random,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kE" = (
 /obj/machinery/light{
 	dir = 4
@@ -175,29 +175,29 @@
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "li" = (
 /obj/machinery/newscaster{
 	pixel_x = 30
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "lN" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "lQ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mS" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "mW" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -206,11 +206,11 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "nz" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "nY" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -219,19 +219,19 @@
 	pixel_x = -27
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "or" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ow" = (
 /obj/structure/table,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "oR" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -243,20 +243,20 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "oX" = (
 /obj/structure/table,
 /obj/item/crowbar,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qd" = (
 /obj/structure/closet,
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qo" = (
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "rv" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/gas{
@@ -268,7 +268,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ry" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -277,13 +277,13 @@
 	pixel_y = 32
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "rY" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light,
 /obj/item/storage/fancy/cigarettes/cigpack_robust,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "sp" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
@@ -293,35 +293,35 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ss" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "sU" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "sW" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tG" = (
 /obj/structure/toilet{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tM" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tR" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Lavatory 1"
@@ -333,13 +333,13 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tX" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uG" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -348,10 +348,10 @@
 	pixel_x = -27
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uR" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uU" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
@@ -361,21 +361,21 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vq" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/vending/wallmed{
 	pixel_x = 28
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "wd" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -384,7 +384,7 @@
 	pixel_x = 27
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ws" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
@@ -394,14 +394,14 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "wK" = (
 /obj/structure/sink{
 	pixel_y = 26
 	},
 /obj/machinery/light/small,
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xc" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Emergency Shuttle Airlock"
@@ -416,7 +416,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xj" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/door/firedoor/border_only{
@@ -428,7 +428,7 @@
 	pixel_y = 24
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xn" = (
 /obj/machinery/button/flasher{
 	id = "cockpit_flasher";
@@ -437,14 +437,14 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "xD" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/donkpockets{
 	pixel_y = 3
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yf" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
@@ -454,7 +454,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yr" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -462,11 +462,11 @@
 	},
 /obj/item/toy/cards/deck/uno,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yx" = (
 /obj/machinery/computer/emergency_shuttle,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Az" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -475,12 +475,12 @@
 	pixel_x = 27
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "AB" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/fire,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Cn" = (
 /obj/structure/table,
 /obj/item/storage/firstaid/regular{
@@ -488,7 +488,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Da" = (
 /obj/machinery/vending/cola,
 /obj/structure/window/reinforced{
@@ -498,47 +498,47 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Dh" = (
 /obj/structure/toilet{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Dm" = (
 /turf/open/floor/carpet/black,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Do" = (
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "DS" = (
 /obj/machinery/vending/wallmed{
 	pixel_y = -28
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "EX" = (
 /obj/machinery/computer/atmos_alert{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "FY" = (
 /obj/structure/closet/emcloset,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Gi" = (
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Gk" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "GG" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Emergency Shuttle Airlock"
@@ -551,7 +551,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/basic,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "GX" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -560,7 +560,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "He" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -576,13 +576,13 @@
 	specialfunctions = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "HQ" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "IG" = (
 /turf/open/floor/mineral/titanium/yellow,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "IY" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -593,7 +593,7 @@
 	name = "Holding Cell"
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Jp" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -607,18 +607,18 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ke" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "KL" = (
 /obj/machinery/door/window/westright,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "KW" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -627,7 +627,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "LI" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -639,7 +639,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Mk" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -651,7 +651,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "MS" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -665,7 +665,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Nb" = (
 /obj/structure/curtain,
 /obj/machinery/door/firedoor/border_only,
@@ -673,7 +673,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Nw" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -682,7 +682,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "OZ" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Emergency Shuttle Cargo"
@@ -694,23 +694,23 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Qn" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ra" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Rp" = (
 /obj/structure/table/reinforced,
 /obj/machinery/paystand/register,
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Rr" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Emergency Shuttle Cockpit"
@@ -721,7 +721,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "RX" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Lavatory 2"
@@ -733,13 +733,13 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/white,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Sg" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -27
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "SK" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -752,7 +752,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "SS" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -762,12 +762,12 @@
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Un" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "UL" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -779,17 +779,17 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "UY" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vo" = (
 /turf/open/floor/plating/airless,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vp" = (
 /turf/template_noop,
 /area/template_noop)
@@ -797,19 +797,19 @@
 /obj/structure/table/reinforced,
 /obj/item/cane,
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "VR" = (
 /obj/machinery/newscaster{
 	pixel_x = -30
 	},
 /turf/open/floor/carpet,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Wc" = (
 /obj/machinery/computer/communications/unlocked{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "WQ" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/machinery/door/firedoor/border_only{
@@ -819,28 +819,28 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "XV" = (
 /obj/machinery/computer/crew,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "XY" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "YU" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ZP" = (
 /obj/machinery/computer/security{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 
 (1,1,1) = {"
 Vp

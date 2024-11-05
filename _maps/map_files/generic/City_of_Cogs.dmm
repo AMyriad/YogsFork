@@ -3,115 +3,115 @@
 /obj/structure/window/reinforced/clockwork/fulltile,
 /obj/structure/grille/ratvar,
 /turf/open/indestructible/clock_spawn_room,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ab" = (
 /turf/open/indestructible/reebe_void/spawning/lattices,
-/area/centcom/reebe)
+/area/debug/admin/gamemode/clock/reebe)
 "ac" = (
 /turf/open/indestructible/clock_spawn_room,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ae" = (
 /obj/machinery/door/airlock/clockwork/brass,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ag" = (
 /obj/machinery/door/airlock/clockwork/brass{
 	name = "Summoning Chamber"
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ah" = (
 /turf/closed/wall/clockwork,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ai" = (
 /obj/structure/window/reinforced/clockwork/fulltile,
 /obj/structure/grille/ratvar,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aj" = (
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ak" = (
 /obj/structure/destructible/clockwork/massive/celestial_gateway,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ao" = (
 /obj/machinery/telecomms/relay/preset/reebe,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ap" = (
 /obj/effect/landmark/city_of_cogs,
 /turf/open/indestructible/clock_spawn_room,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aq" = (
 /obj/machinery/computer/camera_advanced/ratvar,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "at" = (
 /obj/structure/chair/brass,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "au" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/radio/intercom/ratvar,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "av" = (
 /obj/structure/chair/brass{
 	dir = 8
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aw" = (
 /obj/structure/chair/brass{
 	dir = 4
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ax" = (
 /obj/structure/chair/brass{
 	dir = 1
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ay" = (
 /obj/machinery/computer/camera_advanced/ratvar{
 	dir = 4
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "az" = (
 /obj/structure/destructible/clockwork/heralds_beacon,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aA" = (
 /obj/machinery/door/airlock/clockwork/brass{
 	name = "Infirmary"
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aE" = (
 /obj/machinery/door/airlock/clockwork/brass{
 	name = "Observation Room"
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aF" = (
 /obj/machinery/computer/camera_advanced/ratvar{
 	dir = 1
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aH" = (
 /obj/effect/landmark/servant_of_ratvar,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aI" = (
 /obj/machinery/computer/camera_advanced/ratvar{
 	dir = 8
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aJ" = (
 /obj/structure/noticeboard{
 	dir = 1
@@ -120,24 +120,24 @@
 	name = "paper - 'Station Radio Frequencies'"
 	},
 /turf/closed/wall/clockwork,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aO" = (
 /obj/effect/spawner/lootdrop/clockcult,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aP" = (
 /obj/machinery/door/airlock/clockwork/brass,
 /turf/open/indestructible/clock_spawn_room,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "aQ" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/kitchen/fork,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "bj" = (
 /obj/structure/destructible/clockwork/eminence_spire,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "bG" = (
 /obj/structure/noticeboard{
 	dir = 8
@@ -146,12 +146,12 @@
 	name = "paper - 'Station Radio Frequencies'"
 	},
 /turf/closed/wall/clockwork,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "cj" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "cC" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/kitchen/fork{
@@ -161,30 +161,30 @@
 	pixel_x = -4
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ef" = (
 /obj/structure/lattice/catwalk/clockwork,
 /obj/effect/clockwork/servant_blocker{
 	dir = 1
 	},
 /turf/open/indestructible/reebe_void,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "er" = (
 /obj/effect/landmark/servant_of_ratvar/scarab,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "fi" = (
 /obj/machinery/stasis{
 	color = "#FF8000";
 	dir = 4
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "fT" = (
 /obj/structure/lattice/catwalk/clockwork,
 /obj/effect/clockwork/servant_blocker,
 /turf/open/indestructible/reebe_void,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "mj" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/clockwork/slab{
@@ -212,18 +212,18 @@
 	pixel_y = -5
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "px" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/paper/servant_primer/infirmarypaper,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "ty" = (
 /obj/effect/clockwork/servant_blocker,
 /obj/structure/grille/ratvar,
 /obj/structure/window/reinforced/clockwork/fulltile,
 /turf/open/indestructible/clock_spawn_room,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "wm" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/kitchen/fork{
@@ -239,19 +239,19 @@
 	pixel_x = 10
 	},
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "wT" = (
 /obj/structure/table/reinforced/brass,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "Ct" = (
 /turf/closed/indestructible/riveted,
-/area/centcom/reebe)
+/area/debug/admin/gamemode/clock/reebe)
 "Nw" = (
 /obj/item/clockwork/alloy_shards,
 /obj/effect/landmark/servant_of_ratvar/scarab,
 /turf/open/floor/clockwork/reebe,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 "Qp" = (
 /obj/structure/grille/ratvar,
 /obj/structure/window/reinforced/clockwork/fulltile,
@@ -259,7 +259,7 @@
 	dir = 1
 	},
 /turf/open/indestructible/clock_spawn_room,
-/area/centcom/reebe/city_of_cogs)
+/area/debug/admin/gamemode/clock/city)
 
 (1,1,1) = {"
 Ct

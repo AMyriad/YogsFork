@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "b" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "e" = (
 /obj/machinery/conveyor{
 	dir = 2;
@@ -9,7 +9,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "f" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -17,7 +17,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "g" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -25,7 +25,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "h" = (
 /obj/machinery/conveyor{
 	dir = 9;
@@ -33,7 +33,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "i" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -41,7 +41,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "j" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -49,7 +49,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "k" = (
 /obj/machinery/conveyor{
 	dir = 6;
@@ -57,7 +57,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "l" = (
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor2";
@@ -75,10 +75,10 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "n" = (
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "o" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock"
@@ -91,7 +91,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/cargo_bay,
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "p" = (
 /obj/machinery/button/door{
 	dir = 2;
@@ -115,7 +115,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "q" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock"
@@ -132,7 +132,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/supply/cargo_bay,
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "r" = (
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor";
@@ -150,29 +150,29 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "u" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "w" = (
 /turf/template_noop,
 /area/template_noop)
 "x" = (
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "y" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "z" = (
 /obj/structure/shuttle/engine/propulsion/burst/right,
 /turf/open/floor/plating/airless,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "A" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -183,13 +183,13 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "B" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "G" = (
 /obj/machinery/conveyor{
 	dir = 8;
@@ -197,7 +197,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "P" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -205,7 +205,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 "R" = (
 /obj/machinery/conveyor{
 	dir = 2;
@@ -213,7 +213,7 @@
 	name = "cargo shuttle conveyor belt"
 	},
 /turf/open/floor/mineral/titanium,
-/area/shuttle/supply)
+/area/external/shuttle/station/supply)
 
 (1,1,1) = {"
 b

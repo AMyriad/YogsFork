@@ -4,10 +4,10 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "c" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "d" = (
 /obj/machinery/porta_turret/syndicate/energy{
 	dir = 4;
@@ -15,13 +15,13 @@
 	mode = 1
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "e" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 8
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "f" = (
 /obj/machinery/power/apc/highcap/fifteen_k{
 	dir = 8;
@@ -35,7 +35,7 @@
 	},
 /obj/structure/cable/yellow,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "g" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/hatch{
@@ -67,7 +67,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "h" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -79,7 +79,7 @@
 	lethal = 1;
 	name = "Shuttle turret control";
 	pixel_x = 32;
-	pixel_y = -28;
+	pixel_y = -28
 	},
 /mob/living/simple_animal/hostile/syndicate/ranged/smg/pilot{
 	environment_smash = 0
@@ -88,7 +88,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "i" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -96,7 +96,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "j" = (
 /obj/machinery/camera/xray{
 	c_tag = "External View";
@@ -105,7 +105,7 @@
 	pixel_x = 32
 	},
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 "k" = (
 /obj/machinery/button/door{
 	id = "caravansyndicate1_bolt";
@@ -118,7 +118,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer/camera_advanced/shuttle_docker/caravan/syndicate1,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/caravan/syndicate1)
+/area/external/shuttle/ruins/fighter_syndicate)
 
 (1,1,1) = {"
 a

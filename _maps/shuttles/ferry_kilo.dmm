@@ -4,17 +4,17 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "c" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "d" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "e" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "f" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Ferry Shuttle Airlock"
@@ -25,11 +25,11 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "g" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "h" = (
 /obj/structure/shuttle/engine/propulsion/left{
 	icon_state = "propulsion_l";
@@ -39,7 +39,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "i" = (
 /obj/structure/window/shuttle,
 /obj/structure/grille,
@@ -48,11 +48,11 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "j" = (
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "k" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/o2{
@@ -65,12 +65,12 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "l" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "m" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -83,12 +83,12 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "n" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "o" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/chair/comfy/shuttle,
@@ -96,7 +96,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "p" = (
 /obj/structure/shuttle/engine/propulsion{
 	icon_state = "propulsion";
@@ -106,7 +106,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "q" = (
 /obj/machinery/computer/shuttle/ferry/request{
 	dir = 4
@@ -116,7 +116,7 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "r" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -127,7 +127,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "s" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -144,7 +144,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "t" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Ferry Shuttle Airlock"
@@ -167,7 +167,7 @@
 	width = 5
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "u" = (
 /obj/structure/shuttle/engine/propulsion/right{
 	icon_state = "propulsion_r";
@@ -177,7 +177,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "v" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
@@ -202,14 +202,14 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "w" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "x" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/chair/comfy/shuttle{
@@ -217,7 +217,7 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 
 (1,1,1) = {"
 a

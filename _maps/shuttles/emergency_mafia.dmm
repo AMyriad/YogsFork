@@ -6,55 +6,55 @@
 	unique_name = 0
 	},
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "cw" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "dd" = (
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "en" = (
 /turf/open/floor/wood/broken/six,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "eC" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fe" = (
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fs" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "fV" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ig" = (
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jA" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "jZ" = (
 /obj/structure/shuttle/engine/large,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "kV" = (
 /obj/structure/table/wood/fancy,
 /obj/effect/fun_balloon/sentience/emergency_shuttle{
@@ -62,44 +62,44 @@
 	group_name = "Drone Mafia or barstaff on the emergency shuttle"
 	},
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "nb" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "pD" = (
 /obj/structure/table/wood/fancy,
 /obj/item/clothing/head/fedora,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qH" = (
 /turf/open/floor/wood/broken/five,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qR" = (
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "qU" = (
 /turf/open/floor/wood/broken/two,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "tu" = (
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "ud" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uo" = (
 /obj/structure/fans/tiny/invisible,
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "uD" = (
 /turf/open/floor/wood/broken/seven,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "vR" = (
 /turf/template_noop,
 /area/template_noop)
@@ -107,10 +107,10 @@
 /obj/structure/table/wood/fancy,
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "wA" = (
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yS" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -118,37 +118,37 @@
 	},
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "yT" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "BI" = (
 /obj/structure/table/wood/fancy,
 /obj/item/clothing/head/fedora/brown,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "CE" = (
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "DC" = (
 /obj/structure/table/wood/fancy,
 /obj/item/reagent_containers/food/drinks/flask,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "DZ" = (
 /mob/living/simple_animal/drone/snowflake/bardrone,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "EY" = (
 /obj/docking_port/mobile/emergency{
 	name = "mafia emergency shuttle"
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Fc" = (
 /obj/machinery/light{
 	dir = 8;
@@ -158,14 +158,14 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "FA" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
 /mob/living/simple_animal/drone/snowflake/mafia,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "FX" = (
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /obj/item/reagent_containers/food/drinks/bottle/wine{
@@ -178,7 +178,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ge" = (
 /obj/item/reagent_containers/food/drinks/bottle/champagne{
 	pixel_x = -6;
@@ -190,11 +190,11 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "JW" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Kn" = (
 /obj/item/reagent_containers/food/drinks/bottle/champagne{
 	pixel_x = -8;
@@ -206,18 +206,18 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "KI" = (
 /obj/machinery/computer/emergency_shuttle,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "La" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
 /mob/living/simple_animal/drone/snowflake/mafia,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Ls" = (
 /obj/item/reagent_containers/food/drinks/bottle/wine{
 	pixel_x = -7;
@@ -230,63 +230,63 @@
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Mi" = (
 /obj/structure/table/wood/fancy,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Nk" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "No" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "NJ" = (
 /obj/structure/table/wood/fancy,
 /obj/item/reagent_containers/food/drinks/bottle/wine,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Oc" = (
 /obj/structure/table/wood/fancy,
 /obj/item/clothing/head/fedora/gtrim_fedora,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Oi" = (
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Oj" = (
 /obj/structure/chair/comfy/black{
 	dir = 1;
 	name = "Command Station"
 	},
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "OA" = (
 /turf/open/floor/wood/broken,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "OP" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "PM" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Qr" = (
 /mob/living/simple_animal/hostile/alien/maid/barmaid,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Rs" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/pizza/sassysage,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Sa" = (
 /mob/living/simple_animal/pet/cat/Proc{
 	desc = "The mobs cutest cat!";
@@ -298,42 +298,42 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "TP" = (
 /obj/structure/table/wood/fancy,
 /obj/item/reagent_containers/food/drinks/bottle/lizardwine,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "TS" = (
 /turf/open/floor/plating,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "TW" = (
 /turf/closed/wall/mineral/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vc" = (
 /obj/machinery/door/airlock/wood,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vi" = (
 /obj/structure/chair/comfy/black,
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Vx" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Wm" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 "Yg" = (
 /obj/item/flashlight/lamp/green,
 /obj/structure/table/wood,
 /turf/open/floor/carpet/green,
-/area/shuttle/escape)
+/area/external/shuttle/station/escape)
 
 (1,1,1) = {"
 vR

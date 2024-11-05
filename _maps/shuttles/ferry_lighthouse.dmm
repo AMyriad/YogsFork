@@ -7,29 +7,29 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ac" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ad" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ae" = (
 /obj/machinery/conveyor{
 	dir = 1;
 	id = "garbage"
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "af" = (
 /turf/closed/wall/r_wall,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ag" = (
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ah" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor/border_only{
@@ -39,11 +39,11 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ai" = (
 /obj/machinery/vending/liberationstation,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aj" = (
 /obj/machinery/door/airlock/vault,
 /obj/machinery/door/firedoor/border_only{
@@ -53,51 +53,51 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ak" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "al" = (
 /obj/machinery/computer/shuttle/ferry/request{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "am" = (
 /obj/structure/grille/broken,
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "an" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/machinery/vending/autodrobe,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ao" = (
 /obj/structure/mirror/magic/badmin{
 	pixel_x = 30
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ap" = (
 /turf/closed/wall,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aq" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/machinery/vending/clothing,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ar" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "as" = (
 /obj/structure/emergency_shield,
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "at" = (
 /obj/machinery/door/airlock,
 /obj/machinery/door/firedoor/border_only{
@@ -107,21 +107,21 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "au" = (
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "av" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aw" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ax" = (
 /obj/structure/table/wood,
 /obj/structure/window/reinforced{
@@ -131,13 +131,13 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "ay" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/bluespace,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "az" = (
 /obj/structure/table/wood,
 /obj/item/toy/crayon/spraycan,
@@ -145,17 +145,17 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aA" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aB" = (
 /obj/structure/grille/broken,
 /obj/structure/window/fulltile,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aC" = (
 /obj/structure/table/wood,
 /obj/structure/window/reinforced{
@@ -166,53 +166,53 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aD" = (
 /turf/open/floor/carpet,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aE" = (
 /turf/open/floor/bluespace,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aF" = (
 /obj/machinery/vending/sovietsoda,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aG" = (
 /obj/machinery/vending/snack,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aH" = (
 /obj/machinery/newscaster{
 	pixel_y = 30
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aI" = (
 /obj/structure/bed,
 /obj/item/bedsheet/wiz,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aJ" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aK" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aL" = (
 /turf/closed/wall/rust,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aM" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aN" = (
 /obj/machinery/power/grounding_rod{
 	anchored = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aO" = (
 /obj/machinery/door/airlock/titanium,
 /obj/docking_port/mobile{
@@ -231,49 +231,49 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aP" = (
 /obj/machinery/vending/magivend,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aQ" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aR" = (
 /obj/structure/chair/office/dark{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aT" = (
 /obj/structure/bed,
 /obj/item/bedsheet/centcom,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aU" = (
 /obj/structure/bed,
 /obj/item/bedsheet/rainbow,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aV" = (
 /obj/structure/closet/crate,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aW" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aX" = (
 /obj/structure/window/fulltile,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "aY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "bb" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -281,21 +281,21 @@
 	layer = 2.5
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "bd" = (
 /obj/item/kirbyplants/dead{
 	desc = "It doesn't look very healthy...";
 	name = "potted plant"
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "be" = (
 /obj/machinery/conveyor{
 	dir = 4;
 	id = "garbage"
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "bf" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -303,33 +303,33 @@
 	},
 /obj/structure/plasticflaps,
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "bg" = (
 /obj/machinery/conveyor/inverted{
 	dir = 10;
 	id = "garbage"
 	},
 /turf/open/floor/wood,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "bh" = (
 /obj/structure/foamedmetal,
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "bi" = (
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "bj" = (
 /obj/structure/shuttle/engine/propulsion/right,
 /turf/open/floor/plating/airless,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 "Vs" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/shuttle/transport)
+/area/external/shuttle/station/centcom_ferry)
 
 (1,1,1) = {"
 aa

@@ -7,16 +7,7 @@
 	dir = 9
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/bridge)
-"ac" = (
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/bridge)
-"ad" = (
-/obj/machinery/porta_turret/syndicate/shuttle{
-	dir = 10
-	},
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "ae" = (
 /obj/structure/window/plastitanium,
 /obj/machinery/door/poddoor/shutters{
@@ -29,44 +20,41 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/shuttle/syndicate/bridge)
-"af" = (
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "ag" = (
 /obj/machinery/computer/med_data/syndie,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "ah" = (
 /obj/machinery/computer/crew/syndie,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "ai" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "aj" = (
 /obj/machinery/computer/shuttle/syndicate,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "ak" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "al" = (
 /obj/machinery/computer/camera_advanced/syndie,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "am" = (
 /obj/machinery/computer/secure_data/syndie,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "an" = (
 /obj/structure/table/reinforced,
 /obj/machinery/status_display/evac{
@@ -89,17 +77,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "ao" = (
 /obj/structure/chair/office/dark{
 	dir = 8;
 	name = "tactical swivel chair"
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "ap" = (
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "aq" = (
 /obj/structure/chair/office/dark{
 	dir = 1;
@@ -113,14 +101,14 @@
 	req_access = list("syndicate")
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "ar" = (
 /obj/structure/chair/office/dark{
 	dir = 4;
 	name = "tactical swivel chair"
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "as" = (
 /obj/structure/table/reinforced,
 /obj/machinery/status_display/ai{
@@ -141,18 +129,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "at" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "au" = (
 /obj/machinery/status_display/evac,
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "av" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Cockpit"
@@ -173,16 +161,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
-"aw" = (
-/obj/machinery/porta_turret/syndicate/shuttle{
-	dir = 9
-	},
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/eva)
-"ax" = (
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "ay" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/cable_coil/white,
@@ -199,20 +178,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
-"az" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "aA" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/handcuffs{
@@ -231,10 +197,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "aB" = (
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "aC" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4;
@@ -251,10 +217,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
-"aD" = (
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "aE" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8;
@@ -271,19 +234,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "aF" = (
 /obj/machinery/porta_turret/syndicate/shuttle{
 	dir = 5
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/armory)
-"aG" = (
-/obj/machinery/porta_turret/syndicate/shuttle{
-	dir = 9
-	},
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "aH" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4;
@@ -303,7 +260,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "aI" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8;
@@ -323,73 +280,41 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
-"aJ" = (
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/medical)
-"aK" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "aL" = (
 /obj/machinery/suit_storage_unit/syndicate,
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/syndicate/eva)
-"aM" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "aN" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
-"aP" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "aQ" = (
 /obj/effect/spawner/structure/window/plastitanium,
 /turf/open/floor/plating,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "aR" = (
 /obj/machinery/suit_storage_unit/syndicate,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "aS" = (
 /obj/structure/tank_dispenser/oxygen,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "aT" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "aU" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light{
@@ -397,7 +322,7 @@
 	},
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "aV" = (
 /obj/machinery/door/airlock/external{
 	name = "Ready Room"
@@ -418,7 +343,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "aW" = (
 /obj/machinery/door/airlock/external{
 	name = "E.V.A. Gear Storage"
@@ -441,7 +366,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "aX" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4;
@@ -452,7 +377,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "aY" = (
 /obj/machinery/door/poddoor{
 	id = "smindicate";
@@ -484,10 +409,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/syndicate/airlock)
-"aZ" = (
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "ba" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/turf_decal/tile/neutral{
@@ -508,14 +430,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
-"bb" = (
-/obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating,
-/area/shuttle/syndicate/eva)
-"bc" = (
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "bd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -525,26 +440,14 @@
 	pixel_x = 32
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "be" = (
 /obj/machinery/suit_storage_unit/syndicate,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/syndicate/eva)
-"bf" = (
-/obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating,
-/area/shuttle/syndicate/airlock)
-"bg" = (
-/obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating,
-/area/shuttle/syndicate/medical)
-"bh" = (
-/obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bi" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/bot_white,
@@ -554,14 +457,14 @@
 /obj/item/clothing/suit/space/syndicate,
 /obj/item/clothing/head/helmet/space/syndicate,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "bj" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bk" = (
 /obj/machinery/status_display/ai,
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bl" = (
 /obj/machinery/door/airlock/hatch,
 /obj/effect/turf_decal/stripes/line{
@@ -575,14 +478,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/medical)
-"bm" = (
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/armory)
-"bn" = (
-/obj/machinery/status_display/evac,
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bo" = (
 /obj/machinery/nuclearbomb/syndicate{
 	anchored = 1
@@ -591,37 +487,20 @@
 	dir = 1
 	},
 /turf/open/floor/circuit/red,
-/area/shuttle/syndicate/hallway)
-"bp" = (
-/obj/machinery/door/airlock/hatch,
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bq" = (
 /obj/machinery/sleeper/syndie{
 	dir = 4
 	},
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
-"br" = (
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bs" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bt" = (
 /obj/item/reagent_containers/glass/bottle/epinephrine{
 	pixel_x = 6
@@ -656,7 +535,7 @@
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bu" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/medical/gauze,
@@ -664,7 +543,7 @@
 /obj/item/stack/medical/ointment,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bv" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -682,7 +561,7 @@
 	},
 /obj/effect/turf_decal/delivery/white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "bw" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -696,7 +575,7 @@
 	},
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "bx" = (
 /obj/item/stock_parts/cell/high{
 	pixel_x = -3;
@@ -705,7 +584,7 @@
 /obj/item/stock_parts/cell/high,
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "by" = (
 /obj/item/screwdriver{
 	pixel_y = 9
@@ -715,7 +594,7 @@
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bz" = (
 /obj/item/wrench,
 /obj/item/assembly/infra,
@@ -724,7 +603,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bA" = (
 /obj/item/assembly/signaler,
 /obj/item/assembly/signaler,
@@ -738,7 +617,7 @@
 	},
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bB" = (
 /obj/item/weldingtool/largetank{
 	pixel_y = 3
@@ -746,20 +625,13 @@
 /obj/item/multitool,
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bC" = (
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
-"bD" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bE" = (
 /obj/machinery/light{
 	dir = 8
@@ -775,55 +647,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
-"bF" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
-"bG" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
-"bH" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/medical)
-"bJ" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bK" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -839,25 +669,19 @@
 	pixel_x = -30
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/hallway)
-"bL" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "bN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bP" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -870,12 +694,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bQ" = (
 /obj/structure/closet/syndicate/personal,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bR" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/glass/beaker/large,
@@ -886,36 +710,28 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/medical)
-"bT" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/medical)
-"bU" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "bV" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bW" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bX" = (
 /obj/structure/closet/syndicate/nuclear,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "bY" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -929,7 +745,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "bZ" = (
 /obj/machinery/door/window{
 	dir = 1;
@@ -943,7 +759,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "ca" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -953,7 +769,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "cb" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -973,7 +789,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "cc" = (
 /obj/item/storage/firstaid/regular{
 	pixel_x = 3;
@@ -990,7 +806,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "ce" = (
 /obj/item/sbeacondrop/bomb{
 	pixel_y = 5
@@ -1002,7 +818,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "cf" = (
 /obj/item/grenade/syndieminibomb{
 	pixel_x = 4;
@@ -1025,17 +841,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
-"cg" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "ch" = (
 /obj/machinery/door/window{
 	dir = 1;
@@ -1049,7 +855,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "ci" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1061,7 +867,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "cj" = (
 /obj/item/surgicaldrill,
 /obj/item/circular_saw,
@@ -1080,7 +886,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "ck" = (
 /obj/structure/sink{
 	dir = 4;
@@ -1100,11 +906,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "cl" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "cn" = (
 /obj/machinery/light{
 	dir = 4
@@ -1120,7 +926,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "co" = (
 /obj/item/cautery,
 /obj/item/scalpel,
@@ -1136,13 +942,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "cp" = (
 /obj/structure/table/optable,
 /obj/item/surgical_drapes,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "cq" = (
 /obj/item/retractor,
 /obj/item/hemostat,
@@ -1158,44 +964,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/medical)
-"cr" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "ct" = (
 /obj/machinery/telecomms/allinone{
 	intercept = 1
 	},
 /turf/open/floor/circuit/red,
-/area/shuttle/syndicate/armory)
-"cu" = (
-/obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/medical)
-"cv" = (
-/obj/structure/shuttle/engine/propulsion/left,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/hallway)
-"cw" = (
-/obj/structure/shuttle/engine/propulsion,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/hallway)
-"cx" = (
-/obj/structure/shuttle/engine/propulsion/right,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "cy" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -1203,43 +978,28 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "cz" = (
 /obj/structure/shuttle/engine/propulsion/left,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "cA" = (
 /obj/structure/shuttle/engine/propulsion,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "cB" = (
 /obj/structure/shuttle/engine/propulsion/right,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/syndicate/medical)
-"cE" = (
-/obj/structure/shuttle/engine/propulsion/left,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/armory)
-"cF" = (
-/obj/structure/shuttle/engine/propulsion,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/armory)
-"cG" = (
-/obj/structure/shuttle/engine/propulsion/right,
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating/airless,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "dp" = (
 /obj/machinery/porta_turret/syndicate/shuttle{
 	dir = 10
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "nG" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -1248,13 +1008,7 @@
 	dir = 9
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/syndicate/airlock)
-"pd" = (
-/obj/machinery/porta_turret/syndicate/shuttle{
-	dir = 5
-	},
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "pO" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -1265,7 +1019,7 @@
 /obj/item/pen/red,
 /obj/item/stamp/syndiround,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "rB" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/syndicate,
@@ -1281,11 +1035,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "sI" = (
 /obj/machinery/recharge_station/fullupgrade,
 /turf/open/floor/circuit/red,
-/area/shuttle/syndicate/armory)
+/area/external/shuttle/misc/nukeop_dropship)
 "tZ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -1298,7 +1052,7 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "up" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1314,12 +1068,12 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "vv" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/eva)
+/area/external/shuttle/misc/nukeop_dropship)
 "Eh" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/poddoor{
@@ -1327,13 +1081,7 @@
 	name = "outer blast door"
 	},
 /turf/open/floor/plating,
-/area/shuttle/syndicate/airlock)
-"In" = (
-/obj/machinery/porta_turret/syndicate/shuttle{
-	dir = 6
-	},
-/turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/hallway)
+/area/external/shuttle/misc/nukeop_dropship)
 "Mw" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1362,13 +1110,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 "MJ" = (
 /obj/machinery/porta_turret/syndicate/shuttle{
 	dir = 6
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/shuttle/syndicate/medical)
+/area/external/shuttle/misc/nukeop_dropship)
 "No" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -1376,7 +1124,7 @@
 	},
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/bridge)
+/area/external/shuttle/misc/nukeop_dropship)
 "Xg" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/closet/syndicate,
@@ -1390,7 +1138,7 @@
 	amount = 25
 	},
 /turf/open/floor/plasteel/dark,
-/area/shuttle/syndicate/airlock)
+/area/external/shuttle/misc/nukeop_dropship)
 
 (1,1,1) = {"
 aa
@@ -1406,16 +1154,16 @@ aa
 aa
 aa
 aa
-aG
-aJ
-aJ
-aJ
-aJ
-aJ
-aJ
-aJ
-aJ
-aJ
+ab
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
 "}
 (2,1,1) = {"
 aa
@@ -1425,13 +1173,13 @@ aa
 aa
 aa
 aa
-aw
-ax
-ax
-ax
-ax
-ax
-aJ
+ab
+aB
+aB
+aB
+aB
+aB
+aB
 bq
 bC
 bq
@@ -1439,7 +1187,7 @@ bR
 bY
 cj
 co
-cu
+cy
 cz
 "}
 (3,1,1) = {"
@@ -1450,21 +1198,21 @@ aa
 aa
 aa
 aa
-ax
+aB
 aL
 aR
 aR
 aR
 be
-aJ
-br
-bD
-bH
-bH
+aB
+ap
+at
+bP
+bP
 bZ
-bH
+bP
 cp
-cu
+cy
 cA
 "}
 (4,1,1) = {"
@@ -1475,69 +1223,69 @@ aa
 aa
 aa
 aa
-ax
-aM
-aM
-aM
-aM
-aM
+aB
+bP
+bP
+bP
+bP
+bP
 bk
 bs
-bD
+at
 bI
 bS
 ca
 ck
 cq
-cu
+cy
 cB
 "}
 (5,1,1) = {"
 ab
-ac
-ac
-ac
-ac
+aB
+aB
+aB
+aB
 aa
 aa
-ax
-aM
-aM
-aM
-aM
-aM
-aJ
+aB
+bP
+bP
+bP
+bP
+bP
+aB
 bt
-bD
-bJ
-bT
+at
+bN
+bV
 cb
-aK
-aJ
-aJ
+bj
+aB
+aB
 MJ
 "}
 (6,1,1) = {"
-ac
+aB
 ag
 an
 pO
-ac
-ad
+aB
+dp
 aa
-ax
+aB
 aN
 aS
 aU
-aZ
+ap
 vv
-aJ
+aB
 bu
-bD
-bJ
-bT
+at
+bN
+bV
 cc
-aJ
+aB
 aa
 aa
 aa
@@ -1547,24 +1295,24 @@ ae
 ah
 ao
 at
-ac
-af
-af
-ax
-ax
-ax
-ax
+aB
+aB
+aB
+aB
+aB
+aB
+aB
 aW
-bb
-aK
-bg
-bg
+aQ
+bj
+aQ
+aQ
 bl
-bg
-aJ
-aJ
-af
-af
+aQ
+aB
+aB
+aB
+aB
 aa
 "}
 (8,1,1) = {"
@@ -1579,17 +1327,17 @@ aH
 aC
 aC
 aQ
-az
-az
+bP
+bP
 bK
-az
+bP
 bE
-bL
-bU
-az
+bN
+bV
+bP
 cl
-cr
-cv
+cy
+cz
 aa
 "}
 (9,1,1) = {"
@@ -1598,23 +1346,23 @@ aj
 aq
 at
 av
-az
-aD
-aD
-aD
-az
+bP
+ap
+ap
+ap
+bP
 aV
-az
-aD
-aD
-aD
-aD
-bL
-bU
-az
+bP
+ap
+ap
+ap
+ap
+bN
+bV
+bP
 bo
-cr
-cw
+cy
+cA
 aa
 "}
 (10,1,1) = {"
@@ -1622,24 +1370,24 @@ ae
 ak
 ap
 at
-ac
+aB
 aA
 aE
 aI
 aE
 aE
 aQ
-az
-az
-az
-az
-bF
-bL
-bU
-az
+bP
+bP
+bP
+bP
+cn
+bN
+bV
+bP
 cl
-cr
-cx
+cy
+cB
 aa
 "}
 (11,1,1) = {"
@@ -1647,74 +1395,74 @@ ae
 al
 ar
 at
-ac
-af
-af
-af
-af
+aB
+aB
+aB
+aB
+aB
 aB
 aB
 ba
-bf
+aQ
 bj
-bh
-bh
-bp
-bh
-bm
-bm
-af
-af
+aQ
+aQ
+bl
+aQ
+aB
+aB
+aB
+aB
 aa
 "}
 (12,1,1) = {"
-ac
+aB
 am
 as
 No
-ac
-In
+aB
+MJ
 aa
 aB
 aB
 tZ
 aX
-bc
+ap
 Xg
-bm
+aB
 bx
-bG
+at
 bN
 bV
 ce
-bm
+aB
 aa
 aa
 aa
 "}
 (13,1,1) = {"
-pd
-ac
-ac
-ac
-ac
+aF
+aB
+aB
+aB
+aB
 aa
 aa
 aB
 bv
 Mw
-aP
-aP
-aP
-bm
+bP
+bP
+bP
+aB
 by
-bG
+at
 bN
 bV
 cf
 bj
-bm
-bm
+aB
+aB
 dp
 "}
 (14,1,1) = {"
@@ -1728,19 +1476,19 @@ aa
 aB
 bw
 up
-aP
-aP
+bP
+bP
 rB
-bn
+au
 bz
-bG
+at
 bO
 bW
-cg
+ca
 bP
 sI
 cy
-cE
+cz
 "}
 (15,1,1) = {"
 aa
@@ -1756,16 +1504,16 @@ nG
 aT
 bd
 bi
-bm
+aB
 bA
-bG
+at
 bP
 bP
 ch
 bP
 ct
 cy
-cF
+cA
 "}
 (16,1,1) = {"
 aa
@@ -1781,16 +1529,16 @@ aB
 aY
 aB
 aB
-bm
+aB
 bB
-bG
+at
 bQ
 bX
 ci
 cn
 sI
 cy
-cG
+cB
 "}
 (17,1,1) = {"
 aa
@@ -1807,13 +1555,13 @@ aa
 aa
 aa
 aF
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
-bm
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
+aB
 "}

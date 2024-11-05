@@ -1,14 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "b" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "c" = (
 /obj/machinery/computer/shuttle/labor{
 	dir = 4
@@ -17,29 +17,29 @@
 	pixel_x = -31
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "d" = (
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "e" = (
 /obj/item/folder/red,
 /obj/item/restraints/handcuffs,
 /obj/structure/table/reinforced,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "f" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "g" = (
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "h" = (
 /obj/machinery/button/flasher{
 	id = "gulagshuttleflasher";
@@ -49,7 +49,7 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "i" = (
 /obj/machinery/mineral/stacking_unit_console{
 	machinedir = 2;
@@ -57,7 +57,7 @@
 	pixel_y = 30
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "j" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Labor Shuttle Airlock"
@@ -76,7 +76,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /turf/open/floor/plating,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "k" = (
 /obj/machinery/door/airlock/shuttle{
 	name = "Labor Shuttle Airlock"
@@ -90,10 +90,10 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /turf/open/floor/plasteel/white,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "l" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "m" = (
 /obj/machinery/mineral/stacking_machine/laborstacker{
 	input_dir = 2;
@@ -103,13 +103,13 @@
 	dir = 2
 	},
 /turf/open/floor/plasteel/white,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "n" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "o" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line{
@@ -119,7 +119,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "p" = (
 /obj/machinery/mineral/labor_claim_console{
 	machinedir = 1;
@@ -130,7 +130,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "q" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -139,11 +139,11 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "r" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "s" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -156,7 +156,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "t" = (
 /obj/item/clothing/suit/hazardvest{
 	desc = "A high-visibility lifejacket complete with whistle and slot for oxygen tanks.";
@@ -237,16 +237,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "u" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "v" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "w" = (
 /obj/machinery/door/airlock/shuttle{
 	id_tag = "prisonshuttle";
@@ -274,7 +274,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "x" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -283,12 +283,12 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 "y" = (
 /obj/structure/shuttle/engine/propulsion,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/shuttle/labor)
+/area/external/shuttle/station/labor)
 
 (1,1,1) = {"
 a

@@ -15,18 +15,18 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/pod_2)
+/area/external/shuttle/station/escape/pod_2)
 "t" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/pod_2)
+/area/external/shuttle/station/escape/pod_2)
 "I" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/pod_2)
+/area/external/shuttle/station/escape/pod_2)
 "L" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -41,7 +41,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/pod_2)
+/area/external/shuttle/station/escape/pod_2)
 "O" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 1
@@ -53,10 +53,10 @@
 	pixel_x = -32
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/shuttle/pod_2)
+/area/external/shuttle/station/escape/pod_2)
 "T" = (
 /turf/closed/wall/mineral/titanium,
-/area/shuttle/pod_2)
+/area/external/shuttle/station/escape/pod_2)
 
 (1,1,1) = {"
 T
