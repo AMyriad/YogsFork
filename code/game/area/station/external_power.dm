@@ -14,6 +14,7 @@
 	blob_allowed = FALSE // Stay inside the station silly billy
 	mining_speed = TRUE
 
+
 //-- Solar Panel Arrays --//
 // Keep order going clockwise from north pls ty
 

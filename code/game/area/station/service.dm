@@ -8,6 +8,7 @@
 
 	lights_always_start_on = FALSE
 
+
 /area/station/service/main
 	name = "\improper Service Hall"
 	icon_state = "srv_main"

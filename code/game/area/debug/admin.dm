@@ -10,6 +10,7 @@
 	flags_1 = NONE
 	area_flags = NOTELEPORT
 
+
 /area/debug/admin/start
 	name = "\improper Start Area"
 	icon_state = "start"
@@ -215,7 +216,7 @@
 	base_lighting_alpha = 255
 	requires_power = FALSE
 	flags_1 = NONE
-	area_flags = NONE // Yes to teleporting
+	area_flags = NONE // Yes teleporting
 
 /area/debug/admin/gamemode/clock/reebe
 	name = "\improper Reebe"

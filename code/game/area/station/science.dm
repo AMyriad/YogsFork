@@ -9,6 +9,7 @@
 	lighting_colour_tube = "#f0fbff"
 	lighting_colour_bulb = "#e4f7ff"
 
+
 /area/station/science/main
 	name = "\improper Science Central Hall"
 	icon_state = "sci_main"

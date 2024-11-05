@@ -12,6 +12,7 @@
 	show_on_sensors = FALSE
 	hidden = TRUE
 
+
 /area/debug/secret/pocket_dimension // Used by a guardian/holoparasite ability
 	name = "\improper Pocket Dimension"
 	ambience_index = AMBIENCE_SPACE

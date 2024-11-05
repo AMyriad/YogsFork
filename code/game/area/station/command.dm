@@ -7,6 +7,7 @@
 	ambientsounds = list('sound/ambience/signal.ogg')
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
+
 /area/station/command/main
 	name = "\improper Bridge"
 	icon_state = "com_main"

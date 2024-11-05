@@ -10,6 +10,7 @@
 	lighting_colour_tube = "#ffeee2"
 	lighting_colour_bulb = "#ffdfca"
 
+
 /area/station/security/main
 	name = "\improper Brig"
 	icon_state = "sec_main"
@@ -62,6 +63,7 @@
 
 /area/station/security/detention
 	name = "Detention Areas"
+	icon_state = "sec_det"
 	minimap_color = "#530505"
 	lights_always_start_on = TRUE
 
@@ -71,19 +73,19 @@
 
 /area/station/security/detention/prison_hallway
 	name = "\improper Prison Wing Hallway"
-	icon_state = "sec_detention_prison_hallway"
+	icon_state = "sec_det_prison_hallway"
 
 /area/station/security/detention/execution
 	name = "\improper Prisoner Transfer Centre"
-	icon_state = "sec_detention_kill"
+	icon_state = "sec_det_kill"
 	lights_always_start_on = FALSE
 
 /area/station/security/detention/execution/reeducation
 	name = "\improper Prisoner Re-Education Chamber"
 
-/area/station/security/detention/labor_shuttle
+/area/station/security/detention/labor_dock
 	name = "\improper Labor Shuttle Dock"
-	icon_state = "sec_detention_dock"
+	icon_state = "sec_det_labor_dock"
 
 
 //-- Security Posts --//

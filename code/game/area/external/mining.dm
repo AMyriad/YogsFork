@@ -8,6 +8,7 @@
 	has_gravity = STANDARD_GRAVITY
 	mining_speed = TRUE
 
+
 /area/external/mining/survival_pod
 	name = "\improper Emergency Shelter"
 	icon_state = "survival_pod"

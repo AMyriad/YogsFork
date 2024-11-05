@@ -4,6 +4,7 @@
 
 	has_gravity = STANDARD_GRAVITY
 
+
 /area/ruins/space/generic
 	name = "\improper Unidentified Location"
 

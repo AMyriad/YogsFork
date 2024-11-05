@@ -6,6 +6,7 @@
 	has_gravity = STANDARD_GRAVITY
 	mining_speed = TRUE
 
+
 /area/ruins/icemoon/generic
 	name = "\improper Unidentified Location"
 

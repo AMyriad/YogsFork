@@ -23,6 +23,7 @@
 	if(ispath(new_baseturfs[1], /turf/open/floor/plating))
 		new_baseturfs.Insert(1, /turf/baseturf_skipover/shuttle)
 
+
 //-- Station Standard Shuttles --//
 // Contains crucial shuttles station needs like arrivals, evac, labor, escape pods, etc
 // Don't put new areas in this category if you're adding a new custom shuttle

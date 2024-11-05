@@ -41,6 +41,7 @@
 			cam.lostTargetRef(WEAKREF(O))
 			return
 
+
 //-- Non-AI/General AI Monitored Areas --//
 
 /area/station/ai_monitored/general

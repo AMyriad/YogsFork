@@ -10,6 +10,7 @@
 	lighting_colour_tube = "#e7f8ff"
 	lighting_colour_bulb = "#d5f2ff"
 
+
 /area/station/medical/main
 	name = "\improper Medbay Central Hall"
 	icon_state = "med_main"

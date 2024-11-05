@@ -9,6 +9,7 @@
 	lighting_colour_tube = "#fdf3ea"
 	lighting_colour_bulb = "#ffebd6"
 
+
 /area/station/public/arrivals
 	name = "\improper Arrivals Hallway"
 	icon_state = "pub_arrivals"

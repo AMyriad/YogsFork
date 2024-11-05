@@ -26,6 +26,7 @@
 
 	valid_territory = FALSE
 
+
 /area/station/maintenance/central
 	name = "\improper Central Maintenance"
 	icon_state = "maint_central"
