@@ -10,7 +10,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "b" = (
 /obj/structure/rack,
 /obj/item/toy/plush/beeplushie,
@@ -19,7 +19,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "c" = (
 /obj/machinery/door/window/southleft,
 /obj/machinery/door/firedoor/border_only{
@@ -36,7 +36,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/effect/mapping_helpers/windoor/access/all/service/clerk,
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "d" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
@@ -50,7 +50,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "e" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_x = -32
@@ -69,7 +69,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "f" = (
 /obj/machinery/button/door{
 	id = "giftshop";
@@ -97,7 +97,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "h" = (
 /obj/machinery/light{
 	dir = 4
@@ -107,7 +107,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "i" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/tile/green/opposingcorners{
@@ -117,7 +117,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "j" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
@@ -130,7 +130,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "k" = (
 /obj/machinery/vending/gifts,
 /obj/structure/sign/poster/official/random{
@@ -141,14 +141,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "l" = (
 /obj/effect/spawner/structure/window,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "giftshop_ext"
 	},
 /turf/open/floor/plating,
-/area/clerk)
+/area/station/service/gift_shop)
 "m" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/gloves,
@@ -157,7 +157,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "n" = (
 /obj/structure/table,
 /obj/item/toy/figure/clerk,
@@ -182,7 +182,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "o" = (
 /turf/template_noop,
 /area/template_noop)
@@ -219,7 +219,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "q" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -229,7 +229,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "r" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/tile/green/opposingcorners{
@@ -237,7 +237,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "s" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/costume,
@@ -250,7 +250,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "t" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "giftshop"
@@ -264,7 +264,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "u" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
@@ -277,7 +277,7 @@
 	pixel_x = 23
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "v" = (
 /obj/structure/rack,
 /obj/item/book/random,
@@ -286,7 +286,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "w" = (
 /obj/machinery/vending/autodrobe,
 /obj/machinery/light{
@@ -297,7 +297,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "x" = (
 /obj/structure/rack,
 /obj/item/a_gift,
@@ -306,7 +306,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "y" = (
 /obj/effect/landmark/event_spawn,
 /obj/item/storage/secure/safe{
@@ -321,14 +321,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "z" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/tile/green/opposingcorners{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "A" = (
 /obj/machinery/door/airlock{
 	name = "Gift Shop"
@@ -351,7 +351,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/clerk,
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "B" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -368,7 +368,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "C" = (
 /obj/item/instrument/piano_synth{
 	pixel_x = -10
@@ -395,7 +395,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "D" = (
 /obj/structure/rack,
 /obj/machinery/airalarm{
@@ -407,7 +407,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "E" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 1
@@ -421,7 +421,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "F" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -432,7 +432,7 @@
 	},
 /mob/living/simple_animal/spiffles,
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "G" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/maintenance,
@@ -441,7 +441,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "H" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/glowstick,
@@ -453,7 +453,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "J" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -466,7 +466,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "L" = (
 /obj/machinery/door/airlock/glass_large{
 	doorOpen = 'sound/machines/defib_success.ogg';
@@ -484,7 +484,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "M" = (
 /obj/machinery/vending/games,
 /obj/machinery/airalarm{
@@ -495,7 +495,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "N" = (
 /obj/structure/table,
 /obj/item/clothing/under/yogs/rank/clerk/skirt{
@@ -515,7 +515,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "O" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -529,7 +529,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "Q" = (
 /obj/machinery/door/airlock{
 	name = "Gift Shop"
@@ -549,7 +549,7 @@
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/mapping_helpers/airlock/access/all/service/clerk,
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "R" = (
 /obj/machinery/paystand/register{
 	dir = 1
@@ -566,7 +566,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "S" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/tile/green/opposingcorners{
@@ -579,7 +579,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "T" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/tile/green/opposingcorners{
@@ -592,7 +592,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "U" = (
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /obj/effect/turf_decal/tile/green/opposingcorners{
@@ -601,7 +601,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "V" = (
 /obj/structure/table,
 /obj/item/storage/fancy/heart_box{
@@ -619,7 +619,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "W" = (
 /obj/structure/rack,
 /obj/machinery/light{
@@ -630,7 +630,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "X" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -640,10 +640,10 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/clerk)
+/area/station/service/gift_shop)
 "Y" = (
 /turf/closed/wall,
-/area/clerk)
+/area/station/service/gift_shop)
 
 (1,1,1) = {"
 o

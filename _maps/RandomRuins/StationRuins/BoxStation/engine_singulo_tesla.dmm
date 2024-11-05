@@ -7,39 +7,39 @@
 /area/template_noop)
 "ac" = (
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ad" = (
 /turf/closed/wall/r_wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ae" = (
 /obj/structure/table,
 /obj/item/clothing/suit/radiation,
 /obj/item/clothing/head/radiation,
 /obj/item/clothing/glasses/meson,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ah" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ai" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aj" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ak" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "al" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/yellow,
@@ -47,7 +47,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "an" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -56,7 +56,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ap" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -68,30 +68,30 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aq" = (
-/obj,
-/turf/open/space/basic,
-/area/space)
+/obj/structure/grille,
+/turf/open/floor/plating/airless,
+/area/station/engineering/main)
 "ar" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "as" = (
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "au" = (
 /obj/structure/particle_accelerator/fuel_chamber,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "av" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
 	dir = 9
 	},
 /turf/closed/wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aw" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
@@ -106,7 +106,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aD" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -122,11 +122,11 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aE" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aF" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
@@ -134,13 +134,13 @@
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aI" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
@@ -151,19 +151,19 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aL" = (
 /obj/structure/particle_accelerator/power_box,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aO" = (
 /obj/structure/particle_accelerator/particle_emitter/left,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aP" = (
 /obj/structure/particle_accelerator/particle_emitter/center,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aQ" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -174,47 +174,47 @@
 "aU" = (
 /obj/structure/sign/warning/electricshock,
 /turf/closed/wall/r_wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ba" = (
 /obj/structure/particle_accelerator/particle_emitter/right,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bb" = (
 /turf/closed/wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bf" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bg" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bh" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bm" = (
 /obj/machinery/power/tesla_coil,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bu" = (
 /obj/structure/grille,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/space/nearstation)
 "bx" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bz" = (
 /obj/machinery/particle_accelerator/control_box,
 /obj/structure/cable/yellow,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bA" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -222,11 +222,11 @@
 /obj/item/stack/cable_coil/red,
 /obj/item/crowbar,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bB" = (
 /obj/item/screwdriver,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bF" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -235,7 +235,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bG" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1;
@@ -250,31 +250,31 @@
 	req_access = list("engineering")
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bH" = (
 /obj/structure/chair/stool,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bI" = (
 /obj/structure/rack,
 /obj/item/clothing/gloves/color/black,
 /obj/item/extinguisher,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bK" = (
 /obj/structure/rack,
 /obj/item/clothing/gloves/color/yellow,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bL" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bQ" = (
 /obj/machinery/power/grounding_rod,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/layer4{
 	dir = 1
@@ -283,11 +283,11 @@
 	pixel_x = 23
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bW" = (
 /obj/machinery/power/rad_collector,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bZ" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Engineering Singularity Southwest";
@@ -295,7 +295,7 @@
 	network = list("ss13","engine")
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ca" = (
 /obj/item/tank/internals/emergency_oxygen/engi{
 	pixel_x = 5
@@ -304,13 +304,13 @@
 /obj/item/clothing/glasses/meson/engine,
 /obj/structure/table,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cb" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cc" = (
 /obj/item/storage/toolbox/mechanical,
 /obj/item/flashlight,
@@ -320,13 +320,13 @@
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cd" = (
 /obj/structure/table,
 /obj/item/book/manual/wiki/engineering_singulo_tesla,
 /obj/item/geiger_counter,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ch" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -340,7 +340,7 @@
 	req_access = list("engineering")
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ci" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1;
@@ -355,17 +355,17 @@
 	req_access = list("engineering")
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cj" = (
 /obj/machinery/light,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ck" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "co" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
@@ -375,18 +375,18 @@
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cs" = (
 /obj/item/screwdriver,
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cI" = (
 /obj/machinery/power/tesla_coil,
 /obj/structure/cable/orange{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cU" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
@@ -398,11 +398,11 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "du" = (
 /obj/structure/sign/warning/radiation/rad_area,
 /turf/closed/wall/r_wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "dO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -417,14 +417,14 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "fn" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "gc" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_x = -32
@@ -437,7 +437,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ge" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -450,43 +450,43 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "gm" = (
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "in" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "iX" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Engineering Singularity Northwest";
 	network = list("ss13","engine")
 	},
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "je" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ji" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "jA" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "kd" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer2{
 	dir = 1
@@ -499,7 +499,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "kt" = (
 /obj/machinery/power/emitter/anchored{
 	dir = 4;
@@ -509,11 +509,11 @@
 	icon_state = "0-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "kU" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ls" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -522,7 +522,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "mp" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -532,17 +532,17 @@
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "mO" = (
 /obj/structure/cable/orange{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "mP" = (
 /obj/item/weldingtool,
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "mQ" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/machinery/light/small{
@@ -552,21 +552,21 @@
 	dir = 10
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "oD" = (
 /obj/machinery/power/tesla_coil,
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "oM" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "pA" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -575,7 +575,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "qG" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Engineering Singularity Southeast";
@@ -583,14 +583,14 @@
 	network = list("ss13","engine")
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "rw" = (
 /obj/structure/particle_accelerator/end_cap,
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "rX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -605,20 +605,20 @@
 	},
 /mob/living/simple_animal/opossum/poppy,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "sd" = (
 /obj/machinery/field/generator{
 	anchored = 1;
 	state = 2
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "sv" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "uo" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
@@ -628,7 +628,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "uq" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -638,7 +638,7 @@
 	},
 /obj/effect/mapping_helpers/teleport_anchor,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "uA" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -654,14 +654,14 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "wH" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Engineering Singularity Northeast";
 	network = list("ss13","engine")
 	},
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "wN" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer4,
@@ -669,14 +669,14 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "wO" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "xD" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -685,30 +685,30 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "xH" = (
 /obj/machinery/door/airlock/external{
 	name = "Engineering External Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "xO" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/item/wirecutters,
 /obj/effect/mapping_helpers/teleport_anchor,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "yi" = (
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "yN" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "zz" = (
 /obj/machinery/door/airlock/external{
 	name = "Engineering External Access"
@@ -721,7 +721,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Aa" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
@@ -731,14 +731,14 @@
 	icon_state = "1-8"
 	},
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "AE" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Bp" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/layer4{
 	dir = 1
@@ -751,13 +751,13 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "BA" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "BI" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
@@ -773,7 +773,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Cw" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -782,18 +782,18 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "CI" = (
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "CQ" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "CU" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -802,7 +802,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Dc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -814,11 +814,11 @@
 	pixel_x = 23
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Em" = (
 /obj/item/wirecutters,
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "GG" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
@@ -828,7 +828,7 @@
 	icon_state = "1-4"
 	},
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "GW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -847,11 +847,11 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Hf" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Hy" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_x = 32
@@ -864,7 +864,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "HU" = (
 /obj/machinery/power/emitter/anchored{
 	dir = 8;
@@ -874,11 +874,11 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Jf" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Jk" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
@@ -895,21 +895,21 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Jy" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Kn" = (
 /obj/machinery/power/tesla_coil,
 /obj/structure/cable/orange{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Mh" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -918,7 +918,7 @@
 	icon_state = "2-8"
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Mi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -926,7 +926,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ME" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
@@ -935,7 +935,7 @@
 /obj/machinery/door/firedoor/window,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "MT" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
@@ -947,7 +947,7 @@
 /obj/machinery/door/firedoor/window,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Ok" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/layer2{
 	dir = 1
@@ -956,32 +956,32 @@
 	pixel_x = -23
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "On" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Oz" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Rj" = (
 /obj/item/wrench,
 /turf/open/space/basic,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Rw" = (
 /obj/machinery/power/rad_collector,
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Sg" = (
 /obj/machinery/power/grounding_rod,
 /obj/machinery/light{
@@ -991,14 +991,14 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "SH" = (
 /obj/machinery/power/rad_collector,
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Ty" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -1013,21 +1013,21 @@
 	},
 /obj/effect/mapping_helpers/teleport_anchor,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Uz" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8;
 	icon_state = "warninglinecorner"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "VD" = (
 /obj/machinery/power/rad_collector,
 /obj/structure/cable/orange{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "VT" = (
 /obj/machinery/power/grounding_rod,
 /obj/machinery/light{
@@ -1037,11 +1037,11 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "WN" = (
 /obj/structure/sign/warning/securearea,
 /turf/closed/wall/r_wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "WS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -1050,7 +1050,7 @@
 	pixel_x = -23
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Zr" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1059,7 +1059,7 @@
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 
 (1,1,1) = {"
 ab
@@ -1098,8 +1098,8 @@ ab
 ab
 ab
 aa
-aq
-aq
+aa
+aa
 aa
 aa
 aa
@@ -1276,8 +1276,8 @@ ad
 Jy
 jA
 je
-bu
-bu
+aq
+aq
 ad
 aa
 aa
@@ -1836,8 +1836,8 @@ ad
 On
 jA
 CQ
-bu
-bu
+aq
+aq
 ad
 aQ
 aa

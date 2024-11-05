@@ -10,13 +10,13 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aO" = (
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "aQ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -27,7 +27,7 @@
 	},
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "bp" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
@@ -36,57 +36,57 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cf" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "co" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Engineering Singularity Northeast";
 	network = list("ss13","engine")
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cv" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /obj/machinery/power/rad_collector,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cG" = (
 /obj/structure/particle_accelerator/particle_emitter/right{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cN" = (
 /obj/machinery/the_singularitygen,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cR" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "cS" = (
 /obj/structure/particle_accelerator/power_box{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "de" = (
 /obj/machinery/field/generator{
 	anchored = 1;
 	state = 2
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "di" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -105,30 +105,30 @@
 	pixel_y = -32
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "dm" = (
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "dP" = (
 /obj/machinery/power/tesla_coil,
 /obj/structure/cable/orange{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "dU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "dX" = (
 /obj/structure/particle_accelerator/particle_emitter/left{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "es" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -145,11 +145,11 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "eZ" = (
 /obj/machinery/the_singularitygen/tesla,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "fE" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
@@ -157,20 +157,20 @@
 	},
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "gw" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /obj/machinery/power/tesla_coil,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "gD" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "iM" = (
 /obj/effect/turf_decal/stripes{
 	dir = 5
@@ -183,18 +183,18 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "jm" = (
 /obj/machinery/particle_accelerator/control_box,
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "kb" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "kl" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -204,7 +204,7 @@
 	network = list("ss13","engine")
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "kH" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -216,21 +216,21 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "kX" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ll" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "engsm";
 	name = "Radiation Chamber Shutters"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "lv" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -239,10 +239,10 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "mh" = (
 /turf/open/floor/plating/asteroid/snow/icemoon/top_layer,
-/area/icemoon/top_layer/outdoors)
+/area/external/mining/icemoon/surface/explored)
 "mi" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -256,21 +256,21 @@
 	network = list("ss13","engine")
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "mC" = (
 /obj/structure/cable/orange{
 	icon_state = "2-8"
 	},
 /obj/machinery/power/rad_collector,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "nn" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "nq" = (
 /obj/machinery/button/door{
 	dir = 4;
@@ -281,7 +281,7 @@
 	req_access = list("engineering")
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "nz" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -293,10 +293,10 @@
 	pixel_y = -23
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "oj" = (
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ok" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
@@ -305,13 +305,13 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "oq" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "oF" = (
 /obj/machinery/power/emitter/anchored{
 	dir = 1;
@@ -321,7 +321,7 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "oY" = (
 /obj/machinery/light{
 	dir = 1
@@ -331,7 +331,7 @@
 	},
 /obj/machinery/power/grounding_rod,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "pN" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -340,10 +340,10 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "qk" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "rb" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -360,13 +360,13 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "rF" = (
 /obj/structure/particle_accelerator/fuel_chamber{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "sb" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -378,7 +378,7 @@
 /obj/item/melee/sledgehammer,
 /obj/item/melee/sledgehammer,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "sm" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -393,11 +393,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "sZ" = (
 /obj/structure/sign/warning/radiation/rad_area,
 /turf/closed/wall/r_wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "tS" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
@@ -409,13 +409,13 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "tW" = (
 /obj/structure/rack,
 /obj/item/clothing/gloves/color/yellow,
 /obj/item/book/manual/wiki/engineering_singulo_tesla,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "tZ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -424,7 +424,7 @@
 	dir = 10
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ul" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -433,7 +433,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "uI" = (
 /obj/machinery/button/door{
 	dir = 4;
@@ -443,54 +443,54 @@
 	req_access = list("engineering")
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "uY" = (
 /obj/structure/cable/orange{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "vp" = (
 /obj/structure/cable/orange{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "vB" = (
 /obj/structure/particle_accelerator/end_cap{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "vE" = (
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "vP" = (
 /turf/closed/wall/r_wall,
-/area/engine/engineering)
+/area/station/engineering/main)
 "wu" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "wM" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "xa" = (
 /obj/machinery/door/airlock/external{
 	name = "Engineering External Access"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "yo" = (
 /obj/structure/cable/orange{
 	icon_state = "1-2"
@@ -499,7 +499,11 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
+"yQ" = (
+/obj/structure/grille,
+/turf/open/floor/plating/airless,
+/area/station/engineering/main)
 "zG" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -511,7 +515,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "zL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -526,7 +530,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "zM" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -541,30 +545,30 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "An" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "BD" = (
 /obj/structure/cable/orange{
 	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "BX" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "CT" = (
 /obj/structure/grille,
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "DK" = (
 /obj/machinery/button/door{
 	dir = 4;
@@ -574,7 +578,7 @@
 	req_access = list("engineering")
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "En" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
@@ -584,13 +588,13 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Es" = (
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Ew" = (
 /obj/machinery/light,
 /obj/structure/cable/orange{
@@ -598,7 +602,7 @@
 	},
 /obj/machinery/power/grounding_rod,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "EA" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -610,28 +614,28 @@
 	pixel_y = 24
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Fj" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Fo" = (
 /obj/structure/cable/orange{
 	icon_state = "1-8"
 	},
 /obj/machinery/power/rad_collector,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "FI" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Gp" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Gx" = (
 /obj/machinery/camera/emp_proof{
 	c_tag = "Engineering Singularity Southeast";
@@ -639,7 +643,7 @@
 	network = list("ss13","engine")
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Ik" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -648,19 +652,19 @@
 /obj/item/extinguisher,
 /obj/item/pipe_dispenser,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "IQ" = (
 /obj/structure/cable/orange{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "JC" = (
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Kb" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -671,7 +675,7 @@
 /obj/item/clothing/gloves/color/yellow,
 /obj/item/clothing/gloves/color/yellow,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "KT" = (
 /obj/structure/cable/orange{
 	icon_state = "1-8"
@@ -680,7 +684,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "KV" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -689,30 +693,30 @@
 	dir = 9
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Lj" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Lv" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "LS" = (
 /obj/structure/grille,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/external/mining/icemoon/surface/explored)
 "Ms" = (
 /obj/structure/cable/orange{
 	icon_state = "1-4"
 	},
 /obj/machinery/power/tesla_coil,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "MJ" = (
 /obj/effect/turf_decal/stripes{
 	dir = 4
@@ -721,13 +725,13 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "MO" = (
 /obj/structure/cable/orange{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Nq" = (
 /obj/machinery/button/door{
 	dir = 4;
@@ -738,24 +742,24 @@
 	req_access = list("engineering")
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Oy" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/asteroid/snow/icemoon/top_layer,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Pj" = (
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Pm" = (
 /obj/machinery/power/tesla_coil,
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "PQ" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/layer_manifold{
@@ -769,7 +773,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "PS" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -778,11 +782,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "QO" = (
 /obj/structure/cable,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "QZ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -791,21 +795,21 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "RA" = (
 /obj/structure/cable/orange{
 	icon_state = "4-8"
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Sj" = (
 /obj/machinery/power/emitter/anchored{
 	state = 2
 	},
 /obj/structure/cable/orange,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Sv" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -820,7 +824,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "SN" = (
 /turf/template_noop,
 /area/template_noop)
@@ -839,19 +843,19 @@
 	pixel_y = -24
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Uj" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "UG" = (
 /obj/structure/particle_accelerator/particle_emitter/center{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/engine/engineering)
+/area/station/engineering/main)
 "VJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -866,7 +870,7 @@
 	pixel_y = 24
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "VS" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -875,22 +879,22 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engine/engineering)
+/area/station/engineering/main)
 "VY" = (
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Wv" = (
 /turf/open/floor/plating/asteroid/snow/icemoon/top_layer,
-/area/engine/engineering)
+/area/station/engineering/main)
 "WP" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "WW" = (
 /obj/structure/grille,
 /obj/structure/cable/orange{
@@ -900,49 +904,49 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating/airless,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Xa" = (
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Xb" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Xf" = (
 /obj/machinery/power/tesla_coil,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Xr" = (
 /turf/open/floor/plating/snowed/smoothed,
-/area/icemoon/top_layer/outdoors)
+/area/external/mining/icemoon/surface/explored)
 "Xx" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "XY" = (
 /obj/machinery/power/grounding_rod,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "YG" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "Zg" = (
 /obj/machinery/power/rad_collector,
 /turf/open/floor/plating/snowed/smoothed,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ZB" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
 /turf/open/floor/plating/asteroid/snow/icemoon/top_layer,
-/area/engine/engineering)
+/area/station/engineering/main)
 "ZP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -954,7 +958,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/engine/engineering)
+/area/station/engineering/main)
 
 (1,1,1) = {"
 SN
@@ -1503,7 +1507,7 @@ SN
 SN
 "}
 (22,1,1) = {"
-LS
+yQ
 dm
 dm
 qk
@@ -1529,7 +1533,7 @@ SN
 SN
 "}
 (23,1,1) = {"
-LS
+yQ
 dm
 YG
 qk

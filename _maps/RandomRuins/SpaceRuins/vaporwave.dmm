@@ -9,125 +9,125 @@
 "c" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "d" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "e" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "f" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "g" = (
 /turf/closed/wall/rust,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "h" = (
 /obj/effect/overlay/palmtree_r,
 /turf/open/floor/holofloor/beach,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "i" = (
 /obj/structure/musician/piano,
 /obj/structure/window{
 	dir = 8
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "j" = (
 /obj/structure/chair/stool,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "k" = (
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "l" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "m" = (
 /obj/structure/table/reinforced,
 /obj/item/taperecorder,
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "n" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "o" = (
 /obj/structure/window{
 	dir = 4
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "p" = (
 /obj/effect/overlay/palmtree_l,
 /turf/open/floor/holofloor/beach,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "q" = (
 /turf/open/floor/holofloor/beach,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "r" = (
 /obj/structure/window{
 	dir = 8
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "s" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/sunglasses/big{
 	name = "aesthetic sunglasses"
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "t" = (
 /obj/item/instrument/eguitar,
 /turf/open/floor/holofloor/beach,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "u" = (
 /turf/open/floor/holofloor/beach/coast_t,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "v" = (
 /obj/item/statuebust,
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "w" = (
 /mob/living/simple_animal/butterfly,
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "x" = (
 /obj/structure/closet/crate/bin,
 /obj/item/tape/random,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "y" = (
 /turf/open/floor/holofloor/beach/coast_b,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "z" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/pod/dark,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "A" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "B" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "C" = (
 /obj/structure/statue/sandstone/venus{
 	desc = "Ugh, this is merely an ugly amateurish replica of the other statue! The letters RIPGOAT are scribbled onto the base.";
@@ -140,7 +140,7 @@
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "D" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/railing{
@@ -149,11 +149,11 @@
 /turf/open/floor/plasteel/airless{
 	icon_state = "recharge_floor_asteroid"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "E" = (
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "F" = (
 /obj/structure/statue/sandstone/venus{
 	dir = 4
@@ -165,47 +165,47 @@
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "G" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "H" = (
 /obj/effect/overlay/palmtree_l,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "I" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "J" = (
 /turf/open/floor/plasteel/stairs/goon/stairs_wide{
 	dir = 1
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "K" = (
 /turf/open/floor/plasteel/stairs/goon/stairs_middle{
 	dir = 1
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "L" = (
 /turf/open/floor/plasteel/stairs/goon/stairs2_wide{
 	dir = 1
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "M" = (
 /obj/effect/overlay/palmtree_r,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "N" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plasteel/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "O" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
@@ -214,11 +214,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "P" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/powered/aesthetic)
+/area/ruins/space/powered/aesthetic)
 "Q" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand,
@@ -226,7 +226,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "R" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -235,7 +235,7 @@
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "S" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand/plating,
@@ -245,7 +245,7 @@
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "U" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/railing{
@@ -254,7 +254,7 @@
 /turf/open/floor/plasteel/airless{
 	icon_state = "recharge_floor_asteroid"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "V" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand,
@@ -262,13 +262,13 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "X" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plasteel/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "Z" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/turf_decal/sand/plating,
@@ -278,7 +278,7 @@
 /turf/open/floor/plating{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 
 (1,1,1) = {"
 a

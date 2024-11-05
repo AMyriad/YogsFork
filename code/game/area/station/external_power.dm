@@ -22,6 +22,9 @@
 	name = "Solar Array Areas"
 	icon_state = "ext_power_solar"
 
+/area/station/external_power/solar/central
+	name = "\improper Central Primary Solar Array"
+
 /area/station/external_power/solar/north
 	name = "\improper Fore (N) Solar Array"
 
