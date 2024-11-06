@@ -1,5 +1,5 @@
 /area/debug/procedural_gen
-	name = "Procedurally Generated Areas"
+	name = "PROCEDURALLY GENERATED AREAS"
 	icon_state = ""
 
 	map_generator = /datum/map_generator/dungeon_generator

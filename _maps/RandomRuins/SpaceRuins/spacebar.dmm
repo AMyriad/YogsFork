@@ -2,7 +2,7 @@
 "ab" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "al" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -19,7 +19,7 @@
 	name = "Bathroom"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ap" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -37,14 +37,14 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "as" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ax" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -53,7 +53,7 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/machinery/vending/snack,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "aC" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -67,7 +67,7 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "aH" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -81,14 +81,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "aU" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = list("bar")
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "aX" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -97,11 +97,11 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/machinery/jukebox,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "bw" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "eg" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -109,7 +109,7 @@
 	},
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "eC" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -120,7 +120,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "eX" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -134,7 +134,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "eZ" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -144,11 +144,11 @@
 	pixel_y = 4
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ff" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "fy" = (
 /obj/structure/chair{
 	dir = 8
@@ -162,7 +162,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "fH" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -173,7 +173,7 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "gh" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -183,18 +183,18 @@
 /obj/structure/table,
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "go" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "gs" = (
 /obj/structure/fans/tiny,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "gx" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -202,7 +202,7 @@
 	},
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "gP" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -210,7 +210,7 @@
 	},
 /obj/machinery/seed_extractor,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "gX" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -223,7 +223,7 @@
 	tag = ""
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "hf" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -241,21 +241,21 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "hh" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "if" = (
 /obj/structure/urinal{
 	dir = 8;
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "jd" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -268,7 +268,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "jk" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -279,14 +279,14 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "jy" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "jI" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -297,7 +297,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "jY" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -309,24 +309,24 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ke" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ld" = (
 /obj/effect/turf_decal/tile/slightlydarkerblue,
 /obj/effect/turf_decal/tile/slightlydarkerblue{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "lS" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "lX" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -338,7 +338,7 @@
 	name = "Toilet"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "mh" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -346,19 +346,19 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "mG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "mL" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "mQ" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -369,7 +369,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "nf" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -378,7 +378,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ni" = (
 /obj/structure/sign/poster/contraband/eat{
 	pixel_y = 32
@@ -387,7 +387,7 @@
 	req_access = list("bar")
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "nK" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -396,11 +396,11 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/machinery/vending/cigarette,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "og" = (
 /obj/effect/turf_decal/box/corners,
 /turf/open/floor/engine,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "oh" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -409,7 +409,7 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/structure/chair,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "oq" = (
 /obj/structure/disposaloutlet{
 	dir = 1
@@ -418,19 +418,19 @@
 	dir = 2
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/unpowered/generic)
 "oC" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "pV" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "qs" = (
 /obj/structure/window{
 	dir = 4
@@ -440,13 +440,13 @@
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "qy" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "qz" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -457,7 +457,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "qR" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -468,7 +468,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "rf" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -479,11 +479,11 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "rp" = (
 /obj/machinery/griddle,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "rE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -492,7 +492,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "rQ" = (
 /obj/structure/toilet{
 	dir = 8
@@ -501,24 +501,24 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "sM" = (
 /turf/closed/mineral,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/unpowered/generic)
 "sX" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "sZ" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ta" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -527,7 +527,7 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "tt" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -535,20 +535,20 @@
 	icon_state = "tile_corner"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "tG" = (
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/unpowered/generic)
 "tH" = (
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "tS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/suit_storage_unit/standard_unit,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "uf" = (
 /obj/structure/sink{
 	dir = 8;
@@ -559,14 +559,14 @@
 	pixel_x = -28
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ur" = (
 /obj/structure/window{
 	dir = 4
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "uD" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -576,7 +576,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "uJ" = (
 /obj/effect/turf_decal/tile/slightlydarkerblue,
 /obj/effect/turf_decal/tile/slightlydarkerblue{
@@ -586,7 +586,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "vh" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -596,10 +596,10 @@
 	id = null
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "vi" = (
 /turf/open/floor/plating/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/unpowered/generic)
 "vq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/chem_master/condimaster{
@@ -607,7 +607,7 @@
 	},
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "vQ" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -619,20 +619,20 @@
 /obj/item/clothing/suit/space/fragile,
 /obj/item/clothing/head/helmet/space/fragile,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "wo" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "wz" = (
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "xi" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/unpowered/generic)
 "xu" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -643,7 +643,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "xY" = (
 /obj/effect/turf_decal/tile/slightlydarkerblue,
 /obj/effect/turf_decal/tile/slightlydarkerblue{
@@ -654,7 +654,7 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "yg" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -662,19 +662,19 @@
 	},
 /obj/effect/turf_decal/tile/bar,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "yK" = (
 /obj/machinery/vending/boozeomat,
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "zA" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/light,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "zE" = (
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "zP" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -686,18 +686,18 @@
 	on = 0
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Aj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /obj/machinery/teleport/station,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "AV" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "AZ" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
@@ -710,11 +710,11 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "BT" = (
 /obj/machinery/smartfridge/food,
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Co" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -728,17 +728,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Cu" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "CP" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 8
 	},
 /turf/open/floor/engine,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Dz" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -749,7 +749,7 @@
 	use_power = 0
 	},
 /turf/open/floor/circuit/telecomms,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "DO" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -759,13 +759,13 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "DV" = (
 /obj/structure/sign/poster/ripped{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Ej" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -776,7 +776,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ES" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line,
@@ -788,7 +788,7 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Ft" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -802,17 +802,17 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "FB" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "FD" = (
 /obj/structure/table,
 /obj/machinery/microwave{
 	pixel_y = 6
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "FQ" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -823,7 +823,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Gk" = (
 /obj/structure/closet/secure_closet/freezer/meat{
 	req_access = list("bar")
@@ -835,10 +835,10 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "GD" = (
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "GG" = (
 /obj/machinery/light/small/broken,
 /obj/structure/table,
@@ -847,14 +847,14 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "GH" = (
 /obj/structure/closet/secure_closet/bar,
 /obj/item/gun/ballistic/revolver/russian,
 /obj/item/storage/box/dishdrive,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Hf" = (
 /obj/structure/chair/stool,
 /obj/item/toy/figure/bartender{
@@ -864,7 +864,7 @@
 	pixel_y = -4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Hj" = (
 /obj/structure/closet,
 /obj/item/vending_refill/cigarette,
@@ -878,7 +878,7 @@
 /obj/item/soap,
 /obj/item/soap,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Hk" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -887,7 +887,7 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/structure/table,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Hp" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line,
@@ -896,7 +896,7 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Hy" = (
 /obj/structure/window{
 	dir = 4
@@ -906,16 +906,13 @@
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
-"HM" = (
-/turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/powered/spacebar)
 "HZ" = (
 /obj/structure/sign/poster/official/cleanliness{
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Id" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -934,7 +931,7 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Ik" = (
 /obj/effect/turf_decal/tile/slightlydarkerblue,
 /obj/effect/turf_decal/tile/slightlydarkerblue{
@@ -945,7 +942,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "IX" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -953,19 +950,19 @@
 	},
 /obj/machinery/vending/hydroseeds,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Jq" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "JG" = (
 /obj/structure/chair/stool,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "JO" = (
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "KL" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line,
@@ -975,11 +972,11 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "KO" = (
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "KZ" = (
 /obj/structure/chair{
 	dir = 4
@@ -990,7 +987,7 @@
 	},
 /obj/effect/turf_decal/tile/bar,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Ls" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1006,7 +1003,7 @@
 	},
 /obj/effect/turf_decal/tile/bar,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Ly" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1017,13 +1014,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "LN" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/powered/spacebar)
 "Mk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/wallmed{
@@ -1033,7 +1030,7 @@
 	use_power = 0
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "MF" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/stripes/line{
@@ -1041,7 +1038,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "MS" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -1053,7 +1050,7 @@
 /obj/item/plant_analyzer,
 /obj/item/storage/bag/plants,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Na" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1068,7 +1065,7 @@
 	},
 /obj/machinery/door/airlock/glass,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Nk" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1079,7 +1076,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "NH" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -1090,11 +1087,11 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "NQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Oo" = (
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/door/firedoor/border_only{
@@ -1105,10 +1102,10 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Ow" = (
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "OL" = (
 /obj/machinery/button/door{
 	id = "barshutters";
@@ -1118,7 +1115,7 @@
 	req_access = list("bar")
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "OR" = (
 /obj/structure/window{
 	dir = 4
@@ -1126,7 +1123,7 @@
 /obj/item/reagent_containers/glass/mixbowl,
 /obj/structure/table,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "OT" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1141,14 +1138,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "OV" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Pc" = (
 /obj/structure/window{
 	dir = 4
@@ -1160,7 +1157,7 @@
 	},
 /obj/structure/table,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "PE" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1171,14 +1168,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "PR" = (
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "PZ" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1187,20 +1184,20 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/structure/chair/stool/bar,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Qc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Qd" = (
 /obj/machinery/oven,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Qz" = (
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Rb" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1209,18 +1206,18 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/machinery/light/small,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Rp" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Rt" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "RT" = (
 /obj/effect/turf_decal/tile/slightlydarkerblue,
 /obj/effect/turf_decal/tile/slightlydarkerblue{
@@ -1228,7 +1225,7 @@
 	},
 /obj/structure/chair,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "RY" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1242,11 +1239,11 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "SA" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Tw" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/line{
@@ -1259,7 +1256,7 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "TK" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -1267,23 +1264,23 @@
 /obj/machinery/door/airlock/external,
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "TU" = (
 /obj/structure/falsewall,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "TV" = (
 /obj/structure/closet/crate/rcd,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "UN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "UV" = (
 /obj/effect/turf_decal/tile/slightlydarkerblue,
 /obj/effect/turf_decal/tile/slightlydarkerblue{
@@ -1293,13 +1290,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Vj" = (
 /obj/machinery/light/small,
 /obj/structure/rack,
 /obj/item/tank/internals/oxygen,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "VE" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1;
@@ -1313,7 +1310,7 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "VI" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -1321,19 +1318,19 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "VK" = (
 /obj/machinery/door/airlock/external{
 	name = "Teleporter"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "VM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 2
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "VY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -1344,14 +1341,14 @@
 	name = "bar shutters"
 	},
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Wj" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/machinery/chem_dispenser/fullupgrade,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "XW" = (
 /obj/effect/turf_decal/tile/slightlydarkerblue,
 /obj/effect/turf_decal/tile/slightlydarkerblue{
@@ -1361,7 +1358,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Yc" = (
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/glass/fifty,
@@ -1369,7 +1366,7 @@
 /obj/item/stack/sheet/metal/fifty,
 /obj/structure/table,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "YA" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -1381,7 +1378,7 @@
 /obj/structure/reagent_dispensers/watertank/high,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "YB" = (
 /obj/effect/turf_decal/tile/darkgreen,
 /obj/effect/turf_decal/tile/darkgreen{
@@ -1389,7 +1386,7 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "YH" = (
 /turf/template_noop,
 /area/template_noop)
@@ -1400,13 +1397,13 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Zg" = (
 /obj/machinery/door/window/eastleft{
 	name = "Growing Area"
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "Zh" = (
 /obj/machinery/processor,
 /obj/effect/decal/cleanable/food/flour,
@@ -1414,29 +1411,29 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ZE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ZJ" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 1
 	},
 /turf/open/floor/engine,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ZK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /obj/machinery/teleport/hub,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered/spacebar)
+/area/ruins/space/powered/spacebar)
 "ZN" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/unpowered/generic)
 
 (1,1,1) = {"
 YH
@@ -1492,7 +1489,7 @@ YH
 YH
 YH
 xi
-HM
+tG
 xi
 YH
 YH

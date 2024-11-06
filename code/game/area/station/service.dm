@@ -1,5 +1,5 @@
 /area/station/service
-	name = "Service Areas"
+	name = "SERVICE AREAS"
 	icon_state = "srv"
 	minimap_color = "#5ac866"
 	airlock_wires = /datum/wires/airlock/service

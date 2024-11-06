@@ -1,5 +1,5 @@
 /area/debug/admin
-	name = "Admin Areas"
+	name = "ADMIN AREAS"
 	icon_state = "centcom"
 
 	static_lighting = TRUE
@@ -55,7 +55,7 @@
 //-- Centcom Station --//
 
 /area/debug/admin/centcom
-	name = "Central Command Areas"
+	name = "CENTCOM AREAS"
 	icon_state = ""
 
 /area/debug/admin/centcom/main
@@ -164,7 +164,7 @@
 //-- Gamemode-relevant stuff --//
 
 /area/debug/admin/gamemode
-	name = "Gamemode Areas"
+	name = "GAMEMODE AREAS"
 	icon_state = ""
 
 /area/debug/admin/gamemode/wizard
@@ -209,7 +209,7 @@
 	icon_state = "yellow"
 
 /area/debug/admin/gamemode/clock
-	name = "Clock Cult Gamemode Areas"
+	name = "CLOCK CULT AREAS"
 	icon_state = "yellow"
 	ambience_index = AMBIENCE_REEBE
 	static_lighting = FALSE

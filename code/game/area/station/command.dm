@@ -1,5 +1,5 @@
 /area/station/command
-	name = "Command Areas"
+	name = "COMMAND AREAS"
 	icon_state = "com"
 	minimap_color = "#0b37b1"
 	airlock_wires = /datum/wires/airlock/command
@@ -40,7 +40,7 @@
 //-- Heads of Staff Quarters/Offices --//
 
 /area/station/command/heads
-	name = "Heads of Staff Office Areas"
+	name = "HEADS OF STAFF OFFICE AREAS"
 	clockwork_warp_allowed = FALSE
 	lights_always_start_on = FALSE
 

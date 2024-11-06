@@ -1,5 +1,5 @@
 /area/station/maintenance
-	name = "Maintenance Areas"
+	name = "MAINTENANCE AREAS"
 	icon_state = "maint"
 	minimap_color = "#4f4e3a"
 	airlock_wires = /datum/wires/airlock/maint
@@ -69,7 +69,7 @@
 // Subtypes of this subtype are exceptions to the above (ex: electrical maint)
 
 /area/station/maintenance/department
-	name = "Department Maintenance Areas"
+	name = "DEPARTMENT MAINTENANCE AREAS"
 
 /area/station/maintenance/department/command //- COMMAND
 	name = "\improper Bridge Maintenance"
@@ -125,7 +125,7 @@
 // Keep order going clockwise from north pls ty
 
 /area/station/maintenance/external_power
-	name = "External Power Maintenance Areas"
+	name = "EXTERNAL POWER MAINTENANCE AREAS"
 	icon_state = "maint_extpower"
 
 /area/station/maintenance/external_power/solar //- SOLARS

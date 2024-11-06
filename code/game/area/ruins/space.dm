@@ -1,5 +1,5 @@
 /area/ruins/space
-	name = "Space Ruin Areas"
+	name = "SPACE RUIN AREAS"
 	icon_state = "space"
 
 	has_gravity = STANDARD_GRAVITY
@@ -107,7 +107,7 @@
 //-- Powered --//
 
 /area/ruins/space/powered
-	name = "Powered Ruin Areas"
+	name = "POWERED RUIN AREAS"
 	requires_power = FALSE
 	lights_always_start_on = TRUE
 
@@ -138,7 +138,7 @@
 //-- Unpowered --//
 
 /area/ruins/space/unpowered
-	name = "Unpowered Ruin Areas"
+	name = "UNPOWERED RUIN AREAS"
 	always_unpowered = TRUE
 	power_light = FALSE
 	power_equip = FALSE
@@ -159,14 +159,17 @@
 //-- No Gravity --//
 
 /area/ruins/space/no_gravity
-	name = "Gravity Ruin Areas"
+	name = "NO GRAVITY AREAS"
 	has_gravity = FALSE
 
 /area/ruins/space/no_gravity/generic
 	name = "\improper Unidentified Location"
 
+/area/ruins/space/no_gravity/oldteleporter
+	name = "\improper Abandoned Teleporter"
+
 /area/ruins/space/no_gravity/powered //- POWERED
-	name = "Powered Gravity Ruin Areas"
+	name = "POWERED NO GRAVITY AREAS"
 	requires_power = FALSE
 	lights_always_start_on = TRUE
 
@@ -174,7 +177,7 @@
 	name = "\improper Unidentified Location"
 
 /area/ruins/space/no_gravity/unpowered //- UNPOWERED
-	name = "Unpowered Gravity Ruin Areas"
+	name = "UNPOWERED NO GRAVITY AREAS"
 	always_unpowered = TRUE
 	power_light = FALSE
 	power_equip = FALSE
@@ -237,12 +240,6 @@
 
 
 
-
-//Ruin of old teleporter
-
-/area/ruins/space/oldteleporter
-	name = "Old Teleporter"
-	icon_state = "teleporter"
 
 
 //Ruin of mech transport

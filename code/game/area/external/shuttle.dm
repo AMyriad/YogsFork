@@ -1,5 +1,5 @@
 /area/external/shuttle
-	name = "Shuttle Areas"
+	name = "SHUTTLE AREAS"
 
 	static_lighting = TRUE
 	lights_always_start_on = TRUE
@@ -29,7 +29,7 @@
 // Don't put new areas in this category if you're adding a new custom shuttle
 
 /area/external/shuttle/station
-	name = "Station Shuttle Areas"
+	name = "STATION SHUTTLE AREAS"
 	icon_state = "shuttle_station"
 
 /area/external/shuttle/station/arrival
@@ -92,7 +92,7 @@
 // NOTE: Separated from station shuttles for sake of readability but has same parents, so put yo custom shuttles here gamer
 
 /area/external/shuttle/station/escape/custom
-	name = "Custom Emergency Shuttle Areas"
+	name = "CUSTOM EMERGENCY SHUTTLE AREAS"
 
 /area/external/shuttle/station/escape/custom/luxury
 	name = "\improper Luxurious Emergency Shuttle"
@@ -116,7 +116,7 @@
 //-- Debug Shuttle Stuff --//
 
 /area/external/shuttle/debug
-	name = "Debug Shuttle Areas"
+	name = "DEBUG SHUTTLE AREAS"
 
 /area/external/shuttle/debug/transit
 	name = "\improper Bluespace"
@@ -136,7 +136,7 @@
 // For anything that doesn't fit into other categories or is part of an antagonist/gamemode like nuke ops, hunters, and space pirates
 
 /area/external/shuttle/misc
-	name = "Miscellaneous Shuttle Areas"
+	name = "MISC SHUTTLE AREAS"
 
 /area/external/shuttle/misc/nukeop_dropship
 	name = "\improper Syndicate Dropship"
@@ -160,7 +160,7 @@
 //-- Ruins Shuttles --//
 
 /area/external/shuttle/ruins
-	name = "Ruins Shuttle Areas"
+	name = "RUINS SHUTTLE AREAS"
 	requires_power = TRUE
 
 /area/external/shuttle/ruins/generic

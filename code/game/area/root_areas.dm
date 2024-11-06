@@ -1,7 +1,10 @@
 /*	READ: AREAS
 *	All areas stem from the 4 types below depending on where they belong in the game
+*	don't put down areas that are all caps and end in "-AREAS"
+*	put new areas at the bottom of the sorting category they belong in
+*	if a new category or file must be created, try to put it as best where it belongs
+*	when making a bunch directional areas, order them from N-NW, or clockwise~
 *	
-*
 */
 
 
@@ -118,6 +121,7 @@
  */
 /area/golem
 	name = "Golem Territory"
+	icon_state = "golem"
 
 /*
 * BASE TYPES

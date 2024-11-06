@@ -1,5 +1,5 @@
 /area/debug/procedural_gen/maintenance
-	name = "Procedural Maintenance Areas"
+	name = "PROCEDURAL MAINTENANCE AREAS"
 	icon_state = ""
 	minimap_color = "#4f4e3a"
 	airlock_wires = /datum/wires/airlock/maint
@@ -27,7 +27,7 @@
 	valid_territory = FALSE
 
 /area/debug/procedural_gen/maintenance/backrooms
-	name = "The Backrooms"
+	name = "\improper The Backrooms"
 	requires_power = FALSE
 	map_generator = /datum/map_generator/dungeon_generator/maintenance/backrooms
 
@@ -35,7 +35,7 @@
 // Keep order going clockwise from north pls ty
 
 /area/debug/procedural_gen/maintenance/general
-	name = "General Maintenance Areas"
+	name = "GENERAL MAINTENANCE AREAS"
 	icon_state = "maintcentral"
 
 /area/debug/procedural_gen/maintenance/general/central

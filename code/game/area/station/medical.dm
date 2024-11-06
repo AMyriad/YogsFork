@@ -1,5 +1,5 @@
 /area/station/medical
-	name = "Medical Areas"
+	name = "MEDICAL AREAS"
 	icon_state = "med"
 	minimap_color = "#45bbdf"
 	airlock_wires = /datum/wires/airlock/medbay
@@ -65,18 +65,18 @@
 //-- Patient Recovery Wards --//
 
 /area/station/medical/recovery
-	name = "Recovery Ward Areas"
+	name = "RECOVERY WARD AREAS"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
-/area/station/medical/recovery/room_a
+/area/station/medical/recovery/ward_a
 	name = "Recovery Ward A"
 	icon_state = "med_ward_a"
 
-/area/station/medical/recovery/room_b
+/area/station/medical/recovery/ward_b
 	name = "Recovery Ward B"
 	icon_state = "med_ward_b"
 
-/area/station/medical/recovery/room_c
+/area/station/medical/recovery/ward_c
 	name = "Recovery Ward C"
 	icon_state = "med_ward_c"
 
@@ -84,7 +84,7 @@
 //-- Genetics --//
 
 /area/station/medical/genetics
-	name = "Genetics Areas"
+	name = "GENETICS AREAS"
 	icon_state = "med_gene"
 	minimap_color = "#006384"
 
@@ -100,7 +100,7 @@
 //-- Chemistry --//
 
 /area/station/medical/chemistry
-	name = "Chemistry Areas"
+	name = "CHEMISTRY AREAS"
 	minimap_color = "#f5a801"
 
 /area/station/medical/chemistry/lab
@@ -119,7 +119,7 @@
 //-- Virology --//
 
 /area/station/medical/virology
-	name = "Virology Areas"
+	name = "VIROLOGY AREAS"
 	icon_state = "med_viro"
 	minimap_color = "#01f5b3"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED

@@ -6,59 +6,59 @@
 /turf/closed/indestructible/oldshuttle/corner{
 	dir = 8
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "c" = (
 /turf/closed/indestructible/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "d" = (
 /obj/machinery/door/airlock/public/glass,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "e" = (
 /turf/closed/indestructible/oldshuttle/corner,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "f" = (
 /turf/closed/indestructible/oldshuttle/corner{
 	dir = 1
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "g" = (
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "h" = (
 /turf/closed/indestructible/oldshuttle/corner{
 	dir = 4
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "i" = (
 /obj/structure/closet{
 	icon_state = "oldcloset";
 	name = "strange closet"
 	},
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "j" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 1
 	},
 /turf/template_noop,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "k" = (
 /mob/living/simple_animal/hostile/retaliate/spaceman,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "l" = (
 /turf/closed/indestructible/oldshuttle{
 	icon_state = "orange"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "m" = (
 /obj/structure/chair/old{
 	dir = 1;
 	icon_state = "chairold"
 	},
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "n" = (
 /obj/structure/chair/old{
 	dir = 1;
@@ -70,7 +70,7 @@
 	name = "heavy crowbar"
 	},
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "o" = (
 /obj/structure/chair/old{
 	dir = 1;
@@ -78,31 +78,31 @@
 	},
 /mob/living/simple_animal/hostile/retaliate/spaceman,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "p" = (
 /mob/living/simple_animal/pet/dog/gshepherd/roxie,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "t" = (
 /obj/machinery/power/generator,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "u" = (
 /obj/machinery/power/smes,
 /turf/open/floor/oldshuttle,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "v" = (
 /obj/structure/shuttle/engine/propulsion/burst/left,
 /turf/template_noop,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "w" = (
 /obj/structure/shuttle/engine/propulsion/burst/right,
 /turf/template_noop,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "x" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/template_noop,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 
 (1,1,1) = {"
 a

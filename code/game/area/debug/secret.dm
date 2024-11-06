@@ -1,5 +1,5 @@
 /area/debug/secret
-	name = "Secret Areas"
+	name = "SECERET AREAS"
 	icon_state = "secret"
 
 	base_lighting_alpha = 255

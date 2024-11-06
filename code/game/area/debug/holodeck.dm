@@ -1,5 +1,5 @@
 /area/debug/holodeck
-	name = "Holodeck Areas"
+	name = "HOLODECK AREAS"
 	icon_state = "Holodeck"
 
 	static_lighting = FALSE

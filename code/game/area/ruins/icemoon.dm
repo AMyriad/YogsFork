@@ -1,5 +1,5 @@
 /area/ruins/icemoon
-	name = "Icemoon Ruin Areas"
+	name = "ICEMOON RUIN AREAS"
 	icon_state = ""
 
 	ambience_index = AMBIENCE_RUINS
@@ -61,7 +61,7 @@
 //-- Powered --//
 
 /area/ruins/icemoon/powered
-	name = "Powered Ruin Areas"
+	name = "POWERED RUIN AREAS"
 	requires_power = FALSE
 	lights_always_start_on = TRUE
 
@@ -103,7 +103,7 @@
 //-- Unpowered --//
 
 /area/ruins/icemoon/unpowered
-	name = "Unpowered Ruin Areas"
+	name = "UNPOWERED RUIN AREAS"
 	always_unpowered = TRUE
 	power_light = FALSE
 	power_equip = FALSE

@@ -1,5 +1,5 @@
 /area/station/science
-	name = "Science Areas"
+	name = "SCIENCE AREAS"
 	icon_state = "sci"
 	minimap_color = "#75009b"
 	airlock_wires = /datum/wires/airlock/science
@@ -73,7 +73,7 @@
 //-- Robotics --//
 
 /area/station/science/robotics
-	name = "Robotics Areas"
+	name = "ROBOTICS AREAS"
 	icon_state = "sci_robotics"
 
 /area/station/science/robotics/lab

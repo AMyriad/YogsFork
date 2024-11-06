@@ -1,5 +1,5 @@
 /area/station/security
-	name = "Security Areas"
+	name = "SECURITY AREAS"
 	icon_state = "sec"
 	minimap_color = "#b12527"
 	airlock_wires = /datum/wires/airlock/security
@@ -62,7 +62,7 @@
 //-- Prison and Detention Rooms --//
 
 /area/station/security/detention
-	name = "Detention Areas"
+	name = "DETENTION AREAS"
 	icon_state = "sec_det"
 	minimap_color = "#530505"
 	lights_always_start_on = TRUE
@@ -91,7 +91,7 @@
 //-- Security Posts --//
 
 /area/station/security/post
-	name = "Security Post Areas"
+	name = "SECURITY POST AREAS"
 
 /area/station/security/post/arrivals
 	name = "\improper Arrivals Security Post"

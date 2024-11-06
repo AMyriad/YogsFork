@@ -1,5 +1,5 @@
 /area/station/external_power
-	name = "External Power Areas"
+	name = "EXTERNAL POWER AREAS"
 	icon_state = "ext_power"
 	minimap_color = "#6b6b6b"
 	airlock_wires = /datum/wires/airlock/engineering
@@ -19,7 +19,7 @@
 // Keep order going clockwise from north pls ty
 
 /area/station/external_power/solar
-	name = "Solar Array Areas"
+	name = "SOLAR ARRAY AREAS"
 	icon_state = "ext_power_solar"
 
 /area/station/external_power/solar/central
@@ -54,7 +54,7 @@
 // We're on solid ground not a ship, cardinal directions apply
 
 /area/station/external_power/geothermal
-	name = "Geothermal Station Areas"
+	name = "GEOTHERMAL STATION AREAS"
 	icon_state = "ext_power_geo"
 	ambient_buzz = null // Stillness
 	ambience_index = AMBIENCE_ICEMOON

@@ -24,7 +24,7 @@
 /area/template_noop)
 "af" = (
 /turf/closed/indestructible/paper,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ag" = (
 /obj/structure/fluff/paper{
 	dir = 10
@@ -57,7 +57,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "aK" = (
 /obj/structure/fluff/paper/stack{
 	dir = 9
@@ -66,7 +66,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "aV" = (
 /obj/structure/fluff/paper/corner{
 	dir = 1
@@ -75,7 +75,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "aZ" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -84,7 +84,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "bc" = (
 /obj/structure/fluff/paper{
 	dir = 9
@@ -112,7 +112,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "bn" = (
 /obj/structure/fluff/paper{
 	dir = 9
@@ -151,7 +151,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "cr" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -162,20 +162,20 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "dm" = (
 /obj/structure/fluff/paper,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ds" = (
 /obj/item/toy/crayon/blue,
 /mob/living/simple_animal/hostile/stickman/ranged,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ey" = (
 /obj/structure/fluff/paper/stack,
 /obj/structure/fluff/paper/stack{
@@ -184,7 +184,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "eH" = (
 /obj/structure/fluff/paper/corner{
 	dir = 1
@@ -195,7 +195,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "fh" = (
 /obj/structure/fluff/paper/stack{
 	dir = 9
@@ -203,7 +203,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "fj" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -214,14 +214,14 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "fw" = (
 /obj/structure/fluff/paper,
 /mob/living/simple_animal/hostile/stickman/dog,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "fK" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -229,7 +229,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "fU" = (
 /obj/structure/fluff/paper/corner{
 	dir = 4
@@ -237,7 +237,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ga" = (
 /obj/structure/fluff/paper/stack{
 	dir = 1
@@ -245,7 +245,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "gH" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -256,7 +256,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "he" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -267,7 +267,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "jw" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
@@ -278,13 +278,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "jO" = (
 /mob/living/simple_animal/hostile/stickman/ranged,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "kw" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
@@ -295,13 +295,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "kD" = (
 /obj/structure/fluff/paper/corner,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "kW" = (
 /obj/structure/fluff/paper/stack{
 	dir = 9
@@ -310,7 +310,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "kY" = (
 /obj/structure/fluff/paper/stack{
 	dir = 4
@@ -318,7 +318,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "lK" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -329,7 +329,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "lU" = (
 /obj/structure/fluff/paper{
 	dir = 6
@@ -340,13 +340,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "mg" = (
 /obj/item/toy/crayon/spraycan,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "nB" = (
 /obj/machinery/door/airlock/freezer{
 	name = "airlock";
@@ -359,7 +359,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ok" = (
 /obj/structure/fluff/paper,
 /obj/structure/easel,
@@ -367,7 +367,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "oJ" = (
 /obj/structure/fluff/paper/stack{
 	dir = 1
@@ -376,7 +376,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "pQ" = (
 /obj/machinery/door/airlock/freezer{
 	name = "airlock";
@@ -394,7 +394,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "qJ" = (
 /obj/structure/fluff/paper{
 	dir = 10
@@ -406,7 +406,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "qZ" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -414,7 +414,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "rr" = (
 /obj/item/toy/crayon/yellow,
 /obj/structure/fluff/paper{
@@ -423,14 +423,14 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "rx" = (
 /obj/structure/easel,
 /obj/item/paper/pamphlet/ruin/originalcontent/stickman,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "rJ" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
@@ -442,7 +442,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "rU" = (
 /obj/structure/fluff/paper{
 	dir = 10
@@ -453,14 +453,14 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "sk" = (
 /obj/structure/fluff/paper,
 /mob/living/simple_animal/hostile/stickman,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "sw" = (
 /obj/structure/fluff/paper{
 	dir = 6
@@ -471,13 +471,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "sF" = (
 /obj/item/toy/crayon/red,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "tb" = (
 /obj/structure/fluff/paper/stack{
 	dir = 1
@@ -489,7 +489,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "tn" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -500,13 +500,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "tP" = (
 /obj/item/storage/crayons,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "tR" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -515,7 +515,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "tU" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -527,7 +527,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ui" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -539,7 +539,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ur" = (
 /obj/structure/fluff/paper,
 /obj/structure/fluff/paper/stack{
@@ -548,7 +548,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "uu" = (
 /obj/structure/fluff/paper/corner,
 /obj/structure/fluff/paper/corner{
@@ -557,12 +557,12 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "uT" = (
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "vc" = (
 /obj/structure/fluff/paper{
 	dir = 9
@@ -577,13 +577,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "vf" = (
 /mob/living/simple_animal/hostile/stickman/dog,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "vs" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -592,7 +592,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "wp" = (
 /obj/structure/fluff/paper,
 /obj/structure/table/wood,
@@ -601,7 +601,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "xB" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -610,7 +610,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "xY" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -619,7 +619,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "yd" = (
 /obj/structure/fluff/paper{
 	dir = 5
@@ -630,7 +630,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "yF" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -639,7 +639,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "zM" = (
 /obj/structure/fluff/paper,
 /obj/structure/fluff/paper/corner{
@@ -648,7 +648,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "zN" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -658,7 +658,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Ap" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -669,13 +669,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "AR" = (
 /obj/item/paper/secretrecipe,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Bq" = (
 /obj/structure/fluff/paper/stack{
 	dir = 10
@@ -683,7 +683,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "BB" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -692,7 +692,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Cb" = (
 /obj/structure/fluff/paper/corner,
 /obj/structure/fluff/paper/corner{
@@ -701,7 +701,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Ce" = (
 /obj/structure/fluff/paper,
 /obj/structure/table/wood,
@@ -710,7 +710,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "CL" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
@@ -722,7 +722,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "DC" = (
 /obj/structure/fluff/paper{
 	dir = 10
@@ -730,7 +730,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "DY" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -741,7 +741,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Er" = (
 /obj/structure/fluff/paper,
 /obj/structure/fluff/paper/stack{
@@ -751,7 +751,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Ew" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -761,7 +761,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "EU" = (
 /obj/structure/fluff/paper{
 	dir = 6
@@ -769,7 +769,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Fn" = (
 /obj/structure/fluff/paper{
 	dir = 6
@@ -781,13 +781,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Fp" = (
 /obj/item/toy/crayon/yellow,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Fw" = (
 /obj/structure/fluff/paper/corner{
 	dir = 1
@@ -798,7 +798,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "FA" = (
 /obj/structure/fluff/paper/stack{
 	dir = 4
@@ -809,7 +809,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Hp" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -818,7 +818,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "IL" = (
 /obj/structure/fluff/paper{
 	dir = 5
@@ -828,13 +828,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "IU" = (
 /mob/living/simple_animal/hostile/stickman,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Jv" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -843,7 +843,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "JM" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -854,7 +854,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "KE" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -866,7 +866,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Lh" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -878,14 +878,14 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "LA" = (
 /obj/structure/fluff/paper/corner,
 /mob/living/simple_animal/hostile/stickman/dog,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "LL" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -894,7 +894,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "LT" = (
 /obj/structure/fluff/paper/corner{
 	dir = 1
@@ -902,7 +902,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "NS" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -913,19 +913,19 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Oi" = (
 /obj/item/toy/crayon/blue,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Ok" = (
 /obj/structure/fluff/paper/stack,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "OA" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -935,7 +935,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "OO" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -944,7 +944,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "PL" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -955,13 +955,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "PO" = (
 /mob/living/simple_animal/hostile/boss/paper_wizard,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "PZ" = (
 /obj/structure/fluff/paper{
 	dir = 10
@@ -970,7 +970,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "QB" = (
 /obj/structure/fluff/paper,
 /obj/structure/fluff/paper{
@@ -979,7 +979,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Ra" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -988,7 +988,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Rd" = (
 /obj/structure/fluff/paper{
 	dir = 9
@@ -996,13 +996,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Ro" = (
 /obj/item/toy/crayon/purple,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Si" = (
 /obj/structure/fluff/paper,
 /obj/structure/fluff/paper/corner{
@@ -1011,7 +1011,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "SB" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
@@ -1021,7 +1021,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "TM" = (
 /obj/structure/fluff/paper/corner,
 /obj/structure/fluff/paper/stack{
@@ -1030,7 +1030,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Uk" = (
 /obj/structure/fluff/paper{
 	dir = 5
@@ -1038,20 +1038,20 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Vj" = (
 /obj/item/toner,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "WZ" = (
 /obj/structure/fluff/paper,
 /obj/item/paper/crumpled/ruins/originalcontent,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Xi" = (
 /obj/structure/fluff/paper,
 /obj/structure/fluff/paper{
@@ -1061,7 +1061,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Xn" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -1075,7 +1075,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Xv" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -1085,13 +1085,13 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Yf" = (
 /obj/item/paper/crumpled/ruins/originalcontent,
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Yh" = (
 /obj/structure/fluff/paper/corner{
 	dir = 1
@@ -1102,7 +1102,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Zb" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
@@ -1110,7 +1110,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "Zy" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
@@ -1124,7 +1124,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ZA" = (
 /obj/machinery/door/airlock/freezer{
 	name = "airlock";
@@ -1140,7 +1140,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "ZS" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -1151,7 +1151,7 @@
 /turf/open/indestructible/paper{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 
 (1,1,1) = {"
 aa

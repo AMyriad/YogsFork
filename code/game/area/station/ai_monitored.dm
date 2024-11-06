@@ -1,5 +1,5 @@
 /area/station/ai_monitored
-	name = "AI Monitored Areas"
+	name = "AI MONITORED AREAS"
 	icon_state = "ai"
 
 	minimap_color = "#f7de02"
@@ -45,7 +45,7 @@
 //-- Non-AI/General AI Monitored Areas --//
 
 /area/station/ai_monitored/general
-	name = "General AI Monitored Areas"
+	name = "GENERAL AI MONITORED AREAS"
 	airlock_wires = /datum/wires/airlock/command
 
 /area/station/ai_monitored/general/vault
@@ -69,7 +69,7 @@
 //-- AI Areas --//
 
 /area/station/ai_monitored/ai
-	name = "AI Areas"
+	name = "AI AREAS"
 	minimap_color = "#00fff6"
 	ambience_index = AMBIENCE_AI
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED

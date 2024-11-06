@@ -1,5 +1,5 @@
 /area/station/supply
-	name = "Supply Areas"
+	name = "SUPPLY AREAS"
 	icon_state = "sup"
 	minimap_color = "#936f3c"
 	airlock_wires = /datum/wires/airlock/service

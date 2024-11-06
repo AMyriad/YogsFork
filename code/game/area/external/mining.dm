@@ -1,5 +1,5 @@
 /area/external/mining
-	name = "Mining Areas"
+	name = "MINING AREAS"
 	icon_state = "mining"
 	
 	lighting_colour_tube = "#ffe8d2"
@@ -11,16 +11,17 @@
 
 /area/external/mining/survival_pod
 	name = "\improper Emergency Shelter"
-	icon_state = "survival_pod"
+	icon_state = "mining_survival_pod"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	static_lighting = TRUE
 	requires_power = FALSE
 	mining_speed = FALSE
 
+
 //-- Shaft Miner Mining Base -//
 
 /area/external/mining/base
-	name = "Mining Base Areas"
+	name = "MINING BASE AREAS"
 	icon_state = "base"
 	airlock_wires = /datum/wires/airlock/service
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
@@ -76,7 +77,7 @@
 //-- Labor Camp/Gulag --//
 
 /area/external/mining/labor
-	name = "Labor Camp Areas"
+	name = "LABOR CAMP AREAS"
 	icon_state = "labor"
 
 /area/external/mining/labor/main
@@ -93,7 +94,7 @@
 //-- Lavaland --//
 
 /area/external/mining/lavaland
-	name = "Lavaland Areas"
+	name = "LAVALAND AREAS"
 	icon_state = "lavaland"
 
 	ambience_index = AMBIENCE_MINING
@@ -138,7 +139,7 @@
 //-- Icemoon --//
 
 /area/external/mining/icemoon
-	name = "Icemoon Areas"
+	name = "ICEMOON AREAS"
 	icon_state = "icemoon"
 
 	ambience_index = AMBIENCE_ICEMOON
@@ -194,7 +195,7 @@
 //-- Jungleland --//
 
 /area/external/mining/jungleland
-	name = "Jungleland Areas"
+	name = "JUNGLELAND AREAS"
 	icon_state = "jungleland"
 
 	//ambience_index = AMBIENCE_JUNGLE // One day...

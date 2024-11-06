@@ -1,7 +1,7 @@
 /**
   * # area
   *
-  * A grouping of tiles into a logical space, mostly used by map editors
+  * A grouping of turfs into a logical space, mostly used by map editors
   */
 /area
 	name = "Area"

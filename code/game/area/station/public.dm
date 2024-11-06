@@ -1,5 +1,5 @@
 /area/station/public
-	name = "Public Areas"
+	name = "PUBLIC AREAS"
 	icon_state = "pub"
 	minimap_color = "#8d8c68"
 
@@ -26,7 +26,7 @@
 // Keep order going clockwise from north pls ty
 
 /area/station/public/hallway
-	name = "Primary Hallway Areas"
+	name = "HALLWAY AREAS"
 
 /area/station/public/hallway/central
 	name = "\improper Central Primary Hallway"
@@ -41,7 +41,7 @@
 	icon_state = ""
 
 /area/station/public/hallway/northeast
-	name = "\improper Starboard Bow (NE) Maintenance"
+	name = "\improper Starboard Bow (NE) Primary Hallway"
 	icon_state = ""
 
 /area/station/public/hallway/east
@@ -72,7 +72,7 @@
 //-- Misc and Recreational --//
 
 /area/station/public/misc
-	name = "Miscellaneous Areas"
+	name = "MISC AREAS"
 	icon_state = "pub_misc"
 	minimap_color = "#f8ff83"
 	lights_always_start_on = TRUE
@@ -147,7 +147,7 @@
 //-- Storage --//
 
 /area/station/public/storage
-	name = "Storage Areas"
+	name = "STORAGE AREAS"
 	icon_state = "pub_storage"
 	minimap_color = "#f8ff83"
 	lights_always_start_on = TRUE
@@ -168,7 +168,7 @@
 //-- Vacant Rooms --//
 
 /area/station/public/vacant
-	name = "Vacant Areas"
+	name = "VACANT AREAS"
 	icon_state = "pub_vacant"
 	ambience_index = AMBIENCE_MAINT
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
