@@ -4,14 +4,11 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "c" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
-"d" = (
-/turf/closed/wall/r_wall/rust,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "e" = (
 /obj/effect/decal/cleanable/vomit/old,
 /obj/effect/turf_decal/tile/blue{
@@ -28,7 +25,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "f" = (
 /obj/machinery/door/airlock/research/glass,
 /obj/effect/turf_decal/stripes/line{
@@ -39,7 +36,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "g" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp,
@@ -55,7 +52,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "h" = (
 /obj/structure/table,
 /obj/item/pen,
@@ -71,7 +68,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "i" = (
 /obj/machinery/dna_scannernew,
 /obj/effect/turf_decal/tile/blue{
@@ -85,7 +82,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "j" = (
 /obj/machinery/computer/prototype_cloning,
 /obj/machinery/light{
@@ -103,7 +100,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "k" = (
 /obj/machinery/clonepod/experimental,
 /obj/effect/turf_decal/tile/blue{
@@ -117,7 +114,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "l" = (
 /obj/machinery/door/airlock/research/glass,
 /obj/effect/turf_decal/stripes/line,
@@ -128,7 +125,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "m" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/effect/turf_decal/tile/blue{
@@ -142,35 +139,35 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "n" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "o" = (
 /obj/machinery/vending/snack/teal,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "p" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "q" = (
 /obj/structure/sign/directions/science{
 	dir = 8
 	},
 /turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "r" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "s" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "t" = (
 /obj/machinery/light{
 	dir = 4
@@ -178,7 +175,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "u" = (
 /obj/machinery/light{
 	dir = 8
@@ -187,13 +184,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "v" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "w" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -205,7 +202,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "x" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -214,7 +211,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "y" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -230,7 +227,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "z" = (
 /obj/machinery/light{
 	dir = 4
@@ -239,51 +236,51 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "A" = (
 /obj/structure/sign/departments/science,
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "B" = (
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "C" = (
 /turf/open/floor/plating/airless,
-/area/space/nearstation)
+/area/ruins/space/powered/cloning_facility)
 "D" = (
 /obj/structure/chair/comfy{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "E" = (
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "G" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "I" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "J" = (
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "K" = (
 /obj/machinery/door/airlock/research/glass,
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "L" = (
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg1"
 	},
-/area/space/nearstation)
+/area/ruins/space/powered/cloning_facility)
 "M" = (
 /obj/structure/fluff/broken_flooring{
 	dir = 8;
@@ -295,24 +292,24 @@
 "N" = (
 /obj/item/book/random/triple,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "O" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/structure/bookcase/random/fiction,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "P" = (
 /obj/structure/table/glass,
 /obj/machinery/light,
 /obj/structure/bedsheetbin,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "Q" = (
 /obj/structure/table/glass,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "R" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/regular,
@@ -321,23 +318,23 @@
 	name = "prototype health analyzer"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "S" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/syringes,
 /turf/open/floor/plasteel/white,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "T" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/powered/ancient_shuttle)
+/area/ruins/space/powered/cloning_facility)
 "U" = (
 /turf/open/floor/plating/airless{
 	icon_state = "platingdmg2"
 	},
-/area/space/nearstation)
+/area/ruins/space/powered/cloning_facility)
 "V" = (
 /turf/closed/wall/r_wall/rust,
-/area/space/nearstation)
+/area/ruins/space/powered/cloning_facility)
 
 (1,1,1) = {"
 a
@@ -397,22 +394,22 @@ a
 (6,1,1) = {"
 a
 a
-d
+V
 t
 E
 O
-d
+V
 a
 a
 "}
 (7,1,1) = {"
 a
 a
-d
+V
 b
 f
-d
-d
+V
+V
 a
 a
 "}
@@ -430,8 +427,8 @@ a
 (9,1,1) = {"
 a
 a
-d
-d
+V
+V
 l
 b
 b
@@ -467,13 +464,13 @@ h
 w
 J
 J
-d
+V
 a
 a
 "}
 (13,1,1) = {"
 a
-d
+V
 i
 x
 J
@@ -511,24 +508,24 @@ e
 x
 J
 S
-d
+V
 a
 a
 "}
 (17,1,1) = {"
 a
-d
+V
 m
 z
 J
 J
-d
+V
 a
 a
 "}
 (18,1,1) = {"
 a
-d
+V
 n
 A
 K
@@ -561,7 +558,7 @@ a
 "}
 (21,1,1) = {"
 a
-d
+V
 q
 C
 L

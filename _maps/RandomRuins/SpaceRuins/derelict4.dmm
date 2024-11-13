@@ -4,72 +4,72 @@
 /area/template_noop)
 "b" = (
 /turf/closed/mineral,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "c" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "d" = (
 /turf/closed/mineral/random/high_chance,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "e" = (
 /turf/closed/wall/mineral/titanium,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "f" = (
 /obj/machinery/door/airlock/titanium,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "g" = (
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "h" = (
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "i" = (
 /obj/structure/chair,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "j" = (
 /obj/structure/chair,
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "k" = (
 /obj/effect/spawner/lootdrop/crate_spawner,
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "l" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "m" = (
 /obj/item/shard,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "n" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "o" = (
 /obj/structure/grille,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "p" = (
 /obj/structure/table,
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "q" = (
 /obj/item/shard,
 /obj/structure/chair{
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "r" = (
 /obj/structure/chair{
 	dir = 1
@@ -78,17 +78,17 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "s" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "t" = (
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 
 (1,1,1) = {"
 a

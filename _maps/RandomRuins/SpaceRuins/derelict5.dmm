@@ -4,74 +4,77 @@
 /area/template_noop)
 "b" = (
 /turf/closed/mineral,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "c" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "d" = (
 /turf/closed/mineral,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "e" = (
 /turf/closed/wall,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "f" = (
 /turf/closed/wall/rust,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "g" = (
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "h" = (
 /obj/structure/closet/crate,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "i" = (
 /obj/effect/spawner/lootdrop/crate_spawner,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "j" = (
 /obj/structure/barricade/wooden,
 /obj/structure/door_assembly,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "k" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/electrical,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "l" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "m" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "n" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/syndicate,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "o" = (
 /obj/structure/table,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "p" = (
 /turf/open/floor/plating/asteroid,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "q" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "r" = (
 /obj/structure/barricade/wooden,
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "s" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
+"V" = (
+/turf/template_noop,
+/area/ruins/space/no_gravity/unpowered/generic)
 
 (1,1,1) = {"
 a
@@ -1075,7 +1078,7 @@ b
 "}
 (26,1,1) = {"
 a
-a
+V
 a
 a
 a
@@ -1400,7 +1403,7 @@ a
 a
 a
 a
-a
+V
 b
 a
 a

@@ -15,7 +15,7 @@
 	},
 /obj/machinery/light/small/broken,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "ai" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -31,19 +31,19 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "aG" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/closed/wall/mineral/iron,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "aM" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "aY" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel";
@@ -68,29 +68,29 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "ba" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "bn" = (
 /obj/machinery/power/terminal{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "bt" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small/broken{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery)
 "bu" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
-/turf/open/space,
-/area/ruin/unpowered/no_grav)
+/turf/template_noop,
+/area/space/nearstation)
 "bw" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/saltshaker{
@@ -102,11 +102,11 @@
 	layer = 3.1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "bB" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "bH" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -119,17 +119,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "bL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "bN" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "bO" = (
 /obj/machinery/door/airlock{
 	name = "Dining Room"
@@ -147,10 +147,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "bP" = (
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "bU" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -166,7 +166,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "cr" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -182,22 +182,22 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "cv" = (
 /obj/machinery/light/small/broken,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "cH" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21";
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "cK" = (
 /obj/item/chair/wood,
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "cL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -206,29 +206,29 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "cQ" = (
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "cS" = (
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "cU" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "cW" = (
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "df" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "dk" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
@@ -237,7 +237,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "dp" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -246,7 +246,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "dq" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -255,7 +255,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ds" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -266,7 +266,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "dA" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -276,24 +276,24 @@
 	icon_state = "inje_map-2"
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "dF" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/fancy/candle_box,
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "dI" = (
 /obj/structure/flora/ausbushes/genericbush,
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "dQ" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "dR" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -304,11 +304,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "eb" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "eg" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -317,17 +317,17 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "ek" = (
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "en" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "er" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -350,14 +350,14 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "eu" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "eB" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "eO" = (
 /obj/machinery/door/airlock{
 	id_tag = "Cell2";
@@ -377,18 +377,18 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "eY" = (
 /obj/structure/lattice,
 /turf/closed/mineral,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "fi" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/trophy{
 	pixel_y = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "fk" = (
 /obj/machinery/door/morgue{
 	name = "Confession Booth"
@@ -400,7 +400,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "fs" = (
 /obj/structure/rack{
 	icon = 'icons/obj/stationobjs.dmi';
@@ -409,7 +409,7 @@
 	},
 /obj/item/book/codex_gigas,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "ft" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Monastery Transit";
@@ -439,7 +439,7 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "fw" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Access";
@@ -455,7 +455,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "fx" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -482,37 +482,37 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "fF" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "fQ" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "fS" = (
 /obj/structure/chair/wood/normal{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "fT" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_y = 32
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "gb" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "go" = (
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "gp" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -530,31 +530,32 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "gr" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/poppy,
 /obj/machinery/light/small/broken,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "gw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "gz" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "gF" = (
 /turf/closed/wall/mineral/iron,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "gO" = (
 /obj/machinery/seed_extractor,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "gZ" = (
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/turf/template_noop,
+/area/template_noop)
 "ha" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -564,7 +565,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hb" = (
 /obj/structure/table/wood,
 /obj/item/kirbyplants{
@@ -572,21 +573,21 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "hc" = (
 /obj/structure/chair/wood/normal,
 /turf/open/floor/plasteel/chapel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hh" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "hi" = (
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hp" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -595,16 +596,16 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ht" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hu" = (
 /turf/closed/wall/rust,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "hI" = (
 /obj/structure/sign/warning/vacuum/external{
 	pixel_x = -32
@@ -613,7 +614,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hL" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -624,33 +625,33 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "hM" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hN" = (
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hP" = (
 /obj/machinery/light/small/broken{
 	dir = 1
 	},
 /obj/structure/bookcase,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "hT" = (
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "hU" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "hW" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -658,7 +659,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "hX" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -667,45 +668,45 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ib" = (
 /obj/machinery/door/window/eastleft{
 	dir = 1;
 	name = "Coffin Storage"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "id" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "im" = (
 /obj/structure/table/wood,
 /obj/item/trash/plate,
 /obj/item/kitchen/fork,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "iJ" = (
 /obj/structure/closet/emcloset,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "iK" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "iM" = (
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "iZ" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/grown/harebell,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "jc" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -715,7 +716,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "je" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -737,20 +738,20 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "jl" = (
 /turf/open/floor/plasteel/chapel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "jm" = (
 /obj/item/hatchet,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "jq" = (
 /turf/closed/wall/rust,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "jv" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -758,7 +759,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "jw" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/wheat,
@@ -766,21 +767,21 @@
 	dir = 8
 	},
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "jy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/chapel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "jB" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "jI" = (
 /obj/machinery/vending/dinnerware,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -790,21 +791,21 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "jO" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "jS" = (
 /obj/structure/cable,
 /obj/machinery/power/smes/fullycharged{
 	output_attempt = 0
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "jU" = (
 /obj/machinery/door/airlock{
 	name = "Kitchen"
@@ -822,12 +823,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ki" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ko" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -849,28 +850,28 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "ku" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 4
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "kC" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/closed/wall/mineral/iron,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "kG" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "kH" = (
 /obj/item/chair/wood,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "kW" = (
 /obj/machinery/door/window/eastleft{
 	base_state = "right";
@@ -879,15 +880,15 @@
 	name = "Coffin Storage"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "lc" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "ld" = (
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "lj" = (
 /obj/machinery/door/airlock{
 	name = "Garden"
@@ -909,7 +910,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ln" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel";
@@ -931,7 +932,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "lw" = (
 /obj/structure/chair/wood/normal,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -941,25 +942,25 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "lA" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "lI" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "lK" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "lU" = (
 /obj/machinery/button/massdriver{
 	id = "chapelgun";
@@ -970,18 +971,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "mb" = (
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "mo" = (
 /obj/machinery/light/small/broken{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "mu" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -989,13 +990,13 @@
 /obj/machinery/door/airlock/external,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "mA" = (
 /obj/machinery/light/small/broken{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "mH" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -1007,7 +1008,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "mS" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Monastery Cemetary";
@@ -1026,7 +1027,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "mV" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1038,7 +1039,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "mX" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1057,20 +1058,20 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "np" = (
 /obj/item/flashlight/lantern,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "nt" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "nw" = (
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "nI" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-10"
@@ -1082,22 +1083,22 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "nL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "oc" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "on" = (
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "oo" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -1119,18 +1120,18 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ot" = (
 /obj/structure/chair/wood/normal,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "ow" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "oz" = (
 /obj/structure/table/wood/fancy,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "oQ" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -1151,13 +1152,13 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "oV" = (
 /obj/structure/table,
 /obj/item/storage/crayons,
 /obj/item/wrench,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "oW" = (
 /obj/machinery/vending/hydronutrients,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -1165,7 +1166,7 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "pd" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -1173,7 +1174,7 @@
 /obj/item/kitchen/knife,
 /obj/machinery/light/small,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ph" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -1190,17 +1191,17 @@
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "po" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "pp" = (
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "pq" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
 	dir = 2;
@@ -1217,19 +1218,19 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "pu" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "pv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel/chapel{
 	dir = 4
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "pI" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lantern{
@@ -1246,13 +1247,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "pW" = (
 /obj/machinery/light/small/broken{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "pY" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1271,10 +1272,10 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "qa" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "qb" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -1282,12 +1283,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "qu" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "qv" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/door/firedoor/border_only{
@@ -1295,7 +1296,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "qy" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/pharaoh,
@@ -1311,11 +1312,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "qJ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "qK" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -1326,7 +1327,7 @@
 	pixel_y = -24
 	},
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "qP" = (
 /obj/machinery/suit_storage_unit/standard_unit,
 /obj/effect/turf_decal/tile/neutral{
@@ -1340,12 +1341,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "qU" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/poppy,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "rc" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -1354,10 +1355,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "rd" = (
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "rg" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -1380,14 +1381,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "rl" = (
 /obj/item/candle{
 	pixel_x = 6;
 	pixel_y = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ru" = (
 /obj/structure/chair/wood/wings{
 	dir = 1
@@ -1396,12 +1397,12 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "ry" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 8
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "rD" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1414,7 +1415,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "rL" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1429,7 +1430,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "rV" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -1439,11 +1440,11 @@
 	},
 /obj/item/pen,
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "sh" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "sn" = (
 /obj/item/clothing/suit/apron/chef,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -1453,21 +1454,21 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "sB" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "sE" = (
 /obj/machinery/biogenerator,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "sK" = (
 /obj/machinery/power/port_gen/pacman,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "sM" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -1476,12 +1477,12 @@
 	pixel_y = 26
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "sO" = (
 /obj/structure/sink/puddle,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "sU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1506,7 +1507,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "tf" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -1519,7 +1520,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "tj" = (
 /obj/item/clothing/under/rank/civilian/chaplain/burial,
 /obj/item/clothing/under/rank/civilian/chaplain/burial,
@@ -1527,7 +1528,7 @@
 /obj/item/clothing/under/rank/civilian/chaplain/burial,
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "tp" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1543,31 +1544,31 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "ts" = (
 /obj/structure/table,
 /obj/item/trash/plate,
 /obj/item/kitchen/fork,
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "tu" = (
 /turf/closed/mineral,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "tC" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "tI" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "tT" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 1
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "tY" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/watermelon/holy,
@@ -1575,11 +1576,11 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ue" = (
 /mob/living/simple_animal/butterfly,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ug" = (
 /obj/machinery/door/airlock/external{
 	name = "Pod Docking Bay"
@@ -1587,7 +1588,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "ui" = (
 /obj/machinery/light/small,
 /obj/structure/cable{
@@ -1610,13 +1611,13 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "un" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "ux" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -1628,7 +1629,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "uO" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/breadslice/plain,
@@ -1639,23 +1640,23 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "uP" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/fancy/candle_box,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "uX" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "va" = (
 /obj/structure/chair/wood/normal,
 /obj/item/storage/book/bible,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ve" = (
 /obj/structure/closet,
 /obj/machinery/light/small{
@@ -1665,7 +1666,7 @@
 /obj/item/storage/book/bible,
 /obj/item/storage/book/bible,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "vl" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/book/bible,
@@ -1676,31 +1677,31 @@
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "vs" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/storage/fancy/candle_box,
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "vt" = (
 /obj/structure/chair/wood/normal{
 	dir = 8
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "vy" = (
 /obj/item/disk/nuclear/fake,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "vG" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "vK" = (
 /obj/item/wrench,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "vN" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/sugarcane,
@@ -1708,22 +1709,22 @@
 	dir = 4
 	},
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "vP" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/tinted/fulltile,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "vQ" = (
 /obj/machinery/atmospherics/components/binary/pump/on/layer2{
 	dir = 1;
 	name = "Air In"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "vU" = (
 /turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "vY" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -1740,11 +1741,11 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "wd" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "wk" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1762,20 +1763,20 @@
 	name = "Broken Computer"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "wr" = (
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "wy" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "wA" = (
 /obj/machinery/holopad,
 /obj/item/flashlight/lantern,
 /turf/open/floor/plasteel/chapel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "wB" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1789,26 +1790,26 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "wH" = (
 /obj/machinery/airalarm{
 	dir = 4;
 	pixel_x = -24
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "wJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "wO" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "wP" = (
 /obj/structure/table/wood,
 /obj/item/storage/book/bible,
@@ -1816,12 +1817,12 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "wR" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/harebell,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "wW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
@@ -1830,39 +1831,39 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "wZ" = (
 /turf/closed/wall/rust,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "xb" = (
 /obj/structure/table/wood,
 /obj/item/folder/yellow,
 /obj/item/pen,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "xh" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "xt" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "xB" = (
 /obj/structure/flora/ausbushes,
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "xC" = (
 /obj/item/storage/box/lights/bulbs,
 /obj/machinery/light/small/broken{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "xG" = (
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "xS" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1879,7 +1880,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "xT" = (
 /obj/item/storage/bag/plants,
 /obj/structure/extinguisher_cabinet{
@@ -1888,12 +1889,12 @@
 /obj/item/storage/bag/plants/portaseeder,
 /obj/item/storage/bag/plants/portaseeder,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "xX" = (
 /obj/structure/table/wood,
 /obj/item/barcodescanner,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "yi" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -1908,19 +1909,19 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "yj" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "ym" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "yo" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1934,7 +1935,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "yq" = (
 /obj/structure/closet{
 	name = "beekeeping supplies"
@@ -1946,7 +1947,7 @@
 /obj/item/honey_frame,
 /obj/item/honey_frame,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "yt" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1957,7 +1958,7 @@
 	},
 /obj/item/chair/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "yE" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -1966,7 +1967,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "yJ" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel";
@@ -1977,13 +1978,13 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "yP" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "yR" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1996,7 +1997,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "yX" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2014,18 +2015,18 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "yZ" = (
 /obj/item/candle{
 	pixel_x = 6;
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "zb" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "zl" = (
 /obj/machinery/door/poddoor{
 	id = "chapelgun";
@@ -2033,11 +2034,11 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "zn" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "zz" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Access";
@@ -2049,13 +2050,13 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "zC" = (
 /obj/structure/chair/wood/normal{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "zD" = (
 /obj/structure/chair/wood/normal{
 	dir = 4
@@ -2064,13 +2065,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "zI" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "zL" = (
 /obj/machinery/door/morgue{
 	name = "Confession Booth"
@@ -2080,25 +2081,25 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "zM" = (
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
 /turf/closed/wall/mineral/iron,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "zO" = (
 /obj/item/extinguisher,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "zS" = (
 /turf/closed/mineral,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "zU" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/grown/poppy,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ag" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -2106,38 +2107,38 @@
 /obj/machinery/door/airlock/external,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ai" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ap" = (
 /obj/machinery/light/small/broken{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Aq" = (
 /obj/machinery/light/small{
 	dir = 2
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "AH" = (
 /obj/item/storage/firstaid/regular,
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "AT" = (
 /obj/structure/chair/wood/normal,
 /turf/open/floor/plasteel/chapel{
 	dir = 4
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "AY" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -2152,7 +2153,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "AZ" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -2162,24 +2163,24 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Bc" = (
 /obj/structure/flora/ausbushes/leafybush,
 /obj/structure/flora/ausbushes/reedbush,
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Bo" = (
 /obj/structure/chair/wood/normal,
 /turf/open/floor/plasteel/chapel{
 	dir = 1
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Bq" = (
 /obj/structure/table/wood/fancy,
 /obj/item/folder,
 /obj/item/pen,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Bx" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
@@ -2187,15 +2188,15 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "BA" = (
 /obj/item/shard,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "BK" = (
 /obj/machinery/vending/games,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "BN" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -2204,22 +2205,22 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery)
 "BO" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "BU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "BZ" = (
 /turf/closed/wall/rust,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "Ca" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2229,27 +2230,27 @@
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Cb" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/mug/tea,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ck" = (
 /obj/machinery/light/small/broken{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Cl" = (
 /obj/structure/grille/broken,
-/turf/open/space/basic,
-/area/ruin/unpowered/no_grav)
+/turf/template_noop,
+/area/space/nearstation)
 "Cu" = (
 /obj/structure/flora/ausbushes,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Cw" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Access";
@@ -2260,7 +2261,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "CC" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -2269,7 +2270,7 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "CD" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -2293,31 +2294,31 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "CE" = (
 /turf/closed/wall/rust,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "CK" = (
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/closed/wall,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "CN" = (
 /obj/item/flashlight/lantern,
 /turf/open/floor/plasteel/chapel{
 	dir = 8
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "CT" = (
 /obj/structure/sign/warning/vacuum/external,
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Dh" = (
 /obj/item/flashlight/lantern{
 	icon_state = "lantern-on"
 	},
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Dl" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
@@ -2331,13 +2332,13 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Dm" = (
 /obj/structure/chair/wood/normal,
 /turf/open/floor/plasteel/chapel{
 	dir = 8
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Do" = (
 /obj/machinery/light/small,
 /obj/effect/turf_decal/tile/neutral{
@@ -2351,11 +2352,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Dt" = (
 /obj/effect/spawner/structure/window/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Dw" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/box/matches{
@@ -2364,7 +2365,7 @@
 	},
 /obj/machinery/light/small/broken,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "DB" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Garden";
@@ -2383,16 +2384,16 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "DG" = (
 /obj/item/storage/box/lights/bulbs,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "DX" = (
 /obj/structure/table/wood,
 /obj/item/storage/bag/books,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "DY" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -2407,7 +2408,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Ea" = (
 /obj/item/storage/box/matches{
 	pixel_x = -3;
@@ -2415,18 +2416,18 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ed" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Eh" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Ej" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -2435,21 +2436,21 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Em" = (
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Eo" = (
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Ew" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Ez" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
@@ -2458,7 +2459,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "EI" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2468,21 +2469,21 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "EL" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "ET" = (
 /obj/structure/flora/ausbushes/fernybush,
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "EY" = (
 /obj/item/pen,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Ff" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -2491,7 +2492,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Fk" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -2510,38 +2511,38 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Fy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "FI" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/box/bodybags,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "FK" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "FR" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/watermelon/holy,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "FV" = (
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "FZ" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/beebox,
 /obj/item/queen_bee/bought,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Gd" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/structure/cable{
@@ -2560,19 +2561,19 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Gk" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Gs" = (
 /obj/machinery/light/small/broken{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Gt" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -2584,24 +2585,24 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "GD" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "GG" = (
 /mob/living/simple_animal/hostile/carp,
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "GT" = (
 /obj/structure/chair,
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "GV" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Ha" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel";
@@ -2616,21 +2617,21 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Hd" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/closed/mineral,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Hg" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Hi" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Ho" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel";
@@ -2652,10 +2653,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Hz" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "HG" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Crematorium";
@@ -2669,30 +2670,26 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "HI" = (
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = -26
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "HK" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
-"HO" = (
-/obj/structure/lattice,
-/turf/open/space,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery)
 "HR" = (
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "HX" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -2701,7 +2698,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "HZ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2716,7 +2713,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "If" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 10
@@ -2725,33 +2722,33 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ig" = (
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Io" = (
 /obj/structure/table/wood/fancy,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "IB" = (
 /obj/structure/bookcase,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "IC" = (
 /turf/closed/wall/rust,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "IH" = (
 /obj/structure/lattice,
 /obj/structure/grille,
-/turf/open/space,
-/area/ruin/unpowered/no_grav)
+/turf/template_noop,
+/area/space/nearstation)
 "IM" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "IR" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -2767,18 +2764,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "IZ" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "Jb" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Jg" = (
-/turf/open/space,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "Jl" = (
 /obj/structure/sign/plaques/deempisi{
 	pixel_y = 28
@@ -2788,17 +2785,17 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Jo" = (
 /obj/structure/bookcase/random/religion,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Jz" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/carrot,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "JD" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/door/firedoor/border_only{
@@ -2809,7 +2806,7 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "JG" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -2825,12 +2822,12 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "JM" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/photo_album,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "JQ" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -2839,24 +2836,24 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "JR" = (
 /obj/structure/destructible/cult/tome,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "JV" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "JW" = (
 /turf/closed/wall/mineral/iron,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "Kp" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/sugarcane,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Kq" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Chapel Office";
@@ -2881,7 +2878,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "KJ" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -2891,33 +2888,33 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "KS" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/machinery/libraryscanner,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "KU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "KX" = (
 /obj/structure/table/wood,
 /obj/item/stack/packageWrap,
 /obj/item/coin/gold,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Lc" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/grown/poppy,
 /obj/item/reagent_containers/food/snacks/grown/harebell,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Lg" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -2929,31 +2926,31 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Li" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/wheat,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Lk" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "Lq" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "LK" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "LP" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -2968,7 +2965,7 @@
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "LQ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -2977,7 +2974,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "LV" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -2989,12 +2986,12 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "LZ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Mc" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -3002,7 +2999,7 @@
 /turf/open/floor/plasteel/chapel{
 	dir = 8
 	},
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Md" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -3011,43 +3008,43 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Mi" = (
 /obj/item/wrench,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "Ml" = (
 /obj/structure/lattice,
-/turf/open/space/basic,
-/area/ruin/unpowered/no_grav)
+/turf/template_noop,
+/area/space/nearstation)
 "Mn" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-08"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Mo" = (
 /obj/item/flashlight/lantern,
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Mw" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "MB" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "ML" = (
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "MM" = (
 /obj/structure/bookcase{
 	name = "Forbidden Knowledge"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "MQ" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -3060,7 +3057,7 @@
 	id = "chapelgun"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "MR" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3068,24 +3065,21 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "MS" = (
 /obj/item/flashlight/lantern{
 	icon_state = "lantern-on"
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "MX" = (
 /obj/item/chair/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "MY" = (
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library/lounge)
-"MZ" = (
-/turf/closed/wall/mineral/iron,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery_lounge)
 "Nc" = (
 /obj/machinery/door/airlock{
 	id_tag = "Cell1";
@@ -3105,13 +3099,13 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ns" = (
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Nv" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -3136,17 +3130,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Nw" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Nx" = (
 /obj/item/seeds/banana,
 /obj/item/seeds/grass,
 /obj/item/seeds/grape,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Nz" = (
 /obj/machinery/power/smes/fullycharged{
 	output_attempt = 0
@@ -3156,33 +3150,33 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "NE" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
 /turf/closed/mineral,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "NI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "NK" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "NP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Og" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Om" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -3191,7 +3185,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "On" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3213,7 +3207,7 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Oz" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -3223,10 +3217,10 @@
 	id = "chapelgun"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "OB" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "OI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -3236,12 +3230,12 @@
 	},
 /obj/item/chair/wood,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "OM" = (
 /obj/item/flashlight/lantern,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "OQ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3257,10 +3251,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "OS" = (
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "OU" = (
 /obj/machinery/door/airlock/external{
 	name = "Pod Docking Bay"
@@ -3269,7 +3263,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "OW" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/item/stack/sheet/glass/fifty{
@@ -3280,27 +3274,27 @@
 	layer = 3.1
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "OX" = (
 /obj/effect/spawner/xmastree,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Ph" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Pu" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Pz" = (
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "PC" = (
 /obj/structure/table/wood/fancy,
 /obj/item/flashlight/lantern{
@@ -3308,16 +3302,16 @@
 	pixel_y = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "PE" = (
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "PH" = (
 /obj/structure/chair/wood/normal{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "PO" = (
 /obj/structure/filingcabinet,
 /obj/effect/turf_decal/tile/neutral{
@@ -3331,7 +3325,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Qc" = (
 /obj/structure/closet,
 /obj/item/storage/backpack/cultpack,
@@ -3349,29 +3343,29 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Qx" = (
 /obj/structure/table,
 /obj/item/crowbar,
 /obj/item/clothing/mask/gas,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "QE" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "QK" = (
 /obj/structure/lattice/catwalk,
-/turf/open/space,
-/area/ruin/unpowered/no_grav)
+/turf/template_noop,
+/area/space/nearstation)
 "QQ" = (
 /turf/closed/wall,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "QU" = (
 /obj/structure/bookcase/random/adult,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "QV" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel";
@@ -3383,7 +3377,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "QY" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -3402,7 +3396,7 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Rg" = (
 /obj/machinery/door/window/northright{
 	base_state = "right";
@@ -3418,13 +3412,13 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Rh" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Rj" = (
 /obj/structure/closet{
 	name = "beekeeping wardrobe"
@@ -3439,13 +3433,13 @@
 /obj/item/melee/flyswatter,
 /obj/item/melee/flyswatter,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Rk" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Rl" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3458,16 +3452,16 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ro" = (
 /obj/structure/chair/wood/normal,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Rr" = (
 /obj/structure/table/wood,
 /obj/item/storage/photo_album,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "RF" = (
 /obj/structure/table/wood,
 /obj/item/camera,
@@ -3483,10 +3477,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "RG" = (
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "RJ" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3498,11 +3492,11 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "RO" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "RQ" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -3514,7 +3508,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "RW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -3522,7 +3516,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Sd" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3544,24 +3538,24 @@
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Sf" = (
 /obj/structure/chair/wood/normal,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Sj" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Sk" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Sn" = (
 /obj/item/folder/yellow,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Sx" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3583,7 +3577,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "SF" = (
 /obj/machinery/light/small{
 	dir = 2
@@ -3592,7 +3586,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "SJ" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/condiment/saltshaker{
@@ -3605,48 +3599,48 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "SL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "SO" = (
 /obj/structure/bookcase,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "SP" = (
 /obj/structure/table/wood,
 /obj/item/instrument/saxophone,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "SU" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery)
 "SV" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Tb" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Td" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Th" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -3667,7 +3661,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Tm" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3684,11 +3678,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "To" = (
 /obj/machinery/bookbinder,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "TD" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3698,7 +3692,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "TE" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Access";
@@ -3717,13 +3711,13 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "TM" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "TN" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3735,14 +3729,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Uc" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Ud" = (
 /obj/effect/turf_decal/tile/yellow,
 /obj/item/reagent_containers/food/drinks/bottle/holywater{
@@ -3751,27 +3745,27 @@
 	pixel_y = 2
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Ug" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Uh" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
 	req_access = null
 	},
 /obj/machinery/light/small/broken,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Uk" = (
 /obj/structure/window/reinforced{
 	dir = 4;
 	layer = 2.9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Un" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3784,18 +3778,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Ut" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/structure/chair/wood/normal,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Uw" = (
 /obj/item/shovel/spade,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ux" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3810,13 +3804,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "UQ" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "UX" = (
 /obj/machinery/door/window/northright{
 	base_state = "left";
@@ -3832,20 +3826,20 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "UY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Vc" = (
 /obj/item/instrument/violin,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery)
 "Vf" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -3854,18 +3848,14 @@
 	target_layer = 2
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
-"Vg" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery_maint)
 "Vl" = (
 /obj/machinery/photocopier,
 /obj/machinery/light/small/broken{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Vp" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3879,18 +3869,18 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "Vw" = (
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "Vx" = (
 /obj/structure/sink{
 	dir = 4;
 	pixel_x = 11
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "VU" = (
 /obj/machinery/door/airlock/external{
 	name = "Dock Access"
@@ -3908,10 +3898,10 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "VV" = (
 /turf/closed/wall/mineral/iron,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "VX" = (
 /obj/structure/chair/wood/wings{
 	dir = 1
@@ -3920,7 +3910,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Wc" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3930,14 +3920,14 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "We" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Wg" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -3952,7 +3942,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Wl" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -3966,7 +3956,7 @@
 	icon_state = "0-8"
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "Wo" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3988,14 +3978,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "Wv" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/wine{
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Ww" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -4005,7 +3995,7 @@
 	},
 /obj/item/pen,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Wz" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4027,35 +4017,35 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "WD" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/vacuum/external,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "WE" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "WF" = (
 /obj/machinery/airalarm/all_access{
 	dir = 8;
 	pixel_x = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "WL" = (
 /turf/open/floor/plating/asteroid,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "WO" = (
 /obj/machinery/vending/wardrobe/curator_wardrobe,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "WQ" = (
 /turf/closed/mineral,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "WU" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4063,7 +4053,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "WW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4075,17 +4065,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Xh" = (
 /turf/open/floor/carpet/black,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Xj" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
 /obj/item/chair/wood,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Xm" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4093,14 +4083,14 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Xq" = (
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery)
 "Xt" = (
 /obj/effect/spawner/structure/window/reinforced/shutter,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "Xv" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small{
@@ -4108,15 +4098,15 @@
 	},
 /obj/item/storage/crayons,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/monastery)
 "Xx" = (
 /obj/machinery/vending/wardrobe/chap_wardrobe,
 /turf/open/floor/carpet,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "XF" = (
 /obj/item/cultivator,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "XG" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Library"
@@ -4134,16 +4124,16 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "XK" = (
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/space/generic)
 "XL" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "XT" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4157,7 +4147,7 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "XU" = (
 /obj/structure/chair/wood/normal{
 	dir = 1
@@ -4167,19 +4157,19 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Yf" = (
 /obj/machinery/chem_master/condimaster,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Yn" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "YW" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -4201,26 +4191,26 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "YX" = (
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/plasteel,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "YY" = (
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "YZ" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
-/turf/open/space,
-/area/ruin/unpowered/no_grav)
+/turf/template_noop,
+/area/space/nearstation)
 "Zf" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "Zg" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -4234,7 +4224,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Zn" = (
 /obj/structure/table/wood,
 /obj/item/kirbyplants{
@@ -4252,14 +4242,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/library)
+/area/ruins/space/monastery_library)
 "Zr" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
 	dir = 1;
 	piping_layer = 2
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "Zs" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -4281,17 +4271,17 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/airless,
-/area/ruin/space/has_grav/monastery/library/lounge)
+/area/ruins/space/monastery_lounge)
 "ZH" = (
 /turf/closed/wall/r_wall/rust,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 "ZI" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
 	},
 /obj/item/stack/rods/fifty,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/monastery/maint)
+/area/ruins/space/monastery_maint)
 "ZL" = (
 /obj/machinery/power/apc{
 	dir = 4;
@@ -4302,7 +4292,7 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery/office)
+/area/ruins/space/monastery_office)
 "ZU" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -4317,395 +4307,395 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/monastery)
+/area/ruins/space/monastery)
 "ZW" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/monastery/dock)
+/area/ruins/space/monastery_dock)
 
 (1,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (2,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (3,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (4,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (5,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -4714,87 +4704,87 @@ qa
 Xt
 qa
 qa
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 cS
 Ag
 cS
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (6,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
-gZ
+Jg
 WQ
 WQ
 qa
@@ -4804,10 +4794,10 @@ PO
 qP
 qa
 qa
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -4819,71 +4809,71 @@ OS
 cS
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (7,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
-gZ
+Jg
 Ml
 Ml
 Xt
@@ -4893,8 +4883,8 @@ cK
 Xh
 Xh
 Xt
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -4908,69 +4898,69 @@ fT
 cS
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (8,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 GG
-gZ
+Jg
 WQ
 Ml
 WQ
@@ -4998,69 +4988,69 @@ cS
 iK
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (9,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 ML
 qa
 qa
@@ -5072,7 +5062,7 @@ Xh
 Xh
 cH
 qa
-qa
+iK
 WQ
 WQ
 WQ
@@ -5087,65 +5077,65 @@ oV
 iK
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (10,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 Ml
@@ -5176,66 +5166,66 @@ Gk
 wZ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (11,1,1) = {"
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 Ml
 ML
@@ -5265,66 +5255,66 @@ iK
 iK
 iK
 wZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (12,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 GG
-gZ
-gZ
+Jg
+Jg
 Ml
 ML
 ML
@@ -5356,63 +5346,63 @@ Lc
 iK
 cS
 cS
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (13,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-WQ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+tu
 tu
 ML
 ML
@@ -5445,63 +5435,63 @@ ym
 pW
 np
 cS
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (14,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 tu
 tu
 qa
@@ -5535,61 +5525,61 @@ KU
 Fy
 cS
 cS
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (15,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 Vw
 tu
 Hd
@@ -5605,7 +5595,7 @@ je
 mV
 hb
 qa
-tu
+WQ
 iK
 sE
 xT
@@ -5624,61 +5614,61 @@ RG
 Oz
 hN
 zl
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (16,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 Vw
 tu
 tu
@@ -5694,7 +5684,7 @@ sU
 qa
 qa
 qa
-tu
+WQ
 iK
 iK
 iK
@@ -5713,61 +5703,61 @@ RG
 MQ
 Uk
 zl
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (17,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 Vw
 Hd
 WL
@@ -5781,9 +5771,9 @@ ek
 Dt
 yR
 Dt
-tu
-tu
-tu
+WQ
+WQ
+WQ
 wZ
 RG
 zD
@@ -5802,61 +5792,61 @@ wO
 RG
 cS
 cS
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (18,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 IH
 IH
 IH
 IH
-gZ
+Jg
 Vw
 ET
 WL
@@ -5870,9 +5860,9 @@ WL
 Dt
 yR
 Dt
-tu
-tu
-tu
+WQ
+WQ
+WQ
 iK
 Ro
 im
@@ -5891,60 +5881,60 @@ lU
 OM
 Sk
 dA
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (19,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 IH
-gZ
-gZ
-HO
+Jg
+Jg
+Ml
 Vw
 Vw
 WL
@@ -5959,9 +5949,9 @@ WL
 Dt
 tp
 Dt
-tu
-tu
-tu
+WQ
+WQ
+WQ
 iK
 Ro
 Cb
@@ -5979,60 +5969,60 @@ tj
 iK
 cS
 cS
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (20,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-HO
 Jg
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Ml
+Jg
+Jg
 Vw
 Vw
 Dh
@@ -6048,9 +6038,9 @@ ET
 Dt
 yR
 Dt
-tu
-tu
-tu
+WQ
+WQ
+WQ
 wZ
 RG
 PH
@@ -6066,25 +6056,25 @@ iK
 iK
 wZ
 iK
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
 WQ
 eY
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -6092,34 +6082,34 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (21,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 IH
-HO
-IH
-IH
+Ml
 IH
 IH
-gZ
-HO
+IH
+IH
+Jg
+Ml
 Vw
 Vw
 Vw
@@ -6155,14 +6145,14 @@ zM
 Nz
 jS
 hu
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -6171,9 +6161,9 @@ WQ
 WQ
 WQ
 Ml
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 eY
 WQ
@@ -6183,30 +6173,30 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (22,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-IH
-gZ
-gZ
-HO
 Jg
-HO
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+IH
+Jg
+Jg
+Ml
+Jg
+Ml
 Jg
 Vw
 Vw
@@ -6246,53 +6236,53 @@ bn
 OB
 OB
 OB
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
-gZ
+Jg
 WQ
 WQ
 WQ
 eY
 WQ
 eY
-gZ
+Jg
 Ml
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 Ml
-gZ
+Jg
 WQ
 WQ
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (23,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 bu
-HO
-HO
+Ml
+Ml
 Vw
 Vw
 Vw
@@ -6336,46 +6326,46 @@ DG
 id
 OB
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
-gZ
+Jg
 WQ
 WQ
 WQ
 Ml
-gZ
+Jg
 Ml
-gZ
-Ml
-Ml
+Jg
 Ml
 Ml
 Ml
 Ml
-gZ
+Ml
+Ml
+Jg
 WQ
 WQ
 eY
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (24,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 Cl
 IH
 IH
@@ -6427,49 +6417,49 @@ hu
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 Ml
-gZ
+Jg
 Ml
-gZ
+Jg
 Ml
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 Ml
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 Ml
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (25,1,1) = {"
-gZ
-gZ
-gZ
-gZ
 Jg
 Jg
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 Ml
-gZ
-gZ
+Jg
+Jg
 Vw
 WL
 WL
@@ -6517,11 +6507,11 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
+Jg
+Jg
 GG
-gZ
-gZ
+Jg
+Jg
 CE
 xG
 ow
@@ -6536,23 +6526,23 @@ xG
 Ml
 Ml
 Ml
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (26,1,1) = {"
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 on
 on
 CK
@@ -6622,25 +6612,25 @@ GV
 GD
 yj
 xG
-gZ
-gZ
+Jg
+Jg
 Ml
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (27,1,1) = {"
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 Jg
 ug
 rd
@@ -6696,9 +6686,9 @@ QQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 ow
 BK
 GD
@@ -6714,23 +6704,23 @@ ow
 ow
 xG
 Ml
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (28,1,1) = {"
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 on
 on
 WD
@@ -6803,23 +6793,23 @@ UX
 HX
 xG
 ow
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (29,1,1) = {"
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 Hi
 LZ
 wk
@@ -6873,10 +6863,10 @@ VV
 VV
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 ow
 hP
 GD
@@ -6893,22 +6883,22 @@ GD
 cv
 ow
 xG
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (30,1,1) = {"
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 Jg
 on
 pq
@@ -6961,8 +6951,8 @@ XL
 KS
 VV
 VV
-gZ
-gZ
+Jg
+Jg
 Eo
 Eo
 Mw
@@ -6988,17 +6978,17 @@ Ml
 eY
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 "}
 (31,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 vU
 ZH
 vU
@@ -7071,24 +7061,24 @@ VX
 GD
 JR
 xG
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 "}
 (32,1,1) = {"
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
-WQ
+zS
 zS
 zS
 Ej
@@ -7160,24 +7150,24 @@ ru
 GD
 fs
 xG
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 "}
 (33,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-Xq
+Jg
+Jg
+Jg
+Jg
+Jg
+cW
 zS
 zS
 zS
@@ -7232,7 +7222,7 @@ Mw
 Eo
 Eo
 Eo
-gZ
+Jg
 ow
 yj
 un
@@ -7249,24 +7239,24 @@ NP
 GD
 MM
 xG
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 "}
 (34,1,1) = {"
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 Ml
-gZ
+Jg
 BA
 zS
 zS
@@ -7317,10 +7307,10 @@ UY
 IB
 VV
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
 ow
 hP
@@ -7338,32 +7328,32 @@ GD
 cv
 CE
 xG
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 "}
 (35,1,1) = {"
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
-gZ
+Jg
 ZH
 zS
 zS
 ZH
 cW
 zS
-HO
-HO
+Ml
+Ml
 Jg
 Vw
 Vw
@@ -7397,7 +7387,7 @@ RW
 NI
 Ux
 nI
-gF
+VV
 VV
 IB
 Nw
@@ -7434,26 +7424,26 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 "}
 (36,1,1) = {"
-gZ
-gZ
-gZ
-Ml
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 Ml
 Jg
-HO
+Jg
+Jg
+Ml
+Jg
+Ml
 QK
-HO
-HO
+Ml
+Ml
 IH
-HO
+Ml
 YZ
 Vw
 Vw
@@ -7486,7 +7476,7 @@ gF
 gF
 gF
 gF
-gF
+VV
 VV
 Jo
 fQ
@@ -7496,9 +7486,9 @@ QU
 VV
 WQ
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 CE
 Ww
@@ -7515,37 +7505,37 @@ CE
 ow
 xG
 Ml
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 "}
 (37,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-GG
-gZ
-gZ
-Ml
-gZ
-gZ
-Vg
-gZ
-Ml
-IH
-IH
-HO
 Jg
-HO
+Jg
+Jg
+Jg
+GG
+Jg
+Jg
+Ml
+Jg
+Jg
+QK
+Jg
+Ml
+IH
+IH
+Ml
+Jg
+Ml
 Vw
 Vw
 Mo
@@ -7568,11 +7558,11 @@ gF
 Xq
 BN
 bt
-MZ
+gF
 Xq
 BN
 Xv
-MZ
+gF
 WQ
 WQ
 WQ
@@ -7601,41 +7591,41 @@ Ck
 GD
 yj
 xG
-gZ
-gZ
+Jg
+Jg
 Ml
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 "}
 (38,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
-HO
-HO
-HO
-HO
+Ml
+Ml
+Ml
+Ml
 Vw
 Vw
 Vw
@@ -7657,7 +7647,7 @@ gF
 Xq
 Vc
 Xq
-MZ
+gF
 Xq
 SU
 Xq
@@ -7674,10 +7664,10 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 Ml
 CE
 xG
@@ -7699,33 +7689,33 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (39,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
 Ml
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
 WQ
 WQ
-gZ
-gZ
-HO
-gZ
-gZ
+Jg
+Jg
+Ml
+Jg
+Jg
 Jg
 Vw
 Vw
@@ -7746,15 +7736,13 @@ gF
 Xq
 Xq
 Xq
-MZ
+gF
 Xq
 Xq
 Xq
-gZ
+Jg
 WQ
-gZ
-WQ
-WQ
+Jg
 WQ
 WQ
 WQ
@@ -7764,61 +7752,63 @@ WQ
 WQ
 WQ
 WQ
-gZ
+WQ
+WQ
+Jg
 WQ
 WQ
 Ml
-gZ
-gZ
+Jg
+Jg
 Ml
-gZ
-gZ
+Jg
+Jg
 Ml
-gZ
+Jg
 Ml
-gZ
+Jg
 Ml
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
-gZ
+Jg
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (40,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
-gZ
-gZ
+Jg
+Jg
 GG
-gZ
+Jg
 WQ
 Ml
-gZ
-gZ
-gZ
-gZ
-gZ
-HO
-HO
-HO
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Ml
+Ml
+Ml
+Jg
 Vw
 mu
 Vw
@@ -7835,13 +7825,13 @@ gF
 WQ
 Xq
 Xq
-MZ
+gF
 Xq
-gZ
+Jg
 Xq
 Ml
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -7853,62 +7843,62 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
+Jg
+Jg
 WQ
 Ml
 Ml
 Ml
 Ml
-gZ
-gZ
+Jg
+Jg
 Ml
 Ml
 Ml
-gZ
+Jg
 Ml
-gZ
+Jg
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (41,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-HO
-gZ
-HO
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Ml
+Jg
+Ml
 QK
 Vw
 WL
@@ -7923,16 +7913,16 @@ Cu
 gF
 WQ
 WQ
-gZ
-gZ
+Jg
+Jg
 Ml
-gZ
-gZ
+Jg
+Jg
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -7943,60 +7933,60 @@ WQ
 WQ
 WQ
 GG
-gZ
-gZ
+Jg
+Jg
 Ml
-gZ
-gZ
+Jg
+Jg
 Ml
 WQ
 WQ
 eY
 WQ
 Ml
-gZ
+Jg
 Ml
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (42,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 Ml
 QK
 Vw
@@ -8013,29 +8003,29 @@ gF
 WQ
 WQ
 Ml
-gZ
+Jg
 Ml
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
+Jg
+Jg
 WQ
-gZ
+Jg
 Ml
-gZ
+Jg
 WQ
 eY
 WQ
@@ -8049,80 +8039,80 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (43,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 QK
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 Ml
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
 NE
 WQ
 WQ
@@ -8138,79 +8128,79 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (44,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -8227,79 +8217,79 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (45,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -8307,8 +8297,8 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
+Jg
+Jg
 WQ
 WQ
 WQ
@@ -8316,371 +8306,371 @@ WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (46,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 WQ
 WQ
 WQ
 WQ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (47,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (48,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}
 (49,1,1) = {"
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
-gZ
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
+Jg
 "}

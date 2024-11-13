@@ -5,14 +5,14 @@
 "b" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/template_noop)
+/area/space/nearstation)
 "c" = (
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "d" = (
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "e" = (
 /obj/item/reagent_containers/food/snacks/grown/banana,
 /obj/item/reagent_containers/food/snacks/grown/banana,
@@ -22,13 +22,13 @@
 /obj/structure/fans/tiny/invisible,
 /obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "f" = (
 /obj/structure/chair/sofa/left{
 	dir = 4
 	},
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "g" = (
 /obj/item/flashlight/lamp/bananalamp{
 	light_range = 10
@@ -36,22 +36,22 @@
 /obj/structure/table/wood,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "h" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/security/wooden_tv,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "i" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "j" = (
 /obj/structure/sink/puddle,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "k" = (
 /obj/structure/chair/sofa{
 	dir = 4
@@ -63,16 +63,16 @@
 	name = "Familiar Gorilla"
 	},
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "l" = (
 /obj/effect/overlay/palmtree_r,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 "m" = (
 /obj/item/grown/bananapeel,
 /turf/open/floor/plating/beach/sand,
-/area/ruin/powered)
+/area/ruins/space/powered/generic)
 
 (1,1,1) = {"
 a

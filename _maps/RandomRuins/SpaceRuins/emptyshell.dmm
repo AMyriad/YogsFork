@@ -8,51 +8,51 @@
 /area/template_noop)
 "c" = (
 /turf/closed/wall/r_wall,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "d" = (
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "e" = (
 /obj/effect/spawner/lootdrop/crate_spawner,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "f" = (
 /obj/item/ammo_box/magazine/sniper_rounds,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "g" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "h" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "i" = (
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "j" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "k" = (
 /obj/effect/spawner/lootdrop/maintenance{
 	lootcount = 2;
 	name = "2maintenance loot spawner"
 	},
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "l" = (
 /obj/item/stack/cable_coil,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "m" = (
 /obj/effect/spawner/lootdrop/maintenance{
 	lootcount = 4;
 	name = "4maintenance loot spawner"
 	},
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "Q" = (
 /obj/structure/lattice,
 /turf/template_noop,

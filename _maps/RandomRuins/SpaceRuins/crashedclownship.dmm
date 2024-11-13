@@ -4,27 +4,27 @@
 /area/template_noop)
 "b" = (
 /turf/closed/mineral/random,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "c" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "d" = (
 /turf/closed/wall/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "e" = (
 /obj/machinery/door/airlock/bananium,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "f" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "g" = (
 /obj/effect/mob_spawn/human/clown,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "h" = (
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "i" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bananium,
@@ -33,14 +33,14 @@
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "j" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
 	},
 /obj/item/stack/ore/bananium,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "k" = (
 /obj/structure/closet/secure_closet{
 	name = "clown locker";
@@ -49,7 +49,7 @@
 /obj/item/clothing/shoes/clown_shoes/banana_shoes,
 /obj/effect/spawner/lootdrop/maintenance/two,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "l" = (
 /obj/structure/shuttle/engine/heater{
 	color = "#FFFF00";
@@ -62,27 +62,29 @@
 /turf/open/floor/plating/airless{
 	color = "#FFFF00"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "m" = (
 /obj/structure/shuttle/engine/propulsion/left{
 	color = "#FFFF00";
 	dir = 4
 	},
-/turf/template_noop,
-/area/ruin/unpowered)
+/turf/open/floor/plating/airless{
+	color = "#FFFF00"
+	},
+/area/ruins/space/unpowered/generic)
 "n" = (
 /turf/closed/mineral/random,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "o" = (
 /obj/item/shard{
 	icon_state = "small"
 	},
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "p" = (
 /obj/item/stack/ore/bananium,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "q" = (
 /obj/item/shard{
 	icon_state = "medium"
@@ -91,17 +93,17 @@
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "r" = (
 /obj/effect/mob_spawn/human/clown{
 	name = "Clown Pilot"
 	},
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "s" = (
 /obj/item/paper/fluff/ruins/crashedclownship/true_nation,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "t" = (
 /obj/structure/grille{
 	color = "#FFFF00"
@@ -120,28 +122,28 @@
 /turf/open/floor/plating/airless{
 	color = "#FFFF00"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "u" = (
 /obj/item/shard,
 /obj/structure/chair{
 	dir = 8
 	},
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "v" = (
 /obj/item/shard{
 	icon_state = "medium"
 	},
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "w" = (
 /obj/item/storage/bag/ore,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "x" = (
 /obj/item/pickaxe,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "y" = (
 /obj/structure/closet/crate,
 /obj/item/stack/ore/bananium,
@@ -149,11 +151,11 @@
 /obj/item/stack/ore/bananium,
 /obj/item/stack/ore/bananium,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "z" = (
 /obj/item/shovel,
 /turf/open/floor/mineral/bananium/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 
 (1,1,1) = {"
 a

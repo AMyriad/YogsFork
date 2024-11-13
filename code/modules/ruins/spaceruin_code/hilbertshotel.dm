@@ -24,7 +24,7 @@ GLOBAL_VAR_INIT(hhmysteryRoomNumber, 1337)
 	hotelRoomTempEmpty = new()
 	hotelRoomTempLore = new()
 	var/area/currentArea = get_area(src)
-	if(currentArea.type == /area/ruin/space/has_grav/hilbertresearchfacility)
+	if(currentArea.type == /area/ruins/space/hilbert_research)
 		ruinSpawned = TRUE
 
 /obj/item/hilbertshotel/Destroy()
@@ -335,10 +335,6 @@ GLOBAL_VAR_INIT(hhmysteryRoomNumber, 1337)
 	if(ismob(AM))
 		var/mob/M = AM
 		M.notransform = FALSE
-
-//Space Ruin stuff
-/area/ruin/space/has_grav/hilbertresearchfacility
-	name = "Hilbert Research Facility"
 
 /obj/item/analyzer/hilbertsanalyzer
 	name = "custom rigged analyzer"

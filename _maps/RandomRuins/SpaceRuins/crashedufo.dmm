@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "c" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "d" = (
 /obj/item/stack/sheet/mineral/abductor,
 /turf/template_noop,
@@ -12,53 +12,53 @@
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "g" = (
 /obj/structure/table/abductor,
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "j" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "k" = (
 /turf/closed/wall/mineral/abductor,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "o" = (
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "p" = (
 /obj/item/circuitboard/machine/chem_dispenser/abductor,
 /turf/closed/mineral,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "s" = (
 /obj/structure/table_frame/abductor,
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "t" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "v" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/asteroid/airless,
-/area/template_noop)
+/area/ruins/space/unpowered/generic)
 "x" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "B" = (
 /obj/effect/decal/cleanable/blood/gibs{
 	pixel_x = -4;
@@ -71,10 +71,10 @@
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "C" = (
 /turf/closed/mineral,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "D" = (
 /turf/template_noop,
 /area/template_noop)
@@ -86,7 +86,7 @@
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "K" = (
 /obj/item/stack/rods,
 /turf/template_noop,
@@ -96,7 +96,7 @@
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "P" = (
 /obj/structure/closet/abductor,
 /obj/item/screwdriver/abductor,
@@ -106,23 +106,20 @@
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "R" = (
 /obj/machinery/abductor/gland_dispenser,
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
-"T" = (
-/turf/open/floor/plating/asteroid/airless,
-/area/template_noop)
+/area/ruins/space/unpowered/generic)
 "U" = (
 /obj/structure/table/abductor,
 /obj/item/paper/guides/antag/abductor,
 /turf/open/floor/plating/abductor{
 	initial_gas_mix = "TEMP=2.7"
 	},
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 
 (1,1,1) = {"
 D
@@ -149,7 +146,7 @@ D
 D
 D
 D
-T
+c
 C
 D
 D
@@ -172,8 +169,8 @@ C
 C
 C
 C
-T
-T
+c
+c
 D
 d
 D
@@ -234,7 +231,7 @@ R
 k
 v
 D
-T
+c
 D
 D
 "}
@@ -281,7 +278,7 @@ d
 D
 D
 D
-T
+c
 k
 k
 P
@@ -300,8 +297,8 @@ D
 K
 D
 D
-T
-T
+c
+c
 k
 k
 k
@@ -319,9 +316,9 @@ D
 D
 D
 C
-T
-T
-T
+c
+c
+c
 C
 C
 C
@@ -340,8 +337,8 @@ C
 C
 D
 D
-T
-T
+c
+c
 D
 D
 D

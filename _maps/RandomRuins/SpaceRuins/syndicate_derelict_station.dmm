@@ -11,7 +11,8 @@
 	dir = 1
 	},
 /obj/item/stack/rods,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "ar" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -52,10 +53,12 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "aP" = (
 /obj/structure/frame/machine,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "aS" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 6
@@ -74,7 +77,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "bp" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 10
@@ -83,7 +87,8 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "bt" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -115,7 +120,8 @@
 /obj/structure/disposalpipe/broken{
 	dir = 8
 	},
-/turf/open/floor/plating/broken/two)
+/turf/open/floor/plating/broken/two,
+/area/ruins/space/syndicate_derelict_hallway)
 "cd" = (
 /obj/effect/spawner/structure/window/plastitanium,
 /turf/open/floor/plating/airless,
@@ -132,7 +138,8 @@
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_medbay)
 "cA" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 8
@@ -164,7 +171,8 @@
 	},
 /obj/effect/decal/cleanable/blood/drip,
 /mob/living/simple_animal/hostile/pirate/melee/space,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "cM" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood/footprints{
@@ -186,7 +194,8 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/airless/broken/two)
+/turf/open/floor/plasteel/airless/broken/two,
+/area/ruins/space/syndicate_derelict_medbay)
 "di" = (
 /obj/machinery/light/broken{
 	dir = 8
@@ -214,7 +223,8 @@
 /obj/machinery/light/broken{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "dX" = (
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/airless,
@@ -228,13 +238,14 @@
 /obj/item/gun/ballistic/automatic/c20r/ultrasecure,
 /obj/item/ammo_box/magazine/smgm45,
 /obj/item/melee/transforming/energy/sword,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "eE" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "eO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -257,7 +268,8 @@
 /area/ruins/space/syndicate_derelict_hydroponics)
 "fg" = (
 /obj/structure/grille/broken,
-/turf/open/floor/plating/airless)
+/turf/open/floor/plating/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "fu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -266,7 +278,8 @@
 	dir = 1
 	},
 /mob/living/simple_animal/hostile/pirate/melee/space,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "fw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -315,7 +328,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/gibs,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "gl" = (
 /obj/machinery/airalarm/syndicate{
 	dir = 8;
@@ -331,7 +345,7 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "gx" = (
 /obj/item/stack/sheet/mineral/plastitanium,
@@ -341,7 +355,7 @@
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "gP" = (
 /obj/machinery/hydroponics/constructable,
@@ -356,7 +370,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "hp" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -404,13 +418,16 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "ic" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal)
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruins/space/syndicate_derelict_virology)
 "ip" = (
 /obj/item/stack/rods,
 /obj/structure/lattice,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
 "iK" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -419,7 +436,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "iQ" = (
 /obj/machinery/disposal/bin,
@@ -434,11 +451,12 @@
 "jv" = (
 /obj/structure/lattice,
 /obj/item/stack/rods,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "jH" = (
 /obj/machinery/chem_master,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "jK" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -467,7 +485,8 @@
 /obj/structure/disposalpipe/junction{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/broken)
+/turf/open/floor/plasteel/airless/broken,
+/area/ruins/space/syndicate_derelict_hallway)
 "jW" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -519,7 +538,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "kA" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -546,7 +566,8 @@
 	start_charge = 0
 	},
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "kJ" = (
 /obj/item/shard,
 /turf/open/floor/plasteel/airless,
@@ -583,7 +604,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "lk" = (
 /obj/machinery/atmospherics/components/binary/pump/on/layer4{
 	name = "Scrubbers"
@@ -613,7 +635,8 @@
 /obj/item/storage/firstaid,
 /obj/item/storage/firstaid/brute,
 /obj/item/storage/firstaid/fire,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "lF" = (
 /turf/open/floor/plating/broken,
 /area/ruins/space/syndicate_derelict_hydroponics)
@@ -639,18 +662,19 @@
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "lY" = (
 /obj/structure/lattice,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "mo" = (
 /obj/structure/lattice,
 /obj/structure/disposalpipe/broken{
 	dir = 4
 	},
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
 "mv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -661,7 +685,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "my" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
@@ -733,7 +758,8 @@
 /turf/open/floor/plating/airless,
 /area/ruins/space/syndicate_derelict_kitchen)
 "nS" = (
-/turf/open/floor/plating/broken)
+/turf/open/floor/plating/broken,
+/area/ruins/space/syndicate_derelict_hallway)
 "nW" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -763,7 +789,8 @@
 	},
 /obj/effect/decal/cleanable/blood/drip,
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "oh" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ruins/space/syndicate_derelict_hydroponics)
@@ -776,7 +803,7 @@
 /area/ruins/space/syndicate_derelict_engineering)
 "oE" = (
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "oG" = (
 /obj/structure/window/plasma/reinforced{
@@ -795,13 +822,14 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "oP" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "oX" = (
 /obj/structure/window/plasma/reinforced{
@@ -833,7 +861,8 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /obj/item/stack/rods,
-/turf/open/floor/plasteel/airless/broken/two)
+/turf/open/floor/plasteel/airless/broken/two,
+/area/ruins/space/syndicate_derelict_medbay)
 "pu" = (
 /obj/machinery/computer/rdconsole/nolock/ruin{
 	dir = 4
@@ -847,27 +876,31 @@
 	pixel_x = 2;
 	pixel_y = 2
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "pR" = (
 /obj/structure/table_frame,
 /obj/item/shard,
 /obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "pS" = (
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel/airless,
 /area/ruins/space/syndicate_derelict_engineering)
 "ql" = (
-/turf/open/floor/plating/broken/three)
+/turf/open/floor/plating/broken/three,
+/area/ruins/space/syndicate_derelict_hallway)
 "qu" = (
 /turf/template_noop,
 /area/template_noop)
 "qA" = (
 /obj/structure/lattice,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_medbay)
 "qD" = (
 /obj/item/stack/rods,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "qH" = (
 /obj/machinery/atmospherics/miner/nitrogen,
@@ -917,12 +950,13 @@
 "rZ" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "sm" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "sr" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -959,7 +993,8 @@
 	dir = 4
 	},
 /obj/machinery/disposal/bin,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "sH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -975,7 +1010,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "sL" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 27
@@ -983,7 +1019,8 @@
 /obj/machinery/light/broken{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/broken/three)
+/turf/open/floor/plasteel/airless/broken/three,
+/area/ruins/space/syndicate_derelict_medbay)
 "sQ" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/mineral/plastitanium,
@@ -993,11 +1030,12 @@
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "tf" = (
 /obj/item/stack/cable_coil/cut/red,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_medbay)
 "tl" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1013,7 +1051,7 @@
 	},
 /obj/structure/disposaloutlet,
 /turf/open/floor/plating/airless,
-/area/template_noop)
+/area/space/nearstation)
 "tP" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/mineral/plastitanium,
@@ -1021,12 +1059,12 @@
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "ub" = (
 /obj/structure/lattice,
 /turf/template_noop,
-/area/template_noop)
+/area/space/nearstation)
 "ui" = (
 /obj/structure/window/plasma/reinforced{
 	dir = 1
@@ -1047,7 +1085,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "uG" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
@@ -1055,7 +1094,7 @@
 /area/ruins/space/syndicate_derelict_research)
 "uQ" = (
 /obj/structure/lattice,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_hydroponics)
 "uS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1063,7 +1102,8 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "ve" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
@@ -1107,11 +1147,12 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/burnt)
+/turf/open/floor/plasteel/airless/burnt,
+/area/ruins/space/syndicate_derelict_hallway)
 "vO" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/metal,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "vU" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -1129,7 +1170,8 @@
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_medbay)
 "wv" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 4
@@ -1150,13 +1192,14 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "wB" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "wG" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1168,7 +1211,8 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plasteel/airless/burnt)
+/turf/open/floor/plasteel/airless/burnt,
+/area/ruins/space/syndicate_derelict_medbay)
 "wH" = (
 /obj/item/stack/rods,
 /turf/open/floor/plasteel/airless,
@@ -1183,7 +1227,8 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "wY" = (
 /obj/machinery/light/broken{
 	dir = 8
@@ -1211,18 +1256,18 @@
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "xw" = (
-/obj/effect/decal/cleanable/blood/footprints{
-	dir = 4
-	},
+/obj/structure/lattice,
 /turf/template_noop,
-/area/template_noop)
+/area/ruins/space/syndicate_derelict_hallway)
 "xK" = (
 /obj/structure/disposalpipe/broken{
 	dir = 4
 	},
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
 "xQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
@@ -1232,13 +1277,15 @@
 	},
 /obj/structure/bed,
 /obj/item/bedsheet/medical/virology,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "xR" = (
 /obj/machinery/computer/operating{
 	dir = 1
 	},
 /obj/machinery/light,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "xW" = (
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
@@ -1250,21 +1297,22 @@
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "ya" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "yB" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "yC" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -1288,7 +1336,8 @@
 	},
 /obj/item/clothing/glasses/science,
 /obj/item/clothing/gloves/color/latex,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "yY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
@@ -1296,7 +1345,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "zd" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/plastitanium,
@@ -1312,7 +1362,8 @@
 /area/ruins/space/syndicate_derelict_engineering)
 "zs" = (
 /obj/machinery/computer/pandemic,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "zu" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/mineral/plastitanium,
@@ -1321,7 +1372,7 @@
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "zJ" = (
 /obj/machinery/disposal/bin,
@@ -1331,16 +1382,17 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "zM" = (
 /obj/item/stack/rods,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "Ak" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
-/turf/open/space/basic,
-/area/template_noop)
+/turf/template_noop,
+/area/space/nearstation)
 "Aq" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ruins/space/syndicate_derelict_kitchen)
@@ -1348,12 +1400,12 @@
 /obj/structure/lattice,
 /obj/item/stack/rods,
 /obj/item/stack/cable_coil/cut/red,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_hydroponics)
 "AD" = (
 /obj/structure/lattice,
 /obj/item/stack/rods,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "AE" = (
 /obj/structure/cable/yellow{
@@ -1369,6 +1421,9 @@
 /obj/item/stack/rods,
 /turf/open/floor/plasteel/airless/burnt,
 /area/ruins/space/syndicate_derelict_hydroponics)
+"AL" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruins/space/syndicate_derelict_medbay)
 "AO" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/airless,
@@ -1382,7 +1437,7 @@
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "Bq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -1391,13 +1446,14 @@
 /turf/open/floor/plasteel/airless,
 /area/ruins/space/syndicate_derelict_hydroponics)
 "Br" = (
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "Bv" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/template_noop)
+/area/space/nearstation)
 "BG" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/mineral/plastitanium,
@@ -1406,10 +1462,10 @@
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
 /obj/item/stack/sheet/mineral/plastitanium,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "BJ" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "BS" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1423,14 +1479,19 @@
 /area/ruins/space/syndicate_derelict_engineering)
 "Ci" = (
 /obj/effect/decal/cleanable/glass,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "Cq" = (
 /mob/living/simple_animal/hostile/pirate/melee/space,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
+"Cs" = (
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "Ct" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
-/turf/open/floor/plasteel/airless/burnt)
+/turf/open/floor/plasteel/airless/burnt,
+/area/ruins/space/syndicate_derelict_medbay)
 "Cz" = (
 /obj/item/solar_assembly,
 /obj/item/solar_assembly,
@@ -1485,10 +1546,12 @@
 /obj/machinery/door/window/brigdoor{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "De" = (
 /obj/machinery/light/broken,
-/turf/open/floor/plasteel/airless/broken/three)
+/turf/open/floor/plasteel/airless/broken/three,
+/area/ruins/space/syndicate_derelict_hallway)
 "Dp" = (
 /turf/open/floor/engine/o2,
 /area/ruins/space/syndicate_derelict_engineering)
@@ -1503,7 +1566,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/space/basic)
+/turf/template_noop)
 "DO" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/donkpockets,
@@ -1520,7 +1583,8 @@
 "DP" = (
 /obj/structure/chair/office/dark,
 /obj/effect/decal/cleanable/blood/footprints,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "El" = (
 /turf/open/floor/plating/broken/three,
 /area/ruins/space/syndicate_derelict_kitchen)
@@ -1528,11 +1592,13 @@
 /obj/machinery/sleeper/syndie{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "Es" = (
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
-/turf/open/floor/plating/broken/two)
+/turf/open/floor/plating/broken/two,
+/area/ruins/space/syndicate_derelict_medbay)
 "EB" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -1544,12 +1610,14 @@
 /area/ruins/space/syndicate_derelict_engineering)
 "EC" = (
 /obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plating/airless)
+/turf/open/floor/plating/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "ED" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/broken/three)
+/turf/open/floor/plasteel/airless/broken/three,
+/area/ruins/space/syndicate_derelict_medbay)
 "EE" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/plasteel/airless,
@@ -1557,13 +1625,14 @@
 "EH" = (
 /obj/structure/table_frame,
 /obj/item/shard,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "ER" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "EV" = (
 /obj/structure/cable/yellow{
@@ -1572,7 +1641,8 @@
 /obj/structure/disposalpipe/broken{
 	dir = 2
 	},
-/turf/open/floor/plating/broken/two)
+/turf/open/floor/plating/broken/two,
+/area/ruins/space/syndicate_derelict_medbay)
 "Fo" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -1580,13 +1650,14 @@
 /turf/open/floor/plasteel/airless,
 /area/ruins/space/syndicate_derelict_engineering)
 "Fq" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "FA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "FK" = (
 /turf/open/floor/plating/airless,
 /area/ruins/space/syndicate_derelict_solars)
@@ -1631,7 +1702,8 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "Gj" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/metal/fifty,
@@ -1680,7 +1752,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless/broken/two)
+/turf/open/floor/plasteel/airless/broken/two,
+/area/ruins/space/syndicate_derelict_hallway)
 "GA" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/airless/broken,
@@ -1690,7 +1763,7 @@
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "He" = (
 /obj/structure/rack,
@@ -1728,7 +1801,8 @@
 /area/ruins/space/syndicate_derelict_research)
 "HM" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "HO" = (
 /obj/machinery/smartfridge,
 /turf/open/floor/plating/airless,
@@ -1738,7 +1812,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 6
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "HW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -1753,10 +1828,11 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "HX" = (
 /obj/structure/disposalpipe/broken,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "Io" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1773,7 +1849,8 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "Iz" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -1791,7 +1868,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "IT" = (
 /obj/structure/window/plasma/reinforced{
@@ -1806,13 +1883,17 @@
 	},
 /turf/open/floor/engine/o2,
 /area/ruins/space/syndicate_derelict_engineering)
+"Jb" = (
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "Jd" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
 /obj/structure/cable,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "Jo" = (
 /obj/structure/frame/machine,
@@ -1836,10 +1917,12 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/plasteel/airless/broken/three)
+/turf/open/floor/plasteel/airless/broken/three,
+/area/ruins/space/syndicate_derelict_medbay)
 "JN" = (
 /obj/machinery/smartfridge/chemistry/virology/preloaded,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "JQ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
@@ -1853,7 +1936,8 @@
 "Ka" = (
 /obj/structure/lattice,
 /obj/item/shard,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_medbay)
 "Kc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -1871,7 +1955,8 @@
 	dir = 1
 	},
 /obj/structure/disposalpipe/broken,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
 "Ko" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -1898,7 +1983,7 @@
 "KM" = (
 /obj/item/stack/sheet/metal,
 /obj/item/stack/sheet/metal,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_hydroponics)
 "KY" = (
 /obj/structure/table,
@@ -1913,7 +1998,8 @@
 /area/ruins/space/syndicate_derelict_research)
 "Lk" = (
 /obj/item/shard,
-/turf/open/floor/plasteel/airless/broken/two)
+/turf/open/floor/plasteel/airless/broken/two,
+/area/ruins/space/syndicate_derelict_hallway)
 "Lo" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -1942,13 +2028,15 @@
 /obj/item/reagent_containers/dropper,
 /obj/item/storage/box/monkeycubes/syndicate,
 /obj/item/storage/box/monkeycubes/syndicate,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "LB" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
 /obj/structure/closet/wardrobe/virology_white,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "LF" = (
 /obj/item/shard,
 /obj/effect/decal/cleanable/blood,
@@ -1974,7 +2062,7 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "MP" = (
 /obj/item/stack/sheet/plastitaniumglass,
@@ -1987,18 +2075,21 @@
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "Na" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "Nh" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
 /obj/item/shard,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "No" = (
 /obj/structure/reagent_dispensers/virusfood{
 	pixel_y = -30
@@ -2007,7 +2098,8 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -27
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "NC" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plasteel/airless,
@@ -2015,7 +2107,7 @@
 "NM" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "Ol" = (
 /obj/structure/window/plasma/reinforced{
@@ -2026,10 +2118,12 @@
 "Ov" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/item/stack/rods,
-/turf/open/floor/plasteel/airless/broken)
+/turf/open/floor/plasteel/airless/broken,
+/area/ruins/space/syndicate_derelict_medbay)
 "OB" = (
 /obj/structure/table/glass,
-/turf/open/floor/plasteel/airless/broken)
+/turf/open/floor/plasteel/airless/broken,
+/area/ruins/space/syndicate_derelict_medbay)
 "OE" = (
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
@@ -2037,7 +2131,7 @@
 "OH" = (
 /obj/structure/lattice,
 /obj/item/stack/cable_coil/cut/red,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "OY" = (
 /obj/machinery/light{
@@ -2093,14 +2187,19 @@
 /area/ruins/space/syndicate_derelict_engineering)
 "Pi" = (
 /obj/structure/lattice,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_kitchen)
 "Pj" = (
 /obj/structure/lattice,
 /obj/item/stack/cable_coil/cut/red,
 /obj/item/stack/cable_coil/cut/red,
 /obj/item/stack/cable_coil/cut/red,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
+"Pn" = (
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/space/nearstation)
 "PE" = (
 /obj/machinery/light/broken{
 	dir = 8
@@ -2135,12 +2234,14 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "QD" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
 "QP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -2203,7 +2304,8 @@
 /obj/structure/cable/yellow{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "SQ" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/broken,
@@ -2220,11 +2322,12 @@
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "Tm" = (
 /obj/item/shard,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "Tq" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
 	dir = 1
@@ -2238,7 +2341,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "Tu" = (
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
@@ -2248,14 +2352,16 @@
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_research)
 "Tw" = (
 /obj/effect/decal/cleanable/blood/splatter,
-/turf/open/floor/plasteel/airless/burnt)
+/turf/open/floor/plasteel/airless/burnt,
+/area/ruins/space/syndicate_derelict_medbay)
 "TA" = (
 /obj/item/stack/rods,
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
 "TD" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -2276,22 +2382,27 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_solars)
 "TT" = (
-/turf/open/floor/plasteel/airless/broken)
+/turf/open/floor/plasteel/airless/broken,
+/area/ruins/space/syndicate_derelict_medbay)
 "Uk" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_hydroponics)
 "UH" = (
 /obj/item/stack/rods,
 /turf/template_noop,
 /area/template_noop)
+"Vp" = (
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_medbay)
 "Vu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 6
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "Vv" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -2307,10 +2418,11 @@
 /obj/structure/lattice,
 /obj/structure/grille,
 /turf/template_noop,
-/area/template_noop)
+/area/space/nearstation)
 "Wm" = (
 /obj/effect/spawner/structure/window/plastitanium,
-/turf/open/floor/plasteel/airless/dark)
+/turf/open/floor/plasteel/airless/dark,
+/area/ruins/space/syndicate_derelict_virology)
 "Wt" = (
 /obj/structure/rack,
 /obj/item/pipe_dispenser,
@@ -2353,7 +2465,8 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "WH" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/plasteel/airless,
@@ -2368,7 +2481,8 @@
 /obj/structure/disposalpipe/junction/flip{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless/broken/two)
+/turf/open/floor/plasteel/airless/broken/two,
+/area/ruins/space/syndicate_derelict_medbay)
 "WU" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/blood/gibs,
@@ -2404,7 +2518,8 @@
 /obj/structure/cable/yellow{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_medbay)
 "Xm" = (
 /obj/item/stack/sheet/plastitaniumglass,
 /obj/item/stack/sheet/plastitaniumglass,
@@ -2418,17 +2533,16 @@
 "Xo" = (
 /obj/structure/lattice,
 /obj/item/shard,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruins/space/syndicate_derelict_hydroponics)
 "Xs" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/airless/broken/three,
 /area/ruins/space/syndicate_derelict_research)
 "XC" = (
-/obj/structure/lattice,
-/obj/structure/grille/broken,
-/turf/template_noop,
-/area/template_noop)
+/obj/effect/spawner/structure/window/plastitanium,
+/turf/open/floor/plating/airless,
+/area/ruins/space/syndicate_derelict_hallway)
 "XF" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood/footprints{
@@ -2447,6 +2561,9 @@
 /obj/structure/frame/machine,
 /turf/open/floor/plasteel/airless/broken/three,
 /area/ruins/space/syndicate_derelict_hydroponics)
+"XH" = (
+/turf/open/floor/plating/broken,
+/area/ruins/space/syndicate_derelict_medbay)
 "XK" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
@@ -2465,15 +2582,18 @@
 /turf/open/floor/plating/airless,
 /area/ruins/space/syndicate_derelict_research)
 "XY" = (
-/turf/open/space/basic)
+/turf/template_noop,
+/area/ruins/space/syndicate_derelict_hallway)
 "Ya" = (
 /obj/structure/closet/wardrobe/virology_white,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "Yf" = (
-/turf/closed/wall/mineral/plastitanium)
+/turf/closed/wall/mineral/plastitanium,
+/area/ruins/space/syndicate_derelict_virology)
 "Yl" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -2492,7 +2612,8 @@
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "Zl" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -2501,7 +2622,8 @@
 /obj/machinery/door/window/brigdoor{
 	dir = 1
 	},
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 "Zt" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -2524,7 +2646,8 @@
 /area/ruins/space/syndicate_derelict_research)
 "ZY" = (
 /mob/living/simple_animal/hostile/pirate/ranged/space,
-/turf/open/floor/plasteel/airless)
+/turf/open/floor/plasteel/airless,
+/area/ruins/space/syndicate_derelict_virology)
 
 (1,1,1) = {"
 qu
@@ -2562,25 +2685,25 @@ qu
 qu
 qu
 qu
-xw
 qu
 qu
-XC
+qu
+Ak
 VX
 VX
 VX
-XC
+Ak
 qu
 qu
 VX
-XC
+Ak
 VX
 VX
-XC
+Ak
 VX
 qu
 qu
-XC
+Ak
 VX
 VX
 VX
@@ -2633,13 +2756,13 @@ nK
 Aq
 Aq
 Aq
-EC
-EC
-Yf
-Yf
-EC
-EC
-EC
+XC
+XC
+AL
+AL
+Jb
+Jb
+Jb
 Yf
 Yf
 Yf
@@ -2667,7 +2790,7 @@ EE
 Aq
 Ci
 Lk
-Yf
+AL
 dH
 sz
 TT
@@ -2688,7 +2811,7 @@ qu
 "}
 (6,1,1) = {"
 qu
-XC
+Ak
 qu
 Fq
 Pi
@@ -2698,7 +2821,7 @@ Pi
 FS
 qI
 QD
-qA
+xw
 EV
 wG
 WT
@@ -2752,7 +2875,7 @@ qu
 "}
 (8,1,1) = {"
 qu
-XC
+Ak
 qu
 Pi
 Pi
@@ -2763,8 +2886,8 @@ OH
 El
 mo
 TA
-nS
-XY
+XH
+Vp
 tf
 qA
 qA
@@ -2859,7 +2982,7 @@ bt
 Aq
 HW
 Tm
-Yf
+AL
 aP
 bp
 HM
@@ -2880,7 +3003,7 @@ qu
 "}
 (12,1,1) = {"
 qu
-XC
+Ak
 qu
 uQ
 uQ
@@ -2891,7 +3014,7 @@ oh
 oh
 WG
 kH
-Yf
+AL
 jH
 Iv
 sL
@@ -2907,7 +3030,7 @@ ic
 Yf
 Yf
 qu
-XC
+Ak
 qu
 "}
 (13,1,1) = {"
@@ -2954,7 +3077,7 @@ KM
 Xo
 oh
 vF
-Br
+Cs
 So
 pu
 di
@@ -3126,7 +3249,7 @@ zM
 Cq
 Tu
 qu
-XC
+Ak
 qu
 qu
 qu
@@ -3158,7 +3281,7 @@ lV
 BJ
 gx
 qu
-UH
+Pn
 qu
 qu
 qu
@@ -3168,7 +3291,7 @@ qu
 "}
 (21,1,1) = {"
 qu
-XC
+Ak
 ub
 oh
 oh
@@ -3252,8 +3375,8 @@ qu
 VX
 VX
 VX
-XC
-XC
+Ak
+Ak
 ub
 qu
 qu
@@ -3345,7 +3468,7 @@ Dp
 PH
 nA
 ub
-XC
+Ak
 qu
 qu
 qu
@@ -3384,7 +3507,7 @@ VX
 ub
 VX
 VX
-XC
+Ak
 ub
 VX
 qu
@@ -3437,7 +3560,7 @@ af
 af
 xd
 qu
-XC
+Ak
 qu
 qu
 FK
@@ -3452,11 +3575,11 @@ FK
 Jd
 rP
 ub
-XC
+Ak
 "}
 (30,1,1) = {"
 qu
-XC
+Ak
 qu
 nA
 ns
@@ -3561,7 +3684,7 @@ xd
 tl
 xd
 qu
-XC
+Ak
 VX
 VX
 qu
@@ -3612,7 +3735,7 @@ qu
 oP
 qu
 qu
-XC
+Ak
 "}
 (35,1,1) = {"
 qu
@@ -3740,7 +3863,7 @@ ub
 qu
 ub
 qu
-XC
+Ak
 "}
 (39,1,1) = {"
 qu
@@ -3761,13 +3884,13 @@ qu
 qu
 qu
 VX
-XC
+Ak
 VX
 ub
-XC
+Ak
 VX
 VX
-XC
+Ak
 ub
 VX
 VX

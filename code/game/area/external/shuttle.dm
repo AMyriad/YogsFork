@@ -177,18 +177,24 @@
 
 /area/external/shuttle/ruins/fighter_syndicate
 	name = "\improper Syndicate Fighter"
+	unique = FALSE
 
 /area/external/shuttle/ruins/dropship_syndicate
 	name = "\improper Syndicate Dropship"
+	unique = FALSE
 
 /area/external/shuttle/ruins/pirate_cutter
 	name = "\improper Pirate Cutter"
+	unique = FALSE
 
 /area/external/shuttle/ruins/freighter_small
 	name = "\improper Small Freighter"
+	unique = FALSE
 
 /area/external/shuttle/ruins/freighter_medium
 	name = "\improper Freighter"
+	unique = FALSE
 
 /area/external/shuttle/ruins/freighter_large
 	name = "\improper Large Freighter"
+	unique = FALSE

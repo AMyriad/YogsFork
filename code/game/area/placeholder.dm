@@ -17,27 +17,7 @@
 
 
 
-/////////////////////////// CRASHEDSHIP
 
-/area/awaymission/BMPship
-	name = "BMP Asteroids"
-	icon_state = "away"
-
-
-/area/awaymission/BMPship/Aft
-	name = "Aft (S) Block"
-	icon_state = "away1"
-	requires_power = TRUE
-
-/area/awaymission/BMPship/Midship
-	name = "Midship Block"
-	icon_state = "away2"
-	requires_power = TRUE
-
-/area/awaymission/BMPship/Fore
-	name = "Fore (N) Block"
-	icon_state = "away3"
-	requires_power = TRUE
 
 
 

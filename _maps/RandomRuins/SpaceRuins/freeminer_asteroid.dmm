@@ -1,32 +1,35 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/space,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "b" = (
 /turf/closed/mineral/random/low_chance,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "d" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "n" = (
 /mob/living/simple_animal/hostile/asteroid/goliath,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "s" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "D" = (
 /turf/closed/mineral/random/high_chance,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "I" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "K" = (
 /mob/living/simple_animal/hostile/asteroid/goldgrub,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
+"W" = (
+/turf/template_noop,
+/area/ruins/space/no_gravity/unpowered/generic)
 "X" = (
 /obj/docking_port/stationary{
 	dir = 2;
@@ -36,8 +39,8 @@
 	name = "Free Miner Asteroid";
 	width = 35
 	},
-/turf/open/space,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 a
@@ -4395,7 +4398,7 @@ a
 a
 a
 a
-a
+W
 b
 b
 b

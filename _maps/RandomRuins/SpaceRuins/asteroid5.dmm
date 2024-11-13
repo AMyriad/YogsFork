@@ -1,13 +1,13 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/open/space,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "c" = (
 /turf/closed/mineral/random/high_chance,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "d" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "o" = (
 /obj/docking_port/stationary{
 	dir = 2;
@@ -17,8 +17,8 @@
 	name = "Small Asteroid";
 	width = 35
 	},
-/turf/open/space,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 a

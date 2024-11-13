@@ -124,10 +124,6 @@
 /area/ruins/lavaland/powered/kinggoat_lair
 	name = "\improper Unidentified Goat Lair"
 
-/area/ruins/lavaland/powered/kinggoat_arena
-	name = "\improper King Goat Arena"
-	area_flags = NOTELEPORT
-
 /area/ruins/lavaland/powered/gasstation
 	name = "\improper Lavaland Gas Station"
 

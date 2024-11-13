@@ -99,7 +99,184 @@
 /area/ruins/space/space_hotel_laundry
 	name = "\improper Hotel Laundry Room"
 
-//------------------------------------------------------ progress stopped at map here
+/area/ruins/space/monastery
+	name = "\improper Monastery"
+
+/area/ruins/space/monastery_dock
+	name = "\improper Monastery Dock"
+
+/area/ruins/space/monastery_garden
+	name = "\improper Monastery Garden"
+
+/area/ruins/space/monastery_office
+	name = "\improper Monastery Office"
+
+/area/ruins/space/monastery_maint
+	name = "\improper Monastery Maintenance"
+
+/area/ruins/space/monastery_library
+	name = "\improper Monastery Library"
+
+/area/ruins/space/monastery_lounge
+	name = "\improper Monastery Library Lounge"
+
+/area/ruins/space/oldstation_beta
+	name = "\improper Beta Station Main Corridor"
+	icon_state = ""
+
+/area/ruins/space/oldstation_atmospherics
+	name = "\improper Beta Station Atmospherics"
+	icon_state = ""
+
+/area/ruins/space/oldstation_solar
+	name = "\improper Beta Station Solar Control"
+	icon_state = ""
+
+/area/ruins/space/oldstation_solar_array
+	name = "\improper Beta Station Solar Array"
+	icon_state = ""
+
+/area/ruins/space/oldstation_medical
+	name = "\improper Beta Station Medbay"
+	icon_state = ""
+
+/area/ruins/space/oldstation_mining
+	name = "\improper Beta Station Mining Equipment"
+	icon_state = ""
+
+/area/ruins/space/oldstation_beta_storage
+	name = "\improper Beta Station Storage"
+	icon_state = ""
+
+/area/ruins/space/oldstation_charlie
+	name = "\improper Charlie Station Main Corridor"
+	icon_state = ""
+
+/area/ruins/space/oldstation_engineering
+	name = "\improper Charlie Station Engineering"
+	icon_state = ""
+
+/area/ruins/space/oldstation_bridge
+	name = "\improper Charlie Station Command"
+	icon_state = ""
+
+/area/ruins/space/oldstation_hydroponics
+	name = "\improper Charlie Station Hydroponics"
+	icon_state = ""
+
+/area/ruins/space/oldstation_kitchen
+	name = "\improper Charlie Station Kitchen"
+
+/area/ruins/space/oldstation_security
+	name = "\improper Charlie Station Security"
+	icon_state = ""
+
+/area/ruins/space/oldstation_delta
+	name = "\improper Delta Station Main Corridor"
+	icon_state = ""
+
+/area/ruins/space/oldstation_science
+	name = "\improper Delta Station Research and Development"
+	icon_state = "toxlab"
+
+/area/ruins/space/oldstation_protolab
+	name = "\improper Delta Station Prototype Lab"
+	icon_state = ""
+
+/area/ruins/space/oldstation_ai
+	name = "\improper Delta Station AI Core"
+	icon_state = ""
+	ambientsounds = list(
+		'sound/ambience/ambimalf.ogg',
+		'sound/ambience/ambitech.ogg',
+		'sound/ambience/ambitech2.ogg',
+		'sound/ambience/ambiatmos.ogg',
+		'sound/ambience/ambiatmos2.ogg'
+	)
+
+/area/ruins/space/listeningstation
+	name = "\improper Listening Post Central Hallway"
+	icon_state = ""
+
+/area/ruins/space/listeningstation_telecomms
+	name = "\improper Listening Post Telecommunications"
+	icon_state = ""
+
+/area/ruins/space/listeningstation_engineering
+	name = "\improper Listening Post Maintenance"
+	icon_state = ""
+
+/area/ruins/space/listeningstation_quarters
+	name = "\improper Listening Post Crew Quarters"
+	icon_state = ""
+
+/area/ruins/space/listeningstation_warehouse
+	name = "\improper Listening Post Warehouse"
+	icon_state = ""
+
+/area/ruins/space/listeningstation_dock
+	name = "\improper Listening Post Dock"
+	icon_state = ""
+
+/area/ruins/space/hilbert_research
+	name = "\improper Hilbert Research Facility"
+	icon_state = ""
+
+/area/ruins/space/gasthelizards
+	name = "\improper Gas The Lizards"
+	icon_state = ""
+
+/area/ruins/space/deepstorage
+	name = "\improper Deep Storage"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_airlock
+	name = "\improper Deep Storage Airlock Control"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_power
+	name = "\improper Deep Storage Power Control"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_hydroponics
+	name = "\improper Deep Storage Hydroponics"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_armory
+	name = "\improper Deep Storage Secure Storage"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_storage
+	name = "\improper Deep Storage Storage"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_dorm
+	name = "\improper Deep Storage Dormitory"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_kitchen
+	name = "\improper Deep Storage Kitchen"
+	icon_state = ""
+
+/area/ruins/space/deepstorage_recycler
+	name = "\improper Deep Storage Recycler"
+	icon_state = ""
+
+/area/ruins/space/caravanambush_one
+	name = "\improper Tiny Freighter"
+	icon_state = ""
+
+/area/ruins/space/caravanambush_two
+	name = "\improper Tiny Freighter"
+	icon_state = ""
+
+/area/ruins/space/abandonedzoo
+	name = "\improper Abandoned Zoo"
+	icon_state = ""
+
+
+
+//------------------------------------------------------ progress stopped at map here /// OBS! DO BIGDERELICT!! also progress stopped at The Derelict (remove it)
 
 
 
@@ -134,6 +311,18 @@
 /area/ruins/space/powered/gaming
 	name ="\improper Game Room"
 
+/area/ruins/space/powered/mechtransport
+	name = "\improper Destroyed Mech Transport"
+
+/area/ruins/space/powered/kinggoat_arena
+	name = "\improper King Goat Arena"
+	area_flags = NOTELEPORT
+	mining_speed = TRUE
+
+/area/ruins/space/powered/cloning_facility
+	name = "\improper Ancient Shuttle"
+	icon_state = ""
+
 
 //-- Unpowered --//
 
@@ -165,8 +354,25 @@
 /area/ruins/space/no_gravity/generic
 	name = "\improper Unidentified Location"
 
-/area/ruins/space/no_gravity/oldteleporter
+/area/ruins/space/no_gravity/abandoned_teleporter
 	name = "\improper Abandoned Teleporter"
+	unique = FALSE // Reused
+	ambientsounds = list(
+		'sound/ambience/ambimalf.ogg',
+		'sound/ambience/signal.ogg'
+	)
+
+/area/ruins/space/no_gravity/crashedship_fore
+	name = "\improper Fore (N) Block"
+	icon_state = ""
+
+/area/ruins/space/no_gravity/crashedship_midship
+	name = "\improper Midship Block"
+	icon_state = ""
+
+/area/ruins/space/no_gravity/crashedship_aft
+	name = "\improper Aft (S) Block"
+	icon_state = ""
 
 /area/ruins/space/no_gravity/powered //- POWERED
 	name = "POWERED NO GRAVITY AREAS"
@@ -242,145 +448,19 @@
 
 
 
-//Ruin of mech transport
-
-/area/ruins/space/gravity/powered/mechtransport
-	name = "Mech Transport"
-	icon_state = "green"
 
 
-//Ruin of gas the lizard
-
-/area/ruins/space/gravity/gasthelizard
-	name = "Gas the lizard"
 
 
-//Ruin of Deep Storage
-
-/area/ruins/space/gravity/deepstorage
-	name = "Deep Storage"
-	icon_state = "storage"
-
-/area/ruins/space/gravity/deepstorage/airlock
-	name = "Deep Storage Airlock"
-	icon_state = "quart"
-
-/area/ruins/space/gravity/deepstorage/power
-	name = "Deep Storage Power and Atmospherics Room"
-	icon_state = "engi_storage"
-
-/area/ruins/space/gravity/deepstorage/hydroponics
-	name = "Deep Storage Hydroponics"
-	icon_state = "garden"
-
-/area/ruins/space/gravity/deepstorage/armory
-	name = "Deep Storage Secure Storage"
-	icon_state = "armory"
-
-/area/ruins/space/gravity/deepstorage/storage
-	name = "Deep Storage Storage"
-	icon_state = "storage_wing"
-
-/area/ruins/space/gravity/deepstorage/dorm
-	name = "Deep Storage Dormitory"
-	icon_state = "crew_quarters"
-
-/area/ruins/space/gravity/deepstorage/kitchen
-	name = "Deep Storage Kitchen"
-	icon_state = "kitchen"
-
-/area/ruins/space/gravity/deepstorage/crusher
-	name = "Deep Storage Recycler"
-	icon_state = "storage"
 
 
-//Ruin of Abandoned Zoo
-
-/area/ruins/space/gravity/abandonedzoo
-	name = "Abandoned Zoo"
-	icon_state = "green"
 
 
-//Old Station
-//please stop calling it charlie station, that's just the cryo module
 
-/area/ruins/space/gravity/ancientstation
-	name = "Charlie Station Main Corridor"
-	icon_state = "green"
 
-/area/ruins/space/gravity/ancientstation/space
-	name = "Exposed To Space"
-	icon_state = "teleporter"
-	has_gravity = FALSE
 
-/area/ruins/space/gravity/ancientstation/atmo
-	name = "Beta Station Atmospherics"
-	icon_state = "red"
 
-/area/ruins/space/gravity/ancientstation/betanorth
-	name = "Beta Station North Corridor"
-	icon_state = "blue"
 
-/area/ruins/space/gravity/ancientstation/solars
-	name = "Beta Station Solar Control"
-	icon_state = "blue"
-
-/area/ruins/space/gravity/ancientstation/solararray
-	name = "Beta Station Solar Array"
-	icon_state = "panelsAP"
-
-/area/ruins/space/gravity/ancientstation/engi
-	name = "Charlie Station Engineering"
-	icon_state = "engine"
-
-/area/ruins/space/gravity/ancientstation/comm
-	name = "Charlie Station Command"
-	icon_state = "captain"
-
-/area/ruins/space/gravity/ancientstation/hydroponics
-	name = "Charlie Station Hydroponics"
-	icon_state = "garden"
-
-/area/ruins/space/gravity/ancientstation/kitchen
-	name = "Charlie Station Kitchen"
-	icon_state = "kitchen"
-
-/area/ruins/space/gravity/ancientstation/sec
-	name = "Charlie Station Security"
-	icon_state = "red"
-
-/area/ruins/space/gravity/ancientstation/deltacorridor
-	name = "Delta Station Main Corridor"
-	icon_state = "green"
-
-/area/ruins/space/gravity/ancientstation/proto
-	name = "Delta Station Prototype Lab"
-	icon_state = "toxlab"
-
-/area/ruins/space/gravity/ancientstation/deltaai
-	name = "Delta Station AI Core"
-	icon_state = "ai"
-	ambientsounds = list('sound/ambience/ambimalf.ogg', 'sound/ambience/ambitech.ogg', 'sound/ambience/ambitech2.ogg', 'sound/ambience/ambiatmos.ogg', 'sound/ambience/ambiatmos2.ogg')
-
-/area/ruins/space/gravity/ancientstation/medbay
-	name = "Beta Station Medbay"
-	icon_state = "medbay"
-
-/area/ruins/space/gravity/ancientstation/mining
-	name = "Beta Station Mining Equipment"
-	icon_state = "mining"
-
-/area/ruins/space/gravity/ancientstation/betastorage
-	name = "Beta Station Storage"
-	icon_state = "storage"
-
-/area/ruins/space/gravity/ancientstation/betacorridor
-	name = "Beta Station Main Corridor"
-	icon_state = "bluenew"
-
-/area/ruins/space/gravity/ancientstation/rnd
-	name = "Delta Station Research and Development"
-	icon_state = "toxlab"
 
 
 
@@ -464,13 +544,6 @@
 	has_gravity = STANDARD_GRAVITY
 
 
-//ABANDONED TELEPORTER
-
-/area/ruins/space/abandoned_tele
-	name = "Abandoned Teleporter"
-	icon_state = "teleporter"
-	ambientsounds = list('sound/ambience/ambimalf.ogg', 'sound/ambience/signal.ogg')
-
 
 
 //ABANDONED BOX WHITESHIP
@@ -481,70 +554,11 @@
 	icon_state = "red"
 
 
-//SYNDICATE LISTENING POST STATION
 
-/area/ruins/space/gravity/listeningstation
-	name = "Unidentified Asteroid"
-	icon_state = "yellow"
 
-/area/ruins/space/gravity/listeningstation/telecomms
-	name = "Listening Post Telecommunications"
-	icon_state = "tcomsatcham"
 
-/area/ruins/space/gravity/listeningstation/engineering
-	name = "Listening Post Maintenance"
-	icon_state = "engine"
 
-/area/ruins/space/gravity/listeningstation/quarters
-	name = "Listening Post Crew Quarters"
-	icon_state = "green"
 
-/area/ruins/space/gravity/listeningstation/warehouse
-	name = "Listening Post Warehouse"
-	icon_state = "storage"
-
-/area/ruins/space/gravity/listeningstation/hallway
-	name = "Listening Post Central Hallway"
-	icon_state = "hallP"
-
-/area/ruins/space/gravity/listeningstation/airlock
-	name = "Listening Post Dock"
-	icon_state = "red"
-
-//ANCIENT SHUTTLE
-
-/area/ruins/space/gravity/powered/ancient_shuttle
-	name = "Ancient Shuttle"
-	icon_state = "yellow"
-
-//PUBBY MONASTERY
-
-/area/ruins/space/gravity/monastery
-	name = "Monastery"
-	icon_state = "chapel"
-
-/area/ruins/space/gravity/monastery/dock
-	name = "Monastery Dock"
-	icon_state = "construction"
-
-/area/ruins/space/gravity/monastery/garden
-	name = "Monastery Garden"
-	icon_state = "hydro"
-
-/area/ruins/space/gravity/monastery/office
-	name = "Monastery Office"
-	icon_state = "chapeloffice"
-
-/area/ruins/space/gravity/monastery/maint
-	name = "Monastery Maintenance"
-	icon_state = "maint_monastery"
-
-/area/ruins/space/gravity/monastery/library
-	name = "Monastery Library"
-	icon_state = "library"
-
-/area/ruins/space/gravity/monastery/library/lounge
-	name = "Monastery Library Lounge"
 
 
 

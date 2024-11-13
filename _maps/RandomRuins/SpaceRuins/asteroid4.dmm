@@ -2,33 +2,24 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"b" = (
-/turf/closed/mineral,
-/area/ruin/unpowered/no_grav)
 "c" = (
 /turf/closed/mineral/random/high_chance,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "d" = (
 /turf/closed/mineral,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "e" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
-"f" = (
-/turf/closed/mineral/random/high_chance,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "g" = (
 /turf/closed/mineral/bananium,
-/area/ruin/unpowered)
-"h" = (
-/turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "i" = (
 /turf/open/floor/plating/asteroid,
-/area/ruin/unpowered)
+/area/ruins/space/no_gravity/unpowered/generic)
 "j" = (
 /turf/closed/wall/mineral/titanium,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "k" = (
 /obj/structure/chair{
 	dir = 1
@@ -43,7 +34,7 @@
 	amount = 15
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "l" = (
 /obj/structure/chair{
 	dir = 1
@@ -55,24 +46,24 @@
 	amount = 15
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "o" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/closed/wall/mineral/titanium/overspace,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "p" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Escape Pod Airlock"
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 
 (1,1,1) = {"
 a
 c
 c
-b
-b
+d
+d
 a
 a
 a
@@ -82,16 +73,16 @@ a
 a
 a
 a
-b
-b
+d
+d
 a
 a
 "}
 (2,1,1) = {"
-b
+d
 c
 c
-b
+d
 e
 e
 a
@@ -100,39 +91,39 @@ a
 a
 a
 a
-b
-b
-b
-b
+d
+d
+d
+d
 a
 a
 "}
 (3,1,1) = {"
-b
+d
 c
 c
-b
+d
 e
 e
 e
 a
 a
 a
-b
-b
-b
-b
-b
+d
+d
+d
+d
+d
 a
 a
-b
+d
 "}
 (4,1,1) = {"
-b
-b
-b
-b
-b
+d
+d
+d
+d
+d
 e
 e
 a
@@ -140,20 +131,20 @@ a
 a
 a
 a
-b
-b
-b
+d
+d
+d
 a
 a
 a
 "}
 (5,1,1) = {"
 a
-b
-b
-b
-b
-b
+d
+d
+d
+d
+d
 e
 e
 a
@@ -164,16 +155,16 @@ a
 a
 a
 a
-b
+d
 a
 "}
 (6,1,1) = {"
 a
-b
+d
 c
-b
-b
-b
+d
+d
+d
 e
 e
 a
@@ -189,11 +180,11 @@ a
 "}
 (7,1,1) = {"
 a
-b
-b
-b
-b
-b
+d
+d
+d
+d
+d
 e
 e
 a
@@ -210,19 +201,19 @@ a
 (8,1,1) = {"
 a
 a
-b
-b
-b
-b
-b
-b
+d
+d
+d
+d
+d
+d
 a
 a
 a
 a
-h
-h
-h
+e
+e
+e
 a
 a
 a
@@ -230,10 +221,10 @@ a
 (9,1,1) = {"
 a
 a
-b
-b
-b
-b
+d
+d
+d
+d
 a
 a
 a
@@ -241,8 +232,8 @@ a
 a
 d
 d
-h
-h
+e
+e
 a
 a
 a
@@ -251,7 +242,7 @@ a
 a
 a
 a
-b
+d
 c
 c
 a
@@ -297,8 +288,8 @@ a
 a
 a
 a
-f
-f
+c
+c
 g
 g
 j
@@ -317,8 +308,8 @@ a
 a
 a
 a
-f
-f
+c
+c
 d
 i
 j
@@ -360,8 +351,8 @@ d
 d
 a
 a
-f
-f
+c
+c
 d
 a
 a

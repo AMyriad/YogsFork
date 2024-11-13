@@ -8,77 +8,77 @@
 /area/space/nearstation)
 "c" = (
 /turf/closed/wall,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "d" = (
 /obj/structure/alien/weeds,
 /obj/structure/alien/resin/membrane,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "e" = (
 /obj/structure/girder,
 /obj/structure/alien/weeds,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "f" = (
 /obj/structure/alien/weeds,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "g" = (
 /obj/structure/alien/weeds,
 /obj/structure/table_frame,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "h" = (
 /obj/structure/alien/weeds/node,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "i" = (
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "j" = (
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "k" = (
 /obj/structure/alien/resin/wall,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "l" = (
 /obj/structure/alien/resin/membrane,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "m" = (
 /obj/structure/alien/weeds,
 /obj/structure/table,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "n" = (
 /obj/structure/alien/weeds,
 /obj/effect/decal/remains/robot,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "o" = (
 /obj/structure/alien/weeds/node,
 /obj/structure/table,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "p" = (
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "q" = (
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 "r" = (
 /obj/structure/alien/weeds,
 /obj/structure/bed/nest,
 /obj/effect/decal/remains/xeno,
 /turf/open/floor/plating/airless,
-/area/ruin/unpowered)
+/area/ruins/space/unpowered/generic)
 
 (1,1,1) = {"
 a

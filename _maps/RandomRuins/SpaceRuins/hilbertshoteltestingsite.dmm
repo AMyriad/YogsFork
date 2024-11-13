@@ -4,34 +4,34 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "ck" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/syringe/bluespace,
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "cx" = (
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_middle,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "dS" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_wide2,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "eV" = (
 /obj/structure/table/reinforced,
 /obj/item/pen,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "gt" = (
 /obj/machinery/door/airlock/highsecurity,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/effect/mapping_helpers/airlock/access/all/ruins/generic3,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "ib" = (
 /obj/structure/railing{
 	dir = 8
@@ -39,23 +39,23 @@
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_wide{
 	dir = 1
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "im" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_wide,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "jZ" = (
 /obj/effect/turf_decal/ramp_middle{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "kx" = (
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "kB" = (
 /obj/effect/turf_decal/ramp_middle{
 	dir = 1
@@ -63,7 +63,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "kU" = (
 /obj/structure/railing/corner,
 /obj/effect/turf_decal/ramp_middle{
@@ -72,7 +72,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "nr" = (
 /obj/structure/railing/corner{
 	dir = 8
@@ -81,7 +81,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "nu" = (
 /obj/structure/table/glass,
 /obj/item/analyzer,
@@ -91,17 +91,17 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "oB" = (
 /turf/open/floor/plasteel/stairs/goon/stairs_wide{
 	dir = 1
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "rx" = (
 /turf/open/floor/plasteel/stairs/goon/stairs2_wide{
 	dir = 1
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "sO" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -110,24 +110,24 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "tw" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "tD" = (
 /obj/effect/turf_decal/ramp_corner,
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "tG" = (
 /turf/closed/mineral/random,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "tI" = (
 /obj/machinery/door/window/eastleft,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "uE" = (
 /obj/structure/table/glass,
 /obj/item/stock_parts/subspace/crystal,
@@ -138,13 +138,13 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "uS" = (
 /obj/structure/railing{
 	dir = 4
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "vx" = (
 /obj/structure/table/glass,
 /obj/item/assembly/signaler,
@@ -154,18 +154,18 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "wF" = (
 /obj/effect/turf_decal/ramp_corner,
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "xn" = (
 /obj/structure/table/glass,
 /obj/item/reagent_containers/glass/beaker/bluespace,
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "xw" = (
 /obj/structure/table/glass,
 /obj/item/stack/cable_coil/blue,
@@ -175,18 +175,18 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "yy" = (
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "yJ" = (
 /turf/open/floor/plasteel/stairs/goon/stairs_middle{
 	dir = 1
 	},
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "zk" = (
 /obj/item/paper/crumpled/docslogs,
 /obj/item/pen,
@@ -194,20 +194,20 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "zC" = (
 /obj/structure/table/glass,
 /obj/item/storage/backpack/holding,
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Bm" = (
 /obj/effect/turf_decal/ramp_middle{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "CM" = (
 /obj/effect/turf_decal/ramp_middle{
 	dir = 8
@@ -215,7 +215,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Dj" = (
 /obj/effect/turf_decal/ramp_middle{
 	dir = 4
@@ -223,22 +223,22 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "FD" = (
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "GQ" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/template_noop)
 "Hz" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "HZ" = (
 /obj/structure/table/reinforced,
 /obj/item/paper/crumpled/robertsworkjournal,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Iw" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 4
@@ -246,22 +246,22 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Jq" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "Kv" = (
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_middle{
 	dir = 1
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Ll" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Mf" = (
 /obj/structure/table/glass,
 /obj/item/stock_parts/subspace/amplifier,
@@ -271,10 +271,10 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "MH" = (
 /turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "OE" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 8
@@ -282,7 +282,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Pc" = (
 /obj/structure/table/glass,
 /obj/item/stock_parts/matter_bin/bluespace,
@@ -292,7 +292,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "PZ" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 1
@@ -300,16 +300,16 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Ql" = (
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Qq" = (
 /obj/structure/displaycase{
 	start_showpiece_type = /obj/item/hilbertshotel
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "RY" = (
 /obj/machinery/door/airlock/vault{
 	name = "secured door"
@@ -319,7 +319,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Ss" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -330,35 +330,35 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "To" = (
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "TM" = (
 /turf/closed/wall/r_wall/rust,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Ub" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/plasteel/grimy,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "UO" = (
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Wc" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel/vaporwave,
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Wj" = (
 /obj/structure/table/glass,
 /obj/item/bodybag/bluespace,
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "WH" = (
 /obj/structure/railing{
 	dir = 4
@@ -366,7 +366,7 @@
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_wide2{
 	dir = 1
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "XX" = (
 /obj/machinery/porta_turret/syndicate{
 	desc = "A ballistic machine gun auto-turret that fires bluespace bullets.";
@@ -377,7 +377,7 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Zx" = (
 /obj/structure/table/glass,
 /obj/item/stack/sheet/bluespace_crystal{
@@ -386,20 +386,20 @@
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 "Zy" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/airless,
-/area/ruin/unpowered/no_grav)
+/area/ruins/space/no_gravity/unpowered/generic)
 "ZA" = (
 /obj/structure/table/glass,
 /obj/item/slimecross/industrial/bluespace,
 /turf/open/floor/plasteel/grimy{
 	icon_state = "engine"
 	},
-/area/ruin/space/has_grav/hilbertresearchfacility)
+/area/ruins/space/hilbert_research)
 
 (1,1,1) = {"
 GQ

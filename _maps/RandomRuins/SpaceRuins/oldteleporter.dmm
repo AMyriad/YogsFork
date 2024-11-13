@@ -8,18 +8,18 @@
 /area/space/nearstation)
 "c" = (
 /turf/open/floor/plating/airless,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "d" = (
 /turf/closed/wall/r_wall,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "e" = (
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "f" = (
 /turf/open/floor/plasteel/airless{
 	icon_state = "damaged2"
 	},
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "g" = (
 /obj/structure/light_construct/small{
 	dir = 1
@@ -27,27 +27,26 @@
 /turf/open/floor/plasteel/airless{
 	icon_state = "damaged3"
 	},
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "h" = (
 /obj/machinery/computer/teleporter{
 	dir = 1
 	},
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "i" = (
 /obj/machinery/teleport/station,
-/turf/open/floor/plasteel/airless,
-/area/ruin/space/oldteleporter)
+/turf/open/floor/plasteel/airless)
 "j" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "k" = (
 /obj/structure/light_construct/small{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "l" = (
 /obj/structure/table,
 /obj/item/stock_parts/cell{
@@ -55,19 +54,19 @@
 	maxcharge = 15000
 	},
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "m" = (
 /turf/open/floor/plasteel/airless{
 	icon_state = "damaged4"
 	},
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 "n" = (
 /obj/machinery/power/apc{
 	name = "Worn-out APC";
 	pixel_y = -23
 	},
 /turf/open/floor/plasteel/airless,
-/area/ruin/space/oldteleporter)
+/area/ruins/space/no_gravity/abandoned_teleporter)
 
 (1,1,1) = {"
 a

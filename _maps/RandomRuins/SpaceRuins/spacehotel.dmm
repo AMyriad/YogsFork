@@ -4942,9 +4942,6 @@
 "QL" = (
 /turf/open/floor/plasteel/freezer,
 /area/ruins/space/space_hotel_pool)
-"QP" = (
-/turf/template_noop,
-/area/space)
 "Rg" = (
 /turf/open/floor/plasteel/showroomfloor,
 /area/ruins/space/space_hotel_room_4)
@@ -7420,9 +7417,9 @@ aa
 aa
 aa
 aa
-QP
-QP
-QP
+aa
+aa
+aa
 aa
 ab
 aa
@@ -7490,8 +7487,8 @@ aa
 aa
 aa
 aa
-QP
-QP
+aa
+aa
 aa
 aa
 ab
