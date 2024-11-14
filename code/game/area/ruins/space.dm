@@ -274,9 +274,36 @@
 	name = "\improper Abandoned Zoo"
 	icon_state = ""
 
+/area/ruins/space/bigderelict
+	name = "\improper Derelict Outpost"
+	icon_state = ""
+
+/area/ruins/space/bigderelict_cargo_storage
+	name = "\improper Derelict Outpost Cargo Storage"
+	icon_state = ""
+
+/area/ruins/space/bigderelict_cargo_bay
+	name = "\improper Derelict Outpost Cargo Bay"
+	icon_state = ""
+
+/area/ruins/space/bigderelict_power_storage
+	name = "\improper Derelict Outpost Power Storage"
+	icon_state = ""
+
+/area/ruins/space/bigderelict_docked_ship
+	name = "\improper Derelict Outpost Docked Ship"
+	icon_state = ""
+
+/area/ruins/space/djstation
+	name = "\improper Ruskie DJ Station"
+	icon_state = ""
+
+/area/ruins/space/djstation_solars
+	name = "\improper DJ Station Solars"
+	icon_state = ""
 
 
-//------------------------------------------------------ progress stopped at map here /// OBS! DO BIGDERELICT!! also progress stopped at The Derelict (remove it)
+//------------------------------------------------------ progress stopped at map here // do derelict, then continue on lavaland
 
 
 
@@ -321,6 +348,22 @@
 
 /area/ruins/space/powered/cloning_facility
 	name = "\improper Ancient Shuttle"
+	icon_state = ""
+
+/area/ruins/space/powered/academy_classrooms
+	name = "\improper Academy Classrooms"
+	icon_state = ""
+
+/area/ruins/space/powered/academy_fore
+	name = "\improper Academy Fore (N) Block"
+	icon_state = ""
+
+/area/ruins/space/powered/academy_aft
+	name = "\improper Academy Aft (S) Block"
+	icon_state = ""
+
+/area/ruins/space/powered/academy_cellar
+	name = "\improper Academy Cellar"
 	icon_state = ""
 
 
@@ -421,27 +464,6 @@
 
 
 
-//Ruin of Derelict Oupost
-
-/area/ruins/space/gravity/derelictoutpost
-	name = "Derelict Outpost"
-	icon_state = "green"
-
-/area/ruins/space/gravity/derelictoutpost/cargostorage
-	name = "Derelict Outpost Cargo Storage"
-	icon_state = "storage"
-
-/area/ruins/space/gravity/derelictoutpost/cargobay
-	name = "Derelict Outpost Cargo Bay"
-	icon_state = "quartstorage"
-
-/area/ruins/space/gravity/derelictoutpost/powerstorage
-	name = "Derelict Outpost Power Storage"
-	icon_state = "engine_smes"
-
-/area/ruins/space/gravity/derelictoutpost/dockedship
-	name = "Derelict Outpost Docked Ship"
-	icon_state = "red"
 
 
 
@@ -464,84 +486,7 @@
 
 
 
-//DERELICT
 
-/area/ruins/space/derelict
-	name = "Derelict Station"
-	icon_state = "storage"
-
-/area/ruins/space/derelict/hallway/primary
-	name = "Derelict Primary Hallway"
-	icon_state = "hallP"
-
-/area/ruins/space/derelict/hallway/secondary
-	name = "Derelict Secondary Hallway"
-	icon_state = "hallS"
-
-/area/ruins/space/derelict/hallway/primary/port
-	name = "Derelict Port (W) Hallway"
-	icon_state = "hallFP"
-
-/area/ruins/space/derelict/arrival
-	name = "Derelict Arrival Centre"
-	icon_state = "yellow"
-
-/area/ruins/space/derelict/storage/equipment
-	name = "Derelict Equipment Storage"
-
-/area/ruins/space/derelict/bridge
-	name = "Derelict Control Room"
-	icon_state = "bridge"
-
-/area/ruins/space/derelict/bridge/access
-	name = "Derelict Control Room Access"
-	icon_state = "auxstorage"
-
-/area/ruins/space/derelict/bridge/ai_upload
-	name = "Derelict Computer Core"
-	icon_state = "ai"
-
-/area/ruins/space/derelict/solar_control
-	name = "Derelict Solar Control"
-	icon_state = "engine"
-
-/area/ruins/space/derelict/se_solar
-	name = "Derelict South East Solars"
-	icon_state = "engine"
-
-/area/ruins/space/derelict/medical
-	name = "Derelict Medbay"
-	icon_state = "medbay"
-
-/area/ruins/space/derelict/medical/chapel
-	name = "Derelict Chapel"
-	icon_state = "chapel"
-
-
-/area/ruins/space/derelict/singularity_engine
-	name = "Derelict Singularity Engine"
-	icon_state = "engine"
-
-/area/ruins/space/derelict/gravity_generator
-	name = "Derelict Gravity Generator Room"
-	icon_state = "red"
-
-/area/ruins/space/derelict/atmospherics
-	name = "Derelict Atmospherics"
-	icon_state = "red"
-
-//DJSTATION
-
-/area/ruins/space/djstation
-	name = "Ruskie DJ Station"
-	icon_state = "DJ"
-	has_gravity = STANDARD_GRAVITY
-	blob_allowed = FALSE //Nope, no winning on the DJ station as a blob. Gotta eat the main station.
-
-/area/ruins/space/djstation/solars
-	name = "DJ Station Solars"
-	icon_state = "DJ"
-	has_gravity = STANDARD_GRAVITY
 
 
 

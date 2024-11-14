@@ -472,7 +472,7 @@
 "bN" = (
 /obj/structure/bed/abductor,
 /obj/effect/decal/cleanable/blood/old,
-/obj/item/clothing/under/soviet,
+/obj/item/clothing/under/costume/soviet,
 /turf/open/floor/plating/abductor,
 /area/ruin/unpowered)
 "bO" = (

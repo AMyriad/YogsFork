@@ -247,27 +247,7 @@
 
 
 
-///////////////// Academy Areas
 
-/area/awaymission/academy
-	icon_state = "away"
-	requires_power = FALSE
-
-/area/awaymission/academy/academyclassroom
-	name = "Academy Classrooms"
-	icon_state = "away1"
-
-/area/awaymission/academy/academyfore
-	name = "Academy Fore (N) Block"
-	icon_state = "away2"
-
-/area/awaymission/academy/academyaft
-	name = "Academy Aft (S) Block"
-	icon_state = "away3"
-
-/area/awaymission/academy/academycellar
-	name = "Academy Cellar"
-	icon_state = "away4"
 
 
 
