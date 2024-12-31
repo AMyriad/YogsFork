@@ -30,7 +30,7 @@
 
 /area/station/public/hallway/central
 	name = "\improper Central Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_central"
 
 /area/station/public/hallway/central/command
 	name = "\improper Command Hallway"
