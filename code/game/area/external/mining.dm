@@ -11,7 +11,7 @@
 
 /area/external/mining/survival_pod
 	name = "\improper Emergency Shelter"
-	icon_state = "mining_survival_pod"
+	icon_state = "mining_survival"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	static_lighting = TRUE
 	requires_power = FALSE

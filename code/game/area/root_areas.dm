@@ -1,13 +1,20 @@
 /*	READ: AREAS
 *	All areas stem from the 4 types below depending on where they belong in the game
-*	don't put down areas that are all caps and end in "-AREAS"
-*	put new areas at the bottom of the sorting category they belong in
-*	if a new category or file must be created, try to put it as best where it belongs
-*	when making a bunch directional areas, order them from N-NW, or clockwise~
-*	
+*	Never put down areas that are all caps and end in "-AREAS"
+*	Always put new areas at the bottom of the sorting category they belong in
+*	If a new category or file must be created, try to put it where it belongs best
+*	When making a bunch directional areas (like /area/station/public/hallway) order them from North to Northwest, or in other words clockwise
 */
 
-
+/*	ROOT AREAS
+*	These are the ROOT for all main area types
+*	We organize areas like this to keep the work tree in map editors nice and pretty :]
+*
+*	/debug/ - Areas that (mostly) aren't supposed to appear on station, exist behind the scenes, or are otherwise special
+*	/external/ - Areas outside Space Station 13 e.g. lavaland and shuttles
+*	/ruins/ - Ruins and derelicts found in space, mining environments, etc.
+*	/station/ - Areas on Space Station 13
+*/
 /area/debug
 	name = "Debug Areas"
 	icon = 'icons/area/areas_debug.dmi'
@@ -23,8 +30,8 @@
 /area/station
 	name = "Station Areas"
 	icon = 'icons/area/areas_station.dmi'
-	blob_allowed = TRUE
-	valid_territory = TRUE
+	blob_allowed = TRUE // Blobs only allowed here
+	valid_territory = TRUE // Gang territories only allowed here
 
 /**
  *	BASE ENVIRONMENTS
