@@ -1,85 +1,85 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "b" = (
 /turf/closed/wall/mineral/sandstone,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "c" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "d" = (
 /obj/structure/rack,
 /obj/item/clothing/head/helmet/roman/legionnaire,
-/obj/item/clothing/under/roman,
+/obj/item/clothing/under/costume/roman,
 /obj/item/clothing/shoes/roman,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "e" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "j" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "n" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "o" = (
 /obj/structure/bed,
 /obj/item/bedsheet/yellow,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "r" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "t" = (
 /obj/item/flashlight/flare/torch,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "u" = (
 /obj/structure/table,
 /obj/item/clothing/head/helmet/roman/legionnaire,
 /obj/item/flashlight/flare/torch,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "x" = (
 /obj/structure/mineral_door/sandstone,
 /obj/structure/fans/tiny/invisible,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "z" = (
 /obj/structure/table,
 /obj/item/flashlight/flare/torch,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "B" = (
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Q" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/bottle/absinthe/premium,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "R" = (
 /obj/effect/turf_decal/sand,
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "S" = (
 /obj/structure/rack,
 /obj/item/claymore/ruin,
@@ -89,27 +89,27 @@
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "T" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/spidereggsham,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "U" = (
 /obj/structure/rack,
 /obj/item/clothing/head/helmet/roman,
 /obj/item/clothing/shoes/roman,
-/obj/item/clothing/under/roman,
+/obj/item/clothing/under/costume/roman,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Y" = (
 /obj/structure/table,
 /obj/effect/turf_decal/sand,
 /obj/item/rod_of_asclepius,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 
 (1,1,1) = {"
 a

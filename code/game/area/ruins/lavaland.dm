@@ -97,6 +97,10 @@
 	name = "\improper Clown Biodome"
 	icon_state = "dk_yellow"
 
+/area/ruins/lavaland/powered/biodome/inn
+	name = "\improper Snowy Inn Biodome"
+	icon_state = "dk_yellow"
+
 /area/ruins/lavaland/powered/biodome/snow
 	name = "\improper Snowy Biodome"
 	icon_state = "dk_yellow"

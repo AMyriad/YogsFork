@@ -5,14 +5,14 @@
 	},
 /obj/item/clothing/shoes/xeno_wraps/science,
 /obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/under/rank/scientist/skirt,
+/obj/item/clothing/under/rank/rnd/scientist/skirt,
 /obj/item/clothing/under/rank/security/officer/skirt,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "c" = (
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "d" = (
 /turf/template_noop,
 /area/template_noop)
@@ -20,21 +20,21 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "f" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "g" = (
 /obj/effect/spawner/lootdrop/trashbin,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "h" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/item/clothing/gloves/color/black,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "i" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -43,28 +43,28 @@
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "j" = (
 /obj/structure/sign/mining/survival{
 	dir = 4
 	},
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "k" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/black,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "l" = (
 /obj/item/gps/computer,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "m" = (
 /obj/structure/sign/mining/survival,
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "o" = (
 /obj/effect/decal/remains/human,
 /obj/item/organ/tail/lizard{
@@ -73,103 +73,103 @@
 	},
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/plating/asteroid/basalt,
-/area/lavaland/surface/outdoors)
+/area/ruins/lavaland/powered/generic)
 "p" = (
 /turf/open/floor/plating/asteroid/basalt,
-/area/lavaland/surface/outdoors)
+/area/ruins/lavaland/powered/generic)
 "q" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "u" = (
 /obj/item/pickaxe/silver,
 /turf/open/floor/plating/asteroid/basalt,
-/area/lavaland/surface/outdoors)
+/area/ruins/lavaland/powered/generic)
 "v" = (
 /turf/closed/wall/mineral/titanium/survival/pod,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "x" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "y" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plating/asteroid/basalt,
-/area/lavaland/surface/outdoors)
+/area/ruins/lavaland/powered/generic)
 "z" = (
 /obj/effect/decal/remains/robot,
 /obj/item/borg/upgrade/modkit/minebot_passthrough,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "A" = (
 /obj/structure/sign/mining/survival{
 	dir = 8
 	},
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "B" = (
 /obj/structure/marker_beacon,
 /turf/open/floor/plating/asteroid/basalt,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "C" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "D" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "E" = (
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "F" = (
 /obj/machinery/smartfridge/survival_pod/empty,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "H" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "I" = (
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "J" = (
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "K" = (
 /obj/structure/window/shuttle/survival_pod/spawner,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "L" = (
 /obj/structure/sign/mining,
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "M" = (
 /mob/living/simple_animal/hostile/asteroid/marrowweaver/ice,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "N" = (
 /obj/structure/fans/tiny,
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "O" = (
 /obj/structure/table/survival_pod,
 /obj/item/fulton_core{
@@ -184,7 +184,7 @@
 	pixel_y = -1
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "S" = (
 /obj/structure/rack,
 /obj/item/extraction_pack{
@@ -193,24 +193,24 @@
 	},
 /obj/item/extraction_pack,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "T" = (
 /turf/open/floor/plating/asteroid/basalt,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "U" = (
 /obj/structure/window/shuttle/survival_pod/spawner/north,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "V" = (
 /obj/structure/rack,
 /obj/item/resonator/upgraded,
 /obj/item/pickaxe/mini,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "W" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/asteroid/basalt,
-/area/lavaland/surface/outdoors)
+/area/ruins/lavaland/powered/generic)
 "X" = (
 /obj/machinery/light{
 	dir = 8
@@ -221,7 +221,7 @@
 /obj/effect/spawner/lootdrop/trashbin,
 /obj/effect/spawner/lootdrop/trashbin,
 /turf/open/floor/pod/dark,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Y" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /obj/effect/decal/remains/human,
@@ -231,13 +231,13 @@
 /obj/item/clothing/accessory/armband/science,
 /obj/structure/tubes,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Z" = (
 /obj/structure/sign/mining/survival{
 	dir = 1
 	},
 /turf/closed/wall/mineral/titanium/survival/nodiagonal,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 
 (1,1,1) = {"
 d

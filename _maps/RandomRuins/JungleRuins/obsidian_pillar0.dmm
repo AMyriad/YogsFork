@@ -1,16 +1,16 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/plating/dirt/jungleland/obsidian,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "s" = (
 /turf/closed/obsidian/hard,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "w" = (
 /turf/template_noop,
 /area/template_noop)
 "V" = (
 /turf/closed/obsidian,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 w

@@ -4,19 +4,19 @@
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "b" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "c" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "d" = (
 /turf/template_noop,
 /area/template_noop)
@@ -26,118 +26,124 @@
 	name = "\improper Warning sign?"
 	},
 /turf/closed/indestructible/riveted/boss,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "h" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/corner{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "k" = (
 /obj/structure/flora/ash/cap_shroom,
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "m" = (
 /obj/structure/mecha_wreckage/durand,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "n" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/cut/large{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "p" = (
 /obj/structure/mecha_wreckage/gygax/dark,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "q" = (
 /obj/structure/mecha_wreckage/marauder,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "r" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/corner{
 	dir = 5
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "u" = (
 /obj/structure/mecha_wreckage/phazon,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "w" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/door/opened{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "x" = (
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "y" = (
 /obj/structure/flora/rock,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "z" = (
 /obj/structure/glowshroom/glowcap,
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "A" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "B" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/door/opened{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "C" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "D" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/corner,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "E" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "G" = (
 /obj/structure/flora/rock,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
+"H" = (
+/obj/effect/mapping_helpers/no_lava,
+/obj/structure/fence/corner{
+	dir = 6
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface)
 "I" = (
 /obj/structure/flora/ash/leaf_shroom,
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "K" = (
 /obj/item/pod_parts/core,
 /obj/item/storage/toolbox/mechanical/old,
@@ -161,49 +167,49 @@
 /obj/item/spacepod_equipment/lock/keyed,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "L" = (
 /obj/structure/mecha_wreckage/gygax,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "M" = (
 /obj/structure/flora/ash/cacti,
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "N" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "O" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/door/opened,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "P" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/corner{
 	dir = 10
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "Q" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/corner{
 	dir = 6
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "R" = (
 /obj/structure/mecha_wreckage/honker/dark,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "T" = (
 /obj/structure/sign/warning/explosives{
 	desc = "A warning sign which reads...something in a language you've never seen. The sign itself seems to indicate some kind of explosive danger?";
@@ -211,26 +217,26 @@
 	},
 /obj/effect/mapping_helpers/no_lava,
 /turf/closed/indestructible/riveted/boss,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "V" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/corner{
 	dir = 9
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "X" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/spawner/lootdrop/effects/landmines/ancient,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "Z" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fence/door/opened{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 
 (1,1,1) = {"
 d
@@ -1109,7 +1115,7 @@ b
 b
 b
 b
-Q
+H
 d
 d
 d

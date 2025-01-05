@@ -1,7 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aA" = (
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "aI" = (
 /obj/structure/cloth_curtain{
 	color = "#99ccff"
@@ -11,12 +11,12 @@
 	},
 /obj/item/soap,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "bl" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "bm" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor/border_only{
@@ -26,48 +26,48 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "bI" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/hydroponics/constructable,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "bJ" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "cw" = (
 /obj/machinery/light,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "dc" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "dO" = (
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "es" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "eu" = (
 /obj/machinery/teleport/station,
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "fc" = (
 /obj/structure/fans/tiny,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "fL" = (
 /obj/structure/sink{
 	dir = 4;
@@ -77,7 +77,7 @@
 	pixel_x = 28
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "fS" = (
 /obj/machinery/light/built{
 	dir = 1
@@ -86,56 +86,56 @@
 /turf/open/floor/pod/dark{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "gE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "gK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/clothing{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "gY" = (
 /obj/machinery/light/small{
 	brightness = 3;
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "hU" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "hV" = (
 /obj/structure/table/wood,
 /obj/item/storage/pill_bottle/dice,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "iq" = (
 /obj/machinery/computer/teleporter{
 	id = null
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "iN" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "jj" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "jk" = (
 /obj/structure/cloth_curtain{
 	color = "#99ccff"
@@ -145,7 +145,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "kd" = (
 /obj/machinery/door/airlock/wood{
 	name = "Suite"
@@ -157,7 +157,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "kT" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 30
@@ -165,7 +165,7 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "kZ" = (
 /obj/machinery/door/airlock/silver,
 /obj/structure/fans/tiny,
@@ -173,31 +173,31 @@
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "lK" = (
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "lL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "mi" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/machinery/plantgenes,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "mV" = (
 /obj/structure/flora/bush,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "nl" = (
 /turf/template_noop,
 /area/template_noop)
@@ -205,33 +205,33 @@
 /obj/structure/mopbucket,
 /obj/item/mop,
 /turf/open/floor/pod/light,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "nC" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "nK" = (
 /obj/structure/chair/stool/bar{
 	pixel_y = 6
 	},
 /obj/machinery/light/small,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "py" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "qa" = (
 /obj/machinery/door/airlock/glass_large,
 /obj/structure/fans/tiny,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "qm" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/beanbag,
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "qq" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hooded/wintercoat/science,
@@ -239,7 +239,7 @@
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/mask/balaclava,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "rd" = (
 /obj/machinery/door/airlock/wood{
 	name = "Standard Room"
@@ -249,33 +249,33 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "ro" = (
 /obj/machinery/smartfridge/disks,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "rW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/cigarette{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "sH" = (
 /obj/structure/table/wood,
 /obj/item/toy/cards/deck{
 	pixel_y = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "tm" = (
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "tn" = (
 /obj/structure/rack,
 /obj/item/shovel,
@@ -285,13 +285,13 @@
 /obj/item/hatchet/wooden,
 /obj/item/tank/internals/emergency_oxygen,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "tx" = (
 /obj/machinery/vending/dinnerware{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "tK" = (
 /obj/machinery/door/airlock/wood,
 /obj/structure/fans/tiny,
@@ -299,11 +299,11 @@
 	id = "inndoor"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "tY" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "uA" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/fans/tiny,
@@ -311,11 +311,11 @@
 	dir = 4
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "vd" = (
 /obj/machinery/jukebox,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "vF" = (
 /obj/machinery/light{
 	dir = 4
@@ -323,37 +323,37 @@
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "vV" = (
 /turf/open/floor/plating/snowed/smoothed,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "ws" = (
 /obj/structure/kitchenspike,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "wU" = (
 /obj/structure/flora/rock/pile/icy,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "wV" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "xA" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/machinery/smartfridge/drying_rack,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "yj" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "yn" = (
 /obj/item/book/manual/wiki/hydroponicsplants,
 /obj/structure/closet/crate/hydroponics,
@@ -366,7 +366,7 @@
 /obj/item/reagent_containers/glass/bucket/wooden,
 /obj/item/storage/box/disks_plantgene,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "yz" = (
 /obj/structure/closet/crate/wooden,
 /obj/item/reagent_containers/glass/woodmug,
@@ -388,28 +388,28 @@
 	pixel_y = -24
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "yW" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/barman_recipes,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "zq" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "zD" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "zN" = (
 /obj/structure/table,
 /obj/item/pen,
 /obj/item/paper_bin,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "zP" = (
 /obj/machinery/vending/hydroseeds{
 	onstation = 0
@@ -418,47 +418,47 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "zR" = (
 /obj/structure/dresser,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "zX" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken3"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ac" = (
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "AQ" = (
 /obj/structure/flora/tree/dead,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "AT" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ba" = (
 /obj/structure/flora/grass/brown,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Be" = (
 /obj/machinery/vending/hydronutrients{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "CC" = (
 /obj/machinery/light/small,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "CN" = (
 /obj/machinery/light{
 	dir = 1
@@ -466,36 +466,36 @@
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "DR" = (
 /obj/machinery/light,
 /turf/open/floor/plating/ice{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "EG" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "EX" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Fe" = (
 /obj/structure/flora/stump,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Fo" = (
 /obj/structure/table,
 /obj/machinery/microwave{
 	pixel_y = 6
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Fq" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
@@ -503,24 +503,24 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Gh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Gm" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Gs" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "GP" = (
 /obj/machinery/computer/monitor/secret{
 	dir = 1
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ht" = (
 /obj/structure/cloth_curtain{
 	color = "#99ccff"
@@ -530,7 +530,7 @@
 	},
 /obj/item/soap/deluxe,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "HZ" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor/border_only{
@@ -538,17 +538,17 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ii" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /obj/item/beacon,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Io" = (
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ju" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile/ice,
@@ -556,7 +556,7 @@
 	id = "innsuite"
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "JJ" = (
 /obj/structure/rack,
 /obj/item/grown/log/tree,
@@ -565,7 +565,7 @@
 /obj/item/storage/box/lights/mixed,
 /obj/item/storage/box/matches,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Kt" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
 	req_access = null
@@ -573,21 +573,21 @@
 /obj/item/storage/box/donkpockets,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "KS" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/pod/light,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "LE" = (
 /turf/open/floor/pod/light,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "LL" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "LQ" = (
 /obj/structure/toilet{
 	pixel_y = 8
@@ -596,18 +596,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Mu" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "NE" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder/kitchen{
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "NR" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -616,19 +616,19 @@
 	short_desc = "You're a simpleman on a desolate wasteland, with the goal of running your inn."
 	},
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "OO" = (
 /turf/open/floor/plating/ice{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "OT" = (
 /turf/closed/wall/r_wall,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Pa" = (
 /obj/machinery/processor,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Pd" = (
 /obj/structure/closet/secure_closet/freezer/meat{
 	req_access = null
@@ -637,17 +637,17 @@
 /obj/item/reagent_containers/food/snacks/carpmeat,
 /obj/item/reagent_containers/food/snacks/carpmeat,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "PN" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "PX" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Qu" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -655,32 +655,32 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "RD" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Sk" = (
 /obj/structure/flora/grass/green,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Sr" = (
 /obj/structure/fireplace{
 	fuel_added = 1000;
 	lit = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "SV" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Tl" = (
 /obj/machinery/light{
 	dir = 8
@@ -688,32 +688,32 @@
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ts" = (
 /obj/structure/chair/stool,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "TT" = (
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ui" = (
 /obj/structure/flora/rock/icy,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ul" = (
 /obj/structure/sink{
 	pixel_y = 30
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "UW" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/shaker,
 /obj/item/reagent_containers/glass/rag,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Vg" = (
 /obj/structure/bed,
 /obj/item/bedsheet/red,
@@ -724,11 +724,11 @@
 	pixel_y = -8
 	},
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Vi" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "VA" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor/border_only,
@@ -736,14 +736,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "VK" = (
 /obj/structure/toilet{
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "VO" = (
 /obj/structure/bed,
 /obj/item/bedsheet/red,
@@ -751,13 +751,13 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Wd" = (
 /obj/machinery/vending/boozeomat{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Xp" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/item/clothing/suit/hooded/wintercoat,
@@ -765,14 +765,14 @@
 /obj/item/clothing/mask/breath,
 /obj/item/flashlight/lantern,
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "XP" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "XQ" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "XX" = (
 /obj/machinery/door/airlock/wood{
 	name = "Personal Quarters"
@@ -784,19 +784,19 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Ya" = (
 /obj/structure/chair/stool/bar{
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Yc" = (
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow{
 	initial_gas_mix = "o2=22;n2=82;TEMP=180"
 	},
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Yp" = (
 /obj/structure/sink{
 	dir = 8;
@@ -808,12 +808,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Yq" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced/fulltile/ice,
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Yu" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/cooking_to_serve_man{
@@ -822,7 +822,7 @@
 /obj/item/storage/box/monkeycubes,
 /obj/item/clothing/head/chefhat,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "Yw" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -831,7 +831,7 @@
 	pixel_y = 30
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "YN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -840,18 +840,18 @@
 	req_access = null
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "ZN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
 /obj/machinery/biogenerator,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 "ZQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/lavaland/powered/biodome/inn)
 
 (1,1,1) = {"
 nl
@@ -873,8 +873,8 @@ OT
 OT
 OT
 OT
-OT
-OT
+nl
+nl
 nl
 nl
 nl

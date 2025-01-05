@@ -1,20 +1,20 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "h" = (
 /turf/closed/mineral/volcanic/lava_land_surface/harder,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "i" = (
 /turf/closed/mineral/volcanic/lava_land_surface/hard,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "j" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "l" = (
 /obj/structure/closet/crate/necropolis/tendril,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "B" = (
 /turf/open/chasm/lavaland,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "P" = (
 /turf/template_noop,
 /area/template_noop)

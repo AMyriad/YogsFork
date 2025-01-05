@@ -3,58 +3,58 @@
 /obj/structure/girder,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aI" = (
 /obj/structure/table,
 /obj/item/book/manual/chef_recipes,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aM" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/spawner/lootdrop/trashbin,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bf" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bk" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bE" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bU" = (
 /obj/item/chair,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bW" = (
 /obj/machinery/griddle,
 /obj/item/organ/liver,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "cr" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "cJ" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/decal/fakelattice,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "do" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -70,30 +70,30 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "eA" = (
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "fc" = (
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "fr" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "fG" = (
 /obj/structure/table,
 /obj/item/clothing/head/hardhat/cakehat,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "fU" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomdrink{
@@ -107,7 +107,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "gq" = (
 /obj/machinery/light{
 	dir = 8
@@ -115,7 +115,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "gz" = (
 /obj/machinery/reagentgrinder/kitchen{
 	pixel_y = 6
@@ -124,13 +124,13 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "gZ" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/item/stack/sheet/metal,
 /obj/effect/decal/fakelattice,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "hn" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/glass/rag,
@@ -144,7 +144,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "hV" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -152,7 +152,7 @@
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken4"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ia" = (
 /obj/structure/table,
 /obj/item/kitchen/fork,
@@ -160,7 +160,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "jd" = (
 /obj/machinery/camera{
 	c_tag = "Bar";
@@ -173,7 +173,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "jv" = (
 /obj/structure/table/wood,
 /obj/item/instrument/guitar{
@@ -183,7 +183,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "jL" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/grille,
@@ -196,13 +196,13 @@
 	pixel_y = -3
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "kb" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "kk" = (
 /obj/machinery/light{
 	dir = 8
@@ -211,39 +211,39 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "kD" = (
 /obj/item/kirbyplants/dead,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ly" = (
 /obj/effect/spawner/lootdrop/trashbin,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "mr" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fluff/broken_flooring{
 	dir = 4
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "ms" = (
 /obj/machinery/vending/cigarette,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "mx" = (
 /obj/structure/musician/piano{
 	icon_state = "piano"
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "mz" = (
 /obj/structure/chair{
 	dir = 1
@@ -251,84 +251,84 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "nY" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/structure/table_frame/wood,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ou" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ox" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "oD" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "pg" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "pq" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/effect/decal/cleanable/glass,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ps" = (
 /obj/item/stack/sheet/metal,
 /obj/structure/fluff/broken_flooring{
 	dir = 1
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "pA" = (
 /obj/structure/chair/stool,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "pH" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fluff/broken_flooring{
 	dir = 8
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "ra" = (
 /obj/machinery/processor,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "rd" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "rg" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "rk" = (
 /obj/machinery/light{
 	dir = 1
@@ -370,18 +370,18 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "sb" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "sk" = (
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken3"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "sY" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/spawner/lootdrop/trashbin,
@@ -392,26 +392,26 @@
 	},
 /obj/structure/grille/broken,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ta" = (
 /obj/structure/girder,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "tk" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken7"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "tw" = (
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "tK" = (
 /obj/machinery/light/small,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "tZ" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomdrink{
@@ -426,7 +426,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ur" = (
 /obj/structure/table/reinforced,
 /obj/machinery/smartfridge/drinks,
@@ -434,28 +434,28 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "uJ" = (
 /obj/structure/fluff/broken_flooring{
 	dir = 4
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "uO" = (
 /obj/structure/window/reinforced,
 /obj/structure/table_frame/wood,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "uY" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/machinery/light/broken,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "vb" = (
 /obj/effect/decal/fakelattice,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "vg" = (
 /obj/item/kitchen/rollingpin{
 	pixel_x = 5;
@@ -464,25 +464,25 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "vG" = (
 /obj/structure/table_frame,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "vU" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken6"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "wi" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/girder/displaced,
 /obj/effect/decal/fakelattice,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "wu" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -498,7 +498,7 @@
 	pixel_y = -6
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "wH" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/peppermill{
@@ -512,11 +512,11 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "xF" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "xL" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -531,13 +531,13 @@
 	pixel_y = -4
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "xQ" = (
 /obj/structure/frame/machine,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "yf" = (
 /obj/structure/sink/kitchen{
 	pixel_y = 28
@@ -545,7 +545,7 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "yw" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -560,7 +560,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "yD" = (
 /obj/machinery/light_switch{
 	pixel_y = 28
@@ -569,25 +569,25 @@
 	dir = 1
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "zg" = (
 /obj/effect/spawner/lootdrop/trashbin,
 /obj/item/chair/stool,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "zq" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/fluff/broken_flooring,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "zz" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Aa" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -596,7 +596,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Af" = (
 /turf/template_noop,
 /area/template_noop)
@@ -604,7 +604,7 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Bl" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
@@ -613,7 +613,7 @@
 	pixel_y = -4
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Br" = (
 /obj/item/reagent_containers/glass/mixbowl{
 	pixel_y = 5
@@ -624,20 +624,20 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "BE" = (
 /obj/structure/fluff/broken_flooring{
 	dir = 8
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "BM" = (
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "Ch" = (
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Dj" = (
 /obj/item/shard,
 /obj/item/shard{
@@ -648,44 +648,44 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Ef" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Eo" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "EF" = (
 /obj/item/chair,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "EG" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "EH" = (
 /obj/effect/decal/cleanable/oil,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ET" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/girder/displaced,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "Fm" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -701,7 +701,7 @@
 	pixel_y = 1
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Ft" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomdrink{
@@ -715,13 +715,13 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Gt" = (
 /obj/structure/table/wood/poker,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Gy" = (
 /obj/item/stack/spacecash/c1000,
 /obj/item/stack/spacecash/c1000,
@@ -735,7 +735,7 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "GH" = (
 /obj/machinery/light{
 	dir = 4
@@ -744,25 +744,25 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "GW" = (
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "Hh" = (
 /obj/effect/decal/cleanable/oil,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/effect/decal/remains/robot,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Hx" = (
 /obj/structure/fluff/broken_flooring,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Hy" = (
 /turf/open/floor/plating/lavaland_baseturf,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "HD" = (
 /obj/item/clothing/accessory/sharkhoodie,
 /obj/effect/decal/cleanable/blood/old,
@@ -796,12 +796,12 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "HO" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/effect/decal/cleanable/oil/slippery,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Ia" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -30
@@ -809,13 +809,13 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "JL" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Ka" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -831,7 +831,7 @@
 	pixel_y = -7
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "La" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -846,7 +846,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Mb" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/glass,
@@ -861,13 +861,13 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Mi" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Mx" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomfood{
@@ -883,7 +883,7 @@
 	pixel_y = -8
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "NB" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
@@ -892,7 +892,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "NV" = (
 /obj/structure/chair{
 	dir = 8
@@ -901,23 +901,23 @@
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher/random,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "NX" = (
 /obj/effect/decal/fakelattice,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "OG" = (
 /obj/machinery/oven,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Pk" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Pm" = (
 /obj/structure/table,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
@@ -927,7 +927,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Py" = (
 /obj/effect/spawner/lootdrop/donkpockets{
 	pixel_x = 2;
@@ -937,7 +937,7 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "PF" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
@@ -946,14 +946,14 @@
 	pixel_y = -3
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "PH" = (
 /obj/item/chair/stool/bar,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Qb" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -5;
@@ -962,18 +962,18 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Qu" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Qx" = (
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken2"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "QF" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/donkpockets{
@@ -983,7 +983,7 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "QT" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/randomdrink{
@@ -997,7 +997,7 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Ra" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
@@ -1007,19 +1007,19 @@
 	},
 /obj/structure/grille/broken,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Rc" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Rp" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "RP" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/spawner/lootdrop/trashbin,
@@ -1029,21 +1029,21 @@
 	pixel_y = 4
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Sq" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/item/stack/sheet/metal,
 /obj/effect/decal/cleanable/vomit/old,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "SW" = (
 /obj/structure/chair/stool,
 /obj/effect/spawner/lootdrop/trashbin,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "SZ" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -1053,26 +1053,26 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "TL" = (
 /obj/machinery/computer/arcade,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "TV" = (
 /obj/item/chair/stool,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Uc" = (
 /turf/closed/wall,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Ul" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Vh" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random,
 /obj/item/stack/sheet/metal,
@@ -1082,23 +1082,23 @@
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Vl" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/girder/displaced,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "VQ" = (
 /obj/machinery/food_cart,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/lavaland{
 	icon_state = "cafeteria"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Wv" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/random,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Yl" = (
 /obj/structure/table/reinforced,
 /obj/item/lighter,
@@ -1113,20 +1113,20 @@
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "YE" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/chair/stool,
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Zg" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Zh" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/turf_decal/tile/red/opposingcorners,
@@ -1134,18 +1134,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ZL" = (
 /obj/structure/chair/stool{
 	pixel_y = 8
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ZQ" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 
 (1,1,1) = {"
 Af

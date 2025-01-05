@@ -3,61 +3,66 @@
 /obj/item/flashlight/flare/torch,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bd" = (
 /obj/item/flashlight/flare/torch,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bh" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cf" = (
 /obj/effect/turf_decal/sand,
 /obj/item/kitchen/knife/combat/bone,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cK" = (
 /obj/item/reagent_containers/food/snacks/spidereggs,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cR" = (
 /turf/closed/mineral/random/high_chance/volcanic,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "dV" = (
 /obj/structure/table,
 /obj/effect/turf_decal/sand,
 /obj/item/melee/spear/bonespear,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
+"ed" = (
+/obj/effect/turf_decal/sand,
+/obj/item/flashlight/flare/torch,
+/turf/open/floor/plasteel/lavaland,
+/area/external/mining/lavaland/explored)
 "fQ" = (
 /obj/item/reagent_containers/spray/spraytan,
 /obj/effect/turf_decal/sand,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gh" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gi" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gl" = (
 /obj/item/storage/firstaid/toxin,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hx" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hR" = (
 /obj/effect/mob_spawn/human/corpse/pirate,
 /obj/item/melee/transforming/energy/sword/pirate,
@@ -65,15 +70,15 @@
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ic" = (
 /obj/item/reagent_containers/food/snacks/spiderleg,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "jy" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "lt" = (
 /obj/item/gun/energy/kinetic_accelerator,
 /obj/item/borg/upgrade/modkit/trigger_guard,
@@ -81,73 +86,73 @@
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lH" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "oF" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "pq" = (
 /obj/item/reagent_containers/food/snacks/spidereggs,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qi" = (
 /obj/effect/mob_spawn/human/corpse/russian/ranged/trooper,
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qR" = (
 /obj/structure/table,
 /obj/item/stack/sheet/animalhide/weaver_chitin,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "sQ" = (
 /obj/effect/turf_decal/sand,
 /obj/item/flashlight/flare/torch,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "to" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "tT" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "vk" = (
 /obj/item/pickaxe/silver,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "vl" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "wH" = (
 /turf/closed/mineral/random/high_chance/volcanic,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "wY" = (
 /obj/item/flashlight/flare/torch,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "xw" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "za" = (
 /obj/effect/mob_spawn/human/skeleton,
 /obj/item/melee/spear/bonespear,
@@ -155,70 +160,70 @@
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "zp" = (
 /obj/effect/mob_spawn/human/corpse/russian/ranged/trooper,
 /obj/effect/turf_decal/sand,
 /obj/item/gun/ballistic/rifle/boltaction,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "zU" = (
 /turf/closed/mineral/random/volcanic/hard,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "zW" = (
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ai" = (
 /obj/structure/mineral_door/sandstone,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "As" = (
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Dd" = (
 /obj/effect/mob_spawn/human/skeleton,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Dx" = (
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Dy" = (
 /obj/effect/mob_spawn/human/skeleton,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "DK" = (
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
 /obj/item/melee/classic_baton,
 /obj/item/gun/ballistic/shotgun/doublebarrel,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Em" = (
 /obj/item/reagent_containers/food/snacks/spidereggs,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Fj" = (
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "FZ" = (
-/turf/closed/mineral/random/high_chance/volcanic,
-/area/template_noop)
+/turf/closed/wall/mineral/sandstone,
+/area/external/mining/lavaland/explored)
 "He" = (
 /obj/effect/mob_spawn/human/skeleton,
 /obj/item/clothing/suit/armor/bone,
@@ -226,54 +231,54 @@
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Hl" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "HM" = (
 /turf/template_noop,
 /area/template_noop)
 "If" = (
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "IH" = (
 /obj/item/reagent_containers/food/snacks/spidereggs,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "IP" = (
 /turf/closed/wall/mineral/sandstone,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ji" = (
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Jj" = (
 /obj/effect/turf_decal/sand,
 /obj/item/reagent_containers/food/snacks/spidereggs,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "JY" = (
 /obj/item/storage/firstaid/regular,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Kj" = (
 /obj/effect/turf_decal/sand,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "KT" = (
 /obj/effect/turf_decal/sand,
 /obj/item/reagent_containers/food/snacks/spidereggs,
@@ -281,83 +286,83 @@
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "KW" = (
 /obj/structure/bed,
 /obj/effect/mob_spawn/human/skeleton,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Lc" = (
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Mg" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ms" = (
 /obj/effect/mob_spawn/human/clown,
 /obj/effect/turf_decal/sand,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "NP" = (
 /obj/item/kitchen/knife/combat/bone,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "On" = (
 /obj/effect/mob_spawn/human/corpse/russian/ranged,
 /obj/item/storage/firstaid,
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "PG" = (
 /obj/item/tank/internals/emergency_oxygen/double,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "PI" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "PL" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "PM" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/mob_spawn/human/skeleton,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "RK" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "RN" = (
 /obj/effect/turf_decal/sand,
 /obj/item/flashlight/flare/torch,
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "RW" = (
 /obj/item/flashlight/flare/torch,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ta" = (
 /obj/item/kitchen/knife/combat/bone,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "TB" = (
 /obj/effect/mob_spawn/human/corpse/damaged{
 	gloves = /obj/item/clothing/gloves/yogs/chitinhands;
@@ -369,46 +374,46 @@
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "TN" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /obj/effect/mob_spawn/human/skeleton,
 /obj/item/reagent_containers/food/snacks/spidereggs,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "UZ" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Vc" = (
 /obj/item/reagent_containers/food/snacks/spidereggs,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Wa" = (
 /obj/effect/spawner/lootdrop/mob/marrow_weaver,
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "YF" = (
 /obj/item/flashlight/flare/torch,
 /obj/item/reagent_containers/food/snacks/spiderleg,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "YU" = (
 /obj/item/tank/internals/air,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Zp" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/spider/cocoon,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 
 (1,1,1) = {"
 HM
@@ -665,7 +670,7 @@ cR
 cR
 RK
 RK
-FZ
+wH
 HM
 HM
 "}
@@ -997,7 +1002,7 @@ bh
 KT
 cR
 IP
-IP
+FZ
 jy
 jy
 jy
@@ -1034,7 +1039,7 @@ gi
 Dy
 xw
 IP
-sQ
+ed
 jy
 jy
 jy
@@ -1071,7 +1076,7 @@ bh
 zU
 UZ
 UZ
-bh
+jy
 jy
 jy
 jy
@@ -1108,7 +1113,7 @@ zU
 zU
 bh
 If
-bh
+jy
 jy
 jy
 HM
@@ -1501,8 +1506,8 @@ cR
 cR
 RK
 cR
-bh
-bh
+jy
+jy
 IP
 zU
 xw

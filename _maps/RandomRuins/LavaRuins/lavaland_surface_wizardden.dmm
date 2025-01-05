@@ -1,12 +1,12 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "d" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/space/hardsuit/wizard,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "e" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/wizard{
@@ -26,7 +26,7 @@
 	pixel_y = -7
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "f" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/wizrobe/black{
@@ -47,29 +47,29 @@
 	pixel_y = -6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "g" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "h" = (
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "i" = (
 /obj/structure/mineral_door/wood,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "k" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "m" = (
 /obj/structure/bookcase,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "n" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small{
@@ -79,34 +79,34 @@
 	max_charges = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "o" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/wizrobe/magusblue,
 /obj/item/clothing/head/magus,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "p" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/wizrobe/magusred,
 /obj/item/clothing/head/magus,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "q" = (
 /obj/structure/table/wood,
 /obj/item/toy/plush/carpplushie,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "r" = (
 /obj/structure/table/wood,
 /obj/structure/constructshell,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "s" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/pizzaslice/donkpocket,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "t" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/pizza/donkpocket,
@@ -114,33 +114,33 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "v" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "x" = (
 /turf/closed/indestructible/riveted/uranium,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "z" = (
 /obj/structure/table/wood,
 /obj/item/teleportation_scroll/apprentice,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "A" = (
 /obj/structure/chair/wood/normal{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "B" = (
 /obj/structure/bed,
 /obj/item/bedsheet/wiz,
 /obj/item/toy/plush/stuffedmonkey,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "D" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/carp/ranged/chaos{
@@ -148,20 +148,20 @@
 	wander = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "G" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "K" = (
 /mob/living/simple_animal/hostile/carp/ranged/chaos{
 	name = "Blossom";
 	wander = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "N" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -171,24 +171,24 @@
 	wander = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "P" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "R" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "S" = (
 /mob/living/simple_animal/hostile/wizard/cloaked{
 	name = "Malarky The Mad"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "U" = (
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 
 (1,1,1) = {"
 a

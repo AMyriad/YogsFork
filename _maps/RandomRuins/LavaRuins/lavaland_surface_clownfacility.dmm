@@ -1,31 +1,31 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /turf/closed/wall/r_wall,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ab" = (
 /turf/closed/wall/r_wall/rust,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ac" = (
 /turf/template_noop,
 /area/template_noop)
 "ad" = (
 /turf/closed/wall/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ae" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "af" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mob_spawn/human/clown,
 /obj/item/chair/bananium,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ag" = (
 /obj/item/nullrod/clown,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ai" = (
 /obj/item/reagent_containers/food/snacks/soup/clownstears,
 /obj/item/toy/figure/clown{
@@ -34,28 +34,28 @@
 	},
 /obj/structure/table/bananium,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aj" = (
 /obj/item/paper{
 	info = "Unfortunately our objective with retrieving a long lost artifact that once belonged to a reverred Clown King has failed. I've barred myself in in hopes he doesn't get in here, but the others were not so fortunate, If he gets in..HonkMother protect me."
 	},
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ak" = (
 /obj/item/stamp/clown,
 /obj/item/stack/spacecash/c1000,
 /obj/structure/table/bananium,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "al" = (
 /obj/structure/chair/bananium{
 	dir = 8
 	},
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "am" = (
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "an" = (
 /obj/structure/closet/malf,
 /obj/item/clothing/gloves/color/rainbow,
@@ -64,68 +64,68 @@
 /obj/item/storage/backpack/clown,
 /obj/item/storage/backpack/duffelbag/clown,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ao" = (
 /obj/machinery/door/airlock/bananium,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ap" = (
 /obj/structure/bed,
 /obj/item/bedsheet/clown,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aq" = (
 /obj/structure/window/reinforced,
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/burger/mime,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "as" = (
 /obj/structure/window/reinforced,
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/grown/banana/mime,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "at" = (
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "au" = (
 /obj/item/shard,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "av" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken4";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aw" = (
 /obj/structure/statue/bananium/clown,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ax" = (
 /obj/machinery/door/airlock/highsecurity,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ay" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken6";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "az" = (
 /obj/machinery/door/airlock/highsecurity,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aA" = (
 /obj/machinery/door/airlock/vault,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/carpet,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aB" = (
 /obj/item/stack/rods,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aC" = (
 /obj/structure/toilet{
 	layer = 3.5;
@@ -134,10 +134,10 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aD" = (
 /turf/closed/wall,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aE" = (
 /obj/structure/toilet{
 	layer = 3.5;
@@ -145,19 +145,19 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aF" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aG" = (
 /obj/structure/door_assembly/door_assembly_bananium,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aI" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/honkdae{
@@ -168,12 +168,12 @@
 /obj/item/reagent_containers/food/snacks/honkdae,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aJ" = (
 /obj/structure/table,
 /obj/item/restraints/handcuffs/cable,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aK" = (
 /obj/structure/girder,
 /obj/structure/fans/tiny/invisible,
@@ -181,36 +181,36 @@
 	icon_state = "wood-broken4";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aL" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood{
 	icon_state = "wood-broken4";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aM" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aN" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aO" = (
 /obj/structure/table/wood,
 /obj/item/pickaxe/silver,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aP" = (
 /turf/closed/wall/rust,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aQ" = (
 /obj/structure/bed,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aR" = (
 /obj/item/stack/rods,
 /obj/structure/fans/tiny/invisible,
@@ -218,20 +218,20 @@
 	icon_state = "wood-broken4";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aS" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/wood{
 	icon_state = "wood-broken6";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aT" = (
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aU" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -240,18 +240,18 @@
 	icon_state = "wood-broken6";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aV" = (
 /obj/machinery/door/airlock,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aW" = (
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aX" = (
 /obj/machinery/door/airlock/bananium,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aY" = (
 /obj/structure/table,
 /obj/item/scalpel,
@@ -259,7 +259,7 @@
 	pixel_z = 5
 	},
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aZ" = (
 /obj/item/stack/sheet/metal,
 /obj/item/stack/rods,
@@ -268,54 +268,54 @@
 	icon_state = "wood-broken4";
 	tag = ""
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ba" = (
 /obj/structure/bed/pod,
 /obj/effect/mob_spawn/human/clown,
 /obj/item/bedsheet/clown,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bb" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bc" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/clown,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bd" = (
 /obj/item/grown/bananapeel,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "be" = (
 /obj/structure/bed/pod,
 /obj/effect/mob_spawn/human/clown,
 /obj/item/bedsheet/clown,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bf" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/toy/crayon/mime,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bh" = (
 /obj/item/reagent_containers/food/snacks/honkdae{
 	pixel_x = 25;
 	pixel_y = 10
 	},
 /turf/closed/wall/r_wall,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bi" = (
 /obj/structure/table,
 /obj/item/clothing/mask/gas/clown_hat{
@@ -326,7 +326,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bj" = (
 /obj/structure/table,
 /obj/item/target/clown{
@@ -334,14 +334,14 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bk" = (
 /obj/structure/table,
 /obj/item/megaphone/clown,
 /obj/item/megaphone/clown,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bl" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -354,29 +354,29 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bm" = (
 /obj/machinery/door/airlock/wood,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bn" = (
 /obj/structure/bed/pod,
 /obj/effect/mob_spawn/human/clown,
 /obj/item/bedsheet/clown,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bo" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bp" = (
 /obj/structure/bed/pod,
 /obj/effect/mob_spawn/human/clown,
 /obj/item/bedsheet/clown,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bq" = (
 /obj/item/clothing/mask/gas/clown_hat{
 	pixel_y = 30
@@ -392,7 +392,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "br" = (
 /obj/item/grown/bananapeel,
 /obj/effect/turf_decal/stripes/line{
@@ -401,7 +401,7 @@
 /turf/open/floor/plasteel/dark{
 	dir = 8
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bs" = (
 /obj/effect/decal/cleanable/oil/streak,
 /obj/effect/turf_decal/tile/red,
@@ -415,12 +415,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bt" = (
 /obj/machinery/door/airlock,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bu" = (
 /obj/structure/closet/secure_closet/freezer/cream_pie,
 /obj/item/reagent_containers/food/snacks/pie/cream,
@@ -428,7 +428,7 @@
 /obj/item/reagent_containers/food/snacks/pie/cream,
 /obj/item/reagent_containers/food/snacks/pie/cream,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bv" = (
 /obj/item/paperplane,
 /obj/effect/turf_decal/tile/red,
@@ -442,7 +442,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bw" = (
 /obj/item/coin/bananium,
 /obj/effect/turf_decal/tile/red,
@@ -456,7 +456,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -464,7 +464,7 @@
 /turf/open/floor/plasteel/dark{
 	dir = 8
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "by" = (
 /obj/structure/table,
 /obj/item/mecha_parts/mecha_equipment/weapon/honker,
@@ -480,20 +480,20 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bz" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bA" = (
 /obj/item/coin/bananium,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bB" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/store/bread/banana,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bC" = (
 /obj/structure/mecha_wreckage/honker,
 /obj/effect/turf_decal/tile/red,
@@ -507,7 +507,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bD" = (
 /obj/effect/decal/cleanable/robot_debris,
 /obj/effect/turf_decal/tile/red,
@@ -521,7 +521,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bE" = (
 /obj/effect/decal/cleanable/shreds,
 /obj/effect/turf_decal/tile/red,
@@ -535,7 +535,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bG" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/grown/banana{
@@ -543,7 +543,7 @@
 	},
 /obj/item/reagent_containers/food/snacks/grown/banana,
 /turf/open/floor/plasteel,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cZ" = (
 /obj/item/ship_in_a_bottle,
 /obj/item/coin/bananium{
@@ -561,18 +561,18 @@
 /obj/structure/table/bananium,
 /obj/item/reagent_containers/food/drinks/soda_cans/canned_laughter,
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lb" = (
 /mob/living/simple_animal/crab/clown{
 	name = "Mr Krebs"
 	},
 /turf/open/floor/mineral/bananium,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Qw" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/bottle/bottleofnothing,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 
 (1,1,1) = {"
 aa

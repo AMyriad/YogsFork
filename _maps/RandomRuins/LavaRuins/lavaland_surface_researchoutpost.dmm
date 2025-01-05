@@ -4,21 +4,21 @@
 /area/template_noop)
 "b" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "c" = (
 /obj/machinery/door/airlock/external/glass,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "d" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "e" = (
 /obj/machinery/vending,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "f" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical,
@@ -27,7 +27,7 @@
 /obj/item/shovel,
 /obj/item/flashlight,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "g" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox,
@@ -35,25 +35,25 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "h" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "i" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "j" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/organ/tongue/bone,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "k" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/closed/wall,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "l" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -62,46 +62,46 @@
 /obj/item/stack/medical/ointment,
 /obj/item/stack/medical/gauze,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "m" = (
 /turf/closed/wall,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "n" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/flashlight/flare/signal,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "p" = (
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "q" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "r" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "s" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "t" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/toy/figure/ce,
 /obj/item/bot_assembly/medbot,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "u" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/clothing/suit/space/hardsuit/carp,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "w" = (
 /obj/item/toy/snappop,
 /obj/item/toy/snappop,
@@ -117,33 +117,33 @@
 /obj/machinery/door/airlock/hatch,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plasteel,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "x" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/broken_bottle,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "y" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/toy/figure/engineer,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "z" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/robot_debris,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "A" = (
 /obj/item/surgical_drapes,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "B" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/robot,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "C" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -151,29 +151,29 @@
 /obj/item/clothing/head/soft,
 /obj/item/clothing/suit/poncho,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "D" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/c_tube,
 /obj/item/toy/cattoy,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "E" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/clothing/head/kitty,
 /obj/item/clothing/head/kitty,
 /obj/item/clothing/suit/jacket/miljacket,
-/obj/item/clothing/under/janimaid,
+/obj/item/clothing/under/rank/civilian/janitor/maid,
 /obj/item/toy/figure/qm,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "F" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/clothing/suit/jacket/puffer,
 /turf/open/floor/pod/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 
 (1,1,1) = {"
 a

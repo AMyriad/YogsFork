@@ -295,7 +295,7 @@
 	icon_state = ""
 
 /area/ruins/space/djstation
-	name = "\improper Ruskie DJ Station"
+	name = "\improper DJ Station"
 	icon_state = ""
 
 /area/ruins/space/djstation_solars
@@ -303,7 +303,7 @@
 	icon_state = ""
 
 
-//------------------------------------------------------ progress stopped at map here // do derelict, then continue on lavaland
+//------------------------------------------------------ progress stopped at map here // do derelict and cosmicashwalkerpod
 
 
 

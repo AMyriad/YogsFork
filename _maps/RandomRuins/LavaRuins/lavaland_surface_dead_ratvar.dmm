@@ -4,157 +4,159 @@
 /area/template_noop)
 "b" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "c" = (
 /obj/item/clockwork/alloy_shards/small,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "d" = (
 /obj/structure/destructible/clockwork/wall_gear,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "e" = (
 /obj/item/stack/tile/brass,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "f" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "g" = (
 /obj/item/clockwork/alloy_shards/medium/gear_bit,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "h" = (
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "i" = (
 /obj/structure/grille/ratvar/broken,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "j" = (
 /turf/closed/wall/clockwork,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "k" = (
 /obj/item/clockwork/alloy_shards/small,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "l" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "m" = (
 /obj/item/clockwork/alloy_shards/medium,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "n" = (
 /obj/item/clockwork/component/belligerent_eye/blind_eye,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "o" = (
 /obj/item/clockwork/alloy_shards/large,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "p" = (
 /obj/item/clockwork/alloy_shards/medium,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "q" = (
 /obj/structure/lattice/catwalk/clockwork,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "r" = (
 /obj/structure/lattice/clockwork,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "s" = (
 /obj/item/clockwork/alloy_shards/large,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "t" = (
 /obj/item/stack/tile/brass,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "u" = (
 /obj/structure/grille/ratvar,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "v" = (
 /obj/item/clockwork/alloy_shards/medium,
 /obj/structure/lattice/clockwork,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "w" = (
 /obj/structure/grille/ratvar/broken,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "x" = (
 /obj/structure/destructible/clockwork/wall_gear,
 /obj/item/stack/tile/brass,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "y" = (
 /obj/item/clockwork/component/geis_capacitor/fallen_armor,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "z" = (
 /obj/structure/destructible/clockwork/wall_gear,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "A" = (
 /obj/item/clockwork/alloy_shards/clockgolem_remains,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "B" = (
 /obj/item/clockwork/weapon/ratvarian_spear,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "C" = (
 /obj/item/clockwork/alloy_shards/medium/gear_bit,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "D" = (
 /obj/structure/grille/ratvar,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "E" = (
 /obj/item/clockwork/alloy_shards/clockgolem_remains,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "F" = (
 /obj/structure/dead_ratvar,
 /turf/open/floor/clockwork{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
 "G" = (
 /obj/item/stack/tile/brass/fifty,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/unexplored)
+/area/external/mining/lavaland/explored)
+"N" = (
+/turf/open/lava/smooth/lava_land_surface)
 
 (1,1,1) = {"
 a
@@ -870,7 +872,7 @@ b
 l
 l
 l
-l
+N
 l
 l
 l

@@ -3,7 +3,7 @@
 /obj/effect/decal/cleanable/oil,
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "bN" = (
 /obj/machinery/light/broken{
 	dir = 1
@@ -13,11 +13,11 @@
 /obj/item/pickaxe,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "bQ" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "bT" = (
 /obj/machinery/computer{
 	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
@@ -26,46 +26,46 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "da" = (
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "dw" = (
 /obj/structure/rack,
 /obj/item/mining_scanner,
 /obj/item/mining_scanner,
 /obj/item/mining_scanner,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "dQ" = (
 /obj/effect/decal/cleanable/glass,
 /obj/machinery/mecha_part_fabricator/ruin,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "fy" = (
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "gl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/rnd/production/protolathe,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "gU" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "hk" = (
 /obj/effect/mob_spawn/human/golem/adamantine,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "hB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "hD" = (
 /obj/structure/closet{
 	anchored = 1;
@@ -82,14 +82,14 @@
 /obj/item/card/id/mining,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "hQ" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "hV" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -100,18 +100,18 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "hY" = (
 /obj/machinery/mineral/equipment_vendor/golem,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "ig" = (
 /obj/machinery/shower,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "iK" = (
 /turf/template_noop,
 /area/template_noop)
@@ -121,36 +121,36 @@
 /obj/effect/decal/cleanable/glass,
 /obj/item/storage/pill_bottle/charcoal,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "kD" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/shreds,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "kX" = (
 /obj/machinery/computer/rdconsole/nolock/ruin,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "lK" = (
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "mL" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "mY" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "na" = (
 /obj/machinery/light/built,
 /obj/structure/frame/machine,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "nO" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -159,7 +159,7 @@
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "oz" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -168,11 +168,11 @@
 	pixel_x = -24
 	},
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "pc" = (
 /obj/machinery/mineral/ore_redemption,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "po" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -181,7 +181,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "pq" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/head/crown{
@@ -192,40 +192,39 @@
 	pixel_y = -1
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "pJ" = (
 /obj/structure/ore_box,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "pO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "pT" = (
 /obj/machinery/autolathe,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "qQ" = (
 /obj/structure/grille,
 /obj/structure/window/shuttle/survival_pod,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "rh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/shreds,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "sm" = (
-/turf/template_noop,
-/area/ruin/powered/golem_ship)
+/turf/template_noop)
 "sJ" = (
 /obj/structure/ore_box,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "tx" = (
 /obj/structure/table/reinforced,
 /obj/item/cautery{
@@ -233,87 +232,87 @@
 	},
 /obj/item/surgicaldrill,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "ty" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
 /obj/structure/frame/machine,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "uc" = (
 /obj/machinery/computer/operating{
 	dir = 4
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "uf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/robot_debris/old,
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "uw" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "uB" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "vO" = (
 /obj/structure/frame/machine,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "wZ" = (
 /obj/effect/mob_spawn/human/golem/adamantine,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "xc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "xz" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "yp" = (
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "yu" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "zE" = (
 /obj/structure/frame/computer{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "zO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/storage/pill_bottle/libi,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "zV" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light,
 /obj/item/surgical_drapes,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Au" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -321,17 +320,17 @@
 	},
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "AH" = (
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "AU" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "AY" = (
 /obj/structure/table/reinforced,
 /obj/item/scalpel{
@@ -340,57 +339,57 @@
 /obj/item/retractor,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Bg" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "BF" = (
 /obj/structure/rack,
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ci" = (
 /obj/structure/rack,
 /obj/item/storage/pill_bottle/aiur,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "CE" = (
 /obj/structure/sign/mining,
 /turf/closed/wall/mineral/titanium/survival/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "CI" = (
 /obj/machinery/light/built{
 	dir = 4
 	},
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Do" = (
 /obj/machinery/light/broken{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Dq" = (
 /obj/effect/mob_spawn/human/golem/adamantine,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Dw" = (
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/surgery,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "ER" = (
 /obj/structure/frame/machine,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "EV" = (
 /obj/machinery/light/broken{
 	dir = 1
@@ -401,25 +400,25 @@
 /obj/item/shovel,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Fe" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ff" = (
 /obj/machinery/computer/arcade,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "FC" = (
 /obj/structure/shuttle/engine/huge{
 	dir = 4
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "FL" = (
 /obj/machinery/light{
 	dir = 4
@@ -429,7 +428,7 @@
 	dir = 1
 	},
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "FM" = (
 /obj/structure/closet{
 	anchored = 1;
@@ -445,14 +444,14 @@
 /obj/item/flashlight/lantern,
 /obj/item/card/id/mining,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "FQ" = (
 /obj/structure/frame/computer{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "GD" = (
 /obj/structure/table/reinforced,
 /obj/item/areaeditor/blueprints{
@@ -460,13 +459,13 @@
 	name = "land claim"
 	},
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Hp" = (
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ht" = (
 /turf/closed/wall/mineral/titanium/survival/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Hv" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -474,23 +473,23 @@
 	},
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "HQ" = (
 /obj/machinery/computer/shuttle{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Iu" = (
 /obj/structure/frame/computer,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "ID" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Jj" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -500,17 +499,17 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Kp" = (
 /obj/structure/table/optable,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ku" = (
 /obj/machinery/light/small/broken{
 	dir = 4
 	},
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Lh" = (
 /obj/structure/rack,
 /obj/item/vending_refill/hydroseeds{
@@ -523,24 +522,24 @@
 /obj/item/shovel/spade,
 /obj/item/cultivator,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ls" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "LB" = (
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "LI" = (
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "LU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/shreds,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "LX" = (
 /obj/machinery/computer{
 	desc = "A computer long since rendered non-functional due to lack of maintenance. Spitting out error messages.";
@@ -550,35 +549,35 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "MH" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "MQ" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "MR" = (
 /obj/structure/statue/gold/rd,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "MV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Nj" = (
 /obj/structure/table_frame,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Oj" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -587,39 +586,39 @@
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ol" = (
 /obj/item/resonator,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ox" = (
 /obj/structure/frame/machine,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "OL" = (
 /obj/item/resonator,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "OZ" = (
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ph" = (
 /obj/item/disk/design_disk/golem_shell,
 /obj/structure/table/reinforced,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Pr" = (
 /obj/structure/chair/office/dark{
 	dir = 8
 	},
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Pt" = (
 /obj/machinery/light/broken{
 	dir = 4
@@ -627,45 +626,45 @@
 /obj/effect/decal/cleanable/glass,
 /obj/structure/chair/office/dark,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Pu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Pz" = (
 /obj/machinery/light/broken{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/glass,
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "PC" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "PN" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Qd" = (
 /obj/item/resonator,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Qu" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Rk" = (
 /obj/effect/decal/cleanable/shreds,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "RO" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -673,31 +672,31 @@
 	},
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Sb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "SR" = (
 /obj/machinery/light/small/broken{
 	dir = 8
 	},
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Ud" = (
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/survival_pod/glass,
 /turf/open/floor/pod,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "UB" = (
 /obj/structure/table/reinforced,
 /obj/item/circular_saw,
 /obj/item/hemostat,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "UY" = (
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/research_and_development{
@@ -714,12 +713,12 @@
 	},
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Vd" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Vu" = (
 /obj/structure/rack,
 /obj/item/flashlight/lantern,
@@ -727,7 +726,7 @@
 /obj/item/flashlight/lantern,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Wd" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light,
@@ -735,35 +734,35 @@
 /obj/item/soap/nanotrasen,
 /obj/item/soap/nanotrasen,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "We" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical,
 /obj/item/storage/box/lights/mixed,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "WR" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "Xc" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/template_noop,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "XR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "YA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "YL" = (
 /obj/structure/sink{
 	pixel_y = 28
@@ -771,11 +770,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 "YP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/pod/dark,
-/area/ruin/powered/golem_ship)
+/area/ruins/lavaland/powered/golem_ship)
 
 (1,1,1) = {"
 iK
@@ -1275,9 +1274,9 @@ iK
 iK
 iK
 iK
-sm
-sm
-sm
+iK
+iK
+iK
 iK
 iK
 "}

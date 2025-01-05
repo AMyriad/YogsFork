@@ -4,27 +4,27 @@
 /area/template_noop)
 "b" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "c" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "d" = (
 /turf/closed/wall/mineral/titanium/interior,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "e" = (
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "f" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "g" = (
 /obj/item/ammo_casing/a762,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "h" = (
 /obj/effect/decal/cleanable/xenoblood,
 /obj/machinery/light{
@@ -32,79 +32,79 @@
 	},
 /obj/item/tank/internals/oxygen,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "i" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "j" = (
 /turf/closed/wall/mineral/titanium,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "k" = (
 /obj/structure/chair,
 /mob/living/simple_animal/hostile/alien/sentinel,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "l" = (
 /obj/structure/chair,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "m" = (
 /obj/effect/decal/cleanable/blood,
 /obj/item/chair,
 /obj/effect/mob_spawn/human/corpse/syndicatesoldier,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "n" = (
 /obj/item/trash/syndi_cakes,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "o" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "p" = (
 /obj/effect/decal/cleanable/xenoblood,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "q" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "r" = (
 /obj/machinery/light{
 	dir = 8;
 	icon_state = "tube1"
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "s" = (
 /obj/item/chair,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "t" = (
 /obj/structure/closet/crate,
 /obj/item/clothing/glasses/meson/night,
 /obj/item/toy/nuke,
 /obj/item/toy/figure/syndie,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "v" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/template_noop,
-/area/ruin/powered)
+/area/template_noop)
 "w" = (
 /obj/structure/shuttle/engine/platform,
 /turf/closed/wall/mineral/titanium,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "E" = (
 /obj/structure/table,
 /turf/open/floor/mineral/plastitanium/red/brig,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 
 (1,1,1) = {"
 a

@@ -8,65 +8,65 @@
 	dir = 1
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "b" = (
 /obj/structure/mineral_door/transparent/diamond{
 	sheetAmount = 1
 	},
 /turf/open/floor/mineral/gold,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "c" = (
 /obj/item/hatchet,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "d" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "e" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "f" = (
 /mob/living/simple_animal/hostile/retaliate/goat,
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "g" = (
 /obj/effect/decal/cleanable/blood/old,
 /mob/living/simple_animal/hostile/retaliate/goat,
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "h" = (
 /turf/closed/wall/mineral/gold,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "i" = (
 /obj/structure/bonfire/prelit,
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "j" = (
 /obj/structure/bonfire/prelit,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "k" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /obj/structure/stone_tile,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "m" = (
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "n" = (
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "o" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "p" = (
 /turf/template_noop,
 /area/template_noop)
@@ -74,19 +74,19 @@
 /obj/effect/decal/cleanable/blood/old,
 /mob/living/simple_animal/hostile/retaliate/goat,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "r" = (
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "s" = (
 /turf/closed/wall/r_wall/rust,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "t" = (
 /obj/structure/mineral_door/iron,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "u" = (
 /obj/structure/ladder/unbreakable{
 	desc = "This seems to be the ladder to the King of Goats lair. Looks to be a one way trip...";
@@ -99,53 +99,59 @@
 	name = "kinggoat"
 	},
 /turf/open/floor/mineral/diamond,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "v" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/mineral/diamond,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "x" = (
 /mob/living/simple_animal/hostile/retaliate/goat,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "y" = (
 /obj/structure/mineral_door/silver,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
+"z" = (
+/turf/template_noop,
+/area/external/mining/lavaland/explored)
+"A" = (
+/turf/closed/mineral/volcanic/lava_land_surface,
+/area/ruins/lavaland/powered/kinggoat_lair)
 "B" = (
 /obj/item/paper/crumpled{
 	info = "Lest ye be prepared, abandon all hope ye who enter here.";
 	name = "Wise Man's Warning"
 	},
 /turf/open/floor/mineral/gold,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "C" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/mob_spawn/human/miner,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "D" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "E" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "F" = (
 /obj/structure/stone_tile{
 	dir = 1
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "G" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/melee/spear,
 /mob/living/simple_animal/hostile/retaliate/goat,
 /turf/open/floor/wood,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "H" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "I" = (
 /obj/structure/stone_tile{
 	dir = 8
@@ -157,23 +163,23 @@
 	dir = 1
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "J" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "K" = (
 /obj/structure/stone_tile{
 	dir = 4
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "L" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "M" = (
 /obj/structure/stone_tile{
 	dir = 1
@@ -183,53 +189,55 @@
 	},
 /obj/structure/stone_tile,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "N" = (
 /turf/closed/wall/r_wall,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "O" = (
 /obj/structure/bonfire/prelit,
 /turf/open/floor/wood,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "P" = (
 /turf/open/floor/mineral/gold,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "Q" = (
 /obj/structure/stone_tile/slab/burnt,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "R" = (
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "S" = (
 /turf/open/floor/mineral/diamond,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "T" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
 	},
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "U" = (
 /turf/closed/wall/mineral/silver,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "V" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "W" = (
 /turf/open/floor/wood,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
+"X" = (
+/turf/open/lava/smooth/lava_land_surface)
 "Y" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 "Z" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/mob_spawn/human/miner,
 /turf/open/floor/carpet/cyan,
-/area/ruin/powered/kinggoatlair)
+/area/ruins/lavaland/powered/kinggoat_lair)
 
 (1,1,1) = {"
 p
@@ -399,7 +407,7 @@ O
 W
 W
 s
-H
+A
 D
 D
 o
@@ -609,7 +617,7 @@ x
 (16,1,1) = {"
 p
 p
-p
+z
 H
 H
 s
@@ -633,7 +641,7 @@ o
 "}
 (17,1,1) = {"
 p
-D
+X
 D
 D
 H
@@ -658,7 +666,7 @@ o
 "}
 (18,1,1) = {"
 p
-D
+X
 D
 D
 H
@@ -683,7 +691,7 @@ p
 "}
 (19,1,1) = {"
 p
-D
+X
 D
 D
 H
@@ -708,7 +716,7 @@ p
 "}
 (20,1,1) = {"
 p
-D
+X
 D
 H
 H

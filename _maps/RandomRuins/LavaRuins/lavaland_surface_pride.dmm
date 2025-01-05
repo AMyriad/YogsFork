@@ -1,28 +1,28 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "b" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "c" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "e" = (
 /obj/structure/mirror{
 	pixel_x = -32
 	},
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "f" = (
 /obj/structure/mirror{
 	pixel_x = 32
 	},
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "g" = (
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "j" = (
 /obj/structure/mirror{
 	pixel_x = -32
@@ -31,7 +31,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "k" = (
 /obj/structure/mirror{
 	pixel_x = 32
@@ -40,7 +40,7 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "l" = (
 /obj/structure/mirror{
 	pixel_x = -32
@@ -50,7 +50,7 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "m" = (
 /obj/structure/mirror{
 	pixel_x = 32
@@ -59,23 +59,23 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "r" = (
 /obj/machinery/light/small,
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "x" = (
 /obj/structure/fans/tiny/invisible,
 /obj/machinery/door/airlock/diamond,
 /turf/open/floor/mineral/silver,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "G" = (
 /turf/closed/wall/mineral/diamond,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 "O" = (
 /obj/structure/mirror/magic/pride,
 /turf/closed/wall/mineral/diamond,
-/area/ruin/powered/pride)
+/area/ruins/lavaland/powered/sin/pride)
 
 (1,1,1) = {"
 a

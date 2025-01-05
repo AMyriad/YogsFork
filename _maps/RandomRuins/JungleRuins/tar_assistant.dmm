@@ -11,34 +11,34 @@
 	dir = 8
 	},
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "j" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "p" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "x" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "y" = (
 /obj/structure/stone_tile/surrounding,
 /obj/structure/tar_assistant_spawner,
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "z" = (
 /obj/structure/stone_tile/block,
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "M" = (
 /obj/structure/stone_tile{
 	dir = 1
@@ -50,7 +50,7 @@
 	dir = 4
 	},
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "S" = (
 /obj/structure/stone_tile{
 	dir = 1
@@ -60,7 +60,7 @@
 	},
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "U" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -70,7 +70,7 @@
 	dir = 1
 	},
 /turf/open/water/smooth/tar_basin,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 a

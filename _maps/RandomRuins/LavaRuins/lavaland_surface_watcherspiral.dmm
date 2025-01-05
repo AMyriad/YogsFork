@@ -1,40 +1,40 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "b" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "c" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "d" = (
 /turf/closed/wall/mineral/sandstone,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "e" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "f" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher{
 	environment_smash = 0;
 	wander = 0
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "g" = (
 /obj/structure/closet/crate/necropolis/tendril{
 	anchored = 1
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "h" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "i" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 
 (1,1,1) = {"
 a

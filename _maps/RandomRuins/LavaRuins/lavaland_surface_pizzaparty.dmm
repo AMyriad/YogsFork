@@ -4,14 +4,14 @@
 /area/template_noop)
 "b" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "c" = (
 /obj/structure/lattice,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "d" = (
 /turf/closed/wall,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "e" = (
 /obj/machinery/light{
 	dir = 4
@@ -21,65 +21,65 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "g" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "h" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/a_gift,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "i" = (
 /obj/structure/glowshroom/single,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "j" = (
 /obj/item/reagent_containers/food/snacks/pizzaslice/mushroom,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "k" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/pizzaslice/margherita,
 /obj/item/trash/plate,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "l" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "m" = (
 /obj/structure/table/wood,
 /obj/item/trash/plate,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "n" = (
 /obj/structure/glowshroom/single,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "o" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/cups,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "p" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/pizzaparty,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "q" = (
 /obj/item/chair/wood/wings,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "r" = (
 /obj/structure/reagent_dispensers/water_cooler{
 	name = "punch cooler";
@@ -87,58 +87,58 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "t" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "u" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/pizzaslice/meat,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "v" = (
 /obj/structure/lattice,
 /obj/item/chair/wood/wings,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "w" = (
 /obj/structure/table/wood,
 /obj/item/trash/plate,
 /obj/item/kitchen/fork,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "x" = (
 /obj/structure/glowshroom/single,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "y" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "z" = (
 /obj/item/kitchen/knife,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "A" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/store/cake/birthday,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "B" = (
 /obj/item/trash/plate,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "C" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "D" = (
 /obj/structure/chair/wood/wings,
 /obj/effect/decal/remains/human,
@@ -147,63 +147,67 @@
 	name = "party hat"
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
+"F" = (
+/obj/structure/lattice,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruins/lavaland/unpowered/generic)
 "G" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "H" = (
 /obj/item/chair/wood/wings,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "K" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/pizzaparty,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "L" = (
 /obj/structure/chair/wood/wings,
 /obj/effect/decal/remains/human,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "M" = (
 /obj/item/kitchen/fork,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "N" = (
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "O" = (
 /obj/item/chair/wood/wings,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "P" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Q" = (
 /obj/item/kitchen/fork,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "T" = (
 /obj/structure/table/wood,
 /obj/structure/glowshroom/single,
 /obj/item/a_gift,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "U" = (
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "W" = (
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "X" = (
 /obj/structure/chair/wood/wings{
 	dir = 1
@@ -211,11 +215,11 @@
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Z" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 
 (1,1,1) = {"
 a
@@ -327,7 +331,7 @@ o
 i
 C
 C
-c
+F
 t
 h
 t

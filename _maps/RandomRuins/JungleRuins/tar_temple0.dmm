@@ -5,45 +5,45 @@
 "b" = (
 /obj/structure/stone_tile/slab,
 /turf/open/indestructible/boss/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "c" = (
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "d" = (
 /obj/structure/stone_tile/slab,
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "f" = (
 /turf/closed/indestructible/riveted/boss,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "g" = (
 /obj/structure/stone_tile/slab,
 /obj/structure/mineral_door/wood,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "h" = (
 /obj/structure/stone_tile/slab/cracked{
 	dir = 6
 	},
 /turf/open/indestructible/necropolis/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "i" = (
 /obj/structure/stone_tile/slab,
 /mob/living/simple_animal/hostile/tar/dryad,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "l" = (
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "m" = (
 /obj/structure/stone_tile/slab,
 /obj/structure/mineral_door/wood,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "o" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
@@ -55,31 +55,31 @@
 	dir = 8
 	},
 /turf/open/indestructible/boss/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "t" = (
 /obj/structure/stone_tile/slab,
 /obj/structure/stone_tile/slab,
 /obj/structure/bonfire/prelit,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "u" = (
 /obj/structure/stone_tile/slab/cracked,
 /mob/living/simple_animal/hostile/tar/dryad,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "v" = (
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/indestructible/necropolis/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "x" = (
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/indestructible/boss/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "z" = (
 /obj/structure/stone_tile/slab,
 /obj/effect/gibspawner/human,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "A" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
@@ -92,7 +92,7 @@
 	},
 /obj/structure/fluff/tarstatue,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "B" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
@@ -105,12 +105,12 @@
 	},
 /mob/living/simple_animal/hostile/tar/dryad,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "E" = (
 /obj/structure/stone_tile/slab/cracked,
 /obj/effect/gibspawner/human,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "F" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
@@ -123,17 +123,17 @@
 	},
 /obj/structure/bonfire/prelit,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "G" = (
 /obj/structure/stone_tile/slab/cracked,
 /mob/living/simple_animal/hostile/tar/shade,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "H" = (
 /obj/structure/stone_tile/slab,
 /mob/living/simple_animal/hostile/tar/amalgamation,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "I" = (
 /obj/structure/stone_tile/slab/cracked{
 	dir = 4;
@@ -143,17 +143,17 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "J" = (
 /obj/structure/stone_tile/slab,
 /turf/open/indestructible/necropolis/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "M" = (
 /obj/structure/stone_tile/surrounding,
 /obj/structure/fluff/divine/convertaltar,
 /obj/item/tar_crystal,
 /turf/open/indestructible/necropolis/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "N" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
@@ -165,31 +165,31 @@
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "O" = (
 /obj/structure/stone_tile/slab/cracked,
 /obj/structure/bonfire/prelit,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "P" = (
 /obj/structure/stone_tile/slab/cracked{
 	dir = 5
 	},
 /turf/open/indestructible/necropolis/air,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "R" = (
 /obj/structure/stone_tile/slab,
 /obj/structure/stone_tile/slab,
 /mob/living/simple_animal/hostile/tar/amalgamation,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "S" = (
 /obj/structure/stone_tile/slab,
 /obj/structure/mineral_door/wood,
 /obj/structure/barricade/wooden/crude,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "T" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
@@ -202,17 +202,17 @@
 	},
 /mob/living/simple_animal/hostile/tar/amalgamation,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "X" = (
 /obj/structure/stone_tile/slab,
 /mob/living/simple_animal/hostile/tar/shade,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "Z" = (
 /obj/structure/stone_tile/slab,
 /obj/structure/bonfire/prelit,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 
 (1,1,1) = {"
 f

@@ -5,13 +5,13 @@
 	blocks_air = 0;
 	slowdown = 10
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "e" = (
 /turf/open/floor/sepia{
 	blocks_air = 0;
 	slowdown = 10
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "f" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -19,21 +19,21 @@
 	blocks_air = 0;
 	slowdown = 10
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "g" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "n" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "q" = (
 /obj/item/coin/iron,
 /turf/open/floor/sepia{
 	blocks_air = 0;
 	slowdown = 10
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "y" = (
 /obj/structure/table/wood,
 /obj/item/paper/fluff/stations/lavaland/sloth,
@@ -41,7 +41,7 @@
 	blocks_air = 0;
 	slowdown = 10
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "E" = (
 /obj/item/trash/syndi_cakes,
 /obj/item/trash/chips{
@@ -56,7 +56,7 @@
 	blocks_air = 0;
 	slowdown = 10
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "M" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock{
@@ -67,7 +67,7 @@
 	blocks_air = 0;
 	slowdown = 10
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 
 (1,1,1) = {"
 g

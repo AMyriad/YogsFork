@@ -4,34 +4,37 @@
 /area/template_noop)
 "ab" = (
 /turf/closed/indestructible/rock,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "ae" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 6;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "as" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark/lavaland,
+/area/ruins/lavaland/unpowered/generic)
 "at" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "aE" = (
 /obj/machinery/door/airlock/highsecurity,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aF" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "aP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/indestructible/rock,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "ba" = (
-/turf/closed/indestructible/rock,
-/area/ruin/unpowered)
+/turf/open/floor/plasteel/dark/lavaland,
+/area/external/mining/lavaland/explored)
 "bg" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/gibs/body,
@@ -41,33 +44,35 @@
 	},
 /obj/effect/mob_spawn/human/corpse/damaged,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "bk" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "bm" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors/explored)
+/area/external/mining/lavaland/explored)
 "bv" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bW" = (
 /obj/effect/decal/cleanable/blood,
 /mob/living/simple_animal/hostile/abomination/super,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bY" = (
-/obj/structure/frame/computer,
+/obj/structure/frame/computer{
+	dir = 8
+	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -79,7 +84,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cd" = (
 /obj/machinery/door/airlock/glass{
 	name = "Staff Room"
@@ -89,7 +94,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cq" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 1;
@@ -97,7 +102,7 @@
 	},
 /obj/item/ammo_casing/shotgun/buckshot,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cu" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/blue,
@@ -105,49 +110,49 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cz" = (
 /obj/item/ammo_casing/shotgun/buckshot,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cJ" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/item/ammo_casing/c9mm,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "dl" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "do" = (
 /obj/item/stack/cable_coil/yellow,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ds" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/bulletproof,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "dD" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ee" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "eG" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "eP" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -157,16 +162,16 @@
 	},
 /mob/living/simple_animal/hostile/abomination/altform3,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "eX" = (
 /obj/structure/table/reinforced,
 /obj/item/pizzabox/infinite,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ff" = (
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "fs" = (
 /obj/machinery/light{
 	dir = 4;
@@ -177,18 +182,18 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "fG" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "fI" = (
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "fX" = (
 /obj/structure/sign/warning/radiation,
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gw" = (
 /obj/structure/table/glass,
 /obj/item/clothing/mask/cigarette,
@@ -198,27 +203,27 @@
 	},
 /obj/item/reagent_containers/food/drinks/coffee,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gF" = (
 /obj/structure/table,
 /obj/item/soap/infinite,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gG" = (
 /obj/structure/sign/warning/biohazard,
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gM" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gP" = (
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gQ" = (
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gS" = (
 /obj/structure/chair{
 	dir = 4
@@ -228,21 +233,21 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hc" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hw" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/mob_spawn/human/corpse/damaged,
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hy" = (
 /obj/effect/decal/cleanable/dirt{
 	desc = "A thin layer of dust coating the floor.";
@@ -251,12 +256,12 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hD" = (
 /turf/open/floor/plasteel/cult{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hL" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -268,7 +273,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hU" = (
 /obj/item/shard{
 	icon_state = "small"
@@ -277,18 +282,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "if" = (
 /obj/structure/rack,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "im" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/drinks/britcup,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "in" = (
 /obj/structure/closet/wardrobe/science_white,
 /obj/effect/turf_decal/tile/blue,
@@ -296,38 +301,38 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "jk" = (
 /obj/structure/closet/l3closet,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "jU" = (
 /obj/structure/rack,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "kh" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ki" = (
 /obj/structure/girder/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ky" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "kE" = (
 /obj/item/trash/chips,
 /obj/effect/turf_decal/tile/blue,
@@ -335,16 +340,16 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "kP" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/table,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "kU" = (
 /obj/structure/barricade/security,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lb" = (
 /obj/machinery/washing_machine,
 /obj/effect/turf_decal/tile/blue{
@@ -352,7 +357,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lz" = (
 /obj/structure/sign/directions/security{
 	dir = 1;
@@ -361,40 +366,56 @@
 	pixel_y = 40
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lN" = (
 /obj/structure/sign/departments/science,
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "mi" = (
 /obj/effect/turf_decal/stripes{
 	dir = 4;
 	icon_state = "warningline"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "mt" = (
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "mS" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "nT" = (
 /obj/structure/sink,
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
+"oa" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark/lavaland,
+/area/ruins/lavaland/unpowered/generic)
 "or" = (
 /obj/machinery/vending/coffee,
 /obj/effect/turf_decal/tile/blue,
@@ -402,12 +423,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "os" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "oT" = (
 /obj/structure/sign/directions/medical{
 	dir = 4;
@@ -418,16 +438,16 @@
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "pq" = (
 /turf/closed/wall/r_wall/syndicate,
-/area/lavaland/surface)
+/area/ruins/lavaland/unpowered/generic)
 "pI" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/fire,
 /obj/item/extinguisher,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "pL" = (
 /obj/machinery/power/floodlight,
 /obj/effect/turf_decal/stripes{
@@ -437,7 +457,7 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "pS" = (
 /obj/item/trash/raisins,
 /obj/effect/turf_decal/tile/blue,
@@ -445,7 +465,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "pT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/rods{
@@ -454,13 +474,13 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qh" = (
 /obj/structure/rack,
 /obj/item/assembly/flash,
 /obj/item/assembly/flash,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qm" = (
 /obj/effect/decal/cleanable/dirt{
 	desc = "A thin layer of dust coating the floor.";
@@ -474,13 +494,13 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qr" = (
 /obj/structure/girder/displaced,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qF" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8;
@@ -489,26 +509,26 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qH" = (
 /obj/structure/sign/directions/evac{
 	dir = 8;
 	icon_state = "direction_evac"
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "qV" = (
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ra" = (
 /obj/item/ammo_casing/c9mm,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rj" = (
 /mob/living/simple_animal/hostile/abomination/altform4,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rA" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
@@ -517,12 +537,11 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rC" = (
-/obj/structure/grille,
-/obj/structure/window/fulltile,
+/obj/effect/spawner/structure/window,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rH" = (
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
@@ -530,17 +549,17 @@
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rM" = (
 /mob/living/simple_animal/hostile/abomination/super,
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rW" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "sn" = (
 /obj/structure/chair{
 	dir = 8
@@ -550,12 +569,12 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "sw" = (
 /obj/structure/grille,
 /obj/item/shard,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "sS" = (
 /obj/machinery/light{
 	dir = 8
@@ -565,15 +584,15 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "tk" = (
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "tn" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/abomination/altform2,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "tu" = (
 /obj/machinery/computer/arcade,
 /obj/effect/turf_decal/tile/blue,
@@ -581,33 +600,33 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "tD" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "tK" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 1;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "tO" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ui" = (
 /obj/structure/rack,
 /obj/item/grenade/barrier,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "uv" = (
 /obj/item/ammo_casing/n762,
 /mob/living/simple_animal/hostile/abomination,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "uL" = (
 /obj/item/clothing/suit/cultrobes,
 /obj/item/clothing/head/culthood,
@@ -615,7 +634,7 @@
 /turf/open/floor/plasteel/cult{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "vE" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -625,45 +644,45 @@
 	},
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "wA" = (
 /obj/machinery/atmospherics/components/unary/tank/air,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "wC" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "wX" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "xk" = (
 /obj/structure/girder/displaced,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "xz" = (
 /obj/structure/table/reinforced,
 /obj/item/melee/baton/loaded{
 	pixel_x = 2
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "xE" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "xO" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "xW" = (
 /obj/item/stack/rods,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -673,21 +692,21 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "yj" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "yl" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
 	icon_state = "tracks"
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "yv" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10;
@@ -697,11 +716,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "yR" = (
 /obj/machinery/door/poddoor/shutters,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "yW" = (
 /obj/structure/table,
 /obj/item/hand_labeler,
@@ -716,12 +735,12 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "zH" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "zM" = (
 /obj/effect/decal/cleanable/dirt{
 	desc = "A thin layer of dust coating the floor.";
@@ -732,21 +751,21 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ag" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ai" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/rods,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "AI" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -754,14 +773,14 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Bj" = (
 /obj/item/stack/rods,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Bq" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/turf_decal/tile/blue,
@@ -769,7 +788,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Bs" = (
 /obj/machinery/vending/cola,
 /obj/machinery/light,
@@ -778,11 +797,11 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Bt" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "BS" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -791,15 +810,15 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ca" = (
 /obj/structure/sign/directions/engineering,
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "CJ" = (
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "DL" = (
 /obj/machinery/status_display,
 /obj/effect/turf_decal/tile/blue,
@@ -807,20 +826,20 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ed" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/tree,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Er" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/electrical,
 /obj/item/storage/box/lights/mixed,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "EW" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -831,23 +850,23 @@
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Fd" = (
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "FJ" = (
 /obj/structure/frame/computer,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "FR" = (
 /obj/item/ammo_casing/c9mm,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "FW" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/gas,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "FX" = (
 /obj/structure/bedsheetbin,
 /obj/structure/table,
@@ -856,10 +875,10 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Gf" = (
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "Gz" = (
 /obj/structure/girder/reinforced,
 /obj/effect/decal/cleanable/dirt{
@@ -869,11 +888,11 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Hc" = (
 /obj/structure/sign/warning/xeno_mining,
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Hv" = (
 /obj/machinery/vending/cigarette,
 /obj/effect/turf_decal/tile/blue,
@@ -881,7 +900,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "HO" = (
 /obj/structure/girder/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -889,17 +908,17 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "HQ" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Iy" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 8
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "IH" = (
 /obj/structure/frame/computer,
 /obj/effect/turf_decal/stripes{
@@ -907,11 +926,11 @@
 	icon_state = "warningline"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "IO" = (
 /obj/effect/decal/cleanable/robot_debris/gib,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "KA" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/tile/blue,
@@ -921,20 +940,20 @@
 /obj/item/paper_bin,
 /obj/item/pen/fountain,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "KY" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "LW" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "Me" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -942,7 +961,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Mz" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/blue,
@@ -952,7 +971,7 @@
 /obj/item/storage/box/donkpockets,
 /obj/item/storage/box/donkpockets,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ME" = (
 /obj/machinery/washing_machine,
 /obj/machinery/light,
@@ -961,12 +980,12 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "MP" = (
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "Ni" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8;
@@ -975,7 +994,7 @@
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "NB" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5;
@@ -985,7 +1004,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "NH" = (
 /obj/machinery/doppler_array{
 	desc = "A rusty old machine.";
@@ -997,7 +1016,7 @@
 	name = "SEISMIC WARNING"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "NI" = (
 /mob/living/simple_animal/hostile/carp/eyeball{
 	health = 75;
@@ -1008,21 +1027,21 @@
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "NX" = (
 /obj/structure/sign/directions/evac{
 	dir = 1;
 	icon_state = "direction_evac"
 	},
 /turf/closed/wall/r_wall/syndicate,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "NY" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/yogs/cluwne,
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Og" = (
 /obj/effect/decal/cleanable/dirt{
 	desc = "A thin layer of dust coating the floor.";
@@ -1036,7 +1055,7 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ok" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -1049,7 +1068,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Om" = (
 /obj/structure/girder/reinforced,
 /obj/effect/decal/cleanable/dirt{
@@ -1057,7 +1076,7 @@
 	name = "dust"
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ov" = (
 /obj/structure/table,
 /obj/machinery/microwave,
@@ -1066,14 +1085,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "OU" = (
 /obj/structure/table/reinforced,
 /obj/item/circuitboard/machine/cyborgrecharger,
 /obj/item/crowbar,
 /obj/item/weldingtool,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Pl" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/tile/blue,
@@ -1081,7 +1100,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "PU" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4;
@@ -1092,41 +1111,41 @@
 	icon_state = "warningline"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "PX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Qn" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "QI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/tile/plasteel,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "QP" = (
 /obj/machinery/door/airlock/science,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "QY" = (
 /obj/machinery/door/airlock/highsecurity,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Rf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Sj" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/turf_decal/tile/blue,
@@ -1140,15 +1159,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "SI" = (
 /obj/machinery/door/airlock/highsecurity,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "SR" = (
 /obj/structure/table,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "TG" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1157,24 +1176,24 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Uz" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "UR" = (
 /obj/machinery/door/airlock/highsecurity,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "US" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "UY" = (
 /obj/item/paper/scp_research{
 	info = "<b>AO-15:</b><br><br>Security: High <br>Info: Strange creature extracted from an old mining asteroid. Dark skin, piercing red eyes. Highly aggressive. Appears to be sentient. <br> <br><b>AO-16:</b><br><br>Security: Medium <br>Info: A hood and robes. Red colour. Emanates a dark-energy field that engraves all material near it with undeciphered patterns. Believed to be connected to the cult of <b>REDACTED</b> <br> <br><b>AO-17:</b><br><br>Security: Apollyon <br>Info: <b>REDACTED</b> has been linked to <b>REDACTED</b> not to be put on under any circumstances, including <b>REDACTED</b>. <i>CentCom note: Site 21 lacks required security measures. Transfer to site 11-X scheduled for <b>REDACTED</b>. <br> <br><i>Several paragraphs are covered with black highlighter...</i> <br> <br><b>AO-21:</b><br><br>Security: Low <br>Info: Ocular gland extracted from AO-6 during experiment EX-56b. Highly aggressive. After breach 91-A subject was neutralized with a solution of poisons. Subject is to be injected with the solution every half-hour to keep it in a semi-comatose state. Solution recipe stored at Site 11-X archives. <br> <br><i>The rest of the paper is covered in scribbles of strange symbols, made of dried blood.</i>"
@@ -1190,7 +1209,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Vc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -1198,7 +1217,7 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Vf" = (
 /obj/machinery/shower{
 	desc = "A showerhead found in school science labs and medbays alike, used to quickly wash off any dangerous fluids covering a person.";
@@ -1206,21 +1225,21 @@
 	pixel_y = 15
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "VD" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "VR" = (
 /obj/structure/rack,
 /obj/item/gun/energy/e_gun,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "VT" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Wo" = (
 /obj/structure/girder/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -1228,13 +1247,13 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Xx" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "XQ" = (
 /obj/machinery/vending/snack,
 /obj/effect/turf_decal/tile/blue,
@@ -1242,7 +1261,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "XV" = (
 /obj/structure/table/glass,
 /obj/effect/turf_decal/tile/blue,
@@ -1254,49 +1273,49 @@
 	name = "Status Report"
 	},
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Yc" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Yj" = (
 /obj/item/reagent_containers/food/snacks/deadmouse,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Yl" = (
 /obj/structure/rack,
 /obj/item/storage/box/handcuffs,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "YP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/analyzer,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Zf" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Zi" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ZN" = (
 /mob/living/simple_animal/hostile/abomination/altform1,
 /turf/open/floor/engine{
 	initial_gas_mix = "o2=14;n2=23;TEMP=300"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ZZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/white/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 
 (1,1,1) = {"
 aa
@@ -1549,7 +1568,7 @@ ab
 ab
 ab
 hy
-Gf
+pq
 ab
 ab
 ab
@@ -1599,9 +1618,9 @@ aa
 ab
 ab
 ab
-Gf
+pq
 hy
-Gf
+pq
 ab
 ab
 ab
@@ -1651,9 +1670,9 @@ ab
 ab
 ab
 ab
-Gf
+pq
 hy
-Gf
+pq
 ab
 ab
 ab
@@ -1684,7 +1703,7 @@ aa
 ab
 ab
 ab
-as
+aF
 at
 ab
 ab
@@ -1703,9 +1722,9 @@ ab
 ab
 ab
 ab
-Gf
+pq
 hy
-Gf
+pq
 ab
 ab
 aa
@@ -1739,12 +1758,12 @@ ab
 at
 at
 ab
-Gf
-Gf
+pq
+pq
 QY
 HQ
 rA
-Gf
+pq
 ab
 aa
 aa
@@ -1787,16 +1806,16 @@ aa
 aa
 ab
 ab
-as
+aF
 at
 ab
 ab
-Gf
+pq
 kP
 tk
 tk
 hc
-Gf
+pq
 ab
 ab
 ab
@@ -1838,25 +1857,25 @@ aa
 aa
 ab
 ab
-as
+aF
 at
 at
 ab
 ab
-Gf
+pq
 SR
 tk
 tk
 hc
-Gf
-ab
-ab
-ab
-ab
-ab
-ab
-ab
 pq
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+Gf
 ab
 ab
 ab
@@ -1890,35 +1909,35 @@ aa
 aa
 ab
 ab
-as
+aF
 at
 at
 ab
 ab
-Gf
+pq
 SR
 rj
 do
 dD
-Gf
-ab
-ab
-ab
-ab
-ab
 pq
 ab
 ab
 ab
+ab
+ab
 Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+ab
+ab
+ab
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
 ab
 ab
 "}
@@ -1942,17 +1961,17 @@ aa
 aa
 ab
 ab
-as
+aF
 at
 at
 ab
 ab
-Gf
+pq
 IH
 mi
 pL
 PU
-Gf
+pq
 ab
 ab
 ab
@@ -1962,7 +1981,7 @@ ab
 ab
 ab
 Gz
-Gf
+pq
 tu
 KY
 sS
@@ -1970,7 +1989,7 @@ KY
 KY
 sS
 Ov
-Gf
+pq
 ab
 ab
 "}
@@ -1999,22 +2018,22 @@ at
 at
 ab
 ab
-Gf
-Gf
+pq
+pq
 yR
 yR
 xW
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
+pq
+pq
 Gz
 qm
 zM
-Gf
+pq
 Hv
 KY
 gS
@@ -2022,7 +2041,7 @@ gS
 gS
 KY
 Mz
-Gf
+pq
 ab
 ab
 "}
@@ -2051,7 +2070,7 @@ at
 at
 ab
 ab
-Gf
+pq
 hy
 cH
 Fd
@@ -2074,7 +2093,7 @@ gw
 Pl
 KY
 or
-Gf
+pq
 ab
 ab
 "}
@@ -2126,7 +2145,7 @@ DL
 Pl
 KY
 Bs
-Gf
+pq
 ab
 ab
 "}
@@ -2148,7 +2167,7 @@ ab
 ab
 Gf
 ab
-as
+aF
 at
 at
 at
@@ -2178,7 +2197,7 @@ Pl
 Pl
 KY
 XQ
-Gf
+pq
 ab
 ab
 "}
@@ -2207,22 +2226,22 @@ at
 ab
 ab
 ab
-Gf
+pq
 ki
 cH
 cH
 ab
 Om
-Gf
-Gf
+pq
+pq
 qV
-Gf
-Gf
+pq
+pq
 qH
 Iy
 Iy
 Iy
-Gf
+pq
 Bq
 KY
 sn
@@ -2230,7 +2249,7 @@ sn
 sn
 pS
 in
-Gf
+pq
 ab
 ab
 "}
@@ -2255,26 +2274,26 @@ at
 at
 at
 at
-as
+aF
 ab
 ab
 ab
-Gf
+pq
 aP
 lA
 aP
 ab
-Gf
+pq
 wA
 Yj
 tk
 tk
 Er
-Gf
+pq
 Fd
 tk
 Fd
-Gf
+pq
 Bq
 KY
 fs
@@ -2282,7 +2301,7 @@ KY
 KY
 fs
 in
-Gf
+pq
 ab
 ab
 "}
@@ -2302,13 +2321,13 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
 at
-as
-as
+aF
+aF
 ab
 ab
 ab
@@ -2316,25 +2335,25 @@ ab
 ab
 ab
 ab
-Gf
+pq
 xE
 tk
 tk
 tk
 FW
-Gf
+pq
 Fd
 Fd
 tk
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
 ab
 ab
 "}
@@ -2353,14 +2372,14 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
 at
-as
-as
-as
+aF
+aF
+aF
 ab
 ab
 Gf
@@ -2368,17 +2387,17 @@ ab
 ab
 ab
 ab
-Gf
+pq
 eG
 NH
 FJ
 mS
 pI
-Gf
+pq
 Fd
 cH
 Fd
-Gf
+pq
 ab
 ab
 ab
@@ -2409,10 +2428,10 @@ at
 at
 at
 at
-as
-as
-as
-as
+aF
+aF
+aF
+aF
 ab
 ab
 Gf
@@ -2420,17 +2439,17 @@ ab
 ab
 ab
 ab
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
+pq
+pq
 jk
 Fd
 wX
-Gf
+pq
 ab
 ab
 ab
@@ -2460,11 +2479,11 @@ at
 at
 at
 at
-as
-as
-as
-as
-as
+aF
+aF
+aF
+aF
+aF
 ab
 ab
 ab
@@ -2478,12 +2497,12 @@ ab
 ab
 ab
 ab
-Gf
+pq
 gG
 QP
 fX
-Gf
-Gf
+pq
+pq
 ab
 ab
 ab
@@ -2511,10 +2530,10 @@ at
 at
 at
 at
-as
-as
-as
-as
+aF
+aF
+aF
+aF
 ab
 ab
 ab
@@ -2523,19 +2542,19 @@ ab
 ab
 ab
 ab
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
 ab
 ab
-Gf
+pq
 Vf
 fI
 fI
 lb
-Gf
+pq
 ab
 ab
 ab
@@ -2557,16 +2576,16 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
 at
-as
-as
-as
-as
-as
+aF
+aF
+aF
+aF
+aF
 ab
 ab
 ab
@@ -2575,7 +2594,7 @@ ab
 ab
 ab
 ab
-Gf
+pq
 US
 IO
 gP
@@ -2587,7 +2606,7 @@ fI
 fI
 fI
 ME
-Gf
+pq
 ab
 ab
 ab
@@ -2613,12 +2632,12 @@ at
 at
 at
 at
-as
-as
-as
-as
-as
-as
+aF
+aF
+aF
+aF
+aF
+aF
 ab
 ab
 ab
@@ -2634,12 +2653,12 @@ gP
 fG
 ab
 ab
-Gf
+pq
 gF
 fI
 ZZ
 FX
-Gf
+pq
 ab
 ab
 ab
@@ -2664,37 +2683,37 @@ ab
 at
 at
 at
-as
-as
-as
+aF
+aF
+aF
 ab
 ab
 ab
 ab
 ab
 ab
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
 gP
-Gf
-Gf
-Gf
+pq
+pq
+pq
 Hc
 QP
 lN
 Ca
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
 ab
 ab
 aa
@@ -2715,8 +2734,8 @@ ab
 at
 at
 at
-as
-as
+aF
+aF
 ab
 ab
 ab
@@ -2725,7 +2744,7 @@ ki
 ab
 ab
 ab
-Gf
+pq
 mt
 mt
 mt
@@ -2733,7 +2752,7 @@ mt
 mt
 mt
 mt
-Gf
+pq
 yj
 gP
 gP
@@ -2763,7 +2782,7 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
@@ -2777,7 +2796,7 @@ lA
 ab
 ab
 tk
-Gf
+pq
 mt
 mt
 mt
@@ -2785,7 +2804,7 @@ mt
 mt
 mt
 mt
-Gf
+pq
 gP
 gP
 rW
@@ -2815,10 +2834,10 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
-as
+aF
 ab
 ki
 lA
@@ -2826,10 +2845,10 @@ lA
 lA
 xO
 xO
-Gf
+pq
 tk
 tk
-Gf
+pq
 mt
 mt
 mt
@@ -2837,7 +2856,7 @@ mt
 mt
 mt
 mt
-Gf
+pq
 tk
 bW
 ff
@@ -2866,11 +2885,11 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
-as
+aF
 pq
 xO
 xO
@@ -2878,7 +2897,7 @@ EW
 xO
 xO
 mt
-Gf
+pq
 tk
 tk
 qr
@@ -2889,16 +2908,16 @@ NY
 mt
 mt
 mt
-Gf
+pq
 gP
 Bt
 VD
-Gf
-Gf
+pq
+pq
 sw
-ba
-ba
-ba
+ab
+ab
+ab
 ab
 ab
 ab
@@ -2922,7 +2941,7 @@ at
 at
 at
 at
-as
+aF
 pq
 mt
 mt
@@ -2930,7 +2949,7 @@ Ni
 mt
 mt
 mt
-Gf
+pq
 tk
 tk
 Zi
@@ -2941,7 +2960,7 @@ hw
 wC
 mt
 mt
-Gf
+pq
 Xx
 gP
 gQ
@@ -2966,15 +2985,15 @@ aa
 aa
 ab
 ab
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
 Zi
 at
-as
-as
+aF
+aF
 pq
 mt
 mt
@@ -2982,10 +3001,10 @@ Ni
 mt
 mt
 mt
-Gf
+pq
 tk
 bv
-Gf
+pq
 mt
 mt
 xO
@@ -2993,11 +3012,11 @@ mt
 wC
 mt
 mt
-Gf
+pq
 fG
 tk
 gQ
-Gf
+pq
 yW
 tk
 Ok
@@ -3018,15 +3037,15 @@ aa
 aa
 ab
 ab
-Gf
+pq
 if
 jU
 kU
 kU
 ee
-as
-as
-as
+aF
+aF
+aF
 pq
 mt
 mt
@@ -3034,10 +3053,10 @@ Ni
 mt
 mt
 mt
-Gf
+pq
 tk
 bv
-Gf
+pq
 rH
 mt
 mt
@@ -3045,11 +3064,11 @@ mt
 mt
 mt
 mt
-Gf
+pq
 lz
 tk
 gQ
-Gf
+pq
 tk
 Ok
 Ok
@@ -3070,41 +3089,41 @@ aa
 ab
 ab
 ab
-Gf
+pq
 VR
 hL
 TG
 TG
 ee
-as
-as
-as
-as
+aF
+aF
+aF
+aF
 Zi
 Zi
 qF
 Zi
 Zi
 Zi
-Gf
+pq
 qV
-ba
-Gf
-Gf
-Gf
-Gf
+ab
+pq
+pq
+pq
+pq
 SI
-Gf
-Gf
-Gf
+pq
+pq
+pq
 NX
 gP
 gP
 VD
-Gf
-bY
-bY
-bY
+pq
+oa
+oa
+oa
 bY
 im
 ab
@@ -3122,16 +3141,16 @@ aa
 ab
 ab
 ab
-Gf
+pq
 xz
 eP
 gP
 gP
 ee
 ee
-as
-as
-as
+aF
+aF
+aF
 LW
 LW
 NB
@@ -3139,21 +3158,21 @@ Qn
 yv
 LW
 LW
-gP
 ba
-ba
-ba
+ab
+ab
+ab
 xk
 Rf
 gP
-LW
-LW
-LW
-LW
+as
+as
+as
+as
 tk
 gP
 PX
-Gf
+pq
 os
 os
 os
@@ -3174,7 +3193,7 @@ aa
 ab
 ab
 ab
-Gf
+pq
 Me
 BS
 gP
@@ -3182,20 +3201,20 @@ gP
 gP
 ee
 UR
-as
-as
 aF
-gP
-gP
-gP
+aF
+aF
+ba
+ba
+ba
 MP
-gP
-gP
-gP
 ba
 ba
 ba
-ba
+ab
+ab
+ab
+ab
 Wo
 tn
 gP
@@ -3205,12 +3224,12 @@ gP
 gP
 fG
 fG
-Gf
+pq
 ab
-as
-as
-as
-as
+aF
+aF
+aF
+aF
 ab
 at
 at
@@ -3226,7 +3245,7 @@ aa
 ab
 ab
 ab
-Gf
+pq
 eX
 BS
 gP
@@ -3234,19 +3253,19 @@ gP
 gP
 gP
 ee
-as
-as
-as
-as
-Gf
-Gf
-Gf
-Gf
-ba
-ba
-ba
-ba
-ba
+aF
+aF
+aF
+aF
+pq
+pq
+pq
+pq
+ab
+ab
+ab
+ab
+ab
 lA
 lA
 fG
@@ -3257,12 +3276,12 @@ Yc
 lA
 Vc
 lA
-Gf
+pq
 ab
-as
-as
-as
-as
+aF
+aF
+aF
+aF
 at
 at
 ab
@@ -3278,7 +3297,7 @@ aa
 ab
 ab
 ab
-Gf
+pq
 if
 vE
 Uz
@@ -3287,33 +3306,33 @@ Uz
 Uz
 ee
 zH
-as
+aF
 Gf
-as
-Gf
+aF
+pq
 lA
 pT
 lA
 lA
 ab
 ab
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
 SI
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
 HO
 ab
 ab
 ab
 ab
 dl
-as
-as
+aF
+aF
 at
 at
 at
@@ -3330,18 +3349,18 @@ aa
 ab
 ab
 ab
-Gf
+pq
 if
 ds
 if
 ui
 qh
 Yl
-Gf
+pq
 at
-as
-as
-as
+aF
+aF
+aF
 aE
 QI
 lA
@@ -3349,7 +3368,7 @@ Ed
 lA
 ab
 ab
-Gf
+pq
 mt
 mt
 mt
@@ -3357,13 +3376,13 @@ mt
 mt
 mt
 oT
-Gf
+pq
 ab
 ab
 ab
 ab
-as
-as
+aF
+aF
 at
 at
 at
@@ -3382,18 +3401,18 @@ aa
 ab
 ab
 ab
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
 at
 at
-as
-as
+aF
+aF
 aP
 ab
 lA
@@ -3401,7 +3420,7 @@ Ai
 lA
 ab
 ab
-Gf
+pq
 mt
 mt
 hD
@@ -3409,12 +3428,12 @@ mt
 hD
 mt
 ZN
-Gf
+pq
 ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
@@ -3446,14 +3465,14 @@ at
 at
 at
 at
-as
+aF
 ab
 ab
 ab
-as
+aF
 ab
 ab
-Gf
+pq
 mt
 hD
 hD
@@ -3461,12 +3480,12 @@ hD
 hD
 mt
 mt
-Gf
+pq
 ab
 ab
 ab
-as
-as
+aF
+aF
 at
 at
 at
@@ -3499,13 +3518,13 @@ ab
 at
 at
 at
-as
+aF
 ab
 ab
 ab
 ab
 ab
-Gf
+pq
 mt
 rM
 hD
@@ -3513,12 +3532,12 @@ uL
 hD
 hD
 mt
-Gf
+pq
 ab
 ab
-as
-as
-as
+aF
+aF
+aF
 at
 at
 ab
@@ -3552,12 +3571,12 @@ ab
 at
 at
 at
-as
-as
+aF
+aF
 ab
 ab
 ab
-Gf
+pq
 ee
 mt
 hD
@@ -3565,11 +3584,11 @@ hD
 hD
 mt
 mt
-Gf
+pq
 ab
 ab
-as
-as
+aF
+aF
 at
 at
 at
@@ -3605,8 +3624,8 @@ ab
 at
 at
 at
-as
-as
+aF
+aF
 ab
 ab
 ab
@@ -3617,14 +3636,14 @@ mt
 hD
 hD
 mt
-Gf
+pq
 ab
 ab
-as
+aF
 at
 at
 at
-as
+aF
 ab
 aa
 aa
@@ -3654,11 +3673,11 @@ ab
 ab
 ab
 ab
-as
-as
+aF
+aF
 at
 at
-as
+aF
 ab
 ab
 ab
@@ -3669,10 +3688,10 @@ mt
 mt
 mt
 mt
-Gf
+pq
 ab
 ab
-as
+aF
 at
 at
 at
@@ -3707,8 +3726,8 @@ ab
 ab
 ab
 ab
-as
-as
+aF
+aF
 at
 at
 ab
@@ -3716,15 +3735,15 @@ ab
 ab
 ab
 ab
-Gf
-Gf
-Gf
-Gf
-Gf
-Gf
+pq
+pq
+pq
+pq
+pq
+pq
 ab
-as
-as
+aF
+aF
 at
 at
 ab
@@ -3760,22 +3779,22 @@ ab
 ab
 ab
 ab
-as
-as
+aF
+aF
 at
 ab
 ab
 ab
 ab
 ab
-as
-as
-as
-as
-as
-as
-as
-as
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
 at
 at
 ab
@@ -3813,18 +3832,18 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
 at
 at
 at
-as
+aF
 at
 at
 at
-as
+aF
 at
 at
 at
@@ -3866,7 +3885,7 @@ ab
 ab
 ab
 ab
-as
+aF
 at
 at
 at
@@ -3878,7 +3897,7 @@ at
 at
 at
 at
-as
+aF
 at
 ab
 ab
@@ -3921,16 +3940,16 @@ ab
 ab
 ab
 ab
-as
-as
-as
-as
+aF
+aF
+aF
+aF
 at
 at
-as
-as
-as
-as
+aF
+aF
+aF
+aF
 ab
 ab
 aa
@@ -3975,12 +3994,12 @@ ab
 ab
 ab
 ab
-as
-as
-as
-as
-as
-as
+aF
+aF
+aF
+aF
+aF
+aF
 ab
 ab
 ab
@@ -4029,9 +4048,9 @@ ab
 ab
 ab
 ab
-as
-as
-as
+aF
+aF
+aF
 ab
 ab
 ab

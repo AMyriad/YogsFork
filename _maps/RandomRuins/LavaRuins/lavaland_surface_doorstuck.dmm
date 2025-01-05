@@ -3,7 +3,7 @@
 /turf/open/floor/plasteel/stairs/goon/stairs2_wide{
 	dir = 1
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "b" = (
 /obj/structure/closet/crate/large,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -12,13 +12,13 @@
 	name = "4maintenance loot spawner"
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "c" = (
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "e" = (
 /obj/structure/railing{
 	dir = 8
@@ -27,21 +27,21 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "g" = (
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_wide2{
 	dir = 1
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "h" = (
 /obj/effect/turf_decal/ramp_corner{
 	dir = 4
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "j" = (
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "l" = (
 /obj/effect/decal/remains/human{
 	layer = 3.01
@@ -50,13 +50,13 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "m" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "o" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/template_noop,
@@ -69,54 +69,54 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "t" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "u" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "v" = (
 /turf/closed/wall/rust,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "w" = (
 /turf/open/floor/plasteel/stairs/goon/dark_stairs_wide{
 	dir = 1
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "x" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "y" = (
 /turf/open/floor/plasteel/stairs/goon/stairs_middle{
 	dir = 1
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "A" = (
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/lava/smooth/lava_land_surface,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "B" = (
 /turf/closed/wall/mineral/wood/nonmetal,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "C" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "D" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "E" = (
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "F" = (
 /obj/item/ammo_casing/a546,
 /obj/machinery/door/airlock/command{
@@ -127,54 +127,57 @@
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "G" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "H" = (
 /turf/closed/wall,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "I" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "J" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "K" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "L" = (
 /turf/closed/indestructible/rock,
-/area/template_noop)
+/area/external/mining/lavaland/explored)
 "M" = (
 /obj/effect/turf_decal/trimline/red,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "N" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "O" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "P" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
+"R" = (
+/turf/open/floor/plasteel/lavaland,
+/area/external/mining/lavaland/explored)
 "S" = (
 /mob/living/simple_animal/hostile/syndicate/ranged,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "T" = (
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "U" = (
 /obj/effect/turf_decal/ramp_middle{
 	dir = 8
@@ -182,17 +185,26 @@
 /turf/open/floor/plasteel/stairs/goon/stairs2_wide{
 	dir = 1
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
+"V" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/lavaland,
+/area/external/mining/lavaland/explored)
 "W" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "X" = (
 /obj/effect/turf_decal/ramp_middle,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
+"Y" = (
+/turf/open/floor/plating/lavaland_baseturf{
+	icon_state = "platingdmg3"
+	},
+/area/ruins/lavaland/unpowered/generic)
 
 (1,1,1) = {"
 p
@@ -334,7 +346,7 @@ E
 E
 H
 v
-G
+Y
 v
 H
 H
@@ -382,7 +394,7 @@ L
 H
 H
 v
-G
+Y
 v
 H
 H
@@ -432,7 +444,7 @@ a
 U
 X
 I
-E
+R
 L
 p
 "}
@@ -459,7 +471,7 @@ L
 p
 "}
 (13,1,1) = {"
-G
+Y
 W
 E
 E
@@ -470,7 +482,7 @@ W
 W
 E
 O
-G
+Y
 N
 E
 W
@@ -581,7 +593,7 @@ E
 W
 W
 u
-I
+O
 j
 E
 G
@@ -593,7 +605,7 @@ p
 (19,1,1) = {"
 p
 J
-P
+x
 p
 I
 p
@@ -622,8 +634,8 @@ p
 I
 p
 p
-W
-W
+V
+V
 o
 I
 I

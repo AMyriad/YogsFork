@@ -2,12 +2,9 @@
 "aa" = (
 /turf/template_noop,
 /area/template_noop)
-"ab" = (
-/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
 "ac" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "ah" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -23,25 +20,25 @@
 /obj/item/ammo_box/magazine/m10mm/rifle,
 /obj/item/ammo_box/magazine/m10mm/rifle,
 /turf/open/floor/plating,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "aj" = (
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "ak" = (
 /obj/machinery/atmospherics/pipe/simple,
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "aq" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "aL" = (
 /obj/item/trash/candy,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "aN" = (
 /obj/structure/closet,
 /obj/effect/decal/cleanable/cobweb,
@@ -55,7 +52,7 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "aS" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -65,16 +62,16 @@
 /obj/item/reagent_containers/food/snacks/honeybun,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "aU" = (
 /obj/machinery/door/airlock/centcom,
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/all/service/clerk,
 /turf/open/floor/plating,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "aV" = (
 /turf/open/floor/plating,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "bb" = (
 /obj/structure/table,
 /obj/item/storage/box/pillbottles,
@@ -85,7 +82,7 @@
 	name = "ATV Key"
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "bc" = (
 /obj/structure/table,
 /obj/item/clothing/mask/gas,
@@ -96,25 +93,25 @@
 /obj/item/storage/toolbox/mechanical/insulateds,
 /obj/item/hand_labeler,
 /turf/open/floor/plating,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "bz" = (
 /obj/structure/sign/warning/nosmoking,
 /turf/closed/wall/rust,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bB" = (
 /obj/structure/sign/warning/fire,
 /turf/closed/wall/rust,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bC" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bF" = (
 /obj/structure/extinguisher_cabinet,
 /turf/closed/wall/rust,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bZ" = (
 /obj/effect/turf_decal/sand,
 /obj/machinery/camera{
@@ -124,7 +121,7 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "cK" = (
 /obj/item/trash/chips,
 /obj/effect/turf_decal/sand,
@@ -132,7 +129,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "cS" = (
 /obj/effect/turf_decal/sand,
 /obj/machinery/camera{
@@ -142,14 +139,14 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "cV" = (
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "dC" = (
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "dI" = (
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen{
@@ -157,7 +154,7 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "dQ" = (
 /obj/machinery/camera{
 	c_tag = "Outside Back Exit Camera";
@@ -166,7 +163,7 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "fB" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -176,25 +173,25 @@
 /obj/structure/rack,
 /obj/item/toy/figure/clown,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "fI" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "fO" = (
 /obj/effect/turf_decal/sand,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "gd" = (
 /obj/machinery/shower{
 	dir = 1;
 	icon_state = "shower"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "gZ" = (
 /obj/machinery/door/airlock/hatch{
 	req_access = null
@@ -202,14 +199,14 @@
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/all/service/clerk,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "ha" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "hy" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -217,7 +214,7 @@
 	},
 /obj/effect/mob_spawn/human/gasstation_clerk,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "ia" = (
 /obj/structure/window{
 	dir = 8
@@ -229,11 +226,11 @@
 	start_showpiece_type = null
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "ii" = (
 /obj/item/trash/chips,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "iq" = (
 /obj/machinery/door/window{
 	req_access = null
@@ -244,14 +241,14 @@
 	},
 /obj/effect/mapping_helpers/windoor/access/all/service/clerk,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "ir" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "js" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -263,7 +260,7 @@
 /obj/item/reagent_containers/food/snacks/donut,
 /obj/item/reagent_containers/food/snacks/donut,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "kg" = (
 /obj/structure/window{
 	dir = 1
@@ -276,14 +273,14 @@
 /obj/item/reagent_containers/food/snacks/candy_corn,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "kR" = (
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "lg" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -294,30 +291,30 @@
 /obj/vehicle/ridden/scooter,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "lM" = (
 /obj/structure/toilet{
 	dir = 4;
 	icon_state = "toilet00"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "lN" = (
 /obj/machinery/door/airlock,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "gasstation"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "md" = (
 /obj/structure/sink,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "mf" = (
 /obj/structure/table,
 /obj/machinery/microwave,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "mo" = (
 /obj/structure/table,
 /obj/structure/window,
@@ -326,13 +323,13 @@
 /obj/item/reagent_containers/food/snacks/nachos,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "qd" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "qf" = (
 /obj/structure/table,
 /obj/structure/window,
@@ -340,28 +337,28 @@
 /obj/item/toy/cards/deck/cas/black,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "qD" = (
 /obj/machinery/light/small{
 	brightness = 3;
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "rp" = (
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "rs" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "rL" = (
 /obj/item/instrument/piano_synth,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "rQ" = (
 /obj/structure/window{
 	dir = 1
@@ -371,11 +368,11 @@
 /obj/item/toy/gun/toyglock,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "sp" = (
 /obj/machinery/teleport/station,
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "sJ" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -385,17 +382,17 @@
 /obj/item/toy/heartballoon,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "sY" = (
 /obj/machinery/vending/cigarette{
 	products = list(/obj/item/storage/fancy/cigarettes = 3, /obj/item/storage/fancy/cigarettes/cigpack_uplift = 2, /obj/item/storage/fancy/cigarettes/cigpack_robust = 1, /obj/item/storage/fancy/cigarettes/cigpack_carp = 0, /obj/item/storage/fancy/cigarettes/cigpack_midori = 0, /obj/item/storage/box/matches = 4, /obj/item/lighter/greyscale = 1, /obj/item/storage/fancy/rollingpapers = 3)
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "ts" = (
 /obj/structure/tank_dispenser/plasma,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ul" = (
 /obj/structure/window{
 	dir = 1
@@ -406,7 +403,7 @@
 /obj/item/reagent_containers/food/snacks/cheesiehonkers,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "uq" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light{
@@ -414,11 +411,11 @@
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "vk" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "vn" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4;
@@ -426,15 +423,15 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "vo" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "wF" = (
 /obj/structure/sign/poster/contraband/smoke,
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "wL" = (
 /obj/item/trash/raisins,
 /obj/machinery/light{
@@ -442,23 +439,23 @@
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "xm" = (
 /obj/effect/turf_decal/sand,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "zS" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Aj" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "An" = (
 /obj/structure/table/reinforced,
 /obj/machinery/paystand/register{
@@ -470,7 +467,7 @@
 	name = "Cash Register Blast Door"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Bp" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -480,7 +477,7 @@
 	name = "Cashier Shutters"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "BK" = (
 /obj/structure/table,
 /obj/structure/window,
@@ -490,7 +487,7 @@
 /obj/item/reagent_containers/food/snacks/poppypretzel,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Ec" = (
 /obj/machinery/camera{
 	c_tag = "Inside Right Side Gas Station Camera";
@@ -499,11 +496,11 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Ez" = (
 /obj/item/beacon,
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "EA" = (
 /obj/structure/table/reinforced,
 /obj/item/trash/raisins,
@@ -512,18 +509,18 @@
 	name = "Cashier Shutters"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "EM" = (
 /obj/item/melee/skateboard{
 	dir = 4
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "FJ" = (
 /obj/machinery/light_switch,
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Ga" = (
 /obj/effect/turf_decal/sand,
 /obj/machinery/camera{
@@ -533,7 +530,7 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "Gk" = (
 /obj/structure/table,
 /obj/machinery/chem_dispenser/drinks,
@@ -542,7 +539,7 @@
 	light_color = "#c1caff"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "GR" = (
 /obj/machinery/computer/teleporter{
 	dir = 1;
@@ -550,10 +547,10 @@
 	id = null
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "GX" = (
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "HB" = (
 /obj/structure/window{
 	dir = 4
@@ -563,7 +560,7 @@
 /obj/effect/spawner/lootdrop/twenty_percent_drip_suit,
 /obj/item/clothing/neck/necklace/dope,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "HU" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -574,7 +571,7 @@
 /obj/item/reagent_containers/food/snacks/dolphincereal,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Iw" = (
 /obj/structure/sink{
 	dir = 8;
@@ -586,7 +583,7 @@
 	pixel_x = -28
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "JL" = (
 /obj/machinery/light,
 /obj/machinery/camera{
@@ -596,7 +593,7 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "JS" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -605,17 +602,17 @@
 /obj/item/toy/foamblade,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Ko" = (
 /obj/machinery/icecream_vat,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "KF" = (
 /obj/machinery/vending/boozeomat{
 	products = list(/obj/item/reagent_containers/food/drinks/bottle/gin = 2, /obj/item/reagent_containers/food/drinks/bottle/whiskey = 2, /obj/item/reagent_containers/food/drinks/bottle/tequila = 3, /obj/item/reagent_containers/food/drinks/bottle/vodka = 1, /obj/item/reagent_containers/food/drinks/bottle/vermouth = 3, /obj/item/reagent_containers/food/drinks/bottle/rum = 5, /obj/item/reagent_containers/food/drinks/bottle/wine = 2, /obj/item/reagent_containers/food/drinks/bottle/cognac = 3, /obj/item/reagent_containers/food/drinks/bottle/kahlua = 1, /obj/item/reagent_containers/food/drinks/bottle/absinthe = 2, /obj/item/reagent_containers/food/drinks/ale = 3, /obj/item/reagent_containers/food/drinks/flask = 1)
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "KZ" = (
 /obj/structure/window{
 	dir = 4
@@ -627,7 +624,7 @@
 	start_showpiece_type = null
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Lb" = (
 /obj/machinery/button/door{
 	id = "cashiershutters";
@@ -635,25 +632,25 @@
 	req_access = list("clerk")
 	},
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "LF" = (
 /obj/machinery/vending/cola,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "LK" = (
 /obj/item/trash/chips,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "LQ" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/glass_large,
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Mq" = (
 /obj/structure/sign/poster/contraband/robust_softdrinks,
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "MN" = (
 /obj/machinery/computer/arcade/orion_trail,
 /obj/machinery/light{
@@ -661,12 +658,12 @@
 	light_color = "#c1caff"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Ni" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "NE" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -677,7 +674,7 @@
 /obj/vehicle/ridden/atv,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "NL" = (
 /obj/machinery/door/airlock/glass_large{
 	doorOpen = 'sound/machines/defib_success.ogg'
@@ -687,17 +684,17 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "NO" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "OC" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "OI" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -708,7 +705,7 @@
 /obj/structure/rack,
 /obj/item/toy/katana,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "PS" = (
 /obj/item/gps/internal{
 	desc = "You can just FEEL the money oozing out of this signal.";
@@ -716,7 +713,7 @@
 	name = "gas station signal"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Qm" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -724,7 +721,7 @@
 	name = "Cashier Shutters"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Qw" = (
 /obj/structure/window{
 	dir = 8
@@ -736,7 +733,7 @@
 	req_access = list("clerk")
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Ro" = (
 /obj/machinery/camera{
 	c_tag = "Inside Back Exit Camera";
@@ -744,13 +741,13 @@
 	network = list("gasstation")
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "RE" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "RV" = (
 /obj/structure/table,
 /obj/structure/window,
@@ -760,7 +757,7 @@
 /obj/item/toy/plush/stuffedmonkey,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Tu" = (
 /obj/structure/table/reinforced,
 /obj/item/newspaper,
@@ -769,14 +766,14 @@
 	name = "Cashier Shutters"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Ut" = (
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface)
+/area/external/mining/lavaland/explored)
 "Wf" = (
 /obj/machinery/button/door{
 	id = "gasstation";
@@ -784,21 +781,21 @@
 	req_access = list("clerk")
 	},
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Wg" = (
 /obj/item/trash/popcorn,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "WY" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Xe" = (
 /obj/machinery/atmospherics/components/binary/valve,
 /turf/open/floor/plasteel,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Xf" = (
 /obj/structure/window{
 	dir = 1
@@ -808,15 +805,15 @@
 /obj/item/toy/ammo/gun,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Xr" = (
 /obj/structure/sign/poster/official/foam_force_ad,
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Xt" = (
 /obj/structure/sign/poster/contraband/donut_corp,
 /turf/closed/wall/rust,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "XI" = (
 /obj/structure/table,
 /obj/structure/window{
@@ -826,24 +823,24 @@
 /obj/item/reagent_containers/food/snacks/sosjerky,
 /obj/structure/rack,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Yp" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "gasstation"
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "Zj" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
 /obj/item/storage/box/drinkingglasses,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 "ZN" = (
 /obj/item/trash/syndi_cakes,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/gasstation)
+/area/ruins/lavaland/powered/gasstation)
 
 (1,1,1) = {"
 aa
@@ -851,8 +848,8 @@ aa
 aa
 aa
 aa
-ab
-ab
+ac
+ac
 aa
 aa
 aa
@@ -875,12 +872,12 @@ aa
 aa
 aa
 aa
-ab
-ab
-ab
-ab
-ab
-ab
+ac
+ac
+ac
+ac
+ac
+ac
 aa
 aa
 aa
@@ -900,7 +897,7 @@ aa
 (3,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 dC
 dC
@@ -926,7 +923,7 @@ aa
 (4,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 aj
 aj
@@ -952,7 +949,7 @@ aa
 (5,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 aj
 lM
@@ -978,7 +975,7 @@ aa
 (6,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 aj
 ZN
@@ -1002,9 +999,9 @@ ac
 aa
 "}
 (7,1,1) = {"
-ab
-ab
-ab
+ac
+ac
+ac
 Ni
 aj
 aj
@@ -1028,7 +1025,7 @@ ac
 ac
 "}
 (8,1,1) = {"
-ab
+ac
 aj
 aj
 aj
@@ -1054,7 +1051,7 @@ ac
 ac
 "}
 (9,1,1) = {"
-ab
+ac
 aj
 vn
 GX
@@ -1080,7 +1077,7 @@ ac
 ac
 "}
 (10,1,1) = {"
-ab
+ac
 aj
 qd
 Xe
@@ -1106,7 +1103,7 @@ ac
 ac
 "}
 (11,1,1) = {"
-ab
+ac
 LQ
 GX
 dQ
@@ -1132,7 +1129,7 @@ ac
 ac
 "}
 (12,1,1) = {"
-ab
+ac
 rp
 GX
 GX
@@ -1158,7 +1155,7 @@ ac
 ac
 "}
 (13,1,1) = {"
-ab
+ac
 aj
 WY
 GX
@@ -1184,7 +1181,7 @@ ac
 ac
 "}
 (14,1,1) = {"
-ab
+ac
 aj
 GX
 GR
@@ -1210,7 +1207,7 @@ ac
 ac
 "}
 (15,1,1) = {"
-ab
+ac
 aj
 Ez
 sp
@@ -1236,7 +1233,7 @@ ac
 ac
 "}
 (16,1,1) = {"
-ab
+ac
 aj
 GX
 Aj
@@ -1262,7 +1259,7 @@ ac
 ac
 "}
 (17,1,1) = {"
-ab
+ac
 aj
 aj
 aj
@@ -1288,9 +1285,9 @@ ac
 ac
 "}
 (18,1,1) = {"
-ab
-ab
-ab
+ac
+ac
+ac
 Ni
 aj
 sY
@@ -1316,7 +1313,7 @@ ac
 (19,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 aj
 OC
@@ -1342,7 +1339,7 @@ ac
 (20,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 aj
 LF
@@ -1368,7 +1365,7 @@ aa
 (21,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 aj
 aj
@@ -1394,7 +1391,7 @@ aa
 (22,1,1) = {"
 aa
 aa
-ab
+ac
 dC
 dC
 dC
@@ -1421,14 +1418,14 @@ aa
 aa
 aa
 aa
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+ac
+ac
+ac
+ac
+ac
+ac
+ac
+ac
 aa
 aa
 aa
@@ -1448,9 +1445,9 @@ aa
 aa
 aa
 aa
-ab
-ab
-ab
+ac
+ac
+ac
 aa
 aa
 aa

@@ -11,7 +11,7 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "i" = (
 /obj/structure/stone_tile{
 	dir = 4
@@ -23,7 +23,7 @@
 	dir = 8
 	},
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "j" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -33,13 +33,13 @@
 	dir = 4
 	},
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "l" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "o" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
@@ -47,7 +47,7 @@
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/center,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "q" = (
 /obj/structure/stone_tile{
 	dir = 8
@@ -57,22 +57,22 @@
 	dir = 4
 	},
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "w" = (
 /obj/structure/stone_tile/slab,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "x" = (
 /obj/structure/tar_altar,
 /obj/structure/stone_tile/surrounding,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "F" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "J" = (
 /obj/structure/stone_tile{
 	dir = 4
@@ -82,7 +82,7 @@
 	},
 /obj/structure/stone_tile,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "M" = (
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/surrounding_tile{
@@ -90,17 +90,17 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "P" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "S" = (
 /obj/structure/stone_tile/block,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "V" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
@@ -110,7 +110,7 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 "Z" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -120,7 +120,7 @@
 	dir = 8
 	},
 /turf/open/water/smooth/tar_basin,
-/area/ruin/unpowered/tar_temple)
+/area/ruins/jungleland/unpowered/tar_temple)
 
 (1,1,1) = {"
 a

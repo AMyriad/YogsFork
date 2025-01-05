@@ -4,13 +4,13 @@
 /area/template_noop)
 "m" = (
 /turf/closed/obsidian,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "n" = (
 /turf/closed/obsidian/hard,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 "Q" = (
 /turf/open/floor/plating/dirt/jungleland/obsidian,
-/area/jungleland/explored)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 a

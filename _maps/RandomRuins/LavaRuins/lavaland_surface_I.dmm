@@ -1,16 +1,16 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ab" = (
 /turf/closed/wall/mineral/iron,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "ay" = (
 /obj/structure/closet/crate/coffin,
 /obj/item/immortality_talisman,
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/mineral/diamond,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "az" = (
 /obj/structure/table,
 /obj/item/wisp_lantern,
@@ -22,63 +22,60 @@
 	pixel_y = 28
 	},
 /turf/open/floor/mineral/diamond,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aD" = (
 /obj/item/chair,
 /turf/open/floor/mineral/diamond,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aE" = (
 /obj/structure/table,
 /obj/item/book/codex_gigas,
 /turf/open/floor/mineral/diamond,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aG" = (
 /obj/structure/mineral_door/transparent/diamond,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/mineral/diamond,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "aO" = (
 /turf/template_noop,
-/area/lavaland/surface/outdoors)
+/area/template_noop)
 "aP" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "aR" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "aS" = (
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "aT" = (
 /turf/open/floor/plasteel/dark/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "aU" = (
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
-"bm" = (
-/turf/open/lava/smooth/lava_land_surface,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "bz" = (
 /obj/item/flashlight/lantern,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "cZ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/lava/smooth/lava_land_surface,
-/area/ruin/unpowered)
+/area/external/mining/lavaland/explored)
 "fj" = (
 /obj/item/stack/sheet/mineral/silver,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "gH" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "hN" = (
 /mob/living/simple_animal/hostile/skeleton/templar{
 	aggro_vision_range = 3;
@@ -86,79 +83,79 @@
 	speak_chance = 0
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "kz" = (
 /obj/item/coin/gold,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lA" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/stack/sheet/mineral/gold,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "lL" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "on" = (
 /mob/living/simple_animal/hostile/skeleton/templar{
 	speak = list("THE NECROPOLIS WILLS IT!","DEUS VULT!","REMOVE KABAB!");
 	speak_chance = 0
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "oF" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "oH" = (
 /mob/living/simple_animal/hostile/skeleton,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rp" = (
 /turf/closed/wall/mineral/iron{
 	desc = "A wall with rough metal plating. Looks like it would take ages to slice it open with a welder.";
 	name = "tough metal wall";
 	slicing_duration = 5000
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "rQ" = (
 /mob/living/simple_animal/hostile/skeleton/eskimo,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "sL" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/skeleton,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "vp" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "vW" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "wl" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/mob_spawn/human/skeleton,
 /obj/item/shield/riot/buckler,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "wq" = (
 /obj/structure/mineral_door/gold,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "yj" = (
 /obj/item/stack/sheet/mineral/gold,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "zg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -167,44 +164,44 @@
 	speak_chance = 0
 	},
 /turf/open/floor/mineral/diamond,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "AP" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "BF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "BJ" = (
 /obj/structure/closet/crate/coffin,
 /obj/item/shield/riot/buckler,
 /obj/item/melee/spear,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ch" = (
 /obj/effect/mob_spawn/human/skeleton,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Gf" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "GV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/slimecross/industrial/silver,
 /obj/item/slimecross/industrial/silver,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "He" = (
 /obj/item/melee/spear,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Hm" = (
 /obj/item/stack/sheet/mineral/gold,
 /mob/living/simple_animal/hostile/skeleton/templar{
@@ -213,75 +210,75 @@
 	speak_chance = 0
 	},
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Ic" = (
 /obj/item/stack/sheet/mineral/silver,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "NG" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/mob_spawn/human/skeleton,
 /obj/item/melee/spear,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Pa" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shield/riot/buckler,
 /obj/item/melee/spear,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "QE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "SY" = (
 /obj/item/coin/gold,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "TE" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Uf" = (
 /obj/structure/mineral_door/iron,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Vw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/human,
 /obj/item/coin/gold,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Wd" = (
 /obj/structure/table,
 /obj/item/stack/sheet/mineral/diamond,
 /turf/open/floor/mineral/diamond,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Xa" = (
 /obj/item/slimecross/industrial/silver,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Xo" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/mob_spawn/human/skeleton,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Yc" = (
 /obj/item/coin/gold,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 "Zf" = (
 /obj/item/slimecross/industrial/silver,
 /turf/open/floor/plasteel/dark/lavaland,
-/area/ruin/unpowered)
+/area/ruins/lavaland/unpowered/generic)
 
 (1,1,1) = {"
 aa
@@ -482,7 +479,7 @@ lA
 aU
 Gf
 Gf
-bm
+aa
 aa
 aa
 aP
@@ -538,11 +535,11 @@ Zf
 GV
 yj
 kz
-bm
-bm
-bm
-bm
-bm
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aP
@@ -568,12 +565,12 @@ aU
 aU
 Xa
 cZ
-bm
-bm
-bm
-bm
-bm
-bm
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aP
 aP
@@ -597,12 +594,12 @@ rp
 rp
 aG
 rp
-bm
-bm
-bm
-bm
-bm
-bm
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aP
@@ -627,7 +624,7 @@ rp
 ay
 zg
 rp
-bm
+aa
 ab
 Xa
 BF
@@ -657,14 +654,14 @@ rp
 az
 aD
 rp
-bm
-bm
+aa
+aa
 BF
 bz
 ab
 ab
-aU
-aU
+aT
+aT
 aP
 aP
 aT
@@ -687,14 +684,14 @@ rp
 Wd
 aE
 rp
-bm
-bm
+aa
+aa
 He
 aU
 Uf
-aU
-aU
-aU
+aT
+aT
+aT
 aT
 aT
 aT
@@ -723,8 +720,8 @@ ab
 Uf
 ab
 ab
-aU
-aU
+aT
+aT
 aP
 aP
 aP

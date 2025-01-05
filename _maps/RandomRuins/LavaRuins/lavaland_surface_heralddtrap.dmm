@@ -8,11 +8,11 @@
 	dir = 1
 	},
 /turf/open/indestructible/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "by" = (
 /obj/effect/decal/remains/robot,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "bJ" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
@@ -22,87 +22,87 @@
 	},
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "bO" = (
 /obj/structure/stone_tile/surrounding,
 /obj/structure/stone_tile/center,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "cc" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "cw" = (
 /obj/effect/decal/remains/plasma,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "dS" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "eb" = (
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "fg" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ge" = (
 /obj/structure/spawner/lavaland/goliath,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "gI" = (
 /obj/structure/stone_tile/block,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "iK" = (
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "jp" = (
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "jU" = (
 /obj/structure/fence/cut,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "kY" = (
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "lj" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "lA" = (
 /obj/structure/stone_tile/slab,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "lW" = (
 /obj/structure/sign/warning/explosives,
 /turf/closed/wall/mineral/titanium/survival,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "np" = (
 /turf/closed/mineral/gibtonite/volcanic/harder,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "nL" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "nR" = (
 /obj/structure/stone_tile{
 	dir = 4
@@ -115,33 +115,33 @@
 	},
 /obj/structure/stone_tile,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "nZ" = (
 /turf/closed/indestructible/riveted/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ot" = (
 /obj/structure/stone_tile/slab,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ov" = (
 /obj/effect/mob_spawn/human/corpse/nanotrasensoldier,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ox" = (
 /obj/structure/fence/cut/medium{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "oE" = (
 /turf/closed/mineral/gem/volcanic/hard,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "oQ" = (
 /obj/structure/sign/warning/explosives/alt,
 /turf/closed/wall/mineral/titanium/survival,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "pF" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile{
@@ -151,39 +151,39 @@
 	dir = 4
 	},
 /turf/open/indestructible/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "pJ" = (
 /obj/structure/stone_tile/block,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "qh" = (
 /obj/structure/stone_tile/surrounding,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "qj" = (
 /obj/item/stack/ore/plasma,
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "qm" = (
 /turf/closed/mineral/plasma/volcanic,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "qs" = (
 /obj/effect/decal/remains/robot,
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "qA" = (
 /obj/structure/fence/door{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "qG" = (
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "rw" = (
 /obj/structure/marker_beacon,
 /obj/structure/stone_tile/block,
@@ -191,13 +191,13 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "rO" = (
 /obj/structure/fence/door{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "rP" = (
 /obj/structure/marker_beacon,
 /obj/structure/stone_tile/block{
@@ -207,7 +207,7 @@
 	dir = 4
 	},
 /turf/open/indestructible/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "tr" = (
 /obj/structure/stone_tile/block{
 	dir = 1
@@ -216,11 +216,11 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "tv" = (
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "tH" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -233,54 +233,54 @@
 	dir = 1
 	},
 /turf/open/indestructible/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "tO" = (
 /obj/effect/decal/remains/robot,
 /obj/structure/stone_tile/slab,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "tW" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "uC" = (
 /turf/closed/mineral/gibtonite/volcanic,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "uE" = (
 /turf/closed/mineral/random/volcanic/hard,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "vo" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "vp" = (
 /obj/item/stack/ore/plasma,
 /obj/effect/decal/remains/plasma,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "vt" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile{
 	dir = 1
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "wH" = (
 /obj/item/stack/ore/plasma,
 /obj/structure/marker_beacon,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "xv" = (
 /obj/item/stack/ore/plasma,
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "xU" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -293,15 +293,15 @@
 	dir = 1
 	},
 /turf/open/indestructible/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "yj" = (
 /obj/structure/fence/door,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "yD" = (
 /obj/effect/decal/remains/human,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "zU" = (
 /obj/item/clothing/neck/cloak/herald_cloak,
 /mob/living/simple_animal/hostile/asteroid/elite/herald{
@@ -313,7 +313,7 @@
 /obj/structure/stone_tile/surrounding,
 /obj/structure/stone_tile/center,
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "zV" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
@@ -326,12 +326,12 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Ab" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Bb" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -344,21 +344,21 @@
 	dir = 4
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Bm" = (
 /obj/structure/fence/cut/medium,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Cq" = (
 /obj/structure/fence/post,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "CI" = (
 /turf/closed/mineral/diamond/volcanic/harder,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Di" = (
 /turf/closed/mineral/bananium/volcanic/harder,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "EO" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -371,41 +371,41 @@
 	dir = 8
 	},
 /turf/open/indestructible/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Fj" = (
 /turf/closed/wall/mineral/titanium/survival,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Fn" = (
 /obj/structure/marker_beacon,
 /obj/effect/mapping_helpers/no_lava,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "GH" = (
 /obj/item/stack/ore/plasma,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Hm" = (
 /obj/structure/marker_beacon,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Hq" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "In" = (
 /turf/closed/mineral/bananium/volcanic/hard,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "JE" = (
 /obj/item/stack/ore/plasma,
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Kc" = (
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/surrounding_tile{
@@ -416,40 +416,40 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "KW" = (
 /obj/item/stack/ore/plasma,
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Lf" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
 	},
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Ly" = (
 /turf/closed/mineral/plasma/volcanic/hard,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "LR" = (
 /turf/open/floor/pod/dark,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Mm" = (
 /turf/open/chasm,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Ne" = (
 /obj/structure/fence/cut/large{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Np" = (
 /obj/structure/sign/mining,
 /turf/closed/wall/mineral/titanium/survival,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "NM" = (
 /obj/structure/stone_tile/block{
 	dir = 8
@@ -458,7 +458,7 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Oy" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
@@ -467,26 +467,26 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Pq" = (
 /obj/item/stack/ore/plasma,
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "QH" = (
 /obj/item/stack/ore/plasma,
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "QN" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /obj/structure/stone_tile/block,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "QT" = (
 /obj/structure/stone_tile/block{
 	dir = 1
@@ -496,11 +496,11 @@
 	dir = 8
 	},
 /turf/open/indestructible/boss,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "RM" = (
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "RN" = (
 /obj/structure/stone_tile/block{
 	dir = 4
@@ -509,68 +509,65 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
-"Sa" = (
-/turf/template_noop,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Sg" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Sp" = (
 /obj/structure/marker_beacon,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "SB" = (
 /turf/closed/mineral/diamond/volcanic/hard,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "SE" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/advanced,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "SH" = (
 /turf/open/floor/pod/light,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "SN" = (
 /obj/structure/fence/cut{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "SX" = (
 /turf/closed/mineral/gem/volcanic/harder,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Tf" = (
 /obj/effect/decal/remains/xeno,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "TH" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "TP" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Ui" = (
 /obj/structure/fence/cut/large,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Uy" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "UU" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Vc" = (
 /obj/structure/stone_tile{
 	dir = 4
@@ -583,13 +580,13 @@
 	dir = 1
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Wm" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "XF" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
@@ -599,35 +596,35 @@
 	},
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "XX" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Yc" = (
 /turf/closed/mineral/gibtonite/volcanic/hard,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Yo" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/indestructible/necropolis,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "YL" = (
 /obj/structure/marker_beacon,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "panelscorched"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Zu" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Zw" = (
 /obj/structure/stone_tile,
 /obj/structure/stone_tile{
@@ -640,7 +637,7 @@
 	dir = 4
 	},
 /turf/open/lava/smooth/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 
 (1,1,1) = {"
 aH
@@ -722,7 +719,7 @@ iK
 Fn
 iK
 iK
-Sa
+aH
 uE
 uE
 uE
@@ -808,8 +805,8 @@ Ly
 jp
 jp
 jp
-Sa
-Sa
+aH
+aH
 fg
 In
 Yc
@@ -838,13 +835,13 @@ Ly
 Yc
 qm
 qm
-Sa
-Sa
-Sa
+aH
+aH
+aH
 fg
 fg
-Sa
-Sa
+aH
+aH
 fg
 fg
 jp
@@ -869,17 +866,17 @@ jp
 qm
 qm
 qm
-Sa
-Sa
-Sa
-Sa
+aH
+aH
+aH
+aH
 Sp
 GH
 fg
 fg
-Sa
-Sa
-Sa
+aH
+aH
+aH
 qm
 qm
 qm
@@ -899,8 +896,8 @@ Ly
 jp
 qm
 qm
-Sa
-Sa
+aH
+aH
 fg
 xv
 Hq
@@ -928,9 +925,9 @@ uE
 uE
 Ly
 jp
-Sa
-Sa
-Sa
+aH
+aH
+aH
 fg
 fg
 fg
@@ -939,7 +936,7 @@ jp
 jp
 jp
 rw
-Sa
+aH
 eb
 Np
 YL
@@ -958,15 +955,15 @@ aH
 uE
 iK
 Ly
-Sa
-Sa
+aH
+aH
 qm
 jp
 fg
 fg
 TP
 lA
-Sa
+aH
 nZ
 vo
 tO
@@ -980,7 +977,7 @@ fg
 Ly
 uE
 uE
-Sa
+aH
 uE
 "}
 (12,1,1) = {"
@@ -990,10 +987,10 @@ aH
 iK
 SN
 fg
-Sa
+aH
 qm
 qm
-Sa
+aH
 np
 qG
 qG
@@ -1003,7 +1000,7 @@ ot
 qG
 qG
 np
-Sa
+aH
 qm
 qm
 fg
@@ -1071,7 +1068,7 @@ fg
 fg
 jp
 jp
-Sa
+aH
 uE
 aH
 uE
@@ -1148,7 +1145,7 @@ fg
 Sp
 bO
 fg
-Sa
+aH
 bw
 qs
 qG
@@ -1161,7 +1158,7 @@ bw
 RM
 fg
 bO
-Sa
+aH
 fg
 Ne
 iK
@@ -1176,7 +1173,7 @@ iK
 iK
 yj
 fg
-Sa
+aH
 QN
 fg
 jp
@@ -1192,7 +1189,7 @@ rP
 jp
 fg
 lj
-Sa
+aH
 fg
 yj
 iK
@@ -1207,7 +1204,7 @@ Fn
 iK
 ox
 fg
-Sa
+aH
 bO
 fg
 Zu
@@ -1220,7 +1217,7 @@ Kc
 qG
 fg
 bw
-Sa
+aH
 fg
 bO
 Sp
@@ -1297,7 +1294,7 @@ uE
 uE
 aH
 uE
-Sa
+aH
 jp
 jp
 fg
@@ -1365,7 +1362,7 @@ Sp
 fg
 qm
 qm
-Sa
+aH
 np
 qG
 qG
@@ -1375,10 +1372,10 @@ jp
 qG
 by
 np
-Sa
+aH
 qm
 qm
-Sa
+aH
 fg
 SN
 iK
@@ -1388,7 +1385,7 @@ aH
 "}
 (25,1,1) = {"
 uE
-Sa
+aH
 uE
 uE
 Ly
@@ -1402,15 +1399,15 @@ TH
 lA
 tW
 nZ
-Sa
+aH
 lA
 nL
 fg
 fg
 jp
 qm
-Sa
-Sa
+aH
+aH
 Ly
 iK
 uE
@@ -1429,7 +1426,7 @@ fg
 YL
 Np
 eb
-Sa
+aH
 rw
 jp
 jp
@@ -1438,9 +1435,9 @@ Yo
 fg
 fg
 fg
-Sa
-Sa
-Sa
+aH
+aH
+aH
 jp
 Ly
 uE
@@ -1468,8 +1465,8 @@ Uy
 XX
 Pq
 fg
-Sa
-Sa
+aH
+aH
 qm
 qm
 jp
@@ -1489,17 +1486,17 @@ jp
 qm
 qm
 qm
-Sa
-Sa
-Sa
+aH
+aH
+aH
 fg
 fg
 GH
 Sp
-Sa
-Sa
-Sa
-Sa
+aH
+aH
+aH
+aH
 qm
 qm
 qm
@@ -1524,13 +1521,13 @@ jp
 jp
 fg
 fg
-Sa
-Sa
+aH
+aH
 fg
 fg
-Sa
-Sa
-Sa
+aH
+aH
+aH
 qm
 qm
 Yc
@@ -1559,8 +1556,8 @@ Di
 Yc
 In
 fg
-Sa
-Sa
+aH
+aH
 jp
 jp
 jp
@@ -1646,7 +1643,7 @@ uE
 uE
 uE
 uE
-Sa
+aH
 iK
 Fn
 iK

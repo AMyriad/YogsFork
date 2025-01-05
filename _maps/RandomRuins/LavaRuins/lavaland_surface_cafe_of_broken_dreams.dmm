@@ -4,114 +4,110 @@
 /area/template_noop)
 "ab" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "af" = (
 /turf/closed/wall/r_wall/rust,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ag" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ah" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ai" = (
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aj" = (
 /mob/living/simple_animal/hostile/asteroid/goliath/beast,
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ao" = (
 /obj/structure/table/wood/bar,
 /obj/item/toy/cards/deck/cas,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ar" = (
 /obj/structure/table/wood/bar,
 /obj/item/toy/cards/deck/cas/black,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "at" = (
 /mob/living/simple_animal/hostile/asteroid/goliath/beast,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aw" = (
 /obj/structure/table/wood/bar,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ay" = (
 /obj/machinery/door/airlock,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aB" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aF" = (
 /obj/item/reagent_containers/glass/bottle/radscrub{
 	desc = "War. War never changes. But this can clean your radiation contamination problems!"
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "aI" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aJ" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /obj/item/suppressor,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aK" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/dwarf,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aL" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "aM" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /obj/item/toy/plush/teddybear,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aN" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aO" = (
 /obj/item/clothing/suit/jacket/leather,
 /obj/item/switchblade,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aP" = (
 /obj/machinery/light/small,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aU" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating{
-	icon_state = "platingdmg3"
-	},
-/area/ruin/powered)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruins/lavaland/powered/generic)
 "aV" = (
 /obj/structure/sink{
 	desc = "Clean off your radiation.";
@@ -120,131 +116,131 @@
 	pixel_y = 2
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aW" = (
 /turf/closed/wall/r_wall/rust,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aY" = (
 /obj/item/clothing/suit/jacket/leather,
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aZ" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /obj/item/switchblade,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ba" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /obj/item/clothing/under/color/blue,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bb" = (
 /obj/machinery/computer/slot_machine,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bc" = (
 /obj/machinery/computer/slot_machine,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bd" = (
 /obj/structure/fans/tiny/invisible,
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "be" = (
 /obj/structure/chair/comfy/beige,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bf" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bg" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /obj/item/kitchen/knife/combat,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bh" = (
 /obj/structure/barricade/wooden{
 	name = "wooden barricade (CLOSED)"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bi" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bj" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bk" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bl" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bm" = (
 /obj/structure/chair/comfy/beige{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bn" = (
 /obj/structure/closet/secure_closet/bar{
 	pixel_x = -3;
 	pixel_y = -1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bo" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bp" = (
 /obj/structure/table/wood/poker,
 /obj/effect/holodeck_effect/cards,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bq" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/cardhand,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bs" = (
 /obj/structure/ladder,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bt" = (
 /obj/structure/table/wood/poker,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bv" = (
 /obj/structure/chair/comfy/beige{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bw" = (
 /obj/structure/table/wood/bar,
 /obj/item/reagent_containers/food/drinks/beer,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "by" = (
 /mob/living/simple_animal/pet/dog/corgi/Ian{
 	atmos_requirements = list("min_oxy" = 4, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 3, "min_co2" = 0, "max_co2" = 7, "min_n2" = 0, "max_n2" = 1);
@@ -253,13 +249,13 @@
 	real_name = "Corgmeat"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bz" = (
 /obj/structure/chair/comfy/beige{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bC" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
@@ -268,12 +264,12 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bD" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/bottle/potass_iodide,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bE" = (
 /obj/machinery/light{
 	dir = 4
@@ -281,55 +277,55 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken4"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bI" = (
 /obj/structure/table/wood/bar,
 /obj/item/reagent_containers/food/snacks/cookie,
 /obj/item/reagent_containers/food/snacks/cookie,
 /obj/item/reagent_containers/food/snacks/cookie,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bM" = (
 /obj/structure/chair/comfy/brown,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bN" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bO" = (
 /obj/structure/table/wood/bar,
 /obj/item/rsf/cookiesynth,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bP" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bR" = (
 /obj/structure/table/wood,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bW" = (
 /mob/living/simple_animal/hostile/asteroid/marrowweaver,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "cw" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "dJ" = (
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken6"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "dU" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/bottle/potass_iodide{
@@ -337,57 +333,51 @@
 	name = "rad-away"
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "er" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "fO" = (
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "gO" = (
 /turf/open/floor/wood/lavaland{
 	icon_state = "wood-broken4"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "iU" = (
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "ka" = (
 /obj/effect/turf_decal/sand,
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "lc" = (
 /obj/item/crowbar,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "lR" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "mq" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile,
-/turf/open/floor/plating/lavaland_baseturf{
-	icon_state = "platingdmg3"
-	},
-/area/lavaland/surface/outdoors)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/external/mining/lavaland/explored)
 "mP" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "rP" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/effect/turf_decal/sand,
-/turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/space/basic,
+/area/external/mining/lavaland/explored)
 "st" = (
 /obj/structure/closet/crate/bin,
 /obj/item/reagent_containers/food/snacks/deadmouse,
@@ -395,12 +385,12 @@
 /obj/item/trash/can,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "tD" = (
 /obj/item/wrench,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "vc" = (
 /obj/structure/grille{
 	density = 0;
@@ -408,122 +398,129 @@
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "xf" = (
 /obj/item/clothing/suit/space/hardsuit/powerarmor_t45b,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "zW" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Dx" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "FQ" = (
 /obj/machinery/barsign{
 	icon_state = "maltesefalcon"
 	},
 /turf/closed/wall/r_wall/rust,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Gm" = (
 /obj/item/reagent_containers/glass/bottle/potass_iodide,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Hc" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Jg" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Jk" = (
 /obj/structure/barricade/wooden,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Ju" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "JH" = (
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
+"JW" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating{
+	icon_state = "platingdmg3"
+	},
+/area/ruins/lavaland/powered/generic)
 "Kv" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Ln" = (
 /obj/machinery/door/airlock,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ML" = (
 /obj/vehicle/ridden/scooter,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Pr" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "RS" = (
 /obj/vehicle/ridden/atv,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Si" = (
 /obj/machinery/light/small,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Sz" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "Tx" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Tz" = (
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Vo" = (
 /obj/machinery/light,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "VZ" = (
 /obj/structure/grille/broken,
 /obj/effect/turf_decal/sand,
 /turf/open/floor/plasteel/lavaland,
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 "XC" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating/lavaland_baseturf{
 	icon_state = "platingdmg3"
 	},
-/area/lavaland/surface/outdoors)
+/area/external/mining/lavaland/explored)
 
 (1,1,1) = {"
 aa
@@ -2087,7 +2084,7 @@ ab
 ab
 iU
 iU
-aU
+JW
 ai
 ai
 bq
@@ -2221,7 +2218,7 @@ ab
 lR
 XC
 af
-ag
+rP
 af
 af
 iU
@@ -2954,7 +2951,7 @@ iU
 iU
 iU
 iU
-rP
+Jg
 iU
 iU
 iU

@@ -1,19 +1,19 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ab" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/automatic/toy/pistol,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ac" = (
 /obj/structure/table/wood,
 /obj/item/ammo_box/magazine/toy/pistol/riot,
 /obj/item/ammo_box/magazine/toy/pistol/riot,
 /obj/item/ammo_box/magazine/toy/pistol/riot,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ad" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/automatic/c20r/toy/unrestricted,
@@ -21,18 +21,18 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ae" = (
 /obj/structure/table/wood,
 /obj/item/ammo_box/magazine/toy/pistol/riot,
 /obj/item/ammo_box/magazine/toy/pistol/riot,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "af" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/automatic/toy,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ag" = (
 /obj/structure/table/wood,
 /obj/item/toy/ammo/gun,
@@ -41,58 +41,58 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ah" = (
 /obj/machinery/vending/clothing,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ai" = (
 /obj/machinery/vending/gifts,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aj" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/gas/clown_hat,
 /obj/item/clothing/shoes/clown_shoes,
-/obj/item/clothing/under/rank/clown,
+/obj/item/clothing/under/rank/civilian/clown,
 /obj/item/storage/backpack/clown,
 /obj/item/clothing/gloves/color/rainbow,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ak" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hooded/bloated_human,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "al" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hooded/ian_costume,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "am" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/monkeysuit,
 /obj/item/clothing/mask/gas/monkeymask,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "an" = (
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/shotgun/toy,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ao" = (
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ap" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/imperium_monk,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aq" = (
 /obj/structure/table/wood,
 /obj/item/ammo_box/foambox/riot,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ar" = (
 /obj/structure/table/wood,
 /obj/item/toy/sword{
@@ -112,7 +112,7 @@
 	name = "toy sword"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "as" = (
 /obj/structure/table/wood,
 /obj/item/toy/talking/griffin{
@@ -124,7 +124,7 @@
 	pixel_y = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "at" = (
 /obj/structure/table/wood,
 /obj/item/grenade/smokebomb{
@@ -140,45 +140,45 @@
 	},
 /obj/item/grenade/smokebomb,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "au" = (
 /obj/structure/mineral_door/wood,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "av" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/wizrobe,
 /obj/item/clothing/head/wizard,
 /obj/item/clothing/shoes/sandal,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aw" = (
 /obj/structure/rack,
 /obj/item/clothing/shoes/roman,
-/obj/item/clothing/under/roman,
+/obj/item/clothing/under/costume/roman,
 /obj/item/clothing/head/helmet/roman,
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ax" = (
 /obj/structure/table/wood,
 /obj/item/toy/talking/codex_gigas,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ay" = (
 /obj/structure/table/wood,
 /obj/item/toy/talking/figure/jexp,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "az" = (
 /obj/structure/table/wood,
 /obj/item/toy/gun,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aA" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/poncho,
@@ -188,38 +188,38 @@
 /obj/item/clothing/head/sombrero,
 /obj/item/clothing/head/sombrero/green,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aB" = (
 /obj/machinery/light,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aC" = (
 /obj/machinery/vending/magivend,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aD" = (
 /obj/structure/rack,
 /obj/item/clothing/head/rice_hat,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aE" = (
 /obj/structure/rack,
 /obj/item/clothing/head/santa,
 /obj/item/clothing/suit/wizrobe/santa,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aF" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/hooded/bee_costume,
 /obj/item/clothing/mask/rat/bee,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aG" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/xenos,
 /obj/item/clothing/head/xenos,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aH" = (
 /obj/structure/table/wood,
 /obj/item/toy/toyballoon{
@@ -234,7 +234,7 @@
 	pixel_x = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aI" = (
 /obj/structure/table/wood,
 /obj/item/gun/magic/wand,
@@ -248,7 +248,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aJ" = (
 /obj/structure/table/wood,
 /obj/item/toy/xmas_cracker{
@@ -263,7 +263,7 @@
 	pixel_x = -6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aK" = (
 /obj/structure/table/wood,
 /obj/item/clothing/gloves/boxing,
@@ -275,7 +275,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aL" = (
 /obj/structure/table/wood,
 /obj/item/clothing/gloves/boxing/green{
@@ -288,7 +288,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aM" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/assistant,
@@ -314,7 +314,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aN" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/atmos{
@@ -325,7 +325,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aO" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/borg{
@@ -336,7 +336,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aP" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/detective{
@@ -358,16 +358,16 @@
 	},
 /obj/item/toy/figure/captain,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aR" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aS" = (
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aT" = (
 /obj/structure/table/wood,
 /obj/structure/table/wood,
@@ -392,7 +392,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aU" = (
 /obj/structure/table/wood,
 /obj/item/toy/nuke,
@@ -401,13 +401,13 @@
 	icon_state = "tube1"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aV" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aW" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/cargotech{
@@ -421,10 +421,10 @@
 	},
 /obj/item/toy/figure/hop,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aX" = (
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aY" = (
 /obj/structure/table/wood,
 /obj/item/toy/toygrenade,
@@ -443,7 +443,7 @@
 	pixel_y = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "aZ" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/chemist{
@@ -465,7 +465,7 @@
 	icon_state = "tube1"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "ba" = (
 /obj/structure/table/wood,
 /obj/item/toy/syndicateballoon{
@@ -476,7 +476,7 @@
 	},
 /obj/item/toy/syndicateballoon,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bb" = (
 /obj/structure/table/wood,
 /obj/item/melee/dualsaber/toy,
@@ -484,7 +484,7 @@
 	pixel_x = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bc" = (
 /obj/structure/table/wood,
 /obj/item/toy/snappop,
@@ -501,7 +501,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bd" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/clown{
@@ -514,7 +514,7 @@
 	},
 /obj/item/toy/figure/mime,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "be" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/syndie{
@@ -524,7 +524,7 @@
 	pixel_x = 7
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bf" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/rd{
@@ -535,7 +535,7 @@
 	pixel_x = 5
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bg" = (
 /obj/structure/table/wood,
 /obj/item/toy/figure/dsquad{
@@ -543,19 +543,19 @@
 	},
 /obj/item/toy/figure/ninja,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bi" = (
 /obj/structure/table/wood,
 /obj/item/toy/spinningtoy,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bj" = (
 /obj/structure/table/wood,
 /obj/item/clothing/mask/facehugger/toy{
 	pixel_y = 7
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bk" = (
 /obj/structure/table/wood,
 /obj/item/toy/minimeteor,
@@ -581,18 +581,18 @@
 	pixel_y = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bl" = (
 /obj/machinery/newscaster,
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bm" = (
 /obj/machinery/vending/wallmed{
 	name = "Emergency NanoMed";
 	use_power = 0
 	},
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bo" = (
 /obj/structure/table/wood,
 /obj/item/toy/plush/stuffedmonkey{
@@ -601,18 +601,18 @@
 	},
 /obj/item/toy/plush/stuffedmonkey,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bp" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bq" = (
 /obj/structure/mineral_door/wood,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "br" = (
 /obj/structure/table/wood,
 /obj/item/clothing/mask/horsehead,
@@ -623,11 +623,11 @@
 /obj/item/clothing/mask/cowmask,
 /obj/item/clothing/mask/fakemoustache,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bt" = (
 /obj/machinery/door/window/southleft,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bu" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/wood,
@@ -638,7 +638,7 @@
 /obj/item/toy/prize/ripley,
 /obj/item/toy/prize/deathripley,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bv" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/wood,
@@ -648,13 +648,13 @@
 	},
 /obj/item/toy/prize/reticence,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bw" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/wood,
 /obj/item/toy/prize/odysseus,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bx" = (
 /obj/structure/table/wood,
 /obj/item/toy/prize/marauder{
@@ -667,21 +667,21 @@
 	},
 /obj/item/toy/prize/durand,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "by" = (
 /obj/structure/table/wood,
 /obj/item/bikehorn,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bA" = (
 /turf/open/floor/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bB" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bC" = (
 /obj/structure/table/wood,
 /obj/item/toy/prize/mauler{
@@ -696,7 +696,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bD" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -704,7 +704,7 @@
 	},
 /obj/item/pen,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bE" = (
 /obj/structure/table/wood,
 /obj/item/toy/redbutton,
@@ -712,17 +712,17 @@
 /obj/item/toy/redbutton,
 /obj/item/toy/redbutton,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bF" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bG" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bH" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -733,12 +733,12 @@
 	pixel_y = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bI" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bJ" = (
 /obj/item/paper{
 	info = "A reminder that all Donksoft RIOT toys and foam darts are to be reboxed and returned due to a recent incident involving an assistant, a security guard and an open airlock.";
@@ -751,23 +751,23 @@
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bK" = (
 /obj/machinery/door/window/eastright,
 /turf/open/floor/light,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bL" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken5"
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bM" = (
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "bN" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small{
@@ -776,7 +776,7 @@
 /obj/item/reagent_containers/food/snacks/spaghetti/copypasta,
 /obj/item/kitchen/fork,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "cG" = (
 /obj/structure/chair/office/dark{
 	dir = 8
@@ -786,16 +786,16 @@
 /obj/item/gun/ballistic/shotgun/doublebarrel/improvised,
 /obj/item/ammo_casing/shotgun/improvised,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "pE" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "yW" = (
 /turf/open/floor/wood/lavaland,
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Pj" = (
 /obj/machinery/light{
 	dir = 8
@@ -803,12 +803,12 @@
 /turf/open/floor/wood/lavaland{
 	broken = 1
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 "Zw" = (
 /turf/open/floor/wood/lavaland{
 	broken = 1
 	},
-/area/ruin/powered)
+/area/ruins/lavaland/powered/generic)
 
 (1,1,1) = {"
 aa

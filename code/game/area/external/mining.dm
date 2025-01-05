@@ -22,7 +22,6 @@
 
 /area/external/mining/base
 	name = "MINING BASE AREAS"
-	icon_state = "base"
 	airlock_wires = /datum/wires/airlock/service
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
@@ -65,9 +64,9 @@
 	name = "\improper Mining Base Quarters"
 	icon_state = "base_quarters"
 
-/area/external/mining/base/vacant
-	name = "\improper Mining Base Vacant Room"
-	icon_state = "base_vacant"
+/area/external/mining/base/construction
+	name = "\improper Mining Base Construction Area"
+	icon_state = "base_construction"
 
 /area/external/mining/base/maintenance
 	name = "\improper Mining Base Storage Maintenance"
@@ -79,6 +78,7 @@
 /area/external/mining/labor
 	name = "LABOR CAMP AREAS"
 	icon_state = "labor"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/external/mining/labor/main
 	name = "\improper Labor Camp"
@@ -86,7 +86,7 @@
 
 /area/external/mining/labor/security
 	name = "\improper Labor Camp Security Desk"
-	icon_state = "labor_sec"
+	icon_state = "labor_security"
 	airlock_wires = /datum/wires/airlock/security
 	ambience_index = AMBIENCE_DANGER
 
@@ -95,7 +95,7 @@
 
 /area/external/mining/lavaland
 	name = "LAVALAND AREAS"
-	icon_state = "lavaland"
+	icon_state = "lava"
 
 	ambience_index = AMBIENCE_MINING
 	ambient_buzz = 'sound/ambience/magma.ogg'
@@ -112,26 +112,26 @@
 	outdoors = TRUE
 
 // IMPORTANT! COMMENTS HERE APPLY TO ALL MINING AREAS!
-// Put this in safe "discovered" areas where we don't want map generation like outside ruins/buildings and lava rivers
+// Put this in safe "discovered" areas where we don't want map generation like outside ruins/buildings and on lava rivers
 /area/external/mining/lavaland/explored
 	name = "\improper Lavaland Wastes"
-	icon_state = "lavaland_explored"
+	icon_state = "lava_explored"
 
 // Special type for area in proximity to the labor camp, place on every normal ground turf up until you meet a wall/lava
 /area/external/mining/lavaland/explored/labor
 	name = "\improper Labor Camp Grounds"
-	icon_state = "lavaland_explored_labor"
+	icon_state = "lava_explored_labor"
 
 // Put this in areas where we don't want megafauna, ruins, or useful flora to spawn like near the labor camp
-/area/external/mining/lavaland/unexplored_light
+/area/external/mining/lavaland/unexplored_lite
 	name = "\improper Lavaland Wastes"
-	icon_state = "lavaland_unexplored_light"
+	icon_state = "lava_unexplored_lite"
 	area_flags = CAVES_ALLOWED | MOB_SPAWN_ALLOWED
 
 // Standard unexplored danger zone
 /area/external/mining/lavaland/unexplored
 	name = "\improper Lavaland Wastes"
-	icon_state = "lavaland_unexplored"
+	icon_state = "lava_unexplored"
 	area_flags = CAVES_ALLOWED | FLORA_ALLOWED | MOB_SPAWN_ALLOWED | MEGAFAUNA_SPAWN_ALLOWED
 	map_generator = /datum/map_generator/cave_generator/lavaland
 
@@ -140,7 +140,7 @@
 
 /area/external/mining/icemoon
 	name = "ICEMOON AREAS"
-	icon_state = "icemoon"
+	icon_state = "ice"
 
 	ambience_index = AMBIENCE_ICEMOON
 	sound_environment = SOUND_ENVIRONMENT_FOREST
@@ -158,13 +158,13 @@
 	outdoors = TRUE
 
 /area/external/mining/icemoon/surface //- SURFACE
-	name = "Surface Areas"
+	name = "SURFACE AREAS"
 	uses_daylight = TRUE
 	daylight_multiplier = 0.7
 
 /area/external/mining/icemoon/surface/explored
 	name = "\improper Icemoon Wastes"
-	icon_state = "icemoon_surface_explored"
+	icon_state = "ice_surface_explored"
 	area_flags = NONE
 
 /area/external/mining/icemoon/surface/unexplored
@@ -174,7 +174,7 @@
 	map_generator = /datum/map_generator/cave_generator/icemoon/surface
 
 /area/external/mining/icemoon/underground //- UNDERGROUND
-	name = "Underground Areas"
+	name = "UNDERGROUND AREAS"
 
 /area/external/mining/icemoon/underground/explored
 	name = "\improper Icemoon Subterranean Wastes"
@@ -214,7 +214,7 @@
 	static_lighting = TRUE
 	uses_daylight = TRUE
 
-/area/external/mining/jungleland/pregen // Used in biome gen
+/area/external/mining/jungleland/pregen // Used only in biome gen
 	name = "Pregen Space"
 	icon_state = "jungleland_pregen"
 	map_generator = /datum/map_generator/jungleland
