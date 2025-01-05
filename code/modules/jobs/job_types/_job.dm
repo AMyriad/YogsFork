@@ -77,6 +77,18 @@
 	///Lazylist of traits added to the liver of the mob assigned this job (used for the classic "cops heal from donuts" reaction, among others)
 	var/list/liver_traits = null
 
+	/// Baseline skill levels this job should have
+	var/list/base_skills = list(
+		SKILL_PHYSIOLOGY = EXP_NONE,
+		SKILL_MECHANICAL = EXP_NONE,
+		SKILL_TECHNICAL = EXP_NONE,
+		SKILL_SCIENCE = EXP_NONE,
+		SKILL_FITNESS = EXP_NONE,
+	)
+
+	/// Number of free skill points to allocate
+	var/skill_points = 3
+
 	/// Display order of the job
 	var/display_order = JOB_DISPLAY_ORDER_DEFAULT
 
@@ -161,6 +173,7 @@
 		if(H.dna.species.id != SPECIES_HUMAN)
 			H.set_species(/datum/species/human)
 			H.apply_pref_name(/datum/preference/name/backup_human, preference_source)
+			H.dna.features["flavor_text"] = ""
 	
 	if(forced_species)
 		H.set_species(forced_species)
@@ -177,7 +190,11 @@
 	if(outfit_override || outfit)
 		H.equipOutfit(outfit_override ? outfit_override : outfit, visualsOnly)
 
-	H.dna.species.after_equip_job(src, H, visualsOnly)
+	H.dna.species.after_equip_job(src, H, preference_source)
+
+	for(var/skill in base_skills)
+		H.adjust_skill(skill, base_skills[skill])
+	H.add_skill_points(skill_points)
 
 	if(!visualsOnly && announce)
 		announce(H)
