@@ -78,9 +78,9 @@
 	name = "\improper AI Core"
 	icon_state = "ai_core"
 
-/area/station/ai_monitored/ai/antechamber
+/area/station/ai_monitored/ai/satellite
 	name = "\improper AI Satellite Antechamber"
-	icon_state = "ai_antechamber"
+	icon_state = "ai_sat"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/ai_monitored/ai/sat_maintenance

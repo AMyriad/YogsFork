@@ -127,4 +127,4 @@
 
 /area/station/medical/virology/lab
 	name = "\improper Virology Lab"
-	icon_state = "virology"
+	icon_state = "med_viro_lab"

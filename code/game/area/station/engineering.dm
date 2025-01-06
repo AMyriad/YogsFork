@@ -79,13 +79,13 @@
 	name = "\improper Atmospherics Equipment Storage"
 	icon_state = "eng_atmos_equip"
 
-/area/station/engineering/atmospherics/mixing
-	name = "\improper Atmospherics Mixing Room"
-	icon_state = "eng_atmos_mixing"
-
 /area/station/engineering/atmospherics/distro
 	name = "\improper Atmospherics Distribution"
 	icon_state = "eng_atmos_distro"
+
+/area/station/engineering/atmospherics/filtration
+	name = "\improper Atmospherics Filtration"
+	icon_state = "eng_atmos_filtration"
 
 /area/station/engineering/atmospherics/incinerator
 	name = "\improper Incinerator"

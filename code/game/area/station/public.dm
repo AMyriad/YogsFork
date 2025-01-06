@@ -34,46 +34,44 @@
 
 /area/station/public/hallway/central/command
 	name = "\improper Command Hallway"
-	icon_state = ""
 
 /area/station/public/hallway/north
 	name = "\improper Fore (N) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_n"
 
 /area/station/public/hallway/northeast
 	name = "\improper Starboard Bow (NE) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_se"
 
 /area/station/public/hallway/east
 	name = "\improper Starboard (E) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_e"
 
 /area/station/public/hallway/southeast
 	name= "\improper Starboard Quarter (SE) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_se"
 
 /area/station/public/hallway/south
 	name = "\improper Aft (S) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_s"
 
 /area/station/public/hallway/southwest
 	name = "\improper Port Quarter (SW) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_sw"
 
 /area/station/public/hallway/west
 	name = "\improper Port (W) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_w"
 
 /area/station/public/hallway/northwest
 	name = "\improper Port Bow (NW) Primary Hallway"
-	icon_state = ""
+	icon_state = "pub_hall_nw"
 
 
 //-- Misc and Recreational --//
 
 /area/station/public/misc
 	name = "MISC AREAS"
-	icon_state = "pub_misc"
 	minimap_color = "#f8ff83"
 	lights_always_start_on = TRUE
 
@@ -161,7 +159,7 @@
 	icon_state = "pub_storage_tool_aux"
 
 /area/station/public/storage/art
-	name = "\improper Art Supplies Storage"
+	name = "\improper Artist's Coven"
 	icon_state = "pub_storage_art"
 
 
