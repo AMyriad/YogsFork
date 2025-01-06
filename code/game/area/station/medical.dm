@@ -28,7 +28,7 @@
 	icon_state = "med_lobby"
 
 /area/station/medical/aft
-	name = "\improper Medbay Aft Hall"
+	name = "\improper Medbay Aft"
 	icon_state = "med_aft"
 
 /area/station/medical/treatment_center

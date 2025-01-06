@@ -1,5 +1,5 @@
 /area/station/engineering
-	name = "Engineering Areas"
+	name = "ENGINEERING AREAS"
 	icon_state = "eng"
 	minimap_color = "#f7de02"
 	airlock_wires = /datum/wires/airlock/engineering
@@ -67,7 +67,7 @@
 //-- Atmospherics --//
 
 /area/station/engineering/atmospherics
-	name = "Atmospherics Areas"
+	name = "ATMOSPHERICS AREAS"
 	icon_state = "eng_atmos"
 	minimap_color = "#207df7"
 
@@ -100,7 +100,7 @@
 //-- Telecomms --//
 
 /area/station/engineering/telecomms
-	name = "Telecomms Areas"
+	name = "TELECOMMS AREAS"
 	icon_state = "eng_tcomms"
 	minimap_color = "#00fff6"
 	ambientsounds = list('sound/ambience/ambisin2.ogg',

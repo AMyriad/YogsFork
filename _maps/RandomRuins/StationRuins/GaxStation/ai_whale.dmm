@@ -5,7 +5,7 @@
 	},
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/station/engineering/telecomms/servers)
+/area/station/engineering/telecomms/control)
 "aE" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -1054,7 +1054,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/dark,
-/area/station/engineering/telecomms/servers)
+/area/station/engineering/telecomms/control)
 "sw" = (
 /obj/machinery/telecomms/server/presets/command,
 /turf/open/floor/circuit/green/telecomms/mainframe,
@@ -1277,7 +1277,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcomms,
 /turf/open/floor/plasteel/dark,
-/area/station/engineering/telecomms/servers)
+/area/station/engineering/telecomms/control)
 "xn" = (
 /obj/structure/cable/white{
 	icon_state = "4-8"
@@ -2254,7 +2254,7 @@
 /area/station/ai_monitored/ai/antechamber)
 "Pd" = (
 /turf/closed/wall,
-/area/station/engineering/telecomms/servers)
+/area/station/engineering/telecomms/control)
 "Pe" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
@@ -2772,7 +2772,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/engineering/tcomms,
 /turf/open/floor/plasteel/dark,
-/area/station/engineering/telecomms/servers)
+/area/station/engineering/telecomms/control)
 "Xc" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/cable{
@@ -2791,7 +2791,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/station/engineering/telecomms/servers)
+/area/station/engineering/telecomms/control)
 "Xn" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
