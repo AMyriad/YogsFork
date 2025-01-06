@@ -651,7 +651,6 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc{
-	areastring = "/area/chapel/office";
 	name = "Chapel Office APC";
 	pixel_y = -23
 	},
@@ -987,7 +986,6 @@
 "XU" = (
 /obj/structure/spirit_board,
 /obj/machinery/power/apc{
-	areastring = "/area/chapel/main";
 	dir = 4;
 	name = "Chapel APC";
 	pixel_x = 24

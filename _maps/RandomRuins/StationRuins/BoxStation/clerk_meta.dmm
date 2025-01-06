@@ -42,7 +42,6 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/apc{
-	areastring = "/area/clerk";
 	dir = 1;
 	name = "Gift Shop APC";
 	pixel_y = 23

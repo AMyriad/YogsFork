@@ -762,7 +762,6 @@
 /area/station/ai_monitored/ai/core)
 "nj" = (
 /obj/machinery/power/apc/highcap/five_k{
-	areastring = "/area/tcommsat/server";
 	dir = 1;
 	name = "Telecomms Server Room APC";
 	pixel_y = 23
@@ -1568,7 +1567,6 @@
 /area/station/engineering/telecomms/control)
 "Bo" = (
 /obj/machinery/power/apc{
-	areastring = "/area/tcommsat/computer";
 	dir = 8;
 	name = "Telecomms Monitoring APC";
 	pixel_x = -25
@@ -2158,7 +2156,6 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
-	areastring = "/area/ai_monitored/turret_protected/aisat_interior";
 	dir = 4;
 	name = "MiniSat Antechamber APC";
 	pixel_x = 24

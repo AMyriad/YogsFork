@@ -78,6 +78,14 @@
 /obj/item/clothing/under/rank/civilian/chaplain/burial,
 /turf/open/floor/plasteel/grimy,
 /area/station/service/chapel/office)
+"dQ" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	id = "chapelgun";
+	name = "Chapel Launcher Door"
+	},
+/turf/open/floor/plating,
+/area/station/service/chapel)
 "fv" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -197,7 +205,6 @@
 /area/station/service/chapel)
 "km" = (
 /obj/machinery/power/apc{
-	areastring = "/area/chapel/main";
 	dir = 4;
 	name = "Chapel APC";
 	pixel_x = 24
@@ -616,14 +623,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/station/service/chapel)
-"OS" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/poddoor{
-	id = "chapelgun";
-	name = "Chapel Launcher Door"
-	},
-/turf/open/floor/plating,
-/area/station/service/chapel)
 "PM" = (
 /obj/structure/chair/pew/right{
 	dir = 1
@@ -677,6 +676,18 @@
 /obj/structure/table/altar_of_gods,
 /turf/open/floor/plasteel/dark,
 /area/station/service/chapel)
+"Sf" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Chapel"
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/border_only{
+	dir = 8
+	},
+/turf/open/floor/carpet/purple,
+/area/station/service/chapel)
 "Sh" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -698,7 +709,6 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
-	areastring = "/area/chapel/office";
 	dir = 8;
 	name = "Chapel Office APC";
 	pixel_x = -25
@@ -758,18 +768,6 @@
 /turf/open/floor/plasteel/chapel{
 	dir = 8
 	},
-/area/station/service/chapel)
-"Xx" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Chapel"
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 4
-	},
-/obj/machinery/door/firedoor/border_only{
-	dir = 8
-	},
-/turf/open/floor/carpet/purple,
 /area/station/service/chapel)
 "XS" = (
 /obj/machinery/airalarm{
@@ -993,8 +991,8 @@ Ck
 Ck
 Ck
 Ck
-Xx
-Xx
+Sf
+Sf
 Ck
 Ck
 "}
@@ -1197,7 +1195,7 @@ ZG
 Ck
 "}
 (16,1,1) = {"
-OS
+dQ
 XX
 nS
 Ck
@@ -1213,7 +1211,7 @@ Ck
 Ck
 Ck
 Ck
-Xx
+Sf
 wH
 Ck
 Ck

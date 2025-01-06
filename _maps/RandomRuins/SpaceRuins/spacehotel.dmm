@@ -1321,7 +1321,7 @@
 /area/ruins/space/space_hotel)
 "eL" = (
 /obj/machinery/power/apc/highcap/five_k{
-	areastring = "/area/ruin/space/has_grav/hotel/bar";
+	areastring = "/area/ruins/space/space_hotel_bar";
 	dir = 2;
 	name = "Kitchen APC";
 	pixel_y = -23
@@ -1523,7 +1523,7 @@
 /area/ruins/space/space_hotel)
 "fr" = (
 /obj/machinery/power/apc/highcap/five_k{
-	areastring = "/area/ruin/space/has_grav/hotel/security";
+	areastring = "/area/ruins/space_hotel_security";
 	dir = 2;
 	name = "Security APC";
 	pixel_y = -23
@@ -2407,7 +2407,7 @@
 /area/ruins/space/space_hotel_power)
 "hA" = (
 /obj/machinery/power/apc/highcap/five_k{
-	areastring = "/area/ruin/space/has_grav/hotel/pool";
+	areastring = "/area/ruins/space/space_hotel_pool";
 	dir = 2;
 	name = "Pool APC";
 	pixel_y = -23

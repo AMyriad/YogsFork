@@ -19721,7 +19721,7 @@
 /area/debug/admin/centcom/thunderdome/observer)
 "eiz" = (
 /obj/machinery/power/apc{
-	areastring = "/area/bluespace_locker";
+	areastring = "/area/debug/admin/bluespace_locker";
 	name = "Bluespace Locker APC";
 	pixel_y = -23
 	},

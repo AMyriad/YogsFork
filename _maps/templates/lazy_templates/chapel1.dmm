@@ -199,7 +199,6 @@
 /area/station/service/chapel)
 "km" = (
 /obj/machinery/power/apc{
-	areastring = "/area/chapel/main";
 	dir = 4;
 	name = "Chapel APC";
 	pixel_x = 24
@@ -706,7 +705,6 @@
 	dir = 4
 	},
 /obj/machinery/power/apc{
-	areastring = "/area/chapel/office";
 	dir = 8;
 	name = "Chapel Office APC";
 	pixel_x = -25

@@ -366,7 +366,6 @@
 /area/template_noop)
 "W" = (
 /obj/machinery/power/apc{
-	areastring = "/area/security/execution/transfer";
 	dir = 4;
 	name = "Prisoner Transfer Centre";
 	pixel_x = 24
