@@ -5,35 +5,35 @@
 "f" = (
 /obj/structure/flora/rock/jungle,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "i" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "n" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "o" = (
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "r" = (
 /obj/structure/flora/junglebush/c,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "E" = (
 /obj/structure/flora/rock/pile/largejungle,
 /mob/living/simple_animal/hostile/megafauna/dragon/jungle,
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "O" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "R" = (
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 a

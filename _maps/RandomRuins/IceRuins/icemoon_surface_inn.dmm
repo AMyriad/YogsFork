@@ -4,23 +4,23 @@
 /obj/machinery/door/window/westright,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ad" = (
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "af" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ai" = (
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "am" = (
 /turf/closed/mineral/random/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "aq" = (
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ar" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -32,26 +32,26 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "au" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "av" = (
 /obj/structure/flora/bush,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "ax" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "aA" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/rack,
 /obj/item/tank/internals/emergency_oxygen,
 /turf/open/floor/wood,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "aD" = (
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "aH" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -60,7 +60,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "aJ" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -69,37 +69,37 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "aK" = (
 /turf/template_noop,
 /area/template_noop)
 "aN" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "aO" = (
 /turf/open/floor/wood,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "aR" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "aU" = (
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "aV" = (
 /obj/structure/flora/stump,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "aW" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "aY" = (
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "aZ" = (
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "bi" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Backroom"
@@ -111,7 +111,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "bx" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -119,37 +119,37 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "bX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/disposalpipe/segment,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "cc" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/disposalpipe/junction/flip{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "cx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /obj/item/beacon,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "cz" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/broken/seven,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "cN" = (
 /obj/machinery/chem_master/condimaster{
 	name = "HoochMaster 2000"
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "dm" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small{
@@ -157,7 +157,7 @@
 	},
 /obj/item/storage/box/beanbag,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "dt" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor/border_only{
@@ -168,11 +168,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "dy" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "dC" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -182,7 +182,7 @@
 	},
 /obj/structure/window,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ek" = (
 /obj/structure/cloth_curtain{
 	color = "#99ccff"
@@ -192,32 +192,32 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "eT" = (
 /obj/machinery/computer/teleporter{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "fa" = (
 /obj/structure/fireplace{
 	fuel_added = 1000;
 	lit = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "fp" = (
 /obj/structure/table/wood/poker,
 /obj/item/storage/pill_bottle/dice,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "gf" = (
 /obj/structure/table,
 /obj/item/reagent_containers/glass/mixbowl,
 /obj/item/kitchen/knife,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "hq" = (
 /obj/machinery/button/door{
 	id = "inndoor";
@@ -227,39 +227,39 @@
 	req_access = list("bar")
 	},
 /turf/open/floor/wood/broken/two,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "hB" = (
 /obj/structure/closet/crate/rcd,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "hG" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "iy" = (
 /obj/machinery/oven,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "iG" = (
 /obj/machinery/vending/dinnerware{
 	onstation = 0
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "iH" = (
 /turf/open/floor/wood/broken/six,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "iX" = (
 /turf/open/floor/wood/broken/two,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "jj" = (
 /obj/structure/table,
 /obj/item/kitchen/rollingpin,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "jy" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -269,7 +269,7 @@
 	dir = 2
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "jK" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -281,7 +281,7 @@
 	onstation = 0
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "jY" = (
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
@@ -291,7 +291,7 @@
 	},
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ka" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/door/firedoor/border_only{
@@ -303,13 +303,13 @@
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "kf" = (
 /obj/structure/disposalpipe/junction{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "km" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -323,34 +323,34 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ks" = (
 /obj/machinery/griddle,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ku" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/secure_closet/bar,
 /obj/item/storage/box/dishdrive,
 /obj/item/gun/ballistic/revolver/russian,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "lk" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "lC" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/shaker,
 /obj/item/book/manual/wiki/barman_recipes,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "md" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "mi" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -362,17 +362,17 @@
 	pixel_y = 30
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "mx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/mopbucket,
 /obj/item/mop,
 /turf/open/floor/wood,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "mG" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood/broken/five,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "mW" = (
 /obj/machinery/door/window/southright,
 /obj/machinery/light/small{
@@ -381,7 +381,7 @@
 /obj/machinery/door/firedoor/border_only,
 /obj/effect/mapping_helpers/windoor/access/all/service/bar,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "nd" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -389,19 +389,19 @@
 /obj/structure/chair/stool/bar,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "nh" = (
 /obj/structure/toilet{
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "nm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
 /turf/open/floor/wood/broken/six,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "nD" = (
 /obj/structure/closet/crate{
 	name = "Special Drink Materials"
@@ -417,18 +417,18 @@
 /obj/item/stack/sheet/mineral/plasma,
 /obj/item/stack/sheet/mineral/plasma,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ob" = (
 /obj/machinery/light/small,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "od" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ow" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -439,7 +439,7 @@
 /obj/structure/window,
 /obj/machinery/smartfridge/disks,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "oB" = (
 /obj/machinery/door/airlock/wood{
 	name = "Standard Room"
@@ -451,7 +451,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "oU" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -460,20 +460,20 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "pz" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "qk" = (
 /obj/item/kirbyplants/random,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "qm" = (
 /obj/machinery/door/airlock/wood/glass,
 /obj/machinery/door/firedoor/border_only{
@@ -484,17 +484,17 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "qq" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/deck,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "qQ" = (
 /obj/machinery/light,
 /obj/structure/dresser,
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "qT" = (
 /obj/structure/closet/secure_closet/personal/cabinet{
 	req_access = list("bar")
@@ -504,7 +504,7 @@
 /obj/item/clothing/mask/breath,
 /obj/item/flashlight/lantern,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "rb" = (
 /obj/structure/mineral_door/wood,
 /obj/machinery/door/firedoor/border_only,
@@ -512,48 +512,48 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "rg" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "rh" = (
 /obj/machinery/vending/cigarette{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "rJ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "rW" = (
 /obj/structure/table/wood/bar,
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "sg" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "tt" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/inn)
+/area/external/mining/icemoon/surface/explored)
 "tw" = (
 /obj/machinery/autolathe,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "tS" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "uk" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -561,7 +561,7 @@
 /obj/structure/chair/stool/bar,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "um" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -574,24 +574,23 @@
 	},
 /obj/structure/window,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ur" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "uR" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood/broken/seven,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "uX" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile/ice,
 /obj/machinery/door/poddoor/shutters{
 	id = "innsuite"
 	},
+/obj/effect/spawner/structure/window/ice,
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "vn" = (
 /obj/structure/closet,
 /obj/item/vending_refill/cigarette,
@@ -601,12 +600,12 @@
 /obj/item/storage/bag/trash,
 /obj/item/soap,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "vH" = (
 /obj/structure/chair/stool/bar,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "vU" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/disposal/bin,
@@ -614,11 +613,11 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "wl" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "wy" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -628,7 +627,7 @@
 	},
 /obj/machinery/plantgenes,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "wE" = (
 /obj/structure/sink{
 	dir = 8;
@@ -637,19 +636,19 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "xE" = (
 /obj/machinery/vending/coffee{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "xI" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "yn" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -659,21 +658,21 @@
 	},
 /obj/machinery/hydroponics/constructable,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "AJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Ck" = (
 /turf/open/floor/plating,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "Cr" = (
 /obj/item/bedsheet/red,
 /obj/structure/bed,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Cw" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor/border_only,
@@ -681,22 +680,22 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "CK" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/wood/broken/two,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "Dj" = (
 /obj/machinery/smartfridge/food,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "DB" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "DL" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -709,12 +708,12 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Ez" = (
 /obj/structure/table/wood,
 /obj/machinery/reagentgrinder,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "EK" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -727,7 +726,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "EM" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/rack,
@@ -736,19 +735,19 @@
 /obj/item/storage/box/lights/mixed,
 /obj/item/storage/box/matches,
 /turf/open/floor/wood/broken/four,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "EY" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/inn/shed)
+/area/external/mining/icemoon/surface/explored)
 "Fs" = (
 /obj/structure/table/wood/bar,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Gl" = (
 /obj/structure/rack,
 /obj/item/shovel,
@@ -757,25 +756,25 @@
 /obj/item/clothing/gloves/color/fyellow,
 /obj/item/hatchet/wooden,
 /turf/open/floor/wood/broken/five,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "GB" = (
 /obj/structure/toilet{
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "He" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
 	pixel_y = 6
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Hi" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Hv" = (
 /obj/item/bedsheet/adjusted/brown,
 /obj/structure/bed,
@@ -783,7 +782,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "HQ" = (
 /obj/machinery/door/airlock/wood{
 	name = "Suite"
@@ -795,7 +794,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Ii" = (
 /obj/machinery/shower{
 	pixel_y = 20
@@ -806,12 +805,7 @@
 /obj/item/soap,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
-"IF" = (
-/obj/structure/window/reinforced/fulltile/ice,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "IO" = (
 /obj/structure/cloth_curtain{
 	color = "#99ccff"
@@ -821,23 +815,23 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Jn" = (
 /obj/structure/table/wood/bar,
 /obj/machinery/door/firedoor/border_only,
 /obj/item/reagent_containers/glass/rag,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Km" = (
 /obj/machinery/processor,
 /obj/machinery/light,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Ku" = (
 /obj/item/bedsheet/red,
 /obj/structure/bed,
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Kw" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -857,26 +851,26 @@
 /obj/item/storage/box/disks_plantgene,
 /obj/structure/window,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Lb" = (
 /obj/structure/closet/secure_closet/freezer/meat{
 	req_access = list("bar")
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Ld" = (
 /obj/structure/sink{
 	dir = 4;
 	pixel_x = 11
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Lv" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "LE" = (
 /obj/machinery/door/airlock/wood{
 	name = "Personal Quarters"
@@ -889,7 +883,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "LU" = (
 /obj/structure/closet/secure_closet/freezer/kitchen{
 	req_access = list("bar")
@@ -898,20 +892,20 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "My" = (
 /obj/machinery/vending/boozeomat{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Na" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Ns" = (
 /obj/machinery/door/airlock/wood{
 	name = "Personal Quarters"
@@ -921,46 +915,46 @@
 	id = "inndoor"
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Nu" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "NA" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "NE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "NR" = (
 /obj/structure/table,
 /obj/machinery/microwave,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "NS" = (
 /obj/structure/chair/stool/bar{
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "OE" = (
 /turf/open/floor/wood/broken/four,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Py" = (
 /turf/open/floor/wood/broken/three,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "PE" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "PX" = (
 /obj/machinery/deepfryer,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Qk" = (
 /obj/machinery/telecomms/relay/preset/telecomms{
 	generates_heat = 0;
@@ -970,23 +964,23 @@
 	dir = 8
 	},
 /turf/open/floor/circuit,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Rl" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "RR" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/vending/snack{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "SC" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Tb" = (
 /obj/structure/table/wood/bar,
 /obj/item/flashlight/lamp/green{
@@ -995,11 +989,11 @@
 	},
 /obj/machinery/door/firedoor/border_only,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Tg" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/red,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Tx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/chem_dispenser/fullupgrade,
@@ -1007,15 +1001,15 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "TB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "TY" = (
 /obj/machinery/teleport/hub,
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "UE" = (
 /obj/structure/table,
 /obj/item/book/manual/wiki/cooking_to_serve_man,
@@ -1023,7 +1017,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Vh" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table,
@@ -1035,21 +1029,21 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "VJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/broken/three,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "VR" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Wa" = (
 /obj/structure/dresser,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Wr" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -1061,17 +1055,16 @@
 	onstation = 0
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Wx" = (
 /obj/structure/mineral_door/wood,
 /obj/structure/fans/tiny,
 /turf/open/floor/wood,
-/area/ruin/powered/inn/shed)
+/area/ruins/icemoon/powered/inn/shed)
 "WW" = (
-/obj/structure/grille,
-/obj/structure/window/reinforced/fulltile/ice,
+/obj/effect/spawner/structure/window/ice,
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Xc" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -1081,7 +1074,7 @@
 	},
 /obj/machinery/door/window/southleft,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Xk" = (
 /obj/structure/disposaloutlet{
 	dir = 1
@@ -1090,7 +1083,7 @@
 	dir = 2
 	},
 /turf/open/floor/plating,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "Xs" = (
 /obj/machinery/door/airlock/wood,
 /obj/machinery/door/firedoor/border_only{
@@ -1104,13 +1097,13 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/service/bar,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "XK" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Yp" = (
 /obj/machinery/button/door{
 	id = "innsuite";
@@ -1124,35 +1117,35 @@
 	},
 /obj/item/lighter,
 /turf/open/floor/carpet,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Yt" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "YJ" = (
 /obj/structure/closet/secure_closet/freezer/fridge{
 	req_access = list("bar")
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "YV" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/inn)
+/area/external/mining/icemoon/surface/explored)
 "Zi" = (
 /obj/machinery/teleport/station,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "Zr" = (
 /obj/machinery/light,
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 "ZG" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -1162,7 +1155,7 @@
 	},
 /obj/machinery/biogenerator,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/inn)
+/area/ruins/icemoon/powered/inn)
 
 (1,1,1) = {"
 aK
@@ -1249,7 +1242,7 @@ YJ
 af
 af
 af
-IF
+WW
 af
 am
 ax

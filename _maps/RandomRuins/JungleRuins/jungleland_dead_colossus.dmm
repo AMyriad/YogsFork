@@ -5,7 +5,7 @@
 "b" = (
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "c" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
@@ -13,21 +13,21 @@
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/center,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "g" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
 /obj/structure/stone_tile,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "h" = (
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "l" = (
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "m" = (
 /obj/structure/stone_tile/block{
 	dir = 8
@@ -36,7 +36,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "o" = (
 /obj/structure/stone_tile/surrounding_tile,
 /obj/structure/stone_tile/surrounding_tile{
@@ -44,14 +44,14 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "p" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "q" = (
 /obj/structure/stone_tile/block{
 	dir = 4
@@ -60,32 +60,32 @@
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "u" = (
 /obj/structure/stone_tile{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/molten_object/large,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "v" = (
 /obj/structure/stone_tile{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "w" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "x" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "y" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 8
@@ -95,13 +95,13 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "A" = (
 /obj/structure/stone_tile{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "D" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
@@ -111,14 +111,14 @@
 	},
 /obj/structure/stone_tile/center,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "E" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "H" = (
 /obj/structure/stone_tile/block{
 	dir = 8
@@ -127,7 +127,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "I" = (
 /obj/structure/stone_tile/block{
 	dir = 1
@@ -136,31 +136,31 @@
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "K" = (
 /obj/structure/stone_tile/surrounding,
 /obj/structure/stone_tile/center,
 /mob/living/simple_animal/hostile/megafauna/colossus,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "L" = (
 /obj/structure/stone_tile/block,
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "M" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "N" = (
 /obj/structure/stone_tile/surrounding_tile,
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "P" = (
 /obj/structure/stone_tile/block{
 	dir = 4
@@ -169,44 +169,44 @@
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "R" = (
 /obj/structure/stone_tile,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "S" = (
 /obj/structure/stone_tile/block{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "T" = (
 /obj/structure/stone_tile/block,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "W" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "X" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Y" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /obj/structure/stone_tile,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Z" = (
 /obj/effect/decal/cleanable/molten_object/large,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 a

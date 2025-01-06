@@ -2,59 +2,59 @@
 "a" = (
 /obj/item/cultivator/rake,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "b" = (
 /obj/structure/flora/junglebush,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "c" = (
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "e" = (
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "f" = (
 /obj/structure/sink/puddle,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "j" = (
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "l" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "o" = (
 /obj/structure/flora/rock/jungle,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "p" = (
 /obj/structure/flora/grass/jungle/b,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "q" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "s" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "u" = (
 /mob/living/simple_animal/hostile/asteroid/yog_jungle/dryad{
 	desc = "An elderly spirit. It looks to have tended to this quaint garden for a very long time.";
 	name = "The Gardener"
 	},
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "w" = (
 /obj/structure/mineral_door/paperframe,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "x" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "z" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/bait/wild,
@@ -64,54 +64,54 @@
 /obj/item/reagent_containers/food/snacks/bait/wild,
 /obj/item/reagent_containers/food/snacks/bait/wild,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "A" = (
 /obj/structure/window/paperframe{
 	can_atmos_pass = 0
 	},
 /turf/open/floor/wood/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "B" = (
 /obj/structure/flora/junglebush/c,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "F" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "H" = (
 /obj/structure/chair/sofa/bamboo/left,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "I" = (
 /turf/closed/wall/mineral/wood,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "K" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "L" = (
-/obj/item/twohanded/fishingrod,
+/obj/item/fishingrod,
 /obj/item/clothing/head/fishing,
 /obj/item/clothing/gloves/fishing,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "S" = (
 /obj/structure/flytrap,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "T" = (
 /obj/structure/chair/sofa/bamboo/right,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "V" = (
 /obj/structure/mineral_door/paperframe,
 /turf/open/floor/wood/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Y" = (
 /obj/structure/flora/junglebush/large,
 /turf/open/indestructible/grass/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 c

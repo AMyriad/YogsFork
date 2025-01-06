@@ -1,49 +1,49 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ay" = (
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "aM" = (
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "aP" = (
 /obj/structure/dresser,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "aZ" = (
 /obj/structure/sign/poster/ripped,
 /turf/closed/wall/rust,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "bR" = (
 /obj/machinery/light/small/broken{
 	dir = 4
 	},
 /obj/structure/fluff/fokoff_sign,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "bY" = (
 /obj/structure/flora/stump,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "cj" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/fishandchips,
 /turf/open/floor/plasteel/checker,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "cB" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "dh" = (
 /obj/machinery/door/airlock/wood,
 /obj/structure/barricade/wooden/crude/snow,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "fD" = (
 /obj/structure/bed,
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/item/bedsheet/random,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "gG" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/sashimi{
@@ -58,43 +58,43 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "hD" = (
 /obj/effect/decal/cleanable/blood/gibs/limb,
 /turf/open/floor/engine/cult,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "hI" = (
 /obj/item/reagent_containers/food/drinks/beer,
 /turf/open/floor/plating/ice/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "iz" = (
 /obj/structure/fence/door/opened{
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "iB" = (
 /turf/closed/mineral/snowmountain/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "jk" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "jP" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "kl" = (
 /obj/structure/sign/poster/official/nanotrasen_logo,
 /turf/closed/wall,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "ks" = (
 /obj/structure/flora/rock/icy,
 /obj/effect/mob_spawn/human/corpse/assistant,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "la" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /obj/effect/mob_spawn/human/corpse/assistant,
@@ -102,17 +102,17 @@
 	name = "Village Hunter"
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "lg" = (
 /obj/structure/flora/grass/both,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "li" = (
 /obj/structure/dresser,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "lo" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -121,7 +121,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "mi" = (
 /obj/effect/decal/remains/human,
 /mob/living/simple_animal/hostile/construct/armored/hostile{
@@ -130,7 +130,7 @@
 	name = "Right Hand of the Elder"
 	},
 /turf/open/floor/engine/cult,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "mI" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/grass/both,
@@ -138,48 +138,48 @@
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "nR" = (
 /obj/structure/chair/sofa/left,
 /turf/closed/mineral/snowmountain/cavern/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "oB" = (
 /obj/structure/table/wood,
 /obj/structure/bedsheetbin/empty,
-/obj/item/clothing/under/pj/blue,
+/obj/item/clothing/under/rank/medical/pj/blue,
 /obj/item/clothing/shoes/sneakers/white,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "oF" = (
 /obj/structure/flora/rock/icy,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "pc" = (
 /turf/open/floor/plating/asteroid/snow/ice/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "pj" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "pH" = (
 /obj/structure/sign/poster/official/work_for_a_future,
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "pI" = (
 /obj/structure/flora/rock/pile/icy,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "pP" = (
 /obj/structure/chair/sofa/left{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "pV" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "rC" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/item/reagent_containers/food/snacks/carpmeat,
@@ -189,14 +189,14 @@
 /obj/item/reagent_containers/food/condiment/pack/ketchup,
 /obj/item/reagent_containers/food/condiment/pack/ketchup,
 /turf/open/floor/plasteel/checker,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "sG" = (
 /obj/effect/decal/cleanable/vomit,
 /obj/structure/toilet{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "sY" = (
 /obj/structure/sink/kitchen{
 	dir = 4;
@@ -204,85 +204,85 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/checker,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "tg" = (
 /obj/structure/fence{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "tt" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "tF" = (
 /obj/structure/fence,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "tM" = (
 /obj/structure/statue/snow/snowlegion{
 	desc = "An off-putting snowman, something about it gives you a sense of dread instead of holiday cheer."
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "tN" = (
 /turf/closed/mineral/random/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "tX" = (
 /obj/structure/table/wood,
 /obj/structure/bedsheetbin,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "us" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "ut" = (
 /obj/item/flashlight/lantern{
 	light_on = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "vi" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/fence/door,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "wQ" = (
 /turf/closed/wall,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "xc" = (
 /turf/open/floor/plating/ice/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "xN" = (
 /obj/structure/bed/dogbed{
 	pixel_y = 14
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "yb" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "yS" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "zR" = (
 /obj/machinery/door/airlock/wood,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "zT" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "AG" = (
 /obj/structure/showcase/machinery/tv,
 /obj/effect/decal/cleanable/dirt,
@@ -290,12 +290,12 @@
 	dir = 1
 	},
 /turf/open/floor/holofloor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "AM" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/item/pickaxe,
 /turf/open/floor/engine/cult,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "AN" = (
 /obj/structure/closet/cabinet,
 /obj/item/restraints/legcuffs/beartrap,
@@ -308,27 +308,27 @@
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Bq" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "Cd" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
 	},
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Cl" = (
 /obj/structure/sacrificealtar,
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/kitchen/knife/bloodletter,
 /turf/open/floor/engine/cult,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Dm" = (
 /obj/structure/flora/grass/brown,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "DI" = (
 /obj/structure/closet/emcloset,
 /obj/item/tank/internals/emergency_oxygen,
@@ -337,20 +337,20 @@
 /obj/item/clothing/mask/breath/medical,
 /obj/item/flashlight/lantern,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "DM" = (
 /obj/structure/flora/bush,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "Ed" = (
 /obj/machinery/door/airlock/wood,
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Ei" = (
 /turf/closed/mineral/snowmountain/cavern/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "EF" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /obj/effect/decal/remains/human,
@@ -360,11 +360,11 @@
 	name = "Left Hand of the Elder"
 	},
 /turf/open/floor/engine/cult,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "FR" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "Gr" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/decal/cleanable/dirt,
@@ -375,12 +375,12 @@
 	},
 /obj/item/clothing/neck/petcollar,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Gy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/plating,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "GK" = (
 /obj/item/clothing/head/bearpelt,
 /obj/structure/table/wood,
@@ -393,26 +393,26 @@
 	pixel_y = 6
 	},
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Ha" = (
 /obj/structure/mirror{
 	broken = 1
 	},
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Hf" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Hx" = (
 /obj/structure/closet/cabinet,
-/obj/item/clothing/under/rank/miner,
+/obj/item/clothing/under/rank/cargo/miner/lavaland,
 /obj/item/clothing/suit/hooded/wintercoat/miner,
 /obj/item/clothing/shoes/winterboots,
 /obj/item/card/id/mining,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "IA" = (
 /obj/structure/fireplace{
 	fuel_added = 1000;
@@ -420,36 +420,36 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Kd" = (
 /obj/structure/flora/grass/green,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "LZ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/random,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Nq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/storage/bag/ore,
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Og" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "Os" = (
 /obj/structure/chair/comfy/brown{
 	dir = 4
 	},
 /turf/open/floor/carpet,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Pp" = (
 /obj/machinery/vending/snack/random,
 /turf/open/floor/holofloor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "PQ" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /mob/living/simple_animal/hostile/illusion{
@@ -463,7 +463,7 @@
 	name = "Village Elder"
 	},
 /turf/open/floor/engine/cult,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Qh" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/decal/cleanable/dirt,
@@ -483,7 +483,7 @@
 /obj/item/organ/heart,
 /obj/item/multitool,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Qt" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
@@ -493,71 +493,71 @@
 	},
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "QR" = (
 /turf/closed/wall/rust,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Rv" = (
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "Si" = (
 /obj/structure/mirror,
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Sk" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "SN" = (
 /turf/open/floor/plasteel/freezer,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "SZ" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Tc" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "TW" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "UI" = (
 /obj/machinery/washing_machine,
 /obj/effect/decal/cleanable/blood,
 /obj/item/reagent_containers/food/snacks/meat/slab/corgi,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Vn" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Ws" = (
 /obj/structure/fence/cut/medium{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "WH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed,
 /obj/item/bedsheet/cult,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 "Ze" = (
 /turf/closed/wall,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "Zx" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
 /turf/open/floor/plating/ice/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "ZG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/cabinet,
@@ -565,7 +565,7 @@
 /obj/item/clothing/shoes/winterboots,
 /obj/item/clothing/under/suit/tan,
 /turf/open/floor/wood,
-/area/ruin/powered)
+/area/ruins/icemoon/powered/generic)
 
 (1,1,1) = {"
 tN

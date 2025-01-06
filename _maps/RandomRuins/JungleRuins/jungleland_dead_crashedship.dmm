@@ -2,7 +2,7 @@
 "a" = (
 /obj/structure/closet/crate/secure/loot,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "b" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
@@ -11,15 +11,15 @@
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "c" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "d" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "g" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
@@ -28,145 +28,145 @@
 	dir = 4
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "h" = (
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "i" = (
 /obj/structure/table,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "j" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "l" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "n" = (
 /obj/structure/table,
 /obj/item/flashlight,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "o" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 8
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "p" = (
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "r" = (
 /turf/closed/wall/mineral/titanium,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "s" = (
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "t" = (
 /obj/structure/chair/office/dark{
 	dir = 8
 	},
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "u" = (
 /obj/structure/chair/office/dark{
 	dir = 1
 	},
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "v" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "w" = (
 /obj/structure/flora/tree/dead/jungle,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "x" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "y" = (
 /obj/machinery/computer{
 	dir = 8
 	},
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "B" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 4
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "C" = (
 /turf/open/floor/plasteel/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "D" = (
 /turf/template_noop,
 /area/template_noop)
 "F" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "G" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "I" = (
 /turf/open/floor/plasteel/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "K" = (
 /obj/structure/table_frame,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "L" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/end{
 	dir = 1
 	},
 /turf/open/floor/plating/lavaland_baseturf,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "N" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "O" = (
 /turf/open/floor/plating/lavaland_baseturf,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "P" = (
 /obj/structure/frame/machine,
 /turf/open/floor/plasteel/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "R" = (
 /obj/machinery/door/airlock/titanium,
 /turf/open/floor/plating/lavaland_baseturf,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "S" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "V" = (
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "W" = (
 /turf/closed/wall/mineral/titanium,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "X" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Y" = (
 /obj/item/stack/rods,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Z" = (
 /obj/item/stack/sheet/metal,
 /turf/open/floor/plating/jungle_baseturf/dying,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 D
@@ -313,7 +313,7 @@ r
 V
 r
 r
-r
+W
 h
 h
 h

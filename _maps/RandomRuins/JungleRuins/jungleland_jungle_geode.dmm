@@ -2,29 +2,29 @@
 "b" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "h" = (
 /turf/open/lava/smooth/jungle_surface,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "l" = (
 /turf/closed/indestructible/riveted/boss,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "n" = (
 /turf/closed/mineral/random/volcanic,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "q" = (
 /mob/living/simple_animal/hostile/asteroid/goliath/beast,
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "G" = (
 /turf/template_noop,
 /area/template_noop)
 "L" = (
 /turf/closed/mineral/random/volcanic/hard,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "N" = (
 /turf/open/floor/plating/dirt/jungleland/barren_rocks,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 
 (1,1,1) = {"
 G

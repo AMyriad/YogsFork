@@ -112,23 +112,8 @@
 	usewhitelist = TRUE
 	retrievalmessage = "Safety retrieval complete."
 
-/obj/item/implant/teleporter/syndicate_icemoon
-	pointofreturn = /area/ruins/icemoon/syndicate_icemoon
-	usewhitelist = TRUE
-	retrievalmessage = "Agent retrieval complete."
-
-/obj/item/implant/teleporter/syndicate_lavaland
-	pointofreturn = /area/ruins/lavaland/syndicate
-	usewhitelist = TRUE
-	retrievalmessage = "Agent retrieval complete."
-
-/obj/item/implant/teleporter/syndicate_listening_post
-	//pointofreturn = /area/ruins/space/listeningstation FIX BEFORE MERGE
-	usewhitelist = TRUE
-	retrievalmessage = "Agent retrieval complete."
-
-/obj/item/implant/teleporter/syndicate_engineer
-	//pointofreturn = /area/ruins/space/syndiederelict FIX BEFORE MERGE
+/obj/item/implant/teleporter/syndicate
+	pointofreturn = /area/ruins/syndicate/crew_quarters
 	usewhitelist = TRUE
 	retrievalmessage = "Agent retrieval complete."
 

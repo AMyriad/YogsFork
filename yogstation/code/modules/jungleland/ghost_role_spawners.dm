@@ -113,7 +113,7 @@
 	r_hand = null
 	suit = /obj/item/clothing/suit/armor/vest
 
-/obj/item/clothing/gloves/sec_maga/syndicate //syndicate jungle ghostrole version, only works on base
+/obj/item/clothing/gloves/sec_maga/syndicate //syndicate ghostrole version, only works on base
 	name = "combat gloves plus"
 	desc = "These tactical gloves are fireproof and shock resistant, and using nanochip technology it teaches you the powers of krav maga. Anti-theft measures prevent these gloves from being used outside the base."
 	icon_state = "combat"
@@ -125,7 +125,7 @@
 	max_heat_protection_temperature = GLOVES_MAX_TEMP_PROTECT
 	resistance_flags = NONE
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 60, RAD = 0, FIRE = 80, ACID = 50, ELECTRIC = 100)
-	enabled_areas = list(/area/ruins/lavaland/syndicate)
+	enabled_areas = list(/area/ruins/syndicate)
 
 /obj/effect/mob_spawn/human/greedydemon
 	name = "Red Sleeper"

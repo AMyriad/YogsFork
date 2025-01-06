@@ -4,54 +4,54 @@
 /obj/item/reagent_containers/glass/mortar,
 /obj/item/pestle,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "d" = (
 /obj/structure/table/wood,
 /obj/item/stack/sheet/leather,
 /obj/item/stack/medical/aloe,
 /obj/item/stack/medical/aloe,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "l" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/blood/random,
 /obj/item/reagent_containers/blood/random,
 /obj/item/reagent_containers/blood/random,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "n" = (
 /mob/living/simple_animal/pet/cat,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "q" = (
 /obj/item/reagent_containers/glass/bowl/mushroom_bowl,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "t" = (
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "w" = (
 /obj/item/storage/bag/medpouch,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "y" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "C" = (
 /obj/effect/decal/remains/human,
 /obj/item/clothing/head/witchwig,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "D" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/bowl/mushroom_bowl,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "J" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "M" = (
 /turf/template_noop,
 /area/template_noop)
@@ -61,22 +61,22 @@
 /obj/item/stack/medical/poultice,
 /obj/item/stack/medical/poultice,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "S" = (
 /obj/item/storage/bag/ore/holding,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "T" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/bottle{
 	name = "potion"
 	},
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "U" = (
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/wood/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 
 (1,1,1) = {"
 M

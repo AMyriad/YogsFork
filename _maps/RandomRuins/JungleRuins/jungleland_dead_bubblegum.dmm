@@ -8,33 +8,33 @@
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "d" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "g" = (
 /obj/structure/stone_tile/block{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "i" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/surrounding/cracked,
 /obj/structure/stone_tile/surrounding_tile,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "k" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "m" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/effect/decal/cleanable/blood/bubblegum,
@@ -45,13 +45,13 @@
 /obj/structure/stone_tile/surrounding/cracked,
 /obj/structure/stone_tile/center/cracked,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "p" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/center/cracked,
 /obj/structure/stone_tile/surrounding/cracked,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "r" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/cracked,
@@ -65,11 +65,11 @@
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "s" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "v" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/block/cracked,
@@ -77,79 +77,79 @@
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "z" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "D" = (
 /mob/living/simple_animal/hostile/megafauna/bubblegum,
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/surrounding,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "G" = (
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "H" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "I" = (
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "L" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "N" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Q" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "R" = (
 /obj/structure/stone_tile/block{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "S" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "T" = (
 /obj/structure/stone_tile/surrounding_tile{
 	dir = 4
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "X" = (
 /obj/structure/stone_tile/cracked{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Y" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plating/dirt/jungleland/deep_sand,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 a

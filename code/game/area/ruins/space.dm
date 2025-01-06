@@ -194,30 +194,6 @@
 		'sound/ambience/ambiatmos2.ogg'
 	)
 
-/area/ruins/space/listeningstation
-	name = "\improper Listening Post Central Hallway"
-	icon_state = ""
-
-/area/ruins/space/listeningstation_telecomms
-	name = "\improper Listening Post Telecommunications"
-	icon_state = ""
-
-/area/ruins/space/listeningstation_engineering
-	name = "\improper Listening Post Maintenance"
-	icon_state = ""
-
-/area/ruins/space/listeningstation_quarters
-	name = "\improper Listening Post Crew Quarters"
-	icon_state = ""
-
-/area/ruins/space/listeningstation_warehouse
-	name = "\improper Listening Post Warehouse"
-	icon_state = ""
-
-/area/ruins/space/listeningstation_dock
-	name = "\improper Listening Post Dock"
-	icon_state = ""
-
 /area/ruins/space/hilbert_research
 	name = "\improper Hilbert Research Facility"
 	icon_state = ""

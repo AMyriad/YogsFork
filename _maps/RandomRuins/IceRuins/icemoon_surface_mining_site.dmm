@@ -1,10 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/mineral/random/snow,
-/area/icemoon/surface/outdoors)
+/area/external/mining/icemoon/surface/explored)
 "b" = (
 /turf/closed/wall/mineral/wood/nonmetal,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "c" = (
 /obj/structure/closet/toolcloset,
 /obj/item/wrench,
@@ -14,7 +14,7 @@
 /obj/item/wirecutters,
 /obj/item/radio/off,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "e" = (
 /obj/item/clothing/suit/hooded/explorer,
 /obj/item/clothing/mask/gas/explorer,
@@ -25,51 +25,51 @@
 /obj/structure/closet,
 /obj/item/clothing/shoes/winterboots/ice_boots,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "f" = (
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "g" = (
 /obj/structure/fireplace,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "h" = (
 /obj/structure/flora/rock/icy,
 /turf/closed/mineral/random/snow,
-/area/icemoon/surface/outdoors)
+/area/external/mining/icemoon/surface/explored)
 "i" = (
 /turf/template_noop,
 /area/template_noop)
 "j" = (
 /obj/structure/sink/kitchen,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "k" = (
 /obj/structure/closet/crate/freezer,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "l" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "m" = (
 /obj/structure/barricade/wooden/crude/snow,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "n" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "o" = (
 /obj/item/reagent_containers/food/drinks/beer,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "p" = (
 /obj/machinery/light/broken{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "q" = (
 /obj/structure/table/wood,
 /obj/item/pen,
@@ -81,22 +81,22 @@
 	text = ""
 	},
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "r" = (
 /obj/item/chair/wood,
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/mob_spawn/human/miner/explorer,
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "s" = (
 /obj/effect/decal/cleanable/blood/trail_holder,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "u" = (
 /obj/structure/ladder,
 /turf/open/floor/wood,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 
 (1,1,1) = {"
 i

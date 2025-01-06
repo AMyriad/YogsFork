@@ -985,6 +985,7 @@
 #include "code\game\area\ruins\jungleland.dm"
 #include "code\game\area\ruins\lavaland.dm"
 #include "code\game\area\ruins\space.dm"
+#include "code\game\area\ruins\syndicate.dm"
 #include "code\game\area\station\ai_monitored.dm"
 #include "code\game\area\station\command.dm"
 #include "code\game\area\station\engineering.dm"

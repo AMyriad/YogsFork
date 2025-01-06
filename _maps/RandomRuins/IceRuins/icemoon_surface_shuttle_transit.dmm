@@ -1,14 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "g" = (
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "m" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "r" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/surface/outdoors)
+/area/external/mining/icemoon/surface/explored)
 "s" = (
 /obj/structure/chair{
 	dir = 1
@@ -17,10 +17,10 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "u" = (
 /turf/closed/wall/mineral/titanium,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "A" = (
 /obj/machinery/computer{
 	desc = "A console meant for calling and sending a transit ferry. It seems iced-over and non-functional.";
@@ -29,26 +29,26 @@
 	name = "Shuttle Transist Console"
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "I" = (
 /obj/item/chair,
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "S" = (
 /obj/machinery/door/airlock/shuttle,
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "T" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "V" = (
 /turf/template_noop,
 /area/template_noop)
 "W" = (
 /obj/structure/chair,
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "X" = (
 /obj/structure/chair,
 /obj/machinery/light/small{
@@ -56,16 +56,16 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "Y" = (
 /obj/structure/chair{
 	dir = 1
 	},
 /turf/open/floor/mineral/titanium/blue,
-/area/ruin/unpowered)
+/area/ruins/icemoon/unpowered/generic)
 "Z" = (
 /turf/open/floor/plating/snowed/smoothed,
-/area/icemoon/surface/outdoors)
+/area/external/mining/icemoon/surface/explored)
 
 (1,1,1) = {"
 V

@@ -684,7 +684,7 @@ GLOBAL_LIST_EMPTY(servant_golem_users)
 	mask = /obj/item/clothing/mask/gas/syndicate
 	id = /obj/item/card/id/syndicate/anyone
 	back = /obj/item/storage/backpack
-	implants = list(/obj/item/implant/weapons_auth, /obj/item/implant/teleporter/syndicate_icemoon) //stay in the FUCKING BASE you LITTLE SHIT
+	implants = list(/obj/item/implant/weapons_auth, /obj/item/implant/teleporter/syndicate) //stay in the FUCKING BASE you LITTLE SHIT
 
 /obj/effect/mob_spawn/human/syndicate/icemoon_syndicate/security
 	name = "Syndicate Outpost Security Officer"
@@ -1042,7 +1042,7 @@ GLOBAL_LIST_EMPTY(servant_golem_users)
 	r_pocket = /obj/item/kitchen/knife/combat/survival
 	implants = list(
 		/obj/item/implant/weapons_auth,
-		/obj/item/implant/teleporter/syndicate_engineer)
+		/obj/item/implant/teleporter/syndicate)
 	box = /obj/item/storage/box/survival/syndie
 
 /datum/outfit/syndicate_derelict_engi/post_equip(mob/living/carbon/human/H)

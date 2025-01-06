@@ -2,104 +2,104 @@
 "a" = (
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "c" = (
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "d" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "e" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "f" = (
 /obj/item/reagent_containers/autoinjector/medipen/survival,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "g" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "h" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "o" = (
 /obj/item/organ/ears/cat,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "u" = (
 /obj/item/organ/tail/cat,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "v" = (
 /obj/effect/mob_spawn/human/miner,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "z" = (
 /turf/template_noop,
 /area/template_noop)
 "A" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "C" = (
 /obj/item/reagent_containers/food/snacks/deadmouse,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "E" = (
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "K" = (
 /obj/item/toy/cattoy,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "L" = (
 /obj/structure/mineral_door/wood,
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "M" = (
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "N" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "O" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "P" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "Q" = (
 /obj/item/shovel,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "U" = (
 /obj/effect/mob_spawn/human/corpse/felinid,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "V" = (
 /obj/item/reagent_containers/autoinjector/medipen/survival,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "Y" = (
 /obj/effect/mob_spawn/human/corpse/felinid,
 /turf/open/floor/wood/lavaland,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 "Z" = (
 /turf/closed/wall/mineral/wood/nonmetal,
-/area/ruin/unpowered)
+/area/ruins/jungleland/unpowered/generic)
 
 (1,1,1) = {"
 z

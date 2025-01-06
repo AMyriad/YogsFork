@@ -5,75 +5,75 @@
 "b" = (
 /obj/structure/stone_tile/burnt,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "c" = (
 /obj/structure/stone_tile/surrounding/cracked{
 	dir = 1
 	},
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "h" = (
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "k" = (
 /obj/structure/stone_tile/surrounding,
 /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "l" = (
 /obj/structure/stone_tile/surrounding_tile/burnt,
 /obj/structure/stone_tile/center/burnt,
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "n" = (
 /obj/structure/stone_tile/slab/burnt,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "v" = (
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "w" = (
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "y" = (
 /obj/structure/stone_tile/surrounding_tile/burnt,
 /obj/structure/stone_tile/surrounding/cracked,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "A" = (
 /obj/structure/stone_tile/burnt{
 	dir = 1
 	},
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "D" = (
 /obj/structure/stone_tile/block/burnt{
 	dir = 8
 	},
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "H" = (
 /obj/structure/stone_tile/surrounding/cracked{
 	dir = 8
 	},
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "J" = (
 /obj/structure/stone_tile/block/cracked{
 	dir = 1
 	},
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "S" = (
 /obj/structure/stone_tile/surrounding/cracked,
 /obj/structure/stone_tile/center/burnt,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "W" = (
 /obj/structure/stone_tile/block/cracked,
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 a

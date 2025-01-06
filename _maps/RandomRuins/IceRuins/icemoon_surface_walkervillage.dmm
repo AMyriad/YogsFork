@@ -8,93 +8,93 @@
 /obj/item/reagent_containers/food/snacks/bait/master,
 /obj/item/reagent_containers/food/snacks/bait/master,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "aA" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "br" = (
 /turf/closed/mineral/random/snow,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "bw" = (
 /obj/structure/railing,
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "dr" = (
 /obj/structure/flora/grass/both,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "dv" = (
 /obj/structure/fence,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "dW" = (
 /obj/structure/flora/rock/icy,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "fC" = (
 /obj/effect/mob_spawn/human/corpse/damaged,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "fI" = (
 /obj/structure/flora/stump,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "fV" = (
 /obj/structure/fence/door{
 	dir = 4
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "ge" = (
 /obj/structure/flora/bush,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "gf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/firstaid/regular,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "hy" = (
 /obj/item/pickaxe/bonepickaxe,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "iX" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "jn" = (
 /obj/structure/window/reinforced/fulltile/ice,
 /obj/structure/barricade/wooden/crude/snow,
 /turf/open/floor/plating,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "jF" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "lB" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/bamboo,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "lP" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "mt" = (
 /obj/item/organ/liver,
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "mw" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "mJ" = (
 /obj/structure/table/wood,
 /obj/item/storage/belt/quiver/weaver/ashwalker{
@@ -112,60 +112,60 @@
 	pixel_y = -1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "mW" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "nJ" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "on" = (
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "oI" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/cotton,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "pe" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/shovel/spade/bone,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "ph" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/storage/bag/plants/portaseeder,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "pu" = (
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "pJ" = (
 /obj/structure/bonfire/dense,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "pK" = (
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "pV" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "pZ" = (
 /obj/structure/sign/warning/biohazard{
 	pixel_x = 30
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "qB" = (
 /obj/structure/fluff/fokoff_sign,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "qN" = (
 /obj/item/scalpel/bone,
 /obj/item/retractor/bone,
@@ -175,33 +175,33 @@
 /obj/item/circular_saw/bone,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "qW" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "rp" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "sq" = (
 /turf/open/floor/plating/asteroid/snow/ice/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "sO" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "tf" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "ui" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "uC" = (
 /obj/structure/table/wood,
 /obj/item/melee/spear/bonespear,
@@ -214,119 +214,119 @@
 	pixel_y = 3
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "uL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/head/helmet/skull,
 /obj/structure/table/wood,
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "uO" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "vf" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "vB" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "wo" = (
 /obj/structure/flora/rock/pile/icy,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "wZ" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/cultivator/rake,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "xI" = (
 /obj/structure/table/optable,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "xJ" = (
 /obj/item/storage/toolbox/syndicate,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "zN" = (
 /turf/closed/wall/rust,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Ai" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "AC" = (
 /obj/structure/chair/bronze{
 	desc = "An ornate throne made of bronze.";
 	name = "chieftain's throne"
 	},
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "AZ" = (
 /obj/item/flashlight/lantern,
 /obj/item/flashlight/lantern,
 /obj/item/flashlight/lantern,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Bi" = (
 /obj/structure/mineral_door/iron,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Bj" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "CX" = (
 /turf/open/water/safe,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "DO" = (
 /turf/open/floor/plating/ice/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Ek" = (
 /obj/structure/fence{
 	dir = 8
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Ep" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Fs" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/item/fireaxe/boneaxe,
 /obj/structure/table/wood,
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Gs" = (
 /obj/item/organ/lungs,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Ii" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/purple,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Ke" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Kh" = (
 /obj/effect/mob_spawn/human/icemoon_walker/chieftain,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Kz" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Mi" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "Np" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/knife/combat/bone{
@@ -342,70 +342,73 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Of" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Ou" = (
 /obj/structure/flora/ausbushes/fernybush,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "OK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Pz" = (
 /obj/effect/mob_spawn/human/icemoon_walker,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Qe" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "QT" = (
 /obj/structure/fence/corner,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "RX" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "Ta" = (
 /obj/structure/ore_box,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
+"Uk" = (
+/turf/closed/mineral/random/snow,
+/area/external/mining/icemoon/surface/explored)
 "UI" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "UQ" = (
 /obj/structure/railing/corner,
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "Wi" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "WJ" = (
 /obj/structure/railing/corner{
 	dir = 1
 	},
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "XB" = (
 /obj/structure/fence/corner{
 	dir = 4
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/ruin/powered/walker_village)
+/area/ruins/icemoon/powered/walker_village)
 "XD" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "Zb" = (
 /obj/effect/mob_spawn/human/corpse/damaged,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 
 (1,1,1) = {"
 mw
@@ -588,9 +591,9 @@ RX
 sO
 zN
 zN
-br
-br
-br
+Uk
+Uk
+Uk
 mw
 mw
 mw
@@ -615,16 +618,16 @@ rp
 br
 zN
 zN
+UI
 sO
-sO
 zN
 zN
 zN
 zN
 zN
 zN
-br
-br
+Uk
+Uk
 fI
 mw
 dr
@@ -636,7 +639,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 zN
 rp
@@ -668,7 +671,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 rp
 rp
@@ -700,7 +703,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 rp
 rp
@@ -732,7 +735,7 @@ mw
 mw
 mw
 fI
-br
+Uk
 zN
 hy
 rp
@@ -764,7 +767,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 rp
 Bj
@@ -796,7 +799,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 rp
 UQ
@@ -828,7 +831,7 @@ mw
 wo
 mw
 pV
-br
+Uk
 zN
 rp
 bw
@@ -860,7 +863,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 rp
 bw
@@ -892,7 +895,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 rp
 bw
@@ -924,7 +927,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 qW
 WJ
@@ -945,7 +948,7 @@ Bj
 Bj
 rp
 zN
-br
+Uk
 mw
 mw
 mw
@@ -977,7 +980,7 @@ AZ
 Bj
 rp
 zN
-br
+Uk
 mw
 mw
 Mi
@@ -1009,7 +1012,7 @@ xJ
 Bj
 rp
 zN
-br
+Uk
 mw
 mw
 mw
@@ -1041,7 +1044,7 @@ gf
 Bj
 rp
 zN
-br
+Uk
 mw
 mw
 mw
@@ -1073,7 +1076,7 @@ Of
 Bj
 rp
 zN
-br
+Uk
 mw
 mw
 mw
@@ -1105,7 +1108,7 @@ Bj
 Bj
 rp
 zN
-br
+Uk
 mw
 mw
 mw
@@ -1116,7 +1119,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 br
 mW
@@ -1137,7 +1140,7 @@ rp
 rp
 zN
 zN
-br
+Uk
 mw
 mw
 dr
@@ -1168,8 +1171,8 @@ rp
 br
 zN
 zN
-br
-br
+Uk
+Uk
 mw
 mw
 mw
@@ -1181,7 +1184,7 @@ mw
 mw
 mw
 mw
-br
+Uk
 zN
 zN
 zN
@@ -1199,8 +1202,8 @@ zN
 zN
 zN
 zN
-br
-br
+Uk
+Uk
 mw
 mw
 mw
@@ -1214,9 +1217,9 @@ mw
 mw
 mw
 mw
-br
-br
-br
+Uk
+Uk
+Uk
 zN
 zN
 zN
@@ -1227,9 +1230,9 @@ zN
 zN
 zN
 zN
-br
-br
-br
+Uk
+Uk
+Uk
 mw
 mw
 mw

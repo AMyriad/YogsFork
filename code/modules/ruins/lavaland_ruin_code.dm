@@ -143,7 +143,7 @@
 	id = /obj/item/card/id/syndicate/anyone
 	box = /obj/item/storage/box/survival/syndie
 	implants = list(
-	/obj/item/implant/teleporter/syndicate_lavaland, // Affects jungleland guys too, so change this when we de-shit the jungle base code
+	/obj/item/implant/teleporter/syndicate,
 	/obj/item/implant/weapons_auth)
 
 /datum/outfit/lavaland_syndicate/post_equip(mob/living/carbon/human/H)
@@ -186,7 +186,7 @@
 	back = /obj/item/storage/backpack
 	backpack_contents = null
 	implants = list(
-	/obj/item/implant/teleporter/syndicate_listening_post,
+	/obj/item/implant/teleporter/syndicate,
 	/obj/item/implant/weapons_auth)
 
 /datum/outfit/lavaland_syndicate/comms/lieutenant
@@ -200,7 +200,7 @@
 		/obj/item/gun/ballistic/revolver/ultrasecure=1
 		)
 	implants = list(
-	/obj/item/implant/teleporter/syndicate_listening_post,
+	/obj/item/implant/teleporter/syndicate,
 	/obj/item/implant/weapons_auth)
 
 /obj/item/clothing/mask/chameleon/gps/Initialize(mapload)

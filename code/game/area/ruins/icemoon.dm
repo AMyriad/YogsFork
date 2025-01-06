@@ -11,53 +11,6 @@
 	name = "\improper Unidentified Location"
 
 
-//Syndicate Icemoon
-
-/area/ruins/icemoon/syndicate_icemoon
-	name = "Syndicate Research Outpost"
-	icon_state = "dk_yellow"
-
-/area/ruins/icemoon/syndicate_icemoon/security
-	name = "Syndicate Research Outpost Security"
-
-/area/ruins/icemoon/syndicate_icemoon/research
-	name = "Syndicate Research Outpost Research Wing"
-
-/area/ruins/icemoon/syndicate_icemoon/hallway
-	name = "Syndicate Research Outpost Central Hallway"
-
-/area/ruins/icemoon/syndicate_icemoon/command
-	name = "Syndicate Research Outpost Command"
-
-/area/ruins/icemoon/syndicate_icemoon/engine
-	name = "Syndicate Research Outpost Engineering"
-
-/area/ruins/icemoon/syndicate_icemoon/reactor
-	name = "Syndicate Research Outpost Power Station"
-
-/area/ruins/icemoon/syndicate_icemoon/dorms
-	name = "Syndicate Research Outpost Dormitories"
-
-/area/ruins/icemoon/syndicate_icemoon/canteen
-	name = "Syndicate Research Outpost Canteen"
-
-/area/ruins/icemoon/syndicate_icemoon/medical
-	name = "Syndicate Research Outpost Medical Bay"
-
-/area/ruins/icemoon/syndicate_icemoon/warehouse
-	name = "Syndicate Research Outpost Warehouse"
-
-/area/ruins/icemoon/syndicate_icemoon/shed
-	name = "Syndicate Research Outpost Shed"
-
-/area/ruins/icemoon/syndicate_icemoon/xenobio
-	name = "Syndicate Research Outpost Xenobiology"
-	xenobiology_compatible = TRUE
-
-/area/ruins/icemoon/syndicate_icemoon/maintenance
-	name = "Syndicate Research Outpost Maintenance"
-
-
 //-- Powered --//
 
 /area/ruins/icemoon/powered
@@ -90,7 +43,7 @@
 	icon_state = "dk_yellow"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
-/area/ruins/icemoon/powered/icemoon_hermit
+/area/ruins/icemoon/powered/hermit
 	name = "\improper Unidentified Structure"
 	ambience_index = NONE // Not creepy
 	sound_environment = SOUND_AREA_WOODFLOOR

@@ -2,72 +2,72 @@
 "c" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "d" = (
 /obj/item/stack/sheet/bone,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "f" = (
 /obj/structure/flora/grass/jungle/b,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "h" = (
 /obj/structure/flytrap,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "i" = (
 /obj/structure/flora/grass/jungle/b,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "k" = (
 /mob/living/simple_animal/hostile/carp/jungle,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "m" = (
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "n" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "o" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "p" = (
 /obj/structure/flora/junglebush,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "q" = (
 /obj/structure/flora/rock/pile,
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "r" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "s" = (
 /mob/living/simple_animal/hostile/carp/jungle,
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "t" = (
 /obj/structure/chair/sofa/bamboo/left,
 /obj/item/grown/sunflower{
 	desc = "Where did they go?"
 	},
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "u" = (
 /obj/structure/fluff/grave,
 /obj/item/reagent_containers/food/snacks/grown/harebell{
 	desc = "It's as purple as a carp..."
 	},
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "w" = (
 /obj/item/stack/sheet/sinew,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "z" = (
 /obj/structure/chair/sofa/bamboo/right,
 /mob/living/simple_animal/hostile/carp/ranged/chaos/jungle{
@@ -75,92 +75,92 @@
 	name = "bound carp"
 	},
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "B" = (
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "C" = (
 /obj/item/stack/sheet/animalhide/carpdragon,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "D" = (
 /obj/structure/flora/tree/jungle,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "E" = (
 /obj/structure/flora/rock/jungle,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "G" = (
 /obj/item/stack/sheet/animalhide/carpdragon,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "H" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "I" = (
 /obj/structure/flora/rock/jungle,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "J" = (
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "K" = (
 /obj/item/stack/sheet/sinew,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "L" = (
 /turf/open/floor/wood/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "N" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "O" = (
 /obj/structure/flora/stump,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "P" = (
 /mob/living/simple_animal/hostile/carp/jungle,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Q" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "R" = (
 /obj/item/toy/plush/carpplushie/dehy_carp,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "S" = (
 /obj/structure/flora/tree/jungle/small,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "T" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "U" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/water/smooth/toxic_pit,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "V" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "X" = (
 /obj/structure/flytrap,
 /turf/open/floor/plating/dirt/jungleland/jungle,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Y" = (
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 "Z" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/plating/dirt/jungleland/shallow_mud,
-/area/template_noop)
+/area/external/mining/jungleland/explored)
 
 (1,1,1) = {"
 Y

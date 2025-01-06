@@ -87,10 +87,6 @@
 	name = "\improper AI Satellite Maintenance"
 	icon_state = "ai_maint"
 
-/area/station/ai_monitored/ai/sat_teleporter
-	name = "\improper AI Satellite Teleporter"
-	icon_state = "ai_tele"
-
 /area/station/ai_monitored/ai/sat_walkway
 	name = "\improper AI Satellite Walkway"
 	icon_state = "ai_walkway"

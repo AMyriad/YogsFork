@@ -2,68 +2,68 @@
 "aw" = (
 /mob/living/simple_animal/hostile/abomination/altform4,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "bd" = (
 /obj/machinery/clonepod/experimental,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "be" = (
 /obj/machinery/clonepod,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "eK" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "fP" = (
 /mob/living/simple_animal/hostile/asteroid/ambusher,
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "fW" = (
 /turf/template_noop,
 /area/template_noop)
 "gc" = (
 /mob/living/carbon/human/moja,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "iW" = (
 /obj/structure/flora/tree/dead,
 /turf/open/floor/grass/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "kT" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "ln" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "lN" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/grass/snow,
-/area/icemoon/underground/explored)
+/area/ruins/icemoon/powered/alien_lab)
 "mS" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /obj/structure/bed/abductor,
 /mob/living/carbon/human/moja,
 /obj/item/organ/heart/gland/heals,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "nJ" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "rg" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/grass/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "rY" = (
 /obj/machinery/light/small,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "uW" = (
 /obj/effect/decal/cleanable/blood/gibs/body{
 	dir = 1
@@ -75,228 +75,228 @@
 	dir = 1
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "vi" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "wa" = (
 /turf/open/floor/grass/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "wD" = (
 /mob/living/simple_animal/hostile/abomination/altform2,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "wQ" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "xi" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "xI" = (
 /mob/living/simple_animal/hostile/abomination,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "yj" = (
 /mob/living/carbon/human/moja,
 /turf/open/lava/plasma,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "yO" = (
 /mob/living/simple_animal/hostile/asteroid/wolf,
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Af" = (
 /obj/structure/table/abductor,
 /obj/item/abductor/baton,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "AM" = (
 /mob/living/simple_animal/hostile/skeleton/plasmaminer/jackhammer,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "AR" = (
 /obj/machinery/light/broken,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "AZ" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Be" = (
 /mob/living/simple_animal/hostile/asteroid/wolf,
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Bk" = (
 /mob/living/simple_animal/hostile/asteroid/ambusher,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "CZ" = (
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /mob/living/simple_animal/hostile/asteroid/wolf,
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Dd" = (
 /obj/machinery/light/broken{
 	dir = 8
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Di" = (
 /mob/living/simple_animal/hostile/abomination/altform1,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "DD" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "DP" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "GC" = (
 /turf/open/lava/plasma,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "GI" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "GL" = (
 /mob/living/simple_animal/hostile/abomination/super,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Hl" = (
 /obj/machinery/light/small{
 	dir = 4
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Jn" = (
 /turf/closed/indestructible/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Ls" = (
 /obj/machinery/mindmachine_pod,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "LQ" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Mw" = (
 /obj/machinery/abductor/experiment,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Mz" = (
 /obj/item/card/id{
 	access = list("ruins_science")
 	},
 /mob/living/simple_animal/hostile/abomination/super,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Nf" = (
 /obj/machinery/light/broken{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/drip,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Nv" = (
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Nw" = (
 /obj/machinery/dna_scannernew,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "NG" = (
 /obj/machinery/door/airlock/abductor{
 	req_access = list("ruins_science")
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "NN" = (
 /obj/machinery/abductor/pad,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Qd" = (
 /obj/structure/table/abductor,
 /obj/item/organ/heart/ghetto,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "QC" = (
 /obj/structure/flora/tree/dead/jungle,
 /turf/open/floor/grass/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "TX" = (
 /obj/machinery/clonepod{
 	icon_state = "pod_g"
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Uc" = (
 /obj/machinery/door/airlock/abductor,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Uw" = (
 /obj/machinery/computer/prototype_cloning,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "UM" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Vn" = (
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Ww" = (
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "WT" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Xj" = (
 /mob/living/simple_animal/hostile/asteroid/ambusher,
 /obj/item/reagent_containers/food/snacks/meat/slab/human,
 /obj/effect/decal/remains/human,
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Xn" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "XE" = (
 /obj/effect/decal/remains/human,
 /obj/machinery/light/small,
 /turf/open/indestructible/grass/snow,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Ya" = (
 /obj/machinery/abductor/console,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "Yw" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "YY" = (
 /obj/machinery/light/broken{
 	dir = 1
 	},
 /turf/open/floor/plating/abductor,
-/area/ruin/powered/alien_lab)
+/area/ruins/icemoon/powered/alien_lab)
 "YZ" = (
 /obj/structure/door_assembly/door_assembly_abductor,
 /turf/open/floor/grass/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 
 (1,1,1) = {"
 fW

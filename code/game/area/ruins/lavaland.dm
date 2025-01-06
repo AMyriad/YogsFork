@@ -10,50 +10,6 @@
 /area/ruins/lavaland/generic
 	name = "\improper Unidentified Location"
 
-/area/ruins/lavaland/syndicate
-	name = "Syndicate Lavaland"
-	icon_state = "syndie-control"
-	ambience_index = AMBIENCE_DANGER
-	ambient_buzz = 'sound/ambience/magma.ogg'
-	ambient_buzz_vol = 10
-	hidden = FALSE
-
-/area/ruins/lavaland/syndicate/engineering
-	name = "Syndicate Lavaland Engineering"
-
-/area/ruins/lavaland/syndicate/medbay
-	name = "Syndicate Lavaland Medbay"
-
-/area/ruins/lavaland/syndicate/arrivals
-	name = "Syndicate Lavaland Arrivals"
-
-/area/ruins/lavaland/syndicate/bar
-	name = "Syndicate Lavaland Bar"
-
-/area/ruins/lavaland/syndicate/main
-	name = "Syndicate Lavaland Primary Hallway"
-
-/area/ruins/lavaland/syndicate/cargo
-	name = "Syndicate Lavaland Cargo Bay"
-
-/area/ruins/lavaland/syndicate/chemistry
-	name = "Syndicate Lavaland Chemistry"
-
-/area/ruins/lavaland/syndicate/virology
-	name = "Syndicate Lavaland Virology"
-
-/area/ruins/lavaland/syndicate/testlab
-	name = "Syndicate Lavaland Experimentation Lab"
-
-/area/ruins/lavaland/syndicate/dormitories
-	name = "Syndicate Lavaland Dormitories"
-
-/area/ruins/lavaland/syndicate/telecomms
-	name = "Syndicate Lavaland Telecommunications"
-
-/area/ruins/lavaland/syndicate/vault
-	name = "Syndicate Lavaland Vault"
-
 
 //-- Powered --//
 

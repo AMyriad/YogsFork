@@ -4,7 +4,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ab" = (
 /obj/structure/rack,
 /obj/machinery/light/small{
@@ -16,53 +16,50 @@
 /obj/item/grown/log/tree,
 /obj/item/grown/log/tree,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ac" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "ad" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ae" = (
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "af" = (
 /obj/machinery/smartfridge/food,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ah" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ai" = (
 /obj/machinery/griddle,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ak" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "am" = (
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
-"an" = (
-/turf/closed/wall/mineral/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ao" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ap" = (
 /obj/structure/flora/tree/dead,
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "aq" = (
 /obj/item/bedsheet,
 /obj/structure/bed,
@@ -70,26 +67,26 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "at" = (
 /turf/open/floor/carpet,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "av" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/mirror{
 	pixel_y = 56
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ax" = (
 /obj/structure/barricade/wooden/crude/snow,
 /obj/structure/window/reinforced/fulltile/ice,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ay" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -98,7 +95,7 @@
 	pixel_y = 30
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aA" = (
 /obj/structure/fireplace{
 	fuel_added = 1000;
@@ -106,7 +103,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aC" = (
 /obj/structure/rack,
 /obj/item/grown/log/tree,
@@ -115,106 +112,102 @@
 /obj/item/grown/log/tree,
 /obj/item/grown/log/tree,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aD" = (
 /obj/structure/dresser,
 /turf/open/floor/wood{
 	icon_state = "wood-broken6"
 	},
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aE" = (
 /obj/machinery/vending/clothing{
 	onstation = 0
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aF" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/rollingpin,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aG" = (
 /obj/machinery/processor,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
-"aH" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aI" = (
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/icemoon/underground/explored)
+/turf/closed/wall/mineral/wood,
+/area/ruins/icemoon/powered/hermit)
 "aK" = (
 /obj/structure/curtain,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aL" = (
 /turf/template_noop,
 /area/template_noop)
 "aM" = (
 /obj/structure/mineral_door/wood,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aO" = (
 /obj/machinery/vending/hydroseeds{
 	onstation = 0
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aP" = (
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/external/mining/icemoon/surface/explored)
 "aQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
 /obj/machinery/reagentgrinder/kitchen,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aR" = (
 /obj/machinery/chem_dispenser/mutagensaltpeter,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/secure_closet/freezer/kitchen/maintenance{
 	name = "refrigerator"
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aT" = (
 /turf/open/floor/plating/asteroid/snow/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/surface/explored)
 "aU" = (
 /obj/machinery/light/small{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aV" = (
 /obj/machinery/biogenerator,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aW" = (
 /obj/structure/table/wood,
 /obj/item/kitchen/knife/combat/bone,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aX" = (
 /obj/machinery/oven,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "aY" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "ey" = (
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "eQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -223,35 +216,38 @@
 /obj/item/tank/internals/oxygen,
 /obj/item/storage/firstaid/medical,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "fA" = (
 /obj/machinery/hydroponics/soil,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "hW" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/storage/bag/plants/portaseeder,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "mH" = (
 /obj/machinery/door/airlock/wood,
 /obj/structure/fans/tiny,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "um" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
+"uP" = (
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/ruins/icemoon/powered/hermit)
 "wi" = (
 /obj/machinery/hydroponics/soil,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "Fx" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -260,7 +256,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "Mi" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -269,7 +265,7 @@
 	onstation = 0
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "Ot" = (
 /obj/structure/table/wood,
 /obj/machinery/light/small{
@@ -280,18 +276,22 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/cafeteria,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
+"QO" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/ruins/icemoon/powered/hermit)
 "SZ" = (
 /obj/structure/closet/crate/wooden,
 /obj/item/reagent_containers/glass/woodmug,
 /obj/item/reagent_containers/glass/woodmug,
 /obj/item/reagent_containers/glass/woodmug,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 "Tp" = (
 /obj/machinery/door/airlock/wood,
 /turf/open/floor/wood,
-/area/ruin/powered/icemoon_hermit)
+/area/ruins/icemoon/powered/hermit)
 
 (1,1,1) = {"
 aL
@@ -359,14 +359,14 @@ aT
 Fx
 wi
 wi
-an
+aI
 aM
-an
-an
-an
-an
-an
-an
+aI
+aI
+aI
+aI
+aI
+aI
 aT
 aT
 aT
@@ -377,16 +377,16 @@ aL
 aL
 aT
 ey
-aP
-aP
-an
-aP
-aP
-an
+uP
+uP
+aI
+uP
+uP
+aI
 aE
 aU
 am
-an
+aI
 aT
 aT
 aT
@@ -397,16 +397,16 @@ aL
 aL
 aT
 fA
-aP
+uP
 um
-an
+aI
 ab
 aC
-an
+aI
 aD
 aw
 aq
-an
+aI
 aT
 aT
 aT
@@ -417,16 +417,16 @@ aL
 aL
 aT
 fA
-aP
+uP
 hW
-an
-an
-an
-an
-an
+aI
+aI
+aI
+aI
+aI
 aK
-an
-an
+aI
+aI
 aT
 aT
 aT
@@ -437,16 +437,16 @@ aL
 aL
 aT
 fA
-aP
+uP
 um
-an
+aI
 at
 ak
 ao
 am
 aY
 aU
-an
+aI
 aT
 aT
 aT
@@ -455,39 +455,39 @@ aL
 "}
 (9,1,1) = {"
 aL
-an
-an
+aI
+aI
 mH
-an
-an
+aI
+aI
 aA
 ak
 am
 am
 am
 am
-an
 aI
-aI
+aP
+aP
 aT
 aT
 aL
 "}
 (10,1,1) = {"
 aL
-an
+aI
 aO
-aP
-aP
-an
+uP
+uP
+aI
 at
 ak
 aY
 am
-aH
+QO
 am
 ah
-aI
+aP
 aT
 aT
 aT
@@ -495,59 +495,59 @@ aL
 "}
 (11,1,1) = {"
 aL
-an
+aI
 Mi
-aP
-aP
+uP
+uP
 Tp
 am
 am
 am
 am
-aH
+QO
 eQ
-an
 aI
-aI
-aI
+aP
+aP
+aP
 aT
 aL
 "}
 (12,1,1) = {"
 aL
-an
+aI
 aV
-aP
-aP
-an
+uP
+uP
+aI
 Ot
 aF
 aW
 am
 av
-an
-an
 aI
 aI
+aP
+aP
 aT
 aT
 aL
 "}
 (13,1,1) = {"
 aL
-an
+aI
 aR
-aP
+uP
 SZ
-an
+aI
 ai
 ae
 ad
 am
-aH
-an
-aT
+QO
 aI
+aT
+aP
 aT
 aT
 aT
@@ -555,17 +555,17 @@ aL
 "}
 (14,1,1) = {"
 aL
-an
-an
-an
-an
-an
+aI
+aI
+aI
+aI
+aI
 aX
 ad
 ae
 am
 aG
-an
+aI
 aT
 aT
 aT
@@ -579,13 +579,13 @@ aT
 aT
 aT
 aT
-an
+aI
 aS
 ae
 ae
-aH
+QO
 aQ
-an
+aI
 aT
 aT
 aT
@@ -599,13 +599,13 @@ aT
 aT
 aT
 aT
-an
+aI
 ay
 ae
 ae
 aa
 af
-an
+aI
 aT
 aT
 ac
@@ -619,13 +619,13 @@ aT
 aT
 ac
 aT
-an
-an
+aI
+aI
 ax
 ax
-an
-an
-an
+aI
+aI
+aI
 aT
 aT
 aT

@@ -7,17 +7,17 @@
 	icon = 'icons/turf/shuttleold.dmi';
 	icon_state = "block"
 	},
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "c" = (
 /obj/machinery/shower{
 	pixel_y = 16
 	},
 /obj/structure/curtain,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "d" = (
 /turf/closed/mineral/random/snow,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "e" = (
 /obj/structure/mirror{
 	pixel_y = 28
@@ -26,31 +26,31 @@
 	pixel_y = 20
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "f" = (
 /obj/item/bikehorn/rubberducky,
 /obj/structure/table,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "g" = (
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "h" = (
 /obj/item/soap,
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "i" = (
 /obj/machinery/door/airlock/freezer{
 	name = "bath house airlock"
 	},
 /turf/open/floor/plasteel/white,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "j" = (
 /turf/closed/wall/mineral/wood,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "k" = (
 /turf/open/floor/wood,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "l" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/snacks/spaghetti/pastatomato{
@@ -59,19 +59,19 @@
 	tastes = list("nostalgia" = 1)
 	},
 /turf/open/floor/wood,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "m" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 "n" = (
 /turf/open/floor/plating/asteroid/snow/ice/icemoon,
-/area/icemoon/underground/explored)
+/area/external/mining/icemoon/underground/explored)
 "o" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
 /turf/open/floor/wood,
-/area/ruin/powered/bathhouse)
+/area/ruins/icemoon/powered/bathhouse)
 
 (1,1,1) = {"
 b
